@@ -47,3 +47,6 @@ Primary contribution must be runtime, serving, resource management, scheduling, 
 This page is intentionally selective; machine-readable coverage lives in [`data/papers.json`](../data/papers.json).
 
 - **FogROS2-LS** — ICRA 2024 — Routes 3/4 — location-independent latency-sensitive cloud/fog service selection for ROS 2; [paper](https://doi.org/10.1109/ICRA57147.2024.10610759). Priority: A+.
+
+## Industrial multimodal infrastructure
+- [HeyGen HELIOS](https://www.heygen.com/research/avatar-v-infrastructure) — 5,000+ GPU multi-cloud unified control plane, two-stage QoS-aware scheduling, resource governance, observability and declarative heterogeneous video-pipeline engine — **A+**. Transferable serving/infra anchor; not Physical-AI-specific.

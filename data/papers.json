@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 06:01 CST",
-  "count": 99,
+  "updated": "2026-08-21 06:57 CST",
+  "count": 100,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1425,6 +1425,22 @@
       "paper": "",
       "repo": "",
       "note": "Author publication page/CV disclosure only; no public preprint/repo/technical results verified yet."
+    },
+    {
+      "id": "techreport:heygen-helios-avatarv-2026",
+      "title": "HELIOS: Unified GPU Infrastructure for Training, Inference, and Data at Scale",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        7,
+        11
+      ],
+      "year": 2026,
+      "venue": "HeyGen Research technical report",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://www.heygen.com/research/avatar-v-infrastructure",
+      "note": "Production-scale multimodal/video GPU infrastructure: 5,000+ GPUs across 5+ cloud providers and 15+ cells; two-stage QoS-aware scheduling, unified observability, and declarative reconciliation for heterogeneous video pipelines. Distinct from the HELIOS VLA-serving EuroSys 2027 submission watch."
     }
   ]
 }

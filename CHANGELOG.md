@@ -35,3 +35,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Public radar now contains **98 verified works / 74 CORE_SYS**.
 
 - 2026-08-21 06:01 CST — Added HELIOS heterogeneous VLA serving submission to WATCH_ONLY; fresh scan found no new promotion.
+
+## 2026-08-21 06:57 CST
+- Added **HeyGen HELIOS** as `CORE_SYS / A+` under heterogeneous/composite multimodal infrastructure.
+- Added explicit HELIOS name-collision note versus the EuroSys 2027 VLA-serving submission watch item.
+- Public dataset now contains 100 verified works.

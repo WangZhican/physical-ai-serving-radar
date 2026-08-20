@@ -2,7 +2,7 @@
 
 > SYS-first research radar for **Physical AI + Multimodal Efficient Serving**: runtimes, schedulers, resource managers, edge/cloud deployment, state/cache infrastructure, fleet serving, evaluation infrastructure, world-model serving, and transferable multimodal systems.
 
-**Last updated:** 2026-08-21 03:01 CST · **Curated state:** 97 verified works, including 73 `CORE_SYS` entries.
+**Last updated:** 2026-08-21 06:57 CST · **Curated state:** 100 verified works, including 75 `CORE_SYS` entries.
 
 Pure pruning, quantization, token reduction, or action compression does **not** enter `CORE_SYS` unless it contributes a real runtime/resource-management/deployment abstraction.
 
@@ -43,6 +43,7 @@ See [`taxonomy/RESEARCH_MAP.md`](taxonomy/RESEARCH_MAP.md). Adjacent MLLM/Omni s
 | DeepInsight | 2026/arXiv | 9 | cross-stack Physical-AI evaluation runtime | — | [paper](https://arxiv.org/abs/2606.17574) | A+ |
 | RoboArena | 2025/CoRL Oral | 9 | distributed real-robot evaluation network | — | [paper](https://arxiv.org/abs/2506.18123) | A+ |
 | ros2probe | 2026/arXiv | 8,9 | non-intrusive ROS2 observability | [repo](https://github.com/csi-dgist/ros2probe) | [paper](https://arxiv.org/abs/2606.10746) | A+ |
+| HeyGen HELIOS | 2026/Tech Report | 6,7,11 | 5,000+ GPU multi-cloud QoS scheduling and declarative multimodal/video pipeline infrastructure | — | [report](https://www.heygen.com/research/avatar-v-infrastructure) | A+ |
 
 ## Browse
 

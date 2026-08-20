@@ -60,3 +60,10 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Fresh 24h/7d SYS-first scan: no new promotion.
 - **WATCH +1:** HELIOS: Heterogeneous Lightweight VLA Model Serving System — author/CV lists EuroSys 2027 submission; no public preprint/repo/details yet, so metadata-only watch.
 - Continued planner/procedural-cache, fleet SLO/admission, and persistent world-state runtime omission recovery.
+
+### 2026-08-21 06:57 CST
+- **CORE_SYS +1:** [HeyGen HELIOS](https://www.heygen.com/research/avatar-v-infrastructure) — production-scale unified GPU infrastructure for multimodal/video AI.
+- Scale/evidence: 5,000+ GPUs across 5+ clouds and 15+ cells; two-stage QoS-aware scheduling improved GPU utilization by 15% and reduced non-productive GPU time by ~20%; declarative reconciliation engine supports 200K+ concurrent tasks, >95% GPU utilization and <30s failure detection.
+- Fresh 24h/7d Physical-AI serving scan produced no additional direct promotion; this item came from 30d industrial-infrastructure omission recovery.
+- Name collision guard: HeyGen HELIOS is distinct from the HELIOS heterogeneous lightweight VLA-serving EuroSys 2027 submission watch item.
+- Public state: 100 verified works / 75 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH.
