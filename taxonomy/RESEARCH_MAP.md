@@ -6,10 +6,10 @@ The radar uses ten primary Physical-AI systems routes. A paper may appear in mul
 Multi-tenant robot-policy serving, shared GPU pools, action-aware batching, admission/fairness and execution-aware scheduling. **Anchors:** Kairos, ROSA, Armory.
 
 ## 2. Unified Physical-AI Runtime
-Common runtime contracts for VLA/WAM/policy execution, portable kernels, memory management, action-head plugins and robot-facing protocols. **Anchors:** PhyAI, Embodied.cpp, vla.cpp.
+Common runtime contracts for VLA/WAM/policy execution, portable kernels, memory management, action-head plugins and robot-facing protocols. **Anchors:** PhyAI, Embodied.cpp, vla.cpp, **LeRobot** (generalized remote `PolicyServer`/`RobotClient`).
 
 ## 3. Real-Time / Streaming / Control-loop Serving
-Reaction latency, deadlines, async perception/inference/execution, executor scheduling, accelerator arbitration and physical-state-aware timing. **Anchors:** CROS-RT, PAAM, ROSGM, LaME, F1Tenth mixed-criticality scheduling.
+Reaction latency, deadlines, async perception/inference/execution, executor scheduling, accelerator arbitration and physical-state-aware timing. **Anchors:** **LeRobot async inference**, CROS-RT, PAAM, ROSGM, LaME, F1Tenth mixed-criticality scheduling.
 
 ## 4. Edge-Cloud / Disaggregated Physical AI
 Device/edge/cloud partitioning, fog/cloud provisioning, server selection, network adaptation and tail-latency reliability. The recovered systems lineage is **FogROS 2 → FogROS2-Config → FogROS2-PLR**, complementing modern VLA-specific RoboECC, RAPID and EcoVLA.
