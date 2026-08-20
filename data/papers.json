@@ -1,0 +1,1338 @@
+{
+  "updated": "2026-08-20T17:58:00+08:00",
+  "count": 93,
+  "papers": [
+    {
+      "id": "arxiv:2605.11381",
+      "title": "Kairos: A Scalable Serving System for Physical AI",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        3
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2605.11381"
+    },
+    {
+      "id": "arxiv:2607.01088",
+      "title": "ROSA: A Robotics Foundation Model Serving System for Robot Factories",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.01088"
+    },
+    {
+      "id": "arxiv:2608.03682",
+      "title": "PhyAI: Real-Time Physical AI at the Edge, Scalable Rollouts in the Cloud",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        6,
+        7,
+        8,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.03682"
+    },
+    {
+      "id": "arxiv:2606.12688",
+      "title": "M*: A Modular, Extensible, Serving System for Multimodal Models",
+      "class": "CORE_SYS",
+      "route": [
+        7,
+        10,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.12688"
+    },
+    {
+      "id": "arxiv:2602.18397",
+      "title": "How Fast Can I Run My VLA? Demystifying VLA Inference Performance with VLA-Perf",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2602.18397"
+    },
+    {
+      "id": "arxiv:2607.02501",
+      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        6,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.02501"
+    },
+    {
+      "id": "arxiv:2606.08094",
+      "title": "vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.08094"
+    },
+    {
+      "id": "arxiv:2604.24447",
+      "title": "Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "ICML 2026",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2604.24447"
+    },
+    {
+      "id": "arxiv:2602.02204",
+      "title": "vLLM-Omni: Fully Disaggregated Serving for Any-to-Any Multimodal Models",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        7,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2602.02204"
+    },
+    {
+      "id": "arxiv:2602.13476",
+      "title": "AsyncVLA: An Asynchronous VLA for Fast and Robust Navigation on the Edge",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        4
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2602.13476"
+    },
+    {
+      "id": "arxiv:2608.00569",
+      "title": "Latency-Tolerant Cloud-Edge Collaborative Vision-Language-Action Models via Emergent Representational Specialization",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        4
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.00569"
+    },
+    {
+      "id": "arxiv:2607.06370",
+      "title": "Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement",
+      "class": "ALG_INSPIRATION",
+      "route": [
+        5
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.06370"
+    },
+    {
+      "id": "doi:10.1145/3767295.3769389",
+      "title": "Efficient Multimodal Serving via Module Multiplexing",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        11
+      ],
+      "year": 2026,
+      "venue": "EuroSys 2026",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://doi.org/10.1145/3767295.3769389"
+    },
+    {
+      "id": "mlsys2026:f068c65585985c25c17f221390774ec7",
+      "title": "TriInfer: Hybrid Disaggregated Scheduling for Multimodal Large Language Model Serving",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        11
+      ],
+      "year": 2026,
+      "venue": "MLSys 2026",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": ""
+    },
+    {
+      "id": "arxiv:2603.12118",
+      "title": "Cornserve: A Distributed Serving System for Any-to-Any Multimodal Models",
+      "class": "CORE_SYS",
+      "route": [
+        7,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.12118"
+    },
+    {
+      "id": "arxiv:2606.31093",
+      "title": "Omni-Flow: A Unified Workflow Orchestration and Distributed KV Cache Sharing Framework for Multimodal Inference",
+      "class": "CORE_SYS",
+      "route": [
+        5,
+        7,
+        10,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.31093"
+    },
+    {
+      "id": "arxiv:2606.22983",
+      "title": "LiveServe: Interaction-Aware Serving for Real-Time Omni-Modal LLMs",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        5,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.22983"
+    },
+    {
+      "id": "arxiv:2603.12707",
+      "title": "Cost-Efficient Multimodal LLM Inference via Cross-Tier GPU Heterogeneity",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        6,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.12707"
+    },
+    {
+      "id": "neurips2025:720e7ebc49c84252abc0754dddf80976",
+      "title": "SpaceServe: Spatial Multiplexing of Complementary Encoders and Decoders for Multimodal LLMs",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        11
+      ],
+      "year": 2025,
+      "venue": "NeurIPS 2025",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": ""
+    },
+    {
+      "id": "arxiv:2502.00937",
+      "title": "ModServe: Modality- and Stage-Aware Resource Disaggregation for Scalable Multimodal Model Serving",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        6,
+        8,
+        11
+      ],
+      "year": 2025,
+      "venue": "SoCC 2025",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2502.00937"
+    },
+    {
+      "id": "arxiv:2607.14695",
+      "title": "Reflex: Real-Time VLA Control through Streaming Inference",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5
+      ],
+      "year": 2026,
+      "venue": "ICML 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.14695"
+    },
+    {
+      "id": "arxiv:2602.00780",
+      "title": "EcoVLA: Environment-Aware Adaptive Pruning with Interleaved Inference Orchestration for Vision-Language-Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3
+      ],
+      "year": 2026,
+      "venue": "ICML 2026 Spotlight",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2602.00780"
+    },
+    {
+      "id": "arxiv:2510.26742",
+      "title": "Running VLAs at Real-time Speed",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        2,
+        3
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2510.26742"
+    },
+    {
+      "id": "arxiv:2512.01031",
+      "title": "VLASH: Real-Time VLAs via Future-State-Aware Asynchronous Inference",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        4
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2512.01031"
+    },
+    {
+      "id": "arxiv:2603.19199",
+      "title": "FASTER: Rethinking Real-Time Flow VLAs",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.19199"
+    },
+    {
+      "id": "arxiv:2603.13966",
+      "title": "vla-eval: A Unified Evaluation Harness for Vision-Language-Action Models",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.13966"
+    },
+    {
+      "id": "arxiv:2603.28565",
+      "title": "StreamingVLA: Streaming Vision-Language-Action Model with Action Flow Matching and Adaptive Early Observation",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.28565"
+    },
+    {
+      "id": "arxiv:2608.12932",
+      "title": "FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.12932"
+    },
+    {
+      "id": "arxiv:2601.11590",
+      "title": "EPD-Serve: A Flexible Multimodal EPD Disaggregation Inference Serving System On Ascend",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        6,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2601.11590"
+    },
+    {
+      "id": "arxiv:2603.05800",
+      "title": "StreamWise: Serving Multi-Modal Generation in Real-Time at Scale",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6,
+        7,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.05800"
+    },
+    {
+      "id": "arxiv:2601.20655",
+      "title": "OnePiece: A Large-Scale Distributed Inference System with RDMA for Complex AI-Generated Content (AIGC) Workflows",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        7,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2601.20655"
+    },
+    {
+      "id": "arxiv:2603.26498",
+      "title": "TCM-Serve: Modality-aware Scheduling for Multimodal Large Language Model Inference",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.26498"
+    },
+    {
+      "id": "arxiv:2608.01785",
+      "title": "HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.01785"
+    },
+    {
+      "id": "arxiv:2507.10069",
+      "title": "ElasticMM: Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        6,
+        11
+      ],
+      "year": 2025,
+      "venue": "NeurIPS 2025 Oral",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2507.10069"
+    },
+    {
+      "id": "arxiv:2509.24381",
+      "title": "RServe: Overlapping Encoding and Prefill for Efficient LMM Inference",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        4,
+        11
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2509.24381"
+    },
+    {
+      "id": "arxiv:2512.14098",
+      "title": "Cornfigurator: Automated Planning for Any-to-Any Multimodal Model Serving",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        7,
+        11
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2512.14098"
+    },
+    {
+      "id": "arxiv:2608.15502",
+      "title": "EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        6
+      ],
+      "year": 2026,
+      "venue": "APPT 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.15502"
+    },
+    {
+      "id": "arxiv:2608.14586",
+      "title": "Efficient Block-Layer Parallel Inference for Vision-Language-Action on Hybrid Architectures",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        4,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.14586"
+    },
+    {
+      "id": "arxiv:2605.11678",
+      "title": "OOM-Free Alpamayo via CPU-GPU Memory Swapping for Vision-Language-Action Models",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2605.11678"
+    },
+    {
+      "id": "arxiv:2607.12659",
+      "title": "Jetson-PI: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        2,
+        3,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.12659"
+    },
+    {
+      "id": "arxiv:2608.01880",
+      "title": "World Action Models in Real Time: An Empirical Study of Smooth Execution via Asynchronous Deployment",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.01880"
+    },
+    {
+      "id": "arxiv:2606.16533",
+      "title": "Kairos: A Regret-Aware Native World-Action Model Stack for Physical AI",
+      "class": "ALG_INSPIRATION",
+      "route": [
+        6,
+        10
+      ],
+      "year": 2026,
+      "venue": "Technical Report",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.16533"
+    },
+    {
+      "id": "arxiv:2605.06222",
+      "title": "When to Trust Imagination: Adaptive Action Execution for World Action Models",
+      "class": "ALG_INSPIRATION",
+      "route": [
+        3,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2605.06222"
+    },
+    {
+      "id": "arxiv:2407.04292",
+      "title": "DaDu-Corki: Algorithm-Architecture Co-Design for Embodied AI-powered Robotic Manipulation",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6
+      ],
+      "year": 2025,
+      "venue": "ISCA 2025",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2407.04292"
+    },
+    {
+      "id": "arxiv:2608.15636",
+      "title": "Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.15636"
+    },
+    {
+      "id": "arxiv:2608.16885",
+      "title": "tau_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "class": "ALG_INSPIRATION",
+      "route": [
+        7,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.16885"
+    },
+    {
+      "id": "arxiv:2603.26360",
+      "title": "Realtime-VLA V2: Learning to Run VLAs Fast, Smooth, and Accurate",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        9
+      ],
+      "year": 2026,
+      "venue": "CVPR 2026 Workshop",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.26360"
+    },
+    {
+      "id": "arxiv:2512.24673",
+      "title": "VLA-RAIL: A Real-Time Asynchronous Inference Linker for VLA Models and Robots",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        9
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2512.24673"
+    },
+    {
+      "id": "arxiv:2608.00337",
+      "title": "Action Chunk Scheduling for Batched Robot Policy Serving",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        3
+      ],
+      "year": 2026,
+      "venue": "RSS 2026 Lab-to-Production Workshop",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.00337"
+    },
+    {
+      "id": "arxiv:2604.24039",
+      "title": "AgenticCache: Cache-Driven Asynchronous Planning for Embodied AI Agents",
+      "class": "CORE_SYS",
+      "route": [
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "MLSys 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2604.24039"
+    },
+    {
+      "id": "arxiv:2607.21686",
+      "title": "Persistent Computational State: A Session-Centric Runtime for Generative World Models",
+      "class": "CORE_SYS",
+      "route": [
+        5,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.21686"
+    },
+    {
+      "id": "arxiv:2607.10389",
+      "title": "Stateful Worlds, Stateless Elasticity: Exact-State Serving for Interactive World Models",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.10389"
+    },
+    {
+      "id": "arxiv:2601.11250",
+      "title": "VLAgents: A Policy Server for Efficient VLA Inference",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        4,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2601.11250"
+    },
+    {
+      "id": "arxiv:2608.09892",
+      "title": "XPolicyLab: A Unified Standard and Open Ecosystem for Robot Policy Evaluation and Deployment",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.09892"
+    },
+    {
+      "id": "arxiv:2603.07949",
+      "title": "RAPID: Redundancy-Aware and Compatibility-Optimal Edge-Cloud Partitioned Inference for Diverse VLA models",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        4
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.07949"
+    },
+    {
+      "id": "arxiv:2603.20711",
+      "title": "RoboECC: Multi-Factor-Aware Edge-Cloud Collaborative Deployment for VLA Models",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        6
+      ],
+      "year": 2026,
+      "venue": "IJCNN 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.20711"
+    },
+    {
+      "id": "arxiv:2606.17574",
+      "title": "DeepInsight: A Unified Evaluation Infrastructure Across the Physical AI Stack",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.17574"
+    },
+    {
+      "id": "arxiv:2608.16556",
+      "title": "DeepInsight II: One Trace from Benchmark to Robot",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.16556"
+    },
+    {
+      "id": "arxiv:2506.18123",
+      "title": "RoboArena: Distributed Real-World Evaluation of Generalist Robot Policies",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2025,
+      "venue": "CoRL 2025 Oral",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2506.18123"
+    },
+    {
+      "id": "arxiv:2503.24278",
+      "title": "AutoEval: Autonomous Evaluation of Generalist Robot Manipulation Policies in the Real World",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2025,
+      "venue": "CoRL 2025",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2503.24278"
+    },
+    {
+      "id": "arxiv:2607.04434",
+      "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.04434"
+    },
+    {
+      "id": "arxiv:2607.29169",
+      "title": "ActFovea: Runtime Safeguarding for VLA Policies via Spatiotemporal Visual-Action Consistency",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.29169"
+    },
+    {
+      "id": "arxiv:2607.26789",
+      "title": "CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.26789"
+    },
+    {
+      "id": "arxiv:2605.22446",
+      "title": "Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2605.22446"
+    },
+    {
+      "id": "arxiv:2604.02965",
+      "title": "Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2604.02965"
+    },
+    {
+      "id": "arxiv:2606.09416",
+      "title": "Harness Engineering for Physical AI: Robot Middleware Is the Harness Layer",
+      "class": "WATCH_ONLY",
+      "route": [
+        2,
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "Middleware 2026 under review",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.09416"
+    },
+    {
+      "id": "arxiv:2606.03724",
+      "title": "Same Weights, Different Robot: A Deployment Safety View of VLA Policies",
+      "class": "WATCH_ONLY",
+      "route": [
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.03724"
+    },
+    {
+      "id": "arxiv:2606.10746",
+      "title": "ros2probe: Non-intrusive, Kernel-selective Observability for Robot Operating System 2 Middleware",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        8,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.10746"
+    },
+    {
+      "id": "arxiv:2608.02242",
+      "title": "When Discovery Becomes a Storm: A ROS 2 Discovery Model for Wireless Robotic Networks",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.02242"
+    },
+    {
+      "id": "arxiv:2508.11366",
+      "title": "Optimizing ROS 2 Communication for Wireless Robotic Systems",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        8
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2508.11366"
+    },
+    {
+      "id": "arxiv:2508.10413",
+      "title": "Probabilistic Latency Analysis of the Data Distribution Service in ROS 2",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        8
+      ],
+      "year": 2025,
+      "venue": "arXiv / IEEE TVT under review",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2508.10413"
+    },
+    {
+      "id": "arxiv:2509.03381",
+      "title": "Dependency Chain Analysis of ROS 2 DDS QoS Policies: From Lifecycle Tutorial to Static Verification",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        9
+      ],
+      "year": 2025,
+      "venue": "arXiv / IEEE IoT-J minor revision",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2509.03381"
+    },
+    {
+      "id": "arxiv:2607.01304",
+      "title": "The Three Dimensions of ROS 2 Middleware",
+      "class": "WATCH_ONLY",
+      "route": [
+        2,
+        3,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv survey/roadmap",
+      "priority": "B+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.01304"
+    },
+    {
+      "id": "arxiv:2601.21011",
+      "title": "Meta-ROS: A Next-Generation Middleware Architecture for Adaptive and Scalable Robotic Systems",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv / submitted to ACM TAAS",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2601.21011"
+    },
+    {
+      "id": "doi:10.1109/RTAS65571.2025.00029",
+      "title": "CROS-RT: Cross-Layer Priority Scheduling for Predictable Inter-Process Communication in ROS 2",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        8
+      ],
+      "year": 2025,
+      "venue": "RTAS 2025 Outstanding Paper / Best Paper",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://doi.org/10.1109/RTAS65571.2025.00029"
+    },
+    {
+      "id": "arxiv:2404.06452",
+      "title": "PAAM: A Framework for Coordinated and Priority-Driven Accelerator Management in ROS 2",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        6
+      ],
+      "year": 2024,
+      "venue": "RTAS 2024 Best Paper + Best Student Paper",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2404.06452"
+    },
+    {
+      "id": "doi:10.1109/RTAS65571.2025.00027",
+      "title": "Reconciling ROS 2 with Classical Real-Time Scheduling of Periodic Tasks",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        8
+      ],
+      "year": 2025,
+      "venue": "RTAS 2025",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://doi.org/10.1109/RTAS65571.2025.00027"
+    },
+    {
+      "id": "doi:10.1109/RTAS65571.2025.00030",
+      "title": "Physics-Informed Mixed-Criticality Scheduling for F1Tenth Cars with Preemptable ROS 2 Executors",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        7,
+        8
+      ],
+      "year": 2025,
+      "venue": "RTAS 2025",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://doi.org/10.1109/RTAS65571.2025.00030"
+    },
+    {
+      "id": "title:theory-guided-adaptive-scheduling-for-ros2-rtns2025",
+      "title": "Theory-Guided Adaptive Scheduling for ROS 2",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        8
+      ],
+      "year": 2025,
+      "venue": "RTNS 2025",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": ""
+    },
+    {
+      "id": "doi:10.1109/RTAS61025.2024.00025",
+      "title": "End-To-End Timing Analysis and Optimization of Multi-Executor ROS 2 Systems",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        8
+      ],
+      "year": 2024,
+      "venue": "RTAS 2024",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://doi.org/10.1109/RTAS61025.2024.00025"
+    },
+    {
+      "id": "arxiv:2408.08440",
+      "title": "Timing Analysis and Priority-driven Enhancements of ROS 2 Multi-threaded Executors",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        8
+      ],
+      "year": 2023,
+      "venue": "RTAS 2023",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2408.08440"
+    },
+    {
+      "id": "doi:10.1109/RTAS52030.2021.00028",
+      "title": "PiCAS: New Design of Priority-Driven Chain-Aware Scheduling for ROS2",
+      "class": "CORE_SYS",
+      "route": [
+        3
+      ],
+      "year": 2021,
+      "venue": "RTAS 2021",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://doi.org/10.1109/RTAS52030.2021.00028"
+    },
+    {
+      "id": "doi:10.1109/RTAS52030.2021.00029",
+      "title": "Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        8
+      ],
+      "year": 2021,
+      "venue": "RTAS 2021",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://doi.org/10.1109/RTAS52030.2021.00029"
+    },
+    {
+      "id": "arxiv:2512.16926",
+      "title": "Fixed-Priority and EDF Schedules for ROS2 Graphs on Uniprocessor",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        8
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2512.16926"
+    },
+    {
+      "id": "arxiv:2201.00393",
+      "title": "ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2",
+      "class": "CORE_SYS",
+      "route": [
+        8,
+        9
+      ],
+      "year": 2022,
+      "venue": "IEEE RA-L",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2201.00393"
+    },
+    {
+      "id": "arxiv:2406.05221",
+      "title": "GCAPS: GPU Context-Aware Preemptive Priority-based Scheduling for Real-Time Tasks",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6,
+        8
+      ],
+      "year": 2024,
+      "venue": "ECRTS 2024",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2406.05221"
+    },
+    {
+      "id": "arxiv:2204.10208",
+      "title": "Message Flow Analysis with Complex Causal Links for Distributed ROS 2 Systems",
+      "class": "CORE_SYS",
+      "route": [
+        8,
+        9
+      ],
+      "year": 2023,
+      "venue": "Robotics and Autonomous Systems 161:104361",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2204.10208"
+    },
+    {
+      "id": "doi:10.1109/EUC57774.2022.00010",
+      "title": "CARET: Chain-Aware ROS 2 Evaluation Tool",
+      "class": "CORE_SYS",
+      "route": [
+        8,
+        9
+      ],
+      "year": 2022,
+      "venue": "IEEE EUC 2022",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://doi.org/10.1109/EUC57774.2022.00010"
+    },
+    {
+      "id": "doi:10.1109/RTAS58335.2023.00015",
+      "title": "ROSGM: A Real-Time GPU Management Framework with Plug-In Policies for ROS 2",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6
+      ],
+      "year": 2023,
+      "venue": "RTAS 2023",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://doi.org/10.1109/RTAS58335.2023.00015"
+    },
+    {
+      "id": "doi:10.1109/DS-RT58998.2023.00010",
+      "title": "TILDE: Topic-Tracking Infrastructure for Dynamic Message Latency and Deadline Evaluator for ROS 2 Application",
+      "class": "CORE_SYS",
+      "route": [
+        8,
+        9
+      ],
+      "year": 2023,
+      "venue": "DS-RT 2023",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://doi.org/10.1109/DS-RT58998.2023.00010"
+    },
+    {
+      "id": "arxiv:2205.09778",
+      "title": "FogROS 2: An Adaptive and Extensible Platform for Cloud and Fog Robotics Using ROS 2",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        6
+      ],
+      "year": 2023,
+      "venue": "ICRA 2023",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2205.09778"
+    },
+    {
+      "id": "arxiv:2311.05600",
+      "title": "FogROS2-Config: A Toolkit for Choosing Server Configurations for Cloud Robotics",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        6,
+        8
+      ],
+      "year": 2024,
+      "venue": "ICRA 2024",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2311.05600"
+    },
+    {
+      "id": "arxiv:2410.05562",
+      "title": "FogROS2-PLR: Probabilistic Latency-Reliability For Cloud Robotics",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        4
+      ],
+      "year": 2025,
+      "venue": "ICRA 2025",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2410.05562"
+    }
+  ]
+}
