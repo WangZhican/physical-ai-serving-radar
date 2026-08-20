@@ -1,27 +1,23 @@
 # Latest Radar Update
 
-**Scan time:** 2026-08-20 17:58 CST
+**Scan time:** 2026-08-20 19:01 CST
 
 ## Fresh coverage
 - **24h:** scanned; no new work crossed the high-value promotion threshold.
-- **7d:** scanned; no additional fresh promotion beyond already tracked 2026-08 work.
-- **30d / omission recovery:** active. Historical systems lineage and adjacent infrastructure continue to be backfilled when they expose durable serving/runtime abstractions.
+- **7d:** scanned; no additional fresh promotion.
+- **30d / omission recovery:** active; FogROS cloud/fog robotics lineage audit continued.
 
-## Promoted this update — `CORE_SYS +5`
-1. **ROSGM** — RTAS 2023 — pluggable real-time GPU-management policies for ROS 2.
-2. **TILDE** — DS-RT 2023 — dynamic ROS 2 message-latency/deadline evaluation infrastructure.
-3. **FogROS 2** — ICRA 2023 — adaptive cloud/fog ROS 2 deployment substrate.
-4. **FogROS2-Config** — ICRA 2024 — cloud-server configuration benchmarking and cost/latency selection.
-5. **FogROS2-PLR** — ICRA 2025 — probabilistic latency/reliability management using replicated cloud/network paths.
+## Promoted this update — 
+**FogROS2-SGC** — IROS 2023 — secure global ROS 2 connectivity across physical locations, networks, and DDS implementations using location-independent identifiers and a global data plane. The official project reports 19x higher performance than rosbridge for 8 KB images and demonstrates a distributed fleet-learning setup across 3600 km. Official code is public.
 
-The key route-level change is a clearer edge/cloud systems lineage: **provision/deploy → select server/configuration → manage tail-latency/reliability**, alongside modern VLA-specific partitioning and offload systems.
+This strengthens Route 1/4 around **multi-robot global connectivity + edge/cloud deployment substrate**, complementing FogROS2, FogROS2-Config and FogROS2-PLR.
 
 ## Current public radar state
-- 93 verified works
-- 70 `CORE_SYS`
-- 16 `SYS_ALG_BOUNDARY`
-- 4 `ALG_INSPIRATION`
-- 3 `WATCH_ONLY`
+- 94 verified works
+- 71 
+- 16 
+- 4 
+- 3 
 
 ## Next frontier
-Legal full-text resolution for ROSGM/TILDE; FogROS2-SGC/FogROS2-LS audit; NVIDIA `ros2_benchmark` paper-vs-artifact classification; then Zenoh/DDS state continuity, fleet scheduling, policy-server batching, planner cache, and persistent world-model state migration.
+FogROS2-LS and NVIDIA  audit; legal ROSGM/TILDE full-text resolution; then Zenoh/DDS state continuity, fleet scheduling, policy-server batching, planner cache, and persistent world-model state migration.

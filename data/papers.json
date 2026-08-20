@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-20T17:58:00+08:00",
-  "count": 93,
+  "updated": "2026-08-20 19:01 CST",
+  "count": 94,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1333,6 +1333,23 @@
       "priority": "A+",
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2410.05562"
+    },
+    {
+      "id": "arxiv:2306.17157",
+      "title": "FogROS2-SGC: A ROS2 Cloud Robotics Platform for Secure Global Connectivity",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        4,
+        9
+      ],
+      "year": 2023,
+      "venue": "IROS 2023",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2306.17157",
+      "project_url": "https://sites.google.com/view/fogros2-sgc",
+      "repo_url": "https://github.com/data-capsule/fogros2-sgc"
     }
   ]
 }

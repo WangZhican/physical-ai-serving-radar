@@ -8,3 +8,7 @@
 - Recorded fresh 24h/7d scans as complete with no additional high-value promotion; 30d/historical omission recovery remains active.
 
 The public repository intentionally excludes paper PDFs, private machine paths, logs, credentials, and other server-specific state.
+
+## 2026-08-20 19:01 CST
+- Added FogROS2-SGC (IROS 2023) to CORE_SYS after official project/code verification.
+- Continued FogROS systems-lineage omission recovery; no new 24h/7d promotion.
