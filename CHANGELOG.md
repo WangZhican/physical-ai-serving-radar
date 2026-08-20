@@ -12,3 +12,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 ## 2026-08-20 19:01 CST
 - Added FogROS2-SGC (IROS 2023) to CORE_SYS after official project/code verification.
 - Continued FogROS systems-lineage omission recovery; no new 24h/7d promotion.
+
+- 2026-08-20 20:00 CST: Added FogROS2-LS to CORE_SYS; audited ros2_benchmark as infrastructure artifact; fresh 24h/7d scan complete.

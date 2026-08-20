@@ -21,3 +21,9 @@ This strengthens Route 1/4 around **multi-robot global connectivity + edge/cloud
 
 ## Next frontier
 FogROS2-LS and NVIDIA  audit; legal ROSGM/TILDE full-text resolution; then Zenoh/DDS state continuity, fleet scheduling, policy-server batching, planner cache, and persistent world-model state migration.
+
+## 2026-08-20 20:00 CST
+
+- Added **FogROS2-LS (ICRA 2024)** to CORE_SYS: location-independent, latency-bound cloud/fog service selection for ROS 2 robotics.
+- Audited NVIDIA **ros2_benchmark** as a mature evaluation infrastructure artifact rather than a paper promotion; it measures unmodified ROS 2 graphs for throughput, latency and heterogeneous compute utilization and is used in nightly multi-platform testing.
+- Fresh 24h/7d scan completed with no additional high-value promotion.
