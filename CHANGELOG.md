@@ -19,3 +19,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Fixed a public machine-readable sync lag by adding the already-classified FogROS2-LS record to `data/papers.json`.
 - Added the DistInSys/ISCC 2025 Best Paper on ROS 2 Zenoh-vs-VPN edge-cloud networking as `WATCH_ONLY`: useful deployment evidence, but not a new runtime mechanism.
 - Fresh 24h/7d SYS-first scans completed with no new promotion; Zenoh/DDS state-continuity omission recovery remains active.
+
+- 2026-08-21 00:57 CST — Hourly systems scan: no classification changes; revalidated Armory end-to-end fleet policy-serving artifact and continued Zenoh/DDS timing/state-continuity coverage.

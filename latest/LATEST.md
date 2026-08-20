@@ -28,3 +28,5 @@ Hourly scan completed: 24h/7d Physical-AI serving, fleet scheduling, Zenoh/DDS c
 
 
 Last scanned: 2026-08-20 23:58 CST — 24h/7d fresh + targeted 30d systems scan; no new promotion; PCS/WorldMove deduplicated and revalidated.
+
+Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan; no new promotion. Armory/action-chunk fleet serving deeply revalidated against arXiv, Georgia Tech RL2 project page and official code; already canonical CORE_SYS A+, so no duplicate added. Zenoh/DDS enforcement scan continued.
