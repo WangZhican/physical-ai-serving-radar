@@ -14,3 +14,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Continued FogROS systems-lineage omission recovery; no new 24h/7d promotion.
 
 - 2026-08-20 20:00 CST: Added FogROS2-LS to CORE_SYS; audited ros2_benchmark as infrastructure artifact; fresh 24h/7d scan complete.
+
+## 2026-08-20 21:03 CST
+- Fixed a public machine-readable sync lag by adding the already-classified FogROS2-LS record to `data/papers.json`.
+- Added the DistInSys/ISCC 2025 Best Paper on ROS 2 Zenoh-vs-VPN edge-cloud networking as `WATCH_ONLY`: useful deployment evidence, but not a new runtime mechanism.
+- Fresh 24h/7d SYS-first scans completed with no new promotion; Zenoh/DDS state-continuity omission recovery remains active.

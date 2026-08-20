@@ -1,29 +1,23 @@
 # Latest Radar Update
 
-**Scan time:** 2026-08-20 19:01 CST
+**Scan time:** 2026-08-20 21:03 CST
 
 ## Fresh coverage
-- **24h:** scanned; no new work crossed the high-value promotion threshold.
+- **24h:** scanned; no new Physical-AI/Multimodal SYS work crossed the promotion threshold.
 - **7d:** scanned; no additional fresh promotion.
-- **30d / omission recovery:** active; FogROS cloud/fog robotics lineage audit continued.
+- **30d / omission recovery:** active; Zenoh/DDS edge-cloud and intermittent-connectivity deployment evidence audited.
 
-## Promoted this update — 
-**FogROS2-SGC** — IROS 2023 — secure global ROS 2 connectivity across physical locations, networks, and DDS implementations using location-independent identifiers and a global data plane. The official project reports 19x higher performance than rosbridge for 8 KB images and demonstrates a distributed fleet-learning setup across 3600 km. Official code is public.
-
-This strengthens Route 1/4 around **multi-robot global connectivity + edge/cloud deployment substrate**, complementing FogROS2, FogROS2-Config and FogROS2-PLR.
+## This update
+- Added **FogROS2-LS (ICRA 2024)** to the machine-readable public dataset, fixing a public-radar sync lag from the prior hour.
+- Added **IoRT ROS 2 Applications: Evaluating Zenoh and VPN for Robotic Networking in the Edge-Cloud Continuum** (IEEE ISCC / DistInSys 2025 Best Paper) as `WATCH_ONLY`. It provides real-world latency, throughput, and fault-tolerance evidence for Zenoh in ROS 2 edge-cloud robotics, but evaluates existing middleware rather than introducing a new serving/runtime mechanism.
+- The open-access version is available through Zenodo; the private PDF archive is not mirrored to this public repository.
 
 ## Current public radar state
-- 94 verified works
-- 71 
-- 16 
-- 4 
-- 3 
+- **96 verified works**
+- **72 CORE_SYS**
+- **16 SYS_ALG_BOUNDARY**
+- **4 ALG_INSPIRATION**
+- **4 WATCH_ONLY**
 
 ## Next frontier
-FogROS2-LS and NVIDIA  audit; legal ROSGM/TILDE full-text resolution; then Zenoh/DDS state continuity, fleet scheduling, policy-server batching, planner cache, and persistent world-model state migration.
-
-## 2026-08-20 20:00 CST
-
-- Added **FogROS2-LS (ICRA 2024)** to CORE_SYS: location-independent, latency-bound cloud/fog service selection for ROS 2 robotics.
-- Audited NVIDIA **ros2_benchmark** as a mature evaluation infrastructure artifact rather than a paper promotion; it measures unmodified ROS 2 graphs for throughput, latency and heterogeneous compute utilization and is used in nightly multi-platform testing.
-- Fresh 24h/7d scan completed with no additional high-value promotion.
+Legal ROSGM/TILDE full-text resolution; then Zenoh/DDS intermittent-connectivity state continuity and timing/isolation enforcement, Armory-style fleet scheduling, policy-server batching, planner/procedural cache, persistent world-model state migration, and systems venue/group census.
