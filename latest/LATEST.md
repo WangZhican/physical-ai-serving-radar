@@ -1,6 +1,6 @@
 # Latest Radar Update
 
-**Scan time:** 2026-08-21 03:01 CST
+**Scan time:** 2026-08-21 04:00 CST
 
 ## Fresh coverage
 - **24h:** scanned; no new Physical-AI/Multimodal SYS work crossed the promotion threshold.
@@ -41,3 +41,10 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - System role: end-to-end robot-learning infrastructure with generalized remote async inference via gRPC `PolicyServer`/`RobotClient`, action queues, overlapping action-chunk aggregation and configurable queue thresholds; this directly decouples robot execution from policy inference.
 - Adoption: official `huggingface/lerobot` repository checked through GitHub API at **26,783 stars / 5,431 forks**.
 - Fresh 24h/7d search itself produced no newer promotion; 30d/historical omission recovery remains active across policy-server protocols, planner cache and persistent world-state serving.
+
+### 2026-08-21 04:00 CST
+- No new CORE_SYS/SYS_ALG/WATCH promotion after fresh 24h/7d scans.
+- Completed policy-server/runtime protocol census across OpenPI, NVIDIA Isaac-GR00T + WholeBodyControl, TRI VLA Foundry, GalaxeaVLA, and openpi-flash.
+- Verified deployment-contract diversity: WebSocket action-chunk serving, ZMQ REQ/REP with ping/reset/timeout semantics, gRPC policy serving, ROS2 client/server deployment, and QUIC-first low-latency serving with combined planner+action mode.
+- No audited system adds Armory-level multi-robot admission/fairness/deadline/SLO-aware scheduling, so these artifacts remain ecosystem evidence rather than new paper promotions.
+- Next: multi-client policy admission/fairness/SLO search; vLLM-Omni OpenPI session semantics; planner/procedural cache; persistent world-state migration; Zenoh/DDS enforcement.
