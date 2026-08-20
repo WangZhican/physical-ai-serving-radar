@@ -1,6 +1,6 @@
 # Latest Radar Update
 
-**Scan time:** 2026-08-20 21:03 CST
+**Scan time:** 2026-08-21 03:01 CST
 
 ## Fresh coverage
 - **24h:** scanned; no new Physical-AI/Multimodal SYS work crossed the promotion threshold.
@@ -13,8 +13,8 @@
 - The open-access version is available through Zenodo; the private PDF archive is not mirrored to this public repository.
 
 ## Current public radar state
-- **96 verified works**
-- **72 CORE_SYS**
+- **97 verified works**
+- **73 CORE_SYS**
 - **16 SYS_ALG_BOUNDARY**
 - **4 ALG_INSPIRATION**
 - **4 WATCH_ONLY**
@@ -35,3 +35,9 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Fresh 24h/7d SYS-first scan completed; no new paper promotion.
 - Targeted coverage: fleet/action-chunk scheduling, policy-server protocols and batching, Physical-AI runtime, Omni serving, persistent world-model state.
 - Ecosystem leads under reverse census: NVIDIA GR00T WholeBodyControl policy-server pipeline and TRI VLA Foundry gRPC deployment stack.
+
+### 2026-08-21 03:01 CST
+- **CORE_SYS +1: [LeRobot](https://arxiv.org/abs/2602.22818), ICLR 2026 Poster.** Recovered through policy-server/runtime reverse census rather than VLA-serving keywords.
+- System role: end-to-end robot-learning infrastructure with generalized remote async inference via gRPC `PolicyServer`/`RobotClient`, action queues, overlapping action-chunk aggregation and configurable queue thresholds; this directly decouples robot execution from policy inference.
+- Adoption: official `huggingface/lerobot` repository checked through GitHub API at **26,783 stars / 5,431 forks**.
+- Fresh 24h/7d search itself produced no newer promotion; 30d/historical omission recovery remains active across policy-server protocols, planner cache and persistent world-state serving.

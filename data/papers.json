@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-20 21:03 CST",
-  "count": 96,
+  "updated": "2026-08-21 03:01 CST",
+  "count": 97,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1373,6 +1373,18 @@
       "status": "VERIFIED",
       "paper_url": "https://doi.org/10.1109/ISCC65549.2025.11326186",
       "project_url": "https://zenodo.org/records/15297492"
+    },
+    {
+      "id": "arxiv:2602.22818",
+      "title": "LeRobot: An Open-Source Library for End-to-End Robot Learning",
+      "class": "CORE_SYS",
+      "route": [2, 3, 9],
+      "year": 2026,
+      "venue": "ICLR 2026 Poster",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2602.22818",
+      "repo_url": "https://github.com/huggingface/lerobot"
     }
   ]
 }

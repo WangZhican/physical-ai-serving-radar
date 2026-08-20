@@ -2,7 +2,7 @@
 
 > SYS-first research radar for **Physical AI + Multimodal Efficient Serving**: runtimes, schedulers, resource managers, edge/cloud deployment, state/cache infrastructure, fleet serving, evaluation infrastructure, world-model serving, and transferable multimodal systems.
 
-**Last updated:** 2026-08-20 17:58 CST · **Curated state:** 93 verified works, including 70 `CORE_SYS` entries.
+**Last updated:** 2026-08-21 03:01 CST · **Curated state:** 97 verified works, including 73 `CORE_SYS` entries.
 
 Pure pruning, quantization, token reduction, or action compression does **not** enter `CORE_SYS` unless it contributes a real runtime/resource-management/deployment abstraction.
 
@@ -35,6 +35,7 @@ See [`taxonomy/RESEARCH_MAP.md`](taxonomy/RESEARCH_MAP.md). Adjacent MLLM/Omni s
 | Embodied.cpp | 2026/arXiv | 2,6 | portable embodied inference runtime | — | [paper](https://arxiv.org/abs/2607.02501) | S |
 | vla.cpp | 2026/arXiv | 2,6 | portable C++ VLA runtime | — | [paper](https://arxiv.org/abs/2606.08094) | S |
 | Armory | 2026/arXiv | 1,3 | control-aware batched robot-policy serving | — | [paper](https://arxiv.org/abs/2608.00337) | A+ |
+| LeRobot | 2026/ICLR | 2,3,9 | generalized remote async robot-policy inference; gRPC PolicyServer/RobotClient with action queues and overlap aggregation | [repo](https://github.com/huggingface/lerobot) | [paper](https://arxiv.org/abs/2602.22818) | A+ |
 | PAAM | 2024/RTAS | 3,6 | shared GPU/TPU accelerator server | [repo](https://github.com/rtenlab/reference-system-paam) | [paper](https://arxiv.org/abs/2404.06452) | A+ |
 | FogROS 2 | 2023/ICRA | 4,6 | cloud/fog ROS2 deployment substrate | [repo](https://github.com/BerkeleyAutomation/FogROS2) | [paper](https://arxiv.org/abs/2205.09778) | A+ |
 | FogROS2-Config | 2024/ICRA | 4,6,8 | cloud server/config selection | — | [paper](https://arxiv.org/abs/2311.05600) | A |

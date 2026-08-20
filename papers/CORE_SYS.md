@@ -12,6 +12,7 @@ Primary contribution must be runtime, serving, resource management, scheduling, 
 - [vla.cpp](https://arxiv.org/abs/2606.08094) — portable C++ VLA runtime — **S**
 - [Characterizing VLA Models across XPUs](https://arxiv.org/abs/2604.24447) — heterogeneous phase characterization — **S**
 - [Armory](https://arxiv.org/abs/2608.00337) — control-aware batched robot-policy serving — **A+**
+- [LeRobot](https://arxiv.org/abs/2602.22818) — ICLR 2026 end-to-end robot-learning infrastructure; generalized gRPC PolicyServer/RobotClient async inference with action-queue/overlap semantics — **A+** · [repo](https://github.com/huggingface/lerobot)
 
 ## Edge / cloud / heterogeneous deployment
 - [RoboECC](https://arxiv.org/abs/2603.20711) — model/hardware/network-aware edge-cloud partitioning — **A+**

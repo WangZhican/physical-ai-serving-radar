@@ -21,3 +21,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Fresh 24h/7d SYS-first scans completed with no new promotion; Zenoh/DDS state-continuity omission recovery remains active.
 
 - 2026-08-21 00:57 CST — Hourly systems scan: no classification changes; revalidated Armory end-to-end fleet policy-serving artifact and continued Zenoh/DDS timing/state-continuity coverage.
+
+## 2026-08-21 03:01 CST
+- Added **LeRobot** (ICLR 2026, arXiv:2602.22818) to `CORE_SYS` after policy-server/runtime omission recovery.
+- Systems role: generalized remote asynchronous inference via gRPC `PolicyServer`/`RobotClient`, action queues, overlapping action-chunk aggregation and configurable refresh thresholds; this is deployment/runtime infrastructure rather than a VLA algorithm-speedup entry.
+- Official repository adoption checked at **26,783 stars / 5,431 forks**.
+- Public radar now contains **97 verified works / 73 CORE_SYS**; no PDFs or private server state are mirrored.
