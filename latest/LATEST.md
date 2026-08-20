@@ -48,3 +48,10 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Verified deployment-contract diversity: WebSocket action-chunk serving, ZMQ REQ/REP with ping/reset/timeout semantics, gRPC policy serving, ROS2 client/server deployment, and QUIC-first low-latency serving with combined planner+action mode.
 - No audited system adds Armory-level multi-robot admission/fairness/deadline/SLO-aware scheduling, so these artifacts remain ecosystem evidence rather than new paper promotions.
 - Next: multi-client policy admission/fairness/SLO search; vLLM-Omni OpenPI session semantics; planner/procedural cache; persistent world-state migration; Zenoh/DDS enforcement.
+
+### 2026-08-21 05:02 CST
+- **CORE_SYS +1: [RobotFleet](https://arxiv.org/abs/2510.10379)** — RSS 2025 Workshop on Scalable and Resilient Multi-Robot Systems.
+- System role: centralized fleet orchestration over containerized robot services, with modular planner/allocator, task-status/schedule management, shared declarative world state, two-way execution feedback and replanning. It complements Armory/ROSA at the planner-to-fleet execution layer rather than GPU inference scheduling.
+- Official repo: [therohangupta/robot-fleet](https://github.com/therohangupta/robot-fleet), about **30 stars / 5 forks** at this scan.
+- vLLM-Omni OpenPI revalidation found a meaningful stateful serving contract: per-connection sessions, OpenPI handshake metadata (`action_horizon`, action keys, embodiment, session-id requirement), reset/session operations, and a dedicated serving bridge where batching/streaming/serialization live. This strengthens the reusable stateful robot-serving abstraction, but does not add a separate new paper promotion.
+- Fresh multi-client admission/fairness/deadline/SLO search found no system beyond already-canonical Armory/ROSA with stronger fleet-serving scheduling evidence.

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 03:01 CST",
-  "count": 97,
+  "updated": "2026-08-21 05:02 CST",
+  "count": 98,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1385,6 +1385,18 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2602.22818",
       "repo_url": "https://github.com/huggingface/lerobot"
+    },
+    {
+      "id": "arxiv:2510.10379",
+      "title": "RobotFleet: An Open-Source Framework for Centralized Multi-Robot Task Planning",
+      "class": "CORE_SYS",
+      "route": [1, 7],
+      "year": 2025,
+      "venue": "RSS 2025 Workshop on Scalable and Resilient Multi-Robot Systems",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2510.10379",
+      "repo_url": "https://github.com/therohangupta/robot-fleet"
     }
   ]
 }

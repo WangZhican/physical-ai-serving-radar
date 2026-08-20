@@ -27,3 +27,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Systems role: generalized remote asynchronous inference via gRPC `PolicyServer`/`RobotClient`, action queues, overlapping action-chunk aggregation and configurable refresh thresholds; this is deployment/runtime infrastructure rather than a VLA algorithm-speedup entry.
 - Official repository adoption checked at **26,783 stars / 5,431 forks**.
 - Public radar now contains **97 verified works / 73 CORE_SYS**; no PDFs or private server state are mirrored.
+
+## 2026-08-21 05:02 CST
+- Added **RobotFleet** (RSS 2025 Scalable and Resilient Multi-Robot Systems Workshop, arXiv:2510.10379) to `CORE_SYS` routes 1/7.
+- Role: containerized fleet execution substrate with centralized planner/allocator, task-status/schedule manager, shared declarative world state, feedback and replanning; complements Armory/ROSA rather than duplicating inference scheduling.
+- Revalidated vLLM-Omni OpenPI as a reusable stateful robot-serving API with per-connection sessions, handshake metadata, reset/session operations and a serving bridge for batching/streaming/serialization.
+- Public radar now contains **98 verified works / 74 CORE_SYS**.
