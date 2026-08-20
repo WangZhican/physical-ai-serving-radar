@@ -27,4 +27,4 @@ Legal ROSGM/TILDE full-text resolution; then Zenoh/DDS intermittent-connectivity
 Hourly scan completed: 24h/7d Physical-AI serving, fleet scheduling, Zenoh/DDS continuity, VLA policy-server and world-model runtime routes checked. No new work cleared the SYS-first promotion threshold; canonical classifications remain unchanged.
 
 
-Last scanned: 2026-08-20 23:00 CST — 24h/7d fresh + targeted 30d systems scan; no new promotion; PCS/WorldMove deduplicated and revalidated.
+Last scanned: 2026-08-20 23:58 CST — 24h/7d fresh + targeted 30d systems scan; no new promotion; PCS/WorldMove deduplicated and revalidated.
