@@ -12,3 +12,6 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - NVIDIA `ros2_benchmark`: classify as a mature infrastructure artifact and determine whether a canonical paper record should be created.
 - Zenoh/DDS intermittent-connectivity state continuity and timing/isolation enforcement.
 - Fleet admission/fairness and action-buffer-aware scheduling beyond Armory/Kairos/ROSA.
+
+### HELIOS: Heterogeneous Lightweight VLA Model Serving System
+- EuroSys 2027 in submission; metadata-only author disclosure. No public preprint/repo/details verified yet.

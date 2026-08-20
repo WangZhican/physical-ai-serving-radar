@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 05:02 CST",
-  "count": 98,
+  "updated": "2026-08-21 06:01 CST",
+  "count": 99,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1355,7 +1355,10 @@
       "id": "doi:10.1109/ICRA57147.2024.10610759",
       "title": "FogROS2-LS: A Location-Independent Fog Robotics Framework for Latency Sensitive ROS2 Applications",
       "class": "CORE_SYS",
-      "route": [3, 4],
+      "route": [
+        3,
+        4
+      ],
       "year": 2024,
       "venue": "ICRA 2024",
       "priority": "A+",
@@ -1366,7 +1369,10 @@
       "id": "doi:10.1109/ISCC65549.2025.11326186",
       "title": "IoRT ROS 2 Applications: Evaluating Zenoh and VPN for Robotic Networking in the Edge-Cloud Continuum",
       "class": "WATCH_ONLY",
-      "route": [4, 8],
+      "route": [
+        4,
+        8
+      ],
       "year": 2025,
       "venue": "IEEE ISCC / DistInSys 2025 Best Paper",
       "priority": "B+",
@@ -1378,7 +1384,11 @@
       "id": "arxiv:2602.22818",
       "title": "LeRobot: An Open-Source Library for End-to-End Robot Learning",
       "class": "CORE_SYS",
-      "route": [2, 3, 9],
+      "route": [
+        2,
+        3,
+        9
+      ],
       "year": 2026,
       "venue": "ICLR 2026 Poster",
       "priority": "A+",
@@ -1390,13 +1400,31 @@
       "id": "arxiv:2510.10379",
       "title": "RobotFleet: An Open-Source Framework for Centralized Multi-Robot Task Planning",
       "class": "CORE_SYS",
-      "route": [1, 7],
+      "route": [
+        1,
+        7
+      ],
       "year": 2025,
       "venue": "RSS 2025 Workshop on Scalable and Resilient Multi-Robot Systems",
       "priority": "A-",
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2510.10379",
       "repo_url": "https://github.com/therohangupta/robot-fleet"
+    },
+    {
+      "id": "watch:helios-vla-serving-eurosys27-submission",
+      "title": "HELIOS: Heterogeneous Lightweight VLA Model Serving System",
+      "class": "WATCH_ONLY",
+      "routes": [
+        3,
+        6
+      ],
+      "year": 2027,
+      "venue": "EuroSys 2027 (in submission)",
+      "priority": "WATCH-A",
+      "paper": "",
+      "repo": "",
+      "note": "Author publication page/CV disclosure only; no public preprint/repo/technical results verified yet."
     }
   ]
 }

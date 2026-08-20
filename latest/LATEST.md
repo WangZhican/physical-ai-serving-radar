@@ -55,3 +55,8 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Official repo: [therohangupta/robot-fleet](https://github.com/therohangupta/robot-fleet), about **30 stars / 5 forks** at this scan.
 - vLLM-Omni OpenPI revalidation found a meaningful stateful serving contract: per-connection sessions, OpenPI handshake metadata (`action_horizon`, action keys, embodiment, session-id requirement), reset/session operations, and a dedicated serving bridge where batching/streaming/serialization live. This strengthens the reusable stateful robot-serving abstraction, but does not add a separate new paper promotion.
 - Fresh multi-client admission/fairness/deadline/SLO search found no system beyond already-canonical Armory/ROSA with stronger fleet-serving scheduling evidence.
+
+## 2026-08-21 06:01 CST
+- Fresh 24h/7d SYS-first scan: no new promotion.
+- **WATCH +1:** HELIOS: Heterogeneous Lightweight VLA Model Serving System — author/CV lists EuroSys 2027 submission; no public preprint/repo/details yet, so metadata-only watch.
+- Continued planner/procedural-cache, fleet SLO/admission, and persistent world-state runtime omission recovery.

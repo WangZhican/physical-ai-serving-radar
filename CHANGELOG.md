@@ -33,3 +33,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Role: containerized fleet execution substrate with centralized planner/allocator, task-status/schedule manager, shared declarative world state, feedback and replanning; complements Armory/ROSA rather than duplicating inference scheduling.
 - Revalidated vLLM-Omni OpenPI as a reusable stateful robot-serving API with per-connection sessions, handshake metadata, reset/session operations and a serving bridge for batching/streaming/serialization.
 - Public radar now contains **98 verified works / 74 CORE_SYS**.
+
+- 2026-08-21 06:01 CST — Added HELIOS heterogeneous VLA serving submission to WATCH_ONLY; fresh scan found no new promotion.
