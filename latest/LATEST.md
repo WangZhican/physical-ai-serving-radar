@@ -1,6 +1,6 @@
 # Latest Radar Update
 
-**Scan time:** 2026-08-21 21:57 CST
+**Scan time:** 2026-08-21 23:00 CST
 
 ## Fresh coverage
 - **24h:** scanned; no new Physical-AI/Multimodal SYS work crossed the promotion threshold.
