@@ -68,3 +68,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Refreshed public machine-readable dataset to 106 verified works.
 
 - 2026-08-21 14:04 CST — Added HELP (arXiv:2607.09776) to SYS_ALG_BOUNDARY; refreshed fleet/post-training omission coverage.
+
+- 2026-08-21 15:03 CST — Added CoMuRoS to CORE_SYS (A-, Routes 1/7) after fleet/composite-runtime omission recovery; refreshed hourly coverage.

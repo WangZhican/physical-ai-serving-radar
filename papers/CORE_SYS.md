@@ -65,3 +65,8 @@ This page is intentionally selective; machine-readable coverage lives in [`data/
 
 ## Distributed VLA RL / rollout infrastructure
 - [**RL-VLA3**](https://arxiv.org/abs/2602.05765) — fully asynchronous simulation/inference/training, dynamic batching, environment sharding, and 8–256 GPU scalability — **A+**, Routes 2/6/7/9. Current arXiv v2 reports up to 85.2% throughput improvement over synchronous baselines with identical sample efficiency; older workshop metrics are kept version-scoped.
+
+### CoMuRoS — Frontiers in Robotics and AI 2026
+**Routes:** 1 Fleet-scale / multi-robot; 7 Composite VLA + planner serving · **Priority:** A-
+
+A hierarchical multi-robot runtime with centralized task management and decentralized ROS2 execution. Its system role is runtime task classification/dispatch, queue-based execution, bidirectional status/event feedback, and event-triggered replanning/task reallocation on physical heterogeneous robots. This complements GPU-policy serving systems such as Armory: CoMuRoS orchestrates the planner/execution layer rather than GPU inference resources. [Official paper](https://doi.org/10.3389/frobt.2026.1843313)

@@ -111,3 +111,7 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 ## 2026-08-21 14:04 CST
 - Added **HELP: Human-Efficient Large-Scale Robot Post-Training with Rollout Segmentation** (arXiv:2607.09776) as **SYS_ALG_BOUNDARY / A**. It operates a 12-robot post-training pipeline with two specialized human roles, centralized training/inference services, and automatic rollout segmentation, but its primary novelty is human-efficient post-training rather than a new serving scheduler/runtime.
 - Fresh 24h/7d Physical-AI SYS scan found no new CORE_SYS promotion; targeted 30d omission recovery covered fleet supervision/post-training, fleet SLO/admission, GPU-stage scheduling, and persistent world-state serving.
+
+### 2026-08-21 15:03 CST
+- Added **CoMuRoS** (Frontiers in Robotics and AI 2026) as CORE_SYS / A- (Routes 1/7): hierarchical fleet task dispatch, ROS2 execution, bidirectional runtime status/events, and event-driven replanning on physical heterogeneous robots.
+- Fresh 24h/7d scans found no newer direct serving promotion; 30d omission recovery covered fleet deadline/SLO, world-state migration, and ROS2 middleware timing/state.

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 14:04 CST",
-  "count": 107,
+  "updated": "2026-08-21 15:03 CST",
+  "count": 108,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1438,6 +1438,20 @@
       "priority": "A",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2607.09776"
+    },
+    {
+      "id": "doi:10.3389/frobt.2026.1843313",
+      "title": "CoMuRoS - An LLM-based generalizable hierarchical task planning and execution framework for heterogeneous robot teams with event-driven re-planning",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        7
+      ],
+      "year": 2026,
+      "venue": "Frontiers in Robotics and AI",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "official_page": "https://doi.org/10.3389/frobt.2026.1843313"
     }
   ]
 }
