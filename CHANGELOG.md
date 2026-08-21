@@ -101,3 +101,7 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Verified official PMLR proceedings, UT Austin RPL project page, and `UT-Austin-RPL/sirius-fleet` code repository.
 - Classified as a fleet deployment/runtime-monitoring boundary work rather than CORE_SYS because interactive monitoring/learning remains the primary novelty.
 - Public dataset updated to **116 works / 88 CORE_SYS / 19 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.
+
+## 2026-08-22 07:02 CST
+- Added OpenBot-Fleet (ICRA 2024) as CORE_SYS/A+ after historical omission recovery.
+- Added fleet experience-streaming / continuous policy lifecycle coverage.

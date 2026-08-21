@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22 04:03 CST",
-  "count": 116,
+  "updated": "2026-08-22 07:02 CST",
+  "count": 117,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1705,6 +1705,25 @@
       "project_url": "https://ut-austin-rpl.github.io/sirius-fleet/",
       "open_source": "https://github.com/UT-Austin-RPL/sirius-fleet",
       "system_note": "Fleet deployment/runtime-monitoring boundary: multi-task runtime anomaly monitoring, visual-world-model prediction, selective human intervention, continual policy/monitor updates; algorithm/learning novelty remains central."
+    },
+    {
+      "id": "arxiv:2405.07515",
+      "title": "OpenBot-Fleet: A System for Collective Learning with Real Robots",
+      "system": "OpenBot-Fleet",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        4,
+        9
+      ],
+      "year": 2024,
+      "venue": "ICRA 2024",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2405.07515",
+      "project_page": "https://www.openbot.org/",
+      "doi": "10.1109/ICRA57147.2024.10610960",
+      "system_note": "Open-source cloud robotics system implementing the full fleet policy-improvement loop: smartphone edge sensing/compute, secure cloud experience upload/storage, asynchronous multi-agent collection, cloud replay/policy learning, and continuous policy redeployment. Validated with 72 real robots; online learning reaches 82.5% success in unseen homes."
     }
   ]
 }

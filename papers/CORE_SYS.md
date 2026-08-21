@@ -96,3 +96,6 @@ A fleet/cloud actor-learner substrate: multiple robots stream on-policy trajecto
 - Paper: https://arxiv.org/abs/2606.15255
 - Project: http://thanhnguyencanh.github.io/LLM_DAG4MultiRobot
 - Priority: A- (strong execution scheduler; not GPU-serving/resource-manager).
+
+### OpenBot-Fleet — ICRA 2024 — A+
+**Routes:** 1 Fleet-scale serving · 4 Edge-cloud Physical AI · 9 Evaluation/infrastructure. Open-source full policy-improvement loop across 72 real robots: edge sensing/compute, secure cloud experience upload, asynchronous collection, replay/policy learning, and continuous policy redeployment. Online learning reaches 82.5% success in unseen homes. [Paper](https://arxiv.org/abs/2405.07515) · [Project](https://www.openbot.org/)
