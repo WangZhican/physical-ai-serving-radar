@@ -146,3 +146,8 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Public state: **114 works / 87 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
 - Next: multipanda_ros2/TUM-Haddadin real-time runtime lineage; fleet admission/fairness/deadline/SLO beyond Armory; persistent world-state migration; Zenoh/DDS enforcement; pending legal-PDF resolution; VLA-serving HELIOS monitor.
 
+
+### 2026-08-21 21:05 CST
+- Hourly SYS-first scan completed across 24h/7d fresh sources plus targeted 30d omission recovery. No new paper was promoted this hour.
+- Revalidated **multipanda_ros2** as a real-time execution-runtime substrate: its paper describes a 1 kHz control loop, ~2 ms runtime controller switching, ROS 2 service exposure, and conflict checks for controller resource requirements.
+- Targeted search covered TUM/Haddadin real-time multi-robot runtime follow-ons, Armory-external fleet admission/fairness/deadline/SLO scheduling, persistent world-state migration, and Zenoh/DDS timing/isolation.
