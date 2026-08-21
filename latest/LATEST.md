@@ -181,3 +181,10 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 
 ### 2026-08-22 03:01 CST scan
 Fresh 24h/7d plus targeted 30d scan completed. No new SYS-first promotion. Reviewed RSS 2026 ALIS-WC and JFR 2026 M3RS as fleet-scheduling boundary leads; neither was promoted because no new serving/resource-runtime abstraction was verified. Frontier: OSDAG/ALIS-WC reverse census, fleet admission/fairness/deadline/SLO, world-state runtime, Zenoh/DDS enforcement.
+
+### 2026-08-22 04:03 CST
+- **SYS_ALG_BOUNDARY +1:** [Sirius-Fleet](https://arxiv.org/abs/2410.22689), CoRL 2024 / PMLR 270.
+- System role: multi-task fleet deployment with runtime anomaly monitoring, visual-world-model future prediction, selective human intervention, and continual policy/monitor updates from deployment data. It remains boundary rather than CORE_SYS because the main novelty is interactive monitoring/learning instead of serving admission/resource scheduling.
+- Verified sources: [PMLR proceedings](https://proceedings.mlr.press/v270/liu25g.html), [UT Austin RPL project](https://ut-austin-rpl.github.io/sirius-fleet/), and [official code](https://github.com/UT-Austin-RPL/sirius-fleet).
+- Fresh 24h/7d scans found no new direct CORE_SYS promotion; omission recovery continues on fleet supervision/resource allocation, SLO-aware scheduling, world-state migration, and Zenoh/DDS enforcement.
+- Public canonical state: **116 works / 88 CORE_SYS / 19 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.

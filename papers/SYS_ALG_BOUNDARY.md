@@ -28,3 +28,11 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Project:** https://finch.agibot.com/research/lwd
 - **Routes:** 1 / 7 / 9 · **Priority:** A
 - **Role:** real fleet deployment infrastructure over 16 dual-arm robots, shared replay aggregation and periodic shared-policy refresh; reaches 95% average success across eight real-world tasks. Kept at `SYS_ALG_BOUNDARY` because the central novelty is offline-to-online RL (DIVL + QAM), not serving/resource scheduling.
+
+### Sirius-Fleet — deployment-time fleet monitoring and continual improvement
+- **Paper:** https://arxiv.org/abs/2410.22689
+- **Official proceedings:** https://proceedings.mlr.press/v270/liu25g.html
+- **Project:** https://ut-austin-rpl.github.io/sirius-fleet/
+- **Code:** https://github.com/UT-Austin-RPL/sirius-fleet
+- **Routes:** 1 / 7 / 9 / 10 · **Priority:** A
+- **Role:** multi-task fleet deployment with runtime anomaly monitoring, visual-world-model prediction, selective human intervention and continual policy/monitor updates. Kept at `SYS_ALG_BOUNDARY` because interactive monitoring/learning is the main novelty rather than serving admission, resource management or scheduler design.

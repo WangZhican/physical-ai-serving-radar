@@ -95,3 +95,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Fresh 24h/7d scan found no newer direct promotion; OSDAG came from historical omission recovery.
 - Public canonical state: 115 works / 88 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH.
 - Next: OSDAG references/same-group -> stronger fleet admission/fairness/deadline/SLO -> PCS/WorldMove -> Zenoh/DDS enforcement -> HELIOS monitor.
+
+## 2026-08-22 04:03 CST
+- Added **Sirius-Fleet** (CoRL 2024 / PMLR 270, arXiv:2410.22689) to `SYS_ALG_BOUNDARY / A` after fleet-runtime omission recovery.
+- Verified official PMLR proceedings, UT Austin RPL project page, and `UT-Austin-RPL/sirius-fleet` code repository.
+- Classified as a fleet deployment/runtime-monitoring boundary work rather than CORE_SYS because interactive monitoring/learning remains the primary novelty.
+- Public dataset updated to **116 works / 88 CORE_SYS / 19 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.
