@@ -1,3 +1,9 @@
+## Hourly scan — 2026-08-22 05:03 CST
+
+- Fresh 24h/7d Physical-AI + multimodal serving scan completed; no new SYS-first promotion.
+- Targeted 30d fleet-runtime omission recovery reviewed 2026 heterogeneous multi-robot scheduling candidates; current evidence remains optimization-led rather than serving/runtime infrastructure.
+- Frontier: fleet supervision/resource runtime → admission/fairness/deadline/SLO → persistent world-state migration → ROS2/Zenoh timing/isolation.
+
 # Latest Radar Update
 
 **Scan time:** 2026-08-21 23:00 CST
