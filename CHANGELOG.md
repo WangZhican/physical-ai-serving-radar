@@ -83,3 +83,4 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 
 
 - **2026-08-21 18:00 CST** — Recovered missing OSDI 2026 RLinf base-system paper into CORE_SYS; refreshed public dataset to 113 records. DynaRL verified as adjacent systems evidence but not promoted without embodied/Multimodal evaluation.
+- **2026-08-21 19:03 CST** — Hourly SYS-first scan found no new promotion. Updated DynaRL ecosystem evidence: RLinf v0.3 explicitly integrates it as the framework's dynamic-scheduling feature, while the paper itself remains outside the Physical-AI canonical list until direct embodied/VLA evaluation is verified.

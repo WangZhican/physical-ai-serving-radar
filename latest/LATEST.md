@@ -132,3 +132,9 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - **CORE_SYS +1:** [RLinf](https://arxiv.org/abs/2509.15965) (OSDI 2026) — M2Flow, adaptive communication, context switching, elastic pipelining and profiling-guided scheduling; direct embodied-RL evaluation and up to **2.43×** throughput speedup in current OSDI/docs.
 - **Adjacent, not promoted:** [DynaRL](https://www.usenix.org/conference/osdi26/presentation/wang-yuanqing) — dynamic GPU/resource migration is highly relevant, but current formal evaluation is reasoning/agentic rather than Physical-AI/Multimodal.
 - Fresh 24h/7d SYS-first scan: no newer direct Physical-AI promotion; this was a 30d/historical OSDI/RLinf omission recovery. Public state: **113 works / 86 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
+
+## 2026-08-21 19:03 CST
+- Fresh 24h/7d SYS-first scan plus targeted 30d searches for fleet admission/fairness/deadline/SLO, world-state migration, and ROS2/Zenoh timing/isolation found **no new paper promotion**.
+- **DynaRL status update:** RLinf v0.3 now officially identifies DynaRL as RLinf's dynamic-scheduling feature, so its dynamic hypergraph, resource migration, and context-aware routing are tracked as transferable runtime evidence inside the shared RLinf ecosystem. The DynaRL paper remains outside the Physical-AI canonical list because its formal evaluation is reasoning/agentic, not embodied/VLA.
+- Public state remains **113 works / 86 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
+- Next: direct embodied/VLA use of DynaRL-style resource migration; Armory-external fleet admission/fairness/deadline/SLO; PCS/WorldMove fork/backtrack migration; Zenoh/DDS enforcement; pending legal-full-text retries; VLA-serving HELIOS monitor.
