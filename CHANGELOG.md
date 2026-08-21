@@ -70,3 +70,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - 2026-08-21 14:04 CST — Added HELP (arXiv:2607.09776) to SYS_ALG_BOUNDARY; refreshed fleet/post-training omission coverage.
 
 - 2026-08-21 15:03 CST — Added CoMuRoS to CORE_SYS (A-, Routes 1/7) after fleet/composite-runtime omission recovery; refreshed hourly coverage.
+
+## 2026-08-21 16:04 CST
+- Added **SOP** (arXiv:2601.03044) to `CORE_SYS / A+` as a missing fleet/cloud actor-learner systems anchor for online VLA post-training.
+- Added **Learning while Deploying (LWD)** (arXiv:2605.00416v2) to `SYS_ALG_BOUNDARY / A`: substantial fleet deployment infrastructure, but algorithmic novelty remains central.
+- Refined Route 1 to include deployment-to-learning actor/learner loops and asynchronous shared-policy synchronization alongside inference-serving/fleet-scheduling systems.
+- Public dataset updated to **110 verified works / 83 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.

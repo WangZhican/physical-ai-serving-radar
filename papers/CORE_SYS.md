@@ -70,3 +70,10 @@ This page is intentionally selective; machine-readable coverage lives in [`data/
 **Routes:** 1 Fleet-scale / multi-robot; 7 Composite VLA + planner serving · **Priority:** A-
 
 A hierarchical multi-robot runtime with centralized task management and decentralized ROS2 execution. Its system role is runtime task classification/dispatch, queue-based execution, bidirectional status/event feedback, and event-triggered replanning/task reallocation on physical heterogeneous robots. This complements GPU-policy serving systems such as Armory: CoMuRoS orchestrates the planner/execution layer rather than GPU inference resources. [Official paper](https://doi.org/10.3389/frobt.2026.1843313)
+
+### SOP — Scalable Online Post-Training System for VLA Models
+**Routes:** 1 / 2 / 7 / 9 · **Priority:** A+
+
+[Paper](https://arxiv.org/abs/2601.03044) · [AGIBOT project page](https://finch.agibot.com/research/sop)
+
+A fleet/cloud actor-learner substrate: multiple robots stream on-policy trajectories and human interventions to a centralized cloud learner, and asynchronously receive updated shared policies. The architecture is algorithm-agnostic and is demonstrated with HG-DAgger and RECAP. AGIBOT reports a four-robot configuration reaching 92.5% success after 3 hours versus 80.5% for one robot, and reaching 80% success in 71.7 minutes versus 173.6 minutes (2.4× faster). No official implementation repository was verified in this scan.

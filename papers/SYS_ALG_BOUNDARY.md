@@ -22,3 +22,9 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Paper:** https://arxiv.org/abs/2607.09776
 - **Routes:** fleet-scale infrastructure (1), evaluation/post-training infrastructure (9)
 - **Role:** two specialized operators supervise 12 robots; centralized training/inference services plus automatic rollout segmentation/data curation. Kept at SYS_ALG_BOUNDARY because the central novelty is workflow/human efficiency, not serving resource management.
+
+### Learning while Deploying (LWD) — fleet-scale continual policy improvement
+- **Paper:** https://arxiv.org/abs/2605.00416
+- **Project:** https://finch.agibot.com/research/lwd
+- **Routes:** 1 / 7 / 9 · **Priority:** A
+- **Role:** real fleet deployment infrastructure over 16 dual-arm robots, shared replay aggregation and periodic shared-policy refresh; reaches 95% average success across eight real-world tasks. Kept at `SYS_ALG_BOUNDARY` because the central novelty is offline-to-online RL (DIVL + QAM), not serving/resource scheduling.

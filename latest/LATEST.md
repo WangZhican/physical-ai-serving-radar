@@ -115,3 +115,10 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 ### 2026-08-21 15:03 CST
 - Added **CoMuRoS** (Frontiers in Robotics and AI 2026) as CORE_SYS / A- (Routes 1/7): hierarchical fleet task dispatch, ROS2 execution, bidirectional runtime status/events, and event-driven replanning on physical heterogeneous robots.
 - Fresh 24h/7d scans found no newer direct serving promotion; 30d omission recovery covered fleet deadline/SLO, world-state migration, and ROS2 middleware timing/state.
+
+### 2026-08-21 16:04 CST
+- **CORE_SYS +1:** [SOP](https://arxiv.org/abs/2601.03044) — fleet/cloud actor-learner infrastructure for online VLA post-training, with multi-robot experience/intervention streaming and asynchronous policy synchronization. AGIBOT reports a four-robot setup reaching 92.5% success after 3h vs 80.5% for one robot and 2.4× faster time-to-80% success.
+- **SYS_ALG_BOUNDARY +1:** [Learning while Deploying](https://arxiv.org/abs/2605.00416) — 16-robot fleet deployment/replay/policy-refresh loop; kept below CORE_SYS because the main novelty is offline-to-online RL rather than serving/resource scheduling.
+- Fresh 24h/7d SYS-first scan found no newer direct serving/runtime promotion; additions came from AGIBOT Finch/Jianlan Luo same-group omission recovery.
+- Public state: **110 verified works / 83 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
+- Next: SOP/LWD references and scalable-robot-learning lineage; fleet admission/fairness/deadline/SLO beyond Armory; PCS/WorldMove state migration; Zenoh/DDS enforcement; pending legal full-text retries; VLA-serving HELIOS monitor.

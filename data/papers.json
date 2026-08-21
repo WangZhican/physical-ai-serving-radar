@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 15:03 CST",
-  "count": 108,
+  "updated": "2026-08-21 16:04 CST",
+  "count": 110,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1452,6 +1452,28 @@
       "priority": "A-",
       "status": "VERIFIED",
       "official_page": "https://doi.org/10.3389/frobt.2026.1843313"
+    },
+    {
+      "id": "arxiv:2601.03044",
+      "title": "SOP: A Scalable Online Post-Training System for Vision-Language-Action Models",
+      "class": "CORE_SYS",
+      "route": [1, 2, 7, 9],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2601.03044"
+    },
+    {
+      "id": "arxiv:2605.00416",
+      "title": "Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [1, 7, 9],
+      "year": 2026,
+      "venue": "arXiv v2",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2605.00416"
     }
   ]
 }

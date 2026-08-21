@@ -3,7 +3,7 @@
 The radar uses ten primary Physical-AI systems routes. A paper may appear in multiple routes when it plays a distinct technical role in each.
 
 ## 1. Fleet-scale / Multi-Robot Serving
-Multi-tenant robot-policy serving, shared GPU pools, action-aware batching, admission/fairness and execution-aware scheduling. **Anchors:** Kairos, ROSA, Armory.
+Multi-tenant robot-policy serving, shared GPU pools, action-aware batching, admission/fairness and execution-aware scheduling, plus fleet-to-cloud actor/learner loops that continuously turn deployment experience into shared policy updates. **Anchors:** Kairos, ROSA, Armory, SOP. LWD is tracked as an algorithm-system follow-on because its main novelty is offline-to-online RL rather than serving/resource scheduling.
 
 ## 2. Unified Physical-AI Runtime
 Common runtime contracts for VLA/WAM/policy execution, portable kernels, memory management, action-head plugins and robot-facing protocols. **Anchors:** PhyAI, Embodied.cpp, vla.cpp, **LeRobot** (generalized remote `PolicyServer`/`RobotClient`).
