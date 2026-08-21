@@ -94,3 +94,10 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - System role: distributed VLA RL/rollout infrastructure with Plane Decoupling, a four-thread asynchronous Swimlane pipeline, dual-pool VRAM management, and topology-aware replication; these mechanisms target simulator/model resource conflict and communication rather than VLA accuracy optimization.
 - Fresh 24h/7d SYS-first scans produced no newer promotion; public radar state is **105 works / 80 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
 - Next: quantify D-VLA primary-PDF system results and continue same-group distributed rollout/service census; then UnifiedServe GPU-stage sharing, fleet admission/fairness/SLO, planner/composite serving, persistent world-state migration and Zenoh/DDS enforcement.
+
+### 2026-08-21 12:00 CST
+- **CORE_SYS +1:** [RL-VLA3: A Flexible and Asynchronous Reinforcement Learning Framework for VLA Training](https://arxiv.org/abs/2602.05765) — historical omission recovered through the D-VLA/JoyNexus/JDT AI Infra lineage.
+- System role: fully asynchronous distributed VLA RL across simulation, inference and training, with dynamic batching and flexible environment sharding. Current arXiv v2 reports up to **85.2% throughput improvement** with identical sample efficiency and scaling from **8 to 256 GPUs**.
+- Evidence note: an earlier ICLR 2026 SPOT Workshop version reports different throughput figures; the radar keeps quantitative claims version-scoped rather than mixing them.
+- Official arXiv v2 PDF is archived privately on the research server; no official implementation repo was verified in this scan.
+- Fresh 24h/7d SYS-first scans produced no newer promotion; public radar state is **106 works / 81 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.

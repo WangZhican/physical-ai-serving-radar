@@ -41,3 +41,6 @@ vLLM-Omni, M*, Eevee, TriInfer, Cornserve/Cornfigurator, Omni-Flow, LiveServe, H
 
 ### 2026-08-21 refinement: cloud-native embodied simulation as Route 9 infrastructure
 Route 9 includes cloud-native simulation platforms only when they contribute schedulable compute pools, containerized multi-task execution, standardized model/task interfaces, reproducible evaluation/data governance, and closed-loop replay/regeneration. Pure simulator or embodied-learning algorithms remain outside `CORE_SYS`. Route 7 cross-links platforms that compose model, environment, evaluation, and data services.
+
+### 2026-08-21 refinement: distributed VLA RL as Physical-AI runtime infrastructure
+Routes 2/6/7/9 explicitly include distributed VLA RL systems when the contribution is runtime/resource infrastructure across simulator interaction, inference rollout, actor training, dynamic batching, environment sharding, communication, or multi-GPU scaling. Pure RL algorithm improvements remain outside `CORE_SYS`. RL-VLA3 is the predecessor/neighbor anchor; D-VLA is a later systems point with stronger plane-decoupling/VRAM/topology mechanisms.

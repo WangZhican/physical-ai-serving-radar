@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 11:00 CST",
-  "count": 105,
+  "updated": "2026-08-21 12:00 CST",
+  "count": 106,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1408,6 +1408,22 @@
       "priority": "A+",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2605.13276"
+    },
+    {
+      "id": "arxiv:2602.05765",
+      "title": "RL-VLA3: A Flexible and Asynchronous Reinforcement Learning Framework for VLA Training",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        6,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv v2; earlier version published at ICLR 2026 SPOT Workshop",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2602.05765"
     }
   ]
 }
