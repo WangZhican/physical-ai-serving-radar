@@ -46,3 +46,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - arXiv v2 reports up to **4x throughput** over vLLM on an 8xH800 node while meeting the 90th-percentile request SLO.
 - Fresh 24h/7d Physical-AI serving scan produced no direct promotion; planner/fleet/world-state and multimodal SYS omission recovery continues.
 - Public state: **101 verified works / 76 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
+## 2026-08-21 09:00 CST
+- Added **JoyNexus** (`CORE_SYS/A+`) as the radar's multi-tenant VLA service/runtime anchor.
+- Added **FlashCodec + UnifiedServe** (`CORE_SYS/A+`) for GPU-internal multimodal stage scheduling/resource sharing.
+- Refined the research map with multi-tenant VLA service substrates and logical-disaggregation/physical-sharing MLLM execution.
+- Public dataset now contains 103 verified records; no private PDF archive or server-local metadata is mirrored.
+

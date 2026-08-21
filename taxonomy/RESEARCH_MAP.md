@@ -34,3 +34,7 @@ Branching/iterative rollouts, persistent sessions, checkpoint/restore, exact-sta
 
 ## Adjacent Multimodal / MLLM / Omni Systems
 vLLM-Omni, M*, Eevee, TriInfer, Cornserve/Cornfigurator, Omni-Flow, LiveServe, HeteroServe, StreamWise, HorizonServe, SpaceServe, ModServe, OnePiece, TCM-Serve and related systems are retained when their graph/stage/disaggregation/cache abstractions transfer directly to Physical AI.
+## 2026-08-21 taxonomy refinement
+- **Service-oriented multi-tenant VLA runtime**: resident shared base models + tenant-private action/training state + separate training/inference queues + environment sessions + group batching + fault isolation + elastic rollouts. Anchor: [JoyNexus](https://arxiv.org/abs/2607.16074).
+- **Logical stage disaggregation with physical GPU sharing**: treat preprocessing/video decode as a first-class serving stage and avoid rigid one-stage-per-GPU placement. Anchor: [FlashCodec + UnifiedServe](https://arxiv.org/abs/2512.17574).
+

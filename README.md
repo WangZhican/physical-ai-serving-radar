@@ -2,7 +2,7 @@
 
 > SYS-first research radar for **Physical AI + Multimodal Efficient Serving**: runtimes, schedulers, resource managers, edge/cloud deployment, state/cache infrastructure, fleet serving, evaluation infrastructure, world-model serving, and transferable multimodal systems.
 
-**Last updated:** 2026-08-21 06:57 CST · **Curated state:** 100 verified works, including 75 `CORE_SYS` entries.
+**Last updated: **2026-08-21 09:00 CST**
 
 Pure pruning, quantization, token reduction, or action compression does **not** enter `CORE_SYS` unless it contributes a real runtime/resource-management/deployment abstraction.
 
@@ -56,3 +56,9 @@ See [`taxonomy/RESEARCH_MAP.md`](taxonomy/RESEARCH_MAP.md). Adjacent MLLM/Omni s
 - [`CHANGELOG.md`](CHANGELOG.md)
 
 PDFs are intentionally **not** mirrored here; use official paper/project/repository links.
+
+## Radar update — 2026-08-21 09:00 CST
+- **JoyNexus** adds a direct multi-tenant VLA service/runtime line: tenant-isolated model state, training/inference queues, group batching, environment services, fault isolation and elastic rollouts.
+- **FlashCodec + UnifiedServe** adds GPU-internal multimodal stage sharing: preprocessing/video decode plus encode/prefill/decode are logically separated while sharing physical GPU resources.
+- Current public dataset: **103 verified works — 78 CORE_SYS / 16 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
+

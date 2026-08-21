@@ -73,3 +73,11 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - arXiv v2 reports up to **4x throughput** over vLLM on an 8xH800 node while meeting the 90th-percentile request SLO.
 - Fresh 24h/7d Physical-AI serving scan produced no direct promotion; planner/fleet/world-state and multimodal SYS omission recovery continues.
 - Public state: **101 verified works / 76 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
+### 2026-08-21 09:00 CST
+- **CORE_SYS +2:** [JoyNexus](https://arxiv.org/abs/2607.16074) and [FlashCodec + UnifiedServe](https://arxiv.org/abs/2512.17574).
+- JoyNexus fills the multi-tenant VLA service gap: Training/Inference/Environment Services, tenant-isolated state, dual global queues, group batching, service fault isolation and elastic rollout scaling.
+- FlashCodec + UnifiedServe fills a multimodal systems gap: collaborative multi-GPU/NVDEC preprocessing plus logical stage disaggregation over physically shared GPU resources; the paper reports up to 3.0× more served requests, 1.5× tighter SLOs, and up to 4.4× throughput versus evaluated baselines.
+- Fresh 24h/7d scans produced no newer direct Physical-AI SYS promotion; both additions came from 30d/historical omission recovery.
+- Public state: **103 verified works / 78 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
+- Next: JoyNexus VLA multi-tenant/fleet-SLO reverse census; UnifiedServe same-group GPU-internal stage-sharing census; planner/composite serving; persistent world-state fork/backtrack/migration; Zenoh/DDS enforcement.
+

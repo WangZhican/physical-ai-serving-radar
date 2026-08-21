@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 08:04 CST",
-  "count": 101,
+  "updated": "2026-08-21 09:00 CST",
+  "count": 103,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1454,6 +1454,41 @@
       "official_page": "https://arxiv.org/abs/2505.12658",
       "official_pdf": "https://arxiv.org/pdf/2505.12658",
       "system_note": "Hybrid Encode-Prefill-Decode disaggregation for MLLM serving. Schedules encode/prefill/decode onto separate heterogeneous inference instances, flexibly reallocates resources across stages, and uses stage-level batching/load balancing with visual-language parallelism. arXiv v2 reports up to 4x throughput over vLLM on an 8xH800 node while meeting the 90th-percentile request SLO. Adjacent multimodal SYS trunk; transferable to composite Physical-AI pipelines, not a robot-specific runtime."
+    },
+    {
+      "id": "arxiv:2607.16074",
+      "title": "JoyNexus: Service-Oriented Multi-Tenant Post-Training for VLA Models",
+      "system": "JoyNexus",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.16074",
+      "official_pdf": "https://arxiv.org/pdf/2607.16074",
+      "system_note": "multi-tenant VLA service substrate spanning SFT, RL, rollout and evaluation; Master Service controls resource allocation/session placement/service routing; resident Training/Inference/Environment Services preserve tenant-private action modules, optimizer/policy-version state, use separate global Training and Inference queues, group batching across compatible VLA schemas, service-level fault isolation and elastic rollout scaling. Direct Physical-AI service/runtime infrastructure rather than an algorithmic VLA accelerator."
+    },
+    {
+      "id": "arxiv:2512.17574",
+      "title": "Enabling Disaggregated Multi-Stage MLLM Inference via GPU-Internal Scheduling and Resource Sharing",
+      "system": "FlashCodec + UnifiedServe",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        11
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2512.17574",
+      "official_pdf": "https://arxiv.org/pdf/2512.17574",
+      "system_note": "end-to-end MLLM serving stack: FlashCodec collaboratively uses multi-GPU/NVDEC resources for low-latency video decoding; UnifiedServe logically decouples preprocessing, encode/prefill and decode while physically sharing GPU resources, uses asynchronous coordinated workers and intermediate-state buffering to reduce inter-stage blocking/resource fragmentation. Reports up to 3.0x more served requests, 1.5x tighter SLOs, and up to 4.4x throughput versus baselines. Adjacent multimodal SYS trunk with direct relevance to composite Physical-AI pipelines."
     }
   ]
 }

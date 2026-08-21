@@ -52,3 +52,7 @@ This page is intentionally selective; machine-readable coverage lives in [`data/
 - [HeyGen HELIOS](https://www.heygen.com/research/avatar-v-infrastructure) — 5,000+ GPU multi-cloud unified control plane, two-stage QoS-aware scheduling, resource governance, observability and declarative heterogeneous video-pipeline engine — **A+**. Transferable serving/infra anchor; not Physical-AI-specific.
 
 - **HydraInfer** (2025, arXiv:2505.12658) — Route 6/11; hybrid EPD-disaggregated MLLM serving with heterogeneous stage placement and stage-level batching. [Paper](https://arxiv.org/abs/2505.12658) — Priority A.
+## 2026-08-21 omission recovery
+- [**JoyNexus**](https://arxiv.org/abs/2607.16074) — service-oriented **multi-tenant VLA** post-training/inference/evaluation substrate with tenant-scoped state, Training/Inference/Environment Services, separate global queues, group batching, fault isolation and elastic rollout scaling — **A+**, Routes 2/7/9.
+- [**FlashCodec + UnifiedServe**](https://arxiv.org/abs/2512.17574) — multi-stage MLLM serving with collaborative multi-GPU/NVDEC preprocessing and logical stage disaggregation over physically shared GPU resources — **A+**, Routes 6/11.
+
