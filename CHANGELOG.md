@@ -40,3 +40,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added **HeyGen HELIOS** as `CORE_SYS / A+` under heterogeneous/composite multimodal infrastructure.
 - Added explicit HELIOS name-collision note versus the EuroSys 2027 VLA-serving submission watch item.
 - Public dataset now contains 100 verified works.
+
+### 2026-08-21 08:04 CST
+- **CORE_SYS +1:** [HydraInfer](https://arxiv.org/abs/2505.12658) — historical adjacent-multimodal SYS omission recovery: hybrid Encode-Prefill-Decode disaggregation, heterogeneous stage placement/resource reallocation, and stage-level batching.
+- arXiv v2 reports up to **4x throughput** over vLLM on an 8xH800 node while meeting the 90th-percentile request SLO.
+- Fresh 24h/7d Physical-AI serving scan produced no direct promotion; planner/fleet/world-state and multimodal SYS omission recovery continues.
+- Public state: **101 verified works / 76 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.

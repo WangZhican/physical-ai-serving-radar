@@ -50,3 +50,5 @@ This page is intentionally selective; machine-readable coverage lives in [`data/
 
 ## Industrial multimodal infrastructure
 - [HeyGen HELIOS](https://www.heygen.com/research/avatar-v-infrastructure) — 5,000+ GPU multi-cloud unified control plane, two-stage QoS-aware scheduling, resource governance, observability and declarative heterogeneous video-pipeline engine — **A+**. Transferable serving/infra anchor; not Physical-AI-specific.
+
+- **HydraInfer** (2025, arXiv:2505.12658) — Route 6/11; hybrid EPD-disaggregated MLLM serving with heterogeneous stage placement and stage-level batching. [Paper](https://arxiv.org/abs/2505.12658) — Priority A.
