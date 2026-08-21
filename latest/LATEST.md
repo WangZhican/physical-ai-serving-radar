@@ -167,3 +167,7 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - New interoperability evidence: limb documents a standardized WebSocket policy-server contract aimed at protocol fragmentation across OpenPI/LeRobot/Octo/StarVLA/GR00T; StarVLA exposes a GR00T-compatible ZMQ server. Neither is promoted without a paper-backed novel scheduler/resource mechanism.
 - Public canonical state remains **114 works / 87 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.
 - Next: policy-server protocol/interoperability census -> paper-backed multi-client admission/fairness/deadline/SLO -> persistent world-state fork/backtrack/migration -> Zenoh/DDS enforcement -> HELIOS VLA-serving monitor.
+
+
+## 2026-08-22 01:01 CST
+24h/7d fresh scan plus targeted 30d systems recovery completed. No new paper crossed the SYS-first promotion threshold. Re-hit canonical Kairos/ROSA/PhyAI and world-state/middleware routes; emerging streamlib deadline-driven on-device runtime and Kyostra deterministic execution-contract stack were identified as ecosystem leads for paper-backed reverse census. Fleet SLO, world-state migration, Zenoh/DDS enforcement, and HELIOS monitoring remain active frontiers.
