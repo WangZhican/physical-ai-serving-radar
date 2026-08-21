@@ -59,3 +59,6 @@ This page is intentionally selective; machine-readable coverage lives in [`data/
 
 ## Cloud-native embodied simulation / evaluation infrastructure
 - [**Cloud-Native Simulation Infrastructure for Embodied Intelligence**](https://arxiv.org/abs/2606.27962) — elastic resource scheduling, containerized simulation, standardized model/task/evaluation interfaces, trajectory/data governance, and failure-driven closed-loop regeneration — **A-**, Routes 7/9. Early-stage infrastructure white paper; no verified public implementation repo yet.
+
+## Distributed VLA RL / rollout infrastructure
+- [**D-VLA**](https://arxiv.org/abs/2605.13276) — Plane Decoupling, asynchronous Swimlane overlap, dual-pool VRAM management and topology-aware replication for high-concurrency distributed VLA RL — **A+**, Routes 2/6/7/9.

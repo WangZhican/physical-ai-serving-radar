@@ -88,3 +88,9 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Maturity deliberately rated **A-**: the paper explicitly says its current construction stage is still early (single task on Isaac Sim 5.1); no official public implementation repo was verified.
 - Fresh 24h/7d SYS-first scans produced no newer promotion; public radar state is **104 works / 79 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
 - Next: concrete D-VLA / distributed simulation-service follow-ons, UnifiedServe GPU-stage sharing, fleet admission/fairness/SLO, persistent world-state migration, Zenoh/DDS enforcement, and legal pending-PDF retries.
+
+### 2026-08-21 11:00 CST
+- **CORE_SYS +1:** [D-VLA](https://arxiv.org/abs/2605.13276), recovered via JoyNexus/RL-VLA3 same-group census.
+- System role: distributed VLA RL/rollout infrastructure with Plane Decoupling, a four-thread asynchronous Swimlane pipeline, dual-pool VRAM management, and topology-aware replication; these mechanisms target simulator/model resource conflict and communication rather than VLA accuracy optimization.
+- Fresh 24h/7d SYS-first scans produced no newer promotion; public radar state is **105 works / 80 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
+- Next: quantify D-VLA primary-PDF system results and continue same-group distributed rollout/service census; then UnifiedServe GPU-stage sharing, fleet admission/fairness/SLO, planner/composite serving, persistent world-state migration and Zenoh/DDS enforcement.

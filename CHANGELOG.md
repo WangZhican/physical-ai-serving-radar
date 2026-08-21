@@ -57,3 +57,7 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added arXiv:2606.27962 as `CORE_SYS / A-` through same-group omission recovery.
 - Refined Route 9 to explicitly include cloud-native embodied simulation/evaluation infrastructure under strict systems criteria.
 - Refreshed public machine-readable dataset to 104 verified works.
+
+## 2026-08-21 11:00 CST
+- Added D-VLA (arXiv:2605.13276) as  via JoyNexus/RL-VLA3 same-group omission recovery.
+- Refreshed public machine-readable dataset to 105 verified works / 80 CORE_SYS.

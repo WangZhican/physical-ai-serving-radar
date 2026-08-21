@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 10:00 CST",
-  "count": 104,
+  "updated": "2026-08-21 11:00 CST",
+  "count": 105,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1392,6 +1392,22 @@
       "priority": "A-",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2606.27962"
+    },
+    {
+      "id": "arxiv:2605.13276",
+      "title": "D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        6,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2605.13276"
     }
   ]
 }
