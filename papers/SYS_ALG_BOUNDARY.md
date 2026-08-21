@@ -17,3 +17,8 @@ Works whose algorithmic novelty remains central, but which expose substantial ru
 - [SV-VLA](https://arxiv.org/abs/2604.02965) — low-frequency planning plus frequent lightweight closed-loop verification.
 
 These are not promoted to `CORE_SYS` merely because they reduce latency: the system abstraction must become the primary contribution for that promotion.
+
+### HELP (2026) — Human-efficient fleet post-training pipeline
+- **Paper:** https://arxiv.org/abs/2607.09776
+- **Routes:** fleet-scale infrastructure (1), evaluation/post-training infrastructure (9)
+- **Role:** two specialized operators supervise 12 robots; centralized training/inference services plus automatic rollout segmentation/data curation. Kept at SYS_ALG_BOUNDARY because the central novelty is workflow/human efficiency, not serving resource management.

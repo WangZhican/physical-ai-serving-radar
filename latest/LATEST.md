@@ -107,3 +107,7 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Targeted 30d/historical omission recovery re-scanned RL-VLA3/D-VLA/JoyNexus/JDT and UnifiedServe/FlashCodec neighborhoods. Hits resolved to already tracked system trunks or algorithm-only/non-serving work, so no duplicate records were added.
 - Public radar remains **106 works / 81 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
 - Next: deployable distributed simulation/inference/rollout services; GPU-internal preprocessing/stage schedulers; fleet admission/fairness/deadline/SLO systems beyond Armory; planner/composite serving; persistent world-state migration; Zenoh/DDS enforcement; pending legal-PDF resolution; VLA-serving HELIOS monitoring.
+
+## 2026-08-21 14:04 CST
+- Added **HELP: Human-Efficient Large-Scale Robot Post-Training with Rollout Segmentation** (arXiv:2607.09776) as **SYS_ALG_BOUNDARY / A**. It operates a 12-robot post-training pipeline with two specialized human roles, centralized training/inference services, and automatic rollout segmentation, but its primary novelty is human-efficient post-training rather than a new serving scheduler/runtime.
+- Fresh 24h/7d Physical-AI SYS scan found no new CORE_SYS promotion; targeted 30d omission recovery covered fleet supervision/post-training, fleet SLO/admission, GPU-stage scheduling, and persistent world-state serving.

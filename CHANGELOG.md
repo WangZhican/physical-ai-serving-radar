@@ -66,3 +66,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added RL-VLA3 (arXiv:2602.05765v2) as `CORE_SYS / A+` through historical same-group omission recovery.
 - Added version-scoped metric note to avoid mixing the current arXiv v2 with the earlier ICLR 2026 SPOT Workshop version.
 - Refreshed public machine-readable dataset to 106 verified works.
+
+- 2026-08-21 14:04 CST — Added HELP (arXiv:2607.09776) to SYS_ALG_BOUNDARY; refreshed fleet/post-training omission coverage.

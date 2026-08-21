@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 12:00 CST",
-  "count": 106,
+  "updated": "2026-08-21 14:04 CST",
+  "count": 107,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1424,6 +1424,20 @@
       "priority": "A+",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2602.05765"
+    },
+    {
+      "id": "arxiv:2607.09776",
+      "title": "HELP: Human-Efficient Large-Scale Robot Post-Training with Rollout Segmentation",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        1,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.09776"
     }
   ]
 }
