@@ -1650,6 +1650,24 @@
       "venue": "OSDI 2026",
       "priority": "A+",
       "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2602.02269",
+      "title": "Bridging the Sim-to-Real Gap with multipanda_ros2: A Real-Time ROS2 Framework for Multimanual Systems",
+      "system": "multipanda_ros2",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        9
+      ],
+      "year": 2026,
+      "venue": "ICRA 2026",
+      "priority": "A",
+      "status": "VERIFIED",
+      "repo": "https://github.com/tenfoldpaper/multipanda_ros2",
+      "official_page": "https://arxiv.org/abs/2602.02269",
+      "system_note": "Open-source real-time multi-robot ROS2 runtime: single-process control of arbitrary numbers of Franka robots, sustained 1 kHz torque control, <=2 ms controller switching, runtime recovery, and matched MuJoCo/real interfaces with quantitative sim-real benchmarking. Official repository has about 88 stars / 39 forks in the current public crawl."
     }
   ]
 }

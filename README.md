@@ -35,6 +35,7 @@ See [`taxonomy/RESEARCH_MAP.md`](taxonomy/RESEARCH_MAP.md). Adjacent MLLM/Omni s
 | Embodied.cpp | 2026/arXiv | 2,6 | portable embodied inference runtime | — | [paper](https://arxiv.org/abs/2607.02501) | S |
 | vla.cpp | 2026/arXiv | 2,6 | portable C++ VLA runtime | — | [paper](https://arxiv.org/abs/2606.08094) | S |
 | Armory | 2026/arXiv | 1,3 | control-aware batched robot-policy serving | — | [paper](https://arxiv.org/abs/2608.00337) | A+ |
+| multipanda_ros2 | 2026/ICRA | 2,3,9 | real-time multi-robot ROS2 control runtime; 1 kHz loops and <=2 ms switching | [repo](https://github.com/tenfoldpaper/multipanda_ros2) | [paper](https://arxiv.org/abs/2602.02269) | A |
 | SOP | 2026/arXiv | 1,2,7,9 | fleet/cloud actor-learner loop; online experience streaming and async policy synchronization | — | [paper](https://arxiv.org/abs/2601.03044) | A+ |
 | LeRobot | 2026/ICLR | 2,3,9 | generalized remote async robot-policy inference; gRPC PolicyServer/RobotClient with action queues and overlap aggregation | [repo](https://github.com/huggingface/lerobot) | [paper](https://arxiv.org/abs/2602.22818) | A+ |
 | PAAM | 2024/RTAS | 3,6 | shared GPU/TPU accelerator server | [repo](https://github.com/rtenlab/reference-system-paam) | [paper](https://arxiv.org/abs/2404.06452) | A+ |
@@ -62,4 +63,8 @@ PDFs are intentionally **not** mirrored here; use official paper/project/reposit
 - **SOP** adds a missing fleet continual-learning systems line: multi-robot online experience/intervention streaming to a centralized cloud learner with asynchronous policy synchronization; AGIBOT reports 2.4× faster time-to-80% success with four robots versus one.
 - **Learning while Deploying (LWD)** is tracked at `SYS_ALG_BOUNDARY`: real 16-robot deployment/replay/policy-refresh infrastructure, but its primary novelty is offline-to-online RL rather than serving/resource scheduling.
 - Current public dataset: **110 verified works — 83 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
+
+## Radar update — 2026-08-21 20:00 CST
+- Added **multipanda_ros2** (ICRA 2026) as a real-time multi-robot runtime anchor across Routes 2/3/9.
+- Current public dataset: **114 verified works — 87 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
 

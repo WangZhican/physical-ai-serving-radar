@@ -47,3 +47,6 @@ Routes 2/6/7/9 explicitly include distributed VLA RL systems when the contributi
 ### Embodied learning infrastructure: robots as first-class resources
 RLinf-USER extends the systems map from GPU/server resource management into physical-resource management: heterogeneous robots are discovered, scheduled and coordinated alongside GPUs, while cloud-edge data channels, weight synchronization and persistent state are managed by one runtime substrate. RLinf-VLA complements this with simulator/inference/training resource-allocation modes. This branch is distinct from algorithm-only VLA/RL work.
 
+### 2026-08-21 refinement: real-time multi-robot control runtime
+Routes 2/3/9 explicitly include reusable real-time robot-control middleware/runtime, not only model-serving layers. [multipanda_ros2](https://arxiv.org/abs/2602.02269) is the anchor: single-process multi-arm ROS2 execution, 1 kHz control, fast controller switching, runtime recovery, and matched sim/real interfaces. It complements higher-layer fleet policy/GPU serving such as Armory and ROSA.
+

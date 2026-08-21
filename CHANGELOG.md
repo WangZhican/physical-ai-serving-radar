@@ -84,3 +84,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 
 - **2026-08-21 18:00 CST** — Recovered missing OSDI 2026 RLinf base-system paper into CORE_SYS; refreshed public dataset to 113 records. DynaRL verified as adjacent systems evidence but not promoted without embodied/Multimodal evaluation.
 - **2026-08-21 19:03 CST** — Hourly SYS-first scan found no new promotion. Updated DynaRL ecosystem evidence: RLinf v0.3 explicitly integrates it as the framework's dynamic-scheduling feature, while the paper itself remains outside the Physical-AI canonical list until direct embodied/VLA evaluation is verified.
+- **2026-08-21 20:00 CST** — Added **multipanda_ros2** (ICRA 2026, arXiv:2602.02269) to `CORE_SYS / A`, Routes 2/3/9; refined the map with a real-time multi-robot control-runtime branch; public dataset now contains **114 works / 87 CORE_SYS**.
+

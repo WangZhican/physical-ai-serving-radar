@@ -84,3 +84,7 @@ A fleet/cloud actor-learner substrate: multiple robots stream on-policy trajecto
 
 ## RLinf base system — OSDI 2026
 - [**RLinf: Flexible and Efficient Large-Scale Reinforcement Learning via Macro-to-Micro Flow Transformation**](https://arxiv.org/abs/2509.15965) — **A+**, Routes 2/6/7/9. M2Flow rewrites logical RL workflows into optimized execution flows; adaptive communication, context switching, elastic pipelining and profiling-guided scheduling are evaluated on reasoning and embodied RL. [OSDI 2026](https://www.usenix.org/conference/osdi26/presentation/yu-chao) · [Repo](https://github.com/RLinf/RLinf). Current OSDI/docs report up to **2.43×** embodied-RL throughput speedup; older arXiv abstract numbers are version-scoped.
+
+## Real-time multi-robot control runtime
+- [**multipanda_ros2**](https://arxiv.org/abs/2602.02269) — ICRA 2026 — **A**, Routes 2/3/9. Open-source ROS2 runtime for controlling arbitrary numbers of Franka robots from one process; sustains a 1 kHz torque-control loop, supports <=2 ms controller switching and runtime recovery, and exposes matched simulation/real interfaces for reproducible multi-robot benchmarking. [Repo](https://github.com/tenfoldpaper/multipanda_ros2) (~88 stars / 39 forks in current crawl).
+

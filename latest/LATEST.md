@@ -138,3 +138,11 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - **DynaRL status update:** RLinf v0.3 now officially identifies DynaRL as RLinf's dynamic-scheduling feature, so its dynamic hypergraph, resource migration, and context-aware routing are tracked as transferable runtime evidence inside the shared RLinf ecosystem. The DynaRL paper remains outside the Physical-AI canonical list because its formal evaluation is reasoning/agentic, not embodied/VLA.
 - Public state remains **113 works / 86 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
 - Next: direct embodied/VLA use of DynaRL-style resource migration; Armory-external fleet admission/fairness/deadline/SLO; PCS/WorldMove fork/backtrack migration; Zenoh/DDS enforcement; pending legal-full-text retries; VLA-serving HELIOS monitor.
+
+## 2026-08-21 20:00 CST
+- **CORE_SYS +1:** [multipanda_ros2](https://arxiv.org/abs/2602.02269) (ICRA 2026) — recovered as a real-time multi-robot runtime/infrastructure anchor. It provides single-process multi-arm ROS2 control, 1 kHz torque loops, <=2 ms controller switching, runtime recovery, and common sim/real interfaces.
+- Official [repository](https://github.com/tenfoldpaper/multipanda_ros2) verified at ~88 stars / 39 forks in the current crawl.
+- Fresh 24h/7d SYS-first scans found no newer direct Physical-AI serving/runtime promotion; this was a historical omission recovery.
+- Public state: **114 works / 87 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
+- Next: multipanda_ros2/TUM-Haddadin real-time runtime lineage; fleet admission/fairness/deadline/SLO beyond Armory; persistent world-state migration; Zenoh/DDS enforcement; pending legal-PDF resolution; VLA-serving HELIOS monitor.
+
