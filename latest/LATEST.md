@@ -101,3 +101,9 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Evidence note: an earlier ICLR 2026 SPOT Workshop version reports different throughput figures; the radar keeps quantitative claims version-scoped rather than mixing them.
 - Official arXiv v2 PDF is archived privately on the research server; no official implementation repo was verified in this scan.
 - Fresh 24h/7d SYS-first scans produced no newer promotion; public radar state is **106 works / 81 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
+
+### 2026-08-21 13:00 CST
+- Fresh 24h/7d SYS-first scan completed across Physical-AI/VLA serving and runtime, multimodal stage serving, robot-fleet scheduling, world-model state runtime, and Zenoh/DDS timing/isolation; **no new promotion** crossed the current systems bar.
+- Targeted 30d/historical omission recovery re-scanned RL-VLA3/D-VLA/JoyNexus/JDT and UnifiedServe/FlashCodec neighborhoods. Hits resolved to already tracked system trunks or algorithm-only/non-serving work, so no duplicate records were added.
+- Public radar remains **106 works / 81 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
+- Next: deployable distributed simulation/inference/rollout services; GPU-internal preprocessing/stage schedulers; fleet admission/fairness/deadline/SLO systems beyond Armory; planner/composite serving; persistent world-state migration; Zenoh/DDS enforcement; pending legal-PDF resolution; VLA-serving HELIOS monitoring.
