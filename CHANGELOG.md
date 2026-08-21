@@ -89,3 +89,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 
 - 2026-08-21 21:05 CST — Hourly heartbeat: no promotion; refreshed TUM/Haddadin multi-robot runtime, fleet-SLO, persistent-state, and middleware timing/isolation coverage; strengthened multipanda_ros2 runtime-role evidence.
 - 2026-08-21 21:57 CST — Hourly heartbeat: no paper promotion; added **Strands Robots** as deployment/runtime ecosystem evidence after verifying Zenoh fleet mesh, ROS2/RTPS, remote WebSocket policy serving, LeRobot gRPC async inference, persistent policy workers, and v0.5.0 release status. Canonical paper counts unchanged.
+
+## 2026-08-22 02:00 CST
+- New CORE_SYS: OSDAG (arXiv:2606.15255), A-, Routes 1/7. Constraint-aware online scheduler consumes an LLM-generated dependency/resource DAG and dispatches ready tasks to idle heterogeneous robots; reports 5-15x faster reasoning and up to 38% makespan reduction.
+- Fresh 24h/7d scan found no newer direct promotion; OSDAG came from historical omission recovery.
+- Public canonical state: 115 works / 88 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH.
+- Next: OSDAG references/same-group -> stronger fleet admission/fairness/deadline/SLO -> PCS/WorldMove -> Zenoh/DDS enforcement -> HELIOS monitor.

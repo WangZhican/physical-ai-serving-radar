@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 18:00 CST",
-  "count": 113,
+  "updated": "2026-08-22 02:00 CST",
+  "count": 115,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1668,6 +1668,22 @@
       "repo": "https://github.com/tenfoldpaper/multipanda_ros2",
       "official_page": "https://arxiv.org/abs/2602.02269",
       "system_note": "Open-source real-time multi-robot ROS2 runtime: single-process control of arbitrary numbers of Franka robots, sustained 1 kHz torque control, <=2 ms controller switching, runtime recovery, and matched MuJoCo/real interfaces with quantitative sim-real benchmarking. Official repository has about 88 stars / 39 forks in the current public crawl."
+    },
+    {
+      "id": "arxiv:2606.15255",
+      "title": "OSDAG: Online Scheduling for Efficient Multi-Robot Collaboration",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2606.15255",
+      "project_page": "http://thanhnguyencanh.github.io/LLM_DAG4MultiRobot",
+      "system_note": "One-shot LLM dependency DAG plus constraint-aware online scheduler allocates ready tasks to idle heterogeneous robots in real time; reports 5-15x faster reasoning and up to 38% makespan reduction, with simulation and real dual-arm validation."
     }
   ]
 }

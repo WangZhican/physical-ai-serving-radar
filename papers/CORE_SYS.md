@@ -88,3 +88,11 @@ A fleet/cloud actor-learner substrate: multiple robots stream on-policy trajecto
 ## Real-time multi-robot control runtime
 - [**multipanda_ros2**](https://arxiv.org/abs/2602.02269) — ICRA 2026 — **A**, Routes 2/3/9. Open-source ROS2 runtime for controlling arbitrary numbers of Franka robots from one process; sustains a 1 kHz torque-control loop, supports <=2 ms controller switching and runtime recovery, and exposes matched simulation/real interfaces for reproducible multi-robot benchmarking. [Repo](https://github.com/tenfoldpaper/multipanda_ros2) (~88 stars / 39 forks in current crawl).
 
+
+### OSDAG — Online Scheduling for Efficient Multi-Robot Collaboration (2026)
+- Routes: fleet-scale/multi-robot serving; composite planner/execution runtime.
+- Contribution: dependency/resource DAG plus constraint-aware online ready-task scheduling across heterogeneous robots.
+- Result: 5-15x faster reasoning; up to 38% makespan reduction; simulation + real dual-arm validation.
+- Paper: https://arxiv.org/abs/2606.15255
+- Project: http://thanhnguyencanh.github.io/LLM_DAG4MultiRobot
+- Priority: A- (strong execution scheduler; not GPU-serving/resource-manager).

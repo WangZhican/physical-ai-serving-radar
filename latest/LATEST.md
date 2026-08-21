@@ -171,3 +171,9 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 
 ## 2026-08-22 01:01 CST
 24h/7d fresh scan plus targeted 30d systems recovery completed. No new paper crossed the SYS-first promotion threshold. Re-hit canonical Kairos/ROSA/PhyAI and world-state/middleware routes; emerging streamlib deadline-driven on-device runtime and Kyostra deterministic execution-contract stack were identified as ecosystem leads for paper-backed reverse census. Fleet SLO, world-state migration, Zenoh/DDS enforcement, and HELIOS monitoring remain active frontiers.
+
+## 2026-08-22 02:00 CST
+- New CORE_SYS: OSDAG (arXiv:2606.15255), A-, Routes 1/7. Constraint-aware online scheduler consumes an LLM-generated dependency/resource DAG and dispatches ready tasks to idle heterogeneous robots; reports 5-15x faster reasoning and up to 38% makespan reduction.
+- Fresh 24h/7d scan found no newer direct promotion; OSDAG came from historical omission recovery.
+- Public canonical state: 115 works / 88 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH.
+- Next: OSDAG references/same-group -> stronger fleet admission/fairness/deadline/SLO -> PCS/WorldMove -> Zenoh/DDS enforcement -> HELIOS monitor.
