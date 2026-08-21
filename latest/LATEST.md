@@ -159,3 +159,11 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Armory remains the strongest directly verified multi-robot policy-serving scheduler found in this pass; no independent system with stronger admission/fairness/deadline/SLO mechanisms surfaced.
 - Public canonical state remains **114 works / 87 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.
 - Next: reverse-census Strands Robots/Zenoh mesh and remote-policy references for paper-backed runtime mechanisms; fleet SLO/admission beyond Armory; persistent world-state fork/backtrack/migration; Zenoh/DDS enforcement; pending legal-PDF resolution; HELIOS VLA-serving monitor.
+
+
+### 2026-08-22 00:02 CST
+- Fresh 24h/7d SYS-first scan plus targeted 30d omission recovery completed; **no new paper promotion** crossed the systems bar.
+- Coverage: Physical-AI runtime/serving, robot policy-server scheduling, fleet admission/fairness/deadline/SLO, world-state migration, and ROS2/Zenoh timing/isolation. Canonical Armory, PhyAI, VLAgents, LeRobot, and GR00T paths were re-hit and deduplicated.
+- New interoperability evidence: limb documents a standardized WebSocket policy-server contract aimed at protocol fragmentation across OpenPI/LeRobot/Octo/StarVLA/GR00T; StarVLA exposes a GR00T-compatible ZMQ server. Neither is promoted without a paper-backed novel scheduler/resource mechanism.
+- Public canonical state remains **114 works / 87 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.
+- Next: policy-server protocol/interoperability census -> paper-backed multi-client admission/fairness/deadline/SLO -> persistent world-state fork/backtrack/migration -> Zenoh/DDS enforcement -> HELIOS VLA-serving monitor.
