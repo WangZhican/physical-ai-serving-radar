@@ -44,3 +44,6 @@ Route 9 includes cloud-native simulation platforms only when they contribute sch
 
 ### 2026-08-21 refinement: distributed VLA RL as Physical-AI runtime infrastructure
 Routes 2/6/7/9 explicitly include distributed VLA RL systems when the contribution is runtime/resource infrastructure across simulator interaction, inference rollout, actor training, dynamic batching, environment sharding, communication, or multi-GPU scaling. Pure RL algorithm improvements remain outside `CORE_SYS`. RL-VLA3 is the predecessor/neighbor anchor; D-VLA is a later systems point with stronger plane-decoupling/VRAM/topology mechanisms.
+### Embodied learning infrastructure: robots as first-class resources
+RLinf-USER extends the systems map from GPU/server resource management into physical-resource management: heterogeneous robots are discovered, scheduled and coordinated alongside GPUs, while cloud-edge data channels, weight synchronization and persistent state are managed by one runtime substrate. RLinf-VLA complements this with simulator/inference/training resource-allocation modes. This branch is distinct from algorithm-only VLA/RL work.
+

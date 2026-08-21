@@ -77,3 +77,7 @@ A hierarchical multi-robot runtime with centralized task management and decentra
 [Paper](https://arxiv.org/abs/2601.03044) · [AGIBOT project page](https://finch.agibot.com/research/sop)
 
 A fleet/cloud actor-learner substrate: multiple robots stream on-policy trajectories and human interventions to a centralized cloud learner, and asynchronously receive updated shared policies. The architecture is algorithm-agnostic and is demonstrated with HG-DAgger and RECAP. AGIBOT reports a four-robot configuration reaching 92.5% success after 3 hours versus 80.5% for one robot, and reaching 80% success in 71.7 minutes versus 173.6 minutes (2.4× faster). No official implementation repository was verified in this scan.
+## RLinf embodied-learning infrastructure — 2026-08-21
+- **RLinf-VLA** — RSS 2026 — Routes 2/6/7/9 — `A+`. Unified simulator/model/algorithm interfaces and collocated/disaggregated/hybrid GPU resource allocation; hybrid pipeline allocation reports 1.61×–1.88× speedup, with project-level comparison up to 2.27×. [Paper](https://arxiv.org/abs/2510.06710) · [Project](https://rlinf-vla.github.io/) · [Repo](https://github.com/RLinf/RLinf)
+- **RLinf-USER** — RSS 2026 — Routes 1/2/4/6/7/9 — `A+`. Robots become first-class schedulable hardware resources alongside GPUs; adaptive cloud-edge networking/data channels, SM-aware weight synchronization, asynchronous online learning, persistent cache-aware buffering and crash recovery. [Paper](https://arxiv.org/abs/2602.07837) · [Project](https://rlinf-user.github.io/) · [Repo](https://github.com/RLinf/RLinf)
+

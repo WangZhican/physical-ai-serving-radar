@@ -122,3 +122,8 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Fresh 24h/7d SYS-first scan found no newer direct serving/runtime promotion; additions came from AGIBOT Finch/Jianlan Luo same-group omission recovery.
 - Public state: **110 verified works / 83 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
 - Next: SOP/LWD references and scalable-robot-learning lineage; fleet admission/fairness/deadline/SLO beyond Armory; PCS/WorldMove state migration; Zenoh/DDS enforcement; pending legal full-text retries; VLA-serving HELIOS monitor.
+## 2026-08-21 17:01 CST
+- **CORE_SYS +2**: [RLinf-VLA](https://arxiv.org/abs/2510.06710) (RSS 2026) — unified VLA+RL infrastructure with collocated/disaggregated/hybrid GPU allocation across simulator rendering, policy inference and training; official shared [RLinf](https://github.com/RLinf/RLinf) repository has ~3.6k stars in the current public crawl.
+- **CORE_SYS +2 (second item)**: [RLinf-USER](https://arxiv.org/abs/2602.07837) (RSS 2026) — treats physical robots as first-class schedulable resources alongside GPUs, with heterogeneous robot discovery/scheduling, cloud-edge data channels, SM-aware weight synchronization, asynchronous execution and persistent cache-aware state.
+- Fresh 24h/7d SYS-first scan found no newer direct Physical-AI serving promotion; both works were recovered through 30d/historical RLinf lineage audit.
+

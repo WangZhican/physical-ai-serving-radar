@@ -76,3 +76,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added **Learning while Deploying (LWD)** (arXiv:2605.00416v2) to `SYS_ALG_BOUNDARY / A`: substantial fleet deployment infrastructure, but algorithmic novelty remains central.
 - Refined Route 1 to include deployment-to-learning actor/learner loops and asynchronous shared-policy synchronization alongside inference-serving/fleet-scheduling systems.
 - Public dataset updated to **110 verified works / 83 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.
+## 2026-08-21 17:01 CST
+- Added RLinf-VLA and RLinf-USER as `CORE_SYS / A+` after RLinf lineage omission recovery.
+- Updated public dataset to 112 records / 85 CORE_SYS.
+- Added taxonomy note for robots as first-class schedulable resources and embodied-learning infrastructure.
+

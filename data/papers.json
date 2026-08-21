@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21 16:04 CST",
-  "count": 110,
+  "updated": "2026-08-21 17:01 CST",
+  "count": 112,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -166,6 +166,7 @@
     {
       "id": "doi:10.1145/3767295.3769389",
       "title": "Efficient Multimodal Serving via Module Multiplexing",
+      "system": "Eevee",
       "class": "CORE_SYS",
       "route": [
         6,
@@ -234,6 +235,7 @@
     {
       "id": "arxiv:2603.12707",
       "title": "Cost-Efficient Multimodal LLM Inference via Cross-Tier GPU Heterogeneity",
+      "system": "HeteroServe",
       "class": "CORE_SYS",
       "route": [
         4,
@@ -334,7 +336,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "introduces TTFA/reaction-time analysis plus streaming client-server action dispatch; method core remains horizon-aware flow sampling"
     },
     {
       "id": "arxiv:2603.13966",
@@ -346,7 +349,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "model-server/benchmark decoupling via WebSocket+msgpack, Docker isolation, episode sharding and batch inference"
     },
     {
       "id": "arxiv:2603.28565",
@@ -373,7 +377,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "four-stage algorithm-system co-design: streaming KV reuse, speculative reasoning, adaptive flow-step cache, CUDA Graph/kernel fusion"
     },
     {
       "id": "arxiv:2601.11590",
@@ -462,6 +467,7 @@
     {
       "id": "arxiv:2509.24381",
       "title": "RServe: Overlapping Encoding and Prefill for Efficient LMM Inference",
+      "system": "REDServe",
       "class": "CORE_SYS",
       "route": [
         3,
@@ -485,7 +491,8 @@
       "year": 2025,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "deployment planner for generic any-to-any models; maximizes SLO-qualified goodput"
     },
     {
       "id": "arxiv:2608.15502",
@@ -498,7 +505,8 @@
       "year": 2026,
       "venue": "APPT 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "architecture-agnostic VLA stage abstraction; joint device-edge-network latency/energy model; runtime adaptive partitioning under 20Hz SLO"
     },
     {
       "id": "arxiv:2608.14586",
@@ -512,7 +520,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "hybrid CPU-GPU block-layer partitioning, cross-frame asynchronous pipeline, real-vehicle coexistence under GPU-memory constraints"
     },
     {
       "id": "arxiv:2605.11678",
@@ -525,7 +534,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "system-only layer-demand swapping, transfer-compute overlap, GPU-resident layer policy and configuration performance model"
     },
     {
       "id": "arxiv:2607.12659",
@@ -539,7 +549,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "onboard async VLA plus confidence scheduling, CUDA graph reuse, GPU-resident buffers, flow unrolling and an efficient llama.cpp-based inference engine"
     },
     {
       "id": "arxiv:2608.01880",
@@ -552,7 +563,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "empirical deployment study of six asynchronous WAM execution strategies; establishes temporal alignment as a systems constraint"
     },
     {
       "id": "arxiv:2606.16533",
@@ -565,7 +577,8 @@
       "year": 2026,
       "venue": "Technical Report",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "model-centric world-action stack with deployment-aware co-design; useful WAM runtime workload signal, not the Kairos serving system"
     },
     {
       "id": "arxiv:2605.06222",
@@ -578,7 +591,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "future-reality verification adapts WAM execution horizon; useful for future execution-aware rollout schedulers"
     },
     {
       "id": "arxiv:2407.04292",
@@ -591,11 +605,13 @@
       "year": 2025,
       "venue": "ISCA 2025",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "decouples LLM inference, robotic control, and communication; pipelines communication with execution and adds a dedicated real-time control accelerator"
     },
     {
       "id": "arxiv:2608.15636",
       "title": "Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification",
+      "system": "SpecVLA",
       "class": "SYS_ALG_BOUNDARY",
       "route": [
         3,
@@ -604,7 +620,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "GPU + robotic-specific hardware module with speculative VLA/sVLA parallel dataflow; state-aware long-horizon prediction and selective verification"
     },
     {
       "id": "arxiv:2608.16885",
@@ -617,7 +634,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "dynamic test-time compute/search over high-level subtasks; important workload signal for future compute-aware composite Physical-AI schedulers"
     },
     {
       "id": "arxiv:2603.26360",
@@ -631,7 +649,8 @@
       "year": 2026,
       "venue": "CVPR 2026 Workshop",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "end-to-end real-robot deployment stack with remote VLA server, local robot/camera runtime, latency calibration, time-axis trajectory planning, local smoothing/MPC and aligned logging"
     },
     {
       "id": "arxiv:2512.24673",
@@ -645,11 +664,13 @@
       "year": 2025,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "model-agnostic client-server middleware using ZMQ; unified VLA/robot interfaces, timestamp-aware real-time data manager, multithreaded perception/inference/post-processing/control, trajectory smoothing and inter-chunk temporal fusion for continuous execution"
     },
     {
       "id": "arxiv:2608.00337",
       "title": "Action Chunk Scheduling for Batched Robot Policy Serving",
+      "system": "Armory",
       "class": "CORE_SYS",
       "route": [
         1,
@@ -658,7 +679,8 @@
       "year": 2026,
       "venue": "RSS 2026 Lab-to-Production Workshop",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "remote-GPU multi-robot policy serving; server mirrors per-robot action queues, in-flight chunks, execution horizon and communication delay; Lookahead control-aware batching improves real-world fleet throughput by up to 18%"
     },
     {
       "id": "arxiv:2604.24039",
@@ -671,7 +693,8 @@
       "year": 2026,
       "venue": "MLSys 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "runtime cache of frequent plan transitions plus asynchronous background Cache Updater; across 12 configurations reports 65% lower simulation latency, 50% lower token usage and 22% average success-rate improvement"
     },
     {
       "id": "arxiv:2607.21686",
@@ -684,11 +707,13 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "defines minimal non-recomputable Persistent Computational State for world-model sessions; checkpoint/restore 0.012 ms versus 1.85 s generation step, measured to 1,024 resident sessions; argues relevance-to-return rather than recency eviction"
     },
     {
       "id": "arxiv:2607.10389",
       "title": "Stateful Worlds, Stateless Elasticity: Exact-State Serving for Interactive World Models",
+      "system": "WorldMove",
       "class": "CORE_SYS",
       "route": [
         6,
@@ -697,7 +722,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "bit-exact live world-state migration and admission control; 18.8 ms same-node relocation, 92.1-94.8 Gb/s checksum-verified transport on 100 Gb fabric, 48/48 exact migrations in consolidation loop"
     },
     {
       "id": "arxiv:2601.11250",
@@ -711,7 +737,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "modular Gymnasium-style policy server; zero-copy shared memory for local simulation and compressed streaming for remote robots; integrates seven policies and outperforms default OpenVLA/OpenPi/LeRobot policy servers in reported communication benchmarks"
     },
     {
       "id": "arxiv:2608.09892",
@@ -724,7 +751,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "standard observation/action/trajectory schemas plus dependency-isolated client/server architecture and WebSocket remote deployment; integrates 42 robot policies and reduces N-by-M integration to O(N+M)"
     },
     {
       "id": "arxiv:2603.07949",
@@ -737,7 +765,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "kinematic/proprioceptive-state-driven dynamic edge-cloud offloading for VLA control; compatibility- and redundancy-aware routing improves robustness to visual noise and reports up to 1.73x speedup with 5-7% routing overhead"
     },
     {
       "id": "arxiv:2603.20711",
@@ -750,7 +779,8 @@
       "year": 2026,
       "venue": "IJCNN 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "model-hardware-aware split-point selection plus network-aware runtime deployment adjustment for heterogeneous VLA structures; accepted IJCNN 2026; reports 3.16-3.28x speedup on Orin+A100 and 2.10-2.23x on Thor+A100 with about 2.55-2.62% overhead"
     },
     {
       "id": "arxiv:2606.17574",
@@ -762,7 +792,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "single evaluation runtime across Physical-AI System 2/1/0 using task, resource and result abstractions; one episode driver, acquire/release resource protocol and identity-addressed trace; supports multi-node scaling and cross-layer failure localization"
     },
     {
       "id": "arxiv:2608.16556",
@@ -774,7 +805,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "empirical/execution-domain extension of DeepInsight rather than a new core architecture; binds simulators, policy servers and physical robots behind the same resource protocol, adds matched sim-real parent trace identity, safety/intervention outcomes and repair-oriented cross-layer diagnosis"
     },
     {
       "id": "arxiv:2506.18123",
@@ -786,7 +818,8 @@
       "year": 2025,
       "venue": "CoRL 2025 Oral",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "distributed double-blind real-robot evaluation network across seven institutions; aggregates pairwise policy comparisons over diverse tasks/environments into a global ranking; more than 600 real-robot pairwise episodes over seven policies"
     },
     {
       "id": "arxiv:2503.24278",
@@ -798,7 +831,8 @@
       "year": 2025,
       "venue": "CoRL 2025",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "24/7 real-robot evaluation-as-a-service with job queue/scheduler, automatic success detection and scene reset; public WidowX evaluation stations accept remotely hosted policy servers"
     },
     {
       "id": "arxiv:2607.04434",
@@ -810,7 +844,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "unified sim-and-real evaluation infrastructure with heterogeneous parallel Isaac Sim, RoboDojo-RealEval remote cloud access, standardized hardware/scene reset/protocol/deployment interface, and XPolicyLab integration; covers 42 simulation and 18 real-world tasks"
     },
     {
       "id": "arxiv:2607.29169",
@@ -823,7 +858,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "plug-and-play inference-time safety wrapper around frozen pi0; monitors observation freshness, geometric/proprioceptive/action consistency, verifies candidate action chunks, and selects bounded execution modes including short-horizon execution, servo recovery, hold or safe failure; algorithm-heavy safeguarding method, so not promoted to CORE_SYS"
     },
     {
       "id": "arxiv:2607.26789",
@@ -837,7 +873,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "execution-time action-chunk verification using an action-conditioned world model, conformal intervention threshold, latency-aware hard prefixing and event-driven keyframe memory; restores closed-loop feedback under chunked execution but core novelty remains algorithmic verification"
     },
     {
       "id": "arxiv:2605.22446",
@@ -851,11 +888,13 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "pre-execution action-chunk verifier shared across physical execution and world-model imagination with a budget-aware dual-mode resampling scheduler; runtime-facing but verifier/training method dominates novelty"
     },
     {
       "id": "arxiv:2604.02965",
       "title": "Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA",
+      "system": "SV-VLA",
       "class": "SYS_ALG_BOUNDARY",
       "route": [
         3,
@@ -864,7 +903,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "decouples heavy low-frequency macro planning from lightweight frequent closed-loop verification on fresh observations and triggers replanning on mismatch; useful execution-loop abstraction but method is algorithm-centric rather than a serving system"
     },
     {
       "id": "arxiv:2606.09416",
@@ -878,7 +918,8 @@
       "year": 2026,
       "venue": "Middleware 2026 under review",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "systems vision paper proposing robot middleware as the Physical-AI harness across control, compute and communication; defines Projection/Isolation/Transfer enforcement and sketches a ROS 2 Harness Profile, but currently lacks implementation/evaluation, so watch rather than CORE_SYS"
     },
     {
       "id": "arxiv:2606.03724",
@@ -891,7 +932,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A-",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "formalizes executable-policy identity beyond checkpoint equality, including action representation, metadata-selected unnormalizer and controller conventions; valuable deployment-contract signal but not a runtime/serving system"
     },
     {
       "id": "arxiv:2606.10746",
@@ -905,7 +947,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "eBPF/kernel-selective ROS 2 observability that reconstructs DDS/Zenoh communication state without joining as a subscriber; across laptop/Jetson/Raspberry Pi, two DDS implementations and seven robot workloads keeps discovery graph within 0.5% of unobserved baseline, avoids 38.5% subscriber drops seen with domain-joining tools, and cuts observer CPU/memory up to 7x/28x"
     },
     {
       "id": "arxiv:2608.02242",
@@ -918,7 +961,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "closed-loop analytical model of ROS 2/DDS discovery under wireless contention, validated over 1,350 runs and 90 topologies; response-aware discovery policy reduces mean discovery completion time by 25.3-39.7%, directly relevant to fleet-scale middleware scalability"
     },
     {
       "id": "arxiv:2508.11366",
@@ -931,7 +975,8 @@
       "year": 2025,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "network-layer analysis and drop-in DDS/QoS optimization for large sensor payloads over lossy wireless links; addresses IP fragmentation, retransmission timing and buffer bursts without protocol changes and is directly relevant to edge/fleet Physical-AI communication runtime"
     },
     {
       "id": "arxiv:2508.10413",
@@ -944,11 +989,13 @@
       "year": 2025,
       "venue": "arXiv / IEEE TVT under review",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "probabilistic DDS reliable-transport latency model spanning heartbeat, fragmentation and retransmission; validated across 270 scenarios; provides deploy-time tuning basis for wireless robotic communication latency/reliability"
     },
     {
       "id": "arxiv:2509.03381",
       "title": "Dependency Chain Analysis of ROS 2 DDS QoS Policies: From Lifecycle Tutorial to Static Verification",
+      "system": "QoS Guard",
       "class": "CORE_SYS",
       "route": [
         2,
@@ -957,7 +1004,8 @@
       "year": 2025,
       "venue": "arXiv / IEEE IoT-J minor revision",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "predeployment static verifier for DDS XML profiles; formalizes 41 QoS dependency-violation rules across discovery/data/disassociation and flags configuration conflicts before live deployment"
     },
     {
       "id": "arxiv:2607.01304",
@@ -971,11 +1019,13 @@
       "year": 2026,
       "venue": "arXiv survey/roadmap",
       "priority": "B+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "systems survey/framework organizing ROS 2 middleware limits as Space, Time and State; useful taxonomy and omission-recovery anchor for topology abstraction, temporal predictability and state continuity, but not itself a new runtime implementation"
     },
     {
       "id": "arxiv:2601.21011",
       "title": "Meta-ROS: A Next-Generation Middleware Architecture for Adaptive and Scalable Robotic Systems",
+      "system": "Meta-ROS",
       "class": "CORE_SYS",
       "route": [
         2,
@@ -986,11 +1036,13 @@
       "year": 2026,
       "venue": "arXiv / submitted to ACM TAAS",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "lightweight cross-platform robotics middleware using ZeroMQ/Zenoh-style transports and ROS-like pub/sub abstractions; evaluated against ROS1/ROS2 with up to 30% higher throughput, lower latency/resource usage, plus retry/failover support. Relevant as a unified Physical-AI/robot runtime substrate, though venue/adoption maturity is below the ROS2/DDS trunk."
     },
     {
       "id": "doi:10.1109/RTAS65571.2025.00029",
       "title": "CROS-RT: Cross-Layer Priority Scheduling for Predictable Inter-Process Communication in ROS 2",
+      "system": "CROS-RT",
       "class": "CORE_SYS",
       "route": [
         2,
@@ -1000,11 +1052,13 @@
       "year": 2025,
       "venue": "RTAS 2025 Outstanding Paper / Best Paper",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "cross-layer ROS 2 communication scheduler aligning priorities across application, DDS/middleware and Linux kernel/network-driver layers; implements priority propagation, kernel-level message prioritization and dynamic kernel-thread adjustment. Evaluated on stable ROS 2 and reports up to 89.3% lower worst-case response time than vanilla ROS 2; official RTAS 2025 outstanding-paper listing and DGIST RTCL code/PDF artifacts verified."
     },
     {
       "id": "arxiv:2404.06452",
       "title": "PAAM: A Framework for Coordinated and Priority-Driven Accelerator Management in ROS 2",
+      "system": "PAAM",
       "class": "CORE_SYS",
       "route": [
         2,
@@ -1014,7 +1068,8 @@
       "year": 2024,
       "venue": "RTAS 2024 Best Paper + Best Student Paper",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "standalone ROS executor acting as a shared accelerator resource server for multi-process robot applications; centrally arbitrates GPU/TPU access with callback-chain priorities, admission/resource management and worst-case response-time analysis without modifying accelerator drivers. Reports up to 91% lower end-to-end response time for critical callback chains. Official RTAS best-paper evidence, author/lab source-code link and public Autoware reference implementation verified."
     },
     {
       "id": "doi:10.1109/RTAS65571.2025.00027",
@@ -1028,7 +1083,8 @@
       "year": 2025,
       "venue": "RTAS 2025",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "modifies the native ROS 2 Events Executor just enough to expose classical priority-based real-time scheduling semantics, enabling analytical WCRT/end-to-end bounds while remaining easy to integrate with stock ROS 2. Evaluation reports improvements in dropped jobs, WCRT, end-to-end latency and performance versus the default executor; this is executor/runtime scheduling infrastructure rather than only theory."
     },
     {
       "id": "doi:10.1109/RTAS65571.2025.00030",
@@ -1042,11 +1098,13 @@
       "year": 2025,
       "venue": "RTAS 2025",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "physical-state-aware mixed-criticality runtime demonstrated on a real F1Tenth car: environmental state drives scheduler mode switches; a custom ROS 2 executor implements preemptive EDF and runtime-adjustable task parameters. UPPAAL co-verifies physical safety and timing. Included as a strong precursor for Physical-AI state-aware deadline/resource scheduling rather than a generic formal-methods paper."
     },
     {
       "id": "title:theory-guided-adaptive-scheduling-for-ros2-rtns2025",
       "title": "Theory-Guided Adaptive Scheduling for ROS 2",
+      "system": "LaME",
       "class": "CORE_SYS",
       "route": [
         2,
@@ -1056,7 +1114,8 @@
       "year": 2025,
       "venue": "RTNS 2025",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "Latency Management Executor (LaME), a drop-in ROS 2 multi-threaded executor redesign that continuously monitors response times and dynamically adjusts threadclasses, chain-to-thread affinity and SCHED_DEADLINE resource budgets. It separates real-time from best-effort chains, uses online theory-guided WCRT tests, adapts to workload surges and CPU-frequency/resource changes, and reports over 400% better worst-case real-time-chain response times in adverse cases on the Autoware reference system / Jetson AGX Xavier. Official author-hosted paper and source-code repository verified."
     },
     {
       "id": "doi:10.1109/RTAS61025.2024.00025",
@@ -1147,7 +1206,9 @@
       "year": 2024,
       "venue": "ECRTS 2024",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "repo": "rtenlab/gcaps-super-repo",
+      "system_note": "device-driver-level GPU context scheduling and priority-based preemption for predictable real-time GPU tasks on NVIDIA Jetson; official implementation available"
     },
     {
       "id": "arxiv:2204.10208",
@@ -1160,11 +1221,14 @@
       "year": 2023,
       "venue": "Robotics and Autonomous Systems 161:104361",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "repo": "christophebedard/ros2-message-flow-analysis",
+      "system_note": "distributed ROS 2 tracing/observability infrastructure; reconstructs one-to-many and many-to-many causal message flow with low runtime overhead and an intermediate execution representation database"
     },
     {
       "id": "doi:10.1109/EUC57774.2022.00010",
       "title": "CARET: Chain-Aware ROS 2 Evaluation Tool",
+      "system": "CARET",
       "class": "CORE_SYS",
       "route": [
         8,
@@ -1173,7 +1237,9 @@
       "year": 2022,
       "venue": "IEEE EUC 2022",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "repo": "tier4/caret",
+      "system_note": "Chain-aware ROS 2 performance-analysis infrastructure measuring callback, communication, node and end-to-end path latency with dedicated tracepoints/message tracking; validated on Autoware.Universe. Official TIER IV repository verified (~104 stars at 2026-08-20 crawl)."
     },
     {
       "id": "doi:10.1109/RTAS58335.2023.00015",
@@ -1279,7 +1345,8 @@
       "year": 2025,
       "venue": "IEEE ISCC / DistInSys 2025 Best Paper",
       "priority": "B+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "real-world ROS 2 edge-cloud networking comparison of Zenoh and VPN across latency, throughput and fault tolerance; useful deployment evidence and Zenoh state/connectivity signal, but it evaluates existing middleware rather than introducing a new serving/runtime mechanism, so keep WATCH_ONLY"
     },
     {
       "id": "arxiv:2602.22818",
@@ -1293,7 +1360,8 @@
       "year": 2026,
       "venue": "ICLR 2026 Poster",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "end-to-end robot-learning infrastructure spanning hardware/middleware, data collection/streaming, policy training and deployment; generalized remote asynchronous inference uses a gRPC PolicyServer/RobotClient split, action queues, overlap aggregation and configurable chunk thresholds to decouple action execution from VLA inference and eliminate inference-idle frames; ICLR paper includes real-robot async-vs-sync evaluation"
     },
     {
       "id": "arxiv:2510.10379",
@@ -1306,7 +1374,8 @@
       "year": 2025,
       "venue": "RSS 2025 Workshop on Scalable and Resilient Multi-Robot Systems",
       "priority": "A-",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "system_note": "centralized fleet orchestration framework with containerized per-robot services, modular task planner and allocator, a task-status/schedule manager, shared declarative world state, two-way execution feedback and dependency-aware replanning; complements model-serving systems such as Armory/ROSA by covering the planner-to-fleet execution layer rather than GPU inference scheduling"
     },
     {
       "id": "watch:helios-vla-serving-eurosys27-submission",
@@ -1319,11 +1388,13 @@
       "year": 2027,
       "venue": "EuroSys 2027 (in submission; author/CV disclosure only)",
       "priority": "WATCH-A",
-      "status": "WATCH_VERIFIED_METADATA_ONLY"
+      "status": "WATCH_VERIFIED_METADATA_ONLY",
+      "system_note": "Author publication page and CV disclose a heterogeneous lightweight VLA model serving system submitted to EuroSys 2027; no public paper/arXiv/repo or technical details verified yet, so do not promote beyond WATCH_ONLY."
     },
     {
       "id": "techreport:heygen-helios-avatarv-2026",
       "title": "HELIOS: Unified GPU Infrastructure for Training, Inference, and Data at Scale",
+      "system": "HeyGen HELIOS",
       "class": "CORE_SYS",
       "route": [
         6,
@@ -1334,11 +1405,13 @@
       "venue": "HeyGen Research technical report / Avatar V infrastructure section",
       "priority": "A+",
       "status": "VERIFIED",
-      "official_page": "https://www.heygen.com/research/avatar-v-infrastructure"
+      "official_page": "https://www.heygen.com/research/avatar-v-infrastructure",
+      "system_note": "production-scale unified GPU infrastructure for multimodal/video AI: 5,000+ GPUs across 5+ cloud providers and 15+ cells; two-stage QoS-aware global/cell scheduling improves GPU utilization by 15% and reduces non-productive GPU time by ~20%; declarative reconciliation engine replaces Ray for heterogeneous video-processing DAGs, supports 200K+ concurrent tasks, >95% GPU utilization and <30s node-failure detection. Strong transferable industrial serving/infrastructure evidence, not a Physical-AI-specific runtime."
     },
     {
       "id": "arxiv:2505.12658",
       "title": "HydraInfer: Hybrid Disaggregated Scheduling for Multimodal Large Language Model Serving",
+      "system": "HydraInfer",
       "class": "CORE_SYS",
       "route": [
         6,
@@ -1348,11 +1421,13 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2505.12658"
+      "official_page": "https://arxiv.org/abs/2505.12658",
+      "system_note": "Hybrid Encode-Prefill-Decode disaggregation for MLLM serving. Schedules encode/prefill/decode onto separate heterogeneous inference instances, flexibly reallocates resources across stages, and uses stage-level batching/load balancing with visual-language parallelism. arXiv v2 reports up to 4x throughput over vLLM on an 8xH800 node while meeting the 90th-percentile request SLO. Adjacent multimodal SYS trunk; transferable to composite Physical-AI pipelines, not a robot-specific runtime."
     },
     {
       "id": "arxiv:2607.16074",
       "title": "JoyNexus: Service-Oriented Multi-Tenant Post-Training for VLA Models",
+      "system": "JoyNexus",
       "class": "CORE_SYS",
       "route": [
         2,
@@ -1363,11 +1438,13 @@
       "venue": "arXiv",
       "priority": "A+",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2607.16074"
+      "official_page": "https://arxiv.org/abs/2607.16074",
+      "system_note": "multi-tenant VLA service substrate spanning SFT, RL, rollout and evaluation; Master Service controls resource allocation/session placement/service routing; resident Training/Inference/Environment Services preserve tenant-private action modules, optimizer/policy-version state, use separate global Training and Inference queues, group batching across compatible VLA schemas, service-level fault isolation and elastic rollout scaling. Direct Physical-AI service/runtime infrastructure rather than an algorithmic VLA accelerator."
     },
     {
       "id": "arxiv:2512.17574",
       "title": "Enabling Disaggregated Multi-Stage MLLM Inference via GPU-Internal Scheduling and Resource Sharing",
+      "system": "FlashCodec + UnifiedServe",
       "class": "CORE_SYS",
       "route": [
         6,
@@ -1377,11 +1454,13 @@
       "venue": "arXiv",
       "priority": "A+",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2512.17574"
+      "official_page": "https://arxiv.org/abs/2512.17574",
+      "system_note": "end-to-end MLLM serving stack: FlashCodec collaboratively uses multi-GPU/NVDEC resources for low-latency video decoding; UnifiedServe logically decouples preprocessing, encode/prefill and decode while physically sharing GPU resources, uses asynchronous coordinated workers and intermediate-state buffering to reduce inter-stage blocking/resource fragmentation. Reports up to 3.0x more served requests, 1.5x tighter SLOs, and up to 4.4x throughput versus baselines. Adjacent multimodal SYS trunk with direct relevance to composite Physical-AI pipelines."
     },
     {
       "id": "arxiv:2606.27962",
       "title": "Building a Scalable, Reproducible, Evaluatable, and Closed-Loop Simulation Environment Foundation for Embodied Intelligence",
+      "system": "Cloud-Native Simulation Infrastructure for Embodied Intelligence",
       "class": "CORE_SYS",
       "route": [
         7,
@@ -1391,11 +1470,13 @@
       "venue": "arXiv / infrastructure white paper",
       "priority": "A-",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2606.27962"
+      "official_page": "https://arxiv.org/abs/2606.27962",
+      "system_note": "Cloud-native embodied-intelligence simulation/evaluation infrastructure: elastic CPU/GPU resource pooling and scheduling, containerized simulation, unified model-service access, standardized task/evaluation protocols, trajectory/data management, multi-model/multi-task execution, and failure-driven closed-loop data regeneration. Important infrastructure omission recovered from JoyNexus/RL-VLA3 same-group census. Current paper explicitly describes an early construction stage (single task on Isaac Sim 5.1), so maturity is rated A- rather than A/A+. No official public implementation repository was verified in this run."
     },
     {
       "id": "arxiv:2605.13276",
       "title": "D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models",
+      "system": "D-VLA",
       "class": "CORE_SYS",
       "route": [
         2,
@@ -1407,11 +1488,13 @@
       "venue": "arXiv",
       "priority": "A+",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2605.13276"
+      "official_page": "https://arxiv.org/abs/2605.13276",
+      "system_note": "Distributed embodied/VLA RL systems framework. Plane Decoupling separates high-frequency training data from low-frequency weight-control traffic; a four-thread Swimlane pipeline overlaps sampling, inference, gradient computation and parameter distribution; dual-pool VRAM management and topology-aware replication address simulator/model resource conflict, memory fragmentation and communication. Included as Physical-AI training/rollout infrastructure rather than an algorithmic VLA accelerator."
     },
     {
       "id": "arxiv:2602.05765",
       "title": "RL-VLA3: A Flexible and Asynchronous Reinforcement Learning Framework for VLA Training",
+      "system": "RL-VLA3",
       "class": "CORE_SYS",
       "route": [
         2,
@@ -1423,7 +1506,8 @@
       "venue": "arXiv v2; earlier version published at ICLR 2026 SPOT Workshop",
       "priority": "A+",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2602.05765"
+      "official_page": "https://arxiv.org/abs/2602.05765",
+      "system_note": "Fully asynchronous distributed VLA RL infrastructure. The current arXiv v2 uses fine-grained asynchronous interaction across simulation, inference and training, with dynamic batching schedulers and flexible environment sharding; it reports up to 85.2% throughput improvement over synchronous baselines while preserving sample efficiency and validates scaling from 8 to 256 GPUs. This is a direct systems predecessor/neighbor of D-VLA and belongs in the Physical-AI training/rollout infrastructure trunk, not ordinary Efficient-VLA algorithms. An older ICLR 2026 SPOT Workshop version reports different throughput figures; keep evidence source/version scoped rather than mixing them. No official implementation repository was verified in this run."
     },
     {
       "id": "arxiv:2607.09776",
@@ -1436,8 +1520,7 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2607.09776"
+      "status": "VERIFIED"
     },
     {
       "id": "doi:10.3389/frobt.2026.1843313",
@@ -1450,30 +1533,86 @@
       "year": 2026,
       "venue": "Frontiers in Robotics and AI",
       "priority": "A-",
-      "status": "VERIFIED",
-      "official_page": "https://doi.org/10.3389/frobt.2026.1843313"
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2601.03044",
       "title": "SOP: A Scalable Online Post-Training System for Vision-Language-Action Models",
+      "system": "SOP",
       "class": "CORE_SYS",
-      "route": [1, 2, 7, 9],
+      "route": [
+        1,
+        2,
+        7,
+        9
+      ],
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2601.03044"
+      "official_page": "https://arxiv.org/abs/2601.03044",
+      "project_page": "https://finch.agibot.com/research/sop",
+      "system_note": "Fleet-scale online post-training infrastructure for generalist VLA deployment. Multiple robots stream on-policy trajectories and human interventions to a centralized cloud learner and asynchronously receive updated policies, forming a low-latency actor-learner loop that is algorithm-agnostic (demonstrated with HG-DAgger and RECAP). AGIBOT reports 4-robot post-training reaching 92.5% success within 3h versus 80.5% for one robot and reaching 80% success in 71.7 min versus 173.6 min (2.4x faster); updated parameters are synchronized back to the fleet within minutes. Included as CORE_SYS because its primary contribution is a distributed fleet/cloud execution-learning substrate rather than a VLA algorithm itself. No official implementation repository was verified in this run."
     },
     {
       "id": "arxiv:2605.00416",
       "title": "Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+      "system": "LWD",
       "class": "SYS_ALG_BOUNDARY",
-      "route": [1, 7, 9],
+      "route": [
+        1,
+        7,
+        9
+      ],
       "year": 2026,
       "venue": "arXiv v2",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2605.00416"
+      "official_page": "https://arxiv.org/abs/2605.00416",
+      "project_page": "https://finch.agibot.com/research/lwd",
+      "system_note": "Follow-on fleet deployment-to-learning loop from the AGIBOT Finch/Jianlan Luo lineage. A fleet of 16 dual-arm robots uploads heterogeneous deployment experience into shared replay and receives periodically improved shared policies; the paper reaches 95% average success across eight real-world tasks, including 3-5 minute long-horizon tasks. Kept at SYS_ALG_BOUNDARY because the paper's central novelty is offline-to-online RL (DIVL + QAM) even though it has real fleet-scale infrastructure and continual deployment semantics. No official implementation repository was verified in this run."
+    },
+    {
+      "id": "arxiv:2510.06710",
+      "title": "RLinf-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models",
+      "system": "RLinf-VLA",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        6,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "RSS 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2510.06710",
+      "project_page": "https://rlinf-vla.github.io/",
+      "repo": "https://github.com/RLinf/RLinf",
+      "system_note": "Unified scalable VLA+RL systems framework. It standardizes diverse VLA architectures, RL algorithms and heterogeneous simulators behind one interface, and exposes collocated, disaggregated and hybrid GPU resource-allocation modes across rendering, inference and training. The hybrid fine-grained pipeline allocation reports 1.61x-1.88x speedup within the system study and the project reports up to 2.27x versus existing framework baselines. Official RLinf documentation lists the work as RSS 2026; the shared RLinf repository has roughly 3.6k stars in the current public crawl. Included as CORE_SYS because the primary contribution is unified resource allocation/execution infrastructure for embodied RL rather than a VLA algorithm."
+    },
+    {
+      "id": "arxiv:2602.07837",
+      "title": "RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI",
+      "system": "RLinf-USER",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "RSS 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2602.07837",
+      "project_page": "https://rlinf-user.github.io/",
+      "repo": "https://github.com/RLinf/RLinf",
+      "system_note": "Real-world online-policy-learning system that treats physical robots as first-class schedulable hardware resources alongside GPUs. USER provides automatic heterogeneous-robot discovery/management/scheduling, adaptive cloud-edge tunneling and distributed data channels, SM-aware weight synchronization, a fully asynchronous data-generation/training/sync pipeline, and a persistent cache-aware buffer with crash recovery and historical-data reuse. Official RLinf documentation lists the work as RSS 2026. The system-efficiency study reports asynchronous pi0+HG-DAgger generation/training periods improved by 1.20x/5.70x and CNN+SAC by 1.55x/4.61x versus synchronous execution. Included as CORE_SYS because it is a direct Physical-AI resource/runtime substrate spanning robots, GPUs, networking and persistent state."
     }
   ]
 }
