@@ -38,3 +38,6 @@ vLLM-Omni, M*, Eevee, TriInfer, Cornserve/Cornfigurator, Omni-Flow, LiveServe, H
 - **Service-oriented multi-tenant VLA runtime**: resident shared base models + tenant-private action/training state + separate training/inference queues + environment sessions + group batching + fault isolation + elastic rollouts. Anchor: [JoyNexus](https://arxiv.org/abs/2607.16074).
 - **Logical stage disaggregation with physical GPU sharing**: treat preprocessing/video decode as a first-class serving stage and avoid rigid one-stage-per-GPU placement. Anchor: [FlashCodec + UnifiedServe](https://arxiv.org/abs/2512.17574).
 
+
+### 2026-08-21 refinement: cloud-native embodied simulation as Route 9 infrastructure
+Route 9 includes cloud-native simulation platforms only when they contribute schedulable compute pools, containerized multi-task execution, standardized model/task interfaces, reproducible evaluation/data governance, and closed-loop replay/regeneration. Pure simulator or embodied-learning algorithms remain outside `CORE_SYS`. Route 7 cross-links platforms that compose model, environment, evaluation, and data services.

@@ -52,3 +52,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Refined the research map with multi-tenant VLA service substrates and logical-disaggregation/physical-sharing MLLM execution.
 - Public dataset now contains 103 verified records; no private PDF archive or server-local metadata is mirrored.
 
+
+## 2026-08-21 10:00 CST
+- Added arXiv:2606.27962 as `CORE_SYS / A-` through same-group omission recovery.
+- Refined Route 9 to explicitly include cloud-native embodied simulation/evaluation infrastructure under strict systems criteria.
+- Refreshed public machine-readable dataset to 104 verified works.

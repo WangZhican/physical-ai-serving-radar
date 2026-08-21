@@ -81,3 +81,10 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Public state: **103 verified works / 78 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
 - Next: JoyNexus VLA multi-tenant/fleet-SLO reverse census; UnifiedServe same-group GPU-internal stage-sharing census; planner/composite serving; persistent world-state fork/backtrack/migration; Zenoh/DDS enforcement.
 
+
+### 2026-08-21 10:00 CST
+- **CORE_SYS +1:** [Cloud-Native Simulation Infrastructure for Embodied Intelligence](https://arxiv.org/abs/2606.27962) — recovered via JoyNexus/RL-VLA3 same-group census.
+- System role: elastic CPU/GPU resource pooling and scheduling, containerized simulation, unified model-service access, standardized task/evaluation protocols, trajectory/data management, and failure-driven closed-loop regeneration for multi-model/multi-task embodied workloads.
+- Maturity deliberately rated **A-**: the paper explicitly says its current construction stage is still early (single task on Isaac Sim 5.1); no official public implementation repo was verified.
+- Fresh 24h/7d SYS-first scans produced no newer promotion; public radar state is **104 works / 79 CORE_SYS / 16 SYS_ALG / 4 ALG / 5 WATCH**.
+- Next: concrete D-VLA / distributed simulation-service follow-ons, UnifiedServe GPU-stage sharing, fleet admission/fairness/SLO, persistent world-state migration, Zenoh/DDS enforcement, and legal pending-PDF retries.
