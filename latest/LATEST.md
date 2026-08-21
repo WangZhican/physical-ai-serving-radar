@@ -177,3 +177,7 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Fresh 24h/7d scan found no newer direct promotion; OSDAG came from historical omission recovery.
 - Public canonical state: 115 works / 88 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH.
 - Next: OSDAG references/same-group -> stronger fleet admission/fairness/deadline/SLO -> PCS/WorldMove -> Zenoh/DDS enforcement -> HELIOS monitor.
+
+
+### 2026-08-22 03:01 CST scan
+Fresh 24h/7d plus targeted 30d scan completed. No new SYS-first promotion. Reviewed RSS 2026 ALIS-WC and JFR 2026 M3RS as fleet-scheduling boundary leads; neither was promoted because no new serving/resource-runtime abstraction was verified. Frontier: OSDAG/ALIS-WC reverse census, fleet admission/fairness/deadline/SLO, world-state runtime, Zenoh/DDS enforcement.
