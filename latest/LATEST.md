@@ -127,3 +127,8 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - **CORE_SYS +2 (second item)**: [RLinf-USER](https://arxiv.org/abs/2602.07837) (RSS 2026) — treats physical robots as first-class schedulable resources alongside GPUs, with heterogeneous robot discovery/scheduling, cloud-edge data channels, SM-aware weight synchronization, asynchronous execution and persistent cache-aware state.
 - Fresh 24h/7d SYS-first scan found no newer direct Physical-AI serving promotion; both works were recovered through 30d/historical RLinf lineage audit.
 
+
+## 2026-08-21 18:00 CST
+- **CORE_SYS +1:** [RLinf](https://arxiv.org/abs/2509.15965) (OSDI 2026) — M2Flow, adaptive communication, context switching, elastic pipelining and profiling-guided scheduling; direct embodied-RL evaluation and up to **2.43×** throughput speedup in current OSDI/docs.
+- **Adjacent, not promoted:** [DynaRL](https://www.usenix.org/conference/osdi26/presentation/wang-yuanqing) — dynamic GPU/resource migration is highly relevant, but current formal evaluation is reasoning/agentic rather than Physical-AI/Multimodal.
+- Fresh 24h/7d SYS-first scan: no newer direct Physical-AI promotion; this was a 30d/historical OSDI/RLinf omission recovery. Public state: **113 works / 86 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.

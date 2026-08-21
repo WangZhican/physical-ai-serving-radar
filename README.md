@@ -2,7 +2,7 @@
 
 > SYS-first research radar for **Physical AI + Multimodal Efficient Serving**: runtimes, schedulers, resource managers, edge/cloud deployment, state/cache infrastructure, fleet serving, evaluation infrastructure, world-model serving, and transferable multimodal systems.
 
-**Last updated: **2026-08-21 17:01 CST**
+**Last updated: 2026-08-21 18:00 CST**
 
 Pure pruning, quantization, token reduction, or action compression does **not** enter `CORE_SYS` unless it contributes a real runtime/resource-management/deployment abstraction.
 

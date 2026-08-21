@@ -81,3 +81,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Updated public dataset to 112 records / 85 CORE_SYS.
 - Added taxonomy note for robots as first-class schedulable resources and embodied-learning infrastructure.
 
+
+- **2026-08-21 18:00 CST** — Recovered missing OSDI 2026 RLinf base-system paper into CORE_SYS; refreshed public dataset to 113 records. DynaRL verified as adjacent systems evidence but not promoted without embodied/Multimodal evaluation.
