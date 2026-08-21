@@ -194,3 +194,6 @@ Fresh 24h/7d plus targeted 30d scan completed. No new SYS-first promotion. Revie
 - Verified sources: [PMLR proceedings](https://proceedings.mlr.press/v270/liu25g.html), [UT Austin RPL project](https://ut-austin-rpl.github.io/sirius-fleet/), and [official code](https://github.com/UT-Austin-RPL/sirius-fleet).
 - Fresh 24h/7d scans found no new direct CORE_SYS promotion; omission recovery continues on fleet supervision/resource allocation, SLO-aware scheduling, world-state migration, and Zenoh/DDS enforcement.
 - Public canonical state: **116 works / 88 CORE_SYS / 19 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.
+
+### 2026-08-22 06:01 CST
+Fresh 24h/7d SYS-first scan plus targeted fleet/runtime omission recovery completed. No new promotion this cycle; DUAL (CoRL 2025) was reviewed as a resource-constrained fleet-data candidate but remains outside the canonical systems list because its primary novelty is data selection/active labeling rather than serving/runtime scheduling.
