@@ -88,3 +88,4 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 
 
 - 2026-08-21 21:05 CST — Hourly heartbeat: no promotion; refreshed TUM/Haddadin multi-robot runtime, fleet-SLO, persistent-state, and middleware timing/isolation coverage; strengthened multipanda_ros2 runtime-role evidence.
+- 2026-08-21 21:57 CST — Hourly heartbeat: no paper promotion; added **Strands Robots** as deployment/runtime ecosystem evidence after verifying Zenoh fleet mesh, ROS2/RTPS, remote WebSocket policy serving, LeRobot gRPC async inference, persistent policy workers, and v0.5.0 release status. Canonical paper counts unchanged.

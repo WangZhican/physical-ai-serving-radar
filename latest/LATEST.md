@@ -1,6 +1,6 @@
 # Latest Radar Update
 
-**Scan time:** 2026-08-21 04:00 CST
+**Scan time:** 2026-08-21 21:57 CST
 
 ## Fresh coverage
 - **24h:** scanned; no new Physical-AI/Multimodal SYS work crossed the promotion threshold.
@@ -151,3 +151,11 @@ Last scanned: 2026-08-21 00:57 CST — 24h/7d fresh + targeted 30d systems scan;
 - Hourly SYS-first scan completed across 24h/7d fresh sources plus targeted 30d omission recovery. No new paper was promoted this hour.
 - Revalidated **multipanda_ros2** as a real-time execution-runtime substrate: its paper describes a 1 kHz control loop, ~2 ms runtime controller switching, ROS 2 service exposure, and conflict checks for controller resource requirements.
 - Targeted search covered TUM/Haddadin real-time multi-robot runtime follow-ons, Armory-external fleet admission/fairness/deadline/SLO scheduling, persistent world-state migration, and Zenoh/DDS timing/isolation.
+
+### 2026-08-21 21:57 CST
+- Fresh 24h/7d SYS-first scan plus targeted 30d searches completed; **no new paper promotion** crossed the current systems bar.
+- New ecosystem evidence: [Strands Robots](https://github.com/strands-labs/robots) is a substantial open robot-runtime stack spanning Zenoh peer mesh/fleet coordination, ROS2/RTPS interop, remote WebSocket policy serving, native LeRobot gRPC async inference, persistent policy workers, sim/real parity, and 70+ robot definitions. Current public crawl shows roughly **121 stars / 30 forks**; v0.5.0 shipped on 2026-08-04.
+- It is **not promoted as a paper record** because this scan did not verify a paper-level scheduling/resource-management contribution; it is tracked as deployment/runtime ecosystem evidence.
+- Armory remains the strongest directly verified multi-robot policy-serving scheduler found in this pass; no independent system with stronger admission/fairness/deadline/SLO mechanisms surfaced.
+- Public canonical state remains **114 works / 87 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.
+- Next: reverse-census Strands Robots/Zenoh mesh and remote-policy references for paper-backed runtime mechanisms; fleet SLO/admission beyond Armory; persistent world-state fork/backtrack/migration; Zenoh/DDS enforcement; pending legal-PDF resolution; HELIOS VLA-serving monitor.
