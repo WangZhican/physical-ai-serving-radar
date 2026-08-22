@@ -1,6 +1,6 @@
 # Latest scan
 
-**Updated:** 2026-08-23 03:00 CST
+**Updated:** 2026-08-23 07:00 CST
 
 - **CORE_SYS +1:** OpenBot-Fleet (ICRA 2024), recovered via fleet data/runtime omission audit.
 - Fresh 24h/7d scan: no newer direct SYS promotion.
@@ -90,3 +90,9 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper 
 - **FlashRT / Execution-State Capsules adoption update:** first-party serving docs now operationalize capsules for fresh sessions, branch/fork, restart/resume, non-hot workers and pinned shared prefixes. FlashRT Nexus also ties the native C++ Pi0.5 runtime ABI to embedded robot loops, HTTP serving and execution-state capsules.
 - Interpretation: complete execution-state checkpoint/restore/fork/rollback is increasingly a production serving abstraction, not just a paper primitive. This is an ecosystem/adoption update to the existing CORE_SYS entry, not a duplicate paper.
 - Next: FlashRT follow-ons/adoption → RoboChallenge/Thea resource-enforcement and evaluation scheduling → PCS/WorldMove state migration → vLLM-Omni stateful robot serving → fleet SLO → Zenoh/DDS enforcement.
+
+## 2026-08-23 07:00 CST — hourly scan
+- Fresh 24h/7d + targeted 30d SYS-first scan completed; **no new canonical paper promotion**.
+- FlashRT: production docs now treat execution-state capsule restore/fork as a serving-layer primitive for fresh sessions, branches, restart/resume, non-hot workers and pinned prefixes; bounded request queues are also documented above the fixed execution ABI.
+- PhAIL: the live public leaderboard now exposes **1,083 real-robot episodes** and a unified real/sim evaluation service with randomized/blinded runs plus per-run video/telemetry artifacts. This strengthens the existing PhAIL CORE_SYS entry as production evaluation infrastructure; it is not a new paper.
+- Next: complete-state serving follow-ons → PhAIL/RoboChallenge/AutoEval/RoboArena scheduling/resource-isolation comparison → PCS/WorldMove/Hi-WM state migration/fork/rollback → vLLM-Omni stateful robot serving → fleet SLO → Zenoh/DDS enforcement.

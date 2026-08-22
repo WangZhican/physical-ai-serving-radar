@@ -208,3 +208,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion or taxonomy-count change.
 - Upgraded public ecosystem evidence for **Execution-State Capsules / FlashRT**: official serving docs now show capsules used for fresh sessions, branch/fork, restart/resume, non-hot workers and pinned shared prefixes, with Nexus connecting the native C++ Pi0.5 runtime ABI to embedded robot loops, HTTP serving and execution-state capsules.
 - Kept this as adoption/runtime evolution of the existing CORE_SYS paper rather than creating a duplicate entry.
+
+## 2026-08-23 07:00 CST
+- Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion or taxonomy-count change.
+- Refreshed FlashRT serving evidence: complete execution-state capsules are now documented as practical session/branch/restart primitives above the fixed execution ABI, with bounded request queues kept in the serving layer.
+- Refreshed PhAIL production-evaluation adoption: the public leaderboard currently exposes **1,083 real-robot episodes** and a unified real/sim evaluation workflow with per-run video and telemetry artifacts.
