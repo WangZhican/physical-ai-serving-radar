@@ -182,3 +182,7 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Rechecked robot-policy/runtime frontier: mainline π0 remains executable, RFC #6069 remains open, no indexed successor to closed π0.5 PR #4419 was found, and RFC #5120 core structural-state engine/request-state work remains unfinished.
 - HELIOS heterogeneous lightweight VLA serving remains a EuroSys 2027 submission watch item with no public preprint/repo found in this scan.
 
+
+## 2026-08-23 02:02 CST
+- CORE_SYS +2: Execution-State Capsules / FlashRT (arXiv:2606.20537, A+, Routes 3/5/6) adds graph-bound complete execution-state checkpoint/restore/fork/rollback for latency-first on-device Physical-AI serving; PhAIL (arXiv:2605.29710, A, Routes 8/9) adds open real-robot VLA evaluation infrastructure with distributional time-to-success, Human-Relative Throughput, confidence intervals, significance testing and per-rollout artifacts.
+- Fresh 24h/7d scan: no newer direct SYS promotion; both additions are historical omission recovery.

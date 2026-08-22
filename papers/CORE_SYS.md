@@ -99,3 +99,9 @@ A fleet/cloud actor-learner substrate: multiple robots stream on-policy trajecto
 
 ### OpenBot-Fleet — ICRA 2024 — A+
 **Routes:** 1 Fleet-scale serving · 4 Edge-cloud Physical AI · 9 Evaluation/infrastructure. Open-source full policy-improvement loop across 72 real robots: edge sensing/compute, secure cloud experience upload, asynchronous collection, replay/policy learning, and continuous policy redeployment. Online learning reaches 82.5% success in unseen homes. [Paper](https://arxiv.org/abs/2405.07515) · [Project](https://www.openbot.org/)
+
+### Execution-State Capsules / FlashRT — arXiv:2606.20537 — A+
+Routes 3/5/6. Complete graph-bound execution-state checkpoint/restore/fork/rollback for low-latency, small-batch, on-device Physical-AI serving. Includes KV, recurrent, convolution, MTP state and metadata; sub-ms GPU restore and 3.9x to 27x TTFT speedup over cold prefill from 2k to 16k context. Paper: https://arxiv.org/abs/2606.20537 · Repo: https://github.com/flashrt-project/FlashRT
+
+### PhAIL — arXiv:2605.29710 — A
+Routes 8/9. Open real-robot VLA evaluation infrastructure with Franka FR3 rollouts, distributional time-to-success, Human-Relative Throughput, bootstrap confidence intervals, KS tests and public per-rollout artifacts/reference implementation. Paper: https://arxiv.org/abs/2605.29710 · Project: https://phail.ai/

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22 07:02 CST",
-  "count": 117,
+  "updated": "2026-08-23 02:02 CST",
+  "count": 119,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1724,6 +1724,42 @@
       "project_page": "https://www.openbot.org/",
       "doi": "10.1109/ICRA57147.2024.10610960",
       "system_note": "Open-source cloud robotics system implementing the full fleet policy-improvement loop: smartphone edge sensing/compute, secure cloud experience upload/storage, asynchronous multi-agent collection, cloud replay/policy learning, and continuous policy redeployment. Validated with 72 real robots; online learning reaches 82.5% success in unseen homes."
+    },
+    {
+      "id": "arxiv:2606.20537",
+      "title": "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving",
+      "system": "Execution-State Capsules / FlashRT",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        5,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2606.20537",
+      "open_source": "github:flashrt-project/FlashRT",
+      "system_note": "Graph-bound checkpoint/restore/fork/rollback of complete restorable execution state (KV, recurrent, convolution, MTP state and metadata) for latency-first small-batch on-device Physical-AI serving. GPU-resident restore is sub-ms; TTFT speedup over cold prefill grows from 3.9x at 2k to 27x at 16k on RTX 5090; correctness also validated on Jetson AGX Thor and DGX Spark."
+    },
+    {
+      "id": "arxiv:2605.29710",
+      "title": "PhAIL: A Real-Robot VLA Benchmark and Distributional Methodology",
+      "system": "PhAIL",
+      "class": "CORE_SYS",
+      "route": [
+        8,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv 2026",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2605.29710",
+      "project_url": "https://phail.ai/",
+      "open_source": "official dataset, per-rollout artifacts, analysis pipeline and reference implementation linked by paper/project",
+      "system_note": "Open real-robot VLA evaluation infrastructure on Franka FR3 using time-to-success distributions, Human-Relative Throughput with bootstrap CIs, and KS significance tests. Resolves close model comparisons at <=30 rollouts/cell where binary success metrics do not; exposes production-style UPH/Done/MTBF-style public evaluation artifacts."
     }
   ]
 }
