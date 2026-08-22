@@ -105,3 +105,12 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 ## 2026-08-22 07:02 CST
 - Added OpenBot-Fleet (ICRA 2024) as CORE_SYS/A+ after historical omission recovery.
 - Added fleet experience-streaming / continuous policy lifecycle coverage.
+
+## 2026-08-22 08:12 CST — repository dual-track restructure
+- Promoted **Multimodal / Omni Efficient Serving** from an adjacent appendix into a first-class track alongside **Physical AI Serving**.
+- Kept both tracks in the same repository but separated their narratives, taxonomies, and reading lists.
+- Added `physical_ai/README.md` and `physical_ai/CORE_READING.md`.
+- Added `multimodal/README.md` and `multimodal/CORE_READING.md`.
+- Split taxonomy into `PHYSICAL_AI_MAP.md` and `MULTIMODAL_MAP.md`, plus `CROSSOVER.md` for shared systems/technical lineage.
+- Preserved one shared `data/papers.json` as the metadata source of truth to avoid duplicate or drifting paper records.
+- Rewrote the repository homepage to expose both tracks equally and independently.

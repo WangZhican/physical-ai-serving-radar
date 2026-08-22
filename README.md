@@ -1,70 +1,73 @@
-# Physical AI Serving Radar
+# Physical AI + Multimodal Serving Radar
 
-> SYS-first research radar for **Physical AI + Multimodal Efficient Serving**: runtimes, schedulers, resource managers, edge/cloud deployment, state/cache infrastructure, fleet serving, evaluation infrastructure, world-model serving, and transferable multimodal systems.
+> SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-08-22 04:03 CST**
+**Last updated: 2026-08-22 CST**
 
-Pure pruning, quantization, token reduction, or action compression does **not** enter `CORE_SYS` unless it contributes a real runtime/resource-management/deployment abstraction.
+This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
-## Research map
+Pure pruning, quantization, token reduction, or action compression does **not** enter `CORE_SYS` unless it contributes a real runtime, scheduling, resource-management, cache/state, or deployment abstraction.
+
+## Choose a track
+
+| Track | What it studies | Research map | Core reading |
+|---|---|---|---|
+| 🤖 **Physical AI Serving** | VLA/WAM runtimes, fleet serving, control-loop scheduling, edge/cloud robotics, physical-state cache, heterogeneous robot deployment, evaluation/runtime infrastructure | [`physical_ai/README.md`](physical_ai/README.md) · [`taxonomy/PHYSICAL_AI_MAP.md`](taxonomy/PHYSICAL_AI_MAP.md) | [`physical_ai/CORE_READING.md`](physical_ai/CORE_READING.md) |
+| 🌐 **Multimodal / Omni Efficient Serving** | MLLM/Omni stage disaggregation, module multiplexing, any-to-any graph serving, distributed state/KV, streaming interaction, heterogeneous placement, AIGC pipelines | [`multimodal/README.md`](multimodal/README.md) · [`taxonomy/MULTIMODAL_MAP.md`](taxonomy/MULTIMODAL_MAP.md) | [`multimodal/CORE_READING.md`](multimodal/CORE_READING.md) |
+
+The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni, M\*, Omni-Flow, Cornserve, PhyAI, and ROSA** connect the two tracks. See [`taxonomy/CROSSOVER.md`](taxonomy/CROSSOVER.md).
+
+---
+
+# Track A — Physical AI Serving
+
+Physical AI serving treats **physical execution, state freshness, deadlines, robots, and world-model rollouts as first-class system concerns** rather than ordinary request/response inference.
 
 | Route | Focus | Representative anchors |
 |---|---|---|
-| 1. Fleet-scale / Multi-Robot Serving | GPU pools, batching, execution-aware scheduling, fleet-to-cloud learning loops | Kairos, ROSA, Armory, SOP |
-| 2. Unified Physical-AI Runtime | portable VLA/WAM execution | PhyAI, Embodied.cpp, vla.cpp |
-| 3. Real-Time / Streaming / Control Loop | deadlines, async execution, executor/GPU scheduling | CROS-RT, PAAM, ROSGM, LaME |
-| 4. Edge-Cloud / Disaggregated Physical AI | placement, cloud/fog deployment, reliability | RoboECC, RAPID, EcoVLA, FogROS2 |
-| 5. Physical-State / Temporal Cache | cache validity, planner/action/world state | AgenticCache, Persistent Computational State |
-| 6. Hardware-Aware / Heterogeneous Serving | GPU/XPU/NPU placement and arbitration | XPU Characterization, PAAM, GCAPS |
-| 7. Composite VLA + WAM + Planner Serving | multi-component graphs and shared state | M*, PhyAI, vLLM-Omni |
-| 8. Workload Characterization / Modeling | control-time, transport and discovery models | VLA-Perf, PhyAI, Discovery Storm |
-| 9. Evaluation / Serving Infrastructure | traces, robot EaaS, observability | DeepInsight, RoboArena, CARET, TILDE |
-| 10. World-Model / WAM Rollout Serving | persistent sessions, rollout state, migration | WorldMove, Persistent Computational State |
+| P1. Fleet-scale / Multi-Robot Serving | GPU pools, batching, execution-aware scheduling, fleet learning loops | Kairos, ROSA, Armory, SOP |
+| P2. Unified Physical-AI Runtime | portable VLA/WAM execution, robot-facing serving APIs | PhyAI, Embodied.cpp, vla.cpp, LeRobot |
+| P3. Real-Time / Streaming / Control Loop | reaction latency, deadlines, async execution, accelerator arbitration | CROS-RT, PAAM, VLASH, FASTER |
+| P4. Edge-Cloud / Disaggregated Physical AI | device/edge/cloud placement, network/tail-latency reliability | RoboECC, RAPID, EcoVLA, FogROS2 |
+| P5. Physical-State / Temporal Cache | cache validity over vision/action/world/planner state | AgenticCache, Persistent Computational State |
+| P6. Hardware-Aware / Heterogeneous Serving | GPU/XPU/NPU placement, CPU-GPU partitioning, offload | XPU Characterization, PAAM, OOM-Free Alpamayo |
+| P7. Composite VLA + WAM + Planner Serving | policy + planner + world model + verifier/safety graphs | M*, PhyAI, vLLM-Omni |
+| P8. Workload Characterization / Modeling | control-time, network, cost-energy-time models | VLA-Perf, PhyAI |
+| P9. Evaluation / Serving Infrastructure | model-server decoupling, real-robot EaaS, traces, observability | DeepInsight, RoboArena, vla-eval |
+| P10. World-Model / WAM Rollout Serving | persistent rollout state, branch scheduling, migration | WorldMove, PhyAI |
 
-See [`taxonomy/RESEARCH_MAP.md`](taxonomy/RESEARCH_MAP.md). Adjacent MLLM/Omni systems are tracked separately as transferable foundations.
+**Start here:** [`physical_ai/README.md`](physical_ai/README.md)
 
-## Core recommendations
+---
 
-| Title | Year/Venue | Route | System Contribution | Open Source/Repo | Paper | Priority |
-|---|---|---|---|---|---|---|
-| Kairos | 2026/arXiv | 1,3 | generate–execute-aware multi-robot serving | — | [paper](https://arxiv.org/abs/2605.11381) | S+ |
-| ROSA | 2026/arXiv | 1,7 | robot-factory GPU pooling and productivity scheduling | — | [paper](https://arxiv.org/abs/2607.01088) | S+ |
-| PhyAI | 2026/arXiv | 2,6,7,10 | unified edge/cloud/rollout execution engine | — | [paper](https://arxiv.org/abs/2608.03682) | S+ |
-| M* | 2026/arXiv | 7 | modular composite-model serving graph | — | [paper](https://arxiv.org/abs/2606.12688) | S+ |
-| VLA-Perf | 2026/arXiv | 4,8 | VLA deployment/performance characterization | — | [paper](https://arxiv.org/abs/2602.18397) | S |
-| Embodied.cpp | 2026/arXiv | 2,6 | portable embodied inference runtime | — | [paper](https://arxiv.org/abs/2607.02501) | S |
-| vla.cpp | 2026/arXiv | 2,6 | portable C++ VLA runtime | — | [paper](https://arxiv.org/abs/2606.08094) | S |
-| Armory | 2026/arXiv | 1,3 | control-aware batched robot-policy serving | — | [paper](https://arxiv.org/abs/2608.00337) | A+ |
-| multipanda_ros2 | 2026/ICRA | 2,3,9 | real-time multi-robot ROS2 control runtime; 1 kHz loops and <=2 ms switching | [repo](https://github.com/tenfoldpaper/multipanda_ros2) | [paper](https://arxiv.org/abs/2602.02269) | A |
-| SOP | 2026/arXiv | 1,2,7,9 | fleet/cloud actor-learner loop; online experience streaming and async policy synchronization | — | [paper](https://arxiv.org/abs/2601.03044) | A+ |
-| LeRobot | 2026/ICLR | 2,3,9 | generalized remote async robot-policy inference; gRPC PolicyServer/RobotClient with action queues and overlap aggregation | [repo](https://github.com/huggingface/lerobot) | [paper](https://arxiv.org/abs/2602.22818) | A+ |
-| PAAM | 2024/RTAS | 3,6 | shared GPU/TPU accelerator server | [repo](https://github.com/rtenlab/reference-system-paam) | [paper](https://arxiv.org/abs/2404.06452) | A+ |
-| FogROS 2 | 2023/ICRA | 4,6 | cloud/fog ROS2 deployment substrate | [repo](https://github.com/BerkeleyAutomation/FogROS2) | [paper](https://arxiv.org/abs/2205.09778) | A+ |
-| FogROS2-Config | 2024/ICRA | 4,6,8 | cloud server/config selection | — | [paper](https://arxiv.org/abs/2311.05600) | A |
-| FogROS2-PLR | 2025/ICRA | 3,4 | tail-latency/reliability-aware cloud robotics | — | [paper](https://arxiv.org/abs/2410.05562) | A+ |
-| DeepInsight | 2026/arXiv | 9 | cross-stack Physical-AI evaluation runtime | — | [paper](https://arxiv.org/abs/2606.17574) | A+ |
-| RoboArena | 2025/CoRL Oral | 9 | distributed real-robot evaluation network | — | [paper](https://arxiv.org/abs/2506.18123) | A+ |
-| ros2probe | 2026/arXiv | 8,9 | non-intrusive ROS2 observability | [repo](https://github.com/csi-dgist/ros2probe) | [paper](https://arxiv.org/abs/2606.10746) | A+ |
-| HeyGen HELIOS | 2026/Tech Report | 6,7,11 | 5,000+ GPU multi-cloud QoS scheduling and declarative multimodal/video pipeline infrastructure | — | [report](https://www.heygen.com/research/avatar-v-infrastructure) | A+ |
+# Track B — Multimodal / Omni Efficient Serving
 
-## Browse
+This track studies **system support for heterogeneous multimodal model pipelines**, independently of robotics. Its main objects are stages, modules, modality-specific resources, composite model graphs, distributed state, and SLO-aware scheduling.
 
-- [`papers/CORE_SYS.md`](papers/CORE_SYS.md)
-- [`papers/SYS_ALG_BOUNDARY.md`](papers/SYS_ALG_BOUNDARY.md)
-- [`papers/WATCHLIST.md`](papers/WATCHLIST.md)
-- [`taxonomy/RESEARCH_MAP.md`](taxonomy/RESEARCH_MAP.md)
-- [`latest/LATEST.md`](latest/LATEST.md)
-- [`data/papers.json`](data/papers.json)
+| Route | Focus | Representative anchors |
+|---|---|---|
+| M1. Stage / EPD Disaggregation | encode-prefill-decode decomposition, overlap and independent scaling | TriInfer, EPD-Serve, HydraInfer, ModServe, RServe |
+| M2. Module Multiplexing / GPU Sharing | complementary modules/stages sharing one GPU safely and efficiently | Eevee, SpaceServe, HorizonServe, UnifiedServe |
+| M3. Any-to-Any / Graph Serving | arbitrary multimodal model graphs and component walks | vLLM-Omni, Cornserve, M*, Cornfigurator |
+| M4. Distributed State / KV / Workflow | cross-stage KV/state movement, tiered storage, workflow orchestration | Omni-Flow, Cornserve, OnePiece |
+| M5. Interactive / Streaming Omni Serving | playback, speech, barge-in, real-time generation and latency SLOs | LiveServe, StreamWise, TCM-Serve |
+| M6. Heterogeneous / Elastic Placement | cross-tier GPUs, elastic parallelism, stage-aware placement | HeteroServe, ElasticMM, TriInfer, HELIOS |
+| M7. Preprocessing / Video / AIGC Data Path | codec/decode, RDMA, video-generation pipelines, data movement | FlashCodec + UnifiedServe, OnePiece, HELIOS |
+| M8. Deployment Planning / SLO / Production Infra | placement search, goodput, production-scale scheduling | Cornfigurator, HorizonServe, HELIOS |
+
+**Start here:** [`multimodal/README.md`](multimodal/README.md)
+
+---
+
+## Shared data, separate views
+
+- [`data/papers.json`](data/papers.json) — single verified metadata source of truth
+- [`papers/CORE_SYS.md`](papers/CORE_SYS.md) — complete cross-track CORE_SYS inventory
+- [`papers/SYS_ALG_BOUNDARY.md`](papers/SYS_ALG_BOUNDARY.md) — system/algorithm boundary work
+- [`papers/WATCHLIST.md`](papers/WATCHLIST.md) — emerging or not-yet-mature system directions
+- [`latest/LATEST.md`](latest/LATEST.md) — chronological radar updates
+- [`taxonomy/RESEARCH_MAP.md`](taxonomy/RESEARCH_MAP.md) — top-level taxonomy index
+- [`taxonomy/CROSSOVER.md`](taxonomy/CROSSOVER.md) — where the two tracks converge
 - [`CHANGELOG.md`](CHANGELOG.md)
 
-PDFs are intentionally **not** mirrored here; use official paper/project/repository links.
-
-## Radar update — 2026-08-21 16:04 CST
-- **SOP** adds a missing fleet continual-learning systems line: multi-robot online experience/intervention streaming to a centralized cloud learner with asynchronous policy synchronization; AGIBOT reports 2.4× faster time-to-80% success with four robots versus one.
-- **Learning while Deploying (LWD)** is tracked at `SYS_ALG_BOUNDARY`: real 16-robot deployment/replay/policy-refresh infrastructure, but its primary novelty is offline-to-online RL rather than serving/resource scheduling.
-- Current public dataset: **110 verified works — 83 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
-
-## Radar update — 2026-08-21 20:00 CST
-- Added **multipanda_ros2** (ICRA 2026) as a real-time multi-robot runtime anchor across Routes 2/3/9.
-- Current public dataset: **114 verified works — 87 CORE_SYS / 18 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 5 WATCH_ONLY**.
-
+PDFs are intentionally **not** mirrored here; the repository links to official paper/project/repository sources.
