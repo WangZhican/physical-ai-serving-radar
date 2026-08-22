@@ -129,3 +129,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Completed fresh 24h/7d plus targeted 30d SYS-first scan; no paper promotion.
 - Added a runtime/ecosystem milestone: vLLM-Omni `main` now documents an executable LeRobot π0 robot-policy serving path over `/v1/realtime/robot/openpi`, including `policy_server_config` handshake metadata, action-shape semantics, e2e tests and LeRobot parity validation.
 - Kept this as vLLM-Omni runtime evolution rather than a new canonical paper; next watch points are π0.5/generalized realtime serving, streaming structural state, fleet SLO scheduling and persistent world-state migration.
+
+## 2026-08-22 15:00 CST
+- Hourly SYS-first scan found no new paper promotion.
+- Added a public watch note for vLLM-Omni's iterative state/scheduling direction: per-request persistent state, independent RNG/request identity under mixed batches, explicit state cleanup, and resumable chunk-level EDF/preemption.
+- Kept the evidence at runtime/ecosystem level; no canonical paper counts or taxonomy routes changed.
