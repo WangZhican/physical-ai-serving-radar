@@ -154,3 +154,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
 - Corrected π0.5 implementation status: vLLM-Omni PR #4419 was closed on 2026-08-18 with no merged marker. Keep its `realtime_triton_prefix` implementation and latency numbers PR-scoped, not mainline-stable evidence.
 - RFC #5120 remains open; structural streaming data updates are still explicitly outside Robot Policy Serving Contract RFC #6069 Phase 1.
+
+## 2026-08-22 21:02 CST
+- Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
+- Revalidated current vLLM-Omni robot-serving boundary: π0 is executable in mainline, while no indexed successor to the closed π0.5 PR #4419 was found and RFC #6069 remains open.
+- Rechecked legal full-text routes for Eevee, ROSGM, and TILDE; no new open copy was resolved, so private PDF status remains unchanged.
