@@ -203,3 +203,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added **Thea / Towards the Harness of Embodied Agents** (arXiv:2608.11246) to `CORE_SYS` (A; P2/P5/P7).
 - Added official project/repo links and embodied-agent harness/runtime branch to the research map.
 - Updated public dataset to 123 verified records and refreshed hourly coverage heartbeat.
+
+## 2026-08-23 05:57 CST
+- Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion or taxonomy-count change.
+- Upgraded public ecosystem evidence for **Execution-State Capsules / FlashRT**: official serving docs now show capsules used for fresh sessions, branch/fork, restart/resume, non-hot workers and pinned shared prefixes, with Nexus connecting the native C++ Pi0.5 runtime ABI to embedded robot loops, HTTP serving and execution-state capsules.
+- Kept this as adoption/runtime evolution of the existing CORE_SYS paper rather than creating a duplicate entry.

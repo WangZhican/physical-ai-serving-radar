@@ -84,3 +84,9 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper 
 - **CORE_SYS +1:** [Thea / Towards the Harness of Embodied Agents](https://arxiv.org/abs/2608.11246), Routes P2/P5/P7, priority A. Provider-neutral embodied-agent harness with persistent scene-graph context, Tool Protocol, post-execution evaluation/exit codes, memory/skills/safety and embodiment portability. Official [project](https://eit-hai.github.io/thea/) and [Apache-2.0 repo](https://github.com/EIT-HAI/Thea) verified (~45 stars).
 - Fresh 24h/7d SYS-first scan found no newer direct promotion; this addition came from 30d harness/orchestration omission recovery.
 - Coverage frontier: Thea/EIT-HAI harness follow-ons → RoboChallenge evaluation admission/fairness → FlashRT/PCS/WorldMove fork/rollback/migration → vLLM-Omni stateful robot serving → fleet SLO → Zenoh/DDS enforcement.
+
+## 2026-08-23 05:57 CST — hourly scan
+- Fresh 24h/7d + targeted 30d SYS-first scan completed; **no new canonical paper promotion**.
+- **FlashRT / Execution-State Capsules adoption update:** first-party serving docs now operationalize capsules for fresh sessions, branch/fork, restart/resume, non-hot workers and pinned shared prefixes. FlashRT Nexus also ties the native C++ Pi0.5 runtime ABI to embedded robot loops, HTTP serving and execution-state capsules.
+- Interpretation: complete execution-state checkpoint/restore/fork/rollback is increasingly a production serving abstraction, not just a paper primitive. This is an ecosystem/adoption update to the existing CORE_SYS entry, not a duplicate paper.
+- Next: FlashRT follow-ons/adoption → RoboChallenge/Thea resource-enforcement and evaluation scheduling → PCS/WorldMove state migration → vLLM-Omni stateful robot serving → fleet SLO → Zenoh/DDS enforcement.
