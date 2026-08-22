@@ -35,3 +35,6 @@ These works are worth reading because they expose system semantics, but their pr
 - **ActionCache** — action-intermediate reuse as inspiration for physical-state-aware cache infrastructure.
 
 See the complete inventory in [`../papers/CORE_SYS.md`](../papers/CORE_SYS.md) and [`../papers/SYS_ALG_BOUNDARY.md`](../papers/SYS_ALG_BOUNDARY.md).
+
+### RoboChallenge — A+
+Online real-robot evaluation-as-a-service with a 10-machine heterogeneous fleet, asynchronous timestamped observation/action-queue APIs, job scheduling, public submission/results and an official inference client. [Paper](https://arxiv.org/abs/2510.17950) · [Project](https://robochallenge.ai/) · [Repo](https://github.com/RoboChallenge/RoboChallengeInference)

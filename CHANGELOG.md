@@ -192,3 +192,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added **Hi-WM** (arXiv:2604.21741) to `SYS_ALG_BOUNDARY / A`, Routes 5/9/10, as rollback/branching world-state reuse evidence for corrective post-training.
 - Refined P5/P9/P10 to distinguish complete execution-state reuse, world-model proxy evaluation, and cached rollback/branching workloads from true serving/resource-management systems.
 - FlashRT adoption rechecked at 486 stars / 60 forks / 508 commits in the current public crawl. Public dataset updated to **121 verified works / 91 CORE_SYS / 21 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.
+
+## 2026-08-23 04:02 CST
+- Added RoboChallenge (arXiv:2510.17950) to CORE_SYS/A+ as public online real-robot evaluation infrastructure.
+- Updated P9 representative anchors and machine-readable paper count to 122.
+- Fresh 24h/7d scan completed with no newer direct SYS promotion.

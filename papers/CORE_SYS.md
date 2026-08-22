@@ -105,3 +105,8 @@ Routes 3/5/6. Complete graph-bound execution-state checkpoint/restore/fork/rollb
 
 ### PhAIL — arXiv:2605.29710 — A
 Routes 8/9. Open real-robot VLA evaluation infrastructure with Franka FR3 rollouts, distributional time-to-success, Human-Relative Throughput, bootstrap confidence intervals, KS tests and public per-rollout artifacts/reference implementation. Paper: https://arxiv.org/abs/2605.29710 · Project: https://phail.ai/
+
+### RoboChallenge — Large-scale Real-robot Evaluation of Embodied Policies — A+
+**Routes:** P3 Real-Time / Streaming / Control Loop · P9 Evaluation / Serving Infrastructure
+
+Public online real-robot evaluation infrastructure rather than a static benchmark: a 10-machine heterogeneous fleet (UR5, Franka, Aloha, ARX-5), low-level fully asynchronous APIs with precisely timestamped observations and explicit FIFO action-queue state, evaluation-job scheduling, public submission/results, and 7×24-oriented service design. [Paper](https://arxiv.org/abs/2510.17950) · [Project](https://robochallenge.ai/) · [Repo](https://github.com/RoboChallenge/RoboChallengeInference)

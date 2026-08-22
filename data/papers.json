@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23 03:00 CST",
-  "count": 121,
+  "updated": "2026-08-23 04:02 CST",
+  "count": 122,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1766,7 +1766,10 @@
       "title": "dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
       "system": "dWorldEval",
       "class": "SYS_ALG_BOUNDARY",
-      "route": [9, 10],
+      "route": [
+        9,
+        10
+      ],
       "year": 2026,
       "venue": "ICML 2026 Spotlight",
       "priority": "A+",
@@ -1780,7 +1783,11 @@
       "title": "Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training",
       "system": "Hi-WM",
       "class": "SYS_ALG_BOUNDARY",
-      "route": [5, 9, 10],
+      "route": [
+        5,
+        9,
+        10
+      ],
       "year": 2026,
       "venue": "arXiv 2026",
       "priority": "A",
@@ -1788,6 +1795,19 @@
       "official_page": "https://arxiv.org/abs/2604.21741",
       "project_url": "https://hi-wm.github.io/",
       "system_note": "World-model corrective substrate with cached intermediate states, rollback and branching for reusable failure-state continuations. Relevant to rollout-state reuse and fork/backtrack, but method-first rather than an independent serving/runtime system."
+    },
+    {
+      "id": "arxiv:2510.17950",
+      "title": "RoboChallenge: Large-scale Real-robot Evaluation of Embodied Policies",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        9
+      ],
+      "year": 2025,
+      "venue": "arXiv technical report",
+      "priority": "A+",
+      "status": "VERIFIED"
     }
   ]
 }
