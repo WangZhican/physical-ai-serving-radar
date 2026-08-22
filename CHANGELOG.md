@@ -139,3 +139,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
 - Added vLLM-Omni RFC #6231 as runtime/cache ecosystem evidence: node-local DLO runtime mmap-cache compatibility is explicitly defined across DP/TP/SP using final host-weight-layout equivalence.
 - Rechecked ROSGM/TILDE legal full-text routes; both remain closed/request-only, so public paper counts and private PDF inventory are unchanged.
+
+## 2026-08-22 17:01 CST
+- Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
+- Corrected an implementation-status ambiguity in the vLLM-Omni ecosystem: RFC #6168 still shows π0/π0.5 as proposed, while current `main` already includes executable LeRobot π0 online serving over `/v1/realtime/robot/openpi`.
+- Treat current mainline as the stronger π0 implementation-status source; π0.5/generalized realtime serving remains an active watch item rather than inferred support.
