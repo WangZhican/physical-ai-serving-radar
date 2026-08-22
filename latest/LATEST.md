@@ -10,3 +10,6 @@
 
 ### 2026-08-22 08:00 CST
 Fresh 24h/7d + targeted fleet-data/runtime scan completed. No new SYS-first promotion; reviewed distributed fleet policy merging and cloud-assisted fleet/VLA runtime references. Continuing paper-backed fleet experience-streaming and SLO-scheduling census.
+
+### 2026-08-22 09:02 CST
+Fresh 24h/7d + targeted 30d fleet/cloud/runtime scan completed. No new paper cleared the SYS-first promotion bar. Ecosystem watch: Intel OpenVINO Physical AI is now tracked as a strong production robot-policy runtime lead (unified deployment API, sync/async control loop, heterogeneous CPU/GPU/NPU execution, real-time action chunking); paper/technical-report evidence is being reverse-censused before any canonical promotion.
