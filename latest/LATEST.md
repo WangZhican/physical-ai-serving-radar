@@ -1,6 +1,6 @@
 # Latest scan
 
-**Updated:** 2026-08-22 07:02 CST
+**Updated:** 2026-08-22 12:03 CST
 
 - **CORE_SYS +1:** OpenBot-Fleet (ICRA 2024), recovered via fleet data/runtime omission audit.
 - Fresh 24h/7d scan: no newer direct SYS promotion.
@@ -19,3 +19,6 @@ Fresh 24h/7d + targeted 30d policy-serving/runtime scan completed; no new paper 
 
 ### 2026-08-22 11:05 CST
 Fresh 24h/7d + targeted robot-policy runtime scan completed; no new SYS-first paper promotion. vLLM-Omni RFC #6168 adds an important deployment milestone: DreamZero-DROID has now been served end-to-end through the OpenPI robot endpoint on 2×MI300X/ROCm with 34 closed-loop rollouts. RFC #6069 and the pi0/pi0.5 tracker remain open, so this is tracked as cross-vendor serving/evaluation ecosystem progress rather than a new paper entry.
+
+### 2026-08-22 12:03 CST
+Fresh 24h/7d + targeted 30d scans completed; no new SYS-first paper promotion. vLLM-Omni RFC #6069 remains an open shared robot-policy serving contract and #6168 remains an open ROCm evaluation tracker. Current public evidence still supports DreamZero-DROID end-to-end serving on 2×MI300X/ROCm, while pi0/pi0.5 and broader evaluator coverage remain follow-up work. Persistent world-state and fleet-SLO queries were also rechecked; no stronger new paper displaced the current canonical anchors.
