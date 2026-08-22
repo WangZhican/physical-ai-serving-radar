@@ -144,3 +144,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
 - Corrected an implementation-status ambiguity in the vLLM-Omni ecosystem: RFC #6168 still shows π0/π0.5 as proposed, while current `main` already includes executable LeRobot π0 online serving over `/v1/realtime/robot/openpi`.
 - Treat current mainline as the stronger π0 implementation-status source; π0.5/generalized realtime serving remains an active watch item rather than inferred support.
+
+## 2026-08-22 17:57 CST
+- Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
+- Clarified π0.5 status: current public contract/tracker evidence still treats PR #4419 as WIP with an opt-in `realtime_triton_prefix`; generalized π0.5 realtime serving is not yet verified as mainline-stable.
+- RFC #6069 explicitly defers longer-lived camera/robot-action structural updates to #5120; keep that state path as future contract work rather than current robot-policy serving capability.

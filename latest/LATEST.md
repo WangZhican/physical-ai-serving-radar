@@ -38,3 +38,6 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new paper promotion.
 
 ### 2026-08-22 17:01 CST — hourly scan
 Fresh 24h/7d plus targeted 30d SYS-first scan completed; no paper promotion. **Implementation-status correction:** vLLM-Omni RFC #6168 is a dated tracker snapshot and still lists π0/π0.5 as proposed, while current `main` already contains an executable LeRobot π0 online-serving recipe over `/v1/realtime/robot/openpi`. We now treat mainline as stronger current evidence for π0 support; π0.5/generalized realtime serving remains unresolved in this scan. Next: resolve π0.5/#4419 and structural streaming-state #5120, then continue fleet SLO and persistent-state runtime coverage.
+
+### 2026-08-22 17:57 CST — hourly scan
+Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new paper promotion. Current evidence still supports π0 as executable mainline robot-policy serving, while π0.5 remains WIP in the shared-contract RFC through PR #4419 and its opt-in `realtime_triton_prefix`; generalized π0.5 realtime serving is not yet verified as mainline-stable. RFC #6069 explicitly defers longer-lived camera/robot-action structural updates to #5120, so that state path is still future contract work. Next: resolve #4419/#5120 first-party status, then fleet SLO, world-state migration, and middleware timing isolation.
