@@ -149,3 +149,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
 - Clarified π0.5 status: current public contract/tracker evidence still treats PR #4419 as WIP with an opt-in `realtime_triton_prefix`; generalized π0.5 realtime serving is not yet verified as mainline-stable.
 - RFC #6069 explicitly defers longer-lived camera/robot-action structural updates to #5120; keep that state path as future contract work rather than current robot-policy serving capability.
+
+## 2026-08-22 18:58 CST
+- Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
+- Corrected π0.5 implementation status: vLLM-Omni PR #4419 was closed on 2026-08-18 with no merged marker. Keep its `realtime_triton_prefix` implementation and latency numbers PR-scoped, not mainline-stable evidence.
+- RFC #5120 remains open; structural streaming data updates are still explicitly outside Robot Policy Serving Contract RFC #6069 Phase 1.
