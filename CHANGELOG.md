@@ -134,3 +134,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Hourly SYS-first scan found no new paper promotion.
 - Added a public watch note for vLLM-Omni's iterative state/scheduling direction: per-request persistent state, independent RNG/request identity under mixed batches, explicit state cleanup, and resumable chunk-level EDF/preemption.
 - Kept the evidence at runtime/ecosystem level; no canonical paper counts or taxonomy routes changed.
+
+## 2026-08-22 16:01 CST
+- Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
+- Added vLLM-Omni RFC #6231 as runtime/cache ecosystem evidence: node-local DLO runtime mmap-cache compatibility is explicitly defined across DP/TP/SP using final host-weight-layout equivalence.
+- Rechecked ROSGM/TILDE legal full-text routes; both remain closed/request-only, so public paper counts and private PDF inventory are unchanged.

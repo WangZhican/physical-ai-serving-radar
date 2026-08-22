@@ -1,6 +1,6 @@
 # Latest scan
 
-**Updated:** 2026-08-22 14:01 CST
+**Updated:** 2026-08-22 16:01 CST
 
 - **CORE_SYS +1:** OpenBot-Fleet (ICRA 2024), recovered via fleet data/runtime omission audit.
 - Fresh 24h/7d scan: no newer direct SYS promotion.
@@ -32,3 +32,6 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new paper promotion.
 
 ### 2026-08-22 15:00 CST — hourly scan
 Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new paper promotion. Revalidated RFC #6069 as still open and added a stateful-serving watch point from vLLM-Omni's iterative diffusion runtime: explicit per-request state, independent RNG/request identity under mixed batching, cleanup on completion/cancellation/failure, and resumable chunk-level EDF/preemption. These are transferable primitives for future VLA/WAM stateful serving, not a separate robot-policy paper. Next: π0.5/generalized robot serving, structural-state adoption by robot/world-model paths, fleet SLO scheduling, persistent world-state migration, and middleware timing isolation.
+
+### 2026-08-22 16:01 CST — hourly scan
+Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new paper promotion. vLLM-Omni RFC #6069/#6168 remain open. New runtime signal: RFC #6231 makes DLO node-local runtime-cache sharing an explicit DP/TP/SP compatibility contract based on final host-weight-layout equivalence. This is tracked as runtime/cache ecosystem evidence rather than a separate paper. Legal full-text retries for ROSGM and TILDE still resolve only to closed/request-only routes, so no PDF status was falsely upgraded. Next: check whether runtime-cache/state primitives enter robot-policy/world-model paths, then π0.5/generalized serving and fleet SLO scheduling.
