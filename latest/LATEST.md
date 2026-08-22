@@ -1,6 +1,6 @@
 # Latest scan
 
-**Updated:** 2026-08-22 12:03 CST
+**Updated:** 2026-08-22 14:01 CST
 
 - **CORE_SYS +1:** OpenBot-Fleet (ICRA 2024), recovered via fleet data/runtime omission audit.
 - Fresh 24h/7d scan: no newer direct SYS promotion.
@@ -26,3 +26,6 @@ Fresh 24h/7d + targeted 30d scans completed; no new SYS-first paper promotion. v
 
 ### 2026-08-22 13:01 CST — hourly scan
 Fresh 24h/7d plus targeted 30d SYS-first scan completed. No new paper promotion this hour. Revalidated the still-open vLLM-Omni Robot Policy Serving Contract RFC and deduplicated canonical XPolicyLab/PhyAI hits. Next focus: cross-model robot-policy contract stabilization, fleet admission/deadline/action-freshness SLOs, persistent world-state migration, and middleware timing isolation.
+
+### 2026-08-22 14:01 CST — hourly scan
+Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new paper promotion. **Runtime milestone:** vLLM-Omni `main` now includes a concrete LeRobot π0 online-serving recipe over `/v1/realtime/robot/openpi`, with `policy_server_config` handshake metadata, action-horizon/action-dimension semantics, OpenPI WebSocket e2e tests, and LeRobot reference-parity validation. This is tracked as an implementation step toward the open Robot Policy Serving Contract RFC #6069, not as a separate paper. Next: π0.5/generalized realtime backend + streaming structural state, then fleet SLO and world-state runtime.
