@@ -16,3 +16,6 @@ Fresh 24h/7d + targeted 30d fleet/cloud/runtime scan completed. No new paper cle
 
 ### 2026-08-22 10:00 CST
 Fresh 24h/7d + targeted 30d policy-serving/runtime scan completed; no new paper promotion. Ecosystem watch: vLLM-Omni RFC #6069 proposes a shared Robot Policy Serving Contract for VLA models (request/action schema, metadata, validation and reusable serving examples), building on realtime OpenPI serving and active pi0/pi0.5 integrations. XPolicyLab was revalidated and deduplicated; OpenVINO Physical AI remains a strong runtime lead pending paper-backed systems evidence.
+
+### 2026-08-22 11:05 CST
+Fresh 24h/7d + targeted robot-policy runtime scan completed; no new SYS-first paper promotion. vLLM-Omni RFC #6168 adds an important deployment milestone: DreamZero-DROID has now been served end-to-end through the OpenPI robot endpoint on 2×MI300X/ROCm with 34 closed-loop rollouts. RFC #6069 and the pi0/pi0.5 tracker remain open, so this is tracked as cross-vendor serving/evaluation ecosystem progress rather than a new paper entry.

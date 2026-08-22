@@ -114,3 +114,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Split taxonomy into `PHYSICAL_AI_MAP.md` and `MULTIMODAL_MAP.md`, plus `CROSSOVER.md` for shared systems/technical lineage.
 - Preserved one shared `data/papers.json` as the metadata source of truth to avoid duplicate or drifting paper records.
 - Rewrote the repository homepage to expose both tracks equally and independently.
+
+## 2026-08-22 11:05 CST
+- Hourly SYS-first scan found no new paper promotion.
+- Updated vLLM-Omni ecosystem evidence: RFC #6168 reports DreamZero-DROID served end-to-end through the OpenPI robot endpoint on 2×MI300X/ROCm with 34 closed-loop rollouts, extending robot-policy serving beyond the CUDA-only path.
+- RFC #6069 and pi0/pi0.5 model integration remain open; tracked as serving-contract / cross-vendor deployment progress rather than a separate paper entry.
