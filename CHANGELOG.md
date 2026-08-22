@@ -176,3 +176,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Phase B under RFC #6231 remains open for normalized node-local runtime mmap-cache sharing across equivalent DP/TP/SP host-weight layouts; request scheduling/admission/batching remain explicit non-goals.
 - Kept canonical paper counts/taxonomy unchanged; next watch point is whether the Phase-B cache substrate is actually exercised by robot-policy/world-model deployments.
 
+## 2026-08-23 01:00 CST
+- Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion or taxonomy change.
+- Rechecked vLLM-Omni DLO Phase B: RFC #6231 remains open and no new indexed implementation PR beyond merged Phase-A PR #6213 was found; request scheduling/batching/orchestration remain out of scope.
+- Rechecked robot-policy/runtime frontier: mainline π0 remains executable, RFC #6069 remains open, no indexed successor to closed π0.5 PR #4419 was found, and RFC #5120 core structural-state engine/request-state work remains unfinished.
+- HELIOS heterogeneous lightweight VLA serving remains a EuroSys 2027 submission watch item with no public preprint/repo found in this scan.
+
