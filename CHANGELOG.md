@@ -170,3 +170,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added vLLM-Omni RFC #6195 as runtime/cache ecosystem evidence: DLO host-weight storage is being decoupled from DP request scheduling via `HostWeightPlan` and fail-closed runtime-layout compatibility.
 - Kept paper counts/taxonomy unchanged; no new robot-specific admission/SLO scheduler or stable π0.5 successor was verified.
 
+## 2026-08-23 00:01 CST
+- Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
+- Upgraded vLLM-Omni DLO implementation status: RFC #6195 now records **Phase A merged** via PR #6213 (`HostWeightPlan`, fail-closed direct checkpoint mmap, bounded no-AllGather staging) for TP=1.
+- Phase B under RFC #6231 remains open for normalized node-local runtime mmap-cache sharing across equivalent DP/TP/SP host-weight layouts; request scheduling/admission/batching remain explicit non-goals.
+- Kept canonical paper counts/taxonomy unchanged; next watch point is whether the Phase-B cache substrate is actually exercised by robot-policy/world-model deployments.
+
