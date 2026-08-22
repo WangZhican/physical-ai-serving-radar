@@ -1,6 +1,6 @@
 # Latest scan
 
-**Updated:** 2026-08-22 22:00 CST
+**Updated:** 2026-08-23 03:00 CST
 
 - **CORE_SYS +1:** OpenBot-Fleet (ICRA 2024), recovered via fleet data/runtime omission audit.
 - Fresh 24h/7d scan: no newer direct SYS promotion.
@@ -67,3 +67,8 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper 
 ## 2026-08-23 02:02 CST
 - CORE_SYS +2: Execution-State Capsules / FlashRT (arXiv:2606.20537, A+, Routes 3/5/6) adds graph-bound complete execution-state checkpoint/restore/fork/rollback for latency-first on-device Physical-AI serving; PhAIL (arXiv:2605.29710, A, Routes 8/9) adds open real-robot VLA evaluation infrastructure with distributional time-to-success, Human-Relative Throughput, confidence intervals, significance testing and per-rollout artifacts.
 - Fresh 24h/7d scan: no newer direct SYS promotion; both additions are historical omission recovery.
+
+## 2026-08-23 03:00 CST
+- `SYS_ALG_BOUNDARY +2`: **dWorldEval** (arXiv:2604.22152, ICML 2026 Spotlight, Routes 9/10) adds scalable world-model proxy evaluation with action-centric discrete diffusion, sparse keyframe memory and automatic progress scoring; **Hi-WM** (arXiv:2604.21741, Routes 5/9/10) adds cached intermediate world-state rollback/branching for reusable corrective continuations.
+- Both remain below CORE_SYS because their primary novelty is evaluation/post-training methodology rather than serving resource management or scheduling. Official project pages and arXiv PDFs verified.
+- Fresh 24h/7d scan produced no newer direct SYS promotion. FlashRT adoption recheck: 486 stars / 60 forks / 508 commits in the current public crawl.

@@ -36,3 +36,15 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Code:** https://github.com/UT-Austin-RPL/sirius-fleet
 - **Routes:** 1 / 7 / 9 / 10 · **Priority:** A
 - **Role:** multi-task fleet deployment with runtime anomaly monitoring, visual-world-model prediction, selective human intervention and continual policy/monitor updates. Kept at `SYS_ALG_BOUNDARY` because interactive monitoring/learning is the main novelty rather than serving admission, resource management or scheduler design.
+
+### dWorldEval — scalable world-model policy evaluation
+- **Paper:** https://arxiv.org/abs/2604.22152
+- **Project:** https://dworldeval.github.io/
+- **Venue:** ICML 2026 Spotlight · **Routes:** 9 / 10 · **Priority:** A+
+- **Role:** action-centric discrete-diffusion world model with sparse keyframe memory and automatic progress scoring used as a scalable policy-evaluation proxy. Important evaluation-serving workload, but method-first rather than a scheduler/resource runtime.
+
+### Hi-WM — cached rollback/branching world-state substrate
+- **Paper:** https://arxiv.org/abs/2604.21741
+- **Project:** https://hi-wm.github.io/
+- **Routes:** 5 / 9 / 10 · **Priority:** A
+- **Role:** caches intermediate world-model states and supports rollback/branching so one failure state can seed multiple corrective continuations. Strong state-reuse/fork-backtrack signal, but the primary contribution is corrective post-training rather than an independent serving system.

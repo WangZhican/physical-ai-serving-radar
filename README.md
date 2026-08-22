@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-08-23 01:00 CST**
+**Last updated: 2026-08-23 03:00 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -29,12 +29,12 @@ Physical AI serving treats **physical execution, state freshness, deadlines, rob
 | P2. Unified Physical-AI Runtime | portable VLA/WAM execution, robot-facing serving APIs | PhyAI, Embodied.cpp, vla.cpp, LeRobot |
 | P3. Real-Time / Streaming / Control Loop | reaction latency, deadlines, async execution, accelerator arbitration | CROS-RT, PAAM, VLASH, FASTER |
 | P4. Edge-Cloud / Disaggregated Physical AI | device/edge/cloud placement, network/tail-latency reliability | RoboECC, RAPID, EcoVLA, FogROS2 |
-| P5. Physical-State / Temporal Cache | cache validity over vision/action/world/planner state | AgenticCache, Persistent Computational State |
+| P5. Physical-State / Temporal Cache | cache validity over vision/action/world/planner/execution state | AgenticCache, Persistent Computational State, Execution-State Capsules |
 | P6. Hardware-Aware / Heterogeneous Serving | GPU/XPU/NPU placement, CPU-GPU partitioning, offload | XPU Characterization, PAAM, OOM-Free Alpamayo |
 | P7. Composite VLA + WAM + Planner Serving | policy + planner + world model + verifier/safety graphs | M*, PhyAI, vLLM-Omni |
 | P8. Workload Characterization / Modeling | control-time, network, cost-energy-time models | VLA-Perf, PhyAI |
-| P9. Evaluation / Serving Infrastructure | model-server decoupling, real-robot EaaS, traces, observability | DeepInsight, RoboArena, vla-eval |
-| P10. World-Model / WAM Rollout Serving | persistent rollout state, branch scheduling, migration | WorldMove, PhyAI |
+| P9. Evaluation / Serving Infrastructure | model-server decoupling, real-robot EaaS, distributional metrics, observability | DeepInsight, RoboArena, PhAIL, vla-eval |
+| P10. World-Model / WAM Rollout Serving | persistent rollout state, branch scheduling, migration, rollback/fork | WorldMove, PCS, PhyAI |
 
 **Start here:** [`physical_ai/README.md`](physical_ai/README.md)
 

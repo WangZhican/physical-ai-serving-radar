@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23 02:02 CST",
-  "count": 119,
+  "updated": "2026-08-23 03:00 CST",
+  "count": 121,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1760,6 +1760,34 @@
       "project_url": "https://phail.ai/",
       "open_source": "official dataset, per-rollout artifacts, analysis pipeline and reference implementation linked by paper/project",
       "system_note": "Open real-robot VLA evaluation infrastructure on Franka FR3 using time-to-success distributions, Human-Relative Throughput with bootstrap CIs, and KS significance tests. Resolves close model comparisons at <=30 rollouts/cell where binary success metrics do not; exposes production-style UPH/Done/MTBF-style public evaluation artifacts."
+    },
+    {
+      "id": "arxiv:2604.22152",
+      "title": "dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
+      "system": "dWorldEval",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [9, 10],
+      "year": 2026,
+      "venue": "ICML 2026 Spotlight",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2604.22152",
+      "project_url": "https://dworldeval.github.io/",
+      "system_note": "Scalable policy-evaluation proxy using an action-centric discrete-diffusion world model with unified multimodal/action tokens, sparse keyframe memory and automatic progress scoring. Kept at SYS_ALG_BOUNDARY because the core novelty is the evaluation/world-model method rather than a serving scheduler or resource runtime."
+    },
+    {
+      "id": "arxiv:2604.21741",
+      "title": "Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training",
+      "system": "Hi-WM",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [5, 9, 10],
+      "year": 2026,
+      "venue": "arXiv 2026",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2604.21741",
+      "project_url": "https://hi-wm.github.io/",
+      "system_note": "World-model corrective substrate with cached intermediate states, rollback and branching for reusable failure-state continuations. Relevant to rollout-state reuse and fork/backtrack, but method-first rather than an independent serving/runtime system."
     }
   ]
 }

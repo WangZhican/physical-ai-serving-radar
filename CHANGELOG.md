@@ -186,3 +186,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 ## 2026-08-23 02:02 CST
 - CORE_SYS +2: Execution-State Capsules / FlashRT (arXiv:2606.20537, A+, Routes 3/5/6) adds graph-bound complete execution-state checkpoint/restore/fork/rollback for latency-first on-device Physical-AI serving; PhAIL (arXiv:2605.29710, A, Routes 8/9) adds open real-robot VLA evaluation infrastructure with distributional time-to-success, Human-Relative Throughput, confidence intervals, significance testing and per-rollout artifacts.
 - Fresh 24h/7d scan: no newer direct SYS promotion; both additions are historical omission recovery.
+
+## 2026-08-23 03:00 CST
+- Added **dWorldEval** (arXiv:2604.22152, ICML 2026 Spotlight) to `SYS_ALG_BOUNDARY / A+`, Routes 9/10, as a scalable world-model policy-evaluation proxy.
+- Added **Hi-WM** (arXiv:2604.21741) to `SYS_ALG_BOUNDARY / A`, Routes 5/9/10, as rollback/branching world-state reuse evidence for corrective post-training.
+- Refined P5/P9/P10 to distinguish complete execution-state reuse, world-model proxy evaluation, and cached rollback/branching workloads from true serving/resource-management systems.
+- FlashRT adoption rechecked at 486 stars / 60 forks / 508 commits in the current public crawl. Public dataset updated to **121 verified works / 91 CORE_SYS / 21 SYS_ALG_BOUNDARY / 4 ALG / 5 WATCH**.

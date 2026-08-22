@@ -15,7 +15,7 @@ Reaction latency, deadlines, async perception/inference/execution, executor sche
 Device/edge/cloud partitioning, fog/cloud provisioning, server selection, network adaptation and tail-latency reliability. The recovered systems lineage is **FogROS 2 → FogROS2-Config → FogROS2-PLR**, complementing modern VLA-specific RoboECC, RAPID and device-edge EcoVLA.
 
 ## P5. Physical-State / Temporal Cache and State Reuse
-Beyond KV cache: vision features, planner transitions, action intermediates, world state, rollout state and session checkpoints. **Anchors:** AgenticCache, Persistent Computational State, WorldMove. ActionCache remains an algorithmic inspiration rather than a general cache system.
+Beyond KV cache: vision features, planner transitions, action intermediates, recurrent/convolution/MTP state, world state, rollout state and session checkpoints. **Anchors:** AgenticCache, Persistent Computational State, WorldMove, Execution-State Capsules / FlashRT. **Boundary signal:** Hi-WM shows cached world-model states with rollback/branching as a reusable failure-state substrate, but remains method-first rather than a general serving runtime. ActionCache remains an algorithmic inspiration rather than a general cache system.
 
 ## P6. Hardware-Aware / Heterogeneous Serving
 GPU/XPU/NPU placement, phase asymmetry, CPU–GPU partitioning, memory swapping and shared accelerator management. **Anchors:** Characterizing VLA across XPUs, PAAM, GCAPS, OOM-Free Alpamayo, Hybrid Block-Layer VLA inference.
@@ -27,10 +27,10 @@ Graph/walk abstractions for perception → reasoner → planner → policy → W
 Model/hardware/network landscapes, control-time rooflines, wireless discovery/transport behavior and deployment cost-energy-time modeling. **Anchors:** VLA-Perf, PhyAI, Discovery Storm.
 
 ## P9. Evaluation / Serving Infrastructure
-Model-server/benchmark decoupling, real-robot evaluation-as-a-service, distributed evaluation, traces, observability and deadline/latency instrumentation. **Anchors:** DeepInsight, RoboArena, AutoEval, RoboDojo, vla-eval, ros2probe, CARET, TILDE.
+Model-server/benchmark decoupling, real-robot evaluation-as-a-service, distributed evaluation, traces, observability, distributional real-hardware metrics and deadline/latency instrumentation. **Anchors:** DeepInsight, RoboArena, AutoEval, RoboDojo, vla-eval, ros2probe, CARET, TILDE, PhAIL. **Boundary:** dWorldEval adds scalable world-model proxy evaluation with automatic progress scoring, but remains method-first rather than a serving/resource system.
 
 ## P10. World-Model / WAM Rollout Serving
-Branching/iterative rollouts, persistent sessions, checkpoint/restore, exact-state migration, rollout-state reuse and VLA/WAM co-scheduling. **Anchors:** Persistent Computational State, WorldMove, PhyAI.
+Branching/iterative rollouts, persistent sessions, checkpoint/restore, exact-state migration, rollout-state reuse, evaluation proxies and reusable rollback/branching substrates. **Anchors:** Persistent Computational State, WorldMove, PhyAI. **Boundary signals:** dWorldEval and Hi-WM.
 
 ## Important refinements
 
