@@ -78,3 +78,9 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper 
 - System role: 10-machine heterogeneous online robot fleet, fully asynchronous timestamped observation/action-queue APIs, explicit evaluation-job scheduling, public submission/result flow, 7×24-oriented robot service.
 - Official `RoboChallenge/RoboChallengeInference` artifact verified (~149 stars in current public crawl). Fresh 24h/7d SYS-first scan found no newer direct promotion.
 - Next: RoboChallenge/RoboArena/AutoEval/PhAIL/RoboDojo admission/resource-isolation comparison, then execution-state/world-state runtime and fleet SLO scheduling.
+
+
+## 2026-08-23 05:02 CST
+- **CORE_SYS +1:** [Thea / Towards the Harness of Embodied Agents](https://arxiv.org/abs/2608.11246), Routes P2/P5/P7, priority A. Provider-neutral embodied-agent harness with persistent scene-graph context, Tool Protocol, post-execution evaluation/exit codes, memory/skills/safety and embodiment portability. Official [project](https://eit-hai.github.io/thea/) and [Apache-2.0 repo](https://github.com/EIT-HAI/Thea) verified (~45 stars).
+- Fresh 24h/7d SYS-first scan found no newer direct promotion; this addition came from 30d harness/orchestration omission recovery.
+- Coverage frontier: Thea/EIT-HAI harness follow-ons → RoboChallenge evaluation admission/fairness → FlashRT/PCS/WorldMove fork/rollback/migration → vLLM-Omni stateful robot serving → fleet SLO → Zenoh/DDS enforcement.

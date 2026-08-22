@@ -31,3 +31,7 @@ Both tracks read from the same verified dataset:
 - [`../data/papers.json`](../data/papers.json)
 
 This prevents duplicate metadata and divergent paper identities while keeping the research narratives separate.
+
+
+### 2026-08-23: Embodied-agent harness/runtime branch
+Thea adds a reusable harness layer above robot capabilities: provider-neutral agentic loop + Tool Protocol + persistent Scene Graph state + post-execution Evaluation-as-Exit-Codes + memory/skills/safety + embodiment profile. This branch connects P2 runtime, P5 persistent physical state, and P7 composite planner/policy/safety orchestration. It is distinct from ordinary tool-use prompting because the contribution is a reusable physical execution/runtime substrate.

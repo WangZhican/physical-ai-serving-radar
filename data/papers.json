@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23 04:02 CST",
-  "count": 122,
+  "updated": "2026-08-23 05:02 CST",
+  "count": 123,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1808,6 +1808,25 @@
       "venue": "arXiv technical report",
       "priority": "A+",
       "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2608.11246",
+      "title": "Towards the Harness of Embodied Agents",
+      "system": "Thea",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "Technical Report / arXiv 2026",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2608.11246",
+      "project": "https://eit-hai.github.io/thea/",
+      "repo": "https://github.com/EIT-HAI/Thea",
+      "system_contribution": "Provider-neutral embodied-agent harness/runtime owning the agentic loop, context lifetimes, Tool Protocol, memory/skills/safety and post-execution evaluation; persistent Scene Graph as Context and Evaluation as Exit Codes make physical outcomes observable and recoverable across embodiments."
     }
   ]
 }

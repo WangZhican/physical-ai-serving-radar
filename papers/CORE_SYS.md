@@ -110,3 +110,9 @@ Routes 8/9. Open real-robot VLA evaluation infrastructure with Franka FR3 rollou
 **Routes:** P3 Real-Time / Streaming / Control Loop · P9 Evaluation / Serving Infrastructure
 
 Public online real-robot evaluation infrastructure rather than a static benchmark: a 10-machine heterogeneous fleet (UR5, Franka, Aloha, ARX-5), low-level fully asynchronous APIs with precisely timestamped observations and explicit FIFO action-queue state, evaluation-job scheduling, public submission/results, and 7×24-oriented service design. [Paper](https://arxiv.org/abs/2510.17950) · [Project](https://robochallenge.ai/) · [Repo](https://github.com/RoboChallenge/RoboChallengeInference)
+
+
+### Thea — Towards the Harness of Embodied Agents — A
+**Routes:** P2 Unified Physical-AI Runtime · P5 Physical-State / State Reuse · P7 Composite VLA + WAM + Planner Serving
+
+Provider-neutral embodied-agent harness/runtime that owns the agentic loop, context lifetimes, Tool Protocol, memory, skills, safety and post-execution evaluation. `Scene Graph as Context` provides persistent symbolic world state; `Evaluation as Exit Codes` makes physical tool outcomes observable and recoverable; an embodiment profile ports the same harness across robot bodies. Validated on Astribot S1, AgileX Cobot Magic and Unitree G1; evaluator accuracy is 93.3% on 90 real-robot checkpoints. [Paper](https://arxiv.org/abs/2608.11246) · [Project](https://eit-hai.github.io/thea/) · [Repo](https://github.com/EIT-HAI/Thea) (~45 stars in current public crawl).

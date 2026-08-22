@@ -197,3 +197,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added RoboChallenge (arXiv:2510.17950) to CORE_SYS/A+ as public online real-robot evaluation infrastructure.
 - Updated P9 representative anchors and machine-readable paper count to 122.
 - Fresh 24h/7d scan completed with no newer direct SYS promotion.
+
+
+## 2026-08-23 05:02 CST
+- Added **Thea / Towards the Harness of Embodied Agents** (arXiv:2608.11246) to `CORE_SYS` (A; P2/P5/P7).
+- Added official project/repo links and embodied-agent harness/runtime branch to the research map.
+- Updated public dataset to 123 verified records and refreshed hourly coverage heartbeat.
