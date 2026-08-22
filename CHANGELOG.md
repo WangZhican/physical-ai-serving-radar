@@ -159,3 +159,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
 - Revalidated current vLLM-Omni robot-serving boundary: π0 is executable in mainline, while no indexed successor to the closed π0.5 PR #4419 was found and RFC #6069 remains open.
 - Rechecked legal full-text routes for Eevee, ROSGM, and TILDE; no new open copy was resolved, so private PDF status remains unchanged.
+
+## 2026-08-22 22:00 CST
+- Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion.
+- Refined vLLM-Omni RFC #5120 status: the frontend prerequisite (`OmniTextPrompt` + generic `interaction` event) is already marked done, while the core structural-data routing/scheduling, per-request state, chunk-boundary application and model-specific processor work remain open.
+- Kept the serving boundary conservative: RFC #6069 still excludes #5120 from Phase 1, and no successor to closed π0.5 PR #4419 was found.

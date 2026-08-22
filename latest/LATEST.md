@@ -1,6 +1,6 @@
 # Latest scan
 
-**Updated:** 2026-08-22 17:01 CST
+**Updated:** 2026-08-22 22:00 CST
 
 - **CORE_SYS +1:** OpenBot-Fleet (ICRA 2024), recovered via fleet data/runtime omission audit.
 - Fresh 24h/7d scan: no newer direct SYS promotion.
@@ -50,3 +50,6 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper 
 
 ### 2026-08-22 21:02 CST — hourly scan
 Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper promotion. vLLM-Omni evidence remains bounded: executable LeRobot π0 serving is in current main, issue #4136 and Robot Policy Serving Contract RFC #6069 remain open, and no indexed successor to the closed π0.5 PR #4419 was found. RFC #6069 still excludes RFC #5120 structural streaming updates from Phase 1. Legal full-text retries for Eevee, ROSGM, and TILDE resolved no new open copy. Next: π0.5/#5120 linkage, Armory-external fleet SLO scheduling, PCS/WorldMove migration, Zenoh/DDS enforcement, and pending-PDF retries.
+
+### 2026-08-22 22:00 CST — hourly scan
+Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper promotion. **RFC #5120 status refined:** it remains open, but its prerequisite frontend generalization is already marked done (`prompt_update` → typed `OmniTextPrompt`, generic `interaction` event). The core systems work is still open: structural payload/schema/timing/update-mode routing through the engine/orchestrator, per-request structural state, chunk-boundary application and model-specific `StructuralDataProcessor`. Robot Policy Serving RFC #6069 still excludes #5120 from Phase 1, and no successor to closed π0.5 PR #4419 was found. Next: track #5120 engine/state implementation and robot/world-model linkage, then π0.5 successor, fleet SLO, state migration, middleware enforcement and pending PDFs.
