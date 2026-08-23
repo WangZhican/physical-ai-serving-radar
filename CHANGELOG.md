@@ -253,3 +253,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - No paper promotion this hour. The multimodal scan re-hit canonical HorizonServe, M*, HydraInfer, Omni-Flow, Cornserve and vLLM-Omni.
 - Added SGLang-Omni v0.1.2 production-serving tracker as ecosystem evidence: same-GPU Qwen3-TTS MPS-DP plus `WEIGHT_SHARE=1` serving/concurrency correctness are now monitored as Multimodal/Omni runtime evolution.
 - Updated the dedicated multimodal landing page and latest heartbeat; public paper counts remain **132 / 101 CORE_SYS / 22 SYS_ALG / 4 ALG / 5 WATCH**.
+
+- **2026-08-23 19:00 CST:** Hourly dual-track scan: no canonical-paper promotion; added vLLM-Omni full-duplex-runtime graduation (#6028) and video-output-transport optimization (#6212) as multimodal runtime radar evidence.

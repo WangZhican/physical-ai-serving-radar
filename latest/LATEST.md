@@ -160,3 +160,10 @@ AEROS-program reverse census promoted three systems/infrastructure works: **Fede
 
 ### 2026-08-23 16:00 CST
 Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal serving paper crossed the promotion bar. **CORE_SYS +1: ECM Contracts** (arXiv:2604.13097, A-, Routes 2/5/7), recovered from the saved AEROS-cluster frontier. It implements registry/resolver/contract-checker infrastructure for installable embodied capabilities and pre-deployment checks for resource, permission, recovery and version conflicts. No official public repo was verified in this scan, so maturity remains A-. Public dataset is now **132 verified works / 101 CORE_SYS / 22 SYS_ALG / 4 ALG / 5 WATCH**.
+
+
+### 2026-08-23 19:00 CST — dual-track hourly scan
+- **Physical AI:** fresh robot-policy/runtime scan completed; no new paper promotion. vLLM-Omni Robot Policy Serving Contract #6069 remains an active serving-boundary evolution.
+- **Multimodal / Omni:** no new paper promotion, but two high-value runtime developments were verified: vLLM-Omni #6028 proposes graduating the model-neutral full-duplex engine/control-plane + serving stack after reuse by MiniCPM-o 4.5 and PersonaPlex; #6212 targets repo-wide video tensor/output transport to address very large video payloads, IPC overflow/drop risks, serialization copies, and network overhead.
+- **Classification:** both are ecosystem/runtime evidence, not new canonical papers.
+- **Next:** verify implementation/merge status for #6028/#6212, then SGLang-Omni v0.1.2 MPS-DP/weight-sharing and the next 30-day multimodal SYS census.
