@@ -213,3 +213,6 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Completed fresh 24h/7d plus targeted 30d SYS-first scan; no canonical paper promotion or taxonomy-count change.
 - Refreshed FlashRT serving evidence: complete execution-state capsules are now documented as practical session/branch/restart primitives above the fixed execution ABI, with bounded request queues kept in the serving layer.
 - Refreshed PhAIL production-evaluation adoption: the public leaderboard currently exposes **1,083 real-robot episodes** and a unified real/sim evaluation workflow with per-run video and telemetry artifacts.
+
+## 2026-08-23 08:00 CST
+**New CORE_SYS:** Zetta ζ / Z-Infra (arXiv:2608.16590, A+, routes 2/3/6/7/9). Closed-loop embodied harness with action-frequency governance and heterogeneous rollout infrastructure. Official repo verified (~60 stars in current crawl). Fresh 24h/7d scan completed; next: Z-Infra implementation and resource/scheduling comparison with Thea/Embodied.cpp/XPolicyLab.

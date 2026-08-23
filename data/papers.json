@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23 05:02 CST",
-  "count": 123,
+  "updated": "2026-08-23 08:00 CST",
+  "count": 124,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1827,6 +1827,27 @@
       "project": "https://eit-hai.github.io/thea/",
       "repo": "https://github.com/EIT-HAI/Thea",
       "system_contribution": "Provider-neutral embodied-agent harness/runtime owning the agentic loop, context lifetimes, Tool Protocol, memory/skills/safety and post-execution evaluation; persistent Scene Graph as Context and Evaluation as Exit Codes make physical outcomes observable and recoverable across embodiments."
+    },
+    {
+      "id": "arxiv:2608.16590",
+      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+      "system": "Zetta / Z-Infra",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        6,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2608.16590",
+      "project": "https://github.com/air-embodied-brain/Zetta-Embodiment",
+      "repo": "https://github.com/air-embodied-brain/Zetta-Embodiment",
+      "system_contribution": "Closed-loop embodied harness with action-frequency governance and Z-Infra rollout infrastructure that decouples agent logic from heterogeneous execution resources; combines runtime critics/recovery with validation-gated skill evolution."
     }
   ]
 }
