@@ -167,3 +167,10 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - **Multimodal / Omni:** no new paper promotion, but two high-value runtime developments were verified: vLLM-Omni #6028 proposes graduating the model-neutral full-duplex engine/control-plane + serving stack after reuse by MiniCPM-o 4.5 and PersonaPlex; #6212 targets repo-wide video tensor/output transport to address very large video payloads, IPC overflow/drop risks, serialization copies, and network overhead.
 - **Classification:** both are ecosystem/runtime evidence, not new canonical papers.
 - **Next:** verify implementation/merge status for #6028/#6212, then SGLang-Omni v0.1.2 MPS-DP/weight-sharing and the next 30-day multimodal SYS census.
+
+
+### 2026-08-23 20:04 CST — hourly scan
+- **Physical AI:** fresh robot-policy/runtime scan completed; no new paper cleared SYS-first promotion threshold.
+- **Multimodal / Omni:** fresh 24h/7d + targeted 30d runtime scan completed. vLLM-Omni #6028 remains open; its generic full-duplex control plane (sessions/leases/fences/messages) is already reused by MiniCPM-o 4.5 and PersonaPlex, but the proposed graduation/move has no linked PR yet. vLLM-Omni #6212 remains open; Hop-1 large-video IPC is already POSIX shared-memory based, while binary/compressed remote output and zero-copy colocated transport remain roadmap items.
+- **Adjacent substrate watch:** SGLang #35648 proposes same-GPU replicas with managed CUDA MPS, shared weights and a global KV pool; its first draft explicitly excludes multimodal models, so it is tracked as a possible future Omni substrate rather than promoted as a multimodal system.
+- **Promotion:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
