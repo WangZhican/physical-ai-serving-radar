@@ -134,3 +134,7 @@ NVIDIA RSS 2026 evaluation runtime for task-generalist robot policies: robot/pol
 **New CORE_SYS:** AEROS (arXiv:2604.07039) and Harnessing Embodied Agents: Runtime Governance for Policy-Constrained Execution (arXiv:2604.07833). AEROS adds a persistent-agent / installable-capability runtime abstraction; Runtime Governance externalizes admission, policy enforcement, monitoring, rollback, and human override.
 
 **Evidence boundary:** AEROS has an Apache-2.0 runtime MVP, but its current public implementation is single-process/single-thread, mock-robot, and has no real-time guarantees; do not overstate production maturity.
+
+## 2026-08-23 16:00 CST — ECM Contracts
+- [**ECM Contracts**](https://arxiv.org/abs/2604.13097) — **A-**, Routes 2/5/7. Implements an embodied-capability registry/resolver/contract checker and pre-deployment compatibility checks over resource requirements, permission boundaries, recovery semantics and version compatibility. Current arXiv evaluation reports 56%/72% prediction of independently documented ROS integration failures across two substrates versus at most 17% for type/QoS baselines, with zero false positives on matched-good controls.
+- **Maturity boundary:** prototype infrastructure rather than a production serving runtime; no official public repository was verified in this scan.

@@ -241,3 +241,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 **Evidence boundary:** AEROS has an Apache-2.0 runtime MVP, but its current public implementation is single-process/single-thread, mock-robot, and has no real-time guarantees; do not overstate production maturity.
 
 - 2026-08-23 15:03 CST — Added FSAR, Governed Capability Evolution, and EmbodiedGovBench from AEROS research-program omission recovery; next: ECM Contracts/artifact audit.
+
+## 2026-08-23 16:00 CST
+- Added **ECM Contracts** (arXiv:2604.13097) to `CORE_SYS / A-`, Routes 2/5/7, after verifying implemented registry/resolver/contract-checker infrastructure and pre-deployment compatibility enforcement.
+- Preserved maturity boundary: no official public implementation repository was verified in this scan.
+- Reconciled public dataset to **132 verified works / 101 CORE_SYS / 22 SYS_ALG / 4 ALG / 5 WATCH**.
+- Fresh 24h/7d SYS-first scan completed with no newer direct serving/runtime promotion.

@@ -141,3 +141,6 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper 
 
 ### 2026-08-23 15:03 CST
 AEROS-program reverse census promoted three systems/infrastructure works: **Federated Single-Agent Robotics** (fleet runtime federation), **Governed Capability Evolution** (shadow/gated deployment + rollback), and **EmbodiedGovBench** (governance/recovery evaluation harness). Fresh 24h/7d scan completed; next audit targets ECM Contracts and implementation artifacts.
+
+### 2026-08-23 16:00 CST
+Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal serving paper crossed the promotion bar. **CORE_SYS +1: ECM Contracts** (arXiv:2604.13097, A-, Routes 2/5/7), recovered from the saved AEROS-cluster frontier. It implements registry/resolver/contract-checker infrastructure for installable embodied capabilities and pre-deployment checks for resource, permission, recovery and version conflicts. No official public repo was verified in this scan, so maturity remains A-. Public dataset is now **132 verified works / 101 CORE_SYS / 22 SYS_ALG / 4 ALG / 5 WATCH**.

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23 14:00 CST",
-  "count": 128,
+  "updated": "2026-08-23 16:00 CST",
+  "count": 132,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1937,6 +1937,66 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2604.11028",
+      "title": "Federated Single-Agent Robotics: Multi-Robot Coordination Without Intra-Robot Multi-Agent Fragmentation",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2604.11174",
+      "title": "EmbodiedGovBench: A Benchmark for Governance, Recovery, and Upgrade Safety in Embodied Agent Systems",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2604.08059",
+      "title": "Governed Capability Evolution for Embodied Agents: Safe Upgrade, Compatibility Checking, and Runtime Rollback for Embodied Capability Modules",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2604.13097",
+      "title": "ECM Contracts: Contract-Aware, Versioned, and Governable Capability Interfaces for Embodied Agents",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2604.13097",
+      "official_pdf": "https://arxiv.org/pdf/2604.13097",
+      "open_source": "prototype registry/resolver/contract checker described in paper; no official public repository verified in this run",
+      "system_note": "Contract/runtime infrastructure for embodied capability modules. ECM Contracts encodes functional signature, behavioral assumptions, resource requirements, permission boundaries, recovery semantics, and version compatibility, then performs static/pre-deployment compatibility checks for installation, composition, upgrade, resource contention, policy violations, and recovery incompatibilities. Current arXiv version evaluates blind reconstruction of independently documented ROS integration failures: contract checking predicts 56% and 72% across two substrates versus at most 17% for type/QoS baselines, with zero false positives on matched-good controls. Classified CORE_SYS A- because it implements registry/resolver/checker infrastructure and deployment-time enforcement, but remains a prototype rather than a mature serving runtime."
     }
   ]
 }
