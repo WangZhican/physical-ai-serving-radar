@@ -1,3 +1,10 @@
+## Hourly scan — 2026-08-23 10:02 CST
+
+- Fresh 24h/7d plus targeted 30d SYS-first scan completed; **no new canonical paper promotion**.
+- Zetta/Z-Infra deep artifact audit: first-party repo now exposes immutable campaign manifests/queues, shared-queue workers, capacity probes, deployment/preflight orchestration, LIBERO VLA client/server and RoboCasa environment-farm/provider-broker components. This materially strengthens the existing Zetta CORE_SYS entry as a real rollout-infrastructure control plane.
+- Evidence boundary preserved: the same README still marks the full Z-Infra open-source release as coming soon, so no unpublished global scheduler/fairness/resource-isolation/fault-tolerance mechanism is inferred from partial code release.
+- Fresh re-hits (PhyAI, HorizonServe, vLLM-Omni, M*, Embodied.cpp) were deduplicated; algorithm-only work was not promoted.
+
 ## Hourly scan — 2026-08-23 09:00 CST
 
 - Fresh 24h/7d plus targeted 30d scan completed; no new canonical paper promotion.
