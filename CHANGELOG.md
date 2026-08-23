@@ -231,3 +231,11 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added ROBOGATE to SYS_ALG_BOUNDARY with correction-aware evidence status.
 - Recorded the 2026-07-18 official validity correction so retracted VLA comparison numbers cannot silently re-enter the radar.
 - Updated public dataset to 126 verified records.
+
+## 2026-08-23 14:00 CST
+
+**Coverage:** 24h + 7d fresh scan; targeted 30d omission recovery.
+
+**New CORE_SYS:** AEROS (arXiv:2604.07039) and Harnessing Embodied Agents: Runtime Governance for Policy-Constrained Execution (arXiv:2604.07833). AEROS adds a persistent-agent / installable-capability runtime abstraction; Runtime Governance externalizes admission, policy enforcement, monitoring, rollback, and human override.
+
+**Evidence boundary:** AEROS has an Apache-2.0 runtime MVP, but its current public implementation is single-process/single-thread, mock-robot, and has no real-time guarantees; do not overstate production maturity.

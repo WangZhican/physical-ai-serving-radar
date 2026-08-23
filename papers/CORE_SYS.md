@@ -126,3 +126,11 @@ Provider-neutral embodied-agent harness/runtime that owns the agentic loop, cont
 ### RoboLab — A+
 **Route:** P9 Evaluation / Serving Infrastructure  
 NVIDIA RSS 2026 evaluation runtime for task-generalist robot policies: robot/policy-agnostic task generation, server-client policy execution, automated success/failure predicates, multi-environment parallel evaluation, faithful replay and a results dashboard. The Apache-2.0 implementation is actively released. [Paper](https://arxiv.org/abs/2604.09860) · [Project](https://research.nvidia.com/labs/srl/projects/robolab/) · [Repo](https://github.com/NVlabs/RoboLab) (~447 stars / 66 forks in current crawl).
+
+## 2026-08-23 14:00 CST
+
+**Coverage:** 24h + 7d fresh scan; targeted 30d omission recovery.
+
+**New CORE_SYS:** AEROS (arXiv:2604.07039) and Harnessing Embodied Agents: Runtime Governance for Policy-Constrained Execution (arXiv:2604.07833). AEROS adds a persistent-agent / installable-capability runtime abstraction; Runtime Governance externalizes admission, policy enforcement, monitoring, rollback, and human override.
+
+**Evidence boundary:** AEROS has an Apache-2.0 runtime MVP, but its current public implementation is single-process/single-thread, mock-robot, and has no real-time guarantees; do not overstate production maturity.

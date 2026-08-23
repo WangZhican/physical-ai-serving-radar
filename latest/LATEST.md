@@ -129,3 +129,11 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper 
 - SYS_ALG_BOUNDARY +1: ROBOGATE (arXiv:2603.22126), Route 9, A-. Deployment-validation/failure-boundary framework.
 - Evidence guard: the official 2026-07-18 correction retracts/quarantines the learned-policy VLA comparison and cross-simulator capability/safety interpretation. Retained scripted-controller failure-boundary results remain usable; historical VLA leaderboard numbers are not current evidence.
 - Fresh 24h/7d scan completed; promotion came from deployment-gate/runtime-safety omission recovery.
+
+## 2026-08-23 14:00 CST
+
+**Coverage:** 24h + 7d fresh scan; targeted 30d omission recovery.
+
+**New CORE_SYS:** AEROS (arXiv:2604.07039) and Harnessing Embodied Agents: Runtime Governance for Policy-Constrained Execution (arXiv:2604.07833). AEROS adds a persistent-agent / installable-capability runtime abstraction; Runtime Governance externalizes admission, policy enforcement, monitoring, rollback, and human override.
+
+**Evidence boundary:** AEROS has an Apache-2.0 runtime MVP, but its current public implementation is single-process/single-thread, mock-robot, and has no real-time guarantees; do not overstate production maturity.
