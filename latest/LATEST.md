@@ -137,3 +137,7 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper 
 **New CORE_SYS:** AEROS (arXiv:2604.07039) and Harnessing Embodied Agents: Runtime Governance for Policy-Constrained Execution (arXiv:2604.07833). AEROS adds a persistent-agent / installable-capability runtime abstraction; Runtime Governance externalizes admission, policy enforcement, monitoring, rollback, and human override.
 
 **Evidence boundary:** AEROS has an Apache-2.0 runtime MVP, but its current public implementation is single-process/single-thread, mock-robot, and has no real-time guarantees; do not overstate production maturity.
+
+
+### 2026-08-23 15:03 CST
+AEROS-program reverse census promoted three systems/infrastructure works: **Federated Single-Agent Robotics** (fleet runtime federation), **Governed Capability Evolution** (shadow/gated deployment + rollback), and **EmbodiedGovBench** (governance/recovery evaluation harness). Fresh 24h/7d scan completed; next audit targets ECM Contracts and implementation artifacts.
