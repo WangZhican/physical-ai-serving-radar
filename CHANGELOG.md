@@ -270,3 +270,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 
 ### 2026-08-23 23:59 CST
 - Added Relax (arXiv:2604.11554) to SYS_ALG_BOUNDARY after multimodal omission recovery; synced public dataset to 133 records.
+
+- **2026-08-24 07:01 CST:** dual-track hourly scan; no paper promotion. Recorded vLLM-Omni v0.26 DLO/Cosmos3 production correctness debt and SGLang-Omni release-gate status.

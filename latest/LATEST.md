@@ -201,3 +201,9 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - **Multimodal / Omni:** fresh 24h/7d + targeted 30d runtime scan completed. vLLM-Omni #6028 remains open; its generic full-duplex control plane (sessions/leases/fences/messages) is already reused by MiniCPM-o 4.5 and PersonaPlex, but the proposed graduation/move has no linked PR yet. vLLM-Omni #6212 remains open; Hop-1 large-video IPC is already POSIX shared-memory based, while binary/compressed remote output and zero-copy colocated transport remain roadmap items.
 - **Adjacent substrate watch:** SGLang #35648 proposes same-GPU replicas with managed CUDA MPS, shared weights and a global KV pool; its first draft explicitly excludes multimodal models, so it is tracked as a possible future Omni substrate rather than promoted as a multimodal system.
 - **Promotion:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+
+### 2026-08-24 07:01 CST — hourly scan
+- **Promotion:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h/7d + targeted 30d systems/runtime scan completed; no new paper cleared the SYS-first threshold.
+- **Multimodal / Omni:** vLLM-Omni main/docs are now aligned with vLLM 0.26.0. Production audit found open Cosmos3-Super DLO request-batch-forward correctness debt (#5953) and a v0.26.0 guardrail packaging/startup issue (#5936). SGLang-Omni public releases still show 0.1.0 while production/concurrency hardening continues.
+- **Next:** vLLM-Omni v0.26 DLO correctness fixes + SGLang-Omni production gates + fresh 30d Multimodal SYS census; continue Physical-AI state/fleet/evaluation runtime scan.
