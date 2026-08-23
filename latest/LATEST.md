@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-23 18:03 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0; both Physical-AI and Multimodal/Omni tracks were independently scanned over fresh 24h→7d plus targeted 30d systems/runtime queries.
+- **Multimodal runtime update:** vLLM-Omni RFC #5822 proposes generic per-timestep execution for Modular Diffusers, removing whole-generation head-of-line blocking and enabling inter-request step interleaving, responsive cancellation and progressive output across roughly 15 modular diffusion families. The RFC explicitly does **not** add cross-request GPU batching, so this is tracked as runtime evolution rather than a paper promotion.
+- **Configuration/runtime hygiene:** vLLM-Omni tracker #6232 is moving request-varying model behavior away from process-global environment switches into typed/request-scoped configuration.
+- **Physical-AI:** fresh scans re-hit PhyAI and existing runtime anchors; no new paper crossed the SYS-first bar.
+- Next: verify #5822 implementation/merge and interaction with batching/preemption → SGLang-Omni v0.1.2 same-GPU MPS-DP/WEIGHT_SHARE release gate → fresh 30d multimodal systems census; Physical-AI continues runtime/evaluation/state/fleet omission recovery.
+
 ## Hourly scan — 2026-08-23 17:00 CST
 
 - **Dual-track coverage is now explicit.** Physical-AI/VLA/WAM and Multimodal/MLLM/Omni were scanned independently over 24h→7d, followed by targeted 30d omission checks; neither track is inferred from the other.
