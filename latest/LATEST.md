@@ -112,3 +112,9 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper 
 
 ## 2026-08-23 08:00 CST
 **New CORE_SYS:** Zetta ζ / Z-Infra (arXiv:2608.16590, A+, routes 2/3/6/7/9). Closed-loop embodied harness with action-frequency governance and heterogeneous rollout infrastructure. Official repo verified (~60 stars in current crawl). Fresh 24h/7d scan completed; next: Z-Infra implementation and resource/scheduling comparison with Thea/Embodied.cpp/XPolicyLab.
+
+## 2026-08-23 11:02 CST — hourly scan
+- **New CORE_SYS:** RoboLab (RSS 2026, arXiv:2604.09860), Route P9 / A+.
+- Fresh 24h/7d SYS-first scans found no newer direct promotion; RoboLab was recovered through NVIDIA evaluation-infrastructure omission auditing.
+- Official repo is Apache-2.0 and actively maintained; current public crawl shows ~447 stars / 66 forks and v0.3.0 released 2026-08-07.
+- Next: RoboLab/Isaac Lab-Arena ecosystem → real/sim evaluation admission, scheduling and resource isolation → stateful Physical-AI serving and fleet SLO.

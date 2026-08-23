@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23 08:00 CST",
-  "count": 124,
+  "updated": "2026-08-23 11:02 CST",
+  "count": 125,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1848,6 +1848,22 @@
       "project": "https://github.com/air-embodied-brain/Zetta-Embodiment",
       "repo": "https://github.com/air-embodied-brain/Zetta-Embodiment",
       "system_contribution": "Closed-loop embodied harness with action-frequency governance and Z-Infra rollout infrastructure that decouples agent logic from heterogeneous execution resources; combines runtime critics/recovery with validation-gated skill evolution."
+    },
+    {
+      "id": "arxiv:2604.09860",
+      "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "Robotics: Science and Systems (RSS) 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2604.09860",
+      "project_url": "https://research.nvidia.com/labs/srl/projects/robolab/",
+      "open_source": "github:NVlabs/RoboLab (~447 stars / 66 forks in current public crawl)",
+      "system_note": "NVIDIA simulation evaluation infrastructure for task-generalist robot policies: robot/policy-agnostic task and scene generation, server-client policy architecture, automated success/failure predicates, multi-environment parallel evaluation, faithful episode replay, results dashboard, and controlled perturbation/sensitivity analysis. RSS 2026. The framework is Apache-2.0 and actively released; v0.3.0 shipped 2026-08-07. This clears CORE_SYS because the contribution is reusable evaluation/runtime infrastructure rather than a policy algorithm."
     }
   ]
 }

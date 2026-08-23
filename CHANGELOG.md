@@ -221,3 +221,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Fresh 24h/7d plus targeted 30d SYS-first scan completed; no canonical paper promotion.
 - Deepened Zetta/Z-Infra artifact evidence: public repo exposes campaign queues/workers, capacity probes, deployment/preflight orchestration, LIBERO VLA client/server and RoboCasa environment-farm/provider-broker components.
 - Preserved a strict evidence boundary: full Z-Infra remains marked as coming soon, so scheduler/fairness/resource-isolation/fault-tolerance mechanisms are not inferred beyond the released code.
+
+## 2026-08-23 11:02 CST
+- Added **RoboLab** (RSS 2026, arXiv:2604.09860) to `CORE_SYS` (A+, P9).
+- Recorded NVIDIA's reusable simulation-evaluation runtime: policy server/client, automatic success detection, multi-env parallel evaluation, faithful replay/dashboard and active Apache-2.0 releases.
+- Public dataset updated to 125 verified records / 95 CORE_SYS.

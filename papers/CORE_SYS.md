@@ -122,3 +122,7 @@ Provider-neutral embodied-agent harness/runtime that owns the agentic loop, cont
 - **Repo:** https://github.com/air-embodied-brain/Zetta-Embodiment
 - **Routes:** 2 / 3 / 6 / 7 / 9
 - **System role:** closed-loop embodied harness; action-frequency runtime governance; Z-Infra decouples agent logic from heterogeneous rollout execution resources.
+
+### RoboLab — A+
+**Route:** P9 Evaluation / Serving Infrastructure  
+NVIDIA RSS 2026 evaluation runtime for task-generalist robot policies: robot/policy-agnostic task generation, server-client policy execution, automated success/failure predicates, multi-environment parallel evaluation, faithful replay and a results dashboard. The Apache-2.0 implementation is actively released. [Paper](https://arxiv.org/abs/2604.09860) · [Project](https://research.nvidia.com/labs/srl/projects/robolab/) · [Repo](https://github.com/NVlabs/RoboLab) (~447 stars / 66 forks in current crawl).
