@@ -62,3 +62,10 @@ Multimodal serving provides reusable mechanisms; Physical AI adds physical execu
 - heterogeneous placement → robot / edge / cloud co-execution.
 
 See [`../taxonomy/CROSSOVER.md`](../taxonomy/CROSSOVER.md).
+
+## Current scan status — 2026-08-23 17:00 CST
+
+- This track is now audited **independently every hour** from the Physical-AI track: 24h → 7d → targeted 30d.
+- Current fresh scan re-hit canonical **HorizonServe, M\*, HydraInfer, Omni-Flow, Cornserve, and vLLM-Omni**; no additional 2026-08 paper crossed the SYS-first promotion threshold.
+- Runtime watch: `sgl-project/sglang-omni` issue #1436 tracks **production-serving v0.1.2**, including same-GPU Qwen3-TTS MPS-DP and `WEIGHT_SHARE=1` serving/concurrency correctness. This is tracked as ecosystem/runtime evolution rather than a paper entry.
+- Next: SGLang-Omni release-gate changes → same-GPU multimodal stage sharing → weight/state sharing correctness → vLLM-Omni multimodal batching/state evolution → fresh 30d MLLM/Omni systems census.

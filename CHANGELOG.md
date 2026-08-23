@@ -247,3 +247,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Preserved maturity boundary: no official public implementation repository was verified in this scan.
 - Reconciled public dataset to **132 verified works / 101 CORE_SYS / 22 SYS_ALG / 4 ALG / 5 WATCH**.
 - Fresh 24h/7d SYS-first scan completed with no newer direct serving/runtime promotion.
+
+## 2026-08-23 17:00 CST
+- Hardened the radar into an explicit **dual-track hourly scan**: Physical-AI/VLA/WAM and Multimodal/MLLM/Omni now require separately recorded 24h→7d coverage, followed by targeted 30d omission recovery.
+- No paper promotion this hour. The multimodal scan re-hit canonical HorizonServe, M*, HydraInfer, Omni-Flow, Cornserve and vLLM-Omni.
+- Added SGLang-Omni v0.1.2 production-serving tracker as ecosystem evidence: same-GPU Qwen3-TTS MPS-DP plus `WEIGHT_SHARE=1` serving/concurrency correctness are now monitored as Multimodal/Omni runtime evolution.
+- Updated the dedicated multimodal landing page and latest heartbeat; public paper counts remain **132 / 101 CORE_SYS / 22 SYS_ALG / 4 ALG / 5 WATCH**.

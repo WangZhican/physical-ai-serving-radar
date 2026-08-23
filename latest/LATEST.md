@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-23 17:00 CST
+
+- **Dual-track coverage is now explicit.** Physical-AI/VLA/WAM and Multimodal/MLLM/Omni were scanned independently over 24h→7d, followed by targeted 30d omission checks; neither track is inferred from the other.
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0. Physical-AI hits were canonical or below threshold.
+- **Multimodal/Omni scan:** re-hit canonical HorizonServe, M*, HydraInfer, Omni-Flow, Cornserve and vLLM-Omni; no additional 2026-08 paper crossed the SYS-first bar.
+- **Runtime ecosystem update:** first-party SGLang-Omni issue #1436 (opened 2026-08-10) tracks production-serving v0.1.2, including same-GPU Qwen3-TTS MPS-DP and `WEIGHT_SHARE=1` request/concurrency correctness. Tracked as runtime evolution, not a paper promotion.
+- Next multimodal frontier: SGLang-Omni production-serving release gate → same-GPU stage sharing / weight-sharing correctness → vLLM-Omni multimodal batching/state evolution → fresh 30d MLLM/Omni systems census.
+
 ## Hourly scan — 2026-08-23 12:00 CST
 
 - Fresh 24h/7d + targeted 30d scan completed; no new paper crossed the SYS-first promotion threshold.
