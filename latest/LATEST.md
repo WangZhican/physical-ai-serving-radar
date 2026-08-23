@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-23 22:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0; Physical-AI and Multimodal/Omni were independently scanned over fresh 24h→7d plus targeted 30d systems/runtime queries.
+- **SGLang-Omni production serving:** v0.1.2 tracker #1436 remains open; the release cut is still gated by Qwen3-TTS admission/queueing (#1449), playback continuity (#1450), deterministic/batch invariance (#1475), absolute per-stage KV budgets (#1452), MPS-DP configuration/docs, and `WEIGHT_SHARE=1` concurrent correctness.
+- **Reusable Omni runtime primitive:** SGLang-Omni #1357 now records merged/default-ON breakable Prefill CUDA Graph support for Higgs-TTS, MOSS-Transcribe-Diarize and Qwen3-ASR; Qwen3-ASR uses 50 prefill buckets up to 4096 tokens. This is framework/runtime evolution, not a paper promotion.
+- **vLLM-Omni:** #6028 full-duplex graduation, #6212 Hop-2 video transport, #5120 structural updates and #6231 runtime-cache compatibility remain open at the verified boundaries.
+- **Physical-AI:** fresh robot-policy/fleet/state/evaluation scans produced no new paper above the SYS-first threshold.
+- Next: SGLang-Omni release cut + Prefill CUDA Graph expansion/production impact → vLLM-Omni duplex/video-transport implementation → check SGLang shared-KV/MPS generalization to Omni → fresh 30d Multimodal SYS census; Physical-AI continues runtime/evaluation/state/fleet omission recovery.
+
 ## Hourly scan — 2026-08-23 21:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0; Physical-AI and Multimodal/Omni were independently scanned over fresh 24h→7d plus targeted 30d systems/runtime queries.
