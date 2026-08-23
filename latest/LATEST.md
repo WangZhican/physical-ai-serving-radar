@@ -1,3 +1,9 @@
+## Hourly scan — 2026-08-23 12:00 CST
+
+- Fresh 24h/7d + targeted 30d scan completed; no new paper crossed the SYS-first promotion threshold.
+- Coverage: robot-policy serving/runtime, world-model rollout, evaluation infrastructure, deployment-gate/runtime-safety systems.
+- Watch lead: SimTooReal exposes cross-engine verification, runtime safety gating and staged fleet rollback, but no paper-grade primary evidence/open artifact was verified yet; not promoted.
+
 ## Hourly scan — 2026-08-23 10:02 CST
 
 - Fresh 24h/7d plus targeted 30d SYS-first scan completed; **no new canonical paper promotion**.
