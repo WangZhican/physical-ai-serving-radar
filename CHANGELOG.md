@@ -267,3 +267,6 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - SGLang-Omni v0.1.2 release tracker #1436 remains open with the production gates unchanged.
 - Added a runtime-evolution note for SGLang-Omni #1357: reusable breakable Prefill CUDA Graph support is merged/default-ON for Higgs-TTS, MOSS-Transcribe-Diarize, and Qwen3-ASR; Qwen3-ASR uses 50 prefill buckets up to 4096 tokens.
 - Revalidated vLLM-Omni #6028/#6212/#5120/#6231 as open at their previously recorded boundaries; public paper counts remain **132 verified / 101 CORE_SYS / 22 SYS_ALG / 4 ALG / 5 WATCH**.
+
+### 2026-08-23 23:59 CST
+- Added Relax (arXiv:2604.11554) to SYS_ALG_BOUNDARY after multimodal omission recovery; synced public dataset to 133 records.

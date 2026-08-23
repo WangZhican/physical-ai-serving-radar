@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23 16:00 CST",
-  "count": 132,
+  "updated": "2026-08-23 23:59 CST",
+  "count": 133,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1997,6 +1997,19 @@
       "official_pdf": "https://arxiv.org/pdf/2604.13097",
       "open_source": "prototype registry/resolver/contract checker described in paper; no official public repository verified in this run",
       "system_note": "Contract/runtime infrastructure for embodied capability modules. ECM Contracts encodes functional signature, behavioral assumptions, resource requirements, permission boundaries, recovery semantics, and version compatibility, then performs static/pre-deployment compatibility checks for installation, composition, upgrade, resource contention, policy violations, and recovery incompatibilities. Current arXiv version evaluates blind reconstruction of independently documented ROS integration failures: contract checking predicts 56% and 72% across two substrates versus at most 17% for type/QoS baselines, with zero false positives on matched-good controls. Classified CORE_SYS A- because it implements registry/resolver/checker infrastructure and deployment-time enforcement, but remains a prototype rather than a mature serving runtime."
+    },
+    {
+      "id": "arxiv:2604.11554",
+      "title": "Relax: An Asynchronous Reinforcement Learning Engine for Omni-Modal Post-Training at Scale",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        7,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED"
     }
   ]
 }

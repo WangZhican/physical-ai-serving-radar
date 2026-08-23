@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-23 23:59 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG/WATCH +0.
+- **New:** [Relax](https://arxiv.org/abs/2604.11554) — service-oriented asynchronous omni-modal post-training runtime with fault-isolated services, TransferQueue data bus, staleness-controlled async execution and Qwen3-Omni validation. Kept at SYS_ALG_BOUNDARY because its primary workload is post-training rather than online serving.
+- **Open source:** [redai-infra/Relax](https://github.com/redai-infra/Relax), Apache-2.0; public crawl ~550 stars.
+- **Physical-AI track:** independent 24h→7d + targeted 30d scan completed; no new paper crossed SYS-first threshold.
+- **Multimodal track:** independent scan covered omni serving/runtime, vLLM-Omni/SGLang-Omni and 30d MLLM systems; Relax was recovered through the post-training-runtime omission route.
+- Next: Relax/VeRL-Omni runtime census → SGLang-Omni v0.1.2 production gates → vLLM-Omni duplex/zero-copy/runtime-cache → fresh 30d Multimodal SYS; parallel Physical-AI runtime/state/fleet/evaluation coverage.
+
 ## Hourly scan — 2026-08-23 22:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0; Physical-AI and Multimodal/Omni were independently scanned over fresh 24h→7d plus targeted 30d systems/runtime queries.

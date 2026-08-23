@@ -55,3 +55,9 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Route:** 9 · **Priority:** A-
 - **Role:** physics-based deployment-validation framework using large-scale failure-boundary sampling and deployment-gate semantics. The retained scripted-controller study reports 50K+ Isaac Sim experiments across four robot embodiments and risk-model AUC 0.780 vs 0.754 for Stage 1 alone.
 - **Integrity note:** the publisher's 2026-07-18 correction retracts and quarantines the learned-policy/VLA comparison and cross-simulator capability/safety interpretation because harness paths were non-equivalent and the success predicate was insufficient. Those historical VLA numbers are not current evidence. The historical code link currently returns 404 from public fetch, so current repo adoption is not claimed.
+
+### Relax — asynchronous omni-modal post-training runtime
+- **Paper:** https://arxiv.org/abs/2604.11554
+- **Code:** https://github.com/redai-infra/Relax
+- **Routes:** 7 / 11 · **Priority:** A+
+- **Role:** omni-native, service-oriented post-training runtime with fault-isolated RL roles, TransferQueue data bus, staleness-controlled async execution, and Qwen3-Omni image/audio/video validation. It reports 1.20× over veRL on Qwen3-4B on-policy training, 1.76× fully-async over colocate on Qwen3-4B, and 2.00× on Qwen3-Omni-30B. Kept at `SYS_ALG_BOUNDARY` because the primary workload is post-training rather than online inference serving, despite substantial reusable rollout/runtime infrastructure.

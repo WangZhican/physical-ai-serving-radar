@@ -69,3 +69,6 @@ See [`../taxonomy/CROSSOVER.md`](../taxonomy/CROSSOVER.md).
 - Current fresh scan re-hit canonical **HorizonServe, M\*, HydraInfer, Omni-Flow, Cornserve, and vLLM-Omni**; no additional 2026-08 paper crossed the SYS-first promotion threshold.
 - Runtime watch: `sgl-project/sglang-omni` issue #1436 tracks **production-serving v0.1.2**, including same-GPU Qwen3-TTS MPS-DP and `WEIGHT_SHARE=1` serving/concurrency correctness. This is tracked as ecosystem/runtime evolution rather than a paper entry.
 - Next: SGLang-Omni release-gate changes → same-GPU multimodal stage sharing → weight/state sharing correctness → vLLM-Omni multimodal batching/state evolution → fresh 30d MLLM/Omni systems census.
+
+### Runtime-adjacent post-training systems watch
+- [Relax](https://arxiv.org/abs/2604.11554): fault-isolated omni-modal RL services + asynchronous TransferQueue runtime; tracked at SYS_ALG_BOUNDARY because it is post-training infrastructure rather than online serving.
