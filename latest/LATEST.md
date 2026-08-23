@@ -1,3 +1,9 @@
+## Hourly scan — 2026-08-23 09:00 CST
+
+- Fresh 24h/7d plus targeted 30d scan completed; no new canonical paper promotion.
+- Zetta/Z-Infra follow-up: the official repository now exposes substantial campaign, shared-queue worker, capacity-probe, deployment, VLA-server and environment-farm infrastructure, while its README still labels Z-Infra as coming soon. We therefore track this as a **partial infrastructure artifact release**, not a completed Z-Infra release.
+- Re-hits (Zetta, Embodied.cpp, Kairos serving, PhyAI, M*) were deduplicated; algorithm-only Efficient VLA work was not promoted into CORE_SYS.
+
 # Latest scan
 
 **Updated:** 2026-08-23 07:00 CST
