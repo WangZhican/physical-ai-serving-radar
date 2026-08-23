@@ -226,3 +226,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added **RoboLab** (RSS 2026, arXiv:2604.09860) to `CORE_SYS` (A+, P9).
 - Recorded NVIDIA's reusable simulation-evaluation runtime: policy server/client, automatic success detection, multi-env parallel evaluation, faithful replay/dashboard and active Apache-2.0 releases.
 - Public dataset updated to 125 verified records / 95 CORE_SYS.
+
+## 2026-08-23 13:00 CST
+- Added ROBOGATE to SYS_ALG_BOUNDARY with correction-aware evidence status.
+- Recorded the 2026-07-18 official validity correction so retracted VLA comparison numbers cannot silently re-enter the radar.
+- Updated public dataset to 126 verified records.

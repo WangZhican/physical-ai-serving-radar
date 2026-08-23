@@ -48,3 +48,10 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Project:** https://hi-wm.github.io/
 - **Routes:** 5 / 9 / 10 · **Priority:** A
 - **Role:** caches intermediate world-model states and supports rollback/branching so one failure state can seed multiple corrective continuations. Strong state-reuse/fork-backtrack signal, but the primary contribution is corrective post-training rather than an independent serving system.
+
+### ROBOGATE — deployment validation with correction-aware evidence
+- **Paper:** https://arxiv.org/abs/2603.22126
+- **Official status/correction:** https://www.robogate.io/paper
+- **Route:** 9 · **Priority:** A-
+- **Role:** physics-based deployment-validation framework using large-scale failure-boundary sampling and deployment-gate semantics. The retained scripted-controller study reports 50K+ Isaac Sim experiments across four robot embodiments and risk-model AUC 0.780 vs 0.754 for Stage 1 alone.
+- **Integrity note:** the publisher's 2026-07-18 correction retracts and quarantines the learned-policy/VLA comparison and cross-simulator capability/safety interpretation because harness paths were non-equivalent and the success predicate was insufficient. Those historical VLA numbers are not current evidence. The historical code link currently returns 404 from public fetch, so current repo adoption is not claimed.

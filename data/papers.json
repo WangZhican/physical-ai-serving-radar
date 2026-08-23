@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23 11:02 CST",
-  "count": 125,
+  "updated": "2026-08-23 13:00 CST",
+  "count": 126,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1864,6 +1864,22 @@
       "project_url": "https://research.nvidia.com/labs/srl/projects/robolab/",
       "open_source": "github:NVlabs/RoboLab (~447 stars / 66 forks in current public crawl)",
       "system_note": "NVIDIA simulation evaluation infrastructure for task-generalist robot policies: robot/policy-agnostic task and scene generation, server-client policy architecture, automated success/failure predicates, multi-environment parallel evaluation, faithful episode replay, results dashboard, and controlled perturbation/sensitivity analysis. RSS 2026. The framework is Apache-2.0 and actively released; v0.3.0 shipped 2026-08-07. This clears CORE_SYS because the contribution is reusable evaluation/runtime infrastructure rather than a policy algorithm."
+    },
+    {
+      "id": "arxiv:2603.22126",
+      "title": "ROBOGATE: Adaptive Failure Discovery for Safe Robot Policy Deployment via Two-Stage Boundary-Focused Sampling",
+      "system": "ROBOGATE",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv 2026 / SSRN under review",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2603.22126",
+      "project": "https://www.robogate.io/paper",
+      "system_contribution": "Deployment-validation/failure-boundary framework with large-scale Isaac Sim sampling and deployment-gate semantics. Official 2026-07-18 correction retracts the learned-policy/VLA comparison; only retained scripted-controller evidence is treated as valid."
     }
   ]
 }

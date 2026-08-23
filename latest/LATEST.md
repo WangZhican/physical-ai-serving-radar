@@ -124,3 +124,8 @@ Fresh 24h/7d plus targeted 30d SYS-first scan completed; no new canonical paper 
 - Fresh 24h/7d SYS-first scans found no newer direct promotion; RoboLab was recovered through NVIDIA evaluation-infrastructure omission auditing.
 - Official repo is Apache-2.0 and actively maintained; current public crawl shows ~447 stars / 66 forks and v0.3.0 released 2026-08-07.
 - Next: RoboLab/Isaac Lab-Arena ecosystem → real/sim evaluation admission, scheduling and resource isolation → stateful Physical-AI serving and fleet SLO.
+
+## 2026-08-23 13:00 CST
+- SYS_ALG_BOUNDARY +1: ROBOGATE (arXiv:2603.22126), Route 9, A-. Deployment-validation/failure-boundary framework.
+- Evidence guard: the official 2026-07-18 correction retracts/quarantines the learned-policy VLA comparison and cross-simulator capability/safety interpretation. Retained scripted-controller failure-boundary results remain usable; historical VLA leaderboard numbers are not current evidence.
+- Fresh 24h/7d scan completed; promotion came from deployment-gate/runtime-safety omission recovery.
