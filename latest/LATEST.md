@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-23 21:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0; Physical-AI and Multimodal/Omni were independently scanned over fresh 24h→7d plus targeted 30d systems/runtime queries.
+- **SGLang-Omni production serving:** v0.1.2 tracker #1436 remains open. Active gates include Qwen3-TTS admission/queueing past c32 (#1449), playback continuity (#1450), deterministic/batch-invariant inference (#1475), absolute per-stage KV-memory budgets (#1452), same-GPU MPS-DP configuration, and `WEIGHT_SHARE=1` concurrent-request correctness. The Qwen3-TTS MPS-DP track reports +55% peak throughput and better p95 latency/RTF at c32; this is runtime/release evidence, not a paper promotion.
+- **vLLM-Omni:** RFC #6028 remains open with no linked migration PR in current indexed evidence; RFC #6212 remains open with Hop-1 POSIX shared-memory video IPC already landed and Hop-2 binary/compressed/zero-copy output transport still on the roadmap.
+- **Adjacent substrate:** SGLang #35648 proposes same-GPU native-DP replicas with managed CUDA MPS, daemon-owned shared weights and a global HBM KV pool; its first draft is not multimodal, so it is not promoted into the Multimodal core.
+- **Physical-AI:** fresh robot-policy/fleet/state/evaluation scans produced no new paper above the SYS-first threshold.
+- Next: SGLang-Omni v0.1.2 release gates → vLLM-Omni duplex/video-transport implementation → test whether SGLang shared-KV/MPS generalizes to Omni → fresh 30d multimodal systems census; Physical-AI continues runtime/evaluation/state/fleet omission recovery.
+
 ## Hourly scan — 2026-08-23 18:03 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0; both Physical-AI and Multimodal/Omni tracks were independently scanned over fresh 24h→7d plus targeted 30d systems/runtime queries.

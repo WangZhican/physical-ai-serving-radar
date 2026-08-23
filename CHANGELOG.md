@@ -255,3 +255,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Updated the dedicated multimodal landing page and latest heartbeat; public paper counts remain **132 / 101 CORE_SYS / 22 SYS_ALG / 4 ALG / 5 WATCH**.
 
 - **2026-08-23 19:00 CST:** Hourly dual-track scan: no canonical-paper promotion; added vLLM-Omni full-duplex-runtime graduation (#6028) and video-output-transport optimization (#6212) as multimodal runtime radar evidence.
+
+## 2026-08-23 21:00 CST
+- Dual-track 24h→7d fresh scan plus targeted 30d systems/runtime checks completed; no canonical-paper promotion.
+- SGLang-Omni v0.1.2 tracker remains open; active gates now cover Qwen3-TTS admission/queueing, playback continuity, deterministic/batch-invariant inference, absolute per-stage KV-memory budgets, same-GPU MPS-DP configuration, and `WEIGHT_SHARE=1` concurrent-request correctness.
+- Retained vLLM-Omni #6028/#6212 implementation boundaries: duplex graduation/migration is still RFC-level; Hop-1 video shared-memory IPC is landed while Hop-2 binary/compressed/zero-copy transport remains open.
+- Public paper counts unchanged at **132 verified / 101 CORE_SYS / 22 SYS_ALG / 4 ALG / 5 WATCH**.
