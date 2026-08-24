@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-24 10:58 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d + targeted 30d serving/runtime scan completed; PhyAI/Kairos re-hits deduplicated, no new paper crossed the SYS-first threshold.
+- **Multimodal / Omni:** no new paper promotion. Runtime watch: vLLM-Omni #6413 exposes aborted-diffusion output reclamation leaks; #6158 tracks catastrophic TTS codec repetition/missing-EOS safeguards; #6083 remains AR pause/resume + sleep/wake for colocated multi-stage serving.
+- **PDF debt improved:** arXiv:2607.08215 official PDF retry succeeded on full97 (443,796 B, valid %PDF-); remaining legal PDF debt is Eevee/ROSGM/TILDE.
+- **Next:** #6413/#6439 reclamation fix → #6158 safeguards → SGLang-Omni production gates → fresh 30d Multimodal SYS; parallel Physical-AI state/fleet/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-24 09:03 CST
 
 - **Promotions:** CORE_SYS +1 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
