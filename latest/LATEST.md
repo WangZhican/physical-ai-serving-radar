@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-25 05:02 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/state/evaluation checks completed; fresh hits re-hit Kairos/PhyAI/PCS/M* or below-threshold work, with no duplicate promotion.
+- **Multimodal / Omni:** production-runtime census keeps request lifecycle and correctness as the active frontier. vLLM-Omni #6403 remains open with queued-vs-running status ambiguity and ineffective cancellation for already-running video inference; #6413 remains open with #6439 as the reclamation path; #6426 continuous-request MiniCPM-o 4.5 OOM/correctness and #6455 CosyVoice3 streaming device/state mismatch remain active.
+- **SLO / config correctness:** #5668 shows `audio_ttfp` can be reported but is not accepted/applied as a normal goodput SLO; #5728 shows some stage-overrides can be accepted and silently ignored. These are production-runtime debts, not separate paper records.
+- **Release watch:** vLLM-Omni `v0.28.0` remains due 2026-08-30; latest indexed milestone snapshot is 50/129 issues closed (38%).
+- **PDF:** no new canonical paper/PDF; private canonical state remains 136 works / 130 valid PDFs. Legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** #6439 reclamation merge → #6403 real cancellation/status → #6426/#6455 streaming/continuous correctness → #5668 audio SLO → #5728 stage-config validation → v0.28.0 + SGLang-Omni production gates → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/recovery/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 02:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
