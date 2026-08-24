@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-24 14:00 CST
+- No canonical paper promotion after independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime checks.
+- vLLM-Omni #6439 (fix for #6413) verified open/not merged; current PR adds aborted-request orphan-output reclamation, shutdown cleanup, and cancelled/done-waiter handling. Treat as PR-scoped runtime evidence until merge.
+- vLLM-Omni #6158 remains open with no linked implementation PR; no shipped TTS missing-EOS/repetition safeguard is claimed.
+- SGLang-Omni #1608 updated 2026-08-23: Qwen3-TTS KDA reproduction rebased to current main, compile parity closed, Talker `torch.compile` removed after no reproducible end-to-end gain, CUDA Graph retained, and 204 directly affected tests passed.
+- PDF state unchanged: 128 valid, 0 invalid; remaining legal debt Eevee/ROSGM/TILDE.
+
 ## 2026-08-24 09:03 CST
 - Added **On the Limitations of Non-GPU AI Accelerators for Large-Model Inference** (arXiv:2607.08215) to `CORE_SYS / A`, Routes 6/8/11, after heterogeneous-serving omission recovery.
 - Verified official arXiv metadata and companion repository; the study documents real MoE + multimodal serving on 16 Huawei Ascend 910 devices, 12 source-level integration patches, and eight classes of platform/runtime limitations.

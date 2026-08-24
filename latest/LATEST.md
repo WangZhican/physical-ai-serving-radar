@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-24 14:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d + targeted 30d scan completed; fresh VLA/robot-policy/fleet/state/evaluation hits were canonical or below threshold.
+- **Multimodal / Omni:** vLLM-Omni #6439, the fix for aborted diffusion output leakage (#6413), is **open/not merged**. The PR adds orphan-output reclamation, shutdown cache cleanup, and explicit discard of late outputs for cancelled/done waiters; targeted CPU tests report 42 passing after review-driven fixes.
+- **TTS runtime boundary:** vLLM-Omni #6158 remains open with no linked implementation PR, so catastrophic codec repetition/missing-EOS safeguards are not claimed as shipped.
+- **SGLang-Omni:** #1608 was updated 2026-08-23; Qwen3-TTS KDA reproduction is rebased to current main, compile parity is closed, Talker `torch.compile` was removed after no reproducible end-to-end gain, CUDA Graph remains enabled, and 204 directly affected current-main tests passed.
+- **PDF state:** unchanged at 128 valid / 0 invalid; legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** #6439 merge/final semantics → #6158 implementation → SGLang-Omni #1608/#1436 production gates → fresh 30d Multimodal SYS; parallel Physical-AI state/fleet/evaluation/heterogeneous-runtime coverage.
+
 ## Hourly scan — 2026-08-24 10:58 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
