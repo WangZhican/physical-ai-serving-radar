@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-25 06:19 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/state/evaluation checks completed; fresh hits re-hit canonical PhyAI and existing robot-policy/fleet/state/evaluation anchors, with no duplicate promotion.
+- **Multimodal / Omni:** vLLM-Omni #6403 async-video cancellation/status remains open; #6413 orphan-output leak remains open with #6439 still represented as an open reclamation path; #6426 continuous-request MiniCPM-o 4.5 OOM/correctness remains active.
+- **Observability:** SGLang-Omni #946 remains open and documents the absence of a Prometheus-compatible `/metrics` endpoint for the Omni API server. `/health` covers readiness, but standard scrapeable request-volume/error-rate/latency/coordinator telemetry is still missing; tracked as production observability infrastructure debt, not a paper promotion.
+- **Release watch:** vLLM-Omni `v0.28.0` remains due 2026-08-30 at the latest indexed 50/129 closed snapshot; SGLang-Omni #1608 remains open with its 2026-08-23 Qwen3-TTS current-main hardening update.
+- **PDF:** no new canonical paper/PDF; private canonical state remains 136 works / 130 valid PDFs. Legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** #6439 reclamation merge → #6403 cancellation/status → #6426 continuous-request correctness → SGLang-Omni #946 metrics/telemetry + #1608/#1436 production gates → v0.28.0 hardening → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/recovery/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 05:02 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
