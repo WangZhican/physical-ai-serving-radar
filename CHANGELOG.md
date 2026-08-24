@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-24 23:04 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across VLA/robot-policy serving, runtime/state/evaluation and heterogeneous deployment; fresh hits were canonical or below threshold.
+- Multimodal/Omni runtime watch: vLLM-Omni #6413 and linked fix PR #6439 remain open in current first-party indexed evidence; #6403 async-video cancellation/status semantics also remain open. No shipped reclamation/cancellation behavior is claimed.
+- No new PDF; private legal-source debt remains Eevee / ROSGM / TILDE.
+
 ## 2026-08-24 22:05 CST
 - Added **Decoding Task Progress from VLA Representations** (arXiv:2608.13474) to `SYS_ALG_BOUNDARY / A-`, Routes 3/8/9.
 - Boundary rationale: its linear progress probe provides useful deploy-time VLA observability and label-free stalled-progress/OOD detection, but it is a monitoring/probing method rather than a serving/resource scheduler.

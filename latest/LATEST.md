@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-24 23:04 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted runtime/state/evaluation checks completed; no new paper crossed the SYS-first threshold.
+- **Multimodal / Omni:** independent 24h→7d + targeted 30d runtime scan completed. vLLM-Omni #6413 remains open; linked fix PR #6439 is still open in current first-party indexed evidence. Async-video issue #6403 also remains open, so cancellation/status/resource-reclamation semantics are not claimed as fixed.
+- **PDF:** no new canonical paper/PDF. Private canonical state remains 136 works / 130 valid PDFs; legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** #6439 merge/final reclamation semantics → #6403 cancellation/status fix → SGLang-Omni production gates → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/recovery/fleet-SLO/state-substrate/evaluation-runtime coverage.
+
 ## Hourly scan — 2026-08-24 22:05 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG/WATCH +0.
