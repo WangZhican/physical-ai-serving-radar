@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-25 02:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/state/evaluation checks completed; no new paper crossed the SYS-first threshold.
+- **Multimodal / Omni:** production-runtime census remains active around vLLM-Omni #6426 continuous-request MiniCPM-o 4.5 OOM/correctness, #6403 async-video status/cancellation semantics, and #6455 CosyVoice3 streaming TTS device/state mismatch. These are runtime-hardening signals, not paper promotions.
+- **Release watch:** vLLM-Omni milestone `v0.28.0` is due 2026-08-30; current indexed snapshot is 50/129 issues closed (38%), so release hardening is still in progress.
+- **PDF:** no new canonical paper/PDF. Private canonical state remains 136 works / 130 valid PDFs; legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** #6439 final reclamation semantics + #6403 cancellation/status + #6426 continuous-request OOM/correctness + #6455 streaming-device/state fix → v0.28.0 hardening → SGLang-Omni production gates → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/recovery/fleet-SLO/state-substrate/evaluation-runtime coverage.
+
 ## Hourly scan — 2026-08-24 23:04 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.

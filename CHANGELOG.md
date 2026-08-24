@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-25 02:00 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, state reuse, evaluation infrastructure, world-model rollout and heterogeneous deployment; fresh hits were canonical or below threshold.
+- Multimodal/Omni runtime watch: vLLM-Omni #6426 continuous-request MiniCPM-o 4.5 OOM/correctness, #6403 async-video status/cancellation, and #6455 CosyVoice3 streaming TTS device/state consistency remain active production-hardening signals.
+- vLLM-Omni `v0.28.0` milestone is due 2026-08-30; current indexed snapshot shows 50/129 issues closed (38%). No release-complete claim is made.
+- No new PDF; private legal-source debt remains Eevee / ROSGM / TILDE.
+
 ## 2026-08-24 23:04 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across VLA/robot-policy serving, runtime/state/evaluation and heterogeneous deployment; fresh hits were canonical or below threshold.
