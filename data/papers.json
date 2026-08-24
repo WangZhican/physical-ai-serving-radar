@@ -2036,6 +2036,19 @@
       "paper": "https://arxiv.org/abs/2607.22999",
       "repo": null,
       "system_contribution": "SLAK separates sensing, logic, action and knowledge while an asynchronous runtime runs reasoning, dialogue, state updates and physical execution concurrently, with context validation before committing stale actions. Kept below CORE_SYS because the main novelty is embodied-agent/HRI architecture rather than serving/resource scheduling."
+    },
+    {
+      "id": "arxiv:2608.13474",
+      "title": "Decoding Task Progress from VLA Representations",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [3, 8, 9],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2608.13474",
+      "repo": null,
+      "system_contribution": "Runtime observability primitive for deployed VLAs: a lightweight linear probe decodes task progress from pi0.5 internal activations and supports label-free stalled-progress/OOD detection. Kept below CORE_SYS because it does not add serving/resource scheduling or a reusable monitoring runtime substrate."
     }
   ]
 }

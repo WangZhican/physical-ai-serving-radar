@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-24 22:05 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG/WATCH +0.
+- **New SYS_ALG_BOUNDARY:** [Decoding Task Progress from VLA Representations](https://arxiv.org/abs/2608.13474) — runtime observability for deployed VLAs. A lightweight linear probe reads task progress from pi0.5 residual-stream activations and is used as a label-free stalled-progress/OOD detector. Kept below CORE_SYS because it is a monitoring/probing method rather than a serving scheduler or resource manager.
+- **Physical AI coverage:** independent 24h→7d + targeted 30d scan completed; runtime-monitoring vocabulary recovered this paper while PhyAI/Kairos/RobotFleet re-hits were deduplicated.
+- **Multimodal / Omni:** independent 24h→7d + targeted 30d scan completed; no new paper promotion. vLLM-Omni #6413/#6439 reclamation and #6403 async-video cancellation/status remain open runtime-lifecycle evidence.
+- **Private PDF state:** official arXiv PDF archived on the private server and validated; canonical private state is now 136 works and 130 valid PDFs. Public repo contains links only.
+- **Next:** vLLM-Omni reclamation/cancellation semantics → SGLang-Omni production gates → fresh 30d Multimodal SYS; parallel Physical-AI runtime observability → action freshness/recovery/fleet SLO/state-substrate work.
+
 ## Hourly scan — 2026-08-24 16:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG/WATCH +0.

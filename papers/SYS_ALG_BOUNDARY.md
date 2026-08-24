@@ -66,3 +66,8 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Paper:** https://arxiv.org/abs/2607.22999
 - **Venue:** RSS 2026 Workshop on Human-centric Mobile Manipulation · **Routes:** 2 / 3 / 5 / 7 · **Priority:** A
 - **Role:** SLAK separates sensing, logic, action and knowledge; its asynchronous runtime lets reasoning, dialogue, state updates and physical execution proceed concurrently and revalidates current context before stale actions are committed. Real-robot evaluation reports 73.8% average success over nine HRI tasks. Kept at `SYS_ALG_BOUNDARY` because the primary novelty is embodied-agent/HRI architecture and teaching, not serving/resource scheduling.
+
+### Decoding Task Progress from VLA Representations — deploy-time VLA observability
+- **Paper:** https://arxiv.org/abs/2608.13474
+- **Routes:** 3 / 8 / 9 · **Priority:** A-
+- **Role:** reads task-progress from pi0.5 residual-stream activations with a lightweight linear probe and uses it as a label-free stalled-progress/OOD detector. It directly supports deployed-policy instrumentation, failure detection and runtime observability, but remains `SYS_ALG_BOUNDARY` because it does not introduce a serving scheduler, resource manager or reusable monitoring runtime substrate.

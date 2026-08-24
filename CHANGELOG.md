@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-24 22:05 CST
+- Added **Decoding Task Progress from VLA Representations** (arXiv:2608.13474) to `SYS_ALG_BOUNDARY / A-`, Routes 3/8/9.
+- Boundary rationale: its linear progress probe provides useful deploy-time VLA observability and label-free stalled-progress/OOD detection, but it is a monitoring/probing method rather than a serving/resource scheduler.
+- Independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d checks completed; no Multimodal paper promotion this pass.
+- Runtime watch remains focused on vLLM-Omni #6413/#6439 output reclamation and #6403 async-video cancellation/status semantics.
+- Public repo contains metadata/links only; the official PDF was archived privately and validated on the research server.
+
 ## 2026-08-24 16:00 CST
 - Added **WCM: World-Cognition Model for Generalizable Human-Robot Interaction** (arXiv:2607.22999; RSS 2026 Workshop on Human-centric Mobile Manipulation) to `SYS_ALG_BOUNDARY / A`, Routes 2/3/5/7.
 - Reason for boundary placement: asynchronous sensing/reasoning/control/memory runtime and stale-context validation are system-relevant, but the central novelty remains embodied-agent/HRI architecture and teaching rather than serving/resource scheduling.
