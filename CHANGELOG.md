@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-24 09:03 CST
+- Added **On the Limitations of Non-GPU AI Accelerators for Large-Model Inference** (arXiv:2607.08215) to `CORE_SYS / A`, Routes 6/8/11, after heterogeneous-serving omission recovery.
+- Verified official arXiv metadata and companion repository; the study documents real MoE + multimodal serving on 16 Huawei Ascend 910 devices, 12 source-level integration patches, and eight classes of platform/runtime limitations.
+- Added production-runtime watch evidence from vLLM-Omni #6426 (continuous-request OOM/correctness failures) and SGLang-Omni #1470 (concurrent Whisper scheduler crash); no separate paper promotion for these issues.
+- PDF download remains pending after full97 TLS/network failures; no false download claim.
+- GitHub remote push is still pending because the existing SSH path currently returns `Permission denied (publickey)`; local changes are committed before the next retry.
+
 ## 2026-08-20 17:58 CST
 - Initialized the public Physical AI Serving Radar with a SYS-first ten-route research map.
 - Published curated `CORE_SYS`, `SYS_ALG_BOUNDARY`, and watchlist views plus machine-readable data.

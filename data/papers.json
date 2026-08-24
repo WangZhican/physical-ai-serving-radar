@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23 23:59 CST",
-  "count": 133,
+  "updated": "2026-08-24 09:03 CST",
+  "count": 134,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2010,6 +2010,19 @@
       "venue": "arXiv",
       "priority": "A+",
       "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2607.08215",
+      "title": "On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend",
+      "class": "CORE_SYS",
+      "route": [6, 8, 11],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2607.08215",
+      "repo": "https://github.com/YuZhengYYDS/ascend-large-model-inference-field-study",
+      "system_contribution": "Field study of real MoE and multimodal serving on 16 Huawei Ascend 910 accelerators using CANN + vLLM-Ascend; documents 12 source-level integration patches, correctness/scalability/observability failure modes, and operational safeguards for heterogeneous non-CUDA deployment."
     }
   ]
 }

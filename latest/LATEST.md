@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-24 09:03 CST
+
+- **Promotions:** CORE_SYS +1 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **New CORE_SYS:** [On the Limitations of Non-GPU AI Accelerators for Large-Model Inference](https://arxiv.org/abs/2607.08215) — heterogeneous/non-CUDA serving field study on 16 Huawei Ascend 910 accelerators. Real MoE + multimodal deployments required 12 source-level vLLM-Ascend/plugin patches and operational safeguards, exposing eight platform-level limitation classes across operators/features, multi-axis parallelism, numerical correctness, graph compilation, advanced-feature stability, scalability, observability and ecosystem fragmentation.
+- **Artifact:** [official companion repo](https://github.com/YuZhengYYDS/ascend-large-model-inference-field-study); current public adoption is low (~1 star), so priority is A rather than A+.
+- **Multimodal production-runtime watch:** vLLM-Omni #6426 reports continuous-request MiniCPM-o 4.5 OOM/correctness failures; SGLang-Omni #1470 reports Whisper scheduler crashes under c8/c16/c32 concurrency. Tracked as runtime correctness/state-lifecycle evidence, not separate paper promotions.
+- **Physical-AI track:** independent 24h→7d + targeted 30d scan completed; no new Physical-AI paper crossed the SYS-first threshold.
+- **PDF:** official arXiv URL verified; full97 download retries hit transient TLS/network errors, so PDF remains pending rather than falsely marked downloaded.
+- Next: retry PDF + pending GitHub remote sync → expand Ascend/NPU/non-CUDA multimodal-serving census → vLLM-Omni/SGLang-Omni concurrency/state-reclamation production gates → fresh 30d Multimodal SYS; parallel Physical-AI state/fleet/evaluation coverage.
+
 ## Hourly scan — 2026-08-23 23:59 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG/WATCH +0.
