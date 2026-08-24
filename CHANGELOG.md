@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-24 16:00 CST
+- Added **WCM: World-Cognition Model for Generalizable Human-Robot Interaction** (arXiv:2607.22999; RSS 2026 Workshop on Human-centric Mobile Manipulation) to `SYS_ALG_BOUNDARY / A`, Routes 2/3/5/7.
+- Reason for boundary placement: asynchronous sensing/reasoning/control/memory runtime and stale-context validation are system-relevant, but the central novelty remains embodied-agent/HRI architecture and teaching rather than serving/resource scheduling.
+- Multimodal runtime watch: vLLM-Omni #6403 exposes async-video lifecycle gaps where queued requests may be labeled `IN_PROGRESS` and deleting an already-running task does not terminate GPU inference; tracked with #6413/#6439 cancellation/reclamation work.
+- Private PDF archive gained the official WCM arXiv PDF; public repo still contains links/metadata only.
+
 ## 2026-08-24 14:00 CST
 - No canonical paper promotion after independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime checks.
 - vLLM-Omni #6439 (fix for #6413) verified open/not merged; current PR adds aborted-request orphan-output reclamation, shutdown cleanup, and cancelled/done-waiter handling. Treat as PR-scoped runtime evidence until merge.

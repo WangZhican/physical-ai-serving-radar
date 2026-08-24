@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-24 16:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG/WATCH +0.
+- **New SYS_ALG_BOUNDARY:** [WCM](https://arxiv.org/abs/2607.22999) — SLAK separates sensing/logic/action/knowledge; its asynchronous runtime runs reasoning, dialogue, state updates and physical execution concurrently, with stale-context validation before committing actions. Kept below CORE_SYS because HRI/teaching architecture remains the main novelty.
+- **Physical AI coverage:** independent 24h→7d + targeted 30d scan completed; WCM was recovered via asynchronous embodied-runtime vocabulary rather than serving-title keywords.
+- **Multimodal / Omni:** no paper promotion. vLLM-Omni #6403 exposes incomplete async-video lifecycle semantics: queued requests can be reported `IN_PROGRESS`, while deleting an already-running task removes metadata without terminating GPU inference. Track with #6413/#6439 under cancellation/reclamation.
+- **PDF state:** WCM official arXiv PDF archived on the private server; public repo keeps links only. Canonical private state is now 135 works, with legal PDF debt still Eevee/ROSGM/TILDE.
+- **Next:** #6403 cancellation/status semantics + #6439 reclamation → SGLang-Omni #1436/#1608 → fresh 30d Multimodal SYS; parallel WCM/SLAK runtime lineage and Physical-AI state/fleet/evaluation coverage.
+
 ## Hourly scan — 2026-08-24 14:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.

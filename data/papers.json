@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24 09:03 CST",
-  "count": 134,
+  "updated": "2026-08-24 16:00 CST",
+  "count": 135,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2023,6 +2023,19 @@
       "paper": "https://arxiv.org/abs/2607.08215",
       "repo": "https://github.com/YuZhengYYDS/ascend-large-model-inference-field-study",
       "system_contribution": "Field study of real MoE and multimodal serving on 16 Huawei Ascend 910 accelerators using CANN + vLLM-Ascend; documents 12 source-level integration patches, correctness/scalability/observability failure modes, and operational safeguards for heterogeneous non-CUDA deployment."
+    },
+    {
+      "id": "arxiv:2607.22999",
+      "title": "WCM: World-Cognition Model for Generalizable Human-Robot Interaction",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [2, 3, 5, 7],
+      "year": 2026,
+      "venue": "RSS 2026 Workshop on Human-centric Mobile Manipulation",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2607.22999",
+      "repo": null,
+      "system_contribution": "SLAK separates sensing, logic, action and knowledge while an asynchronous runtime runs reasoning, dialogue, state updates and physical execution concurrently, with context validation before committing stale actions. Kept below CORE_SYS because the main novelty is embodied-agent/HRI architecture rather than serving/resource scheduling."
     }
   ]
 }

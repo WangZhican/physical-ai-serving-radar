@@ -61,3 +61,8 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Code:** https://github.com/redai-infra/Relax
 - **Routes:** 7 / 11 · **Priority:** A+
 - **Role:** omni-native, service-oriented post-training runtime with fault-isolated RL roles, TransferQueue data bus, staleness-controlled async execution, and Qwen3-Omni image/audio/video validation. It reports 1.20× over veRL on Qwen3-4B on-policy training, 1.76× fully-async over colocate on Qwen3-4B, and 2.00× on Qwen3-Omni-30B. Kept at `SYS_ALG_BOUNDARY` because the primary workload is post-training rather than online inference serving, despite substantial reusable rollout/runtime infrastructure.
+
+### WCM — asynchronous embodied-agent runtime
+- **Paper:** https://arxiv.org/abs/2607.22999
+- **Venue:** RSS 2026 Workshop on Human-centric Mobile Manipulation · **Routes:** 2 / 3 / 5 / 7 · **Priority:** A
+- **Role:** SLAK separates sensing, logic, action and knowledge; its asynchronous runtime lets reasoning, dialogue, state updates and physical execution proceed concurrently and revalidates current context before stale actions are committed. Real-robot evaluation reports 73.8% average success over nine HRI tasks. Kept at `SYS_ALG_BOUNDARY` because the primary novelty is embodied-agent/HRI architecture and teaching, not serving/resource scheduling.
