@@ -280,3 +280,9 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - **Physical AI:** independent 24h/7d + targeted 30d systems/runtime scan completed; no new paper cleared the SYS-first threshold.
 - **Multimodal / Omni:** vLLM-Omni main/docs are now aligned with vLLM 0.26.0. Production audit found open Cosmos3-Super DLO request-batch-forward correctness debt (#5953) and a v0.26.0 guardrail packaging/startup issue (#5936). SGLang-Omni public releases still show 0.1.0 while production/concurrency hardening continues.
 - **Next:** vLLM-Omni v0.26 DLO correctness fixes + SGLang-Omni production gates + fresh 30d Multimodal SYS census; continue Physical-AI state/fleet/evaluation runtime scan.
+
+### 2026-08-25 06:05 CST — dual-track hourly scan
+- **Promotion:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h/7d + targeted 30d systems/runtime scan completed; fresh hits re-hit canonical PhyAI/existing trunk or stayed below SYS-first threshold.
+- **Multimodal / Omni:** vLLM-Omni #6403, #6413/#6439, #6426 and #6455 remain active production correctness/lifecycle debt; #5668 audio-TTFP goodput-SLO and #5728 stage-config validation also remain open. v0.28.0 milestone remains due 2026-08-30 at the latest indexed 50/129 closed snapshot. SGLang-Omni #1608 remains open with the latest public update dated 2026-08-23 and current-main Qwen3-TTS hardening evidence.
+- **Next:** verify #6439 merge/approval directly, then cancellation/reclamation + continuous/streaming correctness + modality SLO/config validation; continue SGLang-Omni production gates and fresh 30d Multimodal SYS census. Physical-AI continues runtime observability/action freshness, fleet SLO, state substrate and evaluation/isolation.
