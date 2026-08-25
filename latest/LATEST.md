@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-25 10:02 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/state/evaluation checks completed; fresh hits re-hit canonical PhyAI and existing robot-policy/fleet/state/evaluation anchors, with no duplicate promotion.
+- **Multimodal / Omni:** vLLM-Omni #6403 async-video cancellation/status remains open; #6413 orphan-output leak remains open with #6439 as the reclamation path; #6426 continuous-request MiniCPM-o 4.5 OOM/correctness and #6083 AR-stage pause/resume + sleep/wake remain active runtime debt.
+- **Failure-path observability:** SGLang-Omni #1593 shows current comm tracing is success-path-heavy and can miss failure branches, stranded slots, retained pending transfers, selected transport and paged-KV traffic. Its reference soak ran Qwen3-Omni-30B on two H200s for 8 hours (4,764 requests / 3,510,175 slot allocations); useful as leak-testing evidence, not proof of leak-freedom. #946 remains open for Prometheus-compatible Omni `/metrics`.
+- **PDF:** no new canonical paper/PDF; private canonical state remains 136 works / 130 valid PDFs. Legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** #1595/#1593 failure-path tracing + soak integration → #6439 reclamation merge → #6403 cancellation/status → #6426 correctness → #946 metrics + #1608/#1436 production gates → v0.28.0 hardening → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/recovery/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 06:19 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
