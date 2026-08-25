@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-26 06:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan + targeted 30d checks completed; canonical PhyAI/Kairos/Embodied.cpp/XPolicyLab/Zetta anchors re-hit, with no stronger new fleet/control-loop/edge/state/evaluation paper promoted.
+- **Multimodal / Omni:** independent fresh scan re-hit canonical HorizonServe/M*/EPD-family systems; no new paper-level SYS promotion. Rollplex remains `SYS_ALG_BOUNDARY / A+`; no verified online-serving transfer of its cross-phase/HBM/weight-sharing mechanisms was found.
+- **Release-state correction:** a direct first-party `git ls-remote --tags` check against `vllm-project/vllm-omni` at 06:00 CST shows tags through `v0.27.0rc1` only; **no final `v0.27.0` or `v0.27.1` tag is present**. Durable/public release claims therefore stay pinned to `v0.27.0rc1` until an actual upstream tag appears.
+- **Observability frontier:** SGLang-Omni #1593 remains open and still states that #1595 adds 14 paged-KV / transport-selection / direct-IPC trace events; soak-to-CI/nightly integration and independent merge/release verification remain pending.
+- **Current state:** 140 works = 103 CORE_SYS / 27 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state remains 133 valid; public repo contains links only.
+- **Next:** independently verify SGLang-Omni #1595 merge/release + #1593 soak CI/nightly → vLLM-Omni #6439 reclamation → #6403 true cancellation/status → #946/#1608/#1436 production gates → v0.28 hardening → fresh 30d Multimodal SYS; parallel ROLL/VeRL-Omni transfer census and Physical-AI edge/fleet/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-26 05:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
