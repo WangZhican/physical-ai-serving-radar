@@ -71,3 +71,8 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Paper:** https://arxiv.org/abs/2608.13474
 - **Routes:** 3 / 8 / 9 · **Priority:** A-
 - **Role:** reads task-progress from pi0.5 residual-stream activations with a lightweight linear probe and uses it as a label-free stalled-progress/OOD detector. It directly supports deployed-policy instrumentation, failure detection and runtime observability, but remains `SYS_ALG_BOUNDARY` because it does not introduce a serving scheduler, resource manager or reusable monitoring runtime substrate.
+
+### Edge-Native Embodied Intelligence — action-aware wireless edge / Physical-AI co-design
+- **Paper:** https://arxiv.org/abs/2608.17774
+- **Routes:** 4 / 6 / 8 · **Priority:** A-
+- **Role:** connects embodied agents, 6G networking and edge cognitive services via confidence-aware edge assistance, edge-driven adaptation, value-of-experience active embodied federated learning, goal-oriented transmission and programmable radio-resource allocation. Kept below `CORE_SYS` because current evidence is a framework + case-study co-design rather than a mature serving/runtime substrate.

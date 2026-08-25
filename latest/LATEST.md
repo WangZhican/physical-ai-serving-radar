@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-25 21:04 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG +0 / WATCH +0 — [Edge-Native Embodied Intelligence](https://arxiv.org/abs/2608.17774).
+- **Physical AI:** 24h→7d fresh scan + targeted 30d edge/runtime recovery completed. ENEI couples embodied agents, a 6G fabric and edge cognitive services through confidence-aware assistance, goal-oriented transmission, programmable radio-resource allocation and value-of-experience embodied federated learning. Kept at `SYS_ALG_BOUNDARY / A-` because it is currently a framework/case-study co-design rather than a mature serving runtime.
+- **Multimodal / Omni:** independent 24h→7d scan re-hit canonical HorizonServe/Cornserve/vLLM-Omni; no paper promotion. vLLM-Omni #6403/#6413/#6083 remain open in current first-party evidence.
+- **Boundary guard:** FleetSieve (arXiv:2608.19659) was audited but excluded: its `fleet` is an LLM GPU/replica serving fleet, not a robot fleet, and no multimodal workload evidence was verified.
+- **Private PDF state:** ENEI official arXiv PDF archived and validated (3,297,504 B). Canonical private state: 139 works / 132 valid PDFs; public repo stores links only.
+- **Next:** ENEI author/reference reverse census → SGLang-Omni #1595/#1593 observability+soak → vLLM-Omni #6439 reclamation → #6403 true cancellation/status → #6083 AR pause/sleep → production gates + fresh 30d Multimodal SYS.
+
 ## Hourly scan — 2026-08-25 18:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH_ONLY +1 — HODAgent (arXiv:2608.17584), retained only as a withdrawn watch.

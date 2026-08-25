@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-25 21:04 CST
+- Hourly dual-track scan completed: **CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG +0 / WATCH +0**.
+- Added **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** (arXiv:2608.17774) as `SYS_ALG_BOUNDARY / A-`, Routes 4/6/8. It contributes action-aware wireless-edge/embodied co-design mechanisms but remains below CORE_SYS because current evidence is framework/case-study oriented rather than a mature serving runtime.
+- Audited **FleetSieve** (arXiv:2608.19659) and intentionally excluded it from canonical scope: generic LLM GPU/replica fleet configuration is not robot-fleet serving, and no multimodal workload was verified.
+- Private official PDF archived and validated at 3,297,504 B; public repo contains links only. Current public paper count: 139.
+- Multimodal/Omni scan completed with no paper promotion; vLLM-Omni #6403/#6413/#6083 remain open frontiers in current first-party evidence.
+
 ## 2026-08-25 18:01 CST
 - Hourly dual-track scan completed: **CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH_ONLY +1**.
 - Added **HODAgent (arXiv:2608.17584)** to WATCH_ONLY rather than SYS: the work is system-oriented (semi-duplex System-2 runtime, asynchronous execution/cancellation, persistent task state, shared embodiment contract), but its arXiv listing was withdrawn on 2026-08-20 for mandatory company internal review; no official repo was verified and the official PDF endpoint is unavailable.

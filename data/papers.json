@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25 18:01 CST",
-  "count": 138,
+  "updated": "2026-08-25 21:04 CST",
+  "count": 139,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2015,7 +2015,11 @@
       "id": "arxiv:2607.08215",
       "title": "On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend",
       "class": "CORE_SYS",
-      "route": [6, 8, 11],
+      "route": [
+        6,
+        8,
+        11
+      ],
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
@@ -2028,7 +2032,12 @@
       "id": "arxiv:2607.22999",
       "title": "WCM: World-Cognition Model for Generalizable Human-Robot Interaction",
       "class": "SYS_ALG_BOUNDARY",
-      "route": [2, 3, 5, 7],
+      "route": [
+        2,
+        3,
+        5,
+        7
+      ],
       "year": 2026,
       "venue": "RSS 2026 Workshop on Human-centric Mobile Manipulation",
       "priority": "A",
@@ -2041,7 +2050,11 @@
       "id": "arxiv:2608.13474",
       "title": "Decoding Task Progress from VLA Representations",
       "class": "SYS_ALG_BOUNDARY",
-      "route": [3, 8, 9],
+      "route": [
+        3,
+        8,
+        9
+      ],
       "year": 2026,
       "venue": "arXiv",
       "priority": "A-",
@@ -2054,7 +2067,13 @@
       "id": "arxiv:2607.16636",
       "title": "PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution",
       "class": "CORE_SYS",
-      "route": [2, 3, 5, 7, 9],
+      "route": [
+        2,
+        3,
+        5,
+        7,
+        9
+      ],
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
@@ -2067,7 +2086,13 @@
       "id": "arxiv:2608.17584",
       "title": "HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction",
       "class": "WATCH_ONLY",
-      "route": [2, 3, 5, 7, 9],
+      "route": [
+        2,
+        3,
+        5,
+        7,
+        9
+      ],
       "year": 2026,
       "venue": "arXiv (withdrawn pending company internal review)",
       "priority": "A-watch",
@@ -2075,6 +2100,20 @@
       "paper": "https://arxiv.org/abs/2608.17584",
       "repo": null,
       "system_contribution": "System-oriented high-level Physical-AI harness with semi-duplex interaction, independently scheduled Env-Interactor/Planner/Executor/Memory, asynchronous skill lifecycle/cancellation, persistent task state, embodiment-independent execution contract and outcome-grounded completion. Kept WATCH_ONLY because the arXiv listing was withdrawn on 2026-08-20, no official repo was verified, and the official PDF endpoint is unavailable."
+    },
+    {
+      "id": "arxiv:2608.17774",
+      "title": "Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        4,
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED"
     }
   ]
 }
