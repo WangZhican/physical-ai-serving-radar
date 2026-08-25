@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-25 12:59 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/state/evaluation checks completed; fresh hits re-hit canonical PhyAI/ROSA/Embodied.cpp/XPolicyLab/Zetta or remained below the SYS-first threshold.
+- **Multimodal / Omni:** vLLM-Omni #6426 is now **closed**. It links to merged PR #6458 (merged 2026-08-22), which restores MiniCPM-o 4.5 long-form Talker correctness through a request-local 16-frame repetition penalty, forced EOS restoration after `min_tokens`, and offline generation capped at `min(2048, remaining context)`. Because #6426 bundled OOM and several audio-correctness failures, continuous-request memory/correctness still needs revalidation instead of assuming every failure mode is resolved.
+- **Observability:** SGLang-Omni #1593 remains open and states that #1595 implements 14 trace events for paged-KV / transport-selection / direct-IPC stream gaps. Independent merge/release status for #1595 is not yet confirmed; slot-pool failure events and CI/nightly soak policy remain follow-up work.
+- **Lifecycle debt:** vLLM-Omni #6403 async-video queued-vs-running/cancellation remains open; #6413 aborted-diffusion orphan-output leak remains open with #6439 as the reclamation path.
+- **PDF:** no new canonical paper/PDF; private canonical state remains 136 works / 130 valid PDFs. Legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** revalidate #6426 continuous-request CI after #6458 → verify #1595 merge/release + #1593 soak integration → #6439 reclamation merge → #6403 cancellation/status → #946 metrics + #1608/#1436 production gates → v0.28.0 hardening → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/recovery/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 11:58 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
