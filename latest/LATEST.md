@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-25 14:02 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/state/evaluation checks completed; no new paper crossed the SYS-first threshold.
+- **Multimodal / Omni:** no new paper promotion. The historical vLLM-Omni #6426 continuous-request OOM/audio-correctness record remains visible in current indexed evidence even after merged #6458; #6458 is therefore kept scoped to long-form Talker repetition/EOS/length remediation until fresh post-merge CI confirms memory/correctness behavior.
+- **Failure-path observability:** SGLang-Omni #1593 remains open and states that #1595 implements 14 paged-KV / transport-selection / direct-IPC stream trace events. Slot-pool failure events and comm-layer-triggered soak/CI policy are still open; independent #1595 merge/release status is not yet confirmed.
+- **PDF:** no new canonical paper/PDF; private canonical state remains 136 works / 130 valid PDFs. Legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** fresh post-#6458 MiniCPM-o continuous-request CI → verify #1595 merge/release + #1593 soak integration → #6439 reclamation → #6403 cancellation/status → #946 metrics + #1608/#1436 production gates → v0.28.0 hardening → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/recovery/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 12:59 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.

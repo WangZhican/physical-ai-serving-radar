@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-25 14:02 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, state reuse, evaluation infrastructure, world-model rollout and heterogeneous deployment; no new SYS-first promotion.
+- Multimodal/Omni revalidation: current indexed evidence still exposes the historical vLLM-Omni #6426 continuous-request OOM/audio-correctness failure record even after merged #6458. Keep #6458 scoped to long-form Talker repetition/EOS/length remediation until fresh post-merge CI confirms continuous-request memory/correctness behavior.
+- SGLang-Omni #1593 remains open and says #1595 implements 14 paged-KV/transport/direct-IPC trace events; slot-pool failure events plus comm-layer-triggered soak/CI policy remain open, and independent #1595 merge/release status is still unconfirmed.
+- No new PDF; private legal-source debt remains Eevee / ROSGM / TILDE.
+
 ## 2026-08-25 12:59 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, state reuse, evaluation infrastructure, world-model rollout and heterogeneous deployment; fresh hits were canonical or below threshold.
