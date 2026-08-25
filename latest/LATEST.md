@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-25 15:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/state/evaluation checks completed; no new paper crossed the SYS-first threshold, and fresh hits were canonical or below-threshold.
+- **Multimodal / Omni:** no new paper promotion. vLLM-Omni #6403 remains open with queued-vs-running status ambiguity and ineffective cancellation for already-running video inference; #6413 remains open with #6439 still the reclamation path. The v0.28.0 public milestone remains due 2026-08-30 at 50/129 issues closed (38%) in the latest indexed snapshot.
+- **Failure-path observability:** SGLang-Omni #1593 remains open. Its first-party issue text says #1595 implements 14 paged-KV / transport-selection / direct-IPC stream trace events, but an independent merge/release signal for #1595 is still not verified; slot-pool failure events and comm-layer-triggered soak/CI policy remain open.
+- **PDF:** no new canonical paper/PDF; private canonical state remains 136 works / 130 valid PDFs. Legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** obtain fresh post-#6458 MiniCPM-o continuous-request CI evidence → independently verify #1595 merge/release + #1593 soak CI/nightly integration → #6439 reclamation merge/final semantics → #6403 real cancellation/status → #946 metrics + #1608/#1436 production gates → v0.28.0 hardening → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/recovery/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 14:02 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
