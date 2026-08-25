@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-26 07:04 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, evaluation infrastructure and world-model rollout; fresh hits were canonical or below the SYS-first threshold.
+- Multimodal/Omni coverage refreshed across omni serving, stage/modality disaggregation, composite/any-to-any runtime and official vLLM/SGLang ecosystems; no new paper-level promotion.
+- SGLang-Omni #1593 remains open after #1595 merged; slot-pool failure events and comm-layer-triggered soak/CI-nightly policy remain open. #1436 remains open, so V0.1.2 is still behind Qwen3-TTS production gates; #946 remains open for Prometheus-compatible Omni `/metrics`.
+- vLLM-Omni #6403 and #6413 remain open around cancellation/status and aborted-output reclamation; no new first-party evidence warranted changing #6439's PR-scoped status in this scan.
+- Paper/PDF state unchanged at 140 works and 133 valid private PDFs; public repo stores links only.
+
 ## 2026-08-26 05:00 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across serving/runtime, fleet/control-loop, state and evaluation infrastructure; no new SYS-first paper promotion.

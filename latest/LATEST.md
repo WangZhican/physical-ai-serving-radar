@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-26 07:04 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan + targeted 30d checks completed across VLA/robot-policy serving, fleet/control-loop scheduling, edge/device runtime, state reuse, evaluation infrastructure and world-model rollout. Fresh hits were canonical PhyAI/XPolicyLab/Zetta/DeepInsight II or below threshold; no duplicate promotion.
+- **Multimodal / Omni:** independent fresh scan covered omni serving, stage/modality disaggregation, any-to-any/composite runtime and vLLM/SGLang production ecosystems. HorizonServe/vLLM-Omni re-hit canonical; no new paper-level SYS promotion.
+- **Observability / release gates:** SGLang-Omni #1593 remains open after #1595 merged; remaining work is slot-pool failure events plus comm-layer-triggered soak/CI-nightly policy. #1436 remains open, so V0.1.2 is still gated by Qwen3-TTS admission/queueing, playback continuity, batch invariance, same-GPU MPS-DP config, absolute KV budgets and `WEIGHT_SHARE=1` correctness. #946 remains open for a Prometheus-compatible Omni `/metrics` endpoint.
+- **Request lifecycle:** vLLM-Omni #6403 remains open with queued-vs-running status ambiguity and ineffective cancellation of already-running video inference; #6413 remains open for aborted diffusion outputs retained in `_completed_outputs`. No fresh first-party evidence in this scan warranted upgrading #6439 beyond PR-scoped reclamation evidence.
+- **Current state:** 140 works = 103 CORE_SYS / 27 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state remains 133 valid; public repo contains links only.
+- **Next:** #1593 failure-path/soak CI integration → #6439 reclamation final semantics → #6403 true cancellation/status → #946/#1436 production gates → vLLM-Omni release hardening → fresh 30d Multimodal SYS; parallel Physical-AI edge/fleet/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-26 06:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
