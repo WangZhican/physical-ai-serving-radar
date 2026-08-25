@@ -12,15 +12,17 @@ Key questions:
 - transfer overhead versus resource specialization;
 - dynamic resource reallocation across stages.
 
-## M2. Module Multiplexing / GPU Sharing
-Exploit complementary compute/memory behavior between modality modules or serving stages on the same GPU. **Anchors:** Eevee, SpaceServe, HorizonServe, FlashCodec + UnifiedServe.
+## M2. Module / Replica Multiplexing / GPU Sharing
+Exploit complementary compute/memory behavior between modality modules, serving stages, or complete replicas on the same GPU. **Anchors:** Eevee, SpaceServe, HorizonServe, FlashCodec + UnifiedServe; ecosystem evidence: SGLang-Omni same-GPU MPS-DP.
 
 Key questions:
-- SM/spatial partitioning;
-- safe concurrent kernels;
-- module-level independent batching;
-- avoiding fragmentation from rigid one-stage-per-GPU placement;
-- coordinating scheduling with GPU sharing.
+- SM/spatial partitioning and managed CUDA-MPS colocation;
+- safe concurrent kernels and cross-replica correctness;
+- module-level independent batching versus multi-replica admission;
+- read-only shared weights versus replica-private streaming/codec state;
+- per-replica KV-budget sizing and memory fragmentation;
+- NUMA/CPU-dispatch placement when the GPU is under-fed by one serving replica;
+- coordinating scheduling with GPU sharing rather than assuming one stage or one replica per GPU.
 
 ## M3. Any-to-Any / Graph Serving
 Represent arbitrary multimodal models as component graphs rather than a fixed LLM pipeline. **Anchors:** vLLM-Omni, Cornserve, M*, Cornfigurator.

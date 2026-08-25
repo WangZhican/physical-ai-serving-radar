@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-25 16:01 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, state reuse, evaluation infrastructure, world-model rollout and heterogeneous deployment; no new SYS-first promotion.
+- Multimodal/Omni runtime taxonomy refined around same-GPU replica sharing: SGLang-Omni `main` documents managed CUDA-MPS colocation, CPU/NUMA pinning, per-replica KV sizing and optional CUDA-IPC weight sharing. Pinned TTS profiles report roughly 1.4–2.1× tuned single-replica throughput in saturated DP2/DP3 configurations; documented follower weight savings span about 1.51–17.05 GiB depending on model.
+- Evidence boundary preserved: `WEIGHT_SHARE=1` is opt-in/configuration-gated; plain MPS-DP is distinct. Stateful preprocessing/vocoder/codec processes remain replica-private where streaming state must not be shared.
+- vLLM-Omni #6403/#6413 remain open; SGLang-Omni #1593 remains open and continues to reference #1595 for 14 trace events, while independent merge/release status is not yet verified.
+- No new PDF; private legal-source debt remains Eevee / ROSGM / TILDE.
+
 ## 2026-08-25 14:02 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, state reuse, evaluation infrastructure, world-model rollout and heterogeneous deployment; no new SYS-first promotion.

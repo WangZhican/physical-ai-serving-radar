@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-25 16:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/state/evaluation checks completed; fresh hits were canonical or below the SYS-first threshold.
+- **Multimodal / Omni:** no paper promotion, but SGLang-Omni `main` now exposes a reusable same-GPU MPS-DP deployment path with managed CUDA MPS, explicit CPU/NUMA pinning, per-replica KV sizing and optional CUDA-IPC weight sharing. In the pinned TTS profiles, saturated DP2/DP3 reaches roughly **1.4–2.1×** tuned single-replica throughput; documented shared-weight savings range from about **1.51 to 17.05 GiB per follower** depending on the ASR/TTS model.
+- **State-isolation boundary:** weight sharing is opt-in and validation-gated; streaming preprocessing/vocoder/codec processes remain replica-private when they carry mutable stream state. The research map now explicitly separates shareable immutable weights from per-replica streaming state, admission/KV budgeting and host-dispatch placement.
+- **Lifecycle / release watch:** vLLM-Omni #6403/#6413 remain open in current indexed first-party evidence; #6439 remains the reclamation path. The v0.28.0 public milestone remains due 2026-08-30 at 50/129 closed (38%). SGLang-Omni #1593 remains open and still cites #1595 for 14 paged-KV/transport/direct-IPC trace events; independent merge/release status is not yet verified.
+- **PDF:** no new canonical paper/PDF; private canonical state remains 136 works / 130 valid PDFs. Legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** verify release/paper lineage and concurrent-request correctness for SGLang-Omni MPS-DP/weight sharing → #1595/#1593 observability+soak integration → #6439 reclamation → #6403 true cancellation/status → #946/#1608/#1436 production gates → v0.28.0 hardening → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 15:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
