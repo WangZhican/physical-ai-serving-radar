@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-25 18:01 CST
+- Hourly dual-track scan completed: **CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH_ONLY +1**.
+- Added **HODAgent (arXiv:2608.17584)** to WATCH_ONLY rather than SYS: the work is system-oriented (semi-duplex System-2 runtime, asynchronous execution/cancellation, persistent task state, shared embodiment contract), but its arXiv listing was withdrawn on 2026-08-20 for mandatory company internal review; no official repo was verified and the official PDF endpoint is unavailable.
+- Reconciled a durable/public bookkeeping drift: canonical manifest already contained PhyAgentOS, so the actual pre-run private state was 137 works / 103 CORE_SYS rather than 136/102, and the private PDF manifest was already 131 valid PDFs. Public `data/papers.json` was also behind and is now reconciled.
+- Current paper state: **138 = 103 CORE_SYS / 25 SYS_ALG / 4 ALG / 6 WATCH**. Private PDF state: 131 valid; Eevee/ROSGM/TILDE remain legal-source debt and HODAgent is pending only for an official re-release.
+- Multimodal/Omni scan completed with no paper promotion; vLLM-Omni #6413/#6403/#6083 and v0.28.0 release hardening remain active frontiers.
+
 ## 2026-08-25 16:01 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, state reuse, evaluation infrastructure, world-model rollout and heterogeneous deployment; no new SYS-first promotion.

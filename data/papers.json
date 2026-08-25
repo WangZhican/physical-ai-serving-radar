@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24 16:00 CST",
-  "count": 135,
+  "updated": "2026-08-25 18:01 CST",
+  "count": 138,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2049,6 +2049,32 @@
       "paper": "https://arxiv.org/abs/2608.13474",
       "repo": null,
       "system_contribution": "Runtime observability primitive for deployed VLAs: a lightweight linear probe decodes task progress from pi0.5 internal activations and supports label-free stalled-progress/OOD detection. Kept below CORE_SYS because it does not add serving/resource scheduling or a reusable monitoring runtime substrate."
+    },
+    {
+      "id": "arxiv:2607.16636",
+      "title": "PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution",
+      "class": "CORE_SYS",
+      "route": [2, 3, 5, 7, 9],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2607.16636",
+      "repo": "https://github.com/PhyAgentOS/PhyAgentOS",
+      "system_contribution": "Session-centered embodied runtime with scheduling, compatibility preflight, supervised execution, semantic verification, persistent state/memory, benchmarking and layered safety as first-class system services; State-as-a-File and target adapters decouple cognitive planning from heterogeneous physical execution."
+    },
+    {
+      "id": "arxiv:2608.17584",
+      "title": "HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction",
+      "class": "WATCH_ONLY",
+      "route": [2, 3, 5, 7, 9],
+      "year": 2026,
+      "venue": "arXiv (withdrawn pending company internal review)",
+      "priority": "A-watch",
+      "status": "WITHDRAWN_WATCH",
+      "paper": "https://arxiv.org/abs/2608.17584",
+      "repo": null,
+      "system_contribution": "System-oriented high-level Physical-AI harness with semi-duplex interaction, independently scheduled Env-Interactor/Planner/Executor/Memory, asynchronous skill lifecycle/cancellation, persistent task state, embodiment-independent execution contract and outcome-grounded completion. Kept WATCH_ONLY because the arXiv listing was withdrawn on 2026-08-20, no official repo was verified, and the official PDF endpoint is unavailable."
     }
   ]
 }

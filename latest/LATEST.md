@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-25 18:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH_ONLY +1 — HODAgent (arXiv:2608.17584), retained only as a withdrawn watch.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/harness/state/evaluation recovery completed. HODAgent is system-relevant because it defines a semi-duplex System-2 runtime with independently scheduled interaction/planning/execution/memory, asynchronous skill cancellation, persistent service state and a shared embodiment contract. Its arXiv listing was withdrawn on 2026-08-20 for mandatory company internal review, no official repo was verified, and the official PDF endpoint is unavailable; quantitative claims are therefore not treated as stable evidence.
+- **Multimodal / Omni:** no paper promotion. vLLM-Omni #6413/#6403 remain open; #6083 AR pause/resume + sleep/wake remains open; public v0.28.0 milestone remains due 2026-08-30 at 50/129 closed (38%).
+- **Integrity repair:** private canonical manifest had already advanced to 137 works / 103 CORE_SYS because PhyAgentOS was present while the summary state still reported 136/102; private PDF manifest had already advanced to 131 valid PDFs. Public dataset was also one record/count behind. This heartbeat reconciles public coverage with the current canonical state.
+- **Current public/private paper state:** 138 works = 103 CORE_SYS / 25 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state: 131 valid PDFs; legal debt Eevee/ROSGM/TILDE plus withdrawn HODAgent PDF pending official re-release.
+- **Next:** HODAgent re-release/repo monitor → independently verify SGLang-Omni #1595 merge/release + #1593 soak CI/nightly integration → vLLM-Omni #6439 reclamation → #6403 true cancellation/status → #946/#1608/#1436 production gates → v0.28.0 hardening → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 17:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.

@@ -139,3 +139,6 @@ NVIDIA RSS 2026 evaluation runtime for task-generalist robot policies: robot/pol
 ## 2026-08-23 16:00 CST — ECM Contracts
 - [**ECM Contracts**](https://arxiv.org/abs/2604.13097) — **A-**, Routes 2/5/7. Implements an embodied-capability registry/resolver/contract checker and pre-deployment compatibility checks over resource requirements, permission boundaries, recovery semantics and version compatibility. Current arXiv evaluation reports 56%/72% prediction of independently documented ROS integration failures across two substrates versus at most 17% for type/QoS baselines, with zero false positives on matched-good controls.
 - **Maturity boundary:** prototype infrastructure rather than a production serving runtime; no official public repository was verified in this scan.
+
+## 2026-08-25 — PhyAgentOS
+- [**PhyAgentOS**](https://arxiv.org/abs/2607.16636) — **A+**, Routes 2/3/5/7/9 · [repo](https://github.com/PhyAgentOS/PhyAgentOS). Session-centered embodied operating/runtime substrate that makes scheduling, compatibility preflight, supervised execution, semantic verification, persistent state/memory, benchmarking and layered safety first-class services. `State-as-a-File` and target adapters decouple cognitive planning from heterogeneous simulation/real-robot execution.

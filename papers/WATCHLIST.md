@@ -15,3 +15,7 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 
 ### HELIOS: Heterogeneous Lightweight VLA Model Serving System
 - EuroSys 2027 in submission; metadata-only author disclosure. No public preprint/repo/details verified yet.
+
+### HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction
+- [arXiv:2608.17584](https://arxiv.org/abs/2608.17584) — high-level Physical-AI harness/runtime with semi-duplex interaction, asynchronous skill lifecycle/cancellation, persistent task state, shared embodiment contract and outcome-grounded completion.
+- **Why WATCH_ONLY:** the arXiv listing was withdrawn on 2026-08-20 for mandatory company internal review; no official implementation repo is verified and the official PDF endpoint is unavailable. Keep the withdrawal provenance attached and do not treat the reported quantitative results as stable published evidence until an official re-release appears.
