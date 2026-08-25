@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-26 05:00 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across serving/runtime, fleet/control-loop, state and evaluation infrastructure; no new SYS-first paper promotion.
+- Multimodal/Omni Rollplex/ROLL reverse census found adjacent VeRL-Omni runtime evidence, but no verified online-serving adoption of Rollplex cross-phase scheduling, phase-aware HBM residency or TP-layout-aware physical weight sharing.
+- Production lifecycle remains open around vLLM-Omni #6403 cancellation/status and #6413 aborted-output reclamation; v0.28.0 remains due 2026-08-30 at the latest indexed 50/129 closed snapshot.
+- Release-state guard tightened: the first-party releases page fetched in this run is stale and cannot safely confirm a final 0.27.x cut, so the radar keeps the directly verified `v0.27.0rc1` as the durable release datum until a fresh tag/release endpoint is resolved.
+- Paper/PDF state unchanged at 140 works and 133 valid private PDFs; public repo stores links only.
+
 ## 2026-08-26 00:00 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, world-model rollout, state reuse, edge/device deployment and evaluation infrastructure; fresh hits were canonical or below the SYS-first threshold.

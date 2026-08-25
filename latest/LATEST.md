@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-26 05:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan + targeted 30d checks completed; canonical PhyAI/Kairos/state-runtime anchors re-hit, with no stronger new fleet/control-loop/edge/evaluation paper promoted.
+- **Multimodal / Omni:** Rollplex/ROLL reverse census found adjacent VeRL-Omni runtime evidence for multimodal generative RL, but no verified transfer of Rollplex cross-phase prefix overlap, phase-aware HBM residency or TP-layout-aware physical weight sharing into online serving. Rollplex remains `SYS_ALG_BOUNDARY / A+`.
+- **Production lifecycle:** vLLM-Omni #6403 remains open for queued-vs-running status/cancellation; #6413 remains open for aborted diffusion orphan-output retention. The public v0.28.0 milestone remains at the latest indexed 50/129 closed (38%), due 2026-08-30.
+- **Release evidence guard:** the first-party releases page fetched in this scan is stale and cannot safely confirm a final 0.27.x cut. Public/durable claims remain pinned to directly verified `v0.27.0rc1` until a fresh first-party tag/release endpoint is resolved.
+- **Current state:** 140 works = 103 CORE_SYS / 27 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state remains 133 valid; public repo contains links only.
+- **Next:** resolve vLLM-Omni current tag/release state → SGLang-Omni #1595/#1593 tracing+soak integration → #6439 reclamation → #6403 true cancellation/status → #946/#1608/#1436 production gates → fresh 30d Multimodal SYS; parallel ROLL/VeRL-Omni transfer census and Physical-AI edge/fleet/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-26 00:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
