@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-25 17:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/state/evaluation checks completed; hits were canonical or below the SYS-first threshold.
+- **Multimodal / Omni:** no paper promotion. Current SGLang-Omni `main` documents a fail-closed same-GPU MPS-DP + CUDA-IPC weight-sharing contract: validated models must pass N=2 MPS boot/attach, concurrent-request output correctness and clean teardown, with sharing restricted to validated tp=pp=1 configurations. Current supported rows span MOSS TTS delay/local, Higgs TTS, Whisper, MOSS Transcribe-Diarize, Qwen3-ASR and FunASR Nano; documented shared-weight savings range roughly **1.51–17.05 GiB per follower**.
+- **Important boundary:** Qwen3-TTS remains **not supported** for default-mode weight sharing; its passing byte-identity result required deterministic mode that serializes preprocessing/vocoder execution and changes throughput. Mutable streaming/preprocessing/vocoder state stays replica-private even when read-only weights are shared.
+- **Lifecycle / observability watch:** vLLM-Omni #6403 and #6413 remain open; #6439 remains the reclamation path. The v0.28.0 public milestone remains due 2026-08-30 at 50/129 closed (38%). SGLang-Omni #1593 remains open and still cites #1595 for 14 paged-KV/transport/direct-IPC trace events; independent merge/release status remains unverified.
+- **PDF:** no new canonical paper/PDF; private canonical state remains 136 works / 130 valid PDFs. Legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** verify #1595 merge/release + #1593 soak CI/nightly integration → #6439 reclamation → #6403 true cancellation/status → #946/#1608/#1436 production gates → v0.28.0 hardening → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 16:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
