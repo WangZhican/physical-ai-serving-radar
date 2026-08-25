@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-26 00:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d checks covered VLA/robot-policy serving, fleet/control-loop scheduling, world-model rollout, state reuse, edge/device deployment and evaluation infrastructure. Fresh hits were canonical XPolicyLab/ROSA/Zetta or below-threshold work; no duplicate promotion.
+- **Multimodal / Omni:** independent 24h→7d scan plus targeted 30d systems/runtime checks covered MLLM/Omni serving, stage/modality disaggregation, composite/any-to-any runtime and official vLLM/SGLang ecosystems. HorizonServe re-hit canonical; no new paper-level SYS promotion.
+- **Boundary checks:** current arXiv/new results around the latest 2608.21xxx batch did not surface a new Physical-AI/Multimodal serving paper clearing the SYS-first bar; agent-learning architectures and generic LLM/MoE serving remain outside CORE_SYS without direct runtime/serving evidence for this scope.
+- **Current state:** 139 works = 103 CORE_SYS / 26 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state remains 132 valid; public repo contains links only.
+- **Next:** ENEI reverse census → SGLang-Omni #1595/#1593 observability+soak → vLLM-Omni reclamation/cancellation/pause-resume semantics → production gates + fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 21:04 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG +0 / WATCH +0 — [Edge-Native Embodied Intelligence](https://arxiv.org/abs/2608.17774).

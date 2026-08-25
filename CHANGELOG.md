@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-26 00:00 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, world-model rollout, state reuse, edge/device deployment and evaluation infrastructure; fresh hits were canonical or below the SYS-first threshold.
+- Multimodal/Omni coverage independently refreshed across MLLM/Omni serving, stage/modality disaggregation, composite/any-to-any runtime and official vLLM/SGLang ecosystems; no new paper-level promotion.
+- Boundary guard preserved: agent-learning architectures and generic LLM/MoE serving remain outside CORE_SYS unless they expose direct Physical-AI/Multimodal runtime, scheduling, resource-management or infrastructure evidence.
+- Paper/PDF state unchanged at 139 works and 132 valid private PDFs; public repo stores links only.
+
 ## 2026-08-25 21:04 CST
 - Hourly dual-track scan completed: **CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG +0 / WATCH +0**.
 - Added **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** (arXiv:2608.17774) as `SYS_ALG_BOUNDARY / A-`, Routes 4/6/8. It contributes action-aware wireless-edge/embodied co-design mechanisms but remains below CORE_SYS because current evidence is framework/case-study oriented rather than a mature serving runtime.
