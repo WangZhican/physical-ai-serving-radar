@@ -396,3 +396,8 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - **Multimodal / Omni runtime backfill:** official vLLM-Omni **v0.27.0rc1** was released 2026-08-11 with 104 merged changes from 52 contributors. Systems-relevant changes include PersonaPlex native full-duplex speech-to-speech serving, DLO DP concurrency, scheduler-managed diffusion paged-KV worker contracts/admission cleanup, batched Chat Completions, and broader MiniMax-H3 heterogeneous deployment. This is release-candidate evidence for the existing vLLM-Omni trunk, not a new paper or proof that later lifecycle issues are fixed.
 - **Fresh arXiv check:** current `2608.21xxx` results did not surface a new in-scope SYS-first Physical-AI/Multimodal paper.
 - **Next:** verify final vLLM-Omni v0.27.0 cut vs rc1 → SGLang-Omni tracing/soak integration → vLLM-Omni reclamation/cancellation/pause-resume → production gates → fresh 30d Multimodal SYS census; continue Physical-AI edge-native runtime, fleet SLO, state substrate and evaluation/isolation.
+
+## 2026-08-26 03:00 CST
+- **SYS_ALG_BOUNDARY +1:** Rollplex (arXiv:2608.14498), A+, Routes 6/8/11. VLM post-training runtime with cross-phase prefix/decode overlap, phase-aware HBM residency, and TP-layout-aware weight sharing.
+- Physical AI fresh scan: no new SYS promotion; 24h/7d + targeted 30d coverage completed.
+- Multimodal fresh scan: Rollplex was the main omission-recovery promotion; next focus is ROLL lineage plus vLLM/SGLang production-runtime hardening.

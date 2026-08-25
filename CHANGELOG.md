@@ -376,3 +376,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Completed independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d systems/runtime checks; no canonical-paper promotion.
 - Backfilled official vLLM-Omni `v0.27.0rc1` release/runtime evidence: 104 merged changes from 52 contributors, with PersonaPlex full-duplex serving, DLO DP concurrency, scheduler-managed diffusion paged-KV/admission cleanup, batched Chat Completions and broader MiniMax-H3 heterogeneous deployment.
 - Kept this as release-candidate evolution of the existing vLLM-Omni trunk, not a new paper and not evidence that later cancellation/reclamation issues are resolved.
+
+## 2026-08-26 03:00 CST
+- Added Rollplex (arXiv:2608.14498) to `SYS_ALG_BOUNDARY` (A+, Routes 6/8/11).
+- Refined Multimodal map with a cross-phase GPU-sharing/post-training boundary branch.
+- Hourly dual-track scan completed; no new Physical-AI CORE_SYS promotion.

@@ -89,3 +89,6 @@ Key questions:
 These systems solve general multimodal-serving problems even when they later benefit robots. Physical AI introduces extra semantics—physical execution progress, state freshness, action deadlines, robot resources and world-model rollouts—that deserve a different taxonomy.
 
 See [`PHYSICAL_AI_MAP.md`](PHYSICAL_AI_MAP.md) and [`CROSSOVER.md`](CROSSOVER.md).
+
+### Cross-phase multimodal GPU sharing / post-training boundary
+Rollplex (2608.14498) anchors a serving-adjacent branch: input-heavy VLM post-training exposes response-independent prefix work that can overlap rollout decode, but requires phase-aware HBM residency and TP-layout-aware physical weight sharing. Track these mechanisms as future Omni serving primitives; keep them `SYS_ALG_BOUNDARY` until demonstrated in online serving.

@@ -76,3 +76,9 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Paper:** https://arxiv.org/abs/2608.17774
 - **Routes:** 4 / 6 / 8 · **Priority:** A-
 - **Role:** connects embodied agents, 6G networking and edge cognitive services via confidence-aware edge assistance, edge-driven adaptation, value-of-experience active embodied federated learning, goal-oriented transmission and programmable radio-resource allocation. Kept below `CORE_SYS` because current evidence is a framework + case-study co-design rather than a mature serving/runtime substrate.
+
+### Rollplex — cross-phase GPU spatial sharing for VLM post-training
+- **Paper:** https://arxiv.org/abs/2608.14498
+- **Code/runtime:** https://github.com/alibaba/ROLL
+- **Routes:** 6 / 8 / 11 · **Priority:** A+
+- **Role:** decomposes reference/training at the response boundary and overlaps response-independent visual/prompt prefix work with rollout decode; CUDA-VMM-backed phase-aware HBM residency controls boundary/intermediate state, while TP-layout-aware physical weight sharing avoids a second full actor copy. On 32xH800 it reports 1.23x-1.30x over serial colocation and 1.57x-2.24x over disaggregation. Kept `SYS_ALG_BOUNDARY` because the workload is VLM RL post-training rather than online serving.
