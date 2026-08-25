@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-25 11:58 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan plus targeted 30d runtime/state/evaluation checks completed; fresh hits re-hit canonical PhyAI/Kairos/M* or stayed below SYS-first threshold.
+- **Multimodal / Omni:** no new paper promotion. vLLM-Omni remains the main stage-based serving trunk; current docs continue to expose stage-local batching/resource placement across text/image/audio/video and robot-policy paths.
+- **Failure-path observability:** SGLang-Omni #1593 remains open and documents that paged-KV transfer currently lacks trace events, transport fallback can be invisible, and direct-IPC streaming lacks consumer-side events. The issue states that #1595 implements 14 events for paged-KV/transport/stream gaps; slot-pool failure events and CI/nightly soak policy remain follow-up work. Its 8-hour two-H200 Qwen3-Omni-30B soak processed 4,764 requests / 3,510,175 slot allocations; low peak pool occupancy means this is a reference point, not proof of leak-freedom.
+- **PDF:** no new canonical paper/PDF; private canonical state remains 136 works / 130 valid PDFs. Legal debt remains Eevee, ROSGM, TILDE.
+- **Next:** verify #1595 merge/implementation status + #1593 soak integration → #6439 reclamation merge/final semantics → #6403 cancellation/status → #6426 continuous-request correctness → #946 metrics + #1608/#1436 production gates → v0.28.0 hardening → fresh 30d Multimodal SYS; parallel Physical-AI action-freshness/recovery/fleet-SLO/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-25 10:02 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.

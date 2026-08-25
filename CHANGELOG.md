@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-25 11:58 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, state reuse, evaluation infrastructure, world-model rollout and heterogeneous deployment; fresh hits were canonical or below threshold.
+- Multimodal/Omni update: SGLang-Omni #1593 remains the primary first-party reference for failure-path observability + soak testing. It documents missing paged-KV tracing, invisible transport fallback risk and missing direct-IPC consumer events; the issue states #1595 adds 14 trace events for these gaps, while slot-pool failure events and CI/nightly soak policy remain follow-up work.
+- Reference soak evidence remains 8 hours / two H200 / Qwen3-Omni-30B / 4,764 requests / 3,510,175 slot allocations; low peak pool occupancy means this is not leak-freedom proof.
+- No new PDF; private legal-source debt remains Eevee / ROSGM / TILDE.
+
 ## 2026-08-25 10:02 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, state reuse, evaluation infrastructure, world-model rollout and heterogeneous deployment; fresh hits were canonical or below threshold.
