@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-26 08:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan completed across VLA/robot-policy serving, fleet/control-loop runtime, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; no new paper crossed the SYS-first threshold.
+- **Multimodal / Omni:** independent 24h→7d fresh scan + targeted 30d runtime checks completed. Fresh arXiv results did not surface a new in-scope systems paper beyond canonical HorizonServe or unrelated/algorithmic work.
+- **Failure-path observability:** SGLang-Omni #1593 remains open after #1595 merged. The remaining frontier is the four slot-pool failure-path events plus comm-layer-triggered soak/CI-nightly policy.
+- **Request lifecycle:** vLLM-Omni #6403 remains open with no linked development branch/PR, so queued-vs-running status and true GPU cancellation remain unresolved. #6439 could not be freshly fetched in this scan; its status is therefore not upgraded beyond the last verified open/not-merged guard.
+- **Current state:** 140 works = 103 CORE_SYS / 27 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state remains 133 valid; public repo contains links only.
+- **Next:** #1593 failure-event/soak integration → first-party #6439 reclamation status → #6403 cancellation/status → #946/#1436 production gates → vLLM-Omni hardening → fresh 30d Multimodal SYS; parallel Physical-AI edge/fleet/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-26 07:04 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
