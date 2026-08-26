@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26 19:00 CST",
-  "count": 143,
+  "updated": "2026-08-26 21:00 CST",
+  "count": 145,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2201,6 +2201,21 @@
       "artifact": "https://doi.org/10.5281/zenodo.19244624",
       "repo": "",
       "system_contribution": "Isaac Sim reliability/evaluation infrastructure using semantic-stage-guided fuzzing, multi-level simulator mutations, coverage/crash feedback and MAB scheduling; 11 bugs found over ~4 months, 9 confirmed/fixed."
+    },
+    {
+      "id": "arxiv:2307.10818",
+      "title": "PHYFU: Fuzzing Modern Physics Simulation Engines",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2023,
+      "venue": "ASE 2023 Distinguished Paper",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2307.10818",
+      "repo": "https://github.com/PhyFuzz/phyfu",
+      "system_contribution": "Foundational simulator-reliability infrastructure for physics simulation engines used by robotics and learning-based control. PHYFU fuzzes both forward and backward simulation, mutates valid initial states, uses physics-law consistency oracles, and applies feedback-driven test-input scheduling to expose silent logic errors across the simulator software stack."
     }
   ]
 }

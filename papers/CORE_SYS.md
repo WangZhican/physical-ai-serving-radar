@@ -148,3 +148,7 @@ NVIDIA RSS 2026 evaluation runtime for task-generalist robot policies: robot/pol
 ### IcFuzz — ASE 2026 — A
 **Route:** P9 Evaluation / Serving Infrastructure  
 First Isaac Sim-focused reliability/fuzzing infrastructure: semantic-stage-guided valid program generation, multi-level mutations, coverage/crash feedback and adaptive mutation scheduling. Reports ~190%-205% baseline coverage, 3.7 unique crashes across three 12-hour rounds, and 11 bugs over ~4 months with 9 confirmed/fixed. [Paper](https://arxiv.org/abs/2608.06088) · [Replication package](https://doi.org/10.5281/zenodo.19244624)
+
+### PHYFU — ASE 2023 Distinguished Paper — A
+**Route:** P9 Evaluation / Serving Infrastructure  
+Foundational physics-simulation-engine reliability infrastructure for robotics and learning-based control. PHYFU combines physics-law consistency oracles for forward/backward simulation, valid initial-state mutation and feedback-guided test scheduling; it reports more than 5,000 error-triggering inputs across four physics simulation engines. It is included as the direct historical anchor for the later IcFuzz lineage, not as generic legacy software testing. [Paper](https://arxiv.org/abs/2307.10818) · [Repo](https://github.com/PhyFuzz/phyfu)

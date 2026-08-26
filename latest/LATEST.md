@@ -530,3 +530,8 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 ## 2026-08-26 20:00 CST — hourly scan
 - **CORE_SYS +1:** [IcFuzz](https://arxiv.org/abs/2608.06088) (ASE 2026), Route 9 / A — reliability-testing infrastructure for Isaac Sim with semantic-stage-guided fuzzing, hierarchical mutations and adaptive mutation scheduling. It reports 11 bugs over ~4 months, 9 confirmed or fixed. [Replication package](https://doi.org/10.5281/zenodo.19244624).
 - **Multimodal / Omni:** independent 24h/7d + targeted 30d runtime scan completed; no paper promotion. Lifecycle/preemption/reclamation and failure-path observability remain active.
+
+## 2026-08-26 21:00 CST — hourly scan
+- **CORE_SYS +1:** [PHYFU](https://arxiv.org/abs/2307.10818) (**ASE 2023 Distinguished Paper**), Route 9 / A — foundational physics-simulation-engine reliability infrastructure recovered by reverse-census from IcFuzz. It combines physics-law oracles, forward/backward simulation checking, valid-state mutation and feedback-guided fuzzing; reports >5,000 error-triggering inputs across four engines. [Repo](https://github.com/PhyFuzz/phyfu).
+- **Route 9 lineage:** PHYFU → IcFuzz now forms the explicit simulator-reliability branch; RoboFuzz remains older ROS2 reliability background under review rather than automatic promotion.
+- **Multimodal / Omni:** independent 24h/7d + targeted 30d scan completed; no paper promotion. vLLM-Omni request lifecycle/preemption/reclamation and SGLang-Omni failure-path tracing/soak CI remain the active production-runtime frontier.
