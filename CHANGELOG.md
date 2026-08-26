@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-26 13:01 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; no new paper crossed the SYS-first threshold.
+- Multimodal/Omni coverage refreshed across serving/composite runtime and request lifecycle. `Aero Realtime` and `ParaJSCC` were audited but kept outside CORE_SYS under current evidence.
+- Added vLLM-Omni RFC #6453 as runtime-evolution evidence: runtime-owned request-scoped mutable stage-state lifecycle spanning identity, namespace, terminal commit, cancellation/timeout/failure cleanup, segment continuation, ID reuse and late-work fencing. No generic implementation PR or performance claim yet.
+- SGLang-Omni #1593 remains open after #1595 merged; vLLM-Omni #6403 and #6466 remain open with no linked implementation PRs.
+- Paper/PDF state unchanged at 140 works and 133 valid private PDFs; public repo stores links only.
+
 ## 2026-08-26 11:00 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; fresh hits were canonical, algorithm-led or below SYS-first threshold.

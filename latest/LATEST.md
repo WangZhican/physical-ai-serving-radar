@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-26 13:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan + targeted 30d checks completed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; no new paper crossed the SYS-first threshold.
+- **Multimodal / Omni:** independent fresh scan re-hit canonical HorizonServe/M*/Cornserve. `Aero Realtime` (2608.08469) and `ParaJSCC` (2608.15066) were reviewed but not promoted: current evidence remains model/inference-architecture or communication-method centric rather than serving scheduling/resource runtime.
+- **Request-lifecycle abstraction:** vLLM-Omni RFC #6453 is OPEN and proposes runtime-owned, request-scoped lifecycle management for mutable incremental TTS/Omni stage state. It covers explicit internal/external request identity, namespaced state, terminal-send commit ordering, cancellation/timeout/failure cleanup, segment continuation, ID reuse and stale-work fencing. At least ten current-main processors directly manage this state today; no generic implementation PR or performance claim exists yet.
+- **Status checks:** SGLang-Omni #1593 remains open after #1595 merged; slot-pool failure events and comm-layer-triggered soak/CI-nightly remain unevidenced as landed. vLLM-Omni #6403 and #6466 remain open with no linked implementation PRs.
+- **Current state:** 140 works = 103 CORE_SYS / 27 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state remains 133 valid; public repo contains links only.
+- **Next:** #6453 core implementation/adopter → #1593 failure-path/soak CI → first-party #6439 reclamation → #6403 true cancellation/status → #6466 Gaudi/PersonaPlex qualification → #946/#1436 production gates → fresh 30d Multimodal SYS census; parallel Physical-AI edge/fleet/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-26 11:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
