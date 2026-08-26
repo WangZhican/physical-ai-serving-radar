@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-26 18:00 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across runtime, fleet/control-loop, state/evaluation and heterogeneous deployment; no new SYS-first paper crossed the bar.
+- Multimodal/Omni taxonomy refined around **preemptible step-wise execution**: vLLM-Omni #5822 links per-timestep diffusion control to responsive cancellation/progressive output and the existing request-lifecycle/reclamation chain (#6403, #6413/#6439, #6453). #5822 explicitly does not provide cross-request GPU batching.
+- SGLang-Omni #1593 remains open after #1595 merged; remaining work is slot-pool failure instrumentation plus comm-layer-triggered soak/CI-nightly.
+- Public paper count unchanged at **142 works = 104 CORE_SYS / 28 SYS_ALG / 4 ALG / 6 WATCH**; PDFs remain private to the research workspace.
+
 ## 2026-08-26 17:02 CST
 - Added **Retriever** (arXiv:2607.17213) as `CORE_SYS / A+`, Routes 2/3/5/7/9 after closed-loop asynchronous-runtime omission recovery.
 - Added a temporal programming-model branch for multi-rate Physical AI: stateful modules, explicit clocks, edge synchronization/history-selection policies, replay/debugging and multi-backend execution.

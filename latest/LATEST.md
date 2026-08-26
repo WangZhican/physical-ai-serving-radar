@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-26 18:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime checks completed.
+- **Physical AI:** no new paper-level SYS promotion; fresh hits stayed within existing PhyAI/Kairos/Zetta-class runtime anchors and below-threshold model work.
+- **Multimodal / Omni:** vLLM-Omni #6453 remains open with no implementation PR; #5822 remains open and is now tracked as a preemptible-execution frontier because per-timestep Modular Diffusers control would remove whole-generation head-of-line blocking and enable responsive cancellation/progressive output, while explicitly not adding cross-request GPU batching. #6403 remains open for queued-vs-running status and true GPU cancellation; #6413 remains open around aborted-output reclamation; SGLang-Omni #1593 remains open after #1595 merged.
+- **Taxonomy update:** Routes 3/6/11 now explicitly connect step-wise execution with request lifecycle: admission/status → mutable stage state → step execution → cancellation/failure → artifact/state ownership → deterministic reclamation.
+- **Current state:** 142 works = 104 CORE_SYS / 28 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state remains 135 valid; public repo contains links only.
+- **Next:** #6453 generic implementation/adopter → #5822 scheduler/preemption integration → #6439 reclamation → #6403 true cancellation/status → #1593 failure-event/soak CI → fresh 30d Multimodal SYS census; parallel Physical-AI edge/fleet/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-26 17:02 CST
 
 - **Promotions:** CORE_SYS +1 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0 — added **Retriever** (arXiv:2607.17213), `CORE_SYS / A+`, Routes 2/3/5/7/9.
