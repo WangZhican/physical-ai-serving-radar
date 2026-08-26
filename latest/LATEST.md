@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-26 11:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan + targeted 30d runtime checks completed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; no new paper crossed the SYS-first threshold.
+- **Multimodal / Omni:** independent 24h→7d fresh scan + targeted 30d serving/runtime checks completed. No new paper-level serving system surfaced beyond canonical M*/HorizonServe/EPD-family work.
+- **Failure-path / lifecycle:** SGLang-Omni #1593 remains open after #1595 merged; the remaining slot-pool failure events and comm-layer-triggered soak/CI-nightly policy are not yet evidenced as landed. vLLM-Omni #6403 remains open with queued-vs-running status ambiguity and ineffective cancellation for already-running async-video GPU inference.
+- **Boundary guard:** speculative VLA acceleration, world-model planning/model papers and multimodal speculative-decoding surveys remain outside CORE_SYS unless they contribute serving/runtime/resource-management infrastructure.
+- **Current state:** 140 works = 103 CORE_SYS / 27 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state remains 133 valid; public repo contains links only.
+- **Next:** #1593 failure-instrumentation/soak CI → first-party #6439 reclamation → #6403 true cancellation/status → #6466 Gaudi/PersonaPlex qualification → #946/#1436 production gates → next 30d Multimodal SYS census; parallel Physical-AI edge/fleet/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-26 10:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.

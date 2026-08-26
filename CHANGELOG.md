@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-26 11:00 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; fresh hits were canonical, algorithm-led or below SYS-first threshold.
+- Multimodal/Omni coverage refreshed across serving, stage/modality disaggregation, composite runtime, request lifecycle and heterogeneous qualification; no new paper-level serving system surfaced beyond canonical M*/HorizonServe/EPD-family work.
+- SGLang-Omni #1593 remains open after #1595 merged; slot-pool failure events and comm-layer-triggered soak/CI-nightly remain open evidence gaps. vLLM-Omni #6403 remains open for queued-vs-running status and true cancellation of already-running async-video inference.
+- Paper/PDF state unchanged at 140 works and 133 valid private PDFs; public repo stores links only.
+
 ## 2026-08-26 10:00 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; fresh hits were canonical or below SYS-first threshold.
