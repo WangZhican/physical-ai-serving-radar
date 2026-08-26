@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26 17:02 CST",
-  "count": 142,
+  "updated": "2026-08-26 19:00 CST",
+  "count": 143,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2168,6 +2168,19 @@
       "project": "https://retriever.systems/",
       "repo": "https://github.com/openretriever/retriever",
       "system_contribution": "Temporal computation-graph programming model + runtime for asynchronous closed-loop robot agents: stateful Flows, explicit Clocks, edge-level Sync policies, multi-backend execution, deterministic replay/debugging, and real-robot VLM+VLA+belief+monitor+control."
+    },
+    {
+      "id": "arxiv:2608.22657",
+      "title": "Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs",
+      "class": "CORE_SYS",
+      "route": [1, 2, 7],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2608.22657",
+      "repo": "",
+      "system_contribution": "Separates semantic planning from physical execution authority: typed robot skill libraries and workflow contracts feed a non-actuating Mission Planner, while a deterministic Robot Orchestrator with sole actuation authority revalidates capability membership, current state, state-bound values and synchronization/workflow constraints at every dispatch."
     }
   ]
 }

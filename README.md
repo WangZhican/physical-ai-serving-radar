@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-08-26 17:02 CST**
+**Last updated: 2026-08-26 19:00 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -25,13 +25,13 @@ Physical AI serving treats **physical execution, state freshness, deadlines, rob
 
 | Route | Focus | Representative anchors |
 |---|---|---|
-| P1. Fleet-scale / Multi-Robot Serving | GPU pools, batching, execution-aware scheduling, fleet learning loops | Kairos, ROSA, Armory, SOP |
-| P2. Unified Physical-AI Runtime | portable VLA/WAM execution, robot-facing serving APIs, embodied-agent harnesses | PhyAI, Embodied.cpp, vla.cpp, LeRobot, Thea, Retriever |
+| P1. Fleet-scale / Multi-Robot Serving | GPU pools, batching, execution-aware scheduling, fleet learning loops | Kairos, ROSA, Armory, SOP, Physical Agentic AI |
+| P2. Unified Physical-AI Runtime | portable VLA/WAM execution, robot-facing serving APIs, embodied-agent harnesses | PhyAI, Embodied.cpp, vla.cpp, LeRobot, Thea, Retriever, Physical Agentic AI |
 | P3. Real-Time / Streaming / Control Loop | reaction latency, deadlines, async execution, accelerator arbitration | CROS-RT, PAAM, VLASH, FASTER, Retriever |
 | P4. Edge-Cloud / Disaggregated Physical AI | device/edge/cloud placement, network/tail-latency reliability | RoboECC, RAPID, EcoVLA, FogROS2 |
 | P5. Physical-State / Temporal Cache | cache validity over vision/action/world/planner/execution state | AgenticCache, Persistent Computational State, Execution-State Capsules |
 | P6. Hardware-Aware / Heterogeneous Serving | GPU/XPU/NPU placement, CPU-GPU partitioning, offload | XPU Characterization, PAAM, OOM-Free Alpamayo |
-| P7. Composite VLA + WAM + Planner Serving | policy + planner + world model + verifier/safety/tool graphs | M*, PhyAI, vLLM-Omni, Thea |
+| P7. Composite VLA + WAM + Planner Serving | policy + planner + world model + verifier/safety/tool graphs | M*, PhyAI, vLLM-Omni, Thea, Physical Agentic AI |
 | P8. Workload Characterization / Modeling | control-time, network, cost-energy-time models | VLA-Perf, PhyAI |
 | P9. Evaluation / Serving Infrastructure | model-server decoupling, real-robot EaaS, distributional metrics, observability | DeepInsight, RoboArena, RoboChallenge, PhAIL |
 | P10. World-Model / WAM Rollout Serving | persistent rollout state, branch scheduling, migration, rollback/fork | WorldMove, PCS, PhyAI |

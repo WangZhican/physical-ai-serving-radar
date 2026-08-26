@@ -13,6 +13,7 @@ Primary contribution must be runtime, serving, resource management, scheduling, 
 - [Characterizing VLA Models across XPUs](https://arxiv.org/abs/2604.24447) — heterogeneous phase characterization — **S**
 - [Armory](https://arxiv.org/abs/2608.00337) — control-aware batched robot-policy serving — **A+**
 - [Retriever](https://arxiv.org/abs/2607.17213) — temporal computation-graph runtime for multi-rate closed-loop robot programs (`Flow` / `Clock` / `Sync`, replay/debugging, multi-backend execution) — **A+** · [project](https://retriever.systems/) · [repo](https://github.com/openretriever/retriever)
+- [Physical Agentic AI](https://arxiv.org/abs/2608.22657) — heterogeneous robot-crew orchestration with typed skills/workflow contracts and deterministic per-dispatch execution authorization; separates LLM planner knowledge from physical actuation authority — **A**
 - [LeRobot](https://arxiv.org/abs/2602.22818) — ICLR 2026 end-to-end robot-learning infrastructure; generalized gRPC PolicyServer/RobotClient async inference with action-queue/overlap semantics — **A+** · [repo](https://github.com/huggingface/lerobot)
 - [RobotFleet](https://arxiv.org/abs/2510.10379) — RSS 2025 Multi-Robot Systems Workshop; centralized fleet planner/allocator + task-status/schedule manager over containerized robot services, with shared world state and feedback-driven replanning — **A-** · [repo](https://github.com/therohangupta/robot-fleet)
 

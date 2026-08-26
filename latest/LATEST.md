@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-26 19:00 CST
+
+- **Promotions:** CORE_SYS +1 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0 — added **Physical Agentic AI** (arXiv:2608.22657), `CORE_SYS / A`, Routes 1/2/7.
+- **Physical AI:** new fleet/runtime-governance architecture separates a non-actuating LLM Mission Planner from a deterministic Robot Orchestrator with sole actuation authority. Typed skill libraries and workflow contracts are checked again against current state and state-bound values at dispatch time. Retrieval raises skill grounding 51%→96% but still leaves 23–29% faulted dispatches; per-dispatch enforcement reduces false dispatch to 0% with no false blocks and rejects all eight injected live-execution faults before motion.
+- **Artifact:** no official code repo verified. Official arXiv PDF was archived privately and validated; this public radar keeps links only.
+- **Multimodal / Omni:** independent 24h→7d + targeted 30d scan completed; no new paper-level promotion. vLLM-Omni request lifecycle/preemption/reclamation and SGLang-Omni failure-path tracing/soak remain active frontiers.
+- **Taxonomy update:** Routes 1/2/7 now explicitly track **planner knowledge vs runtime execution authority** for robot crews; prompt grounding and deterministic dispatch enforcement are treated as separate control planes.
+- **Current state:** 143 works = 105 CORE_SYS / 28 SYS_ALG / 4 ALG / 6 WATCH.
+- **Next:** Physical Agentic AI author/reference reverse census and comparison with FSAR/AEROS/Thea/Zetta/RobotFleet/Armory → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 failure events + soak CI/nightly → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-26 18:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime checks completed.

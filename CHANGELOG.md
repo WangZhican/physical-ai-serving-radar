@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-26 19:00 CST
+- Added **Physical Agentic AI** (arXiv:2608.22657) as `CORE_SYS / A`, Routes 1/2/7 after fresh robot-crew orchestration/runtime-enforcement recovery.
+- New systems branch: **planner knowledge vs physical execution authority**. Typed robot skills/workflow contracts can inform an LLM planner, but deterministic dispatch-time checks still own capability/state/synchronization authorization before actuation.
+- Paper evidence: retrieval improves skill grounding 51%→96%, yet informed planners still dispatch 23–29% of faulted steps; deterministic enforcement reports 0% false dispatch with no false blocks and rejects all eight injected live-execution faults before motion.
+- Public dataset now tracks **143 works = 105 CORE_SYS / 28 SYS_ALG / 4 ALG / 6 WATCH**. Official PDF remains private; no official implementation repo was verified this run.
+- Independent Multimodal/Omni scan completed with no paper-level promotion; request lifecycle/preemption/reclamation and failure-path tracing/soak remain active runtime frontiers.
+
 ## 2026-08-26 18:00 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across runtime, fleet/control-loop, state/evaluation and heterogeneous deployment; no new SYS-first paper crossed the bar.
