@@ -480,3 +480,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added CaP-X to CORE_SYS / Route 9; added ASPIRE and RHO to SYS_ALG_BOUNDARY.
 - Refined Route 9 to explicitly include reusable robot coding-agent evaluation/execution substrates.
 - Refreshed public radar heartbeat after independent Physical-AI and Multimodal/Omni scans.
+
+## 2026-08-27 05:01 CST
+- Added **ENPIRE** (arXiv:2606.19980) to SYS_ALG_BOUNDARY / A+, Routes 1/2/9.
+- Refined P1/P2/P9 with physical autoresearch / fleet experiment orchestration: automatic reset+verification, auditable rollout artifacts, parallel robot trials and MRU/MTU utilization metrics.
+- Independent Multimodal/Omni scan completed with no paper promotion; lifecycle/preemption/cancellation/reclamation and failure-path tracing remain active.

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-27T02:02:00+08:00",
-  "count": 151,
+  "updated": "2026-08-27T05:01:00+08:00",
+  "count": 152,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2094,6 +2094,22 @@
       "priority": "A",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2606.16458"
+    },
+    {
+      "id": "arxiv:2606.19980",
+      "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        1,
+        2,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2606.19980",
+      "project_page": "https://research.nvidia.com/labs/gear/enpire/"
     }
   ]
 }

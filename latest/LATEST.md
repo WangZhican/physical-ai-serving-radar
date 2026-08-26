@@ -556,3 +556,8 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - **SYS_ALG_BOUNDARY +2:** [ASPIRE](https://arxiv.org/abs/2607.00272) and [RHO](https://arxiv.org/abs/2606.16458) — strong closed-loop execution/tracing and harness-search evidence, but primary novelty remains skill/harness optimization rather than online serving.
 - **Multimodal / Omni:** independent 24h→7d + targeted 30d runtime scan completed; no new paper-level promotion. Request lifecycle/preemption/reclamation and failure-path observability remain active.
 - **Next:** EvoTrainer → ENPIRE strict audit; CaP-X/ASPIRE same-group follow-ons; parallel vLLM-Omni #6453/#5822/#6439/#6403 and SGLang-Omni #1593; then fresh 30d Multimodal SYS census.
+
+## 2026-08-27 05:01 CST — hourly scan
+- **SYS_ALG_BOUNDARY +1:** [ENPIRE](https://arxiv.org/abs/2606.19980), Routes 1/2/9, A+ — NVIDIA GEAR physical autoresearch harness with automatic reset/verification, auditable rollout artifacts, parallel single/multi-robot trials, and MRU/MTU fleet-utilization metrics. [Project](https://research.nvidia.com/labs/gear/enpire/).
+- **Multimodal / Omni:** independent 24h→7d + targeted 30d scan completed; no new paper-level promotion. Request-scoped state lifecycle, step-wise preemption, true cancellation/reclamation and SGLang-Omni failure-path tracing/soak remain active runtime frontiers.
+- **Next:** ENPIRE same-group/follow-on fleet experiment orchestration; then vLLM-Omni #6453/#5822/#6439/#6403, SGLang-Omni #1593, fresh 30d Multimodal SYS census.

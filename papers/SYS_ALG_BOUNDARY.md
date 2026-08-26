@@ -111,3 +111,9 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Artifact:** https://github.com/KE7/helix
 - **Routes:** 2 / 9 · **Priority:** A
 - **Role:** searches interpretable multi-file Repositories-as-Policies with tool-enabled coding agents and execution feedback, then freezes the deployment artifact for single-turn execution. Kept `SYS_ALG_BOUNDARY` because the main contribution is training-time harness/policy search rather than a reusable online serving runtime.
+
+### ENPIRE — agentic physical autoresearch / fleet rollout harness
+- **Paper:** https://arxiv.org/abs/2606.19980
+- **Project:** https://research.nvidia.com/labs/gear/enpire/
+- **Routes:** 1 / 2 / 9 · **Priority:** A+
+- **Role:** reusable physical experiment/evaluation harness with automatic reset and verification, auditable rollout artifacts, and single- or multi-robot parallel physical execution. ENPIRE introduces MRU/MTU to measure robot-fleet and token utilization. Kept at SYS_ALG_BOUNDARY because its primary objective is autonomous policy self-improvement, not online inference admission or resource scheduling.
