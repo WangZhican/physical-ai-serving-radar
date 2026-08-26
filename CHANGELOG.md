@@ -463,3 +463,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Route 9 now explicitly records the **PHYFU → IcFuzz** lineage; PHYFU supplies physics-law oracles and feedback-guided fuzzing across general physics engines, while IcFuzz specializes to Isaac Sim with semantic-stage guidance/multi-level mutation.
 - Official PHYFU repository verified; official arXiv PDF archived privately on full97 only. No PDF or internal server data was added to this public repository.
 - Independent Multimodal/Omni 24h/7d + targeted 30d scan completed with no paper promotion; request lifecycle/preemption/reclamation and failure-path tracing/soak CI remain active.
+
+## 2026-08-26 22:00 CST
+- Added **RoboFuzz: Fuzzing Robotic Systems over Robot Operating System (ROS) for Finding Correctness Bugs** (ESEC/FSE 2022) to `CORE_SYS / A`, Route 9, as the foundational ROS2/robot-stack reliability anchor recovered from the PHYFU/IcFuzz lineage.
+- Route 9 now explicitly records **RoboFuzz → PHYFU → IcFuzz**. Public content links only to official paper/repository sources; PDFs remain off-repo.
+- Independent Multimodal/Omni fresh scan completed with no paper promotion; lifecycle/preemption/reclamation and failure-path observability remain the active production-runtime frontier.

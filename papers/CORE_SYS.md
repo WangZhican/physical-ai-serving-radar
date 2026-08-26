@@ -152,3 +152,7 @@ First Isaac Sim-focused reliability/fuzzing infrastructure: semantic-stage-guide
 ### PHYFU — ASE 2023 Distinguished Paper — A
 **Route:** P9 Evaluation / Serving Infrastructure  
 Foundational physics-simulation-engine reliability infrastructure for robotics and learning-based control. PHYFU combines physics-law consistency oracles for forward/backward simulation, valid initial-state mutation and feedback-guided test scheduling; it reports more than 5,000 error-triggering inputs across four physics simulation engines. It is included as the direct historical anchor for the later IcFuzz lineage, not as generic legacy software testing. [Paper](https://arxiv.org/abs/2307.10818) · [Repo](https://github.com/PhyFuzz/phyfu)
+
+### RoboFuzz — ESEC/FSE 2022 — A
+**Route:** P9 Evaluation / Serving Infrastructure  
+Foundational ROS2/robot-stack reliability infrastructure: data-type-aware mutation, hybrid real/sim execution, semantic correctness oracles for physical-law/specification/cyber-physical discrepancies, and semantic feedback guidance. Evaluated ROS2 internals plus Turtlesim, MoveIt2+PANDA, TurtleBot3 and PX4; reported **30 previously unknown bugs, 25 acknowledged, 6 fixed**. Included as a direct historical anchor for the modern PHYFU/IcFuzz reliability lineage, not as generic software testing. [Paper](https://2022.esec-fse.org/details/fse-2022-research-papers/86/RoboFuzz-Fuzzing-Robotic-Systems-over-Robot-Operating-System-ROS-for-Finding-Corre) · [Repo](https://github.com/sslab-gatech/robofuzz)

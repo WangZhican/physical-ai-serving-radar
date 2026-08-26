@@ -50,3 +50,6 @@ Physical Agentic AI adds a fleet/runtime-governance branch spanning P1/P2/P7. A 
 
 ### P9 refinement: simulator reliability / fuzzing infrastructure
 **PHYFU (ASE 2023 Distinguished Paper) → IcFuzz (ASE 2026)** is the simulator-reliability lineage. PHYFU establishes physics-law oracles plus feedback-guided fuzzing across general physics simulation engines used in robotics/learning-based control; IcFuzz specializes the line to Isaac Sim with semantic-stage guidance and multi-level mutation. Reusable simulator test generation, coverage/failure feedback, bug discovery and reproducible artifacts are treated as Physical-AI evaluation infrastructure because simulator correctness directly affects training/evaluation validity.
+
+### 2026-08-26: ROS2 / robot-stack reliability completes the Route-9 fuzzing lineage
+Route P9 now records **RoboFuzz (ESEC/FSE 2022) → PHYFU (ASE 2023) → IcFuzz (ASE 2026)** as a focused reliability line. RoboFuzz targets semantic correctness bugs in ROS2 and ROS-based robotic systems through hybrid real/sim execution and cyber-physical/specification/physical-law oracles; PHYFU generalizes consistency checking to physics simulation engines; IcFuzz specializes semantic-stage fuzzing to Isaac Sim. This branch is scoped to robotics/simulator/runtime reliability infrastructure rather than generic fuzzing papers.

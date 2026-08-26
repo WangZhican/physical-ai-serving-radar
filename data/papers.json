@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26 21:00 CST",
-  "count": 145,
+  "updated": "2026-08-26 22:00 CST",
+  "count": 146,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2216,6 +2216,21 @@
       "paper": "https://arxiv.org/abs/2307.10818",
       "repo": "https://github.com/PhyFuzz/phyfu",
       "system_contribution": "Foundational simulator-reliability infrastructure for physics simulation engines used by robotics and learning-based control. PHYFU fuzzes both forward and backward simulation, mutates valid initial states, uses physics-law consistency oracles, and applies feedback-driven test-input scheduling to expose silent logic errors across the simulator software stack."
+    },
+    {
+      "id": "doi:10.1145/3540250.3549164",
+      "title": "RoboFuzz: Fuzzing Robotic Systems over Robot Operating System (ROS) for Finding Correctness Bugs",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2022,
+      "venue": "ESEC/FSE 2022",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper": "https://2022.esec-fse.org/details/fse-2022-research-papers/86/RoboFuzz-Fuzzing-Robotic-Systems-over-Robot-Operating-System-ROS-for-Finding-Corre",
+      "repo": "https://github.com/sslab-gatech/robofuzz",
+      "system_contribution": "Foundational ROS2/robot-stack reliability infrastructure: data-type-aware mutation, hybrid real/sim execution, semantic correctness oracles for physical-law/specification/cyber-physical discrepancies, and semantic feedback guidance; 30 unknown bugs reported, 25 acknowledged and 6 fixed."
     }
   ]
 }
