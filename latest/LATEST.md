@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-27 01:02 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +2 / ALG +0 / WATCH +0 — added **AgenticRobotics** (arXiv:2608.07555) and **DreamLedger** (arXiv:2608.23863), both `SYS_ALG_BOUNDARY / A`.
+- **Physical AI:** AgenticRobotics adds a durable robot-policy improvement control plane with commit-keyed crash recovery, evidence-gated promotion, artifact-bound capability quality and recorded MCP tool calls. It remains boundary rather than CORE because its reference implementation is control/evaluation infrastructure, not an online serving scheduler.
+- **World-model / WAM:** DreamLedger turns world-model reliability into persistent execution-settled credit state with dependency tickets and replayable logs. Credit gating cuts burned imagination by 62% and replays all 1,062 physical spends on the real-robot deployment logs; it is tracked across Routes 5/9/10 rather than promoted to CORE because the central contribution is trust/calibration/state, not multi-request resource scheduling.
+- **Multimodal / Omni:** independent 24h→7d + targeted 30d scan completed. No new paper-level serving system surpassed the M*/HorizonServe/EPD trunk; request lifecycle, step-wise preemption, cancellation/reclamation and failure-path soak remain the active runtime frontier.
+- **Artifacts:** both official arXiv PDFs were archived privately and validated (`%PDF-`, >10KB). No official implementation repo was independently verified for either paper in this run.
+- **Current state:** 148 works = 108 CORE_SYS / 30 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state: 141 valid; public repo contains links only.
+- **Next:** AgenticRobotics related-work census (CaP-X/ASPIRE/RHO/EvoTrainer/ENPIRE) → DreamLedger authors/references and persistent WAM trust-state follow-ons → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 soak/failure instrumentation → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-26 19:00 CST
 
 - **Promotions:** CORE_SYS +1 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0 — added **Physical Agentic AI** (arXiv:2608.22657), `CORE_SYS / A`, Routes 1/2/7.

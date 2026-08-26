@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-27 01:02 CST
+- Added **AgenticRobotics** (arXiv:2608.07555) and **DreamLedger** (arXiv:2608.23863) as `SYS_ALG_BOUNDARY / A` after dual-track fresh scan and pending-frontier recovery.
+- AgenticRobotics adds durable robot-policy improvement transactions, commit-keyed crash recovery, append-only evidence and artifact-bound capability quality; kept below CORE_SYS because the reference implementation is outer-loop control/evaluation infrastructure rather than an online serving scheduler.
+- DreamLedger adds persistent execution-settled world-model credit state, dependency tickets and replayable audit logs; credit gating reduces burned imagination by 62% and replays all 1,062 physical spends. Cross-linked to Routes 5/9/10.
+- Both official arXiv PDFs were privately archived and validated; no official implementation repo was independently verified for either paper. Public dataset now tracks **148 works = 108 CORE_SYS / 30 SYS_ALG / 4 ALG / 6 WATCH**.
+- Independent Multimodal/Omni scan completed with no new paper-level promotion; request lifecycle, preemption, cancellation/reclamation and failure-path soak remain the active runtime frontier.
+
 ## 2026-08-26 19:00 CST
 - Added **Physical Agentic AI** (arXiv:2608.22657) as `CORE_SYS / A`, Routes 1/2/7 after fresh robot-crew orchestration/runtime-enforcement recovery.
 - New systems branch: **planner knowledge vs physical execution authority**. Typed robot skills/workflow contracts can inform an LLM planner, but deterministic dispatch-time checks still own capability/state/synchronization authorization before actuation.

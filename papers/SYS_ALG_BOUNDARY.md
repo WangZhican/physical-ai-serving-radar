@@ -89,3 +89,13 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Code:** https://github.com/worv-ai/PonderPounce
 - **Routes:** 3 / 5 / 7 · **Priority:** A
 - **Role:** a slow pretrained MLLM keeps episode history and asynchronously refreshes a continuous cognition token; the fast VLA consumes only the newest token plus its age/freshness signal. The optimized serving path reports p50 78 ms cognition refresh and 25 ms action invocation, supporting 20 Hz action playback. Kept `SYS_ALG_BOUNDARY` because the main novelty is model/interface design, but the async refresh contract directly informs control-loop freshness, temporal state serving, and composite MLLM+VLA orchestration.
+
+### AgenticRobotics — durable robot-policy improvement control plane
+- **Paper:** https://arxiv.org/abs/2608.07555
+- **Routes:** 2 / 9 · **Priority:** A
+- **Role:** backend-independent outer-loop control plane with durable Bind→Analyze→Act→Measure→Score→Commit transactions, commit-keyed crash recovery, append-only evidence, artifact-bound capability quality and a recorded MCP tool surface. Hardened evidence gating reports 0.001 false promotions/run versus 0.005–0.021 for shipped baselines, while kill injection reports zero lost/duplicate effects. Kept at `SYS_ALG_BOUNDARY` because the reference implementation provides control-plane/evaluation utilities rather than a complete online serving or training scheduler.
+
+### DreamLedger — execution-settled world-model trust/state layer
+- **Paper:** https://arxiv.org/abs/2608.23863
+- **Routes:** 5 / 9 / 10 · **Priority:** A
+- **Role:** turns consumed world-model predictions into persistent condition×region×horizon credit records, settles them against later execution evidence, attaches dependency tickets/replay logs, and gates whether the robot should rely on imagination, shorten the horizon or observe again. Across DreamerV3, TD-MPC2, V-JEPA 2-AC and real Franka execution it reduces burned imagination by 62% and replays all 1,062 registered physical spends. Kept at `SYS_ALG_BOUNDARY` because the core novelty is deployment trust/calibration/state rather than a general multi-request resource scheduler.

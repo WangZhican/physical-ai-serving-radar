@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-08-26 22:00 CST**
+**Last updated: 2026-08-27 01:02 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -29,12 +29,12 @@ Physical AI serving treats **physical execution, state freshness, deadlines, rob
 | P2. Unified Physical-AI Runtime | portable VLA/WAM execution, robot-facing serving APIs, embodied-agent harnesses | PhyAI, Embodied.cpp, vla.cpp, LeRobot, Thea, Retriever, Physical Agentic AI |
 | P3. Real-Time / Streaming / Control Loop | reaction latency, deadlines, async execution, accelerator arbitration | CROS-RT, PAAM, VLASH, FASTER, Retriever |
 | P4. Edge-Cloud / Disaggregated Physical AI | device/edge/cloud placement, network/tail-latency reliability | RoboECC, RAPID, EcoVLA, FogROS2 |
-| P5. Physical-State / Temporal Cache | cache validity over vision/action/world/planner/execution state | AgenticCache, Persistent Computational State, Execution-State Capsules |
+| P5. Physical-State / Temporal Cache | cache validity over vision/action/world/planner/execution state | AgenticCache, Persistent Computational State, Execution-State Capsules, DreamLedger |
 | P6. Hardware-Aware / Heterogeneous Serving | GPU/XPU/NPU placement, CPU-GPU partitioning, offload | XPU Characterization, PAAM, OOM-Free Alpamayo |
 | P7. Composite VLA + WAM + Planner Serving | policy + planner + world model + verifier/safety/tool graphs | M*, PhyAI, vLLM-Omni, Thea, Physical Agentic AI |
 | P8. Workload Characterization / Modeling | control-time, network, cost-energy-time models | VLA-Perf, PhyAI |
-| P9. Evaluation / Serving Infrastructure | model-server decoupling, real-robot EaaS, distributional metrics, observability, simulator reliability | DeepInsight, RoboArena, RoboChallenge, PhAIL, RoboFuzz, PHYFU, IcFuzz |
-| P10. World-Model / WAM Rollout Serving | persistent rollout state, branch scheduling, migration, rollback/fork | WorldMove, PCS, PhyAI |
+| P9. Evaluation / Serving Infrastructure | model-server decoupling, real-robot EaaS, experiment control/evidence, observability, simulator reliability | DeepInsight, RoboArena, RoboChallenge, PhAIL, AgenticRobotics, DreamLedger, RoboFuzz, PHYFU, IcFuzz |
+| P10. World-Model / WAM Rollout Serving | persistent rollout state, trust/credit state, branch scheduling, migration, rollback/fork | WorldMove, PCS, PhyAI, DreamLedger |
 
 **Start here:** [`physical_ai/README.md`](physical_ai/README.md)
 
