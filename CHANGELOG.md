@@ -485,3 +485,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added **ENPIRE** (arXiv:2606.19980) to SYS_ALG_BOUNDARY / A+, Routes 1/2/9.
 - Refined P1/P2/P9 with physical autoresearch / fleet experiment orchestration: automatic reset+verification, auditable rollout artifacts, parallel robot trials and MRU/MTU utilization metrics.
 - Independent Multimodal/Omni scan completed with no paper promotion; lifecycle/preemption/cancellation/reclamation and failure-path tracing remain active.
+
+## 2026-08-27 06:01 CST
+- Hourly dual-track scan completed with **no paper promotion**.
+- Added first-party GEAR-SONIC C++ deployment/runtime adoption evidence from `NVlabs/GR00T-WholeBodyControl`: motor-error monitoring, TTS alerts, ZMQ protocol v4 and idle-mode readaptation, plus the later G1 end-to-end VLA workflow. Kept as Route 2/3/6 ecosystem evidence rather than a paper record.
+- ENPIRE/GEAR same-group census did not surface a new paper-backed fleet scheduler/runtime; Multimodal/Omni scan re-hit canonical systems and continued lifecycle/preemption/reclamation/failure-path monitoring.

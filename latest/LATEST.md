@@ -561,3 +561,9 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - **SYS_ALG_BOUNDARY +1:** [ENPIRE](https://arxiv.org/abs/2606.19980), Routes 1/2/9, A+ — NVIDIA GEAR physical autoresearch harness with automatic reset/verification, auditable rollout artifacts, parallel single/multi-robot trials, and MRU/MTU fleet-utilization metrics. [Project](https://research.nvidia.com/labs/gear/enpire/).
 - **Multimodal / Omni:** independent 24h→7d + targeted 30d scan completed; no new paper-level promotion. Request-scoped state lifecycle, step-wise preemption, true cancellation/reclamation and SGLang-Omni failure-path tracing/soak remain active runtime frontiers.
 - **Next:** ENPIRE same-group/follow-on fleet experiment orchestration; then vLLM-Omni #6453/#5822/#6439/#6403, SGLang-Omni #1593, fresh 30d Multimodal SYS census.
+
+## 2026-08-27 06:01 CST — hourly scan
+- **Paper promotions: 0.** Independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d ENPIRE/GEAR/runtime checks completed.
+- **Physical-AI runtime adoption:** first-party `NVlabs/GR00T-WholeBodyControl` evidence confirms GEAR-SONIC's C++ deployment stack evolved with motor-error monitoring, TTS alerts, ZMQ protocol v4 and idle-mode readaptation, followed by an end-to-end G1 VLA workflow. Track as Route 2/3/6 ecosystem evidence; no separate systems-paper promotion.
+- **Multimodal / Omni:** no new paper cleared the SYS-first bar; HorizonServe/Cornserve/M* re-hits were canonical. Request-scoped lifecycle → step-wise preemption → true cancellation → state/artifact reclamation and SGLang-Omni failure-path/soak remain the active production-runtime frontier.
+- **Next:** continue ENPIRE/GEAR same-group/reference census for paper-backed fleet experiment scheduling/utilization/runtime → vLLM-Omni lifecycle/preemption/reclamation/cancellation → SGLang-Omni failure instrumentation/soak CI → fresh 30d Multimodal SYS census.
