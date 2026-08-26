@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-26 17:02 CST
+
+- **Promotions:** CORE_SYS +1 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0 — added **Retriever** (arXiv:2607.17213), `CORE_SYS / A+`, Routes 2/3/5/7/9.
+- **Physical AI:** independent 24h→7d scan plus targeted 30d omission recovery found a reusable temporal programming/runtime abstraction: stateful Flows, explicit Clocks, edge-level Sync policies, multi-backend execution and deterministic replay. The real robot pipeline composes VLM planning, belief memory, VLA skills, monitoring and high-rate control; public example uses 2 Hz VLA + 200 Hz controller.
+- **Evidence guard:** 56 s / 36 s are progress-normalized **projected** task times, not measured completion times; replay determinism is trace/dataflow determinism under logged histories, not bitwise GPU determinism.
+- **Artifact:** [OpenRetriever](https://github.com/openretriever/retriever) is Apache-2.0; current public crawl: 11 stars / 0 forks / 831 commits. PDFs remain private to the research workspace.
+- **Multimodal / Omni:** independent fresh scan completed; no new paper-level promotion. Current request/session lifecycle, reclamation and failure-path observability frontiers remain active.
+- **Current state:** 142 works = 104 CORE_SYS / 28 SYS_ALG / 4 ALG / 6 WATCH.
+- **Next:** Retriever/OpenRetriever reverse census and temporal-runtime comparison with PonderPounce/AsyncVLA/Thea/Zetta → vLLM-Omni lifecycle/reclamation/cancellation → SGLang-Omni failure-path/soak CI → fresh 30d Multimodal SYS census.
+
 ## Hourly heartbeat — 2026-08-26 16:00 CST
 
 - Completed independent Physical AI + Multimodal/Omni 24h/7d scans and targeted 30d PonderPounce/WoRV reverse census.

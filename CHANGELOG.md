@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-26 17:02 CST
+- Added **Retriever** (arXiv:2607.17213) as `CORE_SYS / A+`, Routes 2/3/5/7/9 after closed-loop asynchronous-runtime omission recovery.
+- Added a temporal programming-model branch for multi-rate Physical AI: stateful modules, explicit clocks, edge synchronization/history-selection policies, replay/debugging and multi-backend execution.
+- Official project/repo links added; public repo currently 11 stars / 0 forks / 831 commits. Public dataset now tracks **142 works = 104 CORE_SYS / 28 SYS_ALG / 4 ALG / 6 WATCH**.
+- Independent Multimodal/Omni scan completed with no paper-level promotion; lifecycle/reclamation/failure-path runtime tracking continues.
+
 ## 2026-08-26 15:00 CST
 - Hourly dual-track scan added **PonderPounce** (arXiv:2608.24115) as `SYS_ALG_BOUNDARY / A`: CORE_SYS +0 / SYS_ALG +1 / ALG/WATCH +0.
 - Physical-AI significance: slow episode-context MLLM asynchronously refreshes a cognition token while a fast VLA consumes only the latest token plus its age/freshness; reported p50 serving latency is 78 ms cognition refresh + 25 ms action invocation, supporting 20 Hz playback.

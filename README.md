@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-08-26 10:00 CST**
+**Last updated: 2026-08-26 17:02 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -26,8 +26,8 @@ Physical AI serving treats **physical execution, state freshness, deadlines, rob
 | Route | Focus | Representative anchors |
 |---|---|---|
 | P1. Fleet-scale / Multi-Robot Serving | GPU pools, batching, execution-aware scheduling, fleet learning loops | Kairos, ROSA, Armory, SOP |
-| P2. Unified Physical-AI Runtime | portable VLA/WAM execution, robot-facing serving APIs, embodied-agent harnesses | PhyAI, Embodied.cpp, vla.cpp, LeRobot, Thea |
-| P3. Real-Time / Streaming / Control Loop | reaction latency, deadlines, async execution, accelerator arbitration | CROS-RT, PAAM, VLASH, FASTER |
+| P2. Unified Physical-AI Runtime | portable VLA/WAM execution, robot-facing serving APIs, embodied-agent harnesses | PhyAI, Embodied.cpp, vla.cpp, LeRobot, Thea, Retriever |
+| P3. Real-Time / Streaming / Control Loop | reaction latency, deadlines, async execution, accelerator arbitration | CROS-RT, PAAM, VLASH, FASTER, Retriever |
 | P4. Edge-Cloud / Disaggregated Physical AI | device/edge/cloud placement, network/tail-latency reliability | RoboECC, RAPID, EcoVLA, FogROS2 |
 | P5. Physical-State / Temporal Cache | cache validity over vision/action/world/planner/execution state | AgenticCache, Persistent Computational State, Execution-State Capsules |
 | P6. Hardware-Aware / Heterogeneous Serving | GPU/XPU/NPU placement, CPU-GPU partitioning, offload | XPU Characterization, PAAM, OOM-Free Alpamayo |
