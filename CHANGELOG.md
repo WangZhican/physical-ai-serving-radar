@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-26 15:00 CST
+- Hourly dual-track scan added **PonderPounce** (arXiv:2608.24115) as `SYS_ALG_BOUNDARY / A`: CORE_SYS +0 / SYS_ALG +1 / ALG/WATCH +0.
+- Physical-AI significance: slow episode-context MLLM asynchronously refreshes a cognition token while a fast VLA consumes only the latest token plus its age/freshness; reported p50 serving latency is 78 ms cognition refresh + 25 ms action invocation, supporting 20 Hz playback.
+- Kept below CORE_SYS because the primary novelty is model/interface design rather than a general scheduler/resource manager; cross-linked to Routes 3/5/7 for control-loop freshness, temporal state and composite MLLM+VLA orchestration.
+- Official WoRV repo verified; private official arXiv PDF archived and validated. Public repo stores links only.
+- Public dataset now tracks 141 works = 103 CORE_SYS / 28 SYS_ALG / 4 ALG / 6 WATCH.
+
 ## 2026-08-26 13:57 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across robot-policy/VLA serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; no new SYS-first paper was verified.

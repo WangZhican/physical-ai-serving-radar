@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-26 15:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG +0 / WATCH +0 — added **PonderPounce** (arXiv:2608.24115), `SYS_ALG_BOUNDARY / A`.
+- **Physical AI:** independent 24h→7d scan plus targeted 30d omission recovery found a dual-system control-runtime pattern: a slower episode-context MLLM asynchronously refreshes a cognition token, while a fast VLA consumes only the latest token plus its age/freshness signal. Reported serving p50 is 78 ms cognition refresh and 25 ms action invocation, supporting 20 Hz playback.
+- **Multimodal / Omni:** no new paper-level CORE_SYS surfaced; canonical M*/HorizonServe and current vLLM/SGLang request-lifecycle/state/reclamation frontiers were rechecked. PonderPounce is cross-linked to composite MLLM+VLA serving and temporal state/freshness.
+- **Artifact:** official WoRV repo verified at https://github.com/worv-ai/PonderPounce . Public crawl/API showed 0 stars / 0 forks at verification time; no license metadata was exposed.
+- **Private PDF:** official arXiv PDF archived and validated at 1,135,426 B (`%PDF-`); PDFs are not published in this repo.
+- **Current state:** 141 works = 103 CORE_SYS / 28 SYS_ALG / 4 ALG / 6 WATCH.
+- **Next:** deep-read PonderPounce serving/hardware/freshness semantics + WoRV reverse census → vLLM-Omni #6453/#6439/#6403 lifecycle/reclamation/cancellation → SGLang-Omni #1593 failure-path/soak CI → #946/#1436 gates → fresh 30d Multimodal SYS census; parallel Physical-AI edge/fleet/state/evaluation coverage.
+
 ## Hourly scan — 2026-08-26 13:57 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.

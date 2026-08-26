@@ -82,3 +82,10 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Code/runtime:** https://github.com/alibaba/ROLL
 - **Routes:** 6 / 8 / 11 · **Priority:** A+
 - **Role:** decomposes reference/training at the response boundary and overlaps response-independent visual/prompt prefix work with rollout decode; CUDA-VMM-backed phase-aware HBM residency controls boundary/intermediate state, while TP-layout-aware physical weight sharing avoids a second full actor copy. On 32xH800 it reports 1.23x-1.30x over serial colocation and 1.57x-2.24x over disaggregation. Kept `SYS_ALG_BOUNDARY` because the workload is VLM RL post-training rather than online serving.
+
+### PonderPounce — asynchronous episode-context MLLM + fast VLA control
+- **Paper:** https://arxiv.org/abs/2608.24115
+- **Project:** https://worv-ai.github.io/ponderpounce/
+- **Code:** https://github.com/worv-ai/PonderPounce
+- **Routes:** 3 / 5 / 7 · **Priority:** A
+- **Role:** a slow pretrained MLLM keeps episode history and asynchronously refreshes a continuous cognition token; the fast VLA consumes only the newest token plus its age/freshness signal. The optimized serving path reports p50 78 ms cognition refresh and 25 ms action invocation, supporting 20 Hz action playback. Kept `SYS_ALG_BOUNDARY` because the main novelty is model/interface design, but the async refresh contract directly informs control-loop freshness, temporal state serving, and composite MLLM+VLA orchestration.
