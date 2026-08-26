@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-26 10:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan completed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; no new paper crossed the SYS-first threshold.
+- **Multimodal / Omni:** independent 24h→7d fresh scan + targeted 30d runtime/release checks completed. No new paper promotion, but **SGLang-Omni v0.1.3** is now verified as the latest official release (2026-08-20, `91d4359`). It ships production-facing changes including bounded Qwen3-TTS admission/fast rejection, deterministic TTS, weight-share IPC fixes, persistent TTS WebSocket input segments, breakable prefill CUDA Graph expansion, encoder batching/dedup, pinned-host encoder caching, Whisper request/cache sizing, and Code2Wav/vocoder overlap.
+- **Heterogeneous full-duplex watch:** vLLM-Omni #6466 is open for PersonaPlex on Intel Gaudi2/HPU, targeting ≥4 simultaneous sessions, the model's 80 ms cadence, per-session state isolation and an eight-hour HBM/stability soak. No implementation PR is linked yet, so this is a qualification frontier rather than shipped support.
+- **Current state:** 140 works = 103 CORE_SYS / 27 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state remains 133 valid; public repo contains links only.
+- **Next:** inspect v0.1.3 release-linked admission/streaming/weight-sharing changes + #1593 remaining soak/failure-path CI gaps → vLLM-Omni #6439 reclamation → #6403 cancellation/status → #6466 Gaudi/PersonaPlex qualification → next 30d Multimodal SYS census; parallel Physical-AI edge/fleet/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-26 08:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.

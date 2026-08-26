@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-26 10:00 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; fresh hits were canonical or below SYS-first threshold.
+- Multimodal/Omni release audit verified **SGLang-Omni v0.1.3** as the latest official release (2026-08-20, `91d4359`). Production-facing shipped changes include Qwen3-TTS admission fast-reject, deterministic inference, weight-share IPC fixes, persistent streaming WebSocket input, breakable prefill CUDA Graph expansion, encoder batching/cache improvements and output-materialization/vocoder overlap.
+- Added a heterogeneous full-duplex watch item: vLLM-Omni #6466 requests PersonaPlex support on Intel Gaudi2/HPU with ≥4 sessions, 80 ms cadence, state isolation and an eight-hour stability/HBM soak; no linked implementation PR exists yet, so this is not treated as shipped support.
+- Paper/PDF state unchanged at 140 works and 133 valid private PDFs; public repo stores links only.
+
 ## 2026-08-26 07:04 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, evaluation infrastructure and world-model rollout; fresh hits were canonical or below the SYS-first threshold.
