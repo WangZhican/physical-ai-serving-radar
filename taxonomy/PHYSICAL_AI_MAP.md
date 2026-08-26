@@ -52,3 +52,6 @@ P2/P3/P9 explicitly include reusable real-time robot-control middleware/runtime,
 ## Boundary with Multimodal / Omni Serving
 
 General MLLM/Omni systems are **not placed here merely because their mechanisms are transferable**. They live in [`MULTIMODAL_MAP.md`](MULTIMODAL_MAP.md). Cross-track works are explained in [`CROSSOVER.md`](CROSSOVER.md).
+
+### 2026-08-27 Route-9 refinement
+Evaluation infrastructure explicitly includes **robot coding-agent evaluation/execution substrate**: interactive execution environments, parallel workers, perception-service orchestration, regression harnesses and real-robot bringup. CaP-X is the anchor; skill/harness optimization remains boundary work absent a general runtime/resource plane.

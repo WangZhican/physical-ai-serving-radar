@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-27 01:02 CST",
-  "count": 148,
+  "updated": "2026-08-27T02:02:00+08:00",
+  "count": 151,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2052,6 +2052,48 @@
       "priority": "A",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2608.23863"
+    },
+    {
+      "id": "arxiv:2603.22435",
+      "title": "CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2603.22435"
+    },
+    {
+      "id": "arxiv:2607.00272",
+      "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        2,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.00272"
+    },
+    {
+      "id": "arxiv:2606.16458",
+      "title": "RHO: Your Coding Agent is Secretly a Roboticist",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        2,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2606.16458"
     }
   ]
 }

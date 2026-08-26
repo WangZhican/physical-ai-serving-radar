@@ -156,3 +156,7 @@ Foundational physics-simulation-engine reliability infrastructure for robotics a
 ### RoboFuzz — ESEC/FSE 2022 — A
 **Route:** P9 Evaluation / Serving Infrastructure  
 Foundational ROS2/robot-stack reliability infrastructure: data-type-aware mutation, hybrid real/sim execution, semantic correctness oracles for physical-law/specification/cyber-physical discrepancies, and semantic feedback guidance. Evaluated ROS2 internals plus Turtlesim, MoveIt2+PANDA, TurtleBot3 and PX4; reported **30 previously unknown bugs, 25 acknowledged, 6 fixed**. Included as a direct historical anchor for the modern PHYFU/IcFuzz reliability lineage, not as generic software testing. [Paper](https://2022.esec-fse.org/details/fse-2022-research-papers/86/RoboFuzz-Fuzzing-Robotic-Systems-over-Robot-Operating-System-ROS-for-Finding-Corre) · [Repo](https://github.com/sslab-gatech/robofuzz)
+
+### CaP-X — open robot coding-agent evaluation substrate — A
+**Route:** P9 Evaluation / Serving Infrastructure  
+Reusable execution/evaluation infrastructure with CaP-Gym interactive environments, CaP-Bench tiers, parallel evaluation workers, auto-launched perception services with GPU allocation, regression tests and real-world Franka bringup. Official MIT repo had **758 stars / 116 forks** on this scan. Included in CORE_SYS for the reusable evaluation substrate, not for its agent-learning methods. [Paper](https://arxiv.org/abs/2603.22435) · [Repo](https://github.com/capgym/cap-x)

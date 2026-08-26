@@ -475,3 +475,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added **RoboFuzz: Fuzzing Robotic Systems over Robot Operating System (ROS) for Finding Correctness Bugs** (ESEC/FSE 2022) to `CORE_SYS / A`, Route 9, as the foundational ROS2/robot-stack reliability anchor recovered from the PHYFU/IcFuzz lineage.
 - Route 9 now explicitly records **RoboFuzz → PHYFU → IcFuzz**. Public content links only to official paper/repository sources; PDFs remain off-repo.
 - Independent Multimodal/Omni fresh scan completed with no paper promotion; lifecycle/preemption/reclamation and failure-path observability remain the active production-runtime frontier.
+
+## 2026-08-27 02:02 CST
+- Added CaP-X to CORE_SYS / Route 9; added ASPIRE and RHO to SYS_ALG_BOUNDARY.
+- Refined Route 9 to explicitly include reusable robot coding-agent evaluation/execution substrates.
+- Refreshed public radar heartbeat after independent Physical-AI and Multimodal/Omni scans.

@@ -99,3 +99,15 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Paper:** https://arxiv.org/abs/2608.23863
 - **Routes:** 5 / 9 / 10 · **Priority:** A
 - **Role:** turns consumed world-model predictions into persistent condition×region×horizon credit records, settles them against later execution evidence, attaches dependency tickets/replay logs, and gates whether the robot should rely on imagination, shorten the horizon or observe again. Across DreamerV3, TD-MPC2, V-JEPA 2-AC and real Franka execution it reduces burned imagination by 62% and replays all 1,062 registered physical spends. Kept at `SYS_ALG_BOUNDARY` because the core novelty is deployment trust/calibration/state rather than a general multi-request resource scheduler.
+
+### ASPIRE — trace-driven closed-loop robot skill discovery
+- **Paper:** https://arxiv.org/abs/2607.00272
+- **Code:** https://github.com/NVlabs/ASPIRE
+- **Routes:** 2 / 7 / 9 · **Priority:** A
+- **Role:** closed-loop robot execution engine exposes fine-grained multimodal traces for failure diagnosis, repair synthesis and validation, backed by a persistent skill library. Kept `SYS_ALG_BOUNDARY` because the main novelty is skill discovery/continual learning rather than serving/resource management. Official Apache-2.0 repo had 28 stars / 1 fork on this scan.
+
+### RHO — training-time robotics harness optimization
+- **Paper:** https://arxiv.org/abs/2606.16458
+- **Artifact:** https://github.com/KE7/helix
+- **Routes:** 2 / 9 · **Priority:** A
+- **Role:** searches interpretable multi-file Repositories-as-Policies with tool-enabled coding agents and execution feedback, then freezes the deployment artifact for single-turn execution. Kept `SYS_ALG_BOUNDARY` because the main contribution is training-time harness/policy search rather than a reusable online serving runtime.

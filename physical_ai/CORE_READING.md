@@ -38,3 +38,6 @@ See the complete inventory in [`../papers/CORE_SYS.md`](../papers/CORE_SYS.md) a
 
 ### RoboChallenge — A+
 Online real-robot evaluation-as-a-service with a 10-machine heterogeneous fleet, asynchronous timestamped observation/action-queue APIs, job scheduling, public submission/results and an official inference client. [Paper](https://arxiv.org/abs/2510.17950) · [Project](https://robochallenge.ai/) · [Repo](https://github.com/RoboChallenge/RoboChallengeInference)
+
+### CaP-X — Route 9 / A
+Open robot coding-agent evaluation substrate with interactive environments, parallel workers, perception serving/GPU allocation, regression tests and real-robot bringup. [Paper](https://arxiv.org/abs/2603.22435) · [Repo](https://github.com/capgym/cap-x)

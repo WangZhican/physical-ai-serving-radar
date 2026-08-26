@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-08-27 01:02 CST**
+**Last updated: 2026-08-27 02:02 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -16,6 +16,19 @@ Pure pruning, quantization, token reduction, or action compression does **not** 
 | 🌐 **Multimodal / Omni Efficient Serving** | MLLM/Omni stage disaggregation, module multiplexing, any-to-any graph serving, distributed state/KV, streaming interaction, heterogeneous placement, AIGC pipelines | [`multimodal/README.md`](multimodal/README.md) · [`taxonomy/MULTIMODAL_MAP.md`](taxonomy/MULTIMODAL_MAP.md) | [`multimodal/CORE_READING.md`](multimodal/CORE_READING.md) |
 
 The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni, M\*, Omni-Flow, Cornserve, PhyAI, and ROSA** connect the two tracks. See [`taxonomy/CROSSOVER.md`](taxonomy/CROSSOVER.md).
+
+
+## Core recommendations
+
+| Title | Year / Venue | Route | System Contribution | Open Source / Repo | Paper | Priority |
+|---|---|---|---|---|---|---|
+| Kairos | 2026 / arXiv | P1, P3 | Generate–execute-aware fleet serving and execution-aware scheduling | — | [paper](https://arxiv.org/abs/2605.11381) | S+ |
+| ROSA | 2026 / arXiv | P1, P7 | Shared-GPU robotics foundation-model serving for robot factories | — | [paper](https://arxiv.org/abs/2607.01088) | S+ |
+| PhyAI | 2026 / arXiv | P2, P6, P7, P8, P10 | Unified VLA/WAM runtime across onboard, edge and cloud rollout paths | — | [paper](https://arxiv.org/abs/2608.03682) | S+ |
+| M* | 2026 / arXiv | P7, P10, M3 | Modular component-graph serving for multimodal/composite models | — | [paper](https://arxiv.org/abs/2606.12688) | S+ |
+| vLLM-Omni | 2026 / arXiv | P2, P7, M1, M3 | Fully disaggregated any-to-any multimodal serving runtime | [repo](https://github.com/vllm-project/vllm-omni) | [paper](https://arxiv.org/abs/2602.02204) | S |
+| HorizonServe | 2026 / arXiv | P3, P6, M2, M8 | Heterogeneous-SLO scheduling with temporal/spatial GPU sharing | — | [paper](https://arxiv.org/abs/2608.01785) | A+ |
+| CaP-X | 2026 / arXiv | P9 | Open robot coding-agent evaluation/execution substrate with parallel workers and real-robot bringup | [repo](https://github.com/capgym/cap-x) | [paper](https://arxiv.org/abs/2603.22435) | A |
 
 ---
 
@@ -33,7 +46,7 @@ Physical AI serving treats **physical execution, state freshness, deadlines, rob
 | P6. Hardware-Aware / Heterogeneous Serving | GPU/XPU/NPU placement, CPU-GPU partitioning, offload | XPU Characterization, PAAM, OOM-Free Alpamayo |
 | P7. Composite VLA + WAM + Planner Serving | policy + planner + world model + verifier/safety/tool graphs | M*, PhyAI, vLLM-Omni, Thea, Physical Agentic AI |
 | P8. Workload Characterization / Modeling | control-time, network, cost-energy-time models | VLA-Perf, PhyAI |
-| P9. Evaluation / Serving Infrastructure | model-server decoupling, real-robot EaaS, experiment control/evidence, observability, simulator reliability | DeepInsight, RoboArena, RoboChallenge, PhAIL, AgenticRobotics, DreamLedger, RoboFuzz, PHYFU, IcFuzz |
+| P9. Evaluation / Serving Infrastructure | model-server decoupling, real-robot EaaS, experiment control/evidence, observability, simulator reliability | DeepInsight, RoboArena, RoboChallenge, PhAIL, CaP-X, AgenticRobotics, DreamLedger, RoboFuzz, PHYFU, IcFuzz |
 | P10. World-Model / WAM Rollout Serving | persistent rollout state, trust/credit state, branch scheduling, migration, rollback/fork | WorldMove, PCS, PhyAI, DreamLedger |
 
 **Start here:** [`physical_ai/README.md`](physical_ai/README.md)
