@@ -1,3 +1,10 @@
+## Hourly heartbeat — 2026-08-26 16:00 CST
+
+- Completed independent Physical AI + Multimodal/Omni 24h/7d scans and targeted 30d PonderPounce/WoRV reverse census.
+- Promotions: CORE_SYS +0; SYS_ALG_BOUNDARY +0; ALG/WATCH +0.
+- PonderPounce remains SYS_ALG_BOUNDARY/A; Armory/action-chunk scheduling was rediscovered and confirmed already tracked.
+- Next: PonderPounce freshness/runtime deep-read, Omni request lifecycle/reclamation, failure-path soak CI, and fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-26 15:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +1 / ALG +0 / WATCH +0 — added **PonderPounce** (arXiv:2608.24115), `SYS_ALG_BOUNDARY / A`.
