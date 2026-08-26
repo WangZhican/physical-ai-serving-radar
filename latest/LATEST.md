@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-26 13:57 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.
+- **Physical AI:** independent 24h→7d fresh scan + targeted 30d checks completed across robot-policy/VLA serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment. Fresh hits re-hit canonical PhyAI/Kairos and existing anchors; no stronger new SYS-first paper was verified.
+- **Multimodal / Omni:** no paper promotion, but first-party vLLM-Omni evidence now converges on a first-class request/session lifecycle abstraction: RFC #6453 owns request-scoped mutable stage state; the diffusion scheduler owns explicit request states; RFC #4480 separates persistent session memory from request-local world-model state; full-duplex runtime owns transactional session/response cleanup.
+- **Taxonomy change:** Routes 3/5/11 now explicitly track admission → mutable stage/session state → cancellation/failure → artifact/state ownership → deterministic reclamation. Shared-stage RFC #4108 is cross-linked to Routes 6/11 because one physical stage serving multiple pipelines requires correct request identity, state isolation, cleanup and failure propagation.
+- **Evidence guard:** #6453 remains open with no linked implementation PR. A fresh direct fetch for #6439 was unavailable, so the prior open/not-merged guard is retained instead of guessed forward.
+- **Current state:** 140 works = 103 CORE_SYS / 27 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state remains 133 valid; public repo contains links only.
+- **Next:** #6453 core implementation/adopter → #4480 session-memory adoption + #4108 shared-stage semantics → #1593 failure-path/soak CI → first-party #6439 status → #6403 true cancellation/status → #6466/#946/#1436 gates → fresh 30d Multimodal SYS census; parallel Physical-AI edge/fleet/state/evaluation runtime coverage.
+
 ## Hourly scan — 2026-08-26 13:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0.

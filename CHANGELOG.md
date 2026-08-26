@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-26 13:57 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across robot-policy/VLA serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; no new SYS-first paper was verified.
+- Multimodal/Omni taxonomy refined around a unified request/session lifecycle branch: request-scoped mutable processor state (#6453), scheduler-owned diffusion request state, persistent session memory (#4480), and full-duplex transactional session/response cleanup are now treated as one state-ownership/reclamation lineage.
+- Shared-stage RFC #4108 is cross-linked as a Route 6/11 resource-management frontier because deduplicating encoders/VAEs across pipelines requires request identity, mutable-state isolation, admission, cleanup and failure propagation to remain correct.
+- Paper/PDF state unchanged at 140 works and 133 valid private PDFs; public repo stores links only.
+
 ## 2026-08-26 13:01 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state reuse, world-model rollout, evaluation infrastructure and heterogeneous deployment; no new paper crossed the SYS-first threshold.
