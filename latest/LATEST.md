@@ -526,3 +526,7 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - **SYS_ALG_BOUNDARY +1:** Rollplex (arXiv:2608.14498), A+, Routes 6/8/11. VLM post-training runtime with cross-phase prefix/decode overlap, phase-aware HBM residency, and TP-layout-aware weight sharing.
 - Physical AI fresh scan: no new SYS promotion; 24h/7d + targeted 30d coverage completed.
 - Multimodal fresh scan: Rollplex was the main omission-recovery promotion; next focus is ROLL lineage plus vLLM/SGLang production-runtime hardening.
+
+## 2026-08-26 20:00 CST — hourly scan
+- **CORE_SYS +1:** [IcFuzz](https://arxiv.org/abs/2608.06088) (ASE 2026), Route 9 / A — reliability-testing infrastructure for Isaac Sim with semantic-stage-guided fuzzing, hierarchical mutations and adaptive mutation scheduling. It reports 11 bugs over ~4 months, 9 confirmed or fixed. [Replication package](https://doi.org/10.5281/zenodo.19244624).
+- **Multimodal / Omni:** independent 24h/7d + targeted 30d runtime scan completed; no paper promotion. Lifecycle/preemption/reclamation and failure-path observability remain active.

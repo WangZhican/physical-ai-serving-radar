@@ -47,3 +47,6 @@ Routes 3/6/11 now explicitly include step-wise/preemptible multimodal generation
 
 ### 2026-08-26: Planner knowledge vs physical execution authority
 Physical Agentic AI adds a fleet/runtime-governance branch spanning P1/P2/P7. A non-actuating foundation-model planner reasons over typed robot skills and workflow contracts, but a deterministic Robot Orchestrator owns actuation and re-checks capability membership, current state, state-bound values, preconditions and synchronization constraints at every dispatch. The systems distinction is important: better retrieval/grounding improves planning but does not replace runtime authorization. Future Physical-AI serving stacks should treat semantic planning and physical execution authority as separate control planes.
+
+### P9 refinement: simulator reliability / fuzzing infrastructure
+IcFuzz (ASE 2026) anchors simulator-substrate reliability testing: reusable fuzzing, coverage/failure feedback, bug discovery and reproducible artifacts are treated as Physical-AI evaluation infrastructure.

@@ -144,3 +144,7 @@ NVIDIA RSS 2026 evaluation runtime for task-generalist robot policies: robot/pol
 
 ## 2026-08-25 — PhyAgentOS
 - [**PhyAgentOS**](https://arxiv.org/abs/2607.16636) — **A+**, Routes 2/3/5/7/9 · [repo](https://github.com/PhyAgentOS/PhyAgentOS). Session-centered embodied operating/runtime substrate that makes scheduling, compatibility preflight, supervised execution, semantic verification, persistent state/memory, benchmarking and layered safety first-class services. `State-as-a-File` and target adapters decouple cognitive planning from heterogeneous simulation/real-robot execution.
+
+### IcFuzz — ASE 2026 — A
+**Route:** P9 Evaluation / Serving Infrastructure  
+First Isaac Sim-focused reliability/fuzzing infrastructure: semantic-stage-guided valid program generation, multi-level mutations, coverage/crash feedback and adaptive mutation scheduling. Reports ~190%-205% baseline coverage, 3.7 unique crashes across three 12-hour rounds, and 11 bugs over ~4 months with 9 confirmed/fixed. [Paper](https://arxiv.org/abs/2608.06088) · [Replication package](https://doi.org/10.5281/zenodo.19244624)

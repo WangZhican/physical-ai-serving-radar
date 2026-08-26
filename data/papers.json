@@ -2173,7 +2173,11 @@
       "id": "arxiv:2608.22657",
       "title": "Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs",
       "class": "CORE_SYS",
-      "route": [1, 2, 7],
+      "route": [
+        1,
+        2,
+        7
+      ],
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
@@ -2181,6 +2185,22 @@
       "paper": "https://arxiv.org/abs/2608.22657",
       "repo": "",
       "system_contribution": "Separates semantic planning from physical execution authority: typed robot skill libraries and workflow contracts feed a non-actuating Mission Planner, while a deterministic Robot Orchestrator with sole actuation authority revalidates capability membership, current state, state-bound values and synchronization/workflow constraints at every dispatch."
+    },
+    {
+      "id": "arxiv:2608.06088",
+      "title": "IcFuzz: Fuzzing Isaac Sim with Semantic Stage Guidance and Multi-level Mutation",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "ASE 2026",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2608.06088",
+      "artifact": "https://doi.org/10.5281/zenodo.19244624",
+      "repo": "",
+      "system_contribution": "Isaac Sim reliability/evaluation infrastructure using semantic-stage-guided fuzzing, multi-level simulator mutations, coverage/crash feedback and MAB scheduling; 11 bugs found over ~4 months, 9 confirmed/fixed."
     }
   ]
 }

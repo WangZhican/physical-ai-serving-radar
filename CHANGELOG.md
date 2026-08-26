@@ -453,3 +453,7 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added Rollplex (arXiv:2608.14498) to `SYS_ALG_BOUNDARY` (A+, Routes 6/8/11).
 - Refined Multimodal map with a cross-phase GPU-sharing/post-training boundary branch.
 - Hourly dual-track scan completed; no new Physical-AI CORE_SYS promotion.
+
+## 2026-08-26 20:00 CST — hourly scan
+- **CORE_SYS +1:** [IcFuzz](https://arxiv.org/abs/2608.06088) (ASE 2026), Route 9 / A — reliability-testing infrastructure for Isaac Sim with semantic-stage-guided fuzzing, hierarchical mutations and adaptive mutation scheduling. It reports 11 bugs over ~4 months, 9 confirmed or fixed. [Replication package](https://doi.org/10.5281/zenodo.19244624).
+- **Multimodal / Omni:** independent 24h/7d + targeted 30d runtime scan completed; no paper promotion. Lifecycle/preemption/reclamation and failure-path observability remain active.
