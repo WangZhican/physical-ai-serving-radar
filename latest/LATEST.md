@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-27 10:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime-adoption/FlashRT comparison checks completed.
+- **Physical AI:** no new paper-level SYS promotion; fresh hits resolved to existing fleet/control-loop, edge/device, state-reuse, WAM-rollout and evaluation-infrastructure anchors or algorithm-only work.
+- **Multimodal / Omni:** first-party SGLang-Omni docs now explicitly describe independent per-stage schedulers, a shared inbox/outbox abstraction and zero-copy shared-memory tensor transfer; first-party vLLM-Omni docs expose a WebSocket streaming-video session API for Qwen3-Omni that buffers video frames and optional audio chunks before queries. These strengthen stage orchestration and session-state coverage, but are runtime/adoption evidence rather than new papers.
+- **Route impact:** Routes 3/5/11 streaming/session-state and Routes 6/11 multi-stage orchestration are strengthened; no top-level taxonomy split/merge this hour. FlashRT arXiv:2607.18171 remains the newest CORE_SYS promotion.
+- **Current state:** 153 works = 110 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state: 146 valid; public repo keeps links only.
+- **Next:** FlashRT IR/placement/streaming/state/heterogeneous-deployment comparison vs M*/vLLM-Omni/SGLang-Omni/Cornfigurator/HeyGen HELIOS → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 failure instrumentation/soak CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-27 01:02 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +2 / ALG +0 / WATCH +0 — added **AgenticRobotics** (arXiv:2608.07555) and **DreamLedger** (arXiv:2608.23863), both `SYS_ALG_BOUNDARY / A`.

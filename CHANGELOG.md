@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-27 10:00 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across fleet/control-loop, edge/device runtime, state reuse, WAM rollout and evaluation infrastructure; no new SYS-first paper crossed the bar.
+- Multimodal runtime-adoption evidence refreshed from first-party docs: SGLang-Omni now explicitly documents independent per-stage schedulers, shared inbox/outbox communication and zero-copy shared-memory tensor transfer; vLLM-Omni documents session-oriented WebSocket streaming-video input for Qwen3-Omni with buffered video frames and optional audio chunks.
+- These changes strengthen Routes 3/5/11 streaming/session-state and Routes 6/11 stage orchestration; no new paper record or top-level taxonomy branch was created. Public paper count remains **153 works = 110 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH**.
+
 ## 2026-08-27 01:02 CST
 - Added **AgenticRobotics** (arXiv:2608.07555) and **DreamLedger** (arXiv:2608.23863) as `SYS_ALG_BOUNDARY / A` after dual-track fresh scan and pending-frontier recovery.
 - AgenticRobotics adds durable robot-policy improvement transactions, commit-keyed crash recovery, append-only evidence and artifact-bound capability quality; kept below CORE_SYS because the reference implementation is outer-loop control/evaluation infrastructure rather than an online serving scheduler.
