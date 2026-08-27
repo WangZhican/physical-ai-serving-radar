@@ -490,3 +490,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Hourly dual-track scan completed with **no paper promotion**.
 - Added first-party GEAR-SONIC C++ deployment/runtime adoption evidence from `NVlabs/GR00T-WholeBodyControl`: motor-error monitoring, TTS alerts, ZMQ protocol v4 and idle-mode readaptation, plus the later G1 end-to-end VLA workflow. Kept as Route 2/3/6 ecosystem evidence rather than a paper record.
 - ENPIRE/GEAR same-group census did not surface a new paper-backed fleet scheduler/runtime; Multimodal/Omni scan re-hit canonical systems and continued lifecycle/preemption/reclamation/failure-path monitoring.
+
+## 2026-08-27 09:00 CST
+- Added FlashRT (arXiv:2607.18171) to CORE_SYS/A+ for agent-guided multimodal deployment/runtime synthesis.
+- Added explicit collision guard vs Execution-State Capsules / FlashRT (arXiv:2606.20537).
+- Updated latest coverage heartbeat and dataset count.

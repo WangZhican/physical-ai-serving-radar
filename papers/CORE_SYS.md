@@ -160,3 +160,6 @@ Foundational ROS2/robot-stack reliability infrastructure: data-type-aware mutati
 ### CaP-X — open robot coding-agent evaluation substrate — A
 **Route:** P9 Evaluation / Serving Infrastructure  
 Reusable execution/evaluation infrastructure with CaP-Gym interactive environments, CaP-Bench tiers, parallel evaluation workers, auto-launched perception services with GPU allocation, regression tests and real-world Franka bringup. Official MIT repo had **758 stars / 116 forks** on this scan. Included in CORE_SYS for the reusable evaluation substrate, not for its agent-learning methods. [Paper](https://arxiv.org/abs/2603.22435) · [Repo](https://github.com/capgym/cap-x)
+
+## 2026-08-27 — FlashRT agent-guided multimodal deployment runtime
+- **FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications** — arXiv:2607.18171 — **CORE_SYS / A+**, Routes 2/3/6/7/10/11. Converts a sequential reference backend into an explicit IR and uses an agent plus reusable runtime to build/validate streaming, multi-GPU deployments across CUDA and ROCm. Reports up to 70× lower latency and 3.6× higher throughput across five multimodal applications. [Paper](https://arxiv.org/abs/2607.18171) · [Repo](https://github.com/Infini-AI-Lab/FlashRT). Do not confuse with Execution-State Capsules / FlashRT (2606.20537).

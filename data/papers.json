@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-27T05:01:00+08:00",
-  "count": 152,
+  "updated": "2026-08-27T09:00:00+08:00",
+  "count": 153,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2110,6 +2110,25 @@
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2606.19980",
       "project_page": "https://research.nvidia.com/labs/gear/enpire/"
+    },
+    {
+      "id": "arxiv:2607.18171",
+      "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        6,
+        7,
+        10,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.18171",
+      "repo": "https://github.com/Infini-AI-Lab/FlashRT"
     }
   ]
 }

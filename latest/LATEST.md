@@ -567,3 +567,7 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - **Physical-AI runtime adoption:** first-party `NVlabs/GR00T-WholeBodyControl` evidence confirms GEAR-SONIC's C++ deployment stack evolved with motor-error monitoring, TTS alerts, ZMQ protocol v4 and idle-mode readaptation, followed by an end-to-end G1 VLA workflow. Track as Route 2/3/6 ecosystem evidence; no separate systems-paper promotion.
 - **Multimodal / Omni:** no new paper cleared the SYS-first bar; HorizonServe/Cornserve/M* re-hits were canonical. Request-scoped lifecycle → step-wise preemption → true cancellation → state/artifact reclamation and SGLang-Omni failure-path/soak remain the active production-runtime frontier.
 - **Next:** continue ENPIRE/GEAR same-group/reference census for paper-backed fleet experiment scheduling/utilization/runtime → vLLM-Omni lifecycle/preemption/reclamation/cancellation → SGLang-Omni failure instrumentation/soak CI → fresh 30d Multimodal SYS census.
+
+## 2026-08-27 09:00 CST
+- **CORE_SYS +1:** FlashRT — *Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications* (arXiv:2607.18171), A+, Routes 2/3/6/7/10/11. Official repo verified; system reports up to 70× lower latency and 3.6× throughput improvement.
+- Coverage: independent Physical AI + Multimodal/Omni 24h→7d fresh scan plus targeted 30d runtime/omission recovery completed; no other promotion this cycle.

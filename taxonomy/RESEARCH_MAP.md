@@ -59,3 +59,6 @@ Two boundary works refine Routes P5/P9/P10 without creating a new top-level rout
 
 ### 2026-08-27: Physical autoresearch / fleet experiment orchestration
 Routes P1/P2/P9 now track reusable physical experiment orchestration when a framework provides automatic reset/verification, auditable rollout artifacts, multi-robot parallel execution and explicit utilization metrics. **ENPIRE** is the current boundary anchor: MRU/MTU make robot-fleet and agent-token utilization measurable, but its primary objective remains policy self-improvement rather than online inference scheduling/resource management.
+
+### 2026-08-27 — Agent-guided multimodal deployment/runtime synthesis
+Routes 2/3/6/7/10/11 now explicitly include systems that own an application IR, placement/parallelism plan, streaming execution, state/dependency handling, validation against reference behavior, and heterogeneous backend deployment. **FlashRT (2607.18171)** is the current anchor. Same-name collision guard: it is not Execution-State Capsules / FlashRT (2606.20537).
