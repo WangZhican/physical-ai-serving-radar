@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-27 22:03 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/lifecycle checks completed.
+- **Physical AI:** no new paper-level SYS promotion. Fresh VLA/robot-policy serving, fleet/control-loop, edge/device runtime, state-reuse, evaluation-infrastructure and WAM/world-model queries re-hit canonical PhyAI/Embodied.cpp and existing fleet/state/runtime anchors.
+- **Multimodal / Omni:** no new paper promotion. vLLM-Omni #6453 remains open for request-scoped mutable stage-state lifecycle; #6403 remains open for queued-vs-running status and true cancellation of already-running async-video inference; #6413 remains open for aborted diffusion orphan-output reclamation through #6439. SGLang-Omni v0.1.3 remains the latest first-party release found in this scan.
+- **Current state:** 155 works = 112 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state: 148 valid; public repo keeps links only.
+- **Next:** Lingjing + Deployment Is Not Destiny reverse census → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 failure-path/soak CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-27 19:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d fleet/control-loop/world-model/runtime checks completed.
