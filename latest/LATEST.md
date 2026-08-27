@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-28 05:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/correctness/lifecycle checks completed.
+- **Physical AI:** no new paper-level SYS promotion; fleet/control-loop, shared-state/runtime-recomposition, evaluation and world-model-runtime searches stayed within canonical anchors or below-threshold work.
+- **Multimodal / Omni:** SGLang #36690 remains OPEN with no linked branch/PR in current first-party evidence; the report points to Gemma-3n shared-KV-cache correctness across tested attention backends. #36678 remains an OPEN per-request metrics feature request. vLLM-Omni #6453/#6403/#6413 remain OPEN lifecycle/cancellation/reclamation frontiers.
+- **Current state:** 156 works = 113 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** #36690 root-cause/fix/regression-CI → #36678 request-metrics implementation/consumer path → vLLM-Omni #6453/#5822/#6439/#6403 shipped-vs-open audit under v0.28.0rc1 → SGLang-Omni #1593 failure-path/soak-CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 04:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d production-lineage/correctness checks completed.
