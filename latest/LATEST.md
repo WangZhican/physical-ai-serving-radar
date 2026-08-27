@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-28 00:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/lifecycle/observability/correctness checks completed.
+- **Physical AI:** no new paper-level SYS promotion; fresh scans re-hit canonical ROSA/Kairos/Zetta and existing fleet/state/runtime anchors.
+- **Multimodal / Omni:** no new paper promotion. SGLang #36678 remains OPEN as an opt-in per-request metrics feature request. A fresh first-party issue, **#36690**, reports Gemma-3n multimodal serving degenerating or crashing under selected attention backends with 0% vision accuracy; tracked as production correctness/qualification evidence, not a framework-wide claim or shipped fix.
+- **Current state:** 155 works = 112 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state: 148 valid; public repo keeps links only.
+- **Next:** Lingjing + Deployment Is Not Destiny reverse census → SGLang #36678 implementation/merge + #36690 root-cause/fix/regression-CI → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 failure-path/soak CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-27 23:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/lifecycle/observability checks completed.
