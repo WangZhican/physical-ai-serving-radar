@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-27 23:00 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across fleet/control-loop, edge/device runtime, state reuse, WAM/world-model rollout and evaluation infrastructure; no new SYS-first paper crossed the bar.
+- Multimodal runtime evidence: SGLang core issue **#36678**, opened 2026-08-27, requests opt-in coherent per-request latency/generation metrics in OpenAI-compatible responses. It is tracked as Route 8/9/11 observability→routing/scaling feedback evidence, not as a paper or shipped feature.
+- Canonical paper count remains **155 works = 112 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH**. Public radar stores links/metadata only; private PDF state remains 148 valid.
+
 ## 2026-08-27 10:00 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across fleet/control-loop, edge/device runtime, state reuse, WAM rollout and evaluation infrastructure; no new SYS-first paper crossed the bar.

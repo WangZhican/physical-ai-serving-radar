@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-27 23:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/lifecycle/observability checks completed.
+- **Physical AI:** no new paper-level SYS promotion. Fleet/control-loop, edge/device runtime, state reuse, world-model rollout and evaluation-infrastructure checks remained within current canonical anchors.
+- **Multimodal / Omni:** fresh runtime evidence from SGLang core issue **#36678** (opened 2026-08-27): an opt-in coherent set of per-request latency/generation metrics is requested for OpenAI-compatible responses. This strengthens the observability→routing/scaling feedback line, but remains a feature request rather than a paper or shipped capability. vLLM-Omni #6453 remains open for request-scoped mutable stage-state lifecycle.
+- **Current state:** 155 works = 112 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state: 148 valid; public repo keeps links only.
+- **Next:** Lingjing + Deployment Is Not Destiny reverse census → SGLang #36678 implementation/merge and routing/scaling consumers → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 failure-path/soak CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-27 22:03 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/lifecycle checks completed.
