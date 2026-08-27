@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-28 04:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d production-lineage/correctness checks completed.
+- **Physical AI:** no new paper-level SYS promotion; fleet/control-loop/state/evaluation/world-model/runtime searches stayed within canonical anchors or below-threshold model/algorithm work.
+- **Multimodal / Omni:** PinSieve/Pinterest reverse census found no second paper-backed selective-VLM serving/control-plane system at PinSieve's level this hour. Fresh SGLang issue **#36690** remains backend-qualification evidence for Gemma-3n multimodal serving degeneration/crash across selected attention backends; no root-cause fix/regression-CI closure is claimed yet.
+- **Current state:** 156 works = 113 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** SGLang #36690 root-cause/fix/regression-CI + #36678 request-metrics implementation → vLLM-Omni v0.28.0rc1 shipped-vs-open lifecycle audit (#6453/#5822/#6439/#6403) → SGLang-Omni #1593 remaining failure-path/soak-CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 03:00 CST
 
 - **Promotions:** CORE_SYS +1 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. **PinSieve** (KDD 2026, arXiv:2608.24040) added to Routes 8/9/11.

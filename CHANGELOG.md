@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-28 04:00 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across fleet/control-loop, state reuse, runtime recomposition, evaluation infrastructure and world-model/runtime queries; no new SYS-first paper crossed the bar.
+- Multimodal/Omni: PinSieve/Pinterest reverse census found no second peer selective-VLM serving/control-plane paper this hour. SGLang #36690 remains issue-scoped backend-correctness evidence for Gemma-3n multimodal serving; no fix/regression-CI closure is claimed.
+- Public canonical count remains **156 works = 113 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH**.
+
 ## 2026-08-28 03:00 CST
 - Added **PinSieve** (arXiv:2608.24040, **KDD 2026**) to `CORE_SYS / A+`, Routes 8/9/11.
 - Taxonomy refinement: selective multimodal serving / cascade routing + governed feedback provenance, staged promotion and rollback.
