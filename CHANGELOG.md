@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-08-28 03:00 CST
+- Added **PinSieve** (arXiv:2608.24040, **KDD 2026**) to `CORE_SYS / A+`, Routes 8/9/11.
+- Taxonomy refinement: selective multimodal serving / cascade routing + governed feedback provenance, staged promotion and rollback.
+- Production and offline replay claims remain explicitly source-scoped.
+
 ## 2026-08-27 23:00 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across fleet/control-loop, edge/device runtime, state reuse, WAM/world-model rollout and evaluation infrastructure; no new SYS-first paper crossed the bar.

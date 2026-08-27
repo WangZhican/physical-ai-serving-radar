@@ -169,3 +169,8 @@ Reusable execution/evaluation infrastructure with CaP-Gym interactive environmen
 | Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities | 2026 / arXiv | 1/2/9 | Multi-engine heterogeneous-agent digital-twin runtime, shared physical/structured state, constrained communication, replayable evaluation | [Repo](https://github.com/seanlxh/Air-Lingjing) | [Paper](https://arxiv.org/abs/2608.08045) | A+ |
 | Deployment Is Not Destiny: Robot Recomposition in the Field with Unseen Software, Hardware, and Compute Payloads | 2026 / arXiv | 1/2/4/6/7 | Runtime recomposition, capability discovery/attachment, peer sharing and remote compute payload use | Author/project evidence; dedicated repo not yet verified | [Paper](https://arxiv.org/abs/2608.11063) | A |
 
+
+## 2026-08-28 03:00 CST — PinSieve
+| Title | Year/Venue | Route | System Contribution | Open Source/Repo | Paper | Priority |
+|---|---|---|---|---|---|---|
+| PinSieve: Production Selective VLM Serving and a Governed Memory Flywheel for Enterprise Content-Quality Triage | 2026 / KDD 2026 | 8/9/11 | Selective VLM cascade/routing, controlled human escalation, feedback provenance, governed refresh, staged promotion & rollback | No dedicated public repo verified | [Paper](https://arxiv.org/abs/2608.24040) · [Pinterest Labs](https://labs.pinterest.com/publications) | A+ |

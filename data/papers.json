@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-27T13:00:00+08:00",
-  "count": 155,
+  "updated": "2026-08-28T03:00:00+08:00",
+  "count": 156,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2164,6 +2164,24 @@
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2608.11063",
       "project_page": "https://jsalfity.github.io/"
+    },
+    {
+      "id": "arxiv:2608.24040",
+      "title": "PinSieve: Production Selective VLM Serving and a Governed Memory Flywheel for Enterprise Content-Quality Triage",
+      "class": "CORE_SYS",
+      "route": [
+        8,
+        9,
+        11
+      ],
+      "year": 2026,
+      "venue": "KDD 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2608.24040",
+      "official_page": "https://labs.pinterest.com/publications",
+      "repo": "",
+      "system_contribution": "Production selective-VLM serving control plane: cascade routing to a bounded VLM on grey-zone traffic, controlled human escalation, routing/audit provenance, governed feedback refresh, staged promotion and rollback."
     }
   ]
 }

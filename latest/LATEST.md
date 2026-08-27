@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-28 03:00 CST
+
+- **Promotions:** CORE_SYS +1 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. **PinSieve** (KDD 2026, arXiv:2608.24040) added to Routes 8/9/11.
+- **Why SYS:** production selective VLM serving/control plane with grey-zone routing, human escalation, Feedback Memory provenance, evaluation gates, staged validation and rollback.
+- **Production evidence:** review productivity +25.7%, normalized operating cost -16.2%, next-day→same-day signal delivery. Six-month FNR replay is offline governance evidence and kept separate from online claims.
+- **Current state:** 156 works = 113 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** PinSieve/Pinterest reverse census → vLLM-Omni v0.28.0rc1 shipped-vs-open lifecycle audit → SGLang request metrics/correctness + SGLang-Omni failure-path/soak CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 01:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/release/lifecycle/heterogeneous checks completed.
