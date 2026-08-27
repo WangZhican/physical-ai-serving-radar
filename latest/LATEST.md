@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-28 01:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/release/lifecycle/heterogeneous checks completed.
+- **Physical AI:** no new paper-level SYS promotion; fresh scans re-hit canonical fleet/control-loop/runtime anchors.
+- **Multimodal / Omni release update:** first-party vLLM-Omni releases now verify **v0.28.0rc1** (released 2026-08-27, commit `651b032`, 212 merged changes). Major runtime changes include scheduler-managed diffusion paged KV, continuous/request-level batching, realtime AR-diffusion tick sessions, Host Weight Runtime + DLO, stronger full-duplex speech serving, **π0 VLA** and **SANA-WM** support, and broader accelerator portability. This is release/runtime evidence, not a paper promotion.
+- **Evidence guard:** `v0.28.0rc1` is a pre-release; RC-listed capabilities are treated as RC-shipped, while open lifecycle/cancellation/reclamation RFCs/issues remain separately audited.
+- **Current state:** 155 works = 112 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state: 148 valid; public repo keeps links only.
+- **Next:** decompose v0.28.0rc1 shipped-vs-still-open runtime frontier → Lingjing + Deployment Is Not Destiny reverse census → SGLang #36678/#36690 follow-up → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 failure-path/soak CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 00:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/lifecycle/observability/correctness checks completed.
