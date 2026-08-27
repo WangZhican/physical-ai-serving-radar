@@ -62,3 +62,7 @@ Routes P1/P2/P9 now track reusable physical experiment orchestration when a fram
 
 ### 2026-08-27 — Agent-guided multimodal deployment/runtime synthesis
 Routes 2/3/6/7/10/11 now explicitly include systems that own an application IR, placement/parallelism plan, streaming execution, state/dependency handling, validation against reference behavior, and heterogeneous backend deployment. **FlashRT (2607.18171)** is the current anchor. Same-name collision guard: it is not Execution-State Capsules / FlashRT (2606.20537).
+### Runtime recomposition & city-scale digital-twin orchestration — 2026-08-27
+- **Lingjing (Routes 1/2/9):** synchronized multi-engine urban runtime, shared state and attribution-ready multi-agent replay/evaluation.
+- **Deployment Is Not Destiny (Routes 1/2/4/6/7):** post-deployment recomposition of software, hardware and compute payloads, with distributed capability/compute sharing.
+

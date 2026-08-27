@@ -580,3 +580,9 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 ## 2026-08-27 09:00 CST
 - **CORE_SYS +1:** FlashRT — *Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications* (arXiv:2607.18171), A+, Routes 2/3/6/7/10/11. Official repo verified; system reports up to 70× lower latency and 3.6× throughput improvement.
 - Coverage: independent Physical AI + Multimodal/Omni 24h→7d fresh scan plus targeted 30d runtime/omission recovery completed; no other promotion this cycle.
+## 2026-08-27 13:00 CST
+- **CORE_SYS +2:** [Lingjing](https://arxiv.org/abs/2608.08045) (A+, Routes 1/2/9) — synchronized multi-engine heterogeneous-agent city-scale runtime, shared state, communication/resource constraints and attribution-ready replay. [Official repo](https://github.com/seanlxh/Air-Lingjing).
+- **CORE_SYS +1:** [Deployment Is Not Destiny](https://arxiv.org/abs/2608.11063) (A, Routes 1/2/4/6/7) — runtime recomposition for unseen software/hardware/compute payloads with peer-visible capability sharing and remote compute use.
+- **Multimodal/Omni:** independent fresh scan completed; no additional paper-level promotion. vLLM-Omni first-party releases still show v0.27.0rc1 as latest directly verified 0.27-series release.
+- **Coverage:** 24h → 7d, plus targeted 30d runtime-recomposition/digital-twin and Omni runtime checks.
+

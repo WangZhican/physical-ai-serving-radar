@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-27T09:00:00+08:00",
-  "count": 153,
+  "updated": "2026-08-27T13:00:00+08:00",
+  "count": 155,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2129,6 +2129,41 @@
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2607.18171",
       "repo": "https://github.com/Infini-AI-Lab/FlashRT"
+    },
+    {
+      "id": "arxiv:2608.08045",
+      "title": "Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        2,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.08045",
+      "project_page": "https://lingjing-sim.com/",
+      "repo": "https://github.com/seanlxh/Air-Lingjing"
+    },
+    {
+      "id": "arxiv:2608.11063",
+      "title": "Deployment Is Not Destiny: Robot Recomposition in the Field with Unseen Software, Hardware, and Compute Payloads",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv / in submission",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.11063",
+      "project_page": "https://jsalfity.github.io/"
     }
   ]
 }

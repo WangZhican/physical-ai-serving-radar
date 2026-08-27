@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-08-27 09:00 CST
+**Last updated: 2026-08-27 13:00 CST
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -86,3 +86,6 @@ This track studies **system support for heterogeneous multimodal model pipelines
 PDFs are intentionally **not** mirrored here; the repository links to official paper/project/repository sources.
 
 | FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications | 2026 / arXiv | 2/3/6/7/10/11 | Agent-guided IR + streaming/multi-GPU deployment runtime across CUDA/ROCm | [Repo](https://github.com/Infini-AI-Lab/FlashRT) | [Paper](https://arxiv.org/abs/2607.18171) | A+ |
+| Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities | 2026 / arXiv | 1/2/9 | Multi-engine city-scale heterogeneous-agent runtime + replayable evaluation | [Repo](https://github.com/seanlxh/Air-Lingjing) | [Paper](https://arxiv.org/abs/2608.08045) | A+ |
+| Deployment Is Not Destiny: Robot Recomposition in the Field with Unseen Software, Hardware, and Compute Payloads | 2026 / arXiv | 1/2/4/6/7 | Runtime recomposition + distributed capability/compute sharing | — | [Paper](https://arxiv.org/abs/2608.11063) | A |
+

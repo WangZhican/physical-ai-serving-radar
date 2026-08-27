@@ -501,3 +501,8 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Added FlashRT (arXiv:2607.18171) to CORE_SYS/A+ for agent-guided multimodal deployment/runtime synthesis.
 - Added explicit collision guard vs Execution-State Capsules / FlashRT (arXiv:2606.20537).
 - Updated latest coverage heartbeat and dataset count.
+## 2026-08-27 13:00 CST
+- Promoted **Lingjing** to CORE_SYS/A+ (Routes 1/2/9): multi-engine heterogeneous-agent digital-twin runtime and evaluation substrate.
+- Promoted **Deployment Is Not Destiny** to CORE_SYS/A (Routes 1/2/4/6/7): runtime recomposition and distributed capability/compute sharing.
+- Added omission queries for runtime robot recomposition, unseen payload attachment, multi-engine embodied runtime, shared physical state, city-scale digital twins and attribution-ready replay.
+

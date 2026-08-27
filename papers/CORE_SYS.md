@@ -163,3 +163,9 @@ Reusable execution/evaluation infrastructure with CaP-Gym interactive environmen
 
 ## 2026-08-27 — FlashRT agent-guided multimodal deployment runtime
 - **FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications** — arXiv:2607.18171 — **CORE_SYS / A+**, Routes 2/3/6/7/10/11. Converts a sequential reference backend into an explicit IR and uses an agent plus reusable runtime to build/validate streaming, multi-GPU deployments across CUDA and ROCm. Reports up to 70× lower latency and 3.6× higher throughput across five multimodal applications. [Paper](https://arxiv.org/abs/2607.18171) · [Repo](https://github.com/Infini-AI-Lab/FlashRT). Do not confuse with Execution-State Capsules / FlashRT (2606.20537).
+## Added 2026-08-27 13:00 CST
+| Title | Year/Venue | Route | System Contribution | Open Source/Repo | Paper | Priority |
+|---|---|---|---|---|---|---|
+| Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities | 2026 / arXiv | 1/2/9 | Multi-engine heterogeneous-agent digital-twin runtime, shared physical/structured state, constrained communication, replayable evaluation | [Repo](https://github.com/seanlxh/Air-Lingjing) | [Paper](https://arxiv.org/abs/2608.08045) | A+ |
+| Deployment Is Not Destiny: Robot Recomposition in the Field with Unseen Software, Hardware, and Compute Payloads | 2026 / arXiv | 1/2/4/6/7 | Runtime recomposition, capability discovery/attachment, peer sharing and remote compute payload use | Author/project evidence; dedicated repo not yet verified | [Paper](https://arxiv.org/abs/2608.11063) | A |
+
