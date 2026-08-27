@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-27 19:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d fleet/control-loop/world-model/runtime checks completed.
+- **Physical AI:** no new paper-level SYS promotion. Fresh hits re-resolved to canonical Kairos, Armory/action-chunk scheduling, Embodied.cpp/vla.cpp and existing state/runtime anchors; HorizonDrive and Hi-WM remain model/post-training centric rather than new serving/resource-management systems.
+- **Multimodal / Omni:** no new paper promotion. M* and existing composite/Omni serving trunks remain canonical; request/session lifecycle, step-wise/preemptible execution, cancellation/reclamation and failure-path observability remain active production frontiers.
+- **Current state:** 155 works = 112 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH. Private PDF state: 148 valid; public repo keeps links only.
+- **Next:** Lingjing + Deployment Is Not Destiny reverse census → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 failure-path/soak CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-27 10:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime-adoption/FlashRT comparison checks completed.
