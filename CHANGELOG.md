@@ -537,3 +537,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Refined taxonomy to track AoL/TWI-style freshness as a resource signal while preserving the runtime/serving bar for CORE_SYS.
 - Refreshed machine-readable dataset to **158** verified works and corrected the previously stale declared `count` metadata.
 - Completed the hourly dual-track scan; no additional CORE_SYS promotion.
+
+- 2026-08-28 17:00 CST — hourly coverage heartbeat after real dual-track fresh scan; no paper/classification change. Revalidated SGLang #36690/#36678 as open production-runtime frontiers.

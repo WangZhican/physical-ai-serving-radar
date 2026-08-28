@@ -733,3 +733,10 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - Multimodal/Omni coverage checked any-to-any/composite serving, stage/modality disaggregation, streaming state and runtime surfaces; fresh results re-hit Cornserve/Cornfigurator, HorizonServe and vLLM-Omni anchors rather than a new paper-level system.
 - First-party runtime heartbeat: SGLang #36690 and #36678 remain open on 2026-08-28; no verified Gemma-3n root-cause fix/regression-CI closure or shipped response-level request-metrics implementation was found this cycle.
 - Canonical public set remains **158 verified works**; taxonomy unchanged.
+
+### 2026-08-28 17:00 CST
+- **Hourly scan complete — no paper promotion this cycle.** Independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/streaming/edge-freshness/lifecycle/correctness checks completed.
+- Physical-AI fresh hits re-confirmed canonical Kairos, Embodied.cpp, Zetta and existing fleet/runtime/evaluation anchors; no new reusable serving/resource-management substrate crossed the SYS-first bar.
+- Multimodal/Omni fresh hits re-confirmed HorizonServe and existing any-to-any/streaming/runtime anchors. SGLang #36690 and #36678 remain open; no verified Gemma-3n fix/regression-CI or shipped per-request metrics implementation was found.
+- Public canonical set remains **158 verified works**; taxonomy and paper counts unchanged.
+- Next: AoL/TWI runtime-successor census → StreamMind full-agent release → SGLang #36690/#36678 → vLLM-Omni lifecycle/cancellation/reclamation audit → SGLang-Omni #1593 soak/CI closure.
