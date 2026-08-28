@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-29 02:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed.
+- **Physical AI:** no new paper-level SYS promotion; fresh fleet/multi-robot, unified/control-loop runtime, edge/shared-state, heterogeneous execution, composite VLA+WAM+planner, evaluation/workload and world-model rollout queries re-hit canonical anchors or below-threshold work.
+- **Multimodal / Omni:** no new paper promotion. SGLang #36475 remains a streaming-session lifecycle correctness signal; #36690 remains OPEN for Gemma-3n multimodal degeneration/crash. First-party vLLM-Omni releases still list **v0.28.0rc1** as latest, so no final v0.28.0 claim is made.
+- **PDF retry:** TimelyLLM and TypeFly official arXiv downloads were retried from the research host and again hit TLS connect errors; both remain `PENDING_RETRY`, with no invalid file counted.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** retry TimelyLLM/TypeFly when TLS recovers → post-TimelyLLM/TypeGo successor census → SGLang #36475/#36690 → vLLM-Omni lifecycle/cancellation/reclamation → SGLang-Omni #1593 → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-29 01:02 CST
 
 - **Promotions:** CORE_SYS +1 — **TimelyLLM** (MobiSys 2026 Best Paper Runner-up + Best Artifact Runner-up, A+, Routes 1/3/8); SYS_ALG_BOUNDARY +1 — **TypeFly** (IEEE TMC 2025, A, Routes 3/4/7); WATCH +0.
