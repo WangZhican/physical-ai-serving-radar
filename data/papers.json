@@ -2258,11 +2258,7 @@
       "title": "TypeGo: An OS Runtime for Embodied Agents",
       "system": "TypeGo",
       "class": "CORE_SYS",
-      "route": [
-        2,
-        3,
-        7
-      ],
+      "route": [2, 3, 7],
       "year": 2026,
       "venue": "arXiv / AgenticOS @ SOSP 2026",
       "priority": "A+",
@@ -2270,6 +2266,34 @@
       "official_page": "https://arxiv.org/abs/2607.05482",
       "repo": "",
       "system_contribution": "OS-style runtime for embodied agents. TypeGo turns concurrent embodied tasks into processes/PCBs, uses a Skill Kernel to arbitrate typed physical subsystems, preempts/resumes tasks with source-dependent semantics, runs S0-S3 asynchronous planning loops at multiple timescales, and overlaps speculative skill streaming with physical execution. Unitree Go2 prototype reports 50% lower per-step delay than step-by-step planning and 73% lower time-to-first-action than monolithic planning, with ~200 ms S3 scheduling and ~50 ms reflex overhead."
+    },
+    {
+      "id": "arxiv:2412.18695",
+      "title": "TimelyLLM: Time-sensitive LLM Serving System for Physical-I/O Limited Agents",
+      "system": "TimelyLLM",
+      "class": "CORE_SYS",
+      "route": [1, 3, 8],
+      "year": 2026,
+      "venue": "ACM MobiSys 2026 — Best Paper Runner-up / Best Artifact Runner-up",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2412.18695",
+      "repo": "",
+      "system_contribution": "Time-sensitive serving for multiple robotic agents via segmented generation and timing-aware scheduling that overlaps future plan generation with ongoing physical execution; reports up to 1.97x higher time utility and 84% lower overall waiting time."
+    },
+    {
+      "id": "arxiv:2312.14950",
+      "title": "TypeFly: Low-Latency Drone Planning With Large Language Models",
+      "system": "TypeFly / ChatFly",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [3, 4, 7],
+      "year": 2025,
+      "venue": "IEEE Transactions on Mobile Computing 24(9), 2025",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://typefly.github.io/",
+      "repo": "https://github.com/typefly/TypeFly",
+      "system_contribution": "MiniSpec plus stream interpretation lets robot execution start before the full LLM plan completes; local vision and skill execution form an edge/cloud robot runtime. Official Apache-2.0 repo verified at about 110 stars / 25 forks in the current crawl."
     }
   ]
 }

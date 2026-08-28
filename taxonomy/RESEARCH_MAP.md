@@ -77,3 +77,6 @@ Routes P4/P5/P8 now explicitly track task-relevant latent freshness (AoL/AoI-lik
 
 ### 2026-08-28 23:58 CST — OS-style embodied process/resource runtime
 Routes P2/P3/P7 now explicitly include embodied-agent OS runtimes. **TypeGo** is the anchor: task processes/PCBs carry scheduling state, a Skill Kernel owns typed physical-resource arbitration, and preemption/resumption plus asynchronous reflex/action/decomposition/scheduling loops are first-class runtime semantics. This is a runtime/resource-management branch, not merely fast/slow planning.
+
+### 2026-08-29 refinement: Physical-I/O-aware segmented serving lineage
+Routes P1/P3/P8 now explicitly connect fleet serving to the timing slack created by physical execution. **TimelyLLM** is the serving/scheduling anchor: generation is segmented around robot execution and scheduled by segment timing needs rather than ordinary FCFS. **TypeFly** is the boundary predecessor showing stream-interpreted control programs can begin execution before full plan generation. Together with TypeGo, this forms a lineage from token/stream-aware robot runtime → Physical-I/O-aware multi-agent serving → OS-style embodied process/resource management.

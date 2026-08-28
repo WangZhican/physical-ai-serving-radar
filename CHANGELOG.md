@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-29 01:02 CST
+- Recovered **TimelyLLM** (arXiv:2412.18695 / ACM MobiSys 2026) as `CORE_SYS / A+`, Routes 1/3/8. Official MobiSys pages verify **Best Paper Runner-up** and **Best Artifact Runner-up**; the system serves multiple robotic agents via segmented generation and timing-aware scheduling that overlap plan generation with physical execution.
+- Added **TypeFly** (arXiv:2312.14950 / IEEE TMC 2025) as `SYS_ALG_BOUNDARY / A`, Routes 3/4/7. Official project/repo verified; current public crawl shows ~110 stars / 25 forks. Kept below CORE_SYS because compact plan representation and runtime design are co-primary.
+- Independent Physical-AI and Multimodal/Omni 24h→7d fresh scans plus targeted 30d runtime/session-lifecycle checks completed; no additional fresh paper crossed the SYS-first bar.
+- Public canonical count is now **161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH**.
+
 ## 2026-08-28 12:00 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across fleet/control-loop, edge/resource freshness, runtime recomposition, evaluation infrastructure and world-model/runtime queries; AoL/TWI reverse census found no reusable runtime-backed successor this hour.

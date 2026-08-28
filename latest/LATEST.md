@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-29 01:02 CST
+
+- **Promotions:** CORE_SYS +1 — **TimelyLLM** (MobiSys 2026 Best Paper Runner-up + Best Artifact Runner-up, A+, Routes 1/3/8); SYS_ALG_BOUNDARY +1 — **TypeFly** (IEEE TMC 2025, A, Routes 3/4/7); WATCH +0.
+- **Why TimelyLLM matters:** direct time-sensitive serving for multiple robotic agents; segmented generation/scheduling overlaps future plan generation with physical execution and reports up to 1.97x higher time utility and 84% lower waiting time.
+- **Why TypeFly stays boundary:** MiniSpec + stream interpretation enables early robot execution and forms a useful edge/cloud runtime, but compact plan representation is co-primary with systems design. Official Apache-2.0 repo: ~110 stars / 25 forks in current public crawl.
+- **Fresh scan:** independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle checks found no additional paper-level SYS promotion.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** TimelyLLM/TypeGo successor census → SGLang #36475/#36690 → vLLM-Omni lifecycle/cancellation/reclamation → SGLang-Omni #1593 → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 22:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical AI and Multimodal/Omni 24h→7d fresh scans plus targeted 30d runtime/streaming/edge-freshness/lifecycle/correctness checks completed.

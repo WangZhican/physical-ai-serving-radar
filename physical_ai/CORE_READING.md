@@ -23,6 +23,7 @@ This list is ordered by **systems value**, not by citation count.
 | A+ | RoboArena | distributed real-robot evaluation network | https://arxiv.org/abs/2506.18123 |
 | A+ | RLinf-VLA / RLinf | distributed embodied/VLA RL runtime and resource allocation | https://arxiv.org/abs/2510.06710 |
 | A+ | TypeGo | embodied-agent OS runtime: process/PCB lifecycle, physical-resource arbitration, preemption and async multi-timescale planning | https://arxiv.org/abs/2607.05482 |
+| A+ | TimelyLLM | time-sensitive multi-robot LLM serving with segmented generation and timing-aware scheduling around physical-I/O execution | https://arxiv.org/abs/2412.18695 |
 
 ## Important SYS–ALG boundary line
 
@@ -33,6 +34,7 @@ These works are worth reading because they expose system semantics, but their pr
 - **Reflex** — streaming state/cache maintenance and asynchronous vision/action pipeline.
 - **AsyncVLA** — remote semantic model + onboard reactive execution.
 - **CloudEdgeVLA** — stale-state-tolerant cloud/edge split.
+- **TypeFly** — MiniSpec + stream interpretation for low-latency drone control; important TimelyLLM/TypeGo lineage predecessor, but compact plan representation is co-primary with runtime design.
 - **ActionCache** — action-intermediate reuse as inspiration for physical-state-aware cache infrastructure.
 
 See the complete inventory in [`../papers/CORE_SYS.md`](../papers/CORE_SYS.md) and [`../papers/SYS_ALG_BOUNDARY.md`](../papers/SYS_ALG_BOUNDARY.md).

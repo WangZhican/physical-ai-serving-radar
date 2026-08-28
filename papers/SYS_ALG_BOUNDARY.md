@@ -120,3 +120,6 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 
 ## Edge latent-freshness / semantic-perception resource control
 - [**Joint Age-of-Latent and Resource Minimization for Wireless Multi-Camera Perception With Temporal Window Selection**](https://arxiv.org/abs/2608.09411) — **A**, Routes P4/P5/P8. Defines AoL as freshness of decoded task-relevant latent state and jointly optimizes task-level temporal integration window with slot-level encoder selection, camera scheduling and NOMA power allocation. Kept outside CORE_SYS because current evidence is numerical/simulation-based rather than a reusable runtime.
+
+## 2026-08-29 — TypeFly lineage predecessor
+- [**TypeFly: Low-Latency Drone Planning With Large Language Models**](https://arxiv.org/abs/2312.14950) — **IEEE TMC 2025**, **A**, Routes P3/P4/P7. TypeFly/ChatFly combines the MiniSpec compact robot-planning language with stream interpretation so a drone can start executing before full LLM generation completes; local vision/skill execution gives it a practical edge/cloud runtime. [Project](https://typefly.github.io/) · [Repo](https://github.com/typefly/TypeFly) (~110 stars / 25 forks in current public crawl). Kept at `SYS_ALG_BOUNDARY` because compact plan representation and runtime execution are co-primary rather than a general serving scheduler/resource manager.
