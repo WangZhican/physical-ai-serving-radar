@@ -719,3 +719,9 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - System role: task-relevant latent freshness (AoL) jointly couples temporal integration-window selection with encoder choice, camera scheduling and NOMA power control under reliability constraints for wireless multi-camera Physical-AI perception.
 - Boundary guard: numerical/simulation resource-control study, not a reusable deployed serving runtime; no official implementation repo verified.
 - 24h/7d dual-track scan found no additional CORE_SYS promotion. Public dataset now contains **158 verified works**.
+
+### 2026-08-28 15:00 CST
+- **Hourly scan complete — no promotion this cycle.** Physical-AI coverage checked fleet/multi-robot, unified runtime, control-loop/streaming, edge/device, temporal/shared state, heterogeneous serving, composite VLA+WAM+planner, workload/evaluation and world-model rollout surfaces; fresh results re-hit canonical Kairos/PhyAI/PhyAgentOS/MagicSim or below-threshold work.
+- Multimodal/Omni coverage checked any-to-any/composite serving, stage/modality disaggregation, streaming state and runtime surfaces; fresh results re-hit Cornserve/Cornfigurator, HorizonServe and vLLM-Omni anchors rather than a new paper-level system.
+- First-party runtime heartbeat: SGLang #36690 and #36678 remain open on 2026-08-28; no verified Gemma-3n root-cause fix/regression-CI closure or shipped response-level request-metrics implementation was found this cycle.
+- Canonical public set remains **158 verified works**; taxonomy unchanged.
