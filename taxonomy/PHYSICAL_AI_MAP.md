@@ -55,3 +55,6 @@ General MLLM/Omni systems are **not placed here merely because their mechanisms 
 
 ### 2026-08-27 Route-9 refinement
 Evaluation infrastructure explicitly includes **robot coding-agent evaluation/execution substrate**: interactive execution environments, parallel workers, perception-service orchestration, regression harnesses and real-robot bringup. CaP-X is the anchor; skill/harness optimization remains boundary work absent a general runtime/resource plane.
+
+### Latent freshness at the edge
+A new P4/P5/P8 boundary subline tracks whether remotely maintained semantic/latent state is fresh enough for downstream physical decisions, including temporal integration-window selection and communication/encoding resource control. [Age-of-Latent (2608.09411)](https://arxiv.org/abs/2608.09411) is the current boundary anchor; it is not classified CORE_SYS without a reusable runtime implementation.

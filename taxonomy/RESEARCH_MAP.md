@@ -70,3 +70,6 @@ Routes 2/3/6/7/10/11 now explicitly include systems that own an application IR, 
 
 ### Always-on streaming multimodal runtime / persistent-state serving (added 2026-08-28 10:02 CST)
 Routes 3/5/8/9/11 now explicitly track systems that decouple latency-critical live interaction from asynchronous persistent-memory construction, historical recall and tool/search work. **StreamArena / StreamMind (2608.05703)** is the anchor. Promotion requires explicit runtime scheduling/state reuse or serving/evaluation infrastructure, not merely a streaming-model architecture.
+
+### 2026-08-28 refinement: latent freshness as a Physical-AI edge resource signal
+Routes P4/P5/P8 now explicitly track task-relevant latent freshness (AoL/AoI-like signals) when it drives sensor admission, temporal integration windows, encoder selection, wireless scheduling/power, and uncertainty-aware edge decisions. Algorithmic optimization alone stays `SYS_ALG_BOUNDARY`; `CORE_SYS` requires a reusable runtime/scheduler/deployment substrate.

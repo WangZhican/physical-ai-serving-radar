@@ -688,3 +688,9 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 ## 2026-08-28 10:02 CST
 - **CORE_SYS +1 — StreamArena / StreamMind (arXiv:2608.05703, A)**: always-on streaming multimodal runtime/evaluation substrate with frontend/backend worker decoupling and persistent-state reuse; 243 videos, 3,646 tasks, 66.2% weighted query-latency reduction.
 - Physical-AI fresh scan: no additional SYS-first promotion. Multimodal runtime frontier continues SGLang correctness/request-metrics and vLLM-Omni lifecycle/preemption/cancellation/reclamation.
+
+### 2026-08-28 11:00 CST
+- **SYS_ALG_BOUNDARY +1:** [Joint Age-of-Latent and Resource Minimization for Wireless Multi-Camera Perception With Temporal Window Selection](https://arxiv.org/abs/2608.09411) — **A**, Routes P4/P5/P8.
+- System role: task-relevant latent freshness (AoL) jointly couples temporal integration-window selection with encoder choice, camera scheduling and NOMA power control under reliability constraints for wireless multi-camera Physical-AI perception.
+- Boundary guard: numerical/simulation resource-control study, not a reusable deployed serving runtime; no official implementation repo verified.
+- 24h/7d dual-track scan found no additional CORE_SYS promotion. Public dataset now contains **158 verified works**.

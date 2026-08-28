@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-28T03:00:00+08:00",
-  "count": 156,
+  "updated": "2026-08-28T11:00:00+08:00",
+  "count": 158,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -1468,7 +1468,8 @@
       "venue": "arXiv",
       "priority": "A+",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2601.03044"
+      "official_page": "https://arxiv.org/abs/2601.03044",
+      "project_page": "https://finch.agibot.com/research/sop"
     },
     {
       "id": "arxiv:2605.00416",
@@ -1483,7 +1484,8 @@
       "venue": "arXiv v2",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2605.00416"
+      "official_page": "https://arxiv.org/abs/2605.00416",
+      "project_page": "https://finch.agibot.com/research/lwd"
     },
     {
       "id": "arxiv:2510.06710",
@@ -1500,6 +1502,7 @@
       "priority": "A+",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2510.06710",
+      "project_page": "https://rlinf-vla.github.io/",
       "repo": "https://github.com/RLinf/RLinf"
     },
     {
@@ -1519,6 +1522,7 @@
       "priority": "A+",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2602.07837",
+      "project_page": "https://rlinf-user.github.io/",
       "repo": "https://github.com/RLinf/RLinf"
     },
     {
@@ -1592,7 +1596,8 @@
       "venue": "ICRA 2024",
       "priority": "A+",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2405.07515"
+      "official_page": "https://arxiv.org/abs/2405.07515",
+      "project_page": "https://www.openbot.org/"
     },
     {
       "id": "arxiv:2606.20537",
@@ -1852,7 +1857,8 @@
       "venue": "RSS 2026 Workshop on Human-centric Mobile Manipulation",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2607.22999"
+      "official_page": "https://arxiv.org/abs/2607.22999",
+      "repo": ""
     },
     {
       "id": "arxiv:2608.13474",
@@ -1867,7 +1873,8 @@
       "venue": "arXiv",
       "priority": "A-",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2608.13474"
+      "official_page": "https://arxiv.org/abs/2608.13474",
+      "repo": ""
     },
     {
       "id": "arxiv:2607.16636",
@@ -1902,7 +1909,8 @@
       "venue": "arXiv (withdrawn pending company internal review)",
       "priority": "A-watch",
       "status": "WITHDRAWN_WATCH",
-      "official_page": "https://arxiv.org/abs/2608.17584"
+      "official_page": "https://arxiv.org/abs/2608.17584",
+      "repo": ""
     },
     {
       "id": "arxiv:2608.17774",
@@ -1917,7 +1925,8 @@
       "venue": "arXiv",
       "priority": "A-",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2608.17774"
+      "official_page": "https://arxiv.org/abs/2608.17774",
+      "repo": ""
     },
     {
       "id": "arxiv:2608.14498",
@@ -1949,6 +1958,7 @@
       "priority": "A",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2608.24115",
+      "project_page": "https://worv-ai.github.io/ponderpounce/",
       "repo": "https://github.com/worv-ai/PonderPounce"
     },
     {
@@ -1966,7 +1976,8 @@
       "venue": "arXiv / in submission",
       "priority": "A+",
       "status": "VERIFIED",
-      "repo": "https://github.com/openretriever/retriever"
+      "repo": "https://github.com/openretriever/retriever",
+      "system_contribution": "Temporal computation-graph programming model + runtime for asynchronous closed-loop robot agents: stateful Flows, explicit Clocks, edge-level Sync policies, multi-backend execution, deterministic replay/debugging, and a real-robot VLM+VLA+belief+monitor+control pipeline."
     },
     {
       "id": "arxiv:2608.22657",
@@ -1981,7 +1992,9 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2608.22657"
+      "official_page": "https://arxiv.org/abs/2608.22657",
+      "repo": "",
+      "system_contribution": "Physical-agent orchestration architecture that separates a non-actuating LLM Mission Planner from a deterministic Robot Orchestrator with sole execution authority. Robots expose typed skill libraries with parameters, preconditions, costs and synchronization requirements; workflow contracts and runtime state are checked again at dispatch time, including state-bound values that cannot be known at planning time."
     },
     {
       "id": "arxiv:2608.06088",
@@ -1994,7 +2007,9 @@
       "venue": "ASE 2026",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2608.06088"
+      "official_page": "https://arxiv.org/abs/2608.06088",
+      "repo": "",
+      "system_contribution": "Evaluation/reliability infrastructure for the Isaac Sim stack: semantic-stage-guided generation of valid simulator programs, object/operation/argument-level mutation, coverage/crash feedback, and MAB-based mutation scheduling."
     },
     {
       "id": "arxiv:2307.10818",
@@ -2008,7 +2023,8 @@
       "priority": "A",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2307.10818",
-      "repo": "https://github.com/PhyFuzz/phyfu"
+      "repo": "https://github.com/PhyFuzz/phyfu",
+      "system_contribution": "Foundational simulator-reliability infrastructure for physics simulation engines used by robotics and learning-based control. PHYFU fuzzes both forward and backward simulation, mutates valid initial states, uses physics-law consistency oracles, and applies feedback-driven test-input scheduling to expose silent logic errors across the simulator software stack."
     },
     {
       "id": "doi:10.1145/3540250.3549164",
@@ -2022,7 +2038,8 @@
       "priority": "A",
       "status": "VERIFIED",
       "official_page": "https://2022.esec-fse.org/details/fse-2022-research-papers/86/RoboFuzz-Fuzzing-Robotic-Systems-over-Robot-Operating-System-ROS-for-Finding-Corre",
-      "repo": "https://github.com/sslab-gatech/robofuzz"
+      "repo": "https://github.com/sslab-gatech/robofuzz",
+      "system_contribution": "Foundational ROS2/robot-stack reliability infrastructure: data-type-aware mutation, hybrid real/sim execution, semantic correctness oracles for physical-law/specification/cyber-physical discrepancies, and semantic feedback guidance for distributed data-driven robotic systems."
     },
     {
       "id": "arxiv:2608.07555",
@@ -2036,7 +2053,9 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2608.07555"
+      "official_page": "https://arxiv.org/abs/2608.07555",
+      "repo": "",
+      "system_contribution": "Backend-independent robot-policy improvement control plane built around durable Bind→Analyze→Act→Measure→Score→Commit transactions, commit-keyed crash recovery, append-only evidence, artifact-bound capability quality, recorded tool invocation and fenced controller generations."
     },
     {
       "id": "arxiv:2608.23863",
@@ -2051,7 +2070,9 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2608.23863"
+      "official_page": "https://arxiv.org/abs/2608.23863",
+      "repo": "",
+      "system_contribution": "Model-agnostic deployment trust/state layer for world-model rollouts: consumed predictions become persistent condition×region×horizon credit records, execution settles claims against arriving reality, dependency tickets and replay logs preserve provenance, and the credit gate decides whether to rely on imagination, shorten horizon or acquire another observation."
     },
     {
       "id": "arxiv:2603.22435",
@@ -2064,7 +2085,9 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2603.22435"
+      "official_page": "https://arxiv.org/abs/2603.22435",
+      "repo": "https://github.com/capgym/cap-x",
+      "system_contribution": "Reusable robot-agent evaluation infrastructure: interactive CaP-Gym environments, CaP-Bench evaluation tiers, parallel evaluation workers, auto-launched perception services with GPU allocation, OpenAI-compatible/vLLM serving integration, regression tests and real-world Franka bringup."
     },
     {
       "id": "arxiv:2607.00272",
@@ -2079,7 +2102,9 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2607.00272"
+      "official_page": "https://arxiv.org/abs/2607.00272",
+      "repo": "https://github.com/NVlabs/ASPIRE",
+      "system_contribution": "Closed-loop robot execution engine exposing fine-grained multimodal traces for failure diagnosis, repair synthesis and validation, coupled to a persistent skill library and open-ended exploration loop."
     },
     {
       "id": "arxiv:2606.16458",
@@ -2093,7 +2118,9 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2606.16458"
+      "official_page": "https://arxiv.org/abs/2606.16458",
+      "repo": "https://github.com/KE7/helix",
+      "system_contribution": "Training-time harness optimization searching interpretable multi-file Repositories-as-Policies with tool-enabled coding agents and execution feedback, then freezing the resulting artifact for single-turn deployment."
     },
     {
       "id": "arxiv:2606.19980",
@@ -2109,7 +2136,9 @@
       "priority": "A+",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2606.19980",
-      "project_page": "https://research.nvidia.com/labs/gear/enpire/"
+      "project_page": "https://research.nvidia.com/labs/gear/enpire/",
+      "repo": "",
+      "system_contribution": "Physical autoresearch harness/control plane with four modules: Environment for automatic reset/verification/logging, Policy Improvement, Rollout for budgeted single- or multi-robot physical trials, and Evolution for log-driven infrastructure/algorithm revision. The robot-fleet path parallelizes physical rollout and preserves auditable state/action/video/result artifacts."
     },
     {
       "id": "arxiv:2607.18171",
@@ -2128,7 +2157,8 @@
       "priority": "A+",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2607.18171",
-      "repo": "https://github.com/Infini-AI-Lab/FlashRT"
+      "repo": "https://github.com/Infini-AI-Lab/FlashRT",
+      "system_contribution": "Agent-guided deployment/runtime system for real-time multimodal applications. A sequential single-GPU reference backend is converted into an explicit IR; an agent derives and validates optimized streaming, possibly multi-GPU deployments while preserving the frontend/adapter contract. The shared runtime includes explicit graph/state dependencies, shared-memory IPC, distributed process groups, placement/parallelism plans, model runners and memory management, with CUDA and ROCm deployment paths."
     },
     {
       "id": "arxiv:2608.08045",
@@ -2145,7 +2175,8 @@
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2608.08045",
       "project_page": "https://lingjing-sim.com/",
-      "repo": "https://github.com/seanlxh/Air-Lingjing"
+      "repo": "https://github.com/seanlxh/Air-Lingjing",
+      "system_contribution": "City-scale heterogeneous multi-agent simulation/runtime that synchronizes multiple physics engines and exposes shared physical/structured urban state. Provides a Gym-style lifecycle, configurable star/broadcast communication with resource constraints, engine-in-the-loop command routing/adjudication, and attribution-ready per-episode replay linking trajectories, messages, resource use and relation-graph changes to evaluation outcomes."
     },
     {
       "id": "arxiv:2608.11063",
@@ -2163,7 +2194,9 @@
       "priority": "A",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2608.11063",
-      "project_page": "https://jsalfity.github.io/"
+      "project_page": "https://jsalfity.github.io/",
+      "repo": "",
+      "system_contribution": "Runtime recomposition framework and abstractions for integrating previously unseen modular software, hardware and compute payloads after deployment. Newly attached capabilities become immediately available to the host robot and distributed peers, enabling compute-constrained robots to invoke remote resources and recompose task execution without developer intervention."
     },
     {
       "id": "arxiv:2608.24040",
@@ -2178,10 +2211,10 @@
       "venue": "KDD 2026",
       "priority": "A+",
       "status": "VERIFIED",
-      "paper": "https://arxiv.org/abs/2608.24040",
-      "official_page": "https://labs.pinterest.com/publications",
+      "official_page": "https://arxiv.org/abs/2608.24040",
+      "project_page": "https://labs.pinterest.com/publications",
       "repo": "",
-      "system_contribution": "Production selective-VLM serving control plane: cascade routing to a bounded VLM on grey-zone traffic, controlled human escalation, routing/audit provenance, governed feedback refresh, staged promotion and rollback."
+      "system_contribution": "Production selective-VLM serving control plane for enterprise content-quality triage. Lightweight upstream models handle easy cases while a bounded VLM Serving Agent routes only grey-zone traffic using an online scalar score and controlled human escalation. A governed Feedback Memory records routing traces, observation paths, audit propensities and replay metadata; bounded proposal-verifier refresh, evaluation gates, staged validation and rollback govern model updates under selective feedback."
     },
     {
       "id": "arxiv:2608.05703",
@@ -2198,10 +2231,27 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED",
-      "paper": "https://arxiv.org/abs/2608.05703",
-      "official_page": "https://hkuzxc.github.io/StreamArena_web/",
+      "official_page": "https://arxiv.org/abs/2608.05703",
+      "project_page": "https://hkuzxc.github.io/StreamArena_web/",
       "repo": "https://github.com/JIA-Lab-research/StreamArena",
-      "system_contribution": "Always-on multimodal streaming runtime/evaluation substrate: independently scheduled frontend interaction/monitor workers plus asynchronous backend persistent-memory, recall and search workers; persistent state reuse reduces online query latency."
+      "system_contribution": "Always-on multimodal streaming system/evaluation substrate. StreamMind separates latency-critical real-time interaction and proactive monitoring into independently scheduled frontend workers while backend workers asynchronously construct persistent multimodal memory, perform historical recall and external search. The design makes persistent state reuse and frontend/backend decoupling first-class runtime mechanisms for hour-scale streaming agents."
+    },
+    {
+      "id": "arxiv:2608.09411",
+      "title": "Joint Age-of-Latent and Resource Minimization for Wireless Multi-Camera Perception With Temporal Window Selection",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        4,
+        5,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv / submitted to IEEE",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.09411",
+      "repo": "",
+      "system_contribution": "Freshness-aware edge/resource-control formulation for wireless multi-camera Physical-AI perception. Age-of-Latent (AoL) tracks task-relevant latent freshness at the base station; task-level temporal-window selection is jointly coupled with slot-level encoder selection, camera scheduling and NOMA power allocation under prediction-reliability constraints."
     }
   ]
 }

@@ -117,3 +117,6 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Project:** https://research.nvidia.com/labs/gear/enpire/
 - **Routes:** 1 / 2 / 9 · **Priority:** A+
 - **Role:** reusable physical experiment/evaluation harness with automatic reset and verification, auditable rollout artifacts, and single- or multi-robot parallel physical execution. ENPIRE introduces MRU/MTU to measure robot-fleet and token utilization. Kept at SYS_ALG_BOUNDARY because its primary objective is autonomous policy self-improvement, not online inference admission or resource scheduling.
+
+## Edge latent-freshness / semantic-perception resource control
+- [**Joint Age-of-Latent and Resource Minimization for Wireless Multi-Camera Perception With Temporal Window Selection**](https://arxiv.org/abs/2608.09411) — **A**, Routes P4/P5/P8. Defines AoL as freshness of decoded task-relevant latent state and jointly optimizes task-level temporal integration window with slot-level encoder selection, camera scheduling and NOMA power allocation. Kept outside CORE_SYS because current evidence is numerical/simulation-based rather than a reusable runtime.

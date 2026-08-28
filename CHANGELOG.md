@@ -525,3 +525,9 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 
 
 - **2026-08-28 10:02 CST** — Added StreamArena / StreamMind (arXiv:2608.05703) as CORE_SYS/A; added always-on streaming multimodal runtime + persistent-state serving branch; refreshed hourly coverage heartbeat.
+
+## 2026-08-28 11:00 CST
+- Added arXiv:2608.09411 as `SYS_ALG_BOUNDARY / A` (P4/P5/P8) for latent-freshness-aware multi-camera Physical-AI edge resource control.
+- Refined taxonomy to track AoL/TWI-style freshness as a resource signal while preserving the runtime/serving bar for CORE_SYS.
+- Refreshed machine-readable dataset to **158** verified works and corrected the previously stale declared `count` metadata.
+- Completed the hourly dual-track scan; no additional CORE_SYS promotion.
