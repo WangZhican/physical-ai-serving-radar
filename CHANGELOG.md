@@ -549,3 +549,6 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - 2026-08-28 23:00 CST — hourly coverage heartbeat after real dual-track fresh scan; no paper/classification change. Revalidated SGLang #36475, vLLM-Omni #6403, and SGLang-Omni #1593 as open production-runtime frontiers.
 
 - 2026-08-28 23:58 CST — recovered **TypeGo** (arXiv:2607.05482) into CORE_SYS/A+ (P2/P3/P7); added OS-style embodied process/resource runtime branch; public dataset now 159 works. No PDF/internal server artifact was added to the public repo.
+
+## 2026-08-29 06:00 CST
+- Runtime maturity update, no paper promotion: SGLang-Omni Qwen3-TTS startup-safety PR #1786 verified merged; #1726/#1753 remain open and #1760 P/D-disaggregation remains unmerged.

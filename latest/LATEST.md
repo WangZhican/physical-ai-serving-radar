@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-29 06:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; no new paper crossed the SYS-first threshold.
+- **Physical AI:** post-TimelyLLM/TypeGo successor, fleet/control-loop, edge/shared-state, heterogeneous execution, composite VLA+WAM+planner, evaluation/workload and world-model rollout searches produced canonical or below-threshold hits; no new reusable paper-level serving substrate verified.
+- **Multimodal / Omni shipped-vs-open update:** SGLang-Omni Qwen3-TTS roadmap #1754 now has a concrete landed production-readiness item: PR #1786 merged into main on 2026-08-28, moving vocoder CUDA-Graph capture into synchronous warmup before readiness publication. First-party PR evidence reports 218 focused tests passed, 10/10 fresh H100 starts, and 10/10 immediate warmups without the prior capture/readiness failure. Mixed-sampling PR #1726 and reference-batching PR #1753 remain OPEN; stateful incremental Codec state ownership, slack/playback-aware scheduling, admission retuning and streaming backpressure/readiness remain roadmap work.
+- **P/D guard:** SGLang-Omni #1760 still explicitly states that nothing has merged; do not treat its P/D design as shipped support.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** #1754 T-PR7→T-PR14/T-PR19 and #1726/#1753 landing status → #1760 Stage-1 gate #1517 → post-TimelyLLM/TypeGo successor census → vLLM-Omni lifecycle/batching → SGLang/SGLang-Omni correctness closure → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-29 05:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; 0 promotion is not 0 search.
