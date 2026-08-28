@@ -779,3 +779,9 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - Runtime frontier: vLLM-Omni #6403 remains open for queued-vs-running status and true cancellation semantics; SGLang-Omni #1593 remains open, with its issue text still leaving four slot-pool failure events and comm-layer-triggered soak/nightly policy outstanding after #1595 covered the paged-KV/transport/direct-IPC trace gaps.
 - Public canonical set remains **158 verified works**; taxonomy and paper counts unchanged.
 - Next: AoL/TWI runtime-successor census → StreamMind full-agent release → SGLang #36690/#36678 → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 failure-instrumentation/soak-CI closure.
+### 2026-08-28 23:00 CST
+- **Hourly scan complete — no paper promotion this cycle.** Physical-AI and Multimodal/Omni 24h→7d fresh scans plus targeted 30d runtime/streaming/session-lifecycle/correctness checks completed.
+- Runtime watch: SGLang #36475 remains open for streaming-session disconnect/session-state corruption; vLLM-Omni #6403 remains open for queued-vs-running status and true cancellation semantics; SGLang-Omni #1593 remains open for failure-path observability and soak/CI closure.
+- World-model/full-duplex RFC activity in vLLM-Omni continues to strengthen WAM-rollout and long-lived-session serving as active runtime directions, but no RFC was promoted as a paper.
+- Public canonical set remains **158 verified works**; taxonomy and paper counts unchanged.
+
