@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-29 07:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; no new paper crossed the SYS-first threshold.
+- **Physical AI:** post-TimelyLLM/TypeGo successor, fleet/control-loop, edge/shared-state, heterogeneous execution, composite VLA+WAM+planner, evaluation/workload and world-model rollout searches produced canonical or below-threshold hits; no new reusable paper-level serving substrate verified.
+- **Multimodal / Omni maturity update:** SGLang-Omni Qwen3-TTS roadmap #1754 remains OPEN. T-PR2 / PR #1675 is now explicitly verified as merged into `main` on 2026-08-27, adding CUDA-Graph capture for follow-up vocoder decodes. First-party H200 measurements at c16 report +6.2%/+8.8% throughput in two candidate servers, 6.3%/9.0% lower mean inter-chunk latency, and 13.8%/15.4% lower p95 inter-chunk latency; c1 is within noise. Metrics remain PR-scoped.
+- **Still open:** #1726 mixed sampled/argmax batching and #1753 batched reference encoding remain OPEN; stateful incremental Codec ownership/cancellation-safe reuse, slack/playback-aware scheduling, admission retuning and streaming-readiness/backpressure remain roadmap work. P/D roadmap #1760 still says nothing has merged; Stage-1 #1517 remains the gate.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** #1754 T-PR7→T-PR14/T-PR19 + #1726/#1753 landing → #1760 #1517 + placement/overload chain → post-TimelyLLM/TypeGo successor census → vLLM-Omni lifecycle/batching → SGLang/SGLang-Omni correctness closure → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-29 06:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; no new paper crossed the SYS-first threshold.
