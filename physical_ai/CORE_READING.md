@@ -22,6 +22,7 @@ This list is ordered by **systems value**, not by citation count.
 | A+ | DeepInsight | cross-stack Physical-AI evaluation/runtime infrastructure | https://arxiv.org/abs/2606.17574 |
 | A+ | RoboArena | distributed real-robot evaluation network | https://arxiv.org/abs/2506.18123 |
 | A+ | RLinf-VLA / RLinf | distributed embodied/VLA RL runtime and resource allocation | https://arxiv.org/abs/2510.06710 |
+| A+ | TypeGo | embodied-agent OS runtime: process/PCB lifecycle, physical-resource arbitration, preemption and async multi-timescale planning | https://arxiv.org/abs/2607.05482 |
 
 ## Important SYS–ALG boundary line
 

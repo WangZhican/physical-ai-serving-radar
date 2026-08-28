@@ -73,3 +73,7 @@ Routes 3/5/8/9/11 now explicitly track systems that decouple latency-critical li
 
 ### 2026-08-28 refinement: latent freshness as a Physical-AI edge resource signal
 Routes P4/P5/P8 now explicitly track task-relevant latent freshness (AoL/AoI-like signals) when it drives sensor admission, temporal integration windows, encoder selection, wireless scheduling/power, and uncertainty-aware edge decisions. Algorithmic optimization alone stays `SYS_ALG_BOUNDARY`; `CORE_SYS` requires a reusable runtime/scheduler/deployment substrate.
+
+
+### 2026-08-28 23:58 CST — OS-style embodied process/resource runtime
+Routes P2/P3/P7 now explicitly include embodied-agent OS runtimes. **TypeGo** is the anchor: task processes/PCBs carry scheduling state, a Skill Kernel owns typed physical-resource arbitration, and preemption/resumption plus asynchronous reflex/action/decomposition/scheduling loops are first-class runtime semantics. This is a runtime/resource-management branch, not merely fast/slow planning.

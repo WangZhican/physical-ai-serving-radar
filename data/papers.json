@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-28T12:00:00+08:00",
-  "count": 158,
+  "updated": "2026-08-28T23:58:00+08:00",
+  "count": 159,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2252,6 +2252,24 @@
       "official_page": "https://arxiv.org/abs/2608.09411",
       "repo": "",
       "system_contribution": "Freshness-aware edge/resource-control formulation for wireless multi-camera Physical-AI perception. Age-of-Latent (AoL) tracks task-relevant latent freshness at the base station; task-level temporal-window selection is jointly coupled with slot-level encoder selection, camera scheduling and NOMA power allocation under prediction-reliability constraints."
+    },
+    {
+      "id": "arxiv:2607.05482",
+      "title": "TypeGo: An OS Runtime for Embodied Agents",
+      "system": "TypeGo",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv / AgenticOS @ SOSP 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.05482",
+      "repo": "",
+      "system_contribution": "OS-style runtime for embodied agents. TypeGo turns concurrent embodied tasks into processes/PCBs, uses a Skill Kernel to arbitrate typed physical subsystems, preempts/resumes tasks with source-dependent semantics, runs S0-S3 asynchronous planning loops at multiple timescales, and overlaps speculative skill streaming with physical execution. Unitree Go2 prototype reports 50% lower per-step delay than step-by-step planning and 73% lower time-to-first-action than monolithic planning, with ~200 ms S3 scheduling and ~50 ms reflex overhead."
     }
   ]
 }

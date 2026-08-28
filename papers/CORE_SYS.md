@@ -178,3 +178,7 @@ Reusable execution/evaluation infrastructure with CaP-Gym interactive environmen
 
 ## 2026-08-28 10:02 CST — always-on streaming multimodal runtime
 - **StreamArena / StreamMind** — arXiv:2608.05703 — **A**, Routes 3/5/8/9/11. Independently scheduled frontend workers handle latency-critical interaction and proactive monitoring while asynchronous backend workers build persistent multimodal memory, perform historical recall, and invoke external search. Official project reports 27.5 s weighted query-to-answer latency versus 81.4 s for the same offline backbone (66.2% reduction). Official Apache-2.0 toolkit verified (~15 stars / 1 fork); full StreamMind agent implementation is still marked coming soon. Paper: https://arxiv.org/abs/2608.05703 · Repo: https://github.com/JIA-Lab-research/StreamArena
+
+
+## 2026-08-28 23:58 CST — TypeGo
+- [**TypeGo: An OS Runtime for Embodied Agents**](https://arxiv.org/abs/2607.05482) — **A+**, Routes P2/P3/P7, also listed at **AgenticOS @ SOSP 2026**. TypeGo turns concurrent embodied tasks into processes with PCBs, introduces a Skill Kernel that arbitrates typed physical resources, supports preemption/source-dependent resumption, and runs asynchronous S0–S3 loops from reflexes to semantic task scheduling. Speculative skill streaming overlaps planning with execution. The Unitree Go2 prototype reports 50% lower per-step delay than step-by-step planning and 73% lower TTFA than monolithic planning. No official implementation repo was verified this cycle.

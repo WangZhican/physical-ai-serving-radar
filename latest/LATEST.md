@@ -785,3 +785,9 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - World-model/full-duplex RFC activity in vLLM-Omni continues to strengthen WAM-rollout and long-lived-session serving as active runtime directions, but no RFC was promoted as a paper.
 - Public canonical set remains **158 verified works**; taxonomy and paper counts unchanged.
 
+
+
+### 2026-08-28 23:58 CST
+- **CORE_SYS +1:** [TypeGo: An OS Runtime for Embodied Agents](https://arxiv.org/abs/2607.05482) — A+, Routes P2/P3/P7; historical omission recovery.
+- TypeGo adds an OS-style runtime abstraction for concurrent physical tasks: process/PCB lifecycle, Skill Kernel resource arbitration, preemption/resumption and asynchronous multi-timescale planning. Unitree Go2 prototype reports 50% lower per-step delay and 73% lower TTFA against the paper baselines.
+- No official implementation repo was verified this cycle. Fresh dual-track 24h→7d + targeted 30d scanning found no additional paper-level promotion. Public canonical set is now **159 verified works**.

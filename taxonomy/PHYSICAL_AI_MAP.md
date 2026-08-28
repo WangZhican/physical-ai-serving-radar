@@ -21,7 +21,7 @@ Beyond KV cache: vision features, planner transitions, action intermediates, rec
 GPU/XPU/NPU placement, phase asymmetry, CPU–GPU partitioning, memory swapping and shared accelerator management. **Anchors:** Characterizing VLA across XPUs, PAAM, GCAPS, OOM-Free Alpamayo, Hybrid Block-Layer VLA inference.
 
 ## P7. Composite VLA + WAM + Planner Serving
-Graph/walk abstractions for perception → reasoner → planner → policy → WAM → verifier/safety, including shared intermediate state and per-component SLOs. **Anchors:** M*, PhyAI, vLLM-Omni, ROSA.
+Graph/walk abstractions for perception → reasoner → planner → policy → WAM → verifier/safety, including shared intermediate state and per-component SLOs. **Anchors:** M*, PhyAI, vLLM-Omni, ROSA, TypeGo.
 
 ## P8. Workload Characterization / Performance Modeling
 Model/hardware/network landscapes, control-time rooflines, wireless discovery/transport behavior and deployment cost-energy-time modeling. **Anchors:** VLA-Perf, PhyAI, Discovery Storm.
@@ -58,3 +58,6 @@ Evaluation infrastructure explicitly includes **robot coding-agent evaluation/ex
 
 ### Latent freshness at the edge
 A new P4/P5/P8 boundary subline tracks whether remotely maintained semantic/latent state is fresh enough for downstream physical decisions, including temporal integration-window selection and communication/encoding resource control. [Age-of-Latent (2608.09411)](https://arxiv.org/abs/2608.09411) is the current boundary anchor; it is not classified CORE_SYS without a reusable runtime implementation.
+
+### OS-style embodied task/process runtime
+P2/P3/P7 include runtimes that treat concurrent physical tasks as schedulable processes and robot subsystems as kernel-managed resources. **TypeGo** is the anchor: process control blocks, Skill Kernel arbitration, preemption/source-aware resumption, and asynchronous S0–S3 loops make task lifecycle and physical-resource exclusivity first-class runtime semantics.
