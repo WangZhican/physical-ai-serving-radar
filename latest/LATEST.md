@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-29 03:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed.
+- **Physical AI:** no new paper-level SYS promotion; fleet/multi-robot, unified/control-loop runtime, edge/shared-state, heterogeneous execution, composite VLA+WAM+planner, evaluation/workload and world-model rollout searches stayed within canonical anchors or below-threshold work.
+- **Multimodal / Omni runtime watch:** vLLM-Omni #6705 is OPEN for request-level batching support for Boogu-Image; #6691 is an OPEN RFC for model-owned dummy-run plans aligned with serving task mode. SGLang-Omni #1707 is a queue-depth/KV-slot correctness signal and #1697 a KV-budget sizing signal. These are runtime/ecosystem evidence, not paper promotions.
+- **Release guard:** first-party vLLM-Omni releases still list **v0.28.0rc1** as latest; no final v0.28.0 claim is made.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** post-TimelyLLM/TypeGo successor census → vLLM-Omni batching/lifecycle audit → SGLang-Omni queue/KV correctness + soak/CI closure → SGLang streaming/multimodal correctness → fresh 30d Multimodal SYS census → legal PDF debt retry.
+
 ## Hourly scan — 2026-08-29 02:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed.
