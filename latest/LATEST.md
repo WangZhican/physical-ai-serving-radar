@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-28 09:03 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/correctness/lifecycle/failure-observability checks completed.
+- **Physical AI:** no new paper-level SYS promotion; fleet/control-loop, unified runtime, edge/device, shared-state/runtime-recomposition, evaluation and WAM/world-model searches remained within canonical anchors or model/algorithm-centric work.
+- **Multimodal / Omni:** SGLang #36690 remains OPEN with no verified fix/regression-CI closure; #36678 remains OPEN as an opt-in per-request metrics request. vLLM-Omni #6453/#5822/#6403 remain open lifecycle/preemption/cancellation frontiers; SGLang-Omni #1593 remains open after #1595 merged.
+- **Current state:** 156 works = 113 CORE_SYS / 33 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** #36690 root-cause/fix/regression-CI → #36678 implementation/consumer path → vLLM-Omni #6453/#5822/#6439/#6403 under v0.28.0rc1 → SGLang-Omni #1593 remaining slot-pool failure instrumentation + soak/CI-nightly → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 08:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/correctness/lifecycle/failure-observability checks completed.
