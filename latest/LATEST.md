@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-28 13:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/streaming/edge-freshness checks completed.
+- **Physical AI:** no new paper-level SYS promotion; fleet/control-loop, unified runtime, shared-state/runtime-recomposition, edge/freshness and evaluation searches re-hit canonical PhyAI/Kairos/Embodied.cpp/vla.cpp or below-threshold model/algorithm work.
+- **Multimodal / Omni:** fresh serving/runtime searches re-hit canonical M*/vLLM-Omni and current streaming-state systems. PyPI verifies `vllm-omni 0.28.0rc1` released 2026-08-27 while 0.26.0 remains labeled stable; the RC/pre-release guard remains in force and open lifecycle/cancellation/reclamation items stay separately audited.
+- **Current state:** 158 works = 114 CORE_SYS / 34 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** AoL/TWI runtime-successor + StreamMind release watch → SGLang #36690/#36678 → vLLM-Omni #6453/#5822/#6439/#6403 under v0.28.0rc1 → SGLang-Omni #1593 soak/CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 12:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d Age-of-Latent/TWI, streaming-state and runtime-correctness checks completed.
