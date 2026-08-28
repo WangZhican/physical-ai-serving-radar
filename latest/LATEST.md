@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-28 14:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/streaming/edge-freshness and lifecycle/correctness checks completed.
+- **Physical AI:** no new SYS-first paper; fresh queries re-hit canonical ROSA/Kairos/PhyAI/PhyAgentOS and below-threshold algorithm/survey work.
+- **Multimodal / Omni:** no new paper promotion. Fresh serving searches re-hit canonical M*/HorizonServe/vLLM-Omni/LiveServe. First-party checks confirm SGLang #36690 and #36678, vLLM-Omni #6453/#6403, and SGLang-Omni #1593 remain open without verified closure.
+- **Current state:** 158 works = 114 CORE_SYS / 34 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** AoL/TWI runtime-successor + StreamMind full-agent release → SGLang #36690/#36678 → vLLM-Omni #6453/#5822/#6439/#6403 under v0.28.0rc1 → SGLang-Omni #1593 soak/CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 13:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/streaming/edge-freshness checks completed.
