@@ -174,3 +174,7 @@ Reusable execution/evaluation infrastructure with CaP-Gym interactive environmen
 | Title | Year/Venue | Route | System Contribution | Open Source/Repo | Paper | Priority |
 |---|---|---|---|---|---|---|
 | PinSieve: Production Selective VLM Serving and a Governed Memory Flywheel for Enterprise Content-Quality Triage | 2026 / KDD 2026 | 8/9/11 | Selective VLM cascade/routing, controlled human escalation, feedback provenance, governed refresh, staged promotion & rollback | No dedicated public repo verified | [Paper](https://arxiv.org/abs/2608.24040) · [Pinterest Labs](https://labs.pinterest.com/publications) | A+ |
+
+
+## 2026-08-28 10:02 CST — always-on streaming multimodal runtime
+- **StreamArena / StreamMind** — arXiv:2608.05703 — **A**, Routes 3/5/8/9/11. Independently scheduled frontend workers handle latency-critical interaction and proactive monitoring while asynchronous backend workers build persistent multimodal memory, perform historical recall, and invoke external search. Official project reports 27.5 s weighted query-to-answer latency versus 81.4 s for the same offline backbone (66.2% reduction). Official Apache-2.0 toolkit verified (~15 stars / 1 fork); full StreamMind agent implementation is still marked coming soon. Paper: https://arxiv.org/abs/2608.05703 · Repo: https://github.com/JIA-Lab-research/StreamArena

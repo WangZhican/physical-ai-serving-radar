@@ -523,3 +523,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Promoted **Deployment Is Not Destiny** to CORE_SYS/A (Routes 1/2/4/6/7): runtime recomposition and distributed capability/compute sharing.
 - Added omission queries for runtime robot recomposition, unseen payload attachment, multi-engine embodied runtime, shared physical state, city-scale digital twins and attribution-ready replay.
 
+
+- **2026-08-28 10:02 CST** — Added StreamArena / StreamMind (arXiv:2608.05703) as CORE_SYS/A; added always-on streaming multimodal runtime + persistent-state serving branch; refreshed hourly coverage heartbeat.

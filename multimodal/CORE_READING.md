@@ -25,6 +25,7 @@ This list is ordered by **systems importance and route coverage**.
 | A | HydraInfer | hybrid EPD scheduling | https://arxiv.org/abs/2505.12658 |
 | A | OnePiece | distributed RDMA-based AIGC workflow serving | https://arxiv.org/abs/2601.20655 |
 | A | TCM-Serve | modality-aware MLLM scheduling | https://arxiv.org/abs/2603.26498 |
+| A | StreamArena / StreamMind | always-on streaming multimodal runtime, persistent-state reuse, and causal evaluation | https://arxiv.org/abs/2608.05703 |
 
 ## Suggested reading order
 

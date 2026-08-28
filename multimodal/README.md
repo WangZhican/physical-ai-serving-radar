@@ -72,3 +72,7 @@ See [`../taxonomy/CROSSOVER.md`](../taxonomy/CROSSOVER.md).
 
 ### Runtime-adjacent post-training systems watch
 - [Relax](https://arxiv.org/abs/2604.11554): fault-isolated omni-modal RL services + asynchronous TransferQueue runtime; tracked at SYS_ALG_BOUNDARY because it is post-training infrastructure rather than online serving.
+
+
+### 2026-08-28 — StreamArena / StreamMind
+Always-on multimodal serving/evaluation anchor: latency-critical frontend interaction and monitoring are independently scheduled from asynchronous persistent-memory, recall and search workers. Persistent state reuse cuts weighted query latency by 66.2% versus the same offline backbone.

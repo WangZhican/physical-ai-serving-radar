@@ -66,3 +66,7 @@ Routes 2/3/6/7/10/11 now explicitly include systems that own an application IR, 
 - **Lingjing (Routes 1/2/9):** synchronized multi-engine urban runtime, shared state and attribution-ready multi-agent replay/evaluation.
 - **Deployment Is Not Destiny (Routes 1/2/4/6/7):** post-deployment recomposition of software, hardware and compute payloads, with distributed capability/compute sharing.
 
+
+
+### Always-on streaming multimodal runtime / persistent-state serving (added 2026-08-28 10:02 CST)
+Routes 3/5/8/9/11 now explicitly track systems that decouple latency-critical live interaction from asynchronous persistent-memory construction, historical recall and tool/search work. **StreamArena / StreamMind (2608.05703)** is the anchor. Promotion requires explicit runtime scheduling/state reuse or serving/evaluation infrastructure, not merely a streaming-model architecture.

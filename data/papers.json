@@ -2182,6 +2182,26 @@
       "official_page": "https://labs.pinterest.com/publications",
       "repo": "",
       "system_contribution": "Production selective-VLM serving control plane: cascade routing to a bounded VLM on grey-zone traffic, controlled human escalation, routing/audit provenance, governed feedback refresh, staged promotion and rollback."
+    },
+    {
+      "id": "arxiv:2608.05703",
+      "title": "StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        5,
+        8,
+        9,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper": "https://arxiv.org/abs/2608.05703",
+      "official_page": "https://hkuzxc.github.io/StreamArena_web/",
+      "repo": "https://github.com/JIA-Lab-research/StreamArena",
+      "system_contribution": "Always-on multimodal streaming runtime/evaluation substrate: independently scheduled frontend interaction/monitor workers plus asynchronous backend persistent-memory, recall and search workers; persistent state reuse reduces online query latency."
     }
   ]
 }

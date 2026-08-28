@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-08-28 03:00 CST
+**Last updated: 2026-08-28 10:02 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -29,6 +29,7 @@ The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni
 | vLLM-Omni | 2026 / arXiv | P2, P7, M1, M3 | Fully disaggregated any-to-any multimodal serving runtime | [repo](https://github.com/vllm-project/vllm-omni) | [paper](https://arxiv.org/abs/2602.02204) | S |
 | HorizonServe | 2026 / arXiv | P3, P6, M2, M8 | Heterogeneous-SLO scheduling with temporal/spatial GPU sharing | — | [paper](https://arxiv.org/abs/2608.01785) | A+ |
 | CaP-X | 2026 / arXiv | P9 | Open robot coding-agent evaluation/execution substrate with parallel workers and real-robot bringup | [repo](https://github.com/capgym/cap-x) | [paper](https://arxiv.org/abs/2603.22435) | A |
+| StreamArena / StreamMind | 2026 / arXiv | P3, P5, P8, P9, M-streaming | Always-on multimodal runtime with independently scheduled frontend/backend workers and persistent-state reuse | [repo](https://github.com/JIA-Lab-research/StreamArena) | [paper](https://arxiv.org/abs/2608.05703) | A |
 
 ---
 

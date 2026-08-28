@@ -683,3 +683,8 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - **Multimodal/Omni:** independent fresh scan completed; no additional paper-level promotion. vLLM-Omni first-party releases still show v0.27.0rc1 as latest directly verified 0.27-series release.
 - **Coverage:** 24h → 7d, plus targeted 30d runtime-recomposition/digital-twin and Omni runtime checks.
 
+
+
+## 2026-08-28 10:02 CST
+- **CORE_SYS +1 — StreamArena / StreamMind (arXiv:2608.05703, A)**: always-on streaming multimodal runtime/evaluation substrate with frontend/backend worker decoupling and persistent-state reuse; 243 videos, 3,646 tasks, 66.2% weighted query-latency reduction.
+- Physical-AI fresh scan: no additional SYS-first promotion. Multimodal runtime frontier continues SGLang correctness/request-metrics and vLLM-Omni lifecycle/preemption/cancellation/reclamation.
