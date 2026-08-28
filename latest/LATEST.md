@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-28 20:03 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/streaming/edge-freshness/lifecycle/correctness checks completed.
+- **Physical AI:** no new SYS-first paper; fleet/multi-robot, unified/control-loop runtime, edge/shared-state, heterogeneous execution, composite VLA+WAM+planner, evaluation/workload and world-model rollout searches stayed within canonical anchors or below-threshold work.
+- **Multimodal / Omni:** no paper promotion. Fresh serving scans re-hit M*, HorizonServe, Cornfigurator/Cornserve, LiveServe and TurboServe. SGLang #36690 remains OPEN for Gemma-3n multimodal correctness and #36678 remains OPEN for opt-in per-request metrics; fresh #36830/#36829/#36822/#36820/#36807/#36802 are adjacent runtime qualification signals only.
+- **Current state:** 158 works = 114 CORE_SYS / 34 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** AoL/TWI runtime-successor + StreamMind full-agent release → SGLang #36690/#36678 → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 soak/CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 19:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/streaming/edge-freshness/lifecycle/correctness checks completed.
