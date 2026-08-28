@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-28 12:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d Age-of-Latent/TWI, streaming-state and runtime-correctness checks completed.
+- **Physical AI:** AoL/TWI reverse census found no reusable runtime-backed successor beyond the existing SYS_ALG boundary work; fleet/control-loop/runtime/world-model searches stayed within canonical anchors or below-threshold model/algorithm work.
+- **Multimodal / streaming:** official StreamArena repo still marks the paper's full StreamMind agent as `coming soon`; only the streaming evaluation driver/base class is available. Fresh serving searches re-hit canonical vLLM-Omni, M*, HorizonServe and LiveServe.
+- **Production runtime:** SGLang #36690 remains OPEN with no verified fix/regression-CI closure; #36678 remains OPEN as an opt-in per-request metrics request.
+- **Current state:** 158 works = 114 CORE_SYS / 34 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** AoL/TWI runtime-successor census → StreamMind full-agent release → #36690/#36678 → vLLM-Omni #6453/#5822/#6439/#6403 under v0.28.0rc1 → SGLang-Omni #1593 soak/CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 09:03 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/correctness/lifecycle/failure-observability checks completed.

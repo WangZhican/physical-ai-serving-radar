@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-28 12:00 CST
+- Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
+- Physical-AI coverage refreshed across fleet/control-loop, edge/resource freshness, runtime recomposition, evaluation infrastructure and world-model/runtime queries; AoL/TWI reverse census found no reusable runtime-backed successor this hour.
+- Multimodal/Omni: StreamArena official repo still marks the full StreamMind agent as `coming soon`; SGLang #36690/#36678 remain open correctness/observability frontiers with no verified fix/implementation closure.
+- Public canonical count remains **158 works = 114 CORE_SYS / 34 SYS_ALG / 4 ALG / 6 WATCH**.
+
 ## 2026-08-28 04:00 CST
 - Hourly dual-track scan completed with **no paper promotion**: CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG/WATCH +0.
 - Physical-AI coverage refreshed across fleet/control-loop, state reuse, runtime recomposition, evaluation infrastructure and world-model/runtime queries; no new SYS-first paper crossed the bar.
