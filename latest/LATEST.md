@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-28 22:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical AI and Multimodal/Omni 24h→7d fresh scans plus targeted 30d runtime/streaming/edge-freshness/lifecycle/correctness checks completed.
+- **Physical AI:** no new SYS-first paper; fleet/multi-robot, unified/control-loop runtime, edge/shared-state, heterogeneous execution, composite VLA+WAM+planner, evaluation/workload and world-model rollout searches stayed within canonical anchors or below-threshold work.
+- **Multimodal / Omni runtime watch:** no paper promotion. Fresh first-party SGLang #36475 reports a streaming-session lifecycle failure mode: client disconnect can drop session context and an immediate same-session continuation can crash the scheduler. Track as runtime/session-state evidence, not as a paper. #36690 remains open for Gemma-3n multimodal correctness; SGLang-Omni #1593 remains open for failure-path observability + soak/CI closure.
+- **Current state:** 158 works = 114 CORE_SYS / 34 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** SGLang #36475 session-state recovery/fix/CI → #36690 correctness closure → AoL/TWI runtime-successor + StreamMind full-agent release → vLLM-Omni lifecycle/cancellation audit → SGLang-Omni #1593 soak/CI → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-28 21:02 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical AI and Multimodal/Omni 24h→7d fresh scans plus targeted 30d runtime/streaming/edge-freshness/lifecycle/correctness checks completed.
