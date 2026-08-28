@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-29 04:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed.
+- **Physical AI:** no new paper-level SYS promotion; post-TimelyLLM/TypeGo successor searches and fleet/control-loop/runtime/state/world-model serving scans stayed within canonical anchors or below-threshold work.
+- **Multimodal / Omni runtime watch:** SGLang-Omni **#1760** is a new high-value P/D-disaggregation roadmap. It specifies generic stage expansion, typed continuation handoff, exactly-once ownership transfer, CUDA-IPC paged-KV movement, free placement/sizing, overload visibility and future N:M prefill/decode ratios. Current first-party status explicitly says **nothing has merged**, so this is tracked as strong runtime-frontier evidence, not shipped capability or a paper promotion. The roadmap reports one-H200 overlapped-prefill inter-token gap at 2.28× non-overlap, same-GPU PD p95 first-token time <0.65 s versus 26 s for a colocated replica in the cited measurement, and a second decode half giving +46% at c8 / +66% at c16 for 1024-token prompts while providing no gain at 8128 tokens.
+- **Heterogeneous/runtime watch:** SGLang-Omni **#1777** is an open Intel CPU-support roadmap; #1779 reports a Qwen3-TTS profiler deadlock at concurrency 16. These are ecosystem signals only.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** follow #1760 Stage-1 gate (#1517) and Stage-2/3 placement+overload work to merge/release → post-TimelyLLM/TypeGo successor census → vLLM-Omni batching/lifecycle audit → SGLang-Omni queue/KV correctness + soak/CI closure → fresh 30d Multimodal SYS census → legal PDF debt retry.
+
 ## Hourly scan — 2026-08-29 03:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Independent Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed.
