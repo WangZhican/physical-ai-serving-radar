@@ -539,3 +539,4 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Completed the hourly dual-track scan; no additional CORE_SYS promotion.
 
 - 2026-08-28 17:00 CST — hourly coverage heartbeat after real dual-track fresh scan; no paper/classification change. Revalidated SGLang #36690/#36678 as open production-runtime frontiers.
+- 2026-08-28 18:00 CST — hourly coverage heartbeat after real dual-track fresh scan; no paper/classification change. Revalidated vLLM-Omni #6403 true-cancellation/status semantics and SGLang-Omni #1593 failure-observability/soak-CI as open production-runtime frontiers.

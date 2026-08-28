@@ -740,3 +740,10 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - Multimodal/Omni fresh hits re-confirmed HorizonServe and existing any-to-any/streaming/runtime anchors. SGLang #36690 and #36678 remain open; no verified Gemma-3n fix/regression-CI or shipped per-request metrics implementation was found.
 - Public canonical set remains **158 verified works**; taxonomy and paper counts unchanged.
 - Next: AoL/TWI runtime-successor census → StreamMind full-agent release → SGLang #36690/#36678 → vLLM-Omni lifecycle/cancellation/reclamation audit → SGLang-Omni #1593 soak/CI closure.
+
+### 2026-08-28 18:00 CST
+- **Hourly scan complete — no paper promotion this cycle.** Physical-AI and Multimodal/Omni each received independent 24h→7d fresh scans plus targeted 30d runtime/streaming/edge-freshness/lifecycle/correctness checks.
+- Fresh paper results re-confirmed existing PhyAI/Embodied.cpp/HorizonServe/StreamArena anchors; no new reusable serving/runtime/resource-management system crossed the SYS-first bar.
+- Runtime frontier: vLLM-Omni #6403 remains open for queued-vs-running status and true cancellation semantics; SGLang-Omni #1593 remains open, with its issue text still leaving four slot-pool failure events and comm-layer-triggered soak/nightly policy outstanding after #1595 covered the paged-KV/transport/direct-IPC trace gaps.
+- Public canonical set remains **158 verified works**; taxonomy and paper counts unchanged.
+- Next: AoL/TWI runtime-successor census → StreamMind full-agent release → SGLang #36690/#36678 → vLLM-Omni #6453/#5822/#6439/#6403 → SGLang-Omni #1593 failure-instrumentation/soak-CI closure.
