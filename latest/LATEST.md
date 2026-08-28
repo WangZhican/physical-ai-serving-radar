@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-29 05:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; 0 promotion is not 0 search.
+- **Physical AI:** no new paper-level SYS promotion; post-TimelyLLM/TypeGo successor, fleet/control-loop, edge/shared-state, heterogeneous execution, composite VLA+WAM+planner, evaluation/workload and world-model rollout searches stayed within canonical anchors or below-threshold work.
+- **Multimodal / Omni runtime watch:** SGLang-Omni **#1754** materially sharpens the Qwen3-TTS production-serving roadmap around stateful incremental Codec decoding, request-slot-indexed state, cancellation/finish-safe slot reuse, COLD/WARM CUDA Graphs, compatibility/slack-aware vocoder scheduling, playback-pressure feedback into Talker scheduling, named serving profiles, admission retuning, and explicit streaming-readiness/backpressure hardening. This is an ecosystem/runtime roadmap, not a paper promotion.
+- **Correctness/heterogeneity watch:** fresh first-party issue **#1782** reports Qwen3-Omni text-only startup failure with thinker TP>1; the NPU roadmap (#1597) remains partially implemented with CI/model coverage still incomplete. These are qualification signals only.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** trace #1754 T-PR7→T-PR14/T-PR19 landing chain and cancellation/state-slot tests → #1760 P/D-disaggregation merge gates → post-TimelyLLM/TypeGo successor census → vLLM-Omni lifecycle/batching → SGLang/SGLang-Omni correctness closure → fresh 30d Multimodal SYS census → legal PDF debt retry.
+
 ## Hourly scan — 2026-08-29 04:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed.
