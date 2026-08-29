@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-29 10:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; no new paper crossed the SYS-first threshold.
+- **Physical AI:** fresh fleet/runtime/control-loop/edge/shared-state/heterogeneous/composite VLA+WAM+planner/evaluation/world-model searches re-hit canonical anchors; no new reusable serving substrate was verified.
+- **vLLM-Omni realtime maturity:** issue [#6474](https://github.com/vllm-project/vllm-omni/issues/6474) is now closed through merged PR [#6564](https://github.com/vllm-project/vllm-omni/pull/6564) (merged 2026-08-26). The fix handles a final-stage raw terminal with no processed output by emitting an exactly-once terminal completion for non-duplex realtime requests, preventing the client from waiting forever for `response.audio.done`. First-party validation reports 3 targeted terminal regressions, 197 related CPU tests, and a long-audio Qwen3-Omni realtime GPU regression on 2×L20X passed.
+- **Lifecycle guard:** this closes one concrete completion failure mode, not the full session-lifecycle problem. Request-scoped mutable stage state [#6453](https://github.com/vllm-project/vllm-omni/issues/6453), queued-vs-running / true cancellation [#6403](https://github.com/vllm-project/vllm-omni/issues/6403), and aborted-diffusion output reclamation [#6413](https://github.com/vllm-project/vllm-omni/issues/6413) remain separate active frontiers.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** #6453 → #6403 → #6413/#6439 post-#6564 lifecycle audit → SGLang-Omni #1724 merge/CI + zero-token leaf cleanup → #1754/#1726/#1753 landing → #1760 Stage-1/placement/overload → post-TimelyLLM/TypeGo successor census → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-29 09:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; no new paper crossed the SYS-first threshold.
