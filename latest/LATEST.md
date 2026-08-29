@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-29 08:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; no new paper crossed the SYS-first threshold.
+- **New runtime signal:** first-party SGLang-Omni #1723 identifies an O(leaves) radix-cache eviction heap rebuild on the scheduler thread once the KV pool saturates. Under the reported zero-hit short-request workloads, qwen3_tts c32 loses ~17–19% QPS and audio-TTFP p95 rises ~62%; qwen3_asr can collapse by ~92% QPS. This is runtime/cache evidence, not a paper promotion.
+- **Fix maturity:** linked PR #1724 remains OPEN. Its persistent lazy eviction heap reports post-saturation qwen3_tts +19% QPS / -18% p95 and qwen3_asr roughly 4–5x QPS with ~5x lower p95 versus the affected baseline; additional soak data keeps per-evict p50 around 50–66 us as leaves grow. Treat all numbers as PR-scoped until merge/release.
+- **Lifecycle caveat:** #1724 also reports zero-token partition leaves accumulating under unique `extra_key`; the heap fix bounds eviction cost but does not itself prove that underlying leaf growth is cleaned up. Track leaf lifecycle/state ownership separately.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** #1724 merge/CI + leaf-lifecycle cleanup → #1754 T-PR7→T-PR14/T-PR19 + #1726/#1753 → #1760 #1517 + placement/overload chain → post-TimelyLLM/TypeGo successor census → vLLM-Omni lifecycle/batching → correctness closure → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-29 07:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; no new paper crossed the SYS-first threshold.
