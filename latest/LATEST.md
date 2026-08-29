@@ -1,3 +1,11 @@
+## Hourly scan — 2026-08-29 09:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; no new paper crossed the SYS-first threshold.
+- **Physical AI:** fresh fleet/runtime/control-loop/edge/shared-state/heterogeneous/composite VLA+WAM+planner/evaluation/world-model searches re-hit canonical anchors or model/algorithm-centric work; no new reusable serving substrate was verified.
+- **Multimodal / Omni:** SGLang-Omni #1723/#1724 remains the active cache/runtime frontier from the prior hour; no verified #1724 merge/release was found, and zero-token leaf lifecycle remains a separate unresolved concern. Fresh SGLang #36894 is adjacent general scheduler-lifecycle evidence (LoRA unload deadlock after parallel-sampling traffic), not a direct Physical-AI/Multimodal promotion.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** #1724 merge/CI + leaf-lifecycle cleanup → #1754 T-PR7→T-PR14/T-PR19 + #1726/#1753 → #1760 #1517 + placement/sizing/overload chain → post-TimelyLLM/TypeGo successor census → vLLM-Omni lifecycle/batching → correctness closure → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-29 08:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; no new paper crossed the SYS-first threshold.
