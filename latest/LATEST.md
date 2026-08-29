@@ -1,3 +1,13 @@
+## Hourly scan — 2026-08-29 12:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d lifecycle/cache/runtime checks completed; no new paper crossed the SYS-first threshold.
+- **Physical AI:** fresh fleet/runtime/control-loop/edge/shared-state/heterogeneous/composite VLA+WAM+planner/evaluation/world-model searches re-hit canonical PhyAI/Zetta-class anchors or model/algorithm-centric work; no new reusable serving substrate was verified.
+- **vLLM KV-offload fix in review:** issue [#54193](https://github.com/vllm-project/vllm/issues/54193) now links OPEN PR [#54288](https://github.com/vllm-project/vllm/pull/54288). It changes the finished-request offload watermark to `req.num_tokens - 1`, so the final sampled token whose KV was never computed is not persisted. The PR reports 241 passed / 2 skipped in its connector unit suite; this remains PR-scoped until merge/release.
+- **Integrity correction:** an earlier private scan note misidentified SGLang #36877. [#36877](https://github.com/sgl-project/sglang/issues/36877) is the Anthropic rolling-`cache_control` prefix-cache invalidation issue. The disconnected-streaming zombie-request issue is [#36333](https://github.com/sgl-project/sglang/issues/36333), while [#36475](https://github.com/sgl-project/sglang/issues/36475) is the separate streaming-session disconnect rollback/KV-leak crash. The radar now tracks these as distinct lifecycle/cache contracts.
+- **SGLang-Omni:** PR #1724 remains active/open in current first-party activity; no verified merge/release this cycle. Persistent lazy eviction heap and zero-token leaf cleanup remain separate runtime frontiers.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** vLLM #54288 merge/CI → SGLang #36333/#36418 + #36475 lifecycle closure → #36877 cache-control correctness → SGLang-Omni #1724/leaf cleanup → vLLM-Omni lifecycle/cancellation/reclamation → #1754/#1760 landing → post-TimelyLLM/TypeGo successor census → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-29 10:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d runtime/session-lifecycle/correctness checks completed; no new paper crossed the SYS-first threshold.
