@@ -880,3 +880,9 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - **CORE_SYS +1:** [TypeGo: An OS Runtime for Embodied Agents](https://arxiv.org/abs/2607.05482) — A+, Routes P2/P3/P7; historical omission recovery.
 - TypeGo adds an OS-style runtime abstraction for concurrent physical tasks: process/PCB lifecycle, Skill Kernel resource arbitration, preemption/resumption and asynchronous multi-timescale planning. Unitree Go2 prototype reports 50% lower per-step delay and 73% lower TTFA against the paper baselines.
 - No official implementation repo was verified this cycle. Fresh dual-track 24h→7d + targeted 30d scanning found no additional paper-level promotion. Public canonical set is now **159 verified works**.
+
+## 2026-08-29 11:00 CST
+- No new paper-level promotion after full Physical-AI + Multimodal/Omni fresh scan.
+- Runtime substrate watch: SGLang #36877 exposes a client-disconnect abort race that can leave zombie requests during a batch-transition window.
+- Cache/state correctness watch: vLLM #54193 reports decode-side KV offloading may persist an unwritten final-token slot and silently poison later requests when decode offload is enabled.
+- These are generic serving-substrate signals, not additions to CORE_SYS/SYS_ALG paper counts.
