@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-31 12:58 CST
+- No new paper promotion after real Physical-AI + Multimodal/Omni 24h→7d scans plus targeted 30d world-model/session/runtime follow-up.
+- Added vLLM-Omni **#6672 LingBot World 2.0 Continuous Development Roadmap** as high-value runtime WATCH evidence, not as a paper or shipped feature.
+- Route 10 is becoming more concrete around stateful interactive world-model session serving: long-lived request identity, mid-stream interaction, streaming decode, session affinity/backpressure, state/paging and disaggregated diffusion.
+- Canonical paper count remains **161 = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH**; public repo stores no PDFs.
+
 ## 2026-08-29 01:02 CST
 - Recovered **TimelyLLM** (arXiv:2412.18695 / ACM MobiSys 2026) as `CORE_SYS / A+`, Routes 1/3/8. Official MobiSys pages verify **Best Paper Runner-up** and **Best Artifact Runner-up**; the system serves multiple robotic agents via segmented generation and timing-aware scheduling that overlap plan generation with physical execution.
 - Added **TypeFly** (arXiv:2312.14950 / IEEE TMC 2025) as `SYS_ALG_BOUNDARY / A`, Routes 3/4/7. Official project/repo verified; current public crawl shows ~110 stars / 25 forks. Kept below CORE_SYS because compact plan representation and runtime design are co-primary.

@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-31 12:58 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH paper-record +0. Runtime-roadmap watch +1: vLLM-Omni [#6672](https://github.com/vllm-project/vllm-omni/issues/6672).
+- **Coverage:** completed real Physical-AI + Multimodal/Omni 24h→7d fresh scans plus targeted 30d world-model/session/runtime checks; no new paper crossed the SYS-first threshold.
+- **World-model serving frontier:** #6672 moves LingBot World 2.0 from basic offline integration toward production-like interactive serving. First-party realtime measurements are ~4.5–4.7 pixel-equivalent FPS on 1×H200 and ~6.8–7.0 FPS on 2×H200; target is ≥12 FPS on at most 2 H-series GPUs.
+- **System mechanisms under watch:** one long-lived request/session, mid-stream camera+prompt updates, streaming VAE decode, session affinity, backpressure, paged-KV/session-memory sizing, regression/profiling harnesses and disaggregated diffusion inference. These strengthen Routes 3/5/7/10, but remain issue/roadmap evidence until merged/released.
+- **Current canonical state:** 161 papers/works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. Public repo contains no PDFs or private server state.
+- **Next:** #6672 lineage landing/release audit (#6227/#6233/#6533/#6534/#6646/#6294/#4590) → vLLM #54288/#54193 closure → SGLang lifecycle fixes → SGLang-Omni #1724/leaf cleanup → post-TimelyLLM/TypeGo successor census → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-29 13:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d lifecycle/cache/runtime checks completed; no new paper crossed the SYS-first threshold.
