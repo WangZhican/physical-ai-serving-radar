@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-01 02:58 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** completed fresh 24h→7d Physical-AI + Multimodal/Omni SYS-first scan across arXiv fresh surfaces and first-party vLLM-Omni/SGLang runtime ecosystems.
+- **Runtime qualification:** fresh SGLang #37215 is a generic distributed-serving TCPStore/DP initialization failure signal, not a direct Physical-AI/Multimodal promotion; vLLM-Omni world-model and heterogeneous hits were existing/canonical.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** #6665/#6852/#6672 landing/fix lineage → vLLM-Omni final-release transition → #4480 generalized world-model session-memory implementation/landing → SGLang multimodal lifecycle/correctness closure → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 02:02 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
