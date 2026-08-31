@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-31 17:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** completed fresh Physical-AI + Multimodal/Omni 24h→7d scans plus targeted heterogeneous/world-model/runtime follow-up. Fresh paper queries re-hit canonical Kairos, PhyAI, LiveServe and M*; no new reusable serving substrate was verified.
+- **Runtime qualification:** vLLM-Omni #6852 remains the freshest direct heterogeneous Omni signal: Ascend/NPU MiniMax-H3 diffusion with INT8 online quantization fails in the reported distributed-offload/cache/sparse-attention configuration. Keep this as Route 6/10 WATCH evidence, not a paper promotion or framework-wide incompatibility claim.
+- **Canonical state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No new paper triggered a PDF download.
+- **Taxonomy:** unchanged; heterogeneous serving and stateful world-model serving remain active qualification frontiers.
+- **Next:** #6852 fix/CI audit → #37187/#37183 linked fixes → #36690 regression closure → #6672 interactive world-model lineage → vLLM #54288/#54193 → SGLang lifecycle/cache correctness → SGLang-Omni #1724 → fresh 30d Multimodal SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-08-31 12:58 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH paper-record +0. Runtime-roadmap watch +1: vLLM-Omni [#6672](https://github.com/vllm-project/vllm-omni/issues/6672).
