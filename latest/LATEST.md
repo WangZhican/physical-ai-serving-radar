@@ -1,3 +1,14 @@
+## Hourly scan — 2026-08-29 13:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d lifecycle/cache/runtime checks completed; no new paper crossed the SYS-first threshold.
+- **Physical AI:** fresh fleet/runtime/control-loop/edge/shared-state/heterogeneous/composite VLA+WAM+planner/evaluation/world-model searches produced canonical or algorithm/application-centric hits; no new reusable serving substrate was verified.
+- **vLLM KV-offload:** issue [#54193](https://github.com/vllm-project/vllm/issues/54193) remains OPEN; fix PR [#54288](https://github.com/vllm-project/vllm/pull/54288) is the concrete review frontier for excluding the unwritten final sampled-token KV slot from decode-side offload storage. Keep this fix-in-review until merge/release.
+- **SGLang lifecycle:** [#36333](https://github.com/sgl-project/sglang/issues/36333) remains OPEN with #36418 as the zombie-request fix path; [#36475](https://github.com/sgl-project/sglang/issues/36475) remains a separate streaming-session rollback/KV-leak crash. No shipped closure verified this cycle.
+- **SGLang-Omni cache:** #1723/#1724 remains active; no verified merge/release. Persistent lazy eviction addresses O(leaves) scheduler overhead, while zero-token leaf lifecycle growth remains a separate cleanup/ownership frontier.
+- **vLLM-Omni:** #6403 and #6413/#6439 remain open cancellation/reclamation evidence; no new shipped closure verified.
+- **Current state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Public repo carries links/metadata only.
+- **Next:** #54288 merge/CI → #36333/#36418 + #36475 closure → #1724 merge/CI + zero-token leaf cleanup → vLLM-Omni #6453/#6403/#6413/#6439 → #1754/#1760 landing → post-TimelyLLM/TypeGo successor census → fresh 30d Multimodal SYS census.
+
 ## Hourly scan — 2026-08-29 12:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / WATCH +0. Physical-AI and Multimodal/Omni 24h→7d scans plus targeted 30d lifecycle/cache/runtime checks completed; no new paper crossed the SYS-first threshold.
