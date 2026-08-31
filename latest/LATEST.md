@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-01 00:31 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** catch-up rechecked current arXiv fresh surfaces for Physical-AI/robot-serving/runtime terms, vLLM-Omni official release/runtime surfaces, and SGLang multimodal/streaming-runtime surfaces after two triggered cycles produced no durable research checkpoint.
+- **Result:** fresh hits were either already-canonical Physical-AI anchors (including PhyAI), generic serving work without direct Physical-AI/Multimodal systems novelty, or existing runtime roadmap/qualification themes. No new reusable fleet/runtime/resource-management paper was verified.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; no new paper triggered a PDF download or taxonomy split/merge.
+- **Next:** resume #6665/#6852/#6672 landing/fix audit → multimodal correctness/lifecycle closure → fresh 30d SYS census → remaining legal PDF debts.
+
 ## Hourly scan — 2026-08-31 19:03 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
