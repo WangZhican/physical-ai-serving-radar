@@ -907,3 +907,11 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - Runtime substrate watch: SGLang #36877 exposes a client-disconnect abort race that can leave zombie requests during a batch-transition window.
 - Cache/state correctness watch: vLLM #54193 reports decode-side KV offloading may persist an unwritten final-token slot and silently poison later requests when decode offload is enabled.
 - These are generic serving-substrate signals, not additions to CORE_SYS/SYS_ALG paper counts.
+
+
+## 2026-08-31 11:18 CST — watchdog catch-up recovery
+- **Incident recovered:** the dedicated Physical-AI radar had been stale since 2026-08-29 13:00 CST. The primary tracker is enabled again and a real catch-up scan was completed.
+- Coverage completed: Physical-AI + Multimodal/Omni SYS-first 24h -> 7d fresh scan plus targeted 30d lifecycle/cache/runtime checks. No new paper crossed the canonical promotion bar.
+- Revalidated runtime frontiers: vLLM #54193/#54288 (KV-offload correctness), SGLang #36333/#36418 and #36475 (disconnect/session lifecycle), SGLang-Omni #1723/#1724 (radix-cache eviction), and vLLM-Omni #6403/#6413/#6439/#6453 (cancellation/reclamation/request-scoped state). Issue/PR progress is not treated as shipped without merge/release evidence.
+- Public dataset remains **161 verified works**; taxonomy unchanged.
+- Internal archive recovered two previously pending official PDFs (TimelyLLM and TypeFly); PDFs are intentionally not stored in this public repository.

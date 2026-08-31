@@ -552,3 +552,10 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 
 ## 2026-08-29 06:00 CST
 - Runtime maturity update, no paper promotion: SGLang-Omni Qwen3-TTS startup-safety PR #1786 verified merged; #1726/#1753 remain open and #1760 P/D-disaggregation remains unmerged.
+
+
+## 2026-08-31 11:18 CST
+- Recovered the radar after a stale-heartbeat incident; performed a substantive 24h/7d + targeted 30d SYS-first catch-up scan rather than a heartbeat-only repair.
+- No paper/classification promotion. Revalidated active lifecycle/cache correctness frontiers across vLLM, vLLM-Omni, SGLang and SGLang-Omni.
+- Corrected the public heartbeat count to the already-present machine-readable canonical set of **161 works**.
+- No PDFs or private server artifacts were added to the public repository.
