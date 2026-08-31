@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-01 03:57 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** completed fresh 24h→7d Physical-AI + Multimodal/Omni SYS-first scan across fleet/runtime, unified Physical-AI runtime, multimodal serving and first-party SGLang runtime surfaces.
+- **Candidate qualification:** Physical Agentic AI (arXiv:2608.22657) was checked as multi-robot orchestration evidence but remains planning/execution architecture rather than inference-serving/resource-management substrate, so no SYS promotion.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** #6665/#6852/#6672 landing/fix lineage → #4480 world-model session-memory → multimodal lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 02:58 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
