@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-01 01:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** completed fresh 24h→7d Physical-AI + Multimodal/Omni SYS-first scan across arXiv fresh surfaces and first-party vLLM-Omni/SGLang runtime ecosystems.
+- **Runtime/release check:** vLLM-Omni v0.28.0rc1 remains the newest verified release surface; no final v0.28.0 transition or new paper-level system promotion was verified this cycle. Fresh arXiv hits were canonical or algorithm-centric.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** #6665/#6852/#6672 landing/fix audit → v0.28 final-release transition → multimodal correctness/lifecycle closure → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 00:31 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
