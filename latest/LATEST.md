@@ -928,3 +928,6 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 
 ### 2026-08-31 14:02 CST heartbeat
 Real SYS-first 24h→7d plus targeted 30d runtime scan completed. No new canonical paper promotion this cycle. vLLM-Omni #6672 remains the active interactive world-model serving roadmap; vLLM #54193 and SGLang #36333/#36475 remain open lifecycle/correctness frontiers.
+
+### 2026-08-31 15:11 CST heartbeat
+Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-up completed. No new canonical paper promotion. Fresh runtime WATCH signals: SGLang #37187 (Qwen3.5 visual-encoder PP weight-filtering correctness) and #37183 (LMCache per-request cache-salt tenant-isolation correctness). #36690 remains an open multimodal shared-KV qualification signal. Public canonical set remains 161 works; taxonomy unchanged.
