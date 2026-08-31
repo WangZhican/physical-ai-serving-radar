@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-01 02:02 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** completed fresh 24h→7d Physical-AI + Multimodal/Omni SYS-first searches across arXiv and first-party vLLM-Omni/SGLang runtime surfaces.
+- **Runtime/session check:** fresh results re-hit canonical ROSA, Embodied.cpp, Kairos, PhyAI, M* and existing world-model/session-runtime RFCs. vLLM-Omni #4480 remains the generalized world-model session-memory frontier; BWM #4903 and OmniDreams #4126 remain model-integration evidence rather than new system papers.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** #6665/#6852/#6672 landing/fix lineage → final-release transition → #4480 session-memory implementation/landing → multimodal correctness/lifecycle closure → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 01:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
