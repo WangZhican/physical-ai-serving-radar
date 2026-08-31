@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-31 18:02 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** completed real Physical-AI + Multimodal/Omni 24h→7d scans plus targeted 30d diffusion/heterogeneous-runtime follow-up.
+- **Runtime roadmap:** vLLM-Omni #6665 (Boogu-Image) sharpens Route 6/10 maturity debt: current native serving is single-GPU, while multi-GPU TP/SP/CFG/HSDP and CPU/layerwise offload remain planned/unvalidated. #6852 remains open Ascend/NPU INT8 diffusion qualification debt.
+- **Canonical state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No new paper triggered a PDF download.
+- **Taxonomy:** unchanged; heterogeneous placement/offload for diffusion/world-model serving remains an active systems gap.
+- **Next:** #6665 child-issue landing audit + #6852 fix/CI → #37187/#37183 → #36690 regression closure → #6672 interactive world-model lineage → vLLM #54288/#54193 → SGLang lifecycle/cache → SGLang-Omni #1724 → fresh 30d Multimodal SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-08-31 17:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
