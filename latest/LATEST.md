@@ -1,3 +1,12 @@
+## Hourly scan — 2026-08-31 19:03 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** completed fresh Physical-AI + Multimodal/Omni 24h→7d SYS-first scans plus targeted heterogeneous/diffusion runtime follow-up.
+- **Runtime qualification:** SGLang #36853 reports native Qwen-Image diffusion serving with SP=4 on 4×48GB GPUs being killed by host OOM while loading DiT. Treat this as Route 6 and adjacent Route 10 qualification evidence, not a paper promotion. vLLM-Omni #6852 remains the Ascend/NPU INT8 diffusion qualification frontier.
+- **Canonical state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No new paper triggered a PDF download.
+- **Taxonomy:** unchanged; heterogeneous diffusion/world-model serving remains an active systems qualification gap.
+- **Next:** #36853 root-cause/fix/CI → #6852 → #6665 child-issue landing → #37187/#37183 → #36690 regression closure → #6672 interactive world-model lineage → vLLM #54288/#54193 → SGLang-Omni #1724 → fresh 30d Multimodal SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-08-31 18:02 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
