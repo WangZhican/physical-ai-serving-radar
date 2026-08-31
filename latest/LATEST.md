@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-01 04:58 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** completed fresh 24h→7d Physical-AI + Multimodal/Omni SYS-first scan across fresh first-party SGLang runtime/correctness surfaces and vLLM-Omni world-model lineage.
+- **Runtime qualification:** SGLang #37215 (DP=8 TCPStore EADDRINUSE on 8×H800) and #36938 (mixed-batch prefill-logprob ownership shift after retract/finish) were retained as useful general serving robustness/correctness evidence, but neither is sufficiently direct for Physical-AI/Omni canonical promotion. World-model searches re-hit existing LingBot/DreamZero lineage.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** #6665/#6852/#6672 landing/fix lineage → vLLM-Omni final-release transition → #4480 generalized world-model session-memory implementation/landing → SGLang multimodal lifecycle/correctness closure → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 03:57 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
