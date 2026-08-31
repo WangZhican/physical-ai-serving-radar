@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-01 07:04 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** completed fresh 24h→7d Physical-AI + Multimodal/Omni SYS-first scan across first-party runtime/release surfaces.
+- **Release/runtime qualification:** vLLM-Omni installation documentation now targets stable base vLLM 0.28.0, closing the prior base-runtime 0.28.0rc1 transition watch. This does **not** claim that vLLM-Omni itself has a new stable package release. LingBot #6672 and SGLang #36475/#36690 remain open runtime frontiers.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** audit vLLM-Omni own package/release transition → #6665/#6852/#6672 → #4480 generalized world-model session memory → #36475/#36690 lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 04:58 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
