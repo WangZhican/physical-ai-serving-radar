@@ -924,3 +924,7 @@ Fresh 24h/7d SYS-first scan completed; no newer direct Physical-AI/Multimodal se
 - Revalidated runtime frontiers: vLLM #54193/#54288 (KV-offload correctness), SGLang #36333/#36418 and #36475 (disconnect/session lifecycle), SGLang-Omni #1723/#1724 (radix-cache eviction), and vLLM-Omni #6403/#6413/#6439/#6453 (cancellation/reclamation/request-scoped state). Issue/PR progress is not treated as shipped without merge/release evidence.
 - Public dataset remains **161 verified works**; taxonomy unchanged.
 - Internal archive recovered two previously pending official PDFs (TimelyLLM and TypeFly); PDFs are intentionally not stored in this public repository.
+
+
+### 2026-08-31 14:02 CST heartbeat
+Real SYS-first 24h→7d plus targeted 30d runtime scan completed. No new canonical paper promotion this cycle. vLLM-Omni #6672 remains the active interactive world-model serving roadmap; vLLM #54193 and SGLang #36333/#36475 remain open lifecycle/correctness frontiers.
