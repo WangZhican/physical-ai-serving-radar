@@ -958,3 +958,14 @@ Real SYS-first 24h→7d plus targeted 30d runtime scan completed. No new canonic
 
 ### 2026-08-31 15:11 CST heartbeat
 Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-up completed. No new canonical paper promotion. Fresh runtime WATCH signals: SGLang #37187 (Qwen3.5 visual-encoder PP weight-filtering correctness) and #37183 (LMCache per-request cache-salt tenant-isolation correctness). #36690 remains an open multimodal shared-KV qualification signal. Public canonical set remains 161 works; taxonomy unchanged.
+
+
+## Hourly scan — 2026-08-31 20:01 CST
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / paper WATCH +0. Real Physical-AI + Multimodal/Omni 24h→7d SYS-first scans plus targeted heterogeneous/diffusion/runtime follow-up completed; 0 promotion is not 0 search.
+- **Runtime frontier:** vLLM-Omni #6665/#6672 remained open roadmap evidence with no new landing/release evidence. SGLang #36938/#36943 were retained only as generic serving-substrate correctness evidence.
+- **Canonical state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged. Internal PDF archive remained 154 valid / 4 pending; PDFs are not stored in this public repository.
+
+## Hourly scan — 2026-08-31 22:36 CST
+- **Watchdog catch-up:** canonical progress had stalled after 20:01 despite healthy triggers, so a real SYS-first 24h→7d catch-up plus targeted heterogeneous/runtime follow-up was executed.
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / paper WATCH +0. Fresh SGLang #37215 was classified as generic distributed-initialization evidence rather than a Physical-AI/Multimodal paper promotion.
+- **Canonical state:** remains 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged; internal PDF archive remains 154 valid / 4 pending.
