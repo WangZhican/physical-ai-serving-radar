@@ -1078,3 +1078,9 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Watchdog catch-up:** canonical progress had stalled after 20:01 despite healthy triggers, so a real SYS-first 24h→7d catch-up plus targeted heterogeneous/runtime follow-up was executed.
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / paper WATCH +0. Fresh SGLang #37215 was classified as generic distributed-initialization evidence rather than a Physical-AI/Multimodal paper promotion.
 - **Canonical state:** remains 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged; internal PDF archive remains 154 valid / 4 pending.
+
+## Hourly scan — 2026-09-01 16:58 CST
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / paper WATCH +0. Real 24h→7d Physical-AI + Multimodal/Omni SYS-first scan completed; fresh September arXiv surface checked.
+- **Dedup/boundary:** Persistent Computational State (arXiv:2607.21686) was re-hit and confirmed already canonical CORE_SYS; Riemann-1.0 and τ0-VLA remain model/algorithm works rather than reusable serving substrates.
+- **Canonical state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged; internal PDF archive remains 154 valid / 4 pending.
+- **Frontier:** vLLM-Omni release/session-state landing → SGLang lifecycle/correctness closure → fresh 30d SYS census.
