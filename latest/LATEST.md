@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-01 15:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first search completed; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/robot-serving/world-model/multimodal-serving arXiv surfaces plus first-party vLLM-Omni milestone/session-state and SGLang streaming-session/multimodal correctness surfaces.
+- **Fresh-paper qualification:** no new reusable serving/runtime substrate crossed threshold. PUDA (arXiv:2607.26464) was checked but remains outside canonical serving scope because its primary contribution is deterministic self-driving-lab device execution/provenance rather than inference serving/resource management.
+- **Runtime frontier:** vLLM-Omni `v0.28.0` milestone remains open at 50/129 closed (38%, 79 open). #4907 remains OPEN and sharpens Route 5/10 around copy-on-write AR-diffusion KV branching for speculative branches/RL rollouts/rollback, while full deterministic world-state completeness still requires session-level RNG/recurrent-state semantics under #4480/#4497. SGLang #36475/#36690 remain OPEN.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** v0.28.0 milestone→release → #4907/#4480/#4497 implementation/completeness → #6665/#6852/#6672 → #36475/#36690 closure → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 14:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first search completed; 0 promotion is not 0 search.
