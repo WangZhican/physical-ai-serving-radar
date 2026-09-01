@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-01 12:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first search completed; 0 promotion is not 0 search.
+- **Coverage:** fresh Physical-AI/robot-serving/runtime searches plus first-party vLLM-Omni installation/runtime and SGLang streaming-session/multimodal correctness surfaces.
+- **Release-state correction:** stable base `vllm==0.28.0` and official `vllm/vllm-omni:v0.28.0` deployment image are verified. This does **not** independently prove a separate final vLLM-Omni GitHub release tag; own-package/tag state remains under audit.
+- **Runtime qualification:** vLLM-Omni #6852 remains heterogeneous Ascend/NPU INT8 diffusion qualification evidence; SGLang #36475/#36690 remain session-lifecycle and multimodal-correctness frontiers. No new paper-level promotion.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** resolve vLLM-Omni own release/tag state → #6665/#6852/#6672 → #4480 generalized world-model session memory → #36475/#36690 closure → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 09:31 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
