@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-01 13:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first search completed; 0 promotion is not 0 search.
+- **Coverage:** fresh Physical-AI/robot-serving/runtime searches plus first-party vLLM-Omni release/milestone/session-memory and SGLang streaming-session/multimodal correctness surfaces.
+- **Release-state resolution:** first-party GitHub surfaces show vLLM-Omni latest stable release is `v0.20.0`; milestone `v0.28.0` remains open/incomplete. Stable base `vllm==0.28.0` and the official `vllm/vllm-omni:v0.28.0` deployment image therefore do **not** prove a final vLLM-Omni `v0.28.0` GitHub release.
+- **Runtime frontier:** vLLM-Omni #4907 strengthens Route 5/10 around copy-on-write AR-diffusion KV branching and explicitly points to #4480 generalized session memory as the broader ownership layer. SGLang #36475/#36690 remain lifecycle/correctness qualification signals.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** track vLLM-Omni v0.28.0 milestone/release transition → #4907/#4480 implementation/lifecycle → #6665/#6852/#6672 → #36475/#36690 closure → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 12:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first search completed; 0 promotion is not 0 search.
