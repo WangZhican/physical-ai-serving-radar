@@ -1084,3 +1084,9 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Dedup/boundary:** Persistent Computational State (arXiv:2607.21686) was re-hit and confirmed already canonical CORE_SYS; Riemann-1.0 and τ0-VLA remain model/algorithm works rather than reusable serving substrates.
 - **Canonical state:** 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged; internal PDF archive remains 154 valid / 4 pending.
 - **Frontier:** vLLM-Omni release/session-state landing → SGLang lifecycle/correctness closure → fresh 30d SYS census.
+
+## Hourly scan — 2026-09-01 20:27 CST
+- **Watchdog catch-up:** hourly trigger remained healthy, but canonical research progress had stalled after 16:58 CST; a real SYS-first 24h→7d catch-up was completed.
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / WATCH +0. Fresh checks covered Physical-AI serving/runtime, arXiv fresh surfaces, vLLM-Omni runtime/release surfaces, and SGLang router/streaming/runtime surfaces.
+- **Boundary:** fresh hits were existing runtime-roadmap signals or model/algorithm work below the SYS-first promotion bar. Canonical set remains **161 works**; taxonomy unchanged.
+- **Next:** vLLM-Omni release/session-state landing → SGLang lifecycle/correctness + composite routing → fresh 30d SYS census.
