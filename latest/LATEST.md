@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-01 15:59 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first search completed; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/robot-serving/runtime/world-model/multimodal-serving surfaces plus first-party vLLM-Omni branch/session-state and SGLang streaming-session/multimodal correctness frontiers.
+- **Fresh-paper qualification:** search primarily re-hit canonical Embodied.cpp, ROSA, PhyAI, Kairos, M* and VLA-Perf; no new reusable serving/runtime substrate crossed threshold.
+- **Runtime frontier:** vLLM-Omni #4907 remains OPEN. Copy-on-write AR-diffusion KV branching remains valuable for speculative branches/RL rollouts/rollback, while full deterministic world-state fork still requires session-level RNG/noise and recurrent-state completeness under #4480/#4497.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** v0.28.0 milestone→release → #4907/#4480/#4497 implementation/completeness → #6665/#6852/#6672 → #36475/#36690 closure → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 15:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first search completed; 0 promotion is not 0 search.
