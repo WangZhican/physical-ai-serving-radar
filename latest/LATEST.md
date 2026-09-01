@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-01 22:32 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Global-watchdog catch-up completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA runtime, world-model/session-state, Multimodal/Omni serving, streaming/full-duplex and first-party vLLM-Omni/SGLang runtime surfaces.
+- **Major runtime release:** first-party vLLM-Omni releases now verify **v0.28.0** as the latest stable release (released 2026-08-31, commit `eb11446`), with 397 merged changes from 126 contributors. The final release ships scheduler-managed paged KV for diffusion, broader full-duplex/realtime speech serving, Host Weight Runtime + no-AllGather layerwise offload, AR pause/resume and event-driven orchestration, expanded heterogeneous support, and native pi0 VLA inference support. This supersedes the prior rc1-only release state.
+- **Research-map impact:** no new paper-level canonical record or taxonomy split/merge, but Route 3/5/6/7/10 maturity evidence is upgraded from RC/roadmap to stable-release evidence. Generalized world-model session memory #4480 remains the next state-ownership frontier.
+- **Canonical state:** paper counts and PDF manifest unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** audit v0.28.0-linked #4480/#4907/#4497 session/branch-state completeness → #6665/#6852/#6672 landing/qualification → SGLang lifecycle/correctness + composite routing → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 15:59 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first search completed; 0 promotion is not 0 search.
