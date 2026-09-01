@@ -1,3 +1,13 @@
+## Hourly scan — 2026-09-02 03:28 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Global-watchdog recovery completed a real fresh 24h→7d SYS-first catch-up; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA runtime, world-model/session-state, Multimodal/Omni serving, and first-party vLLM-Omni/SGLang runtime-correctness surfaces.
+- **Fresh runtime qualification:** SGLang RunAI streaming / quantized-loading reports #37369 and #37368 were retained as below-threshold generic serving-correctness evidence; neither is a new reusable Physical-AI/Omni serving substrate.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change. vLLM-Omni #4480/#4907/#4497 plus #6672 remain the next session/state/world-model systems frontier.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Recovery:** hourly trigger was healthy, but canonical progress and public heartbeat had remained at 2026-09-01 22:32 CST; this heartbeat records the completed catch-up without manufacturing paper changes.
+- **Next:** #4480/#4907/#4497 session/branch-state completeness → #6665/#6852/#6672 landing/qualification → SGLang lifecycle/correctness + composite routing → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 22:32 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Global-watchdog catch-up completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
