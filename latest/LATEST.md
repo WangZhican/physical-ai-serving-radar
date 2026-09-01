@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-01 09:31 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
+- **Coverage:** global-watchdog recovery completed a fresh targeted 24h→7d Physical-AI + Multimodal/Omni SYS-first catch-up across fresh arXiv Physical-AI/robot-serving/runtime surfaces plus first-party vLLM/vLLM-Omni/SGLang runtime surfaces.
+- **Qualification:** fresh generic streaming/KV/runtime issues were retained as below-threshold substrate evidence; no new reusable Physical-AI/Omni serving system crossed the canonical promotion threshold.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** audit vLLM-Omni v0.28.0 release contents → #6665/#6852/#6672 → #4480 generalized world-model session memory → multimodal lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 07:04 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. No paper crossed the SYS-first threshold; 0 promotion is not 0 search.
