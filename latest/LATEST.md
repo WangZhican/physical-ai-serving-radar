@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-02 06:59 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed fresh arXiv Physical-AI/VLA runtime and world-model serving surfaces plus first-party multimodal/Omni runtime ecosystems. Fresh paper hits re-covered canonical Zetta/Z-Infra and model-centric work; no new reusable serving/resource-management substrate crossed threshold.
+- **Runtime/repo recheck:** Zetta/Z-Infra remains canonical CORE_SYS; its public artifact still exposes rollout/deployment infrastructure and remains a re-hit rather than a new promotion. Generic datacenter multimodal infrastructure such as Dynamo remains adjacent substrate evidence, not a new Physical-AI paper promotion.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change. Route 5/10 session/world-model state ownership remains the highest-value next frontier.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** #4480/#4907/#4497 session/branch-state completeness → #6665/#6852/#6672 landing/qualification → SGLang lifecycle/correctness + composite routing → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-02 03:28 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Global-watchdog recovery completed a real fresh 24h→7d SYS-first catch-up; 0 promotion is not 0 search.
