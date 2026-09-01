@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-01 14:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first search completed; 0 promotion is not 0 search.
+- **Coverage:** fresh Physical-AI/robot-serving/runtime searches plus first-party vLLM-Omni milestone/session-memory and SGLang streaming-session/multimodal correctness surfaces.
+- **Release state:** vLLM-Omni `v0.28.0` milestone remains open at 50/129 issues closed (38% complete) on the first-party milestone surface checked this cycle; no final `v0.28.0` release transition was verified. Stable base `vllm==0.28.0` is a separate release state.
+- **Lifecycle/correctness:** SGLang #36475 remains open with a reproducible client-disconnect race causing silent session-context loss, exact KV leakage and scheduler failure; #36690 remains open multimodal correctness/attention-backend qualification evidence.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge.
+- **Next:** vLLM-Omni v0.28.0 milestone/release transition → #4907/#4480 implementation/lifecycle → #6665/#6852/#6672 → #36475/#36690 closure → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-01 13:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first search completed; 0 promotion is not 0 search.
