@@ -1,3 +1,22 @@
+## Hourly scan — 2026-09-02 11:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model/session runtime, stage/state/cache infrastructure and first-party runtime roadmaps.
+- **Runtime systems update:** vLLM-Omni #6672 remains OPEN and is the clearest current integration map for production world-model serving: #6227 realtime stateful video serving, #6646 streaming backpressure, #5120/#6294 structured mid-stream interaction and #4480 generalized session memory remain distinct runtime layers around merged baseline PR #5491. The #6227 subtree already includes concrete session-affinity/paging/runtime work; #4907 remains narrow CoW-KV branching evidence, not complete deterministic world-state ownership.
+- **Qualification:** fresh SGLang #37369/#37368 RunAI streaming-weight correctness and #36690 multimodal-backend correctness remain adjacent generic serving evidence below canonical promotion threshold.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change. Route 3/5/10 state ownership + lifecycle/backpressure remains the highest-value systems frontier.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** #6227/#6233/#6481 stateful-video path → #6646 + #5120/#6294 backpressure/mid-stream interaction → #4480 typed session memory → #4907/#4909 branch completeness → SGLang-Omni lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
+## Hourly scan — 2026-09-02 09:59 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model rollout/session serving, cache/state infrastructure and first-party vLLM-Omni runtime roadmaps.
+- **Runtime roadmap update:** vLLM-Omni #6672 remains OPEN and documents the production gap for LingBot World 2.0 around realtime throughput, long-lived session semantics, mid-stream interaction, stateful video serving, backpressure, paging/state memory and disaggregation. #4480 remains the generalized typed session-memory ownership frontier; #6665/#6787 remain heterogeneous qualification evidence rather than paper promotions.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** #6672 → #6227/#6646/#5120/#6294 production session path → #4480 typed session memory → #4907/#4909 branch completeness → heterogeneous qualification → SGLang-Omni lifecycle/correctness → fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-02 08:57 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
