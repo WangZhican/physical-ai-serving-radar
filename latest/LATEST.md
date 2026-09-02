@@ -1,3 +1,13 @@
+## Hourly scan — 2026-09-02 19:59 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model rollout/session serving, cache/state infrastructure and stage/modality disaggregation. Fresh paper hits re-covered canonical LiveServe, M*, vLLM-Omni and PhyAI; no new reusable serving substrate crossed threshold.
+- **TeleFuser frontier:** PR [#36](https://github.com/Tele-AI/TeleFuser/pull/36) remains open; current public PR surface lists 6 open PRs. #42/#43/#44 are heterogeneous/runtime maturity work, not new serving papers.
+- **Cache qualification:** CacheSeek-backed latent reuse remains a strong Route-5/11 project-level signal: cross-request, prompt-similarity keyed, persistent, and externalized behind query/lookup/resume/save contracts. The missing systems evidence is now explicit: validity-threshold calibration, false-hit quality loss, multi-tenant pollution/isolation, distributed placement/versioning, eviction/admission and SLO impact.
+- **World-model serving:** vLLM-Omni #6672 remains open and continues to separate performance, paging/memory, long-lived session semantics, mid-stream interaction and streaming-video serving; validated realtime results remain below its ≥12 FPS target on the reported H200 setups.
+- **Canonical paper state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 paper WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge and no new PDF download.
+- **Next:** TeleFuser PR #36 → CacheSeek validity/false-hit quality/pollution/isolation/placement/versioning/eviction/SLOs → vLLM-Omni #5805 → #6672/#6227/#6646/#5120/#6294 → #4480 → #4907/#4909 → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-02 19:02 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
