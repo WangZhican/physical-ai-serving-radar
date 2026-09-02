@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-02 19:02 CST
+- TeleFuser watch evidence expanded with external **CacheSeek** integration for cross-request approximate latent reuse: persistent cache state, similarity lookup, resume/save contract and uncached fallback now make Route 5/11 cache infrastructure more concrete.
+- TeleFuser PR #36 remains open; no new paper promotion, no taxonomy split/merge, and canonical counts stay **161 = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH**.
+
 ## 2026-09-02 18:02 CST
 - Omission recovery added **TeleFuser** as a high-value runtime/project WATCH, not a canonical paper promotion: first-party repo/docs show continuous world-model/multimodal serving with stateful stages, per-session ordering, backpressure/lifecycle cleanup, LiveKit/WebRTC transport and distributed GPU execution.
 - LingBot-World v2 already exposes retained multi-session admission and chunk-boundary time slicing; the checked-in ABot-World path preserves KV/RNG/VAE temporal state, while open PR #36 targets multi-session serving.
