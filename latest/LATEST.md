@@ -1,3 +1,13 @@
+## Hourly scan — 2026-09-02 13:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model rollout/session serving, stage/modality disaggregation, cache/state infrastructure, plus first-party vLLM/SGLang runtime surfaces.
+- **Session-state correction:** vLLM-Omni #4480 is **partially shipped**, not wholly unshipped. Phase 0 landed via merged PR #4487 on 2026-07-27, including the SessionStateManager contract and DreamZero port. LingBot/Cosmos3/FixedState coverage and generalized cross-session byte-budget/accounting/reclamation remain incomplete; Phase 1 PagedKV is allocator-unblocked by merged #4534.
+- **Branch/disaggregation qualification:** #4907 remains KV-fork scoped rather than a complete deterministic world-state fork. SGLang-Omni #1760 remains high-value typed P/D-disaggregation roadmap evidence; unsupported resume schemas fail closed, but it is not counted as shipped until merge/release evidence lands.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** #4480 Phase-0/1 chain (#4487→#4534→LingBot/Cosmos3 ports) → #6227/#6646/#5120/#6294 production session path → #4907/#4909 completeness → SGLang-Omni #1760 landing + lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-02 11:59 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
