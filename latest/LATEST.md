@@ -1,3 +1,14 @@
+## Hourly scan — 2026-09-02 18:02 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. **New runtime-project WATCH: TeleFuser +1.** Completed a real fresh 24h→7d SYS-first scan; 0 paper promotion is not 0 search.
+- **Omission recovery:** [TeleFuser](https://github.com/Tele-AI/TeleFuser) is a public runtime directly targeting real-time world-model and multimodal serving. Its first-party architecture exposes actor-owned stateful stages, bounded artifact edges, per-session ordering, backpressure, lifecycle cleanup, explicit resource groups, LiveKit/WebRTC transport, distributed GPU execution and unified service APIs.
+- **Multi-session/world-model evidence:** LingBot-World v2 supports retained multi-session admission with chunk-boundary time slicing. The project reports 17.14 steady target-side compute FPS on 4×H100 at 832×480 against a 16 FPS playback target; this is compute-path evidence, not end-to-end latency.
+- **Stateful ABot-World:** the checked-in ABot path retains prompt/image latent, self/cross KV, scheduler, RNG and VAE temporal cache across control blocks and applies bounded FIFO backpressure. The documented baseline remains one retained session per worker; open PR [#36](https://github.com/Tele-AI/TeleFuser/pull/36) targets multi-session ABot-World serving.
+- **Classification:** no formal TeleFuser paper/venue was verified, so it is a high-value project WATCH rather than CORE_SYS/PAPER_MANIFEST. No taxonomy split/merge; it strengthens Routes 3/5/6/10/11.
+- **Existing frontier:** vLLM-Omni #5805/#6672/#4480/#4907 were rechecked; fresh generic vLLM/SGLang startup/loading bugs stay below Physical-AI/Omni canonical threshold.
+- **Canonical paper state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 paper WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** TeleFuser PR #36 merge/session-isolation/admission/fairness/memory-accounting → LingBot multi-session concurrency benchmarks → #5805 common session/full-duplex convergence → #6672/#6227/#6646/#5120/#6294 → #4480 → #4907/#4909 → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-02 17:02 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.

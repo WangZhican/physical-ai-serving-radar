@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-02 18:02 CST
+- Omission recovery added **TeleFuser** as a high-value runtime/project WATCH, not a canonical paper promotion: first-party repo/docs show continuous world-model/multimodal serving with stateful stages, per-session ordering, backpressure/lifecycle cleanup, LiveKit/WebRTC transport and distributed GPU execution.
+- LingBot-World v2 already exposes retained multi-session admission and chunk-boundary time slicing; the checked-in ABot-World path preserves KV/RNG/VAE temporal state, while open PR #36 targets multi-session serving.
+- No formal TeleFuser arXiv/venue paper was verified, so canonical paper counts remain **161 = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy split/merge; Routes 3/5/6/10/11 are strengthened.
+
 ## 2026-08-31 12:58 CST
 - No new paper promotion after real Physical-AI + Multimodal/Omni 24h→7d scans plus targeted 30d world-model/session/runtime follow-up.
 - Added vLLM-Omni **#6672 LingBot World 2.0 Continuous Development Roadmap** as high-value runtime WATCH evidence, not as a paper or shipped feature.
