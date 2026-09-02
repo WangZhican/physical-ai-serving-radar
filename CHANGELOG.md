@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-03 04:02 CST
+- Hourly SYS-first scan completed across Physical-AI/VLA serving-runtime, world-model/session serving, cache/state, heterogeneous execution, multimodal/Omni serving and first-party runtime ecosystems; no new canonical paper/project promotion.
+- vLLM-Omni #5805/#6672 remain open; SGLang #37579 remains below canonical WATCH threshold; TeleFuser multi-session ABot-World remains project frontier. Canonical state stays **162 = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**; no taxonomy/PDF change.
+
 ## 2026-09-02 19:02 CST
 - TeleFuser watch evidence expanded with external **CacheSeek** integration for cross-request approximate latent reuse: persistent cache state, similarity lookup, resume/save contract and uncached fallback now make Route 5/11 cache infrastructure more concrete.
 - TeleFuser PR #36 remains open; no new paper promotion, no taxonomy split/merge, and canonical counts stay **161 = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH**.
