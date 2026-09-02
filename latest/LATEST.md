@@ -1,3 +1,13 @@
+## Hourly scan — 2026-09-02 11:59 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model rollout/session serving, stage/modality disaggregation and cache/state infrastructure.
+- **Runtime systems update:** vLLM-Omni #6672 remains OPEN and continues to expose the production gap around realtime world-model throughput, long-lived session semantics, mid-stream interaction, stateful video serving, backpressure, paging/state memory and disaggregation. #4480 remains the generalized session-memory ownership layer; paged/CoW KV alone is not complete world-state/session ownership.
+- **Benchmark/adoption:** current first-party diffusion serving benchmark code supports multiple OpenAI-compatible serving endpoints plus async video jobs. A fresh community one-H100 demo spans image/video/speech/Cosmos world-model workloads; both are runtime/adoption evidence, not new canonical papers.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** #6227 stateful-video implementation/closure → #6646 + #5120/#6294 backpressure/mid-stream interaction → #4480 typed session memory → #4907/#4909 branch completeness → SGLang-Omni lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-02 11:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
