@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-03 05:01 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Fresh runtime signal:** vLLM-Omni [#6872](https://github.com/vllm-project/vllm-omni/issues/6872), opened 2026-08-31, proposes a bounded ordered media-chunk contract to overlap VAE decode, D2H/IPC transport, and CPU H.264/MP4 work, with explicit ownership, cancellation cleanup, backpressure, persistent-ring transport, and a future disaggregated-VAE stage boundary. Its 8×B300 MiniMax-H3 measurements motivate the RFC; ~10%/~20% E2E savings are optimistic projections until implementation A/B lands.
+- **Coverage:** Physical-AI/VLA serving-runtime, multimodal/Omni serving, world-model/session serving, cache/state infrastructure, stage/modality disaggregation, fresh arXiv 2609, and first-party vLLM-Omni/SGLang/TeleFuser surfaces. Fresh paper hits mainly re-covered existing canonical/model-side work; SGLang #37579 remains below canonical promotion threshold.
+- **Canonical state:** unchanged at 162 works = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH. No taxonomy split/merge; internal PDF archive remains 155 valid / 4 pending and no PDFs are published here.
+- **Next:** #6872 media-contract/disaggregated-VAE landing → JoyAI serving follow-ons → TeleFuser #36/CacheSeek validity/isolation/SLOs → vLLM-Omni #5805/#6672 → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-03 04:02 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.

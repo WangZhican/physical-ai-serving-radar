@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-03 05:01 CST
+- Hourly SYS-first scan completed across Physical-AI/VLA serving-runtime, multimodal/Omni serving, world-model/session serving, cache/state, stage/modality disaggregation, fresh arXiv 2609 and first-party runtime ecosystems; no new canonical paper promotion.
+- Added vLLM-Omni **#6872** to runtime WATCH evidence: bounded ordered media-chunk contract, VAE→transport→encode overlap, explicit backpressure/ownership/cancellation semantics and future disaggregated-VAE boundary. Its ~10%/~20% E2E numbers are RFC projections, not achieved speedups.
+- Canonical state remains **162 = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**; no taxonomy/PDF change.
+
 ## 2026-09-03 04:02 CST
 - Hourly SYS-first scan completed across Physical-AI/VLA serving-runtime, world-model/session serving, cache/state, heterogeneous execution, multimodal/Omni serving and first-party runtime ecosystems; no new canonical paper/project promotion.
 - vLLM-Omni #5805/#6672 remain open; SGLang #37579 remains below canonical WATCH threshold; TeleFuser multi-session ABot-World remains project frontier. Canonical state stays **162 = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**; no taxonomy/PDF change.

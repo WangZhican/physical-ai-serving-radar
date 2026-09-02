@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-09-03 04:02 CST**
+**Last updated: 2026-09-03 05:01 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
