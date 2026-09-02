@@ -123,3 +123,11 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 
 ## 2026-08-29 — TypeFly lineage predecessor
 - [**TypeFly: Low-Latency Drone Planning With Large Language Models**](https://arxiv.org/abs/2312.14950) — **IEEE TMC 2025**, **A**, Routes P3/P4/P7. TypeFly/ChatFly combines the MiniSpec compact robot-planning language with stream interpretation so a drone can start executing before full LLM generation completes; local vision/skill execution gives it a practical edge/cloud runtime. [Project](https://typefly.github.io/) · [Repo](https://github.com/typefly/TypeFly) (~110 stars / 25 forks in current public crawl). Kept at `SYS_ALG_BOUNDARY` because compact plan representation and runtime execution are co-primary rather than a general serving scheduler/resource manager.
+
+
+### JoyAI-VL-Interaction — always-on real-time vision-language interaction stack
+- **Paper:** https://arxiv.org/abs/2606.14777
+- **Project:** https://joyai-vl-video-future-academy-jd.github.io/JoyAI-VL-Interaction/
+- **Code:** https://github.com/jd-opensource/JoyAI-VL-Interaction
+- **Routes:** 3 / 5 / 7 / 11 · **Priority:** A+
+- **Role:** complete open deployment stack around an interaction model: continuous video, long-horizon state, pluggable ASR/TTS/memory/UI, a real-time loop plus asynchronous background-model/agent delegation, served on standard vLLM infrastructure. The official repo currently surfaces ~1.8k stars / 182 forks. Kept at `SYS_ALG_BOUNDARY` because the main research novelty is model/training design, not serving scheduling or resource management.

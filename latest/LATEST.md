@@ -1286,3 +1286,9 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Dedup:** Zetta/Z-Infra was re-hit and confirmed already canonical, so no duplicate promotion was created.
 - **Canonical state:** remains 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged. Internal PDF archive remains 154 valid / 4 pending; PDFs are never stored in this public repo.
 - **Frontier:** TeleFuser multi-session ABot-World → CacheSeek validity/isolation/placement/SLOs → vLLM-Omni full-duplex/session/world-model lifecycle → SGLang/SGLang-Omni correctness → fresh 30d SYS census.
+
+## 2026-09-03 00:57 CST
+- **SYS_ALG_BOUNDARY +1 — [JoyAI-VL-Interaction](https://arxiv.org/abs/2606.14777)** (A+, Routes 3/5/7/11). Historical omission recovery: always-on video interaction plus long-horizon state, pluggable ASR/TTS/memory/UI and asynchronous background delegation in a complete open vLLM-based deployment stack.
+- **Boundary guard:** not CORE_SYS because interaction-model/training novelty remains primary; no standalone scheduler/resource manager is the central contribution.
+- **Open source:** [official repo](https://github.com/jd-opensource/JoyAI-VL-Interaction) currently surfaces ~1.8k stars / 182 forks; model/data/training recipe/deployable stack are open.
+- Fresh 24h→7d SYS-first scan found no additional promotion.

@@ -576,3 +576,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - No PDFs or private server artifacts were added to the public repository.
 
 - 2026-09-03 00:00 CST — Hourly SYS-first scan completed with no canonical promotion; refreshed public coverage heartbeat and preserved 161-work taxonomy.
+
+- 2026-09-03 00:57 CST — Recovered **JoyAI-VL-Interaction** (arXiv:2606.14777) as `SYS_ALG_BOUNDARY/A+`, Routes 3/5/7/11; added verified official project/repo links and refreshed canonical `data/papers.json`. Fresh 24h→7d scan produced no additional promotion.

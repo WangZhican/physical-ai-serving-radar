@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-28T23:58:00+08:00",
-  "count": 159,
+  "updated": "2026-09-03T00:57:49+08:00",
+  "count": 162,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2258,7 +2258,11 @@
       "title": "TypeGo: An OS Runtime for Embodied Agents",
       "system": "TypeGo",
       "class": "CORE_SYS",
-      "route": [2, 3, 7],
+      "route": [
+        2,
+        3,
+        7
+      ],
       "year": 2026,
       "venue": "arXiv / AgenticOS @ SOSP 2026",
       "priority": "A+",
@@ -2272,7 +2276,11 @@
       "title": "TimelyLLM: Time-sensitive LLM Serving System for Physical-I/O Limited Agents",
       "system": "TimelyLLM",
       "class": "CORE_SYS",
-      "route": [1, 3, 8],
+      "route": [
+        1,
+        3,
+        8
+      ],
       "year": 2026,
       "venue": "ACM MobiSys 2026 — Best Paper Runner-up / Best Artifact Runner-up",
       "priority": "A+",
@@ -2286,7 +2294,11 @@
       "title": "TypeFly: Low-Latency Drone Planning With Large Language Models",
       "system": "TypeFly / ChatFly",
       "class": "SYS_ALG_BOUNDARY",
-      "route": [3, 4, 7],
+      "route": [
+        3,
+        4,
+        7
+      ],
       "year": 2025,
       "venue": "IEEE Transactions on Mobile Computing 24(9), 2025",
       "priority": "A",
@@ -2294,6 +2306,29 @@
       "official_page": "https://typefly.github.io/",
       "repo": "https://github.com/typefly/TypeFly",
       "system_contribution": "MiniSpec plus stream interpretation lets robot execution start before the full LLM plan completes; local vision and skill execution form an edge/cloud robot runtime. Official Apache-2.0 repo verified at about 110 stars / 25 forks in the current crawl."
+    },
+    {
+      "id": "arxiv:2606.14777",
+      "title": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence",
+      "system": "JoyAI-VL-Interaction",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        7,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv technical report",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2606.14777",
+      "official_pdf": "https://arxiv.org/pdf/2606.14777",
+      "project": "https://joyai-vl-video-future-academy-jd.github.io/JoyAI-VL-Interaction/",
+      "repo": "https://github.com/jd-opensource/JoyAI-VL-Interaction",
+      "open_source": "Official Apache-2.0 repo verified; public GitHub crawl showed about 1.8k stars / 182 forks on 2026-09-03. Model, data, training recipe, deployable system, vLLM deployment and LiveKit branch are public.",
+      "system_contribution": "Always-on visual interaction stack around an 8B interaction model. The deployable system streams continuous video, keeps long-horizon state, exposes pluggable ASR/TTS/memory/UI, and splits execution into a real-time user loop plus an asynchronous background-model/agent delegation loop; five services run on standard vLLM infrastructure.",
+      "key_results": "The paper reports hours of continuous video with sub-second latency and human preference wins of 77.6% vs Doubao and 87.9% vs Gemini across six live scenarios. These results primarily validate interaction quality/timing rather than serving throughput/resource efficiency."
     }
   ]
 }
