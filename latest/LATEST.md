@@ -1,3 +1,15 @@
+## Hourly scan — 2026-09-02 17:02 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, world-model rollout/session serving, multimodal/Omni serving, state/cache infrastructure and first-party runtime ecosystems.
+- **Full-duplex maturity update:** vLLM-Omni #5805 is not only a roadmap concept. The current experimental full-duplex tree already exposes model-agnostic `core/` adapter/session/turn-runtime contracts, an AsyncOmni/orchestrator engine bridge and OpenAI/WebSocket transport. Core owns session lifecycle, epoch-based barge-in, playback cursor and event protocol.
+- **Qualification:** PersonaPlex and MiniCPM still retain distinct model-owned execution paths, so this is experimental implementation + unification RFC evidence rather than proof of fully shipped cross-model convergence. The design nevertheless strengthens Route 3/5/11 convergence between Omni full-duplex and world-model session/state management.
+- **World-model serving:** #6672 remains OPEN and continues to depend on realtime stateful video serving, streaming backpressure, mid-stream interaction and generalized session memory.
+- **Correctness:** SGLang #36475/#36690 remain open lifecycle/multimodal correctness evidence; #37368/#37369 stay below canonical Physical-AI/Omni promotion threshold.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** #5805 experimental contracts → concrete mainline/session convergence PRs → #6672/#6227/#6646/#5120/#6294 → #4480 generalized session-memory accounting/reclamation → #4907/#4909 branch completeness → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-02 15:57 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
