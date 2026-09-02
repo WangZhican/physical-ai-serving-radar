@@ -1,3 +1,13 @@
+## Hourly scan — 2026-09-02 13:58 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model rollout/session serving, edge-cloud inference, stage/state/cache infrastructure, and first-party vLLM/SGLang runtime surfaces.
+- **World-model serving:** vLLM-Omni #6672 remains OPEN and keeps the production path explicit through #6227 realtime stateful video serving, #6646 backpressure, #5120/#6294 mid-stream interaction and #4480 generalized session memory. Its current issue-scoped realtime measurements remain about 4.5–7.0 pixel-equivalent FPS depending on TP/resolution versus the RFC target of >=12 FPS.
+- **Lifecycle qualification:** #4480 remains partially landed rather than complete; generalized multi-model byte-budget/accounting/reclamation is still unfinished, and paged/CoW KV is not complete deterministic world-state ownership. SGLang #36475 remains OPEN for streaming-session disconnect/session-state corruption; fresh #37368/#37369 loading-correctness issues stay below canonical Physical-AI/Omni promotion threshold.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** #6672 → #6227/#6646/#5120/#6294 production session path → #4480 generalized session-memory accounting/reclamation → #4907/#4909 branch completeness → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-02 13:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
