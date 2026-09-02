@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-02 20:58 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model/session serving, cache/state infrastructure, stage/modality disaggregation and SYS-filtered recent venue/OpenReview surfaces.
+- **Boundary check:** fresh hits re-covered canonical PhyAI, Kairos and Persistent Computational State. SpecVLA (arXiv:2608.15636) was explicitly screened out of CORE_SYS because its main contribution is speculative VLA inference + heterogeneous algorithm/architecture co-design rather than a reusable serving/resource-management substrate.
+- **Runtime frontier:** TeleFuser/CacheSeek remains the strongest project-level Route-5/10/11 signal; vLLM-Omni and SGLang/SGLang-Omni remain the primary session/state/lifecycle/full-duplex/disaggregation ecosystems to track. No new formal systems paper or official repo state justified promotion this hour.
+- **Canonical paper state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 paper WATCH; 154 valid internal PDFs, 4 pending. No taxonomy split/merge and no new PDF download.
+- **Next:** TeleFuser PR #36 → CacheSeek threshold/false-hit/isolation/placement/versioning/eviction/SLOs → vLLM-Omni #5805 → #6672/#6227/#6646/#5120/#6294 → #4480 → #4907/#4909 → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-02 19:59 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
