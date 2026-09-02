@@ -1,3 +1,13 @@
+## Hourly scan — 2026-09-02 19:02 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Route-5 runtime update:** [TeleFuser](https://github.com/Tele-AI/TeleFuser) now documents external [CacheSeek](https://github.com/Tele-AI/CacheSeek) integration for **cross-request approximate latent reuse**. This is distinct from request-local feature cache: it persists reusable latent state across requests and uses prompt-embedding similarity to skip an initial denoising prefix.
+- **Serving abstraction:** the integration separates query construction, lookup, resume injection, response capture and save; individual cache failures fall back to uncached execution. The documented backend includes persistent KV/distributed storage plus vector DB + metadata, making this a genuine serving-cache/state substrate rather than a local memoization trick.
+- **Multi-session frontier:** TeleFuser PR [#36](https://github.com/Tele-AI/TeleFuser/pull/36) remains open. Fresh PRs #42/#43/#44 strengthen heterogeneous/runtime maturity but are not paper promotions.
+- **Classification:** CacheSeek/TeleFuser remains runtime-project evidence, not a canonical paper. No taxonomy split/merge; Routes 5/11 are strengthened around cross-request state validity, cache pollution, placement, versioning and SLO-aware reuse.
+- **Canonical paper state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 paper WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** TeleFuser PR #36 → CacheSeek validity/pollution/placement/versioning/SLOs → vLLM-Omni #5805 → #6672/#6227/#6646/#5120/#6294 → #4480 → #4907/#4909 → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-02 18:02 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. **New runtime-project WATCH: TeleFuser +1.** Completed a real fresh 24h→7d SYS-first scan; 0 paper promotion is not 0 search.
