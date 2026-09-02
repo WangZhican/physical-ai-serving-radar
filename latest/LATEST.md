@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-02 23:02 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model/session serving, cache/state infrastructure, stage/modality disaggregation and recent SYS-filtered arXiv surfaces.
+- **First-party runtime check:** TeleFuser PR #36 remains OPEN/non-draft/CLEAN; vLLM-Omni #6672 remains OPEN high-priority world-model RFC; #5805 remains OPEN full-duplex RFC. No merge/release closure was verified this hour.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH. Internal PDF archive remains 154 valid / 4 pending; PDFs are not published here. No taxonomy change.
+- **Next:** TeleFuser PR #36 → CacheSeek validity/isolation/placement/versioning/eviction/SLOs → vLLM-Omni #5805/#6672 production session stack → #4480/#4907/#4909 → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-02 21:59 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
