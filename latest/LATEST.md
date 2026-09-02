@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-03 07:01 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan plus targeted 30d omission-recovery completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, heterogeneous/device-edge deployment, multimodal/Omni serving, world-model/session serving, cache/state, media pipeline and stage/modality disaggregation. Targeted 30d queries re-hit known Armory, EcoVLA, vla.cpp, Embodied.cpp and M* rather than revealing a missed paper.
+- **Fresh runtime correctness signal:** vLLM-Omni [#6951](https://github.com/vllm-project/vllm-omni/issues/6951) showed `SanaImageToVideoPipeline` could pass offline I2V but fail online `/v1/videos` with HTTP 503 because final-output metadata was missing; it was high-priority/CI-failure and closed the same day. Retain as below-threshold serving-contract evidence, not a paper promotion.
+- **Runtime frontier:** TeleFuser [#36](https://github.com/Tele-AI/TeleFuser/pull/36) remains open multi-session ABot-World serving work; vLLM-Omni [#6872](https://github.com/vllm-project/vllm-omni/issues/6872) remains the media-chunk/disaggregated-VAE implementation frontier; SGLang [#37579](https://github.com/sgl-project/sglang/issues/37579) remains open multimodal correctness evidence.
+- **Canonical state:** unchanged at 162 works = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH. No taxonomy split/merge; internal PDF archive remains 155 valid / 4 pending and no PDFs are published here.
+- **Next:** #6872 implementation A/B + disaggregated-VAE landing → full-duplex/session lifecycle → TeleFuser #36 merge/performance/isolation + CacheSeek validity/SLOs → vLLM-Omni #5805/#6672 → multimodal output-contract/correctness regressions → continue fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-03 06:01 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
