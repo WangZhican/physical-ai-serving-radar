@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-03 06:01 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, multimodal/Omni serving, world-model/session serving, cache/state infrastructure, stage/modality disaggregation, fresh arXiv, and first-party vLLM-Omni/SGLang/TeleFuser surfaces.
+- **Runtime frontier:** no paper-level promotion. vLLM-Omni full-duplex/session architecture remains active; SGLang [#37579](https://github.com/sgl-project/sglang/issues/37579) remains open correctness evidence that replayed plain-text media placeholder strings can deterministically wedge multimodal sessions with HTTP 500 retries. vLLM-Omni [#6872](https://github.com/vllm-project/vllm-omni/issues/6872) remains high-value media-pipeline/disaggregated-VAE RFC evidence, not a shipped paper result.
+- **Canonical state:** unchanged at 162 works = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH. No taxonomy split/merge; internal PDF archive remains 155 valid / 4 pending and no PDFs are published here.
+- **Next:** #6872 media-contract/disaggregated-VAE landing → full-duplex/session architecture → JoyAI serving follow-ons → TeleFuser #36/CacheSeek validity/isolation/SLOs → vLLM-Omni #5805/#6672 → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-03 05:01 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
