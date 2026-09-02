@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-02 08:02 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime/world-model surfaces plus first-party vLLM-Omni and SGLang-Omni runtime/release ecosystems. Fresh paper hits re-covered canonical Embodied.cpp, ROSA, PhyAI and existing session-state work; no new reusable serving/resource-management substrate crossed threshold.
+- **Runtime/release update:** first-party SGLang-Omni now lists **v0.1.4** as its latest 2026-09 release. This is runtime/adoption maturity evidence, not a paper promotion and not proof that lifecycle/correctness debt is closed.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change. Route 5/10 world-model session-state remains the highest-value systems frontier.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** #4480/#4907/#4497 session/branch-state completeness → #6665/#6852/#6672 landing/qualification → SGLang-Omni v0.1.4 changelog/lifecycle-correctness implications → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-02 06:59 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
