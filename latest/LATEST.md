@@ -1,3 +1,14 @@
+## Hourly scan — 2026-09-02 15:01 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, world-model rollout/session serving, multimodal/Omni serving, edge-cloud/disaggregated deployment, state/cache infrastructure and first-party vLLM/SGLang runtime surfaces.
+- **Boundary screen:** fresh Riemann-1.0 (arXiv:2608.27033) was explicitly screened and remains outside CORE_SYS because its primary contribution is WAM modeling/pretraining/capability rather than a reusable serving abstraction, scheduler, resource manager or runtime substrate.
+- **World-model serving:** vLLM-Omni #6672 remains OPEN. Its dependency tree separates merged LingBot World 2 model-path integration (#5491) from the still-incomplete production serving stack: #6227 realtime stateful video serving, #6646 streaming backpressure, #5120/#6294 mid-stream interaction and #4480 generalized session memory.
+- **Lifecycle qualification:** SGLang #36475 remains OPEN for streaming-session disconnect/session-state corruption. Treat issue/RFC evidence as runtime qualification, not as a paper promotion.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** #6672 → #6227/#6646/#5120/#6294 production session path → #4480 generalized session-memory accounting/reclamation → #4907/#4909 branch completeness → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-02 13:58 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
