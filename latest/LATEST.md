@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-02 08:57 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model rollout/runtime, session/cache/state infrastructure, plus first-party vLLM-Omni/SGLang-Omni implementation surfaces.
+- **Runtime implementation update:** vLLM-Omni #4480 remains **OPEN**, while the underlying AR-Diffusion paged-KV allocator from #4366 / merged PR #4534 is already on `main`. This means the typed session-memory phase is allocator-unblocked, but the generalized cross-session byte-budget/session-level manager is not yet shipped. #4907 also remains OPEN and references draft #4909 for CoW KV branching; treat it as KV-branch evidence, not a complete deterministic world-state fork.
+- **Research-map impact:** no taxonomy split/merge and no canonical paper-count change. Route 5/10 session-state ownership remains the highest-value systems frontier.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Next:** #4480 typed session-memory manager implementation/landing → #4907/#4909 CoW merge/qualification + #4497 completeness → #6665/#6852/#6672 → SGLang-Omni lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-02 08:02 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
