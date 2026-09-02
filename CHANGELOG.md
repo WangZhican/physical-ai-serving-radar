@@ -574,3 +574,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - No paper/classification promotion. Revalidated active lifecycle/cache correctness frontiers across vLLM, vLLM-Omni, SGLang and SGLang-Omni.
 - Corrected the public heartbeat count to the already-present machine-readable canonical set of **161 works**.
 - No PDFs or private server artifacts were added to the public repository.
+
+- 2026-09-03 00:00 CST — Hourly SYS-first scan completed with no canonical promotion; refreshed public coverage heartbeat and preserved 161-work taxonomy.

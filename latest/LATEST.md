@@ -1278,3 +1278,11 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / WATCH +0. Fresh checks covered Physical-AI serving/runtime, arXiv fresh surfaces, vLLM-Omni runtime/release surfaces, and SGLang router/streaming/runtime surfaces.
 - **Boundary:** fresh hits were existing runtime-roadmap signals or model/algorithm work below the SYS-first promotion bar. Canonical set remains **161 works**; taxonomy unchanged.
 - **Next:** vLLM-Omni release/session-state landing → SGLang lifecycle/correctness + composite routing → fresh 30d SYS census.
+
+
+## Hourly scan — 2026-09-03 00:00 CST
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / WATCH +0. A real 24h→7d Physical-AI + Multimodal/Omni SYS-first scan was completed; 0 promotion is not 0 search.
+- **Coverage:** fresh arXiv/recent Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model/session serving, cache/state infrastructure, stage/modality disaggregation, and runtime-adjacent systems.
+- **Dedup:** Zetta/Z-Infra was re-hit and confirmed already canonical, so no duplicate promotion was created.
+- **Canonical state:** remains 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged. Internal PDF archive remains 154 valid / 4 pending; PDFs are never stored in this public repo.
+- **Frontier:** TeleFuser multi-session ABot-World → CacheSeek validity/isolation/placement/SLOs → vLLM-Omni full-duplex/session/world-model lifecycle → SGLang/SGLang-Omni correctness → fresh 30d SYS census.
