@@ -1,3 +1,15 @@
+## Hourly scan — 2026-09-02 15:57 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
+- **Coverage:** refreshed Physical-AI/VLA serving/runtime, world-model rollout/session serving, multimodal/Omni serving, state/cache infrastructure and first-party runtime ecosystems.
+- **Runtime-abstraction omission recovery:** vLLM-Omni RFC #5805 (opened 2026-08-05) was newly recovered into the radar narrative. It proposes converging experimental full-duplex paths into the common orchestrator/stage-runner execution framework and unifying session representation/flow across Aura, MiniCPM, JoyAI and DreamZero/world-model sessions. This is ecosystem/runtime evidence, not a paper promotion.
+- **World-model serving:** #6672 remains OPEN/high-priority and still reports roughly 5 FPS validated realtime throughput versus a >=12 FPS target, with remaining production gaps around stateful-video serving, structured mid-stream interaction, session memory, paging/backpressure and long-horizon lifecycle.
+- **Correctness:** SGLang #36690 remains open multimodal-serving correctness evidence; fresh #37368 remains generic serving-loading correctness below canonical Physical-AI/Omni promotion threshold.
+- **Research-map impact:** no taxonomy split/merge, but Route 3/5/11 convergence is strengthened: full-duplex Omni and world-model serving increasingly share the same session/state abstraction problem.
+- **Canonical state:** unchanged at 161 works = 116 CORE_SYS / 35 SYS_ALG / 4 ALG / 6 WATCH; 154 valid internal PDFs, 4 pending.
+- **Sync recovery:** the previously pending 15:01 local heartbeat was successfully pushed before this scan.
+- **Next:** #5805 common full-duplex/session unification → #6672/#6227/#6646/#5120/#6294 → #4480 generalized session-memory accounting/reclamation → #4907/#4909 branch completeness → SGLang/SGLang-Omni lifecycle/correctness → fresh 30d SYS census → remaining 4 legal PDF debts.
+
 ## Hourly scan — 2026-09-02 15:01 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0. Completed a real fresh 24h→7d SYS-first scan; 0 promotion is not 0 search.
