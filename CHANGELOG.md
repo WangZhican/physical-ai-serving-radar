@@ -591,3 +591,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - **2026-09-03 08:01 CST** — hourly SYS-first scan completed with no paper promotion; added runtime-watch note for TeleFuser #43 (Ascend NPU MindIE-SD/VAE-parallel) and #44 (MiniMax-H3/FastH3 LoRA+FP8 Adapter), both still open and below paper/project promotion threshold.
 
 - **2026-09-03 08:59 CST** — hourly SYS-first scan completed with no paper promotion; added TeleFuser #42 as an additional heterogeneous backend-portability watch signal alongside #43/#44. Revalidated vLLM-Omni video lifecycle/failure-recovery issues #6403/#2327 and media-pipeline RFC #6872.
+- **2026-09-03 11:00 CST** — promoted **OmniEvaluator** (arXiv:2609.01315) to `CORE_SYS/A+`, Routes 9/11. Added official repo/paper metadata and federated-evaluation system result; refreshed public dataset to 163 works. No PDF or private server artifact was added to this repository.
+

@@ -185,3 +185,11 @@ Reusable execution/evaluation infrastructure with CaP-Gym interactive environmen
 
 ## 2026-08-29 01:02 CST — TimelyLLM
 - [**TimelyLLM: Time-sensitive LLM Serving System for Physical-I/O Limited Agents**](https://arxiv.org/abs/2412.18695) — **ACM MobiSys 2026 Best Paper Runner-up + Best Artifact Runner-up**, **A+**, Routes P1/P3/P8. TimelyLLM serves multiple robotic agents using segmented generation and timing-aware scheduling that overlap future plan generation with current physical execution instead of FCFS batching. The paper reports up to **1.97× higher time utility** and **84% lower overall waiting time**. Recovered as a historical omission during the TypeFly→TimelyLLM→TypeGo lineage census.
+
+## 2026-09-03 11:00 CST — OmniEvaluator
+| Title | Year/Venue | Route | System Contribution | Open Source/Repo | Paper | Priority |
+|---|---|---|---|---|---|---|
+| OmniEvaluator: A Composable Evaluation System for Reproducible Omni-Modal Foundation Model Evaluation | 2026 / arXiv | 9/11 | Unified inference↔evaluation schema, provenance-rich artifacts/dashboard, federated shared inference servers and continuous-batching reuse | [Repo](https://github.com/naver-ai/omni-evaluator) | [Paper](https://arxiv.org/abs/2609.01315) | A+ |
+
+The paper reports **1.3×–2.8× wall-time speedup** for federated evaluation under the same GPU allocation. CORE_SYS because the contribution is reusable evaluation/serving infrastructure rather than an omni-model algorithm.
+

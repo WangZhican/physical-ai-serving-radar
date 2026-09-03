@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-09-03 05:01 CST**
+**Last updated: 2026-09-03 11:00 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -32,6 +32,7 @@ The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni
 | StreamArena / StreamMind | 2026 / arXiv | P3, P5, P8, P9, M-streaming | Always-on multimodal runtime with independently scheduled frontend/backend workers and persistent-state reuse | [repo](https://github.com/JIA-Lab-research/StreamArena) | [paper](https://arxiv.org/abs/2608.05703) | A |
 | TypeGo | 2026 / AgenticOS @ SOSP 2026 | P2, P3, P7 | OS-style task processes/PCBs, Skill Kernel physical-resource arbitration, preemption and asynchronous multi-timescale planning | — | [paper](https://arxiv.org/abs/2607.05482) | A+ |
 | TimelyLLM | 2026 / ACM MobiSys 2026 | P1, P3, P8 | Segmented, timing-aware LLM serving for multiple physical agents; overlaps plan generation with physical-I/O execution | Artifact award verified; public repo not independently resolved | [paper](https://arxiv.org/abs/2412.18695) | A+ |
+| OmniEvaluator | 2026 / arXiv | P9, M-eval | Composable omni-modal evaluation/serving substrate with shared inference servers, provenance artifacts and dashboard | [repo](https://github.com/naver-ai/omni-evaluator) | [paper](https://arxiv.org/abs/2609.01315) | A+ |
 
 ---
 

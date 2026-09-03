@@ -1369,3 +1369,10 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Fresh runtime watch:** TeleFuser PR #42 adds Wan2.2 pipeline support on Ascend NPU and complements open #43 MindIE-SD/VAE-parallel and #44 MiniMax-H3/FastH3 LoRA+FP8 Adapter; #36 multi-session ABot-World remains open.
 - **Video-serving lifecycle:** vLLM-Omni #6872 remains the media-chunk/disaggregated-VAE frontier; #6403 cancellation/status semantics and #2327 OOM recovery/state corruption remain production lifecycle/failure-recovery evidence.
 - **Canonical state:** 162 works = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged.
+
+## Hourly scan — 2026-09-03 11:00 CST
+- **CORE_SYS +1:** [OmniEvaluator](https://arxiv.org/abs/2609.01315), A+, Routes 9/11. Fresh omni-modal evaluation/serving infrastructure that composes vLLM/SGLang/HF/API backends with multiple evaluator frameworks through one intermediate schema, records provenance-rich artifacts, and shares inference servers across concurrent evaluations.
+- **Measured system result:** federated mode reports **1.3×–2.8× wall-time speedup** under the same GPU allocation; current official repo exposes 2,820 benchmark tasks.
+- **Open source:** [naver-ai/omni-evaluator](https://github.com/naver-ai/omni-evaluator), Apache-2.0, 16 stars / 2 forks at scan time.
+- **Coverage:** real 24h→7d Physical-AI + Multimodal/Omni SYS-first scan completed; no additional promotion. Public canonical state is now **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**.
+
