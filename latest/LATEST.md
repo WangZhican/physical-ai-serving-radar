@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-03 12:02 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge-cloud/heterogeneous execution, composite VLA+WAM+planner, world-model/session serving, cache/state, multimodal/Omni, stage/modality disaggregation, fresh arXiv 2609 and first-party runtime surfaces.
+- **Reverse census:** OmniEvaluator lineage check surfaced [Omni-DuplexEval](https://arxiv.org/abs/2605.17360), but it is a duplex-interaction benchmark rather than reusable serving/evaluation infrastructure, so it is not promoted.
+- **Runtime frontier:** TeleFuser open PR set remains #36/#37/#40/#42/#43/#44 with no verified merge/release transition. No new formal systems paper or runtime project crossed threshold.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. Internal PDF archive remains 156 valid / 4 pending; no PDFs are published here.
+- **Next:** OmniEvaluator same-group/reference lineage + generative-output evaluation gap → TeleFuser #36/#42/#43/#44 → vLLM-Omni media/session/world-model lifecycle → SGLang correctness → continue fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-03 09:58 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
