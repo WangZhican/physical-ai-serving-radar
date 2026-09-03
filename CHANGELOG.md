@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-03 19:01 CST
+- Completed a real 24h→7d SYS-first incremental scan with no canonical paper/project promotion.
+- vLLM-Omni #6872 remains the open bounded media-pipeline/disaggregated-VAE frontier; SGLang #37579 remains open multimodal session-correctness debt with no linked fix verified this cycle.
+- Canonical state remains **163 = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**; no taxonomy/PDF change.
+
 ## 2026-09-03 15:02 CST
 - Fresh SYS-first scan found no new canonical paper/project promotion, but added strong first-party production evidence from the vLLM-Omni Team's MiniMax H3 serving post.
 - The official post benchmarks the complete encoder→DiT→video/audio VAE→transport→MP4 system boundary. On its frozen 8×B300 base lane, vLLM-Omni reduces complete-response latency from 82.239 s (Diffusers) to 56.917 s (30.8% lower / 1.445×); a separate FastH3 lane reaches 8.678–8.710 s for a 10.125 s MP4, and the two lanes are explicitly not used for a cross-lane speedup claim.

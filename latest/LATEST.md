@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-03 19:01 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge/heterogeneous, composite VLA+WAM+planner, workload/evaluation infrastructure, world-model/session serving, cache/state, multimodal/Omni, media/VAE-stage and stage/modality disaggregation.
+- **Runtime frontier:** vLLM-Omni [#6872](https://github.com/vllm-project/vllm-omni/issues/6872) remains open and continues to define the bounded chunkwise VAE→D2H/IPC→CPU encode/mux + future disaggregated-VAE frontier. SGLang [#37579](https://github.com/sgl-project/sglang/issues/37579) remains open with no linked fix verified for replayed-history media-placeholder misclassification and deterministic HTTP-500 retries.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; private PDF archive state remains unchanged and no PDFs are published here.
+- **Next:** #7000 merge/expanded LTX A/B → #6996/#7001 lifetime closure → #6872 implementation A/B/disaggregated-VAE → llm-d stateful multimodal routing → TeleFuser multi-session/heterogeneous → SGLang #37579 fix/regression evidence → continue fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-03 12:02 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
