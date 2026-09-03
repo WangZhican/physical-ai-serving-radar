@@ -1385,3 +1385,10 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Open source:** [naver-ai/omni-evaluator](https://github.com/naver-ai/omni-evaluator), Apache-2.0, 16 stars / 2 forks at scan time.
 - **Coverage:** real 24h→7d Physical-AI + Multimodal/Omni SYS-first scan completed; no additional promotion. Public canonical state is now **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**.
 
+
+
+## Hourly scan — 2026-09-03 12:59 CST
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / paper WATCH +0; **runtime-project WATCH +1: [xDiT DistVAE](https://github.com/xdit-project/DistVAE)**.
+- **Why it matters:** DistVAE provides reusable distributed VAE adapters for Diffusers with row sharding and whole-tile distribution, including video/image VAE families such as HunyuanVideo, LTX, Wan and Qwen-Image. This directly strengthens the media-stage/disaggregated-VAE branch around Routes 6/10/11.
+- **Boundary:** no formal paper or broader serving scheduler/resource manager was verified, so this is a project-watch item rather than a canonical paper promotion. Public crawl at scan time: ~95 stars / 15 forks.
+- **Mainline:** TeleFuser still shows six open PRs (#36/#37/#40/#42/#43/#44); vLLM-Omni #6872 remains the chunkwise VAE→transport→MP4/disaggregated-VAE frontier. Canonical state remains **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**.

@@ -37,3 +37,11 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - [PR #42](https://github.com/Tele-AI/TeleFuser/pull/42) adds Wan2.2 pipelines on Ascend NPU, complementing [#43](https://github.com/Tele-AI/TeleFuser/pull/43) MindIE-SD/VAE-parallel and [#44](https://github.com/Tele-AI/TeleFuser/pull/44) MiniMax-H3/FastH3 LoRA+FP8 Adapter support.
 - **Why watch:** useful Route 6/10/11 evidence that the runtime is broadening beyond CUDA-only deployment toward reusable heterogeneous world-model/video serving.
 - **Promotion gate:** merged/released implementation plus reproducible end-to-end latency, throughput, memory, failure-recovery, and reusable resource/stage-management semantics beyond model-specific enablement.
+
+
+### xDiT DistVAE — distributed VAE runtime substrate
+- [Official repository](https://github.com/xdit-project/DistVAE) — MIT-licensed distributed VAE adapters for Diffusers.
+- **System role:** row-sharded convolution/normalization with halo/stat exchange plus whole-tile distribution; supports multiple image/video VAE families and exposes tests/benchmark tooling.
+- **Why watch:** it turns VAE decode from a monolithic tail into an explicit parallelizable media stage, making it directly relevant to heterogeneous placement, world-model/video serving, and future disaggregated-VAE contracts.
+- **Current adoption signal:** ~95 stars / 15 forks in the 2026-09-03 public crawl.
+- **Promotion gate:** production serving integration or a formal systems evaluation showing latency/memory/scaling, stage placement/scheduling semantics, and correctness across representative workloads.
