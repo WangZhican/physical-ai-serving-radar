@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-04 03:00 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge/heterogeneous, composite VLA+WAM+planner, workload/evaluation infrastructure, world-model/session, cache/state, multimodal/Omni, media/VAE-stage and stage/modality disaggregation; first-party vLLM-Omni, TeleFuser, SGLang and llm-d runtime surfaces rechecked.
+- **Result:** no new formal paper/project crossed the SYS gate. Fresh arXiv searches mainly re-hit canonical Embodied.cpp, PhyAI, Kairos and known multimodal disaggregation work rather than surfacing a new 2609 systems paper.
+- **Runtime frontier:** vLLM-Omni [#6872](https://github.com/vllm-project/vllm-omni/issues/6872) remains OPEN; TeleFuser still has six open PRs (#36/#37/#40/#42/#43/#44); SGLang [#37579](https://github.com/sgl-project/sglang/issues/37579) and [#37419](https://github.com/sgl-project/sglang/issues/37419) remain OPEN.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; no PDFs are published here.
+- **Next:** #7000 bounded-memory review closure/merge → #6872 implementation A/B + disaggregated-VAE → #7011 streaming lifecycle closure → llm-d multimodal encoder-cache/stateful routing → TeleFuser → SGLang correctness/privacy → continue fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-04 02:02 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
