@@ -1392,3 +1392,11 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Why it matters:** DistVAE provides reusable distributed VAE adapters for Diffusers with row sharding and whole-tile distribution, including video/image VAE families such as HunyuanVideo, LTX, Wan and Qwen-Image. This directly strengthens the media-stage/disaggregated-VAE branch around Routes 6/10/11.
 - **Boundary:** no formal paper or broader serving scheduler/resource manager was verified, so this is a project-watch item rather than a canonical paper promotion. Public crawl at scan time: ~95 stars / 15 forks.
 - **Mainline:** TeleFuser still shows six open PRs (#36/#37/#40/#42/#43/#44); vLLM-Omni #6872 remains the chunkwise VAE→transport→MP4/disaggregated-VAE frontier. Canonical state remains **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**.
+
+## Hourly scan — 2026-09-03 13:57 CST
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge/heterogeneous, composite VLA+WAM+planner, world-model/session, cache/state, multimodal/Omni, stage/modality disaggregation, plus first-party TeleFuser/vLLM-Omni/SGLang surfaces.
+- **DistVAE adoption update:** the xDiT parent project explicitly lists DistVAE as a self-maintained package and routes xDiT tile-overlap controls through DistVAE planners. This strengthens the project-watch signal as real upstream inference-engine adoption; it remains below canonical paper promotion until production serving integration or formal systems evaluation appears.
+- **Mainline:** TeleFuser still has 6 open PRs (#36/#37/#40/#42/#43/#44); vLLM-Omni #6872 remains open media-pipeline/disaggregated-VAE evidence; SGLang #37579 remains open multimodal correctness evidence.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. Internal archive remains 156 valid PDFs / 4 pending; no PDFs are published here.
+- **Next:** DistVAE/xDiT production-serving adoption → vLLM-Omni #6872 implementation A/B/disaggregated-VAE → TeleFuser #36/#42/#43/#44 → session/world-model lifecycle → SGLang correctness → continue 30d SYS census.

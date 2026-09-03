@@ -43,5 +43,5 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - [Official repository](https://github.com/xdit-project/DistVAE) — MIT-licensed distributed VAE adapters for Diffusers.
 - **System role:** row-sharded convolution/normalization with halo/stat exchange plus whole-tile distribution; supports multiple image/video VAE families and exposes tests/benchmark tooling.
 - **Why watch:** it turns VAE decode from a monolithic tail into an explicit parallelizable media stage, making it directly relevant to heterogeneous placement, world-model/video serving, and future disaggregated-VAE contracts.
-- **Current adoption signal:** ~95 stars / 15 forks in the 2026-09-03 public crawl.
+- **Current adoption signal:** ~95 stars / 15 forks in the 2026-09-03 public crawl. The xDiT parent project explicitly lists DistVAE as a self-maintained package and wires xDiT tile-overlap controls through DistVAE planners, confirming real upstream engine adoption rather than an isolated utility repo.
 - **Promotion gate:** production serving integration or a formal systems evaluation showing latency/memory/scaling, stage placement/scheduling semantics, and correctness across representative workloads.
