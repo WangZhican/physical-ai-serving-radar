@@ -601,3 +601,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 
 - **2026-09-03 12:59 CST** — added **xDiT DistVAE** to runtime-project WATCH for reusable distributed VAE/media-stage infrastructure; no canonical paper-count or taxonomy change. Refreshed the hourly coverage heartbeat after a real SYS-first scan.
 - **2026-09-03 13:57 CST** — completed a fresh SYS-first scan with no new canonical promotion; strengthened DistVAE project-watch evidence by confirming explicit xDiT parent-engine adoption and tile-planner integration. TeleFuser/vLLM-Omni/SGLang runtime frontiers remain open; canonical counts/taxonomy unchanged.
+
+- **2026-09-03 15:58 CST** — Added llm-d Router multimodal stateful-routing frontier to runtime-project WATCH: async video job-owner routing (#2663), audio/video coordinator support (#2650), E2E coverage (#2641), and stage-aware multimodal cache ownership evidence (#2628). No paper promotion or taxonomy split.

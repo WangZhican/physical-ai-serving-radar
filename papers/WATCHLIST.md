@@ -45,3 +45,13 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **Why watch:** it turns VAE decode from a monolithic tail into an explicit parallelizable media stage, making it directly relevant to heterogeneous placement, world-model/video serving, and future disaggregated-VAE contracts.
 - **Current adoption signal:** ~95 stars / 15 forks in the 2026-09-03 public crawl. The xDiT parent project explicitly lists DistVAE as a self-maintained package and wires xDiT tile-overlap controls through DistVAE planners, confirming real upstream engine adoption rather than an isolated utility repo.
 - **Promotion gate:** production serving integration or a formal systems evaluation showing latency/memory/scaling, stage placement/scheduling semantics, and correctness across representative workloads.
+
+### llm-d Router: multimodal stateful-routing frontier
+**Class:** runtime-project WATCH · **Routes:** real-time/stateful serving, multimodal/Omni serving, stage/modality disaggregation
+
+- [#2663](https://github.com/llm-d/llm-d-router/issues/2663): route asynchronous  follow-up requests to the pod that owns the job — a concrete sticky/stateful routing requirement for diffusion/video serving.
+- [#2650](https://github.com/llm-d/llm-d-router/issues/2650): extend coordinator media support from images to audio/video.
+- [#2641](https://github.com/llm-d/llm-d-router/issues/2641): add sidecar and E2E coverage for audio/video multimodal requests.
+- [#2628](https://github.com/llm-d/llm-d-router/issues/2628): E/PD multimodal embedding-cache ownership bug, highlighting stage-aware placement/accounting.
+
+**Radar judgment:** high-value infrastructure evidence from a major distributed inference router, but not a new paper. Promote only if this matures into a reusable merged subsystem, release-level capability, or formal systems evaluation.
