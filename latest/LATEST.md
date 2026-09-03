@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-04 05:00 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge/heterogeneous, composite VLA+WAM+planner, workload/evaluation infrastructure, world-model/session, cache/state, multimodal/Omni, media/VAE-stage and stage/modality disaggregation; first-party vLLM-Omni, TeleFuser and SGLang runtime surfaces rechecked.
+- **Runtime frontier:** vLLM-Omni [#6872](https://github.com/vllm-project/vllm-omni/issues/6872) remains OPEN; TeleFuser still has six open PRs (#36/#37/#40/#42/#43/#44); SGLang [#37579](https://github.com/sgl-project/sglang/issues/37579) and [#37419](https://github.com/sgl-project/sglang/issues/37419) remain OPEN.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; no PDFs are published here.
+- **Sync recovery:** this commit also publishes the already-canonical 04:02 heartbeat that had remained local after the prior write failure; no paper/count change is manufactured.
+- **Next:** #7000 bounded-memory review closure → #6872 implementation A/B + disaggregated-VAE → #7011 lifecycle closure → llm-d multimodal routing → TeleFuser → SGLang correctness/privacy → continue fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-04 03:00 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
@@ -1470,3 +1479,11 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **vLLM-Omni status:** [PR #7000](https://github.com/vllm-project/vllm-omni/pull/7000) was re-verified OPEN and not merged; its H200 LTX-2.5 A/B remains PR-scoped evidence. [RFC #6872](https://github.com/vllm-project/vllm-omni/issues/6872) also remains OPEN as the chunkwise VAE→transport→MP4 / future disaggregated-VAE frontier.
 - **Runtime coverage:** llm-d multimodal stateful-routing and SGLang multimodal/runtime surfaces were checked; no stronger project/paper promotion signal was verified this cycle. No taxonomy split/merge and no new PDF.
 - **Next:** #7000 merge/expanded LTX A/B → #6996/#7001 memory-growth closure → #6872 implementation A/B/disaggregated-VAE → llm-d #2663/#2650/#2641 landing → TeleFuser multi-session/heterogeneous → SGLang correctness → fresh 30d SYS census.
+
+## Hourly scan — 2026-09-04 04:02 CST
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. A real fresh 24h→7d SYS-first scan was completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge/heterogeneous, composite VLA+WAM+planner, workload/evaluation infrastructure, world-model/session, cache/state, multimodal/Omni, media/VAE-stage and stage/modality disaggregation; first-party vLLM-Omni/SGLang/TeleFuser surfaces plus the llm-d stateful-routing watchline were rechecked.
+- **Boundary screen:** EM^2Mem (arXiv:2609.00551) was reviewed but remains algorithmic multimodal-memory work for long-video QA rather than reusable serving/runtime infrastructure, so it is not promoted.
+- **Runtime frontier:** vLLM-Omni [#7000](https://github.com/vllm-project/vllm-omni/pull/7000) and [#6872](https://github.com/vllm-project/vllm-omni/issues/6872) remain open. #7000's bounded-memory review and #6872's bounded ordered chunks/ring/backpressure design reinforce one output-lifecycle systems line. TeleFuser remains at six open PRs (#36/#37/#40/#42/#43/#44); SGLang #37579/#37419 remain open.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; no PDFs are published here.
+- **Next:** #7000 bounded-memory/GPU-path CI review closure → #6872 Phase-A A/B + bounded ring/disaggregated-VAE → #7011 lifecycle closure → llm-d multimodal stateful routing → TeleFuser → SGLang correctness/privacy closure → continue fresh 30d SYS census.

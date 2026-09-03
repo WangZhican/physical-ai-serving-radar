@@ -1,3 +1,8 @@
+## 2026-09-04 05:00 CST
+- Hourly SYS-first scan completed with no canonical promotion or taxonomy/PDF change.
+- Backfilled the already-canonical 04:02 public heartbeat after the prior sync failure and added the truthful 05:00 heartbeat.
+- Revalidated vLLM-Omni #6872, TeleFuser six-open-PR frontier, and SGLang #37579/#37419.
+
 ## 2026-09-04 03:00 CST
 - Completed a real fresh 24h→7d SYS-first scan with no canonical paper/project promotion.
 - Rechecked vLLM-Omni #6872, TeleFuser six-PR frontier, SGLang #37579/#37419, llm-d multimodal stateful routing, and fresh arXiv 2609 SYS gating; no taxonomy/PDF change.
