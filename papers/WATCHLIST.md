@@ -31,3 +31,9 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - [RFC #6872](https://github.com/vllm-project/vllm-omni/issues/6872), opened 2026-08-31. It proposes a bounded ordered media-chunk contract, explicit ownership/cancellation cleanup/backpressure, overlap across VAE decode → D2H/IPC transport → CPU H.264/MP4, persistent-ring transport, and a future disaggregated-VAE boundary.
 - **Why watch:** this is a concrete stage-disaggregation / streaming-output systems direction rather than model optimization. The RFC's frozen 8×B300 MiniMax-H3 profile reports 1.247 s VAE plus 1.749 s transport+CPU MP4 on a 10 s request; the ~10%/~20% E2E savings are optimistic projections, not achieved speedups.
 - **Promotion gate:** implementation A/B, bounded-memory/cancellation correctness, reusable media-contract generalization beyond H3, and evidence that the disaggregated VAE interface is broadly reusable.
+
+
+### TeleFuser heterogeneous backend portability — 2026-09-03
+- [PR #42](https://github.com/Tele-AI/TeleFuser/pull/42) adds Wan2.2 pipelines on Ascend NPU, complementing [#43](https://github.com/Tele-AI/TeleFuser/pull/43) MindIE-SD/VAE-parallel and [#44](https://github.com/Tele-AI/TeleFuser/pull/44) MiniMax-H3/FastH3 LoRA+FP8 Adapter support.
+- **Why watch:** useful Route 6/10/11 evidence that the runtime is broadening beyond CUDA-only deployment toward reusable heterogeneous world-model/video serving.
+- **Promotion gate:** merged/released implementation plus reproducible end-to-end latency, throughput, memory, failure-recovery, and reusable resource/stage-management semantics beyond model-specific enablement.

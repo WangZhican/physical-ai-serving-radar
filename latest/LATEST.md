@@ -1348,3 +1348,10 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Fresh runtime watch:** TeleFuser PR #43 adds Ascend NPU MindIE-SD attention + VAE-parallel enablement; PR #44 adds MiniMax-H3/FastH3 LoRA + FP8 Adapter support. Both remain open implementation evidence, not paper/release promotions; multi-session ABot-World PR #36 is still open.
 - **Frontier:** TeleFuser heterogeneous/multi-session landing → vLLM-Omni media-pipeline + session-memory/full-duplex/world-model lifecycle → SGLang multimodal correctness/observability → ongoing 30d SYS census.
 - **Canonical state:** 162 works = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged.
+
+
+## Hourly scan — 2026-09-03 08:59 CST
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / paper WATCH +0. Real 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Fresh runtime watch:** TeleFuser PR #42 adds Wan2.2 pipeline support on Ascend NPU and complements open #43 MindIE-SD/VAE-parallel and #44 MiniMax-H3/FastH3 LoRA+FP8 Adapter; #36 multi-session ABot-World remains open.
+- **Video-serving lifecycle:** vLLM-Omni #6872 remains the media-chunk/disaggregated-VAE frontier; #6403 cancellation/status semantics and #2327 OOM recovery/state corruption remain production lifecycle/failure-recovery evidence.
+- **Canonical state:** 162 works = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged.
