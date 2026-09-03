@@ -1,3 +1,8 @@
+## 2026-09-04 00:58 CST
+- Completed a real 24h→7d SYS-first scan with no canonical paper/project promotion.
+- Revalidated vLLM-Omni #6872, TeleFuser open PR frontier, llm-d multimodal encoder-cache affinity routing, and SGLang multimodal correctness debt.
+- Canonical counts/taxonomy unchanged; public heartbeat only, with no private PDFs or server metadata.
+
 # Changelog
 
 ## 2026-09-04 00:00 CST

@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-04 00:58 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge/heterogeneous, composite VLA+WAM+planner, workload/evaluation infrastructure, world-model/session, cache/state, multimodal/Omni, media/VAE-stage and stage/modality disaggregation; first-party vLLM-Omni/SGLang/llm-d/TeleFuser surfaces rechecked.
+- **Runtime frontier:** vLLM-Omni #6872 remains OPEN for bounded chunkwise VAE→transport→MP4 overlap and future disaggregated-VAE. TeleFuser still exposes six open PRs (#36/#37/#40/#42/#43/#44). llm-d multimodal serving continues to treat repeated image/video/audio encoder-cache affinity as a distributed routing signal. SGLang #37579 remains unresolved multimodal placeholder/data-mismatch correctness debt.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; no PDFs are published here.
+- **Next:** #7011 merge/regression coverage → #7000 LTX output-transport landing → #6872 implementation/disaggregated-VAE → llm-d multimodal encoder-cache/stateful routing → TeleFuser #36/#42/#43/#44 → SGLang #37579/#37419 closure → continue fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-04 00:00 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
