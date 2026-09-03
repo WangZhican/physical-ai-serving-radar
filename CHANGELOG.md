@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-03 15:02 CST
+- Fresh SYS-first scan found no new canonical paper/project promotion, but added strong first-party production evidence from the vLLM-Omni Team's MiniMax H3 serving post.
+- The official post benchmarks the complete encoder→DiT→video/audio VAE→transport→MP4 system boundary. On its frozen 8×B300 base lane, vLLM-Omni reduces complete-response latency from 82.239 s (Diffusers) to 56.917 s (30.8% lower / 1.445×); a separate FastH3 lane reaches 8.678–8.710 s for a 10.125 s MP4, and the two lanes are explicitly not used for a cross-lane speedup claim.
+- This strengthens Routes 6/10/11 and the #6872 chunkwise VAE→transport→MP4/disaggregated-VAE frontier without double-counting the existing vLLM-Omni paper/project. Canonical state remains **163 = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**.
+
 ## 2026-09-03 05:01 CST
 - Hourly SYS-first scan completed across Physical-AI/VLA serving-runtime, multimodal/Omni serving, world-model/session serving, cache/state, stage/modality disaggregation, fresh arXiv 2609 and first-party runtime ecosystems; no new canonical paper promotion.
 - Added vLLM-Omni **#6872** to runtime WATCH evidence: bounded ordered media-chunk contract, VAE→transport→encode overlap, explicit backpressure/ownership/cancellation semantics and future disaggregated-VAE boundary. Its ~10%/~20% E2E numbers are RFC projections, not achieved speedups.
