@@ -1,3 +1,17 @@
+## Hourly scan — 2026-09-03 09:58 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop serving, edge-cloud/heterogeneous deployment, multimodal/Omni serving, world-model/session serving, cache/state and stage/modality disaggregation.
+- **Runtime frontier:** TeleFuser [#36](https://github.com/Tele-AI/TeleFuser/pull/36) remains open multi-session ABot-World serving work. The open TeleFuser PR set remains #36/#37/#40/#42/#43/#44; #42/#43/#44 continue to strengthen heterogeneous runtime portability without a verified merge/release transition. SGLang [#37579](https://github.com/sgl-project/sglang/issues/37579) remains open multimodal placeholder/data-mismatch correctness evidence below canonical WATCH.
+- **Canonical state:** unchanged at 162 works = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH. No taxonomy split/merge; internal PDF archive remains 155 valid / 4 pending and no PDFs are published here.
+- **Ledger repair:** an already-durable 08:59 scan had not propagated into this public heartbeat. This update backfills that existing scan and adds the new 09:58 checkpoint; it does not manufacture a paper/count change.
+- **Next:** TeleFuser #36/#42/#43/#44 landing/performance/state-isolation → vLLM-Omni #6872 implementation A/B/disaggregated-VAE → #6403/#2327 lifecycle/failure recovery → #4480/#5805/#6672 session/world-model lifecycle → SGLang multimodal correctness → continue fresh 30d SYS census.
+
+## Hourly scan — 2026-09-03 08:59 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. This heartbeat is backfilled from an already-recorded real scan.
+- **Runtime frontier:** TeleFuser #36/#42/#43/#44 remained open implementation evidence; vLLM-Omni #6872/#6403/#2327 remained media-pipeline/lifecycle evidence; SGLang #37579 remained open correctness evidence. No canonical promotion, taxonomy change or PDF change occurred.
+
 ## Hourly scan — 2026-09-03 07:01 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan plus targeted 30d omission-recovery completed; 0 promotion is not 0 search.
