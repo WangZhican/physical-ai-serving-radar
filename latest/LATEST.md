@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-04 02:02 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge/heterogeneous, composite VLA+WAM+planner, workload/evaluation infrastructure, world-model/session, cache/state, multimodal/Omni, media/VAE-stage and stage/modality disaggregation; first-party vLLM-Omni, TeleFuser, SGLang and llm-d runtime surfaces checked.
+- **Fresh runtime evidence:** vLLM-Omni [#7000](https://github.com/vllm-project/vllm-omni/pull/7000) remains open. Review of its GPU video-output path flags roughly **2.8 GiB FP32 temporary + 0.7 GiB uint8 output** at the reported 1920×1088×121 target shape while decoded output is still live, motivating bounded chunk conversion/D2H. This materially strengthens the systems connection to [#6872](https://github.com/vllm-project/vllm-omni/issues/6872): low-latency media serving needs output-memory lifetime/backpressure controls, not only faster postprocess kernels.
+- **Mainline status:** #7000 remains OPEN; #6872 remains OPEN during its feedback window; TeleFuser still shows six open PRs (#36/#37/#40/#42/#43/#44); SGLang [#37579](https://github.com/sgl-project/sglang/issues/37579) remains OPEN with no linked fix verified.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; no PDFs are published here.
+- **Next:** #7000 bounded-memory review closure/merge → #6872 implementation A/B + disaggregated-VAE → #7011 streaming lifecycle closure → llm-d multimodal encoder-cache/stateful routing → TeleFuser → SGLang correctness → continue fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-04 00:58 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
