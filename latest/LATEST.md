@@ -1341,3 +1341,10 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Boundary guard:** not CORE_SYS because interaction-model/training novelty remains primary; no standalone scheduler/resource manager is the central contribution.
 - **Open source:** [official repo](https://github.com/jd-opensource/JoyAI-VL-Interaction) currently surfaces ~1.8k stars / 182 forks; model/data/training recipe/deployable stack are open.
 - Fresh 24h→7d SYS-first scan found no additional promotion.
+
+
+## Hourly scan — 2026-09-03 08:01 CST
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / paper WATCH +0. Real 24h→7d Physical-AI + Multimodal/Omni SYS-first scan completed; 0 promotion is not 0 search.
+- **Fresh runtime watch:** TeleFuser PR #43 adds Ascend NPU MindIE-SD attention + VAE-parallel enablement; PR #44 adds MiniMax-H3/FastH3 LoRA + FP8 Adapter support. Both remain open implementation evidence, not paper/release promotions; multi-session ABot-World PR #36 is still open.
+- **Frontier:** TeleFuser heterogeneous/multi-session landing → vLLM-Omni media-pipeline + session-memory/full-duplex/world-model lifecycle → SGLang multimodal correctness/observability → ongoing 30d SYS census.
+- **Canonical state:** 162 works = 116 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH; taxonomy unchanged.
