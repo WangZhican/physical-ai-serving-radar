@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-04 00:00 CST
+- Completed a real fresh 24h→7d SYS-first scan; no new canonical paper/project crossed the systems threshold.
+- Rechecked vLLM-Omni/SGLang/TeleFuser runtime surfaces. TeleFuser remains at six open PRs (#36/#37/#40/#42/#43/#44); SGLang #37579/#37419 remain open correctness/privacy-hardening signals.
+- Canonical state remains **163 = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**; no taxonomy/PDF change.
+
 ## 2026-09-03 19:01 CST
 - Completed a real 24h→7d SYS-first incremental scan with no canonical paper/project promotion.
 - vLLM-Omni #6872 remains the open bounded media-pipeline/disaggregated-VAE frontier; SGLang #37579 remains open multimodal session-correctness debt with no linked fix verified this cycle.

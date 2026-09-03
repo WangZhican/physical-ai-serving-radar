@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-04 00:00 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge/heterogeneous, composite VLA+WAM+planner, workload/evaluation infrastructure, world-model/session, cache/state, multimodal/Omni, media/VAE-stage and stage/modality disaggregation; first-party vLLM-Omni/SGLang/TeleFuser surfaces rechecked.
+- **Fresh result:** no new formal paper/project crossed the SYS gate. TeleFuser still shows six open PRs (#36/#37/#40/#42/#43/#44). SGLang #37579 and #37419 remain open multimodal correctness/privacy-hardening signals; generic LLM-only scheduler/deadlock issues were filtered out.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; no PDFs are published here.
+- **Next:** vLLM-Omni #7011/#7000/#6872 lifecycle/media-pipeline landing → llm-d stateful multimodal routing → TeleFuser multi-session/heterogeneous → SGLang #37579/#37419 closure → fresh 30d SYS census.
+
 ## Hourly scan — 2026-09-03 19:01 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
