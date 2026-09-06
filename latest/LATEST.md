@@ -1495,3 +1495,9 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Runtime frontier:** vLLM-Omni [#7000](https://github.com/vllm-project/vllm-omni/pull/7000) and [#6872](https://github.com/vllm-project/vllm-omni/issues/6872) remain open. #7000's bounded-memory review and #6872's bounded ordered chunks/ring/backpressure design reinforce one output-lifecycle systems line. TeleFuser remains at six open PRs (#36/#37/#40/#42/#43/#44); SGLang #37579/#37419 remain open.
 - **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; no PDFs are published here.
 - **Next:** #7000 bounded-memory/GPU-path CI review closure → #6872 Phase-A A/B + bounded ring/disaggregated-VAE → #7011 lifecycle closure → llm-d multimodal stateful routing → TeleFuser → SGLang correctness/privacy closure → continue fresh 30d SYS census.
+
+## Hourly scan — 2026-09-06 20:52 CST
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. A real fresh 24h→7d SYS-first catch-up was completed after the primary trigger remained disabled.
+- **Coverage:** Physical-AI/VLA/world-model/multimodal serving and runtime surfaces were rechecked; fresh hits were model/learning/generation work or already-tracked runtime frontiers, with no reusable scheduler/runtime/resource-management work crossing the canonical gate.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**; no taxonomy or PDF change.
+- **Next:** #6872 implementation/A-B/backpressure/disaggregated-VAE → TeleFuser multi-session/heterogeneous runtime → SGLang multimodal correctness/privacy → broader 30d SYS census → 4 PDF debts.
