@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-06 12:54 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. A real fresh 24h→7d SYS-first catch-up was completed after the primary trigger had remained disabled; 0 promotion is not 0 search.
+- **Coverage:** recent Physical-AI/VLA/world-model/multimodal serving and runtime surfaces were rechecked. Streaming4D and Toward Unified Robot Learning did not expose a reusable serving/runtime/resource-management substrate strong enough for canonical SYS promotion.
+- **Runtime frontier:** vLLM-Omni RFC #6872 remains OPEN; its ~10%/~20% end-to-end savings remain optimistic RFC ceilings rather than achieved implementation results.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; no PDFs are published here.
+- **Next:** #6872 implementation/A-B/backpressure/disaggregated-VAE → TeleFuser multi-session/heterogeneous runtime → SGLang multimodal correctness/privacy → continue the 30d SYS census and four legal PDF debts.
+
 ## Hourly scan — 2026-09-04 05:00 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
