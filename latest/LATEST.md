@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-13 02:00 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1. Real fresh 24h→7d SYS-first scan completed; 0 paper promotion is not 0 search.
+- **Fresh runtime maturity:** TeleFuser [ABot-World](https://tele-ai.github.io/TeleFuser/cookbook/abot-world/) now documents retained **multi-session continuous batching** through both DiT and cached VAE decode. Its published benchmark exercises **2 sessions × 30 continuously batched blocks** and checks generation, session-state isolation, ordering and batching.
+- **Serving mechanics:** multi-GPU deployment uses parent-side session assignment, process/process-NCCL worker modes, bounded per-session queues, plus `latest` drop-oldest versus `lossless` backpressure policies. Public PR frontier is now [#45](https://github.com/Tele-AI/TeleFuser/pull/45), superseding the older #36 watchline.
+- **Adoption snapshot:** 26 stars / 8 forks. Keep as runtime-project WATCH until controlled multi-session goodput/latency/fairness, long-horizon state-isolation/bounded-memory evidence, or a formal systems paper appears.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy/PDF change; PDFs are not published here.
+- **Next:** TeleFuser #45 landing + ABot multi-session SLO/long-horizon qualification → v0.29.0rc1 qualification → #7368 → #7181/#7194 → #7074/#7198/#6533 → #7251 → #6872 → SGLang → broader 30d SYS census.
+
 ## Hourly scan — 2026-09-13 01:00 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1. Real fresh 24h→7d SYS-first scan completed; 0 paper promotion is not 0 search.

@@ -1,3 +1,8 @@
+## 2026-09-13 02:00 CST
+- Completed a real SYS-first 24h→7d scan with no canonical paper promotion or taxonomy/PDF change.
+- Upgraded the TeleFuser watchline: ABot-World now documents retained multi-session continuous batching, a 2-session × 30-block validation path, bounded per-session queues/backpressure, and parent-side multi-GPU assignment; public PR frontier is now #45 rather than the older #36.
+- Updated adoption snapshot to 26 stars / 8 forks and shifted the promotion gate toward controlled multi-session SLO/long-horizon evidence or a formal systems paper.
+
 ## 2026-09-13 01:00 CST
 - Completed a real SYS-first 24h→7d scan with no canonical paper promotion or taxonomy/PDF change.
 - Recorded vLLM-Omni v0.29.0rc1 as a major runtime-maturity update: full-duplex MiniCPM-o 4.5/PersonaPlex graduation, core duplex runtime, Python DuplexClient, server-side VAD, stronger multi-stage config/init, and LingBot World stepwise execution.
