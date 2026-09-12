@@ -76,3 +76,8 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - [#2628](https://github.com/llm-d/llm-d-router/issues/2628): E/PD multimodal embedding-cache ownership bug, highlighting stage-aware placement/accounting.
 
 **Radar judgment:** high-value infrastructure evidence from a major distributed inference router, but not a new paper. Promote only if this matures into a reusable merged subsystem, release-level capability, or formal systems evaluation.
+### vLLM-Omni #7367/#7368 — composable-parallel stage-placement/config contract (2026-09-13)
+- [Issue #7367](https://github.com/vllm-project/vllm-omni/issues/7367) / [PR #7368](https://github.com/vllm-project/vllm-omni/pull/7368): documented `--strategy-config` + `--stage-overrides` can reject valid heterogeneous layouts because device-count validation runs against deploy-YAML defaults before CLI stage overrides are merged.
+- **Why watch:** direct Route 4/6/11 evidence that disaggregated/heterogeneous serving needs explicit configuration precedence and validation ordering. The linked fix defers the eager check and validates the effective post-CLI layout during reconciliation.
+- **Closure gate:** merged fix plus regression coverage across multi-stage/multi-device strategy + stage-override combinations. Keep attached to vLLM-Omni runtime lineage; no duplicate canonical paper/project entry.
+

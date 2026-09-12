@@ -1,3 +1,8 @@
+## 2026-09-13 00:00 CST
+- Completed a real SYS-first 24h→7d scan with no canonical paper promotion or taxonomy/PDF change.
+- Added vLLM-Omni #7367/#7368 to the runtime watchline for composable-parallel stage-placement/config-precedence correctness.
+- Screened SGLang #39073 as below-threshold multimodal observability/correctness debt.
+
 ## 2026-09-12 23:00 CST
 - Completed a real fresh 24h→7d SYS-first scan. No canonical paper promotion or taxonomy/PDF change.
 - Added runtime-project WATCH coverage for vLLM-Omni #7181 Unified Full-duplex Framework and #7194 AURA integration into that shared runtime/control plane.

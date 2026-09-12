@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-13 00:00 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1. Real fresh 24h→7d SYS-first scan completed; 0 paper promotion is not 0 search.
+- **Fresh runtime evidence:** vLLM-Omni [#7367](https://github.com/vllm-project/vllm-omni/issues/7367) with linked [PR #7368](https://github.com/vllm-project/vllm-omni/pull/7368) shows the documented `--strategy-config` + `--stage-overrides` path can reject a legal heterogeneous layout because device-count validation occurs before CLI per-stage device overrides are merged. The fix defers validation to post-CLI reconciliation.
+- **Systems role:** direct edge-cloud/heterogeneous/stage-disaggregation infrastructure evidence: placement abstractions require correct configuration precedence and validation timing, not only scheduler/kernel support.
+- **Boundary screen:** SGLang #39073 was checked as multimodal observability/correctness debt but remains below runtime-project WATCH threshold.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; no PDFs are published here.
+- **Next:** #7368 merge/regression coverage → #7181 unified duplex implementation → #7194 AURA → #7074 world-model session runtime → #7251 lifecycle regression → #6872 bounded media/disaggregated-VAE → TeleFuser/SGLang → broader 30d SYS census.
+
 ## Hourly scan — 2026-09-12 23:00 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +2. A real fresh 24h→7d SYS-first scan was completed; 0 paper promotion is not 0 search.
