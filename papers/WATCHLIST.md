@@ -49,6 +49,16 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **Why watch:** concrete evidence that realtime Omni/Physical-AI serving needs bounded per-session queues, temporal compaction, state ownership/backpressure and long-horizon session regression tests rather than only endpoint-health checks.
 - **Closure gate:** merged fix with multi-minute duplex regression, bounded memory/queue proof, AV alignment and state-isolation coverage.
 
+### vLLM-Omni #7181 — Unified Full-duplex Framework (2026-09-12)
+- [RFC #7181](https://github.com/vllm-project/vllm-omni/issues/7181) proposes an engine-owned `DuplexOmniEngine`/`DuplexOrchestrator`, a single `DuplexModelPlugin` seam, a unified realtime API and explicit separation of turn-based vs duplex engine stacks.
+- **Why watch:** this is strong reusable-runtime evidence rather than one-model glue. Planned qualification spans MiniCPM-o 4.5, PersonaPlex, AURA, Nemotron VoiceChat, Qwen3-Omni and later multi-replica duplex serving, making it directly relevant to Routes 2/3/5/7/11.
+- **Promotion gate:** merged/released multi-model implementation with state-isolation, resume/barge-in/cancellation correctness plus latency/concurrency evidence.
+
+### vLLM-Omni #7194 — AURA on unified full-duplex runtime (2026-09-12)
+- [RFC #7194](https://github.com/vllm-project/vllm-omni/issues/7194) proposes moving AURA's four-stage `Qwen3-ASR → Thinker (Qwen3-VL) → Talker → Code2Wav` pipeline from its independent turn-replay path into #7181's shared engine/session control plane.
+- **Why watch:** direct composite/any-to-any serving evidence: ordered mailbox, epoch barge-in, stale filtering, playback ACK, lease/resume and multi-session admission become shared runtime semantics rather than AURA-specific orchestration.
+- Keep attached to the vLLM-Omni project lineage; do not create a duplicate canonical paper/project entry.
+
 
 ### xDiT DistVAE — distributed VAE runtime substrate
 - [Official repository](https://github.com/xdit-project/DistVAE) — MIT-licensed distributed VAE adapters for Diffusers.

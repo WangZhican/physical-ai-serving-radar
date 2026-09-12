@@ -1,3 +1,8 @@
+## 2026-09-12 23:00 CST
+- Completed a real fresh 24h→7d SYS-first scan. No canonical paper promotion or taxonomy/PDF change.
+- Added runtime-project WATCH coverage for vLLM-Omni #7181 Unified Full-duplex Framework and #7194 AURA integration into that shared runtime/control plane.
+- Canonical paper state remains **163 = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**.
+
 ## 2026-09-12 22:02 CST
 - Completed a real fresh 24h→7d SYS-first scan. No canonical paper promotion or taxonomy/PDF change.
 - Added runtime-project WATCH coverage for vLLM-Omni #7074 reusable world-model realtime/session roadmap and #7251 long-video full-duplex lifecycle/correctness failure.

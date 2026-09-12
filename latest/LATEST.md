@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-12 23:00 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +2. A real fresh 24h→7d SYS-first scan was completed; 0 paper promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge-cloud/heterogeneous execution, composite VLA+WAM+planner, workload/evaluation, world-model/session, cache/state reuse, multimodal/Omni and media/stage disaggregation.
+- **Fresh runtime watch:** vLLM-Omni [RFC #7181](https://github.com/vllm-project/vllm-omni/issues/7181) proposes an engine-owned unified full-duplex runtime (`DuplexOmniEngine`/`DuplexOrchestrator`), a single model-plugin seam, one realtime API and planned qualification across MiniCPM-o, PersonaPlex, AURA, Nemotron VoiceChat, Qwen3-Omni and later multi-replica serving. [RFC #7194](https://github.com/vllm-project/vllm-omni/issues/7194) moves AURA's Qwen3-ASR→Qwen3-VL Thinker→Talker→Code2Wav pipeline into that shared session/control plane rather than maintaining a separate turn-replay state machine.
+- **Systems interpretation:** Routes 2/3/5/7/11 are converging around reusable engine-owned session state, barge-in/cancel/resume semantics and composite-model full-duplex orchestration. No taxonomy split is needed yet.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No paper PDF or taxonomy change.
+- **Next:** #7181 implementation/merge + multi-model qualification → #7194 AURA landing → #7074 reusable world-model session/state/streaming → #7251 lifecycle regression → #6872 bounded media/disaggregated-VAE A/B → TeleFuser → SGLang correctness/observability → broader 30d SYS census.
+
 ## Hourly scan — 2026-09-12 22:02 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +2. A real fresh 24h→7d SYS-first scan was completed; 0 paper promotion is not 0 search.
