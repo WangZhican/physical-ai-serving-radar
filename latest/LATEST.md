@@ -1,3 +1,11 @@
+## Hourly scan — 2026-09-13 05:58 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1. Real fresh 24h→7d SYS-first scan completed; 0 paper promotion is not 0 search.
+- **Fresh runtime-project watch:** SGLang-Omni [#1909 Full Duplex roadmap](https://github.com/sgl-project/sglang-omni/issues/1909) defines a model-agnostic, session-centric runtime with session-owned lifecycle/state/ordering/backpressure/cleanup, persistent AR KV, a shared realtime WebSocket API, session-level latency/jitter/deadline/concurrency/memory metrics, session batching, and duplex-specific scheduling/stage placement.
+- **Cross-framework signal:** together with vLLM-Omni [#7181](https://github.com/vllm-project/vllm-omni/issues/7181), two independent Omni-serving stacks are converging on reusable long-lived session/control-plane abstractions instead of per-model glue. SGLang core #31765/#36475 remain useful lifecycle-correctness evidence for abort/disconnect/reconnect semantics.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 paper WATCH**. No taxonomy/PDF change; PDFs are not published here.
+- **Next:** SGLang-Omni #1909 Phase-1 #2035/#2069/#2070 landing/qualification → compare with vLLM-Omni #7181/#7055 → #7400 heterogeneous CI closure → #7074/#7198/#6533 → TeleFuser #45 → #7368/#7194/#7251/#6872 → SGLang correctness/observability → broader 30d SYS census.
+
 ## Hourly scan — 2026-09-13 05:00 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.

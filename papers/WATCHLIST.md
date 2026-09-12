@@ -94,3 +94,9 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **World-model progression:** [#7074](https://github.com/vllm-project/vllm-omni/issues/7074) marks E1 stepwise AR-Diffusion merged, E2 mid-session structured interaction partial via draft #7198, and E3 session-owned incremental VAE still open under #6533.
 - **Boundary:** this is release/maturity evidence for an existing project, not a new paper. Keep RC claims scoped to v0.29.0rc1 until final release and multi-session/cross-model regression evidence mature.
 
+### SGLang-Omni #1909 — model-agnostic full-duplex runtime roadmap (2026-09-13)
+- [Roadmap #1909](https://github.com/sgl-project/sglang-omni/issues/1909) targets a model-agnostic, session-centric runtime for native full-duplex models. Phase 1 covers session-owned Unit lifecycle/state/ordering/backpressure/cleanup, persistent AR KV through SGLang streaming sessions, and a shared realtime WebSocket API.
+- **Systems scope:** later phases explicitly add duplex evaluation/CI and session SLOs (queue/compute/transfer latency, content latency, inter-Unit gaps, jitter, deadline misses, concurrency and memory), plus session batching, duplex-specific scheduling/stage placement, CPU-overhead reduction and CUDA-graph/kernel optimization.
+- **Why watch:** together with vLLM-Omni #7181, this is strong cross-framework evidence that Omni serving is converging on reusable long-lived session/control-plane abstractions rather than per-model glue. Relevant Routes: 2/3/5/7/8/9/11.
+- **Promotion gate:** merged/released session lifecycle + persistent-KV bridge + realtime API, multi-model integration, state-isolation/cancellation/backpressure correctness, and controlled concurrency/latency/jitter/memory evaluation. Track Phase-1 #2035/#2069/#2070 first.
+
