@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-13 05:00 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge-cloud/heterogeneous execution, composite VLA+WAM+planner, workload/evaluation, world-model/session, cache/state reuse, multimodal/Omni and media/stage disaggregation. Fresh arXiv 2609 and first-party runtime surfaces produced no new formal systems paper or project promotion.
+- **Fresh qualification evidence:** vLLM-Omni [#7400](https://github.com/vllm-project/vllm-omni/issues/7400) shows the vLLM 0.29 rebase is green in the aligned CUDA scheduled nightly (**50/50 jobs passed**) while local and NPU nightlies fail startup across HunyuanImage3, Wan2.2 and MiniCPM-o 4.5 because their installed vLLM API/image contract is stale; NPU MiniCPM-o also exposes a processor API mismatch. This is heterogeneous qualification/CI debt attached to the existing vLLM-Omni line, not a new project promotion.
+- **Open frontier:** #7181/#7055/#7074/#7194/#7251/#7367/#7368 remain active; TeleFuser #45 multi-session and SGLang multimodal correctness/privacy were rechecked without a classification-changing status transition.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy/PDF change; PDFs are not published here.
+- **Next:** #7400 NPU/local-nightly alignment/regression closure → #7181 PR1 landing/multi-model qualification → #7055 → #7074/#7198/#6533 → TeleFuser #45 SLO/long-horizon qualification → #7368 → #7194 → #7251 → #6872 → SGLang → broader 30d SYS census.
+
 ## Hourly scan — 2026-09-13 04:02 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.

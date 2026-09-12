@@ -1,3 +1,8 @@
+## 2026-09-13 05:00 CST
+- Completed a real SYS-first 24h→7d scan with no canonical paper/project promotion or taxonomy/PDF change.
+- Added vLLM-Omni #7400 as heterogeneous qualification/CI evidence: aligned CUDA nightly passed 50/50 after the vLLM 0.29 rebase, while stale/mismatched local and NPU images fail multimodal/Omni startup across representative models.
+- Kept #7400 attached to the existing vLLM-Omni runtime lineage rather than manufacturing a new project/paper promotion; next gate is aligned NPU/local images and green representative nightlies.
+
 ## 2026-09-13 04:02 CST
 - Completed a real SYS-first 24h→7d scan with no canonical paper/project promotion or taxonomy/PDF change.
 - Revalidated vLLM-Omni #7181 as a more concrete reusable duplex runtime substrate: one engine-owned session, DuplexOmni/DuplexOmniEngine/DuplexOrchestrator separation, typed command/event contract, one DuplexModelPlugin seam, and staged multi-model/multi-replica migration.
