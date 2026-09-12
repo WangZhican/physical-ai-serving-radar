@@ -39,6 +39,16 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **Why watch:** useful Route 6/10/11 evidence that the runtime is broadening beyond CUDA-only deployment toward reusable heterogeneous world-model/video serving.
 - **Promotion gate:** merged/released implementation plus reproducible end-to-end latency, throughput, memory, failure-recovery, and reusable resource/stage-management semantics beyond model-specific enablement.
 
+### vLLM-Omni #7074 — reusable world-model realtime/session roadmap (2026-09-12)
+- [RFC #7074](https://github.com/vllm-project/vllm-omni/issues/7074) generalizes the earlier LingBot-specific roadmap into a reusable engine contract: one long-lived request, stepwise execution, streaming output, optional mid-request interaction, session-owned state and `/v1/realtime/video`.
+- **Why watch:** direct Route 3/5/7/10 systems evidence spanning LingBot World 2.0, MiniMax H3 World, ABot-World and Echo-WM. The roadmap reports #6844/#6463/#6294 merged by 2026-09-07 as core prerequisites, but broader multi-session and reusable cross-model coverage remains roadmap work.
+- **Promotion gate:** reusable cross-model implementation plus controlled FPS/latency/state-isolation and multi-session evidence.
+
+### vLLM-Omni #7251 — long-video full-duplex lifecycle/correctness debt (2026-09-12)
+- [Issue #7251](https://github.com/vllm-project/vllm-omni/issues/7251) reports native full-duplex long-video sessions resetting audio KV, accumulating leftover frames when `stack_frames=2`, desynchronizing AV state, growing memory, producing late playback acknowledgements and over-reserving vision slots.
+- **Why watch:** concrete evidence that realtime Omni/Physical-AI serving needs bounded per-session queues, temporal compaction, state ownership/backpressure and long-horizon session regression tests rather than only endpoint-health checks.
+- **Closure gate:** merged fix with multi-minute duplex regression, bounded memory/queue proof, AV alignment and state-isolation coverage.
+
 
 ### xDiT DistVAE — distributed VAE runtime substrate
 - [Official repository](https://github.com/xdit-project/DistVAE) — MIT-licensed distributed VAE adapters for Diffusers.

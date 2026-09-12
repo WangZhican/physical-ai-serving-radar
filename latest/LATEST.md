@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-12 22:02 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +2. A real fresh 24h→7d SYS-first scan was completed; 0 paper promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge-cloud/heterogeneous execution, composite VLA+WAM+planner, workload/evaluation, world-model/session, cache/state reuse, multimodal/Omni and media/stage disaggregation.
+- **Fresh runtime watch:** vLLM-Omni [RFC #7074](https://github.com/vllm-project/vllm-omni/issues/7074) expands world-model realtime inference into a reusable long-lived request / stepwise execution / streaming output / mid-request interaction / session-owned-state roadmap spanning LingBot World 2.0, MiniMax H3 World, ABot-World and Echo-WM. [Issue #7251](https://github.com/vllm-project/vllm-omni/issues/7251) exposes long-video native full-duplex session-state failures: audio-KV reset, leftover-frame accumulation, AV desync/unbounded memory and late playback acknowledgements.
+- **Boundary screen:** Programmable World Model (arXiv:2609.10540) was screened but remains model/algorithm/benchmark work rather than reusable serving infrastructure.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy change; no PDFs are published here.
+- **Next:** #7074 reusable cross-model session/state/streaming substrate → #7251 lifecycle fix/regression coverage → #6872 bounded media pipeline/disaggregated-VAE implementation A/B → TeleFuser multi-session/heterogeneous → SGLang multimodal correctness/observability → continue broader 30d SYS census.
+
 ## Hourly scan — 2026-09-06 12:54 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. A real fresh 24h→7d SYS-first catch-up was completed after the primary trigger had remained disabled; 0 promotion is not 0 search.
