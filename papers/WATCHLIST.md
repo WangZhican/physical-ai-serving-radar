@@ -60,6 +60,12 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **Why watch:** direct composite/any-to-any serving evidence: ordered mailbox, epoch barge-in, stale filtering, playback ACK, lease/resume and multi-session admission become shared runtime semantics rather than AURA-specific orchestration.
 - Keep attached to the vLLM-Omni project lineage; do not create a duplicate canonical paper/project entry.
 
+### vLLM-Omni #7055 — Qwen3-Omni automatic turns + interruption integration (2026-09-13)
+- [RFC #7055](https://github.com/vllm-project/vllm-omni/issues/7055) coordinates Qwen3-Omni automatic turn detection and reliable interruption across server-side VAD, session ordering, pending speech, cancellation, stale-output filtering, playback checkpoints and prompt/history ownership.
+- **Why watch:** the systems question is whether a turn-based Omni model can share #7181's engine-owned `DuplexOmni` session/control plane with model-native duplex runtimes instead of retaining a separate serving-managed/chat-fallback state machine. This is direct unified-runtime/session-state evidence for Routes 2/3/5/7/11.
+- **Acceptance gate:** automatic two-turn conversation, soft interruption, hard cancellation and playback/history consistency on the selected upstream path, with bounded pending input, semantic-history preservation, cleanup/race handling and repeated-interruption regression coverage.
+- Existing #6618/#6372/#6659 results remain path-scoped evidence and do not prove the final combined runtime contract. Keep attached to the vLLM-Omni project lineage rather than creating a duplicate canonical paper/project entry.
+
 
 ### xDiT DistVAE — distributed VAE runtime substrate
 - [Official repository](https://github.com/xdit-project/DistVAE) — MIT-licensed distributed VAE adapters for Diffusers.

@@ -1,3 +1,8 @@
+## 2026-09-13 03:00 CST
+- Completed a real SYS-first 24h→7d scan with no canonical paper promotion or taxonomy/PDF change.
+- Added vLLM-Omni #7055 to the runtime watchline for Qwen3-Omni automatic-turn/interruption integration across VAD, session ordering, pending speech, cancellation, stale-output filtering, playback checkpoints and history ownership.
+- Linked the #7055 integration decision to #7181's engine-owned DuplexOmni direction; existing #6618/#6372/#6659 evidence remains path-scoped rather than proof of the final unified contract.
+
 ## 2026-09-13 02:00 CST
 - Completed a real SYS-first 24h→7d scan with no canonical paper promotion or taxonomy/PDF change.
 - Upgraded the TeleFuser watchline: ABot-World now documents retained multi-session continuous batching, a 2-session × 30-block validation path, bounded per-session queues/backpressure, and parent-side multi-GPU assignment; public PR frontier is now #45 rather than the older #36.

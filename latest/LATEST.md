@@ -1,3 +1,13 @@
+## Hourly scan — 2026-09-13 03:00 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1. Real fresh 24h→7d SYS-first scan completed; 0 paper promotion is not 0 search.
+- **Fresh runtime convergence:** vLLM-Omni [#7055](https://github.com/vllm-project/vllm-omni/issues/7055) now serves as the Qwen3-Omni automatic-turn/interruption integration RFC. It coordinates server VAD, session ordering, pending speech, cancellation, stale-output filtering, playback checkpoints and prompt/history ownership instead of treating these as isolated model features.
+- **Architecture boundary:** #7055 explicitly contrasts the older serving-managed/chat-fallback path (#5867/#6372/#6618/#6659) with [#7181](https://github.com/vllm-project/vllm-omni/issues/7181)'s proposed engine-owned `DuplexOmni` session/control plane. The final compatibility architecture is still unresolved.
+- **Acceptance gate:** automatic two-turn conversation + soft interruption + hard cancellation + playback/history consistency, with bounded pending input, semantic-history preservation and cleanup/race regression coverage. Existing PR evidence is path-scoped rather than proof of the final combined runtime.
+- **Other checks:** SGLang #39073 remains below standalone WATCH as multimodal observability/correctness debt; TeleFuser open PR frontier remains #45/#43/#42/#40.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy/PDF change; PDFs are not published here.
+- **Next:** #7055 architecture decision/integrated qualification → #7181 unified duplex → TeleFuser #45 multi-session SLOs → v0.29.0rc1 qualification → #7368 → #7194 → #7074/#7198/#6533 → #7251 → #6872 → SGLang → broader 30d SYS census.
+
 ## Hourly scan — 2026-09-13 02:00 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1. Real fresh 24h→7d SYS-first scan completed; 0 paper promotion is not 0 search.
