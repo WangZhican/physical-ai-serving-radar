@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-13 06:59 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge-cloud/heterogeneous, composite VLA+WAM+planner, workload/evaluation, world-model/session, cache/state, Multimodal/Omni, any-to-any/composite serving and media/stage disaggregation were rechecked together with fresh arXiv 2609 and first-party runtime surfaces.
+- **Qualification frontier:** SGLang-Omni [#1909](https://github.com/sgl-project/sglang-omni/issues/1909) remains the active model-agnostic full-duplex roadmap; no new indexed Phase-1 landing-state transition was verified this hour. vLLM-Omni [#7400](https://github.com/vllm-project/vllm-omni/issues/7400) remains OPEN: aligned CUDA scheduled nightly is 50/50 green, while local/NPU images remain blocked by vLLM-0.29 API/image mismatch. [#7367](https://github.com/vllm-project/vllm-omni/issues/7367) / #7368 remain OPEN, so heterogeneous stage-placement/config validation is not yet closed.
+- **Paper screen:** fresh arXiv queries re-hit M*, vLLM-Omni, Cornserve and known Physical-AI/Omni systems rather than surfacing an omitted new SYS paper.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 paper WATCH**. No taxonomy/PDF change; PDFs are not published here.
+- **Next:** SGLang-Omni #1909 Phase-1 landing/qualification → vLLM-Omni #7181/#7055 comparison → #7400 NPU/local-nightly alignment closure → #7368 merge/regression → #7074/#7198/#6533 → TeleFuser #45 → #7194/#7251/#6872 → SGLang correctness/observability → broader 30d SYS census.
+
 ## Hourly scan — 2026-09-13 05:58 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1. Real fresh 24h→7d SYS-first scan completed; 0 paper promotion is not 0 search.
