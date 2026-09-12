@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-13 01:00 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1. Real fresh 24h→7d SYS-first scan completed; 0 paper promotion is not 0 search.
+- **Major trunk update:** vLLM-Omni [v0.29.0rc1](https://github.com/vllm-project/vllm-omni/releases/tag/v0.29.0rc1) was released 2026-09-10 at signed commit `aff7d64` with 159 merged changes from 95 contributors. It graduates MiniCPM-o 4.5 and PersonaPlex full-duplex serving out of experimental, moves shared duplex runtime into core packages, exposes a Python `DuplexClient`, adds server-side VAD, improves multi-stage configuration/initialization, and ships LingBot World stepwise execution.
+- **World-model runtime:** [#7074](https://github.com/vllm-project/vllm-omni/issues/7074) now marks E1 one-request/many-chunks stepwise AR-Diffusion merged via #6844; E2 is partial through draft #7198 for camera-pose interaction applied at chunk boundaries; E3 session-owned incremental VAE remains open under #6533.
+- **Open frontier:** #7367/#7368, #7181, #7194, #7251 and #6872 remain open in current first-party evidence. No taxonomy/PDF change.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. PDFs are not published here.
+- **Next:** qualify v0.29.0rc1 full-duplex/world-model release behavior → #7368 merge/regression → #7181 unified duplex → #7194 AURA → #7074/#7198 interaction + #6533 session VAE → #7251 lifecycle → #6872 bounded media/disaggregated-VAE → broader 30d SYS census.
+
 ## Hourly scan — 2026-09-13 00:00 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1. Real fresh 24h→7d SYS-first scan completed; 0 paper promotion is not 0 search.

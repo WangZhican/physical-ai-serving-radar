@@ -1,3 +1,8 @@
+## 2026-09-13 01:00 CST
+- Completed a real SYS-first 24h→7d scan with no canonical paper promotion or taxonomy/PDF change.
+- Recorded vLLM-Omni v0.29.0rc1 as a major runtime-maturity update: full-duplex MiniCPM-o 4.5/PersonaPlex graduation, core duplex runtime, Python DuplexClient, server-side VAD, stronger multi-stage config/init, and LingBot World stepwise execution.
+- Updated the world-model watchline: #7074 E1 merged via #6844, E2 partial via #7198, E3 session-owned incremental VAE still open via #6533.
+
 ## 2026-09-13 00:00 CST
 - Completed a real SYS-first 24h→7d scan with no canonical paper promotion or taxonomy/PDF change.
 - Added vLLM-Omni #7367/#7368 to the runtime watchline for composable-parallel stage-placement/config-precedence correctness.

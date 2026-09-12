@@ -81,3 +81,9 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **Why watch:** direct Route 4/6/11 evidence that disaggregated/heterogeneous serving needs explicit configuration precedence and validation ordering. The linked fix defers the eager check and validates the effective post-CLI layout during reconciliation.
 - **Closure gate:** merged fix plus regression coverage across multi-stage/multi-device strategy + stage-override combinations. Keep attached to vLLM-Omni runtime lineage; no duplicate canonical paper/project entry.
 
+### vLLM-Omni v0.29.0rc1 — full-duplex/world-model runtime maturity (2026-09-13)
+- [Release v0.29.0rc1](https://github.com/vllm-project/vllm-omni/releases/tag/v0.29.0rc1) is a 2026-09-10 pre-release at signed commit `aff7d64`, with 159 merged changes from 95 contributors.
+- **Why watch:** MiniCPM-o 4.5 and PersonaPlex full-duplex serving graduate out of experimental; shared duplex engine/serving code moves into core packages with a Python `DuplexClient`; server-side VAD and stronger multi-stage config/init land; LingBot World stepwise execution (#6844) is release-listed.
+- **World-model progression:** [#7074](https://github.com/vllm-project/vllm-omni/issues/7074) marks E1 stepwise AR-Diffusion merged, E2 mid-session structured interaction partial via draft #7198, and E3 session-owned incremental VAE still open under #6533.
+- **Boundary:** this is release/maturity evidence for an existing project, not a new paper. Keep RC claims scoped to v0.29.0rc1 until final release and multi-session/cross-model regression evidence mature.
+
