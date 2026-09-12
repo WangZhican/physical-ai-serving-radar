@@ -1,3 +1,8 @@
+## 2026-09-13 04:02 CST
+- Completed a real SYS-first 24h→7d scan with no canonical paper/project promotion or taxonomy/PDF change.
+- Revalidated vLLM-Omni #7181 as a more concrete reusable duplex runtime substrate: one engine-owned session, DuplexOmni/DuplexOmniEngine/DuplexOrchestrator separation, typed command/event contract, one DuplexModelPlugin seam, and staged multi-model/multi-replica migration.
+- Rechecked #7074/#7198/#6533, #7367/#7368, TeleFuser #45/#43/#42/#40 and SGLang #37579; no status change crossed the promotion threshold.
+
 ## 2026-09-13 03:00 CST
 - Completed a real SYS-first 24h→7d scan with no canonical paper promotion or taxonomy/PDF change.
 - Added vLLM-Omni #7055 to the runtime watchline for Qwen3-Omni automatic-turn/interruption integration across VAD, session ordering, pending speech, cancellation, stale-output filtering, playback checkpoints and history ownership.

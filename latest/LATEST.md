@@ -1,3 +1,12 @@
+## Hourly scan — 2026-09-13 04:02 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge-cloud/heterogeneous execution, composite VLA+WAM+planner, workload/evaluation, world-model/session, cache/state reuse, multimodal/Omni and media/stage disaggregation. Fresh arXiv 2609 queries mainly re-hit canonical Embodied.cpp, Kairos, M* and known any-to-any systems; no omitted new formal systems paper crossed the gate.
+- **Runtime maturation:** vLLM-Omni [#7181](https://github.com/vllm-project/vllm-omni/issues/7181) remains OPEN but now specifies a concrete reusable duplex substrate: one engine-owned session, separate `DuplexOmni` / `DuplexOmniEngine` / `DuplexOrchestrator`, typed command/event contracts, one `DuplexModelPlugin` seam, and staged migration across MiniCPM-o 4.5, PersonaPlex, AURA, Nemotron VoiceChat, Qwen3-Omni and later multi-replica serving. This strengthens an existing WATCH line; it is not a duplicate promotion.
+- **Open frontier:** [#7074](https://github.com/vllm-project/vllm-omni/issues/7074) remains open with #7198 draft interaction work and #6533 session-state work; #7367/#7368 remain open in current evidence. TeleFuser PR frontier remains #45/#43/#42/#40; SGLang #37579 remains open multimodal correctness debt.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy/PDF change; PDFs are not published here.
+- **Next:** #7181 PR1 landing/multi-model qualification → #7055 automatic-turn/interruption integration → #7074/#7198/#6533 world-model interaction/session state → TeleFuser #45 multi-session SLOs → #7368 → #7194 → #7251 → #6872 → SGLang → broader 30d SYS census.
+
 ## Hourly scan — 2026-09-13 03:00 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1. Real fresh 24h→7d SYS-first scan completed; 0 paper promotion is not 0 search.
