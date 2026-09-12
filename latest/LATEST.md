@@ -1501,3 +1501,10 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Coverage:** Physical-AI/VLA/world-model/multimodal serving and runtime surfaces were rechecked; fresh hits were model/learning/generation work or already-tracked runtime frontiers, with no reusable scheduler/runtime/resource-management work crossing the canonical gate.
 - **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**; no taxonomy or PDF change.
 - **Next:** #6872 implementation/A-B/backpressure/disaggregated-VAE → TeleFuser multi-session/heterogeneous runtime → SGLang multimodal correctness/privacy → broader 30d SYS census → 4 PDF debts.
+
+## Hourly scan — 2026-09-12 21:01 CST
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1: [vLLM-Omni RFC #7074](https://github.com/vllm-project/vllm-omni/issues/7074), World Model Realtime Inference Continuous Development Roadmap.
+- **Why it matters:** #7074 generalizes realtime world-model serving around a long-lived request, stepwise execution, streaming output, optional mid-request interaction and session-owned state, with LingBot World 2.0, MiniMax H3 World, ABot-World and Echo-WM as cross-model evidence. It is WATCH_ONLY until reusable merged/released substrate or a formal paper appears.
+- **Fresh correctness signals:** [vLLM-Omni #7376](https://github.com/vllm-project/vllm-omni/issues/7376) exposes a non-streaming text+audio response-contract bug; SGLang #39073 exposes multimodal processor error-observability debt. Neither is promoted.
+- **Coverage:** fresh 24h→7d arXiv Physical-AI/VLA/world-model serving plus first-party vLLM-Omni/SGLang ecosystem; canonical Kairos, ROSA, PhyAI, vla.cpp, M*, vLLM-Omni rechecked.
+- **Next:** #7074 child work and #6227/#4480 convergence → #7376 closure/regression tests → SGLang multimodal correctness/observability → broader 30d SYS census.
