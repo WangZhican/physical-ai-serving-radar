@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-17 05:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first fresh/runtime scan completed.
+- **Recall:** fresh Physical-AI/VLA and world-model serving searches plus first-party runtime checks were run; Robion `2609.12075` remains the permanent regression seed. Corrected paginated 7d sibling triage and 30d replay remain OPEN; SEARCHED is not reported as COVERED.
+- **Runtime qualification:** vLLM-Omni #5867 proposes bounded session-owned server-VAD state reusing the existing realtime lifecycle; #6226 remains the explicit sticky session-to-replica placement design; #7074 confirms the reusable world-model lifecycle while #7055 remains held on the duplex refactor. SGLang-Omni #1909/#2052 continue the session-centric ownership/backpressure/cleanup trunk. No classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage → paginated 30d direct-category replay → trunk-neighborhood reverse checks → vLLM session-affinity/VAD/world-model lifecycle → SGLang session-stack integration → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-17 04:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first recall/runtime scan completed.
