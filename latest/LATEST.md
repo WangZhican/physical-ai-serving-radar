@@ -1,3 +1,13 @@
+# Hourly radar — 2026-09-13 07:59 CST
+
+- **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. A real fresh 24h→7d SYS-first scan was completed; 0 promotion is not 0 search.
+- **Coverage:** Physical-AI/VLA serving-runtime, fleet/control-loop, edge-cloud/heterogeneous, composite VLA+WAM+planner, workload/evaluation, world-model/session, physical-state/cache reuse, Multimodal/Omni/any-to-any serving, media/stage disaggregation, fresh arXiv 2609, and first-party SGLang-Omni/vLLM-Omni/TeleFuser surfaces.
+- **Runtime maturity:** SGLang-Omni [#1909](https://github.com/sgl-project/sglang-omni/issues/1909) now exposes an explicit Phase-1 implementation graph: [RFC #2052](https://github.com/sgl-project/sglang-omni/issues/2052), [#2035](https://github.com/sgl-project/sglang-omni/pull/2035) for cross-stage session ownership/non-AR lifecycle, [#2069](https://github.com/sgl-project/sglang-omni/pull/2069) for persistent AR KV/token-history bridging, and [#2070](https://github.com/sgl-project/sglang-omni/pull/2070) for the shared realtime `SessionRuntime`/WebSocket control plane. All three implementation PRs remain OPEN, so this is a maturity update to the existing project WATCH rather than a new promotion.
+- **Model support state:** #1909 marks Nemotron VoiceChat offline support (#1747) complete; MiniCPM-o 4.5 remains incomplete.
+- **Paper screen:** fresh arXiv queries mainly re-hit Cornserve, vLLM-Omni, vla.cpp and existing canonical work; no omitted formal SYS paper crossed the gate.
+- **Canonical state:** unchanged at **163 works = 117 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 paper WATCH**. No taxonomy/PDF change; PDFs are not published here.
+- **Next:** #2035/#2069/#2070 merge/CI/integration validation under #2052 → compare session/control-plane semantics with vLLM-Omni #7181/#7055 → #7400 NPU/local-nightly alignment closure → #7368 → #7074/#7198/#6533 → TeleFuser #45 → #7194/#7251/#6872 → broader 30d SYS census.
+
 ## Hourly scan — 2026-09-13 06:59 CST
 
 - **Paper promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh 24h→7d SYS-first scan completed; 0 promotion is not 0 search.
