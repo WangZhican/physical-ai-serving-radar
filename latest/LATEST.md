@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-17 03:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first recall/runtime scan completed.
+- **Recall:** continued corrected paginated 7d sibling triage and fresh Physical-AI/VLA, world-model/session, multimodal/Omni and heterogeneous-runtime checks. 7d and 30d remain OPEN.
+- **Runtime qualification:** SGLang #38022 documents cluster-scale blast-radius risk from a malformed multimodal request terminating an 8-GPU engine; vLLM-Omni #6226 remains the explicit session-affinity/multi-replica state-placement design for realtime AR-diffusion. SGLang-Omni #1909/#2052 and vLLM-Omni #7074/#7055/#7589 were rechecked without a classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage → paginated 30d replay → trunk-neighborhood reverse checks → failure-isolation/duplex integration → vLLM stateful multi-replica/world-model frontier → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-17 02:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first recall/runtime scan completed.
