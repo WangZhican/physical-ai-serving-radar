@@ -1,3 +1,9 @@
+## 2026-09-16 12:27 CST — Robion recall recovery
+- Added **Robion / Efficient Vision-Language-Action Management and Serving for Robot Factories** (arXiv:2609.12075) as `CORE_SYS / S+`, Routes P1/P2/P3/P4/P6/P8.
+- Updated public core lists and metadata to **164 works = 118 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**.
+- Recorded a recall correction: Physical-AI fresh windows must directly enumerate recent `cs.DC` / `cs.AR` / `cs.PF` / `cs.RO` records with `cs.LG` fallback, then apply SYS filtering and canonical-trunk neighborhood checks. Keyword/web search alone is no longer considered sufficient coverage.
+- Public repository contains no PDF; the official arXiv PDF remains server-only.
+
 ## 2026-09-13 05:00 CST
 - Completed a real SYS-first 24h→7d scan with no canonical paper/project promotion or taxonomy/PDF change.
 - Added vLLM-Omni #7400 as heterogeneous qualification/CI evidence: aligned CUDA nightly passed 50/50 after the vLLM 0.29 rebase, while stale/mismatched local and NPU images fail multimodal/Omni startup across representative models.

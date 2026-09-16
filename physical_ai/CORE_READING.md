@@ -6,6 +6,7 @@ This list is ordered by **systems value**, not by citation count.
 |---|---|---|---|
 | S+ | Kairos: A Scalable Serving System for Physical AI | generate–execute-aware multi-robot serving | https://arxiv.org/abs/2605.11381 |
 | S+ | ROSA: A Robotics Foundation Model Serving System for Robot Factories | fleet GPU pooling, multi-model robot SLOs | https://arxiv.org/abs/2607.01088 |
+| S+ | Robion: Efficient Vision-Language-Action Management and Serving for Robot Factories | SLO-aware multi-robot/multi-model VLA serving; intra-GPU VLM/ADiT overlap, SM partitioning, co-location and traffic assignment | https://arxiv.org/abs/2609.12075 |
 | S+ | PhyAI | unified VLA/WAM edge-cloud-rollout runtime | https://arxiv.org/abs/2608.03682 |
 | S+ | M* | composite-model graph serving, robotic/world-model crossover | https://arxiv.org/abs/2606.12688 |
 | S | VLA-Perf | VLA deployment/performance modeling | https://arxiv.org/abs/2602.18397 |

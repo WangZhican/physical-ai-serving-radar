@@ -5,6 +5,7 @@ Primary contribution must be runtime, serving, resource management, scheduling, 
 ## Physical-AI serving trunk
 - [Kairos](https://arxiv.org/abs/2605.11381) — multi-robot generate–execute-aware serving — **S+**
 - [ROSA](https://arxiv.org/abs/2607.01088) — robot-factory shared GPU serving — **S+**
+- [Robion](https://arxiv.org/abs/2609.12075) — SLO-aware multi-robot/multi-model VLA serving on multi-GPU edge servers; intra-GPU VLM/ADiT overlap, SM partitioning, co-location, placement and traffic assignment — **S+**
 - [PhyAI](https://arxiv.org/abs/2608.03682) — unified onboard/edge/cloud/rollout engine — **S+**
 - [M*](https://arxiv.org/abs/2606.12688) — modular composite-model serving — **S+**
 - [VLA-Perf](https://arxiv.org/abs/2602.18397) — deployment/performance map — **S**

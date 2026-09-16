@@ -22,14 +22,14 @@ Physical AI serving begins where ordinary request/response inference stops. The 
 
 | Route | Topic | Representative systems |
 |---|---|---|
-| P1 | Fleet-scale / Multi-Robot Serving | Kairos, ROSA, Armory, SOP |
-| P2 | Unified Physical-AI Runtime | PhyAI, Embodied.cpp, vla.cpp, LeRobot, TypeGo |
-| P3 | Real-Time / Streaming / Control-loop Serving | CROS-RT, PAAM, VLASH, FASTER, Reflex, TypeGo |
-| P4 | Edge-Cloud / Disaggregated Physical AI | RoboECC, RAPID, EcoVLA, FogROS2 |
+| P1 | Fleet-scale / Multi-Robot Serving | Kairos, ROSA, Robion, Armory, SOP |
+| P2 | Unified Physical-AI Runtime | PhyAI, Robion, Embodied.cpp, vla.cpp, LeRobot, TypeGo |
+| P3 | Real-Time / Streaming / Control-loop Serving | Robion, CROS-RT, PAAM, VLASH, FASTER, Reflex, TypeGo |
+| P4 | Edge-Cloud / Disaggregated Physical AI | Robion, RoboECC, RAPID, EcoVLA, FogROS2 |
 | P5 | Physical-State / Temporal Cache & State Reuse | AgenticCache, Persistent Computational State, WorldMove |
-| P6 | Hardware-Aware / Heterogeneous Serving | XPU Characterization, PAAM, OOM-Free Alpamayo |
+| P6 | Hardware-Aware / Heterogeneous Serving | Robion, XPU Characterization, PAAM, OOM-Free Alpamayo |
 | P7 | Composite VLA + WAM + Planner Serving | M*, PhyAI, vLLM-Omni, TypeGo |
-| P8 | Workload Characterization / Performance Modeling | VLA-Perf, PhyAI |
+| P8 | Workload Characterization / Performance Modeling | VLA-Perf, Robion, PhyAI |
 | P9 | Evaluation / Serving Infrastructure | DeepInsight, RoboArena, vla-eval, ros2probe |
 | P10 | World-Model / WAM Rollout Serving | WorldMove, Persistent Computational State, PhyAI |
 
@@ -39,13 +39,14 @@ See the full map: [`../taxonomy/PHYSICAL_AI_MAP.md`](../taxonomy/PHYSICAL_AI_MAP
 
 1. **Kairos** — serving semantics for generate–execute loops and multi-robot scheduling.
 2. **ROSA** — robot-factory shared-GPU serving and productivity-oriented resource management.
-3. **PhyAI** — unified VLA/WAM runtime spanning onboard, edge, cloud and rollout settings.
-4. **VLA-Perf** — deployment/performance landscape and system bottleneck model.
-5. **Embodied.cpp** — embodied-runtime abstraction for multi-rate, batch-1, heterogeneous execution.
-6. **vla.cpp** — portable high-performance VLA runtime.
-7. **Characterizing VLA Models across XPUs** — phase/hardware asymmetry and heterogeneous deployment.
-8. **M*** — composite model graph serving that extends naturally into VLA/WAM pipelines.
-9. **TypeGo** — OS-style embodied runtime with process/PCB lifecycle, Skill Kernel arbitration, preemption and asynchronous planning.
+3. **Robion** — SLO-aware VLA serving on multi-GPU edge servers with intra-GPU VLM/ADiT overlap, SM partitioning, multi-model co-location and traffic assignment.
+4. **PhyAI** — unified VLA/WAM runtime spanning onboard, edge, cloud and rollout settings.
+5. **VLA-Perf** — deployment/performance landscape and system bottleneck model.
+6. **Embodied.cpp** — embodied-runtime abstraction for multi-rate, batch-1, heterogeneous execution.
+7. **vla.cpp** — portable high-performance VLA runtime.
+8. **Characterizing VLA Models across XPUs** — phase/hardware asymmetry and heterogeneous deployment.
+9. **M*** — composite model graph serving that extends naturally into VLA/WAM pipelines.
+10. **TypeGo** — OS-style embodied runtime with process/PCB lifecycle, Skill Kernel arbitration, preemption and asynchronous planning.
 
 Full list: [`CORE_READING.md`](CORE_READING.md).
 

@@ -24,6 +24,7 @@ The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni
 |---|---|---|---|---|---|---|
 | Kairos | 2026 / arXiv | P1, P3 | Generate–execute-aware fleet serving and execution-aware scheduling | — | [paper](https://arxiv.org/abs/2605.11381) | S+ |
 | ROSA | 2026 / arXiv | P1, P7 | Shared-GPU robotics foundation-model serving for robot factories | — | [paper](https://arxiv.org/abs/2607.01088) | S+ |
+| Robion | 2026 / arXiv | P1, P2, P3, P4, P6, P8 | SLO-aware multi-robot/multi-model VLA serving; intra-GPU VLM/ADiT overlap, dynamic SM partitioning, co-location, placement and traffic assignment | — | [paper](https://arxiv.org/abs/2609.12075) | S+ |
 | PhyAI | 2026 / arXiv | P2, P6, P7, P8, P10 | Unified VLA/WAM runtime across onboard, edge and cloud rollout paths | — | [paper](https://arxiv.org/abs/2608.03682) | S+ |
 | M* | 2026 / arXiv | P7, P10, M3 | Modular component-graph serving for multimodal/composite models | — | [paper](https://arxiv.org/abs/2606.12688) | S+ |
 | vLLM-Omni | 2026 / arXiv | P2, P7, M1, M3 | Fully disaggregated any-to-any multimodal serving runtime | [repo](https://github.com/vllm-project/vllm-omni) | [paper](https://arxiv.org/abs/2602.02204) | S |
@@ -42,14 +43,14 @@ Physical AI serving treats **physical execution, state freshness, deadlines, rob
 
 | Route | Focus | Representative anchors |
 |---|---|---|
-| P1. Fleet-scale / Multi-Robot Serving | GPU pools, batching, execution-aware scheduling, fleet learning loops | Kairos, ROSA, Armory, TimelyLLM, SOP, Physical Agentic AI |
-| P2. Unified Physical-AI Runtime | portable VLA/WAM execution, robot-facing serving APIs, embodied-agent harnesses | PhyAI, Embodied.cpp, vla.cpp, LeRobot, Thea, Retriever, TypeGo, Physical Agentic AI |
-| P3. Real-Time / Streaming / Control Loop | reaction latency, deadlines, async execution, accelerator arbitration | CROS-RT, PAAM, TimelyLLM, TypeFly, VLASH, FASTER, Retriever, TypeGo |
-| P4. Edge-Cloud / Disaggregated Physical AI | device/edge/cloud placement, network/tail-latency reliability | RoboECC, RAPID, EcoVLA, FogROS2 |
+| P1. Fleet-scale / Multi-Robot Serving | GPU pools, batching, execution-aware scheduling, fleet learning loops | Kairos, ROSA, Robion, Armory, TimelyLLM, SOP, Physical Agentic AI |
+| P2. Unified Physical-AI Runtime | portable VLA/WAM execution, robot-facing serving APIs, embodied-agent harnesses | PhyAI, Robion, Embodied.cpp, vla.cpp, LeRobot, Thea, Retriever, TypeGo, Physical Agentic AI |
+| P3. Real-Time / Streaming / Control Loop | reaction latency, deadlines, async execution, accelerator arbitration | Robion, CROS-RT, PAAM, TimelyLLM, TypeFly, VLASH, FASTER, Retriever, TypeGo |
+| P4. Edge-Cloud / Disaggregated Physical AI | device/edge/cloud placement, network/tail-latency reliability | Robion, RoboECC, RAPID, EcoVLA, FogROS2 |
 | P5. Physical-State / Temporal Cache | cache validity over vision/action/world/planner/execution state | AgenticCache, Persistent Computational State, Execution-State Capsules, DreamLedger |
-| P6. Hardware-Aware / Heterogeneous Serving | GPU/XPU/NPU placement, CPU-GPU partitioning, offload | XPU Characterization, PAAM, OOM-Free Alpamayo |
+| P6. Hardware-Aware / Heterogeneous Serving | GPU/XPU/NPU placement, CPU-GPU partitioning, offload | Robion, XPU Characterization, PAAM, OOM-Free Alpamayo |
 | P7. Composite VLA + WAM + Planner Serving | policy + planner + world model + verifier/safety/tool graphs | M*, PhyAI, vLLM-Omni, Thea, Physical Agentic AI |
-| P8. Workload Characterization / Modeling | control-time, network, cost-energy-time models | VLA-Perf, PhyAI |
+| P8. Workload Characterization / Modeling | control-time, network, cost-energy-time models | VLA-Perf, Robion, PhyAI |
 | P9. Evaluation / Serving Infrastructure | model-server decoupling, real-robot EaaS, experiment control/evidence, observability, simulator reliability | DeepInsight, RoboArena, RoboChallenge, PhAIL, CaP-X, AgenticRobotics, DreamLedger, RoboFuzz, PHYFU, IcFuzz |
 | P10. World-Model / WAM Rollout Serving | persistent rollout state, trust/credit state, branch scheduling, migration, rollback/fork | WorldMove, PCS, PhyAI, DreamLedger |
 
