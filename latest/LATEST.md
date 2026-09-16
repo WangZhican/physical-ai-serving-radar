@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-17 02:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first recall/runtime scan completed.
+- **Recall:** continued against the corrected paginated 7d census; Robion `2609.12075` re-hit. 7d sibling triage and 30d replay remain OPEN.
+- **Runtime evidence:** vLLM-Omni #7251 exposes long-session native full-duplex state/correctness failure modes (frame accumulation, audio-KV resets, A/V drift and protocol failure), strengthening lifecycle/evaluation requirements without creating a promotion. #7074 remains the reusable world-model roadmap; SGLang-Omni #1909/#2052 remain the session-centric full-duplex trunk; #7589 remains an open 2D diffusion-parallel RFC.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage → paginated 30d replay → trunk-neighborhood reverse checks → vLLM #7251/#7074/#7181/#7055 + #7589 implementation evidence → SGLang session-stack integration → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-17 01:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first recall/runtime scan completed.
