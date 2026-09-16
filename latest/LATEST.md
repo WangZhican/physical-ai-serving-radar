@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-17 01:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first recall/runtime scan completed.
+- **Recall:** continued against the corrected 1,337-record paginated 7d census; Robion `2609.12075` re-hit. No second omitted formal SYS paper crossed the gate; 7d and 30d remain OPEN.
+- **Fresh runtime evidence:** vLLM-Omni #7589 is a new open RFC for composing Ulysses + AllGather-KV as 2D diffusion sequence parallelism; #7564 exposes a CLI-to-engine `text_encoder_tp_size` plumbing bug. These strengthen heterogeneous/world-model runtime qualification but do not yet justify a separate promotion. SGLang-Omni #1909/#2052 and vLLM-Omni #7074/#7055 remain active trunks without classification change.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage → paginated 30d replay → trunk-neighborhood reverse checks → #7589 implementation/merge evidence + #7074/#7181/#7055 → SGLang session-stack integration → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-17 00:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh SYS-first search plus recall-regression/runtime cross-check completed.
