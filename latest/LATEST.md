@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-16 23:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real recall-recovery sibling triage and first-party runtime cross-check completed.
+- **Recall:** continued against the corrected 1,337-record paginated 7d census; Robion `2609.12075` re-hit and no second omitted formal SYS paper crossed the gate. 7d and 30d remain OPEN.
+- **Runtime trunks:** SGLang-Omni #2052 now exposes the Phase-1 session stack as #2035 pipeline session lifecycle/cross-stage ownership + #2003 core streaming-session hosting + #2069 AR session bridge + #2070 shared realtime `SessionRuntime`, followed by integration validation. This is maturity/detail of the existing #1909 line, not a duplicate promotion. vLLM-Omni #7074/#7055 were rechecked without a classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; no PDF/taxonomy change.
+- **Next:** finish 7d sibling triage → paginated 30d replay → trunk-neighborhood reverse checks → SGLang #2035/#2003/#2069/#2070 integration state → #2183/#1909 → vLLM #7074/#7181/#7055 → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-16 22:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. A real SYS-first scan and sibling-triage pass was completed; this is not an idle heartbeat.
