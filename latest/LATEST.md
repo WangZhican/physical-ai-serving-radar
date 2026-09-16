@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-17 06:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first fresh/runtime scan completed.
+- **Recall:** mandatory direct-category census retry was attempted; arXiv API connectivity first succeeded, then paginated enumeration returned HTTP 406 before cutoff. No 24h/7d/30d direct-census COVERED claim and no fresh Robion PASS this hour; retry remains P0.
+- **Runtime qualification:** SGLang-Omni #2052 remains the session-centric full-duplex lifecycle trunk. vLLM-Omni #7074 live roadmap now records #6533 session-owned incremental VAE decode merged while retaining one-long-lived-request/stepwise world-model serving semantics. SGLang #38022 remains open with linked #38155. No classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** retry paginated cs.DC/cs.AR/cs.PF/cs.RO + cs.LG census to cutoff → finish 7d sibling triage → paginated 30d replay → trunk reverse checks → vLLM/SGLang integration → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-17 05:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first fresh/runtime scan completed.
