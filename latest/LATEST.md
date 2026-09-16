@@ -1,3 +1,11 @@
+# Maintenance recovery — 2026-09-16 19:43 CST
+
+- **Reliability repair:** the radar's durable workspace access was repaired after a connector child-workspace routing failure. Hourly maintenance now uses a stable parent-workspace route and treats child-workspace IDs as non-durable.
+- **Automation:** both the Physical-AI hourly tracker and the independent global watchdog are enabled. The tracker has a durable runbook and an explicit fallback so this routing defect no longer justifies skipping checkpoints or public sync.
+- **Recall integrity:** the Robion incident remains a permanent regression test. Recent coverage still requires direct `cs.DC` / `cs.AR` / `cs.PF` / `cs.RO` census with `cs.LG` fallback and trunk-neighborhood replay; keyword search alone cannot close coverage.
+- **Canonical state:** unchanged at **164 works = 118 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**; **157 valid PDFs / 0 invalid / 4 pending**. The 7d→30d recall replay remains open.
+- **Next:** resume corrected direct-category census, then continue SGLang-Omni/vLLM-Omni/world-model/heterogeneous-runtime frontier tracking.
+
 # Recall recovery — 2026-09-16 12:27 CST
 
 - **CORE_SYS +1:** [Robion — Efficient Vision-Language-Action Management and Serving for Robot Factories](https://arxiv.org/abs/2609.12075), **S+**, Routes P1/P2/P3/P4/P6/P8.
