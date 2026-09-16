@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-16 22:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. A real SYS-first scan and sibling-triage pass was completed; this is not an idle heartbeat.
+- **Recall:** continued triage over the corrected 1,337-record paginated 7d census plus fresh VLA/robot, world-model and multimodal-serving cross-checks. Robion `2609.12075` was re-hit again; fresh results mainly re-hit canonical M*, Cornserve and existing world-model work rather than another omitted SYS paper.
+- **Runtime trunks:** SGLang-Omni #1909 remains the session-centric full-duplex trunk and #2183 remains the Cosmos 3 interleaved-generation RFC. vLLM-Omni #7074 retains its merged September stepwise/interaction core; fresh #7646/#7647 are duplex frontend cleanup/convergence rather than a new project promotion.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; no PDF or taxonomy change.
+- **Coverage:** 7d remains OPEN until remaining sibling triage is complete; 30d remains OPEN pending paginated direct-category replay.
+- **Next:** continue 7d sibling triage → paginated 30d replay → trunk-neighborhood reverse checks → #2183/#1909 → #7074/#7181/#7055 → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-16 21:00 CST
 
 - **SYS_ALG_BOUNDARY +1:** [The World Model Hardware Accelerator (WMHA)](https://arxiv.org/abs/2609.16244), Routes 6/10. It uses VLIW scheduling, a 16×16 FP8/BF16 weight-stationary array, online-softmax attention and compile-time software pipelining for diffusion/world-model inference. It stays outside CORE_SYS because it is an accelerator rather than a serving/runtime/resource-management system.
