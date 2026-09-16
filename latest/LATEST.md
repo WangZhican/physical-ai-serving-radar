@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-17 04:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first recall/runtime scan completed.
+- **Recall:** continued paginated 7d sibling triage plus fresh Physical-AI/VLA, world-model/session, multimodal/Omni and heterogeneous-runtime checks. 7d and 30d remain OPEN.
+- **Runtime qualification:** vLLM-Omni #7569 exposes AR→DiT shared-state duplication across preemption/resume and flush-on-abort lifecycle risk; #7296 exposes a headless-replica/log-stats output-processing crash. #7074/#7055/#7589 and SGLang-Omni #1909/#2052 were rechecked without classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage → paginated 30d replay → trunk-neighborhood reverse checks → #7569/#7296 resolution state → stateful multi-replica/world-model frontier → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-17 03:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first recall/runtime scan completed.
