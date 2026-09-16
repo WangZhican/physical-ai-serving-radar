@@ -1628,3 +1628,7 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 - **Fresh correctness signals:** [vLLM-Omni #7376](https://github.com/vllm-project/vllm-omni/issues/7376) exposes a non-streaming text+audio response-contract bug; SGLang #39073 exposes multimodal processor error-observability debt. Neither is promoted.
 - **Coverage:** fresh 24h→7d arXiv Physical-AI/VLA/world-model serving plus first-party vLLM-Omni/SGLang ecosystem; canonical Kairos, ROSA, PhyAI, vla.cpp, M*, vLLM-Omni rechecked.
 - **Next:** #7074 child work and #6227/#4480 convergence → #7376 closure/regression tests → SGLang multimodal correctness/observability → broader 30d SYS census.
+
+
+### 2026-09-16 13:02 CST — recall-recovery heartbeat
+Fresh VLA-serving/robot multi-GPU, Physical-AI runtime, and multimodal-serving scan completed after the Robion recall incident. No additional formal SYS promotion this hour. Canonical remains 164 works (118 CORE_SYS). The 7d→30d direct-category replay across cs.DC/cs.AR/cs.PF/cs.RO (+ cs.LG fallback) remains explicitly open; broad-window coverage is not claimed complete until reconciliation.
