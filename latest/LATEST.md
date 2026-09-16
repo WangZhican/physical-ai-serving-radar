@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-16 21:00 CST
+
+- **SYS_ALG_BOUNDARY +1:** [The World Model Hardware Accelerator (WMHA)](https://arxiv.org/abs/2609.16244), Routes 6/10. It uses VLIW scheduling, a 16×16 FP8/BF16 weight-stationary array, online-softmax attention and compile-time software pipelining for diffusion/world-model inference. It stays outside CORE_SYS because it is an accelerator rather than a serving/runtime/resource-management system.
+- **Recall integrity:** the 7d direct-category replay was corrected to paginate until the cutoff. A fixed first page silently truncated high-volume feeds: `cs.RO` has 339 records and `cs.LG` 907 in the window; the corrected five-category union contains 1,337 unique records. Robion was automatically re-hit in `cs.DC/cs.AR/cs.PF`.
+- **Canonical state:** **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**. WMHA's official PDF was validated and retained privately; PDFs are never published here.
+- **Runtime trunks:** SGLang-Omni #1909/#2052 and vLLM-Omni #7074 were rechecked without a new project promotion.
+- **Coverage:** 7d remains OPEN until systems triage over all 1,337 records is complete; 30d remains OPEN and will use the same pagination-to-cutoff rule.
+- **Next:** finish paginated 7d systems triage → paginated 30d replay → trunk-neighborhood reverse checks → #2183/#1909 → #7074/#7181/#7055 → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-16 20:00 CST
 
 - **CORE_SYS +3:** [FluxVLA Engine](https://arxiv.org/abs/2609.17210), [Goal-Oriented Communications for Physical AI: Design and Testbed](https://arxiv.org/abs/2609.15895), and [HoliBench](https://arxiv.org/abs/2609.12412). SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.

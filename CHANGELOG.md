@@ -1,3 +1,9 @@
+## 2026-09-16 21:00 CST — paginated recall correction + WMHA boundary promotion
+- Added **The World Model Hardware Accelerator (WMHA)** (2609.16244) as `SYS_ALG_BOUNDARY / A`, Routes 6/10; it is hardware-aware world-model inference, not CORE_SYS serving/runtime.
+- Corrected direct-category coverage to paginate until the requested time cutoff. The 7d window contains 339 `cs.RO` and 907 `cs.LG` records, so a fixed first page of 200 was incomplete; corrected union contains 1,337 unique records and re-hits Robion automatically.
+- Public canonical metadata is now **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**. 7d/30d recall replay remains open pending full systems triage.
+- PDFs remain private/server-only and are not published in this repository.
+
 ## 2026-09-16 20:00 CST — direct-category census promotions
 - Promoted **FluxVLA Engine** (2609.17210), **Goal-Oriented Communications for Physical AI: Design and Testbed** (2609.15895), and **HoliBench** (2609.12412) to `CORE_SYS / A` after direct recent-category census and SYS filtering.
 - Canonical public metadata is now **167 works = 121 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**.

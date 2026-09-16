@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-16T20:00:00+08:00",
-  "count": 167,
+  "updated": "2026-09-16T21:00:00+08:00",
+  "count": 168,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2964,6 +2964,19 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2609.16244",
+      "title": "The World Model Hardware Accelerator",
+      "system": "WMHA",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [6, 10],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.16244",
+      "system_note": "Latency-first diffusion/world-model accelerator; hardware-aware WAM inference evidence rather than serving/runtime resource management."
     }
   ]
 }

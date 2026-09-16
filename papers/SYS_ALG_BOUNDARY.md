@@ -2,6 +2,7 @@
 
 Works whose algorithmic novelty remains central, but which expose substantial runtime/deployment primitives.
 
+- [The World Model Hardware Accelerator (WMHA)](https://arxiv.org/abs/2609.16244) — latency-first diffusion/world-model accelerator with VLIW static scheduling, FP8/BF16 weight-stationary compute and online-softmax attention; Routes 6/10. Hardware-aware WAM inference evidence, not CORE_SYS serving/runtime.
 - [Jetson-PI](https://arxiv.org/abs/2607.12659) — onboard asynchronous VLA runtime + confidence scheduling.
 - [VLASH](https://arxiv.org/abs/2512.01031) — future-state-aware asynchronous inference.
 - [Reflex](https://arxiv.org/abs/2607.14695) — streaming inference and incremental cache updates.
