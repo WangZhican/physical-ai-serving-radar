@@ -12,6 +12,9 @@ Primary contribution must be runtime, serving, resource management, scheduling, 
 - [Embodied.cpp](https://arxiv.org/abs/2607.02501) — portable embodied runtime — **S**
 - [vla.cpp](https://arxiv.org/abs/2606.08094) — portable C++ VLA runtime — **S**
 - [Characterizing VLA Models across XPUs](https://arxiv.org/abs/2604.24447) — heterogeneous phase characterization — **S**
+- [FluxVLA Engine](https://arxiv.org/abs/2609.17210) — configuration-driven VLA/WAM engineering and deployment platform; standardized interfaces, RTC, optimized inference and remote GPU serving — **A**
+- [Goal-Oriented Communications for Physical AI](https://arxiv.org/abs/2609.15895) — closed-loop 5G/edge Physical-AI testbed with semantic transport, LM inference, digital-twin validation and robot control — **A**
+- [HoliBench](https://arxiv.org/abs/2609.12412) — open cross-platform foundation-model deployment/evaluation toolkit for heterogeneous CPS/IoT devices and multi-model pipelines — **A**
 - [Armory](https://arxiv.org/abs/2608.00337) — control-aware batched robot-policy serving — **A+**
 - [Retriever](https://arxiv.org/abs/2607.17213) — temporal computation-graph runtime for multi-rate closed-loop robot programs (`Flow` / `Clock` / `Sync`, replay/debugging, multi-backend execution) — **A+** · [project](https://retriever.systems/) · [repo](https://github.com/openretriever/retriever)
 - [Physical Agentic AI](https://arxiv.org/abs/2608.22657) — heterogeneous robot-crew orchestration with typed skills/workflow contracts and deterministic per-dispatch execution authorization; separates LLM planner knowledge from physical actuation authority — **A**

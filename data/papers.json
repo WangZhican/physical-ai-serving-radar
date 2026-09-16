@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-16T12:27:00+08:00",
-  "count": 164,
+  "updated": "2026-09-16T20:00:00+08:00",
+  "count": 167,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2921,6 +2921,49 @@
       "system_contribution": "Robion is an SLO-aware VLA serving and management system for multi-robot, multi-model requests on multi-GPU edge servers. It uses intra-GPU VLM/ADiT stage disaggregation over two CUDA streams, dynamic SM restriction for VLM so the memory-bound ADiT can overlap, shared streams across co-located models, least-remaining-SLO-time request priority, flexible multi-GPU model placement, and a traffic controller that concentrates per-model batching while bounding GPU load.",
       "key_results": "Across individual VLA models, the paper reports average robot-load capacity within 98% SLO attainment that is 6.7x higher than vLLM-Omni and 1.5x higher than a monolithic VLM+ADiT pipeline. With multiple co-located models it reports 2.1x lower SLO miss ratio than Monolithic on average, while vLLM-Omni reaches 100% miss ratio in that experiment. The 4-GPU/8-model large-scale experiment serves up to 64 robots within 98% SLO attainment.",
       "maturity_note": "CORE_SYS/S+ and a direct trunk paper for Routes 1/2/3/4/6/8. Unlike ROSA, which focuses on factory-level shared GPU-pool abstractions and productivity-aware scheduling across robotics foundation-model pipelines, Robion drills into VLA-specific GPU execution/resource sharing: millisecond VLM+ADiT stages, intra-GPU overlap, SM spatial partitioning, multi-model co-location and SLO-aware traffic assignment. Unlike generic multimodal stage-disaggregated systems, it argues that cross-GPU stage disaggregation is a poor fit for low-utilization millisecond VLA stages. Preprint maturity; no official code verified yet."
+    },
+    {
+      "id": "arxiv:2609.17210",
+      "title": "FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2609.15895",
+      "title": "Goal-Oriented Communications for Physical AI: Design and Testbed",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        4,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2609.12412",
+      "title": "HoliBench: A Cross-Platform Benchmarking and Deployment Toolkit for Foundation Models in CPS-IoT Applications",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        8,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED"
     }
   ]
 }

@@ -1,3 +1,14 @@
+# Hourly radar — 2026-09-16 20:00 CST
+
+- **CORE_SYS +3:** [FluxVLA Engine](https://arxiv.org/abs/2609.17210), [Goal-Oriented Communications for Physical AI: Design and Testbed](https://arxiv.org/abs/2609.15895), and [HoliBench](https://arxiv.org/abs/2609.12412). SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall method:** direct recent arXiv category census over `cs.DC`, `cs.AR`, `cs.PF`, `cs.RO` with `cs.LG` fallback/cross-list, followed by SYS-first filtering. The census re-hit Robion, so the permanent regression seed passes; 7d sibling triage and the 30d replay remain open.
+- **FluxVLA role:** unified VLA/WAM engineering/deployment infrastructure with standardized interfaces, optimized inference, Real-Time Chunking and lightweight remote GPU serving; Routes 2/3/7/9.
+- **GoC Physical AI role:** real PiPER/RGB-D/5G/Jetson edge testbed integrating semantic transport, LM inference, digital-twin validation and robot control; reports up to 52.6% lower task-completion time and 45% higher task-success probability versus periodic raw-image transport; Routes 3/4/9.
+- **HoliBench role:** open heterogeneous deployment/evaluation infrastructure spanning 20 models, 7 device types, 3 quantization levels, 8 inference backends and 30+ tasks; Routes 6/8/9.
+- **Canonical state:** **167 works = 121 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**. Three official PDFs were validated and retained privately; PDFs are never published here.
+- **Runtime trunks:** SGLang-Omni #1909/#2052 and vLLM-Omni #7074 rechecked without a new project promotion.
+- **Next:** finish 7d sibling triage → 30d direct-category replay → trunk-neighborhood reverse checks → #2183/#1909 → #7074/#7181/#7055 → heterogeneous qualification → TeleFuser #45.
+
 # Maintenance recovery — 2026-09-16 19:43 CST
 
 - **Reliability repair:** the radar's durable workspace access was repaired after a connector child-workspace routing failure. Hourly maintenance now uses a stable parent-workspace route and treats child-workspace IDs as non-durable.

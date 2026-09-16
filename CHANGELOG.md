@@ -1,3 +1,9 @@
+## 2026-09-16 20:00 CST — direct-category census promotions
+- Promoted **FluxVLA Engine** (2609.17210), **Goal-Oriented Communications for Physical AI: Design and Testbed** (2609.15895), and **HoliBench** (2609.12412) to `CORE_SYS / A` after direct recent-category census and SYS filtering.
+- Canonical public metadata is now **167 works = 121 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**.
+- Robion was independently re-hit by the repaired census, satisfying the permanent recall regression seed for this run. The 7d sibling triage and 30d replay remain open.
+- PDFs remain private/server-only and are not published in this repository.
+
 ## 2026-09-16 12:27 CST — Robion recall recovery
 - Added **Robion / Efficient Vision-Language-Action Management and Serving for Robot Factories** (arXiv:2609.12075) as `CORE_SYS / S+`, Routes P1/P2/P3/P4/P6/P8.
 - Updated public core lists and metadata to **164 works = 118 CORE_SYS / 36 SYS_ALG / 4 ALG / 6 WATCH**.
