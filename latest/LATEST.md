@@ -1733,3 +1733,9 @@ Real SYS-first 24h→7d scan plus targeted multimodal/cache correctness follow-u
 
 ### 2026-09-16 13:02 CST — recall-recovery heartbeat
 Fresh VLA-serving/robot multi-GPU, Physical-AI runtime, and multimodal-serving scan completed after the Robion recall incident. No additional formal SYS promotion this hour. Canonical remains 164 works (118 CORE_SYS). The 7d→30d direct-category replay across cs.DC/cs.AR/cs.PF/cs.RO (+ cs.LG fallback) remains explicitly open; broad-window coverage is not claimed complete until reconciliation.
+
+
+## 2026-09-17 07:00 CST coverage heartbeat
+- CORE_SYS +0 / SYS_ALG +0 / WATCH +0. Fresh SYS-first/trunk cross-check completed.
+- Direct arXiv category census retry remained incomplete due HTTP 406 (cs.LG reached 300 records before failure); 24h/7d/30d remain OPEN and SEARCHED is not labeled COVERED.
+- Runtime frontier unchanged: vLLM-Omni realtime world-model/session-affinity and SGLang-Omni session-centric full-duplex remain active.
