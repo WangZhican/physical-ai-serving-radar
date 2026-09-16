@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-17 00:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real fresh SYS-first search plus recall-regression/runtime cross-check completed.
+- **Recall:** Robion `2609.12075` was automatically re-hit from the fresh arXiv surface; no second omitted formal SYS paper crossed the gate. Corrected 7d paginated sibling triage remains OPEN, and 30d replay remains OPEN.
+- **Runtime trunks:** SGLang-Omni #1909/#2052 still define the model-agnostic session-centric full-duplex line with persistent stage/KV/codec state, bounded admission/queues/backpressure and cleanup. vLLM-Omni #7074 remains the reusable realtime world-model roadmap; its September stepwise execution and generic interaction core are landed, while session-affinity and remaining decode/interaction work stay active.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy or PDF change.
+- **Next:** finish remaining 7d systems sibling triage → paginated 30d direct-category replay → trunk-neighborhood reverse checks → SGLang #2035/#2003/#2069/#2070 integration → #2183/#1909 → vLLM #7074/#7181/#7055 → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-16 23:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real recall-recovery sibling triage and first-party runtime cross-check completed.
