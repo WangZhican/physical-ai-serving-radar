@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-18 04:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall:** official arXiv cs.LG page 800 retry returned HTTP 406. Recovered cs.DC/cs.RO, prior cs.AR/cs.PF and cs.LG pages 400-700 checkpoints are preserved; 24h/7d/30d remain OPEN; SEARCHED != COVERED.
+- **Fresh screening:** Robion `2609.12075` re-hit. Zing-0.5 `2609.17909` (24 FPS context-preserving streaming + released Zing-SGLang serving implementation) and Robot Data Factory `2609.16705` were screened but did not cross the reusable serving-system promotion gate; Zing serving-code maturity is now an explicit follow-up.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** retry cs.LG page 800 until cutoff -> finish 7d sibling triage + Zing serving-code maturity -> paginated 30d replay -> trunk reverse checks -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-18 03:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
