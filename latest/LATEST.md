@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-18 02:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall:** official arXiv cs.LG continuation at page 400 again returned HTTP 406 with explicit User-Agent. Recovered cs.DC/cs.RO and prior cs.AR/cs.PF checkpoints are preserved; 24h/7d/30d remain OPEN; SEARCHED != COVERED.
+- **Runtime qualification:** fresh Physical-AI/VLA, world-model/session and multimodal/Omni checks found no formal-paper promotion; vLLM-Omni #7074/#6226/#7589 and SGLang-Omni #1909/#2052 remain active systems evidence without classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** retry cs.LG from page 400 until cutoff -> finish 7d sibling triage -> paginated 30d replay -> trunk reverse checks -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-18 01:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
