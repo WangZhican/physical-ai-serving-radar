@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-18 06:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints are preserved; a real cs.LG continuation probe at start=1000 returned HTTP 406. Robion `2609.12075` re-hit in fresh search. 7d remains OPEN for sibling/reverse triage; 30d remains OPEN; SEARCHED != COVERED.
+- **Serving maturity:** Zing-0.5 `2609.17909` publicly releases weights, inference code and Zing-SGLang serving implementation with realtime context-preserving streaming; current evidence remains young/model-specific, so no canonical promotion.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> continue Zing-SGLang maturity audit -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-18 05:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
