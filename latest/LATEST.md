@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-18 05:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall:** official arXiv cs.LG pages 800/900/1000 recovered HTTP 200/100 records each; page 800 crosses the rolling 7d cutoff and re-hits Robion `2609.12075`. With preserved cs.DC/cs.AR/cs.PF/cs.RO checkpoints, mandatory direct-category pagination is recovered. 7d remains OPEN for sibling triage + trunk-neighborhood reverse checks; 30d remains OPEN; SEARCHED != COVERED.
+- **Fresh screening:** FIVE-VLA `2609.18623` is model/algorithm efficiency rather than reusable serving infrastructure; Zing-0.5 serving-code maturity remains a follow-up. No promotion.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> Zing-SGLang maturity -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-18 04:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
