@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-17 08:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first scan completed.
+- **Recall:** source-friendly direct census partially recovered: cs.DC/cs.PF crossed the 7d cutoff and both re-hit Robion `2609.12075`; cs.AR failed at page 0 with HTTP 406, cs.RO after 100 records, cs.LG after 300. 24h/7d/30d remain OPEN; SEARCHED != COVERED and no full direct-census PASS is claimed.
+- **Runtime qualification:** vLLM-Omni #7074/#6226/#5867 and SGLang-Omni #1909/#2052 remain active session/state trunks without a classification-changing transition. SGLang-Omni now advertises v0.1.5 in September; release/adoption maturity only.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** retry failed cs.AR/cs.RO/cs.LG direct pages via alternate official feed/pacing → finish 7d sibling triage → paginated 30d replay → trunk reverse checks → vLLM/SGLang integration/release qualification → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-17 06:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first fresh/runtime scan completed.
