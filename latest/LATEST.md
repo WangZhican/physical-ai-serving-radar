@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-17 09:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first scan completed.
+- **Recall:** official arXiv direct census retry recovered cs.AR/cs.PF through the 7d cutoff and both re-hit Robion `2609.12075`; cs.DC failed at page 0 with HTTP 406, cs.RO after 200 records, cs.LG after 100. 24h/7d/30d remain OPEN; SEARCHED != COVERED and no full direct-census PASS is claimed.
+- **Runtime qualification:** vLLM-Omni #7074/#6226/#5867/#7055 and SGLang-Omni #1909/#2052 were rechecked without a classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** retry failed cs.DC/cs.RO/cs.LG direct pages via alternate official feed/pacing → finish 7d sibling triage → paginated 30d replay → trunk reverse checks → vLLM/SGLang integration → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-17 08:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first scan completed.
