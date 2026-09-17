@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-17 15:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first scan completed.
+- **Recall:** cs.DC page 100 still HTTP 406; cs.RO recovered through page 300 and crossed the 7d cutoff at 2026-09-09T18:02:05Z. Other required feeds remain incomplete, so 24h/7d/30d remain OPEN; SEARCHED != COVERED and no full Robion direct-census PASS is claimed.
+- **Runtime qualification:** vLLM-Omni #7074/#6226/#5867 and SGLang-Omni #1909/#2052 were freshly rechecked; no classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** retry cs.DC page 100 + cs.AR/cs.LG failed pages while preserving recovered cs.RO checkpoint → finish 7d sibling triage → paginated 30d replay → trunk reverse checks → vLLM/SGLang integration → heterogeneous qualification → TeleFuser #45.
+
 # Hourly radar — 2026-09-17 14:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Real SYS-first scan completed.
