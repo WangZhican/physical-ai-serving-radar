@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-19 03:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; real cs.LG continuation at start=1100 again returned HTTP 406. Robion `2609.12075` re-hit; 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Fresh screening/runtime:** existing M*/HorizonServe/Tri-serve trunks re-hit. Runway GWM Worlds 2 provides continuous 720p/24fps + 48kHz audio with live control/open-ended interaction as world-model workload evidence, but is not reusable serving infrastructure; no promotion.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> continue Zing-SGLang maturity audit -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-19 02:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
