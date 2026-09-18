@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-18 13:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints are preserved. Fresh SYS-first arXiv/web cross-check re-hit permanent seed Robion `2609.12075`; 7d remains OPEN for sibling/reverse triage and 30d remains OPEN; SEARCHED != COVERED.
+- **Fresh screening/runtime:** FluxVLA Engine `2609.17210` was re-hit and confirmed already canonical CORE_SYS/A; current vLLM-Omni docs retain multimodal/realtime/robot-policy serving endpoints. No classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> continue Zing-SGLang maturity audit -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-18 12:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
