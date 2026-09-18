@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-18 15:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints are preserved; a real cs.LG continuation probe at start=1000 again returned HTTP 406. Fresh SYS-first cross-check re-hit permanent seed Robion `2609.12075`; 7d remains OPEN for sibling/reverse triage and 30d remains OPEN; SEARCHED != COVERED.
+- **Fresh screening:** Zing-0.5 `2609.17909`/Zing-SGLang remains model-specific realtime world-model serving evidence; OpenWorld `2609.09163` remains deployable code-world-model infrastructure below the reusable Physical-AI/multimodal serving promotion gate. No classification change.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> continue Zing-SGLang maturity audit -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-18 14:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
