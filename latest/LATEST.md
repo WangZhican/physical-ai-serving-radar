@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-19 04:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; fresh recent-category/list cross-check re-hit Robion `2609.12075` across its five listed categories. 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Runtime maturity:** SGLang-Omni currently documents experimental Intel XPU E2E support for Qwen3-ASR/Qwen3-TTS/Qwen3-Omni; vLLM-Omni #7074/#6226 and SGLang-Omni #1909 remain open session/state serving trunks. No classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> continue Zing-SGLang maturity audit -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-19 03:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
