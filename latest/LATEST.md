@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-19 07:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; real cs.LG continuation at start=1100 returned HTTP 406. Robion `2609.12075` re-hit and its five-category listing revalidated; 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Fresh SYS screening:** Physical-AI/VLA serving, multimodal/Omni serving, world-model streaming/session and Robion/Kairos/PhyAI neighborhood mainly re-hit canonical HorizonServe/PhyAI/Kairos/Robion and known model-side Astronex-World/Zing; no new formal reusable serving paper crossed the gate.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No taxonomy/PDF change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> continue Zing-SGLang maturity audit -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-19 06:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
