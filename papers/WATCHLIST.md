@@ -28,6 +28,11 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **Route-5 cache update:** TeleFuser documents external [CacheSeek](https://github.com/Tele-AI/CacheSeek) integration for cross-request approximate latent reuse with persistent KV/distributed storage, vector DB + metadata, explicit query/lookup/resume/save contracts and uncached fallback.
 - **Why not CORE_SYS yet:** no formal arXiv/venue paper or controlled multi-session throughput/SLO/long-horizon study is verified. Promotion gate: #45 landing plus reproducible goodput/latency/fairness, bounded-memory/state-isolation evidence, migration/autoscaling semantics, or a formal systems paper.
 
+### MOSS-VL specialized SGLang-Omni realtime backend
+- [OpenMOSS/MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) · [MOSS-VL Technical Report](https://arxiv.org/abs/2608.15045)
+- **Fresh runtime signal (2026-09-18):** the first-party MOSS-VL repository now bundles a specialized SGLang-Omni realtime backend for concurrent video streams, advertising dynamic multi-session scheduling and data-parallel replicas with the MOSS-VL-Realtime-SGLANG checkpoint.
+- **Why watch:** this directly exercises long-lived streaming visual state, concurrent sessions and replica-level scaling, relevant to Routes 3/5/6/9. The technical report itself is primarily model/co-design work and predates this serving backend, so this remains a runtime-project watch rather than a canonical paper promotion. Track scheduler policy, state isolation/backpressure, multi-stream goodput/tail latency, replica placement/failure semantics and upstream generalization beyond MOSS-VL.
+
 ### vLLM-Omni #6872 — chunkwise VAE → transport → MP4 overlap
 - [RFC #6872](https://github.com/vllm-project/vllm-omni/issues/6872), opened 2026-08-31. It proposes a bounded ordered media-chunk contract, explicit ownership/cancellation cleanup/backpressure, overlap across VAE decode → D2H/IPC transport → CPU H.264/MP4, persistent-ring transport, and a future disaggregated-VAE boundary.
 - **Why watch:** this is a concrete stage-disaggregation / streaming-output systems direction rather than model optimization. The RFC's frozen 8×B300 MiniMax-H3 profile reports 1.247 s VAE plus 1.749 s transport+CPU MP4 on a 10 s request; the ~10%/~20% E2E savings are optimistic projections, not achieved speedups.

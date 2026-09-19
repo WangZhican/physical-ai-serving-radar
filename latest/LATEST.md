@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-19 23:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +1 (`MOSS-VL specialized SGLang-Omni realtime backend`).
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; real cs.LG continuation at start=1100 returned HTTP 406. Robion `2609.12075` re-hit; 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Runtime maturity:** OpenMOSS/MOSS-VL announced 2026-09-18 a specialized SGLang-Omni realtime backend with dynamic multi-session scheduling and data-parallel replicas for concurrent video streams. The MOSS-VL Technical Report `2608.15045` remains model/co-design rather than a serving-paper promotion; track generalization/upstreaming of the scheduler/session substrate.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No canonical paper/PDF/taxonomy-count change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> audit MOSS-VL specialized runtime generality -> continue Zing-SGLang maturity -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-19 22:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
