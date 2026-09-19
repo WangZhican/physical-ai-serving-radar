@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-20 07:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; real cs.LG continuation at start=1100 returned HTTP 406. Robion `2609.12075` re-hit; 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Runtime maturity:** Physical-AI/VLA, multimodal/Omni, world-model realtime/session, Robion/Kairos/PhyAI/PCS and first-party runtime surfaces rechecked. SGLang-Omni remains v0.1.6; vLLM-Omni v0.30.0 milestone is 47/113 closed (41%, due 2026-09-24). No classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No canonical paper/PDF/taxonomy-count change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> continue MOSS-VL specialized backend upstream/generality audit -> Zing-SGLang maturity -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-20 06:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
