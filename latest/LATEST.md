@@ -1,3 +1,19 @@
+# Hourly radar — 2026-09-20 10:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; official cs.LG continuation at start=1100 recovered from prior HTTP 406 to HTTP 200 with 100 entries spanning 2026-09-09T22:35:31Z to 2026-09-09T10:42:56Z. Robion `2609.12075` re-hit/five-category listing revalidated; 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Runtime maturity:** Physical-AI/VLA, multimodal/Omni and world-model serving/runtime surfaces rechecked. PhyAI/HorizonServe/PCS re-hit canonical systems; ReWorld/SolarWM/Programmable World Model remain model-side evidence. No classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No canonical paper/PDF/taxonomy-count change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> continue MOSS-VL specialized backend upstream/generality audit -> Zing-SGLang maturity -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
+# Hourly radar — 2026-09-20 09:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; real cs.LG continuation at start=1100 returned HTTP 406. Robion `2609.12075` re-hit; 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Runtime maturity:** Physical-AI/VLA, multimodal/Omni and world-model serving/runtime surfaces rechecked. Kairos/PhyAI/HorizonServe re-hit canonical systems; Robot Data Factory remains data/benchmark infrastructure rather than inference serving. No classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No canonical paper/PDF/taxonomy-count change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> continue MOSS-VL specialized backend upstream/generality audit -> Zing-SGLang maturity -> paginated 30d replay -> runtime integration/heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-20 08:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
