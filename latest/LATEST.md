@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-20 16:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; real cs.LG continuation at start=1100 again returned HTTP 406. Robion `2609.12075` re-hit; fresh SYS-first search also re-hit vLLM-Omni, Embodied.cpp and PhyAI. 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Maturity frontier:** first-party repository discovery resolves `seedleap/Zing-SGLang` as an SGLang inference runtime for Seedleap Zing models. No reusable Zing-derived general scheduler/session/state abstraction distinct from upstream SGLang is verified; direct deep-tree API follow-up hit rate limiting, so code-diff audit remains next-run work rather than a promotion.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No canonical paper/PDF/taxonomy-count change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> retry Zing-SGLang code-diff audit -> MOSS-VL backend generality -> paginated 30d replay -> vLLM/SGLang/Dynamo/Mooncake integration -> heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-20 15:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
