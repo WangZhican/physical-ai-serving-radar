@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-21 20:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; fresh official arXiv cs.LG continuation retry at start=1100 returned HTTP 406 and is not counted as new coverage. Robion recall seed re-hit/five-category listing revalidated; Physical-AI/VLA, multimodal/Omni, world-model streaming/session, Zing-SGLang and MOSS-VL checked. 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Maturity frontier:** SGLang-Omni multi-stage/session runtime and session-aware realtime serving adjacency re-hit; no new reusable serving/runtime substrate crossed promotion.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No canonical paper/PDF/taxonomy-count change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> Zing-SGLang code-diff/generalization -> MOSS-VL upstream generic counterpart/PR -> paginated 30d replay -> vLLM/SGLang/Dynamo/Mooncake integration -> heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-21 19:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
