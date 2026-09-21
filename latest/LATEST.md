@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-21 10:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; real cs.LG continuation retry at start=1100 returned HTTP 406 and is not counted as new coverage. Robion 2609.12075 freshly re-hit and five-category listing independently revalidated; Physical-AI/VLA, multimodal/Omni, world-model streaming/session and canonical serving neighbors checked. 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Maturity frontier:** PhyAI/Kairos/HorizonServe/M* re-hit; Programmable World Model, AlayaVista and FIVE-VLA remain below reusable-serving promotion; no classification-changing transition.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No canonical paper/PDF/taxonomy-count change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> continue Zing-SGLang code-diff/generalization audit -> MOSS-VL backend upstream/generality -> paginated 30d replay -> vLLM/SGLang/Dynamo/Mooncake integration -> heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-21 09:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
