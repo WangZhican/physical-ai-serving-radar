@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-22 05:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **FlashDreams session audit:** first-party Waypoint V2 docs explicitly verify multiple sessions per application and per-session cache/RNG/control/seed isolation with shared weights. Shared model/RNG execution is currently serialized by an application lock and WebRTC accepts one browser client, so this strengthens session/state runtime evidence but does not establish a multi-tenant continuously-batched scheduler. Runtime-project WATCH retained.
+- **Recall/coverage:** Robion 2609.12075 re-hit; Physical-AI/VLA, multimodal/Omni, world-model realtime/session surfaces checked. Proven five-category 7d cutoff checkpoints preserved; no new direct-category census completion claimed. 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** determine whether FlashDreams serialization is integration-specific vs core runtime and inspect queue/admission/batching hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang/MOSS-VL -> paginated 30d replay.
+
 # Hourly radar — 2026-09-22 04:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
