@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-21 16:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** official arXiv cs.LG continuation at start=1100 recovered this hour: HTTP 200/100 entries, newest 2026-09-10T18:01:15Z and oldest 2026-09-10T06:11:54Z, crossing the 7d cutoff. Completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG cutoff checkpoints therefore remain directly evidenced. Robion recall seed re-hit; Physical-AI/VLA, multimodal/Omni, world-model streaming/session, Zing-SGLang and MOSS-VL checked. 7d remains OPEN only for sibling/reverse triage; 30d remains OPEN; SEARCHED != COVERED.
+- **Maturity frontier:** no new reusable serving/runtime substrate crossed promotion; fresh results mainly re-hit Kairos/PhyAI/HorizonServe/M*/Robion/RDF.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No canonical paper/PDF/taxonomy-count change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> Zing-SGLang code-diff/generalization -> MOSS-VL upstream generic counterpart/PR -> paginated 30d replay -> vLLM/SGLang/Dynamo/Mooncake integration -> heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-21 15:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
