@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-21 15:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** completed cs.DC/cs.AR/cs.PF/cs.RO + cs.LG 7d cutoff checkpoints preserved; real cs.LG continuation retry at start=1100 returned HTTP 406 and is not counted as new coverage. Robion/Physical-AI/VLA, multimodal/Omni, world-model streaming/session, Zing-SGLang and MOSS-VL checked. 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Maturity frontier:** fresh adjacent Google realtime-AI infrastructure guidance (2026-08-03) independently reinforces active-session plus resource-pressure-aware load balancing for long-lived stateful streams, relevant to realtime/world-model serving but not a paper promotion. MOSS-VL remains specialized multi-session/data-parallel runtime evidence without a verified generic upstream scheduler/session abstraction.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**. No canonical paper/PDF/taxonomy-count change.
+- **Next:** finish 7d sibling triage + mandatory trunk reverse checks -> Zing-SGLang code-diff/generalization -> MOSS-VL upstream generic counterpart/PR -> paginated 30d replay -> vLLM/SGLang/Dynamo/Mooncake integration -> heterogeneous qualification -> TeleFuser #45.
+
 # Hourly radar — 2026-09-21 14:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
