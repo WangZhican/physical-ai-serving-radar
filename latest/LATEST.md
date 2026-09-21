@@ -2650,3 +2650,10 @@ Fresh VLA-serving/robot multi-GPU, Physical-AI runtime, and multimodal-serving s
 - Preserved completed five-category 7d cutoff checkpoints; official arXiv cs.LG continuation again returned HTTP 406. 7d sibling/trunk reverse triage and 30d replay remain OPEN; SEARCHED != COVERED.
 - Runtime maturity: vLLM-Omni now documents an experimental generic realtime AR-diffusion session contract with runtime-owned identity/lifecycle/routing/KV state. No paper/taxonomy/PDF change.
 - Next: finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang maturity -> paginated 30d replay -> runtime integration -> heterogeneous qualification -> TeleFuser #45.
+
+
+## 2026-09-22 02:00 CST coverage heartbeat
+- CORE_SYS +0 / SYS_ALG +0 / WATCH +0 after a real SYS-first scan; Robion 2609.12075 recall seed was re-hit.
+- Preserved completed five-category 7d cutoff checkpoints. Fresh official arXiv cs.DC page-0 probe returned HTTP 406 and is not counted as coverage. 7d sibling/trunk reverse triage and 30d replay remain OPEN; SEARCHED != COVERED.
+- Kairos/PhyAI/HorizonServe/M* and world-model streaming/session neighbors rechecked; no paper/taxonomy/PDF change.
+- Next: finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang generalization -> MOSS-VL upstream counterpart/PR -> paginated 30d replay -> runtime integration -> heterogeneous qualification -> TeleFuser #45.
