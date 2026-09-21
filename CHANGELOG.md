@@ -1,3 +1,7 @@
+## 2026-09-22 03:00 CST — FlashDreams runtime-project watch
+- Added **NVIDIA FlashDreams** as a high-value runtime-project WATCH: reusable interactive world-model serving with rolling state, streaming/live controls, shared WebRTC transport, multi-GPU execution and multiple model integrations. First-party profiling reports up to 3.10x runtime speedup on LingBot-World.
+- No separate FlashDreams arXiv/venue paper was verified, so canonical paper/PDF counts remain unchanged. Routes 3/5/6/10 are strengthened; next audit compares session/concurrency semantics against vLLM-Omni, SGLang-Omni and TeleFuser.
+
 ## 2026-09-16 21:00 CST — paginated recall correction + WMHA boundary promotion
 - Added **The World Model Hardware Accelerator (WMHA)** (2609.16244) as `SYS_ALG_BOUNDARY / A`, Routes 6/10; it is hardware-aware world-model inference, not CORE_SYS serving/runtime.
 - Corrected direct-category coverage to paginate until the requested time cutoff. The 7d window contains 339 `cs.RO` and 907 `cs.LG` records, so a fixed first page of 200 was incomplete; corrected union contains 1,337 unique records and re-hits Robion automatically.

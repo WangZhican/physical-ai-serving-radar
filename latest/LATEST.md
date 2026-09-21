@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-22 03:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / **runtime-project WATCH +1: NVIDIA FlashDreams**.
+- **New runtime project:** FlashDreams is a reusable interactive autoregressive video/world-model inference and serving stack with rolling state, streaming output, live controls, shared WebRTC serving and multi-GPU execution. First-party docs report runtime-only speedups up to 3.10x (LingBot-World), 2.12x (Self-Forcing), 1.40x (Wan2.1) and 1.42x (FlashVSR). No separate formal FlashDreams paper was verified, so canonical paper/PDF counts stay unchanged.
+- **Recall/coverage:** Robion 2609.12075 re-hit; Physical-AI/VLA, multimodal/Omni and world-model realtime/session surfaces checked. Completed five-category 7d cutoff checkpoints preserved; fresh official cs.RO page-0 probe returned HTTP 406 and is not counted as coverage. 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** qualify FlashDreams architecture/session/concurrency semantics against vLLM-Omni/SGLang-Omni/TeleFuser -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang/MOSS-VL audits -> paginated 30d replay.
+
 # Hourly radar — 2026-09-22 01:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
