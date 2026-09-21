@@ -1,3 +1,18 @@
+# Hourly radar — 2026-09-22 07:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** Robion 2609.12075 re-hit; Physical-AI/VLA, multimodal/Omni, world-model realtime/session and FlashDreams checked. Fresh official arXiv page-0 probes succeeded for cs.AR/cs.PF/cs.LG but cs.DC/cs.RO returned HTTP 406. These are source heartbeats, not paginated cutoff completion; proven five-category 7d checkpoints remain authoritative. 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Runtime frontier:** Kairos/PhyAI/HorizonServe/M*/FlashDreams re-hit. FlashDreams still has no verified generic multi-tenant admission/continuous-batching scheduler beyond its session abstraction, so WATCH is retained.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** FlashDreams queue/admission/batching hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang/MOSS-VL -> paginated 30d replay.
+
+# Hourly radar — 2026-09-22 06:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** Robion 2609.12075 re-hit. Official arXiv cs.RO and cs.LG page-0 probes succeeded, but continuation plus cs.DC/cs.AR/cs.PF were rate-limited; no new COVERED claim. Proven five-category 7d checkpoints remain authoritative; 7d sibling/reverse triage and 30d remain OPEN.
+- **Runtime frontier:** FlashDreams remained WATCH; fresh issue-level evidence localized a queued-input latency effect to application semantics rather than establishing a generic serving scheduler.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+
 # Hourly radar — 2026-09-22 05:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
