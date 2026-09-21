@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-22 04:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Runtime qualification:** FlashDreams first-party repo/docs confirm a general Apache-2.0 interactive world-model runtime spanning nine integrations with continuous stateful/streaming/live-control execution and multi-GPU use. No independently verified generic multi-tenant admission/scheduler/session-isolation abstraction surfaced, so it remains runtime-project WATCH.
+- **Recall/coverage:** Robion 2609.12075 and Physical-AI/VLA, multimodal/Omni, world-model realtime/session surfaces checked. Fresh official cs.RO page-0 probe succeeded once (HTTP 200/20 entries), but the following five-category batch returned HTTP 406; no new census completion is claimed. Proven five-category 7d cutoff checkpoints remain authoritative; 7d sibling/reverse triage and 30d remain OPEN; SEARCHED != COVERED.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** continue FlashDreams scheduler/session-isolation audit -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang/MOSS-VL audits -> paginated 30d replay.
+
 # Hourly radar — 2026-09-22 03:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / **runtime-project WATCH +1: NVIDIA FlashDreams**.
