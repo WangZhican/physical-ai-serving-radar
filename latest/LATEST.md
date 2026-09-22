@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-22 17:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** official arXiv OAI-PMH exact rolling-24h PASS: 3 pages / 3,385 CS records / 510 exactly in-window; cs.DC 10 / cs.AR 7 / cs.PF 3 / cs.RO 71 / cs.LG 119. The prior exact 168h OAI direct-census PASS remains authoritative for 7d.
+- **Screening:** Robion 2609.12075 re-hit; Physical-AI/VLA, multimodal/Omni, world-model realtime/session, FlashDreams, Zing-SGLang/MOSS-VL and Kairos/PhyAI/HorizonServe/PCS/M* neighborhood checked; no new reusable serving substrate crossed promotion.
+- **Coverage boundary:** 24h direct-census portion PASS; 7d sibling/reverse-neighborhood triage and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** FlashDreams queue/admission/batching hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang generalization -> MOSS-VL upstream counterpart/PR -> exact 30d replay.
+
 # Recovery checkpoint — 2026-09-22 16:16 CST
 
 - **Source-layer recovery:** repeated Atom/query HTTP 406/429 is now bypassed by an official arXiv OAI-PMH `set=cs` exact-time census fallback. The 168h census paginated 7 OAI pages / 9,028 CS records and retained 5,559 records by exact latest-version timestamp inside the rolling window.
