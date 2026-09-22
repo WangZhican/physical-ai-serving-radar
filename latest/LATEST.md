@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-22 11:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** Robion 2609.12075 re-hit; Physical-AI/VLA, multimodal/Omni, world-model realtime/session, Zing-SGLang/MOSS-VL and canonical trunks checked. Official arXiv page-0 probes for cs.DC/cs.AR/cs.PF/cs.RO/cs.LG all returned HTTP 406. This is a failed-source SEARCHED heartbeat only; proven five-category 7d checkpoints remain authoritative. 7d sibling/reverse triage and 30d remain OPEN.
+- **Runtime frontier:** Zing-SGLang remains model-specific realtime WebSocket serving; MOSS-VL specialized SGLang-Omni backend remains dynamic multi-session/DP evidence without a newly verified generic upstream scheduler abstraction. FlashDreams remains runtime-project WATCH.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** FlashDreams queue/admission/batching hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang generalization -> MOSS-VL upstream counterpart/PR -> paginated 30d replay.
+
 # Hourly radar — 2026-09-22 10:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
