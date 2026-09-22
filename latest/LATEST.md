@@ -1,3 +1,11 @@
+# Hourly radar — 2026-09-22 10:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Recall/coverage:** Robion 2609.12075 re-hit; Physical-AI/VLA, multimodal/Omni, world-model realtime/session and FlashDreams checked. Official arXiv page-0 probes succeeded for cs.RO/cs.LG while cs.DC/cs.AR/cs.PF returned HTTP 406. This is SEARCHED heartbeat only; proven five-category 7d checkpoints remain authoritative. 7d sibling/reverse triage and 30d remain OPEN.
+- **Screening:** Kairos/PhyAI/HorizonServe re-hit; Robot Data Factory, Programmable World Model and SolarWM remain data/model/training-side adjacency. FlashDreams stays runtime-project WATCH; no fresh generic multi-tenant admission/continuous-batching evidence surfaced.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** FlashDreams queue/admission/batching hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang/MOSS-VL -> paginated 30d replay.
+
 # Hourly radar — 2026-09-22 09:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
