@@ -1,3 +1,10 @@
+# Recovery checkpoint — 2026-09-22 16:16 CST
+
+- **Source-layer recovery:** repeated Atom/query HTTP 406/429 is now bypassed by an official arXiv OAI-PMH `set=cs` exact-time census fallback. The 168h census paginated 7 OAI pages / 9,028 CS records and retained 5,559 records by exact latest-version timestamp inside the rolling window.
+- **Mandatory categories:** cs.DC 136 / cs.AR 74 / cs.PF 41 / cs.RO 819 / cs.LG 1,364; each category crosses the requested 7d cutoff.
+- **Coverage boundary:** this closes only the arXiv direct-census portion. Sibling/reverse-neighborhood systems triage and 30d replay remain OPEN; Robion 2609.12075 remains the permanent regression seed and SEARCHED != COVERED.
+- **Promotions:** none implied by the census; canonical paper counts remain unchanged.
+
 # Hourly radar — 2026-09-22 16:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
