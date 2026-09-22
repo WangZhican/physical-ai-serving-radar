@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-22 18:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** official arXiv OAI-PMH exact rolling-24h PASS: 3 pages / 3,385 CS records / 460 exactly in-window; cs.DC 10 / cs.AR 6 / cs.PF 3 / cs.RO 68 / cs.LG 110. Prior exact 168h direct-census PASS remains authoritative for 7d.
+- **Screening:** Robion 2609.12075 re-hit. Fresh generic serving-infra candidates 2609.24639 (PD power-aware provisioning) and 2609.24991 (shared KV-cache spend attribution) were triaged as adjacency rather than Physical-AI/multimodal serving promotions.
+- **Coverage boundary:** 24h direct census PASS; 7d sibling/reverse-neighborhood triage, project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** FlashDreams queue/admission/batching hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang generalization -> MOSS-VL upstream counterpart/PR -> exact 30d replay.
+
 # Hourly radar — 2026-09-22 17:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
