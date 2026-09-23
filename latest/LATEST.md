@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-23 21:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** fresh official arXiv OAI-PMH exact rolling-24h retry failed at page 0 with SSL EOF. Failed-run zero counts are not coverage. Prior 05:00 exact-24h PASS remains historical evidence for its exact window; prior exact-168h PASS remains authoritative for 7d direct census.
+- **Screening:** Robion 2609.12075 recall seed independently re-hit; Physical-AI/VLA serving, multimodal/Omni serving-runtime scheduling, world-model streaming/session, PhyAI/Kairos/M* and SGLang-Omni adjacency checked. Reactor surfaced as commercial realtime world-model serving ecosystem evidence, not a canonical paper/runtime promotion.
+- **Coverage boundary:** this hour is SEARCHED/failed-source heartbeat, not fresh 24h COVERED; 7d sibling/reverse-neighborhood triage, project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** retry exact-24h OAI first -> FlashDreams queue/admission/batching hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang -> MOSS-VL upstream -> exact 30d replay.
+
 # Hourly radar — 2026-09-23 20:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
