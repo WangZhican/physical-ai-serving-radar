@@ -1,3 +1,21 @@
+# Hourly radar — 2026-09-24 16:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** official arXiv OAI-PMH exact rolling-24h PASS: 2 pages / 2,583 CS records / 482 exactly in-window; cs.DC 12 / cs.AR 2 / cs.PF 1 / cs.RO 59 / cs.LG 132. Robion recall seed re-hit.
+- **Runtime frontier:** FlashDreams, Zing-SGLang/Zing-0.5 and MOSS-VL realtime/session surfaces checked. MOSS-VL-Realtime exposes incremental timestamped frames, realtime sessions, queue-based inference workers and WebSocket serving; useful realtime multimodal runtime evidence, but no separate serving-system promotion. FlashDreams generic multi-tenant admission/continuous batching remains unverified.
+- **Coverage boundary:** exact rolling-24h direct census COVERED for 2026-09-23T08:03:59Z..2026-09-24T08:03:59Z; 7d sibling/reverse-neighborhood triage, project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** unchanged at **172 works = 123 CORE_SYS / 39 SYS_ALG / 4 ALG / 6 WATCH**; **165 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** finish FlashDreams scheduler-hook audit -> finish 7d sibling + mandatory trunk reverse checks -> MOSS-VL runtime semantics -> exact 30d replay.
+
+# Hourly radar — 2026-09-24 15:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** official arXiv OAI-PMH exact rolling-24h PASS: 2 pages / 2,583 CS records / 548 exactly in-window; cs.DC 15 / cs.AR 5 / cs.PF 1 / cs.RO 73 / cs.LG 145. Robion recall seed re-hit.
+- **SYS-first:** Robion/PhyAI/Physical-AI serving and FlashDreams adjacency checked; no new reusable serving substrate crossed promotion. FlashDreams generic queue/admission/continuous-batching semantics remain unverified.
+- **Coverage boundary:** exact rolling-24h direct census COVERED for 2026-09-23T06:59:27Z..2026-09-24T06:59:27Z; 7d sibling/reverse-neighborhood triage, project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** unchanged at **172 works = 123 CORE_SYS / 39 SYS_ALG / 4 ALG / 6 WATCH**; **165 valid PDFs / 0 invalid / 4 pending**.
+- **GitHub recovery:** prior pending heartbeat was committed/pushed and remote master independently verified at `7b2c662e35c67503b8e9952845608134e6e191d0`.
+
 # Hourly radar — 2026-09-24 14:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
