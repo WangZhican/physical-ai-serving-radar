@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-24 14:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** official arXiv OAI-PMH exact rolling-24h PASS: 2 pages / 2,583 CS records / 580 exactly in-window; cs.DC 15 / cs.AR 6 / cs.PF 1 / cs.RO 74 / cs.LG 154. Robion recall seed re-hit.
+- **Runtime deep-check:** Microsoft Physical AI Toolchain first-party surfaces verify automatic GPU container creation/deployment + RPC inference, optional local Kubernetes GPU offload, shipping T0-T4 tiers and KAI Scheduler cluster infrastructure. Generic request admission, VLA-aware continuous batching, cancellation/timeout semantics and robot-SLO traffic scheduling remain unverified; project stays WATCH.
+- **Coverage boundary:** exact rolling-24h direct census COVERED for 2026-09-23T06:01:06Z..2026-09-24T06:01:06Z; 7d sibling/reverse-neighborhood triage, project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** unchanged at **172 works = 123 CORE_SYS / 39 SYS_ALG / 4 ALG / 6 WATCH**; **165 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** FlashDreams queue/admission/batching hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang -> MOSS-VL -> exact 30d replay.
+
 # Hourly radar — 2026-09-24 13:00 CST
 
 - **Promotions:** CORE_SYS +1 — Offload or Overload (arXiv:2603.18284); runtime-project WATCH +1 — Microsoft Physical AI Toolchain GPU offload; SYS_ALG/ALG/paper WATCH +0.
