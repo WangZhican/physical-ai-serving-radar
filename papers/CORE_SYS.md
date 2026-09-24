@@ -22,6 +22,7 @@ Primary contribution must be runtime, serving, resource management, scheduling, 
 - [RobotFleet](https://arxiv.org/abs/2510.10379) — RSS 2025 Multi-Robot Systems Workshop; centralized fleet planner/allocator + task-status/schedule manager over containerized robot services, with shared world state and feedback-driven replanning — **A-** · [repo](https://github.com/therohangupta/robot-fleet)
 
 ## Edge / cloud / heterogeneous deployment
+- [GLASS](https://arxiv.org/abs/2609.28179) — reusable device-side CUDA linear-algebra/geometry infrastructure for edge robotics; architecture-tuned thread/warp/block/backend placement, compile-time dispatch, independent numerical validation, and up to 1.5× embedded-system runtime improvement — **A** · [repo](https://github.com/A2R-Lab/GLASS)
 - [RoboECC](https://arxiv.org/abs/2603.20711) — model/hardware/network-aware edge-cloud partitioning — **A+**
 - [RAPID](https://arxiv.org/abs/2603.07949) — physical-state-triggered edge/cloud offload — **A**
 - [EcoVLA (device-edge)](https://arxiv.org/abs/2608.15502) — stage-level energy-aware co-inference — **A+**

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-16T21:00:00+08:00",
-  "count": 168,
+  "updated": "2026-09-24T12:00:00+08:00",
+  "count": 171,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2970,13 +2970,55 @@
       "title": "The World Model Hardware Accelerator",
       "system": "WMHA",
       "class": "SYS_ALG_BOUNDARY",
-      "route": [6, 10],
+      "route": [
+        6,
+        10
+      ],
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2609.16244",
       "system_note": "Latency-first diffusion/world-model accelerator; hardware-aware WAM inference evidence rather than serving/runtime resource management."
+    },
+    {
+      "id": "arxiv:2609.28179",
+      "title": "GLASS: Architecture-Tuned, Composable, Device-Side Linear Algebra for Edge Robotics and Beyond",
+      "class": "CORE_SYS",
+      "route": [
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2609.28064",
+      "title": "SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2609.28429",
+      "title": "Watch, Recall, Act: Always-On Robots in Concurrent Embodied Streams",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED"
     }
   ]
 }

@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-24 12:00 CST
+
+- **Promotions:** CORE_SYS +1 — GLASS 2609.28179; SYS_ALG_BOUNDARY +2 — SlackDrive 2609.28064 and Watch, Recall, Act / ARMS 2609.28429.
+- **Direct census:** official arXiv OAI-PMH exact rolling-24h census PASS: 2 pages / 2,583 CS records / 646 exactly in-window; cs.DC 15 / cs.AR 6 / cs.PF 1 / cs.RO 87 / cs.LG 164. Robion recall seed re-hit.
+- **PDF evidence:** all three official arXiv PDFs downloaded, `%PDF-` validated and inspected. GLASS is reusable architecture-tuned edge-robotics GPU infrastructure; SlackDrive is runtime-slack adaptive inference; ARMS is asynchronous always-on state/action integration.
+- **Coverage boundary:** exact rolling-24h direct-census portion COVERED for 2026-09-23T04:02:14Z..2026-09-24T04:02:14Z; 7d sibling/reverse-neighborhood triage, project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** **171 works = 122 CORE_SYS / 39 SYS_ALG / 4 ALG / 6 WATCH**; **164 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** FlashDreams scheduler hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang -> MOSS-VL upstream -> exact 30d replay.
+
 # Hourly radar — 2026-09-24 11:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.

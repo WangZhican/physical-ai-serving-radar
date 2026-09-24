@@ -2,6 +2,8 @@
 
 Works whose algorithmic novelty remains central, but which expose substantial runtime/deployment primitives.
 
+- [SlackDrive](https://arxiv.org/abs/2609.28064) — pre-inference compute allocator that turns completed-forward latency into online compute-state/slack and chooses the highest-utility budget predicted to meet the next control-step latency envelope; +21.7% latency-constrained EPDMS on NAVSIM v2. Runtime-adaptive inference, not multi-tenant serving.
+- [Watch, Recall, Act / ARMS](https://arxiv.org/abs/2609.28429) — always-on π0.5 streaming policy with asynchronously updated live-perception, embodied-state and agent-causal self-history contexts plus concurrent dual-arm action; strong state/lifecycle inspiration, but primary contribution remains policy/dataset integration rather than reusable serving infrastructure.
 - [The World Model Hardware Accelerator (WMHA)](https://arxiv.org/abs/2609.16244) — latency-first diffusion/world-model accelerator with VLIW static scheduling, FP8/BF16 weight-stationary compute and online-softmax attention; Routes 6/10. Hardware-aware WAM inference evidence, not CORE_SYS serving/runtime.
 - [Jetson-PI](https://arxiv.org/abs/2607.12659) — onboard asynchronous VLA runtime + confidence scheduling.
 - [VLASH](https://arxiv.org/abs/2512.01031) — future-state-aware asynchronous inference.
