@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-24 09:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** official arXiv OAI-PMH exact rolling-24h census PASS: 2 pages / 2,282 CS records / 480 exactly in-window; cs.DC 12 / cs.AR 7 / cs.PF 0 / cs.RO 65 / cs.LG 119.
+- **Screening:** Robion 2609.12075 recall seed independently re-hit; Physical-AI/VLA serving, multimodal serving/runtime scheduling, world-model streaming/session, M*, vla.cpp and adjacent runtime surfaces checked. ActFovea remains safeguarding/algorithmic evidence; no reusable serving promotion.
+- **Coverage boundary:** exact rolling-24h direct-census portion COVERED for 2026-09-23T00:58:13Z..2026-09-24T00:58:13Z; 7d sibling/reverse-neighborhood triage, project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** FlashDreams queue/admission/batching hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang -> MOSS-VL upstream -> exact 30d replay.
+
 # Hourly radar — 2026-09-24 08:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
