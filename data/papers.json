@@ -3037,6 +3037,58 @@
       "official_page": "https://arxiv.org/abs/2603.18284",
       "official_pdf": "https://arxiv.org/pdf/2603.18284",
       "system_note": "Measurement study across onboard, edge, and cloud GPUs for mobile manipulation; quantifies model-fit, latency/accuracy, battery, bandwidth, fleet batching/multiplexing and GPU/network contention, directly motivating QoS-aware offload and fleet serving."
+    },
+    {
+      "id": "arxiv:2609.27706",
+      "title": "MVP: A Motion-Predictive Speculative Vision Pipeline with Non-Blocking Drift Correction",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "MICRO 2026",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.27706",
+      "official_pdf": "https://arxiv.org/pdf/2609.27706",
+      "system_note": "Motion-domain speculative continuous-vision pipeline with lightweight ISP support and non-blocking periodic drift correction; up to 66.8% tail-latency reduction and 46% energy savings."
+    },
+    {
+      "id": "arxiv:2609.28431",
+      "title": "LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7,
+        10
+      ],
+      "year": 2026,
+      "venue": "CoRL 2026 / arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.28431",
+      "official_pdf": "https://arxiv.org/pdf/2609.28431",
+      "system_note": "Asynchronous slow intent / fast motion-refinement architecture; 45.8% lower inference latency vs Cosmos-Policy; model/control coupling rather than reusable serving substrate."
+    },
+    {
+      "id": "arxiv:2609.27656",
+      "title": "InternW0: A Foundational Physical World Model for Efficient Real-World Interactions",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        7,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.27656",
+      "official_pdf": "https://arxiv.org/pdf/2609.27656",
+      "system_note": "Asynchronous multi-frequency video/action architecture with observation-conditioned layerwise KV context reuse; strong state-reuse/control-loop evidence, but primarily a world model."
     }
   ]
 }

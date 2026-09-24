@@ -199,3 +199,6 @@ Reusable execution/evaluation infrastructure with CaP-Gym interactive environmen
 
 The paper reports **1.3×–2.8× wall-time speedup** for federated evaluation under the same GPU allocation. CORE_SYS because the contribution is reusable evaluation/serving infrastructure rather than an omni-model algorithm.
 
+
+## 2026-09-24 18:00 CST — continuous-vision pipeline
+- [**MVP: A Motion-Predictive Speculative Vision Pipeline with Non-Blocking Drift Correction**](https://arxiv.org/abs/2609.27706) — **MICRO 2026 / CORE_SYS A+**, Routes 3/6/8. Motion-domain speculative perception plus a lightweight ISP extension and non-blocking periodic drift-correction scheduling. Reports up to **66.8% tail-latency reduction** and **46% energy savings** for object detection.

@@ -3224,3 +3224,9 @@ Fresh VLA-serving/robot multi-GPU, Physical-AI runtime, and multimodal-serving s
 
 ## 2026-09-22 06:00 CST
 - Hourly SYS-first heartbeat: CORE_SYS +0 / SYS_ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Robion recall seed re-hit. FlashDreams session/runtime follow-up retained project WATCH; no generic multi-tenant continuous-batching/admission scheduler verified. Official arXiv cs.RO/cs.LG page-0 direct probes succeeded, but continuation/other category probes were rate-limited; no new COVERED claim. Five-category 7d cutoff checkpoints preserved; sibling/reverse triage and 30d replay remain open.
+
+## Hourly scan — 2026-09-24 18:00 CST
+- **Promotions:** CORE_SYS +1: MVP (2609.27706, MICRO 2026); SYS_ALG +2: LiMA (2609.28431) and InternW0 (2609.27656).
+- **Coverage:** official arXiv OAI exact-24h census PASS: 2 pages / 2,583 CS records / 383 exact-window; cs.DC 8 / cs.AR 2 / cs.PF 1 / cs.RO 47 / cs.LG 109. Robion recall seed re-hit. Exact 24h direct census is covered for this window; 7d sibling/reverse checks and 30d replay remain open.
+- **Canonical:** 175 works = 124 CORE_SYS / 41 SYS_ALG / 4 ALG / 6 WATCH. PDFs remain private and are not published here.
+- **Next:** MVP artifact/predecessor audit → LiMA/InternW0 async-state comparison → finish 7d sibling/trunk reverse checks → MOSS-VL scheduler delta → exact 30d replay.

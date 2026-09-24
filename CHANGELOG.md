@@ -702,3 +702,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - **2026-09-03 18:00 CST** — Completed a fresh 24h→7d SYS-first scan with no paper/project promotions. Re-verified vLLM-Omni #7000 as OPEN/not merged and #6872 as OPEN; screened fresh 2609 VLA/robot candidates and checked llm-d/SGLang runtime surfaces. Published a truthful zero-promotion heartbeat only; no taxonomy or PDF change.
 
 - **2026-09-04 02:02 CST** — Hourly SYS-first scan: no paper/project promotion; added vLLM-Omni #7000 bounded-output-memory review evidence (~2.8 GiB FP32 temporary + ~0.7 GiB uint8 at the reported target shape) and strengthened its link to #6872 chunkwise media-pipeline/disaggregated-VAE serving. Canonical counts/taxonomy unchanged.
+
+- **2026-09-24 18:00 CST** — Promoted MVP (2609.27706, MICRO 2026) to CORE_SYS/A+ and added LiMA + InternW0 as SYS_ALG boundary works; exact-24h OAI census PASS and Robion recall gate re-hit.

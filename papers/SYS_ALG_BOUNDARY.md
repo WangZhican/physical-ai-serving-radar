@@ -134,3 +134,7 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 - **Code:** https://github.com/jd-opensource/JoyAI-VL-Interaction
 - **Routes:** 3 / 5 / 7 / 11 · **Priority:** A+
 - **Role:** complete open deployment stack around an interaction model: continuous video, long-horizon state, pluggable ASR/TTS/memory/UI, a real-time loop plus asynchronous background-model/agent delegation, served on standard vLLM infrastructure. The official repo currently surfaces ~1.8k stars / 182 forks. Kept at `SYS_ALG_BOUNDARY` because the main research novelty is model/training design, not serving scheduling or resource management.
+
+## 2026-09-24 18:00 CST — asynchronous Physical-AI model/runtime boundary
+- [**LiMA**](https://arxiv.org/abs/2609.28431) — **SYS_ALG_BOUNDARY / A**, Routes 3/7/10. Slow long-horizon intent generation runs asynchronously from fast dense motion refinement; reports 45.8% lower inference latency than Cosmos-Policy. Kept boundary because novelty is generative control/model coupling rather than a reusable serving substrate.
+- [**InternW0**](https://arxiv.org/abs/2609.27656) — **SYS_ALG_BOUNDARY / A+**, Routes 3/5/7/10. Asynchronous multi-frequency video/action world model that reuses and observation-conditionally edits layerwise KV context instead of regenerating the future for every action update. Strong state-reuse/continuous-control evidence, but not a general serving runtime.
