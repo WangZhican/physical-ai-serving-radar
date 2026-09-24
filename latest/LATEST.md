@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-24 10:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** official arXiv OAI-PMH exact rolling-24h census PASS: 2 pages / 2,583 CS records / 744 exactly in-window; cs.DC 16 / cs.AR 8 / cs.PF 1 / cs.RO 97 / cs.LG 193.
+- **Screening:** Robion 2609.12075 recall seed re-hit; fresh exact-window systems-adjacent GLASS 2609.28179, SlackDrive 2609.28064 and Watch, Recall, Act 2609.28429 queued for deeper verification; no promotion on incomplete evidence.
+- **Coverage boundary:** exact rolling-24h direct-census portion COVERED for 2026-09-23T01:58:20Z..2026-09-24T01:58:20Z; 7d sibling/reverse-neighborhood triage, project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** unchanged at **168 works = 121 CORE_SYS / 37 SYS_ALG / 4 ALG / 6 WATCH**; **161 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** verify the three fresh candidates -> FlashDreams scheduler hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang -> MOSS-VL upstream -> exact 30d replay.
+
 # Hourly radar — 2026-09-24 09:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG_BOUNDARY +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
