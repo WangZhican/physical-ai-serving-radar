@@ -1,3 +1,19 @@
+# Hourly radar — 2026-09-24 19:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,583 CS / 355 exact-window; cs.DC 7 / cs.AR 2 / cs.PF 1 / cs.RO 46 / cs.LG 100. Refreshed exact-168h OAI PASS: 7 pages / 8,195 CS / 5,381 exact-window; cs.DC 134 / cs.AR 67 / cs.PF 28 / cs.RO 768 / cs.LG 1,353. Robion recall seed re-hit.
+- **SYS-first:** fresh mandatory-category candidates plus Robion/PhyAI and MVP/LiMA/InternW0 adjacency checked. KVSET 2609.27746 remains generic LLM serving/cache-capacity background rather than a Physical-AI/multimodal promotion.
+- **Coverage boundary:** exact 24h and 168h direct-category census COVERED for their exact windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** **175 works = 124 CORE_SYS / 41 SYS_ALG / 4 ALG / 6 WATCH**; **168 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** MVP artifact/lineage -> LiMA/InternW0 async-state comparison -> finish 7d sibling + trunk reverse checks -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-24 18:00 CST
+
+- **Promotions:** CORE_SYS +1 — MVP 2609.27706; SYS_ALG +2 — LiMA 2609.28431, InternW0 2609.27656.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,583 CS / 383 exact-window; cs.DC 8 / cs.AR 2 / cs.PF 1 / cs.RO 47 / cs.LG 109. Robion recall seed re-hit.
+- **PDFs:** all three official arXiv PDFs downloaded and validated; canonical advanced to 175 = 124 CORE_SYS / 41 SYS_ALG / 4 ALG / 6 WATCH; 168 valid / 0 invalid / 4 pending.
+- **Coverage boundary:** exact 24h direct census COVERED; 7d sibling/reverse systems triage, project/venue checks and 30d replay remain OPEN.
+
 # Hourly radar — 2026-09-24 17:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
