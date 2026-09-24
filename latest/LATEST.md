@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-24 20:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,583 CS / 304 exact-window; cs.DC 4 / cs.AR 1 / cs.PF 1 / cs.RO 38 / cs.LG 87. Robion recall seed re-hit.
+- **SYS-first:** fresh mandatory-category records plus FluxVLA Engine, vla.cpp and Embodied.cpp reverse-neighborhood/runtime surfaces checked; no new reusable serving substrate crossed promotion.
+- **Coverage boundary:** this exact 24h direct-category census is COVERED; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** **175 works = 124 CORE_SYS / 41 SYS_ALG / 4 ALG / 6 WATCH**; **168 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** MVP artifact/lineage -> LiMA/InternW0 async-state comparison -> finish 7d sibling + trunk reverse checks -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
 # Hourly radar — 2026-09-24 19:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
