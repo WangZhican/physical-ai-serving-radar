@@ -1,3 +1,12 @@
+# Hourly radar — 2026-09-24 17:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** official arXiv OAI-PMH exact rolling-24h PASS: 2 pages / 2,583 CS records / 429 exactly in-window; cs.DC 10 / cs.AR 2 / cs.PF 1 / cs.RO 52 / cs.LG 119. Robion recall seed re-hit.
+- **Runtime frontier:** FlashDreams and MOSS-VL-Realtime first-party serving surfaces checked. MOSS-VL explicitly exposes realtime sessions, queue-based workers and FastAPI WebSocket serving, plus production guidance to a bundled specialized SGLang-Omni backend with dynamic multi-session scheduling and data-parallel replicas. Route 3 evidence strengthened; no new canonical promotion.
+- **Coverage boundary:** exact rolling-24h direct census COVERED for 2026-09-23T08:58:41Z..2026-09-24T08:58:41Z; 7d sibling/reverse-neighborhood triage, project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** unchanged at **172 works = 123 CORE_SYS / 39 SYS_ALG / 4 ALG / 6 WATCH**; **165 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** finish FlashDreams scheduler-hook audit -> finish 7d sibling + mandatory trunk reverse checks -> audit bundled MOSS-VL SGLang-Omni scheduler delta vs upstream -> exact 30d replay.
+
 # Hourly radar — 2026-09-24 16:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
