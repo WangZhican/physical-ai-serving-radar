@@ -1,3 +1,20 @@
+# Hourly radar — 2026-09-24 22:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,583 CS / 207 exact-window; cs.DC 4 / cs.AR 1 / cs.PF 1 / cs.RO 32 / cs.LG 53. Robion recall seed re-hit.
+- **SYS-first:** MemBodied public code/project lineage audited; reproducibility strengthened but classification remains SYS_ALG_BOUNDARY. MVP/Robion adjacency rechecked; no new reusable serving substrate crossed promotion.
+- **Coverage boundary:** this exact 24h direct-category census is COVERED; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** **176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH**; **169 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** MVP artifact/lineage -> LiMA/InternW0 async-state comparison -> finish 7d sibling + trunk reverse/project checks -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-24 21:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG +1 — MemBodied 2609.28256 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,583 CS / 256 exact-window; cs.DC 4 / cs.AR 1 / cs.PF 1 / cs.RO 35 / cs.LG 69. Robion recall seed re-hit.
+- **Paper/PDF:** MemBodied promoted SYS_ALG_BOUNDARY (Routes 3/5); official PDF downloaded and validated. Fixed-size associative episodic state avoids growing observation history; contribution is model-level memory rather than reusable serving substrate.
+- **Coverage boundary:** exact 24h direct census COVERED; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** **176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH**; **169 valid PDFs / 0 invalid / 4 pending**.
+
 # Hourly radar — 2026-09-24 20:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
@@ -3255,6 +3272,12 @@ Fresh VLA-serving/robot multi-GPU, Physical-AI runtime, and multimodal-serving s
 - **Coverage:** official arXiv OAI exact-24h census PASS: 2 pages / 2,583 CS records / 383 exact-window; cs.DC 8 / cs.AR 2 / cs.PF 1 / cs.RO 47 / cs.LG 109. Robion recall seed re-hit. Exact 24h direct census is covered for this window; 7d sibling/reverse checks and 30d replay remain open.
 - **Canonical:** 175 works = 124 CORE_SYS / 41 SYS_ALG / 4 ALG / 6 WATCH. PDFs remain private and are not published here.
 - **Next:** MVP artifact/predecessor audit → LiMA/InternW0 async-state comparison → finish 7d sibling/trunk reverse checks → MOSS-VL scheduler delta → exact 30d replay.
+
+## Hourly scan — 2026-09-24 21:00 CST
+- **Promotions:** CORE_SYS +0; SYS_ALG +1: MemBodied (2609.28256); paper/runtime-project WATCH +0.
+- **Coverage:** official arXiv OAI exact-24h census PASS: 2 pages / 2,583 CS / 256 exact-window; cs.DC 4 / cs.AR 1 / cs.PF 1 / cs.RO 35 / cs.LG 69. Robion recall seed re-hit. PointCast and refreshed multi-robot PAC work also screened without serving-system promotion.
+- **Canonical:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH. PDFs remain private.
+- **Next:** MemBodied repo/runtime-cost audit -> MVP artifact/lineage -> LiMA/InternW0 comparison -> finish 7d sibling/trunk reverse/project checks -> MOSS-VL scheduler delta -> exact 30d replay.
 
 ## Hourly scan — 2026-09-24 21:00 CST
 - **Promotions:** CORE_SYS +0; SYS_ALG +1: MemBodied (2609.28256); paper/runtime-project WATCH +0.

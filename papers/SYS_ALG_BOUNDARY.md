@@ -141,3 +141,6 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 
 ## 2026-09-24 21:00 CST — fixed-state episodic VLA memory
 - [**MemBodied**](https://arxiv.org/abs/2609.28256) — **SYS_ALG_BOUNDARY / A**, Routes 3/5. Fixed-size associative state persists interactions across policy calls while an episode anchor preserves initial-scene context. The paper reports **91.9% lower inference latency than NativeMEM** while keeping memory/access cost independent of episode length. Strong Physical-AI temporal-state/cache inspiration, but the mechanism is a VLA model architecture rather than a reusable serving runtime. [Code](https://github.com/declare-lab/MemBodied).
+
+## 2026-09-24 21:00 CST — fixed-state episodic VLA memory
+- [**MemBodied**](https://arxiv.org/abs/2609.28256) — **SYS_ALG_BOUNDARY / A**, Routes 3/5. Fixed-size associative state persists interactions across policy calls while an episode anchor preserves initial-scene context. The paper reports **91.9% lower inference latency than NativeMEM** while keeping memory/access cost independent of episode length. Strong Physical-AI temporal-state/cache inspiration, but the mechanism is a VLA model architecture rather than a reusable serving runtime. [Code](https://github.com/declare-lab/MemBodied).
