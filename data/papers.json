@@ -3089,6 +3089,23 @@
       "official_page": "https://arxiv.org/abs/2609.27656",
       "official_pdf": "https://arxiv.org/pdf/2609.27656",
       "system_note": "Asynchronous multi-frequency video/action architecture with observation-conditioned layerwise KV context reuse; strong state-reuse/control-loop evidence, but primarily a world model."
+    },
+    {
+      "id": "arxiv:2609.28256",
+      "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.28256",
+      "official_pdf": "https://arxiv.org/pdf/2609.28256",
+      "repo": "https://github.com/declare-lab/MemBodied",
+      "system_note": "Fixed-size associative episodic state across VLA policy calls plus episode anchor; episode-length-independent memory/access cost and 91.9% lower inference latency than NativeMEM. Strong temporal-state/cache inspiration, but model architecture rather than reusable serving substrate."
     }
   ]
 }

@@ -704,3 +704,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - **2026-09-04 02:02 CST** — Hourly SYS-first scan: no paper/project promotion; added vLLM-Omni #7000 bounded-output-memory review evidence (~2.8 GiB FP32 temporary + ~0.7 GiB uint8 at the reported target shape) and strengthened its link to #6872 chunkwise media-pipeline/disaggregated-VAE serving. Canonical counts/taxonomy unchanged.
 
 - **2026-09-24 18:00 CST** — Promoted MVP (2609.27706, MICRO 2026) to CORE_SYS/A+ and added LiMA + InternW0 as SYS_ALG boundary works; exact-24h OAI census PASS and Robion recall gate re-hit.
+
+- **2026-09-24 21:00 CST** — Added MemBodied (2609.28256) as SYS_ALG_BOUNDARY/A after PDF verification; exact-24h OAI census PASS and Robion recall gate re-hit.

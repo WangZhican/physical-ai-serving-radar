@@ -3255,3 +3255,9 @@ Fresh VLA-serving/robot multi-GPU, Physical-AI runtime, and multimodal-serving s
 - **Coverage:** official arXiv OAI exact-24h census PASS: 2 pages / 2,583 CS records / 383 exact-window; cs.DC 8 / cs.AR 2 / cs.PF 1 / cs.RO 47 / cs.LG 109. Robion recall seed re-hit. Exact 24h direct census is covered for this window; 7d sibling/reverse checks and 30d replay remain open.
 - **Canonical:** 175 works = 124 CORE_SYS / 41 SYS_ALG / 4 ALG / 6 WATCH. PDFs remain private and are not published here.
 - **Next:** MVP artifact/predecessor audit → LiMA/InternW0 async-state comparison → finish 7d sibling/trunk reverse checks → MOSS-VL scheduler delta → exact 30d replay.
+
+## Hourly scan — 2026-09-24 21:00 CST
+- **Promotions:** CORE_SYS +0; SYS_ALG +1: MemBodied (2609.28256); paper/runtime-project WATCH +0.
+- **Coverage:** official arXiv OAI exact-24h census PASS: 2 pages / 2,583 CS / 256 exact-window; cs.DC 4 / cs.AR 1 / cs.PF 1 / cs.RO 35 / cs.LG 69. Robion recall seed re-hit. PointCast and refreshed multi-robot PAC work also screened without serving-system promotion.
+- **Canonical:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH. PDFs remain private.
+- **Next:** MemBodied repo/runtime-cost audit -> MVP artifact/lineage -> LiMA/InternW0 comparison -> finish 7d sibling/trunk reverse/project checks -> MOSS-VL scheduler delta -> exact 30d replay.
