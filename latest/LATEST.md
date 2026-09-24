@@ -1,3 +1,13 @@
+# Hourly radar — 2026-09-24 13:00 CST
+
+- **Promotions:** CORE_SYS +1 — Offload or Overload (arXiv:2603.18284); runtime-project WATCH +1 — Microsoft Physical AI Toolchain GPU offload; SYS_ALG/ALG/paper WATCH +0.
+- **Direct census:** official arXiv OAI-PMH exact rolling-24h PASS: 2 pages / 2,583 CS records / 617 exactly in-window; cs.DC 15 / cs.AR 6 / cs.PF 1 / cs.RO 80 / cs.LG 161. Robion recall seed re-hit.
+- **Reverse-neighborhood recovery:** Microsoft Research 2026-09-23 GPU-offload release exposed the previously absent March measurement paper. It quantifies onboard/edge/cloud GPU feasibility, latency/accuracy, battery, bandwidth, fleet batching/multiplexing and contention; promoted CORE_SYS Routes 1/4/6/8.
+- **PDF:** official arXiv PDF downloaded and PDF-header validated (4,817,845 bytes).
+- **Coverage boundary:** exact rolling-24h direct census COVERED for 2026-09-23T04:58:55Z..2026-09-24T04:58:55Z; 7d sibling/reverse-neighborhood triage, project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** **172 works = 123 CORE_SYS / 39 SYS_ALG / 4 ALG / 6 WATCH**; **165 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** Microsoft gpu-offload scheduler/admission/failure semantics -> FlashDreams scheduler hooks -> finish 7d sibling + mandatory trunk reverse checks -> Zing-SGLang -> MOSS-VL -> exact 30d replay.
+
 # Hourly radar — 2026-09-24 12:00 CST
 
 - **Promotions:** CORE_SYS +1 — GLASS 2609.28179; SYS_ALG_BOUNDARY +2 — SlackDrive 2609.28064 and Watch, Recall, Act / ARMS 2609.28429.

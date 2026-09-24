@@ -1,4 +1,7 @@
 ## 2026-09-24 12:00 CST — GLASS + runtime-adaptive streaming promotions
+
+- 2026-09-24 13:00 CST — promoted Offload or Overload (2603.18284) to CORE_SYS after Microsoft GPU-offload reverse-neighborhood recovery; added Microsoft Physical AI Toolchain as runtime-project WATCH; exact-24h OAI PASS.
+## 2026-09-24 12:00 CST — GLASS + runtime-adaptive streaming promotions
 - Promoted **GLASS** (2609.28179) to `CORE_SYS / A` as reusable architecture-tuned device-side CUDA infrastructure for edge robotics.
 - Promoted **SlackDrive** (2609.28064) and **Watch, Recall, Act / ARMS** (2609.28429) to `SYS_ALG_BOUNDARY / A`; both expose important runtime/state mechanisms but remain primarily algorithm/policy contributions rather than multi-tenant serving systems.
 - Canonical metadata is now **171 works = 122 CORE_SYS / 39 SYS_ALG / 4 ALG / 6 WATCH**. PDFs remain server-only.

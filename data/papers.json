@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-24T12:00:00+08:00",
-  "count": 171,
+  "updated": "2026-09-24T13:00:00+08:00",
+  "count": 172,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3019,6 +3019,24 @@
       "venue": "arXiv",
       "priority": "A",
       "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2603.18284",
+      "title": "Offload or Overload: A Platform Measurement Study of Mobile Robotic Manipulation Workloads",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        4,
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv / MSR-TR-2026-14",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2603.18284",
+      "official_pdf": "https://arxiv.org/pdf/2603.18284",
+      "system_note": "Measurement study across onboard, edge, and cloud GPUs for mobile manipulation; quantifies model-fit, latency/accuracy, battery, bandwidth, fleet batching/multiplexing and GPU/network contention, directly motivating QoS-aware offload and fleet serving."
     }
   ]
 }

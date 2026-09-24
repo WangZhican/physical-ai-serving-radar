@@ -22,6 +22,7 @@ Primary contribution must be runtime, serving, resource management, scheduling, 
 - [RobotFleet](https://arxiv.org/abs/2510.10379) — RSS 2025 Multi-Robot Systems Workshop; centralized fleet planner/allocator + task-status/schedule manager over containerized robot services, with shared world state and feedback-driven replanning — **A-** · [repo](https://github.com/therohangupta/robot-fleet)
 
 ## Edge / cloud / heterogeneous deployment
+- [Offload or Overload](https://arxiv.org/abs/2603.18284) — measurement study of mobile-manipulation inference across onboard, edge, and cloud GPUs; quantifies latency/accuracy, battery, bandwidth, fleet batching/multiplexing, and GPU/network contention, motivating QoS-aware offload and fleet serving — **A+** · [Microsoft Research](https://www.microsoft.com/en-us/research/publication/offload-or-overload-a-platform-measurement-study-of-mobile-robotic-manipulation-workloads/)
 - [GLASS](https://arxiv.org/abs/2609.28179) — reusable device-side CUDA linear-algebra/geometry infrastructure for edge robotics; architecture-tuned thread/warp/block/backend placement, compile-time dispatch, independent numerical validation, and up to 1.5× embedded-system runtime improvement — **A** · [repo](https://github.com/A2R-Lab/GLASS)
 - [RoboECC](https://arxiv.org/abs/2603.20711) — model/hardware/network-aware edge-cloud partitioning — **A+**
 - [RAPID](https://arxiv.org/abs/2603.07949) — physical-state-triggered edge/cloud offload — **A**

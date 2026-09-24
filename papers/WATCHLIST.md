@@ -8,6 +8,7 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **IoRT ROS 2 Applications: Evaluating Zenoh and VPN for Robotic Networking in the Edge-Cloud Continuum** — IEEE ISCC / DistInSys 2025 Best Paper; useful real-world edge-cloud latency/throughput/fault-tolerance evidence for Zenoh, but primarily evaluates existing middleware rather than introducing a new runtime mechanism.
 
 ## Active follow-ups
+- **Microsoft Physical AI Toolchain GPU offload** — [official repo](https://github.com/microsoft/physical-ai-toolchain) / [Microsoft Research announcement](https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/). As of 2026-09-23 it ships remote-GPU inference containerization/deployment, RPC and Kubernetes-based orchestration across robot/edge/cloud. High-value runtime-project WATCH; next gate is scheduler/admission/failure semantics and controlled multi-robot goodput/SLO evidence.
 - FogROS2-SGC / FogROS2-LS: determine whether they contribute durable cloud-connectivity/placement abstractions beyond the existing FogROS lineage.
 - NVIDIA `ros2_benchmark`: classify as a mature infrastructure artifact and determine whether a canonical paper record should be created.
 - Zenoh/DDS intermittent-connectivity state continuity and timing/isolation enforcement.
