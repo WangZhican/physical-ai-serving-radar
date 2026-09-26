@@ -1,3 +1,237 @@
+# Hourly radar — 2026-09-26 16:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. KerColle remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS 2 pages / 1,324 CS / 0 exact-window => NOT COVERED by zero-result guard. Exact-168h PASS 6 pages / 7,083 CS / 4,806 exact-window; cs.DC 120 / cs.AR 56 / cs.PF 26 / cs.RO 614 / cs.LG 1,241.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and Robion/KerColle/Kairos/PhyAI/M* adjacency checked; no new formal promotion.
+- **Coverage boundary:** 168h direct-category portion COVERED; 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **PDF:** no new PDF success claimed; KerColle/Streaming-WAM/HarnessPAI remain pending inspection/download work.
+- **Canonical/PDF:** unchanged at 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending.
+- **Next:** retry nonzero exact-24h -> HarnessPAI PDF/repo -> Streaming-WAM -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 15:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. HarnessPAI and Streaming-WAM remain SYS_ALG candidates; KerColle remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS 2 pages / 1,324 CS / 0 exact-window => NOT COVERED by zero-result guard. Exact-168h PASS 6 pages / 7,083 CS / 4,830 exact-window; cs.DC 121 / cs.AR 56 / cs.PF 26 / cs.RO 619 / cs.LG 1,249.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and trunk adjacency checked; no new formal promotion.
+- **Coverage boundary:** 168h direct-category portion COVERED; 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **PDF:** no new PDF success claimed; KerColle/Streaming-WAM/HarnessPAI remain pending inspection/download work.
+- **Canonical/PDF:** unchanged at 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending.
+- **Next:** retry nonzero exact-24h -> HarnessPAI PDF/repo -> Streaming-WAM -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 14:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. HarnessPAI and Streaming-WAM remain SYS_ALG candidates; KerColle remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS 2 pages / 1,324 CS / 0 exact-window => NOT COVERED by zero-result guard. Exact-168h PASS 6 pages / 7,083 CS / 4,856 exact-window; cs.DC 122 / cs.AR 56 / cs.PF 26 / cs.RO 624 / cs.LG 1,256.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and trunk adjacency checked; no new formal promotion.
+- **Coverage boundary:** 168h direct-category portion COVERED; 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **PDF:** KerColle/Streaming-WAM/HarnessPAI official arXiv PDF fetch attempts were blocked before transfer; no download success claimed.
+- **Canonical/PDF:** unchanged at 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending.
+- **Next:** retry nonzero exact-24h -> HarnessPAI PDF/repo -> Streaming-WAM -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 13:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. HarnessPAI and Streaming-WAM remain SYS_ALG candidates; KerColle remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS 2 pages / 1,324 CS / 0 exact-window => NOT COVERED by zero-result guard. Exact-168h PASS 6 pages / 7,083 CS / 4,884 exact-window; cs.DC 122 / cs.AR 57 / cs.PF 27 / cs.RO 627 / cs.LG 1,263.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and trunk adjacency checked; no new formal promotion.
+- **Coverage boundary:** 168h direct-category portion COVERED; 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** unchanged at 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending.
+- **Next:** retry nonzero exact-24h -> HarnessPAI PDF/repo -> Streaming-WAM -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 12:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. HarnessPAI and Streaming-WAM remain SYS_ALG candidates; KerColle remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS 2 pages / 1,324 CS / 0 exact-window, therefore NOT COVERED by zero-result guard. Fresh exact-168h rerun was blocked before execution; latest valid 11:00 168h evidence remains 6 pages / 7,083 CS / 4,925 exact-window; cs.DC 125 / cs.AR 58 / cs.PF 28 / cs.RO 631 / cs.LG 1,272.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and trunk adjacency checked; no new formal promotion.
+- **Coverage boundary:** 24h current zero-result window NOT COVERED; 168h latest valid direct-category portion COVERED. 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** unchanged at 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending.
+- **Next:** retry exact-168h + nonzero exact-24h -> HarnessPAI first-party PDF/repo inspection -> Streaming-WAM -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 11:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. HarnessPAI and Streaming-WAM remain SYS_ALG candidates; KerColle remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS 2 pages / 1,324 CS / 0 exact-window, therefore NOT COVERED by zero-result guard. exact-168h OAI PASS 6 pages / 7,083 CS / 4,925 exact-window; cs.DC 125 / cs.AR 58 / cs.PF 28 / cs.RO 631 / cs.LG 1,272.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and trunk adjacency checked; no new formal promotion.
+- **Coverage boundary:** 168h direct-category portion COVERED; 24h current zero-result window NOT COVERED. 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** unchanged at 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending.
+- **Next:** HarnessPAI first-party PDF/repo inspection -> retry nonzero exact-24h -> Streaming-WAM -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 09:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Fresh HarnessPAI (arXiv:2609.29166) is held as SYS_ALG candidate pending first-party inspection; Streaming-WAM remains SYS_ALG candidate; KerColle remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS 2 pages / 1,324 CS / 0 exact-window, therefore NOT COVERED by zero-result guard. exact-168h OAI PASS 6 pages / 7,083 CS / 4,968 exact-window; cs.DC 126 / cs.AR 58 / cs.PF 28 / cs.RO 639 / cs.LG 1,282.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and trunk adjacency checked. Omni-Flow re-hit as existing canonical; no new formal promotion.
+- **Coverage boundary:** 168h direct-category portion COVERED; 24h current zero-result window NOT COVERED. 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** unchanged at 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending.
+- **Next:** HarnessPAI first-party PDF/repo inspection -> retry nonzero exact-24h -> Streaming-WAM -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 07:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Streaming-WAM (arXiv:2609.28927) remains a high-value SYS_ALG candidate; KerColle (2609.22335, PACT 2026) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI source PASS: 2 pages / 2,503 CS but 0 exact-window records, so this new window is NOT marked COVERED. exact-168h OAI PASS: 7 pages / 8,247 CS / 4,999 exact-window; cs.DC 128 / cs.AR 59 / cs.PF 29 / cs.RO 647 / cs.LG 1,289.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and Robion/KerColle/Streaming-WAM/Embodied.cpp/M* adjacency rechecked. No new reusable serving substrate crossed promotion.
+- **Coverage boundary:** 168h direct-category census COVERED for its exact window; latest 24h zero-result execution retained as source-lag boundary, not COVERED. 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 canonical pending. Streaming-WAM/KerColle PDF success not claimed.
+- **Next:** retry nonzero exact-24h -> Streaming-WAM first-party PDF inspection -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> MVP/LiMA/InternW0 -> MOSS-VL/SGLang-Omni delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 06:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Streaming-WAM (arXiv:2609.28927) remains a high-value SYS_ALG candidate; KerColle (2609.22335, PACT 2026) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI source PASS: 2 pages / 2,503 CS but 0 exact-window records, so this new window is NOT marked COVERED. exact-168h OAI PASS: 7 pages / 8,247 CS / 5,017 exact-window; cs.DC 128 / cs.AR 60 / cs.PF 30 / cs.RO 651 / cs.LG 1,293.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and Robion/KerColle/Streaming-WAM adjacency rechecked. No new reusable serving substrate crossed promotion.
+- **Coverage boundary:** 168h direct-category census COVERED for its exact window; latest 24h zero-result execution retained as source-lag boundary, not COVERED. 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 canonical pending. Streaming-WAM/KerColle PDF success not claimed.
+- **Next:** retry nonzero exact-24h -> Streaming-WAM first-party PDF inspection -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> MVP/LiMA/InternW0 -> MOSS-VL/SGLang-Omni delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 05:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Streaming-WAM (arXiv:2609.28927) remains a high-value SYS_ALG candidate; KerColle (2609.22335, PACT 2026) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI source PASS: 2 pages / 2,503 CS but 0 exact-window records, so this new window is NOT marked COVERED. exact-168h OAI PASS: 7 pages / 8,247 CS / 5,052 exact-window; cs.DC 129 / cs.AR 62 / cs.PF 30 / cs.RO 661 / cs.LG 1,302.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and Robion/KerColle/Streaming-WAM adjacency rechecked. No new reusable serving substrate crossed promotion.
+- **Coverage boundary:** 168h direct-category census COVERED for its exact window; latest 24h zero-result execution retained as source-lag boundary, not COVERED. 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 canonical pending. Streaming-WAM/KerColle PDF success not claimed.
+- **Next:** retry nonzero exact-24h -> Streaming-WAM first-party PDF inspection -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> MVP/LiMA/InternW0 -> MOSS-VL/SGLang-Omni delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 04:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. Streaming-WAM (arXiv:2609.28927) remains a high-value SYS_ALG candidate; KerColle (2609.22335, PACT 2026) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI source PASS: 2 pages / 2,503 CS but 0 exact-window records, so this new window is NOT marked COVERED. exact-168h OAI PASS: 7 pages / 8,247 CS / 5,078 exact-window; cs.DC 130 / cs.AR 63 / cs.PF 31 / cs.RO 663 / cs.LG 1,308.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal serving, world-model runtime/streaming and Robion/KerColle/Embodied.cpp/PhyAI adjacency rechecked. No new reusable serving substrate crossed promotion.
+- **Coverage boundary:** 168h direct-category census COVERED for its exact window; latest 24h zero-result execution retained as source-lag boundary, not COVERED. 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 canonical pending. Streaming-WAM/KerColle PDF success not claimed.
+- **Next:** retry nonzero exact-24h -> Streaming-WAM first-party PDF inspection -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> MVP -> LiMA/InternW0 -> MOSS-VL/SGLang-Omni delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 02:08 CST
+
+- **Promotion state:** no newly finalized promotion; Streaming-WAM (arXiv:2609.28927) remains a high-value SYS_ALG candidate; KerColle (2609.22335) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI source execution PASS but returned 0 exact-window mandatory-category records, so this window is NOT marked COVERED. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,136 exact-window; cs.DC 130 / cs.AR 63 / cs.PF 31 / cs.RO 669 / cs.LG 1,320.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal serving, world-model runtime/streaming and SGLang-Omni/vLLM-Omni + Robion/Kairos/PhyAI/KerColle adjacency rechecked; no additional reusable serving substrate crossed promotion.
+- **Coverage boundary:** 168h direct-census portion COVERED; latest 24h zero-result execution retained as source-lag boundary, not COVERED. 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. No PDF success claimed this run.
+- **Next:** retry nonzero exact-24h census -> Streaming-WAM PDF/inspection -> KerColle PDF + atomic promotion -> Microsoft offload repo lineage -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 01:03 CST
+
+- **Promotion state:** no newly finalized promotion; Streaming-WAM (arXiv:2609.28927) remains a high-value SYS_ALG candidate pending first-party PDF inspection; KerColle (2609.22335) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 84 exact-window; cs.DC 3 / cs.AR 1 / cs.PF 0 / cs.RO 12 / cs.LG 27. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,190 exact-window; cs.DC 131 / cs.AR 63 / cs.PF 31 / cs.RO 679 / cs.LG 1,333.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal serving, world-model runtime/streaming and Robion/Kairos/PhyAI/KerColle adjacency rechecked; no additional reusable serving substrate crossed promotion.
+- **Coverage boundary:** exact direct-census portions COVERED for these windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. No PDF success claimed this run.
+- **Next:** Streaming-WAM PDF/inspection -> KerColle PDF + atomic promotion -> Microsoft offload repo lineage -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 23:58 CST
+
+- **Promotion state:** no newly finalized promotion; Streaming-WAM (arXiv:2609.28927) remains a high-value SYS_ALG candidate pending first-party PDF inspection; KerColle (2609.22335) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 161 exact-window; cs.DC 6 / cs.AR 2 / cs.PF 1 / cs.RO 21 / cs.LG 50. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,233 exact-window; cs.DC 131 / cs.AR 63 / cs.PF 32 / cs.RO 685 / cs.LG 1,345.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal serving, world-model runtime/streaming and Robion/Kairos/PhyAI/KerColle adjacency rechecked; no additional reusable serving substrate crossed promotion.
+- **Coverage boundary:** exact direct-census portions COVERED for these windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. Streaming-WAM and KerColle PDF retrieval attempts were blocked before network execution.
+- **Next:** Streaming-WAM PDF/inspection -> KerColle PDF + atomic promotion -> Microsoft offload repo lineage -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 23:00 CST
+
+- **Promotion state:** no newly finalized promotion; new high-value SYS_ALG candidate Streaming-WAM (arXiv:2609.28927) pending PDF/first-party inspection; KerColle (2609.22335) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 227 exact-window; cs.DC 7 / cs.AR 3 / cs.PF 1 / cs.RO 28 / cs.LG 70. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,283 exact-window; cs.DC 131 / cs.AR 63 / cs.PF 32 / cs.RO 691 / cs.LG 1,362.
+- **SYS-first:** Robion recall seed re-hit. Streaming-WAM couples action-conditioned future visual prediction with asynchronous robot execution; current evidence supports SYS_ALG adjacency rather than a reusable CORE_SYS serving substrate.
+- **Coverage boundary:** exact direct-census portions COVERED for these windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. Streaming-WAM PDF retrieval attempt was blocked before network execution; KerColle remains outside canonical pending PDF + atomic checkpoint.
+- **Next:** Streaming-WAM PDF/inspection -> KerColle PDF + atomic promotion -> Microsoft offload repo lineage -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 22:00 CST
+
+- **Promotion state:** no newly finalized promotion; KerColle (arXiv:2609.22335, PACT 2026) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 297 exact-window; cs.DC 8 / cs.AR 3 / cs.PF 1 / cs.RO 37 / cs.LG 88. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,345 exact-window; cs.DC 132 / cs.AR 63 / cs.PF 33 / cs.RO 698 / cs.LG 1,377.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal serving, world-model runtime/streaming and KerColle/vla.cpp/Embodied.cpp/PhyAI adjacency rechecked; no additional promotion.
+- **Coverage boundary:** exact direct-census portions COVERED for these windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. KerColle remains outside canonical pending PDF + atomic checkpoint.
+- **Next:** KerColle PDF + atomic promotion -> Microsoft Physical AI Toolchain repo/offload lineage -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 21:00 CST
+
+- **Promotion state:** no newly finalized promotion; KerColle (arXiv:2609.22335, PACT 2026) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 353 exact-window; cs.DC 10 / cs.AR 3 / cs.PF 2 / cs.RO 41 / cs.LG 99. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,388 exact-window; cs.DC 133 / cs.AR 65 / cs.PF 33 / cs.RO 711 / cs.LG 1,385.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal serving, world-model runtime/streaming, KerColle and Microsoft Physical AI Toolchain offload lineage rechecked. Offload or Overload is already canonical, so no duplicate promotion.
+- **Coverage boundary:** exact direct-census portions COVERED for these windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. KerColle remains outside canonical pending PDF + atomic checkpoint.
+- **Next:** KerColle PDF + atomic promotion -> Microsoft Physical AI Toolchain repo/offload lineage -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 20:00 CST
+
+- **Promotion state:** no new paper promotion; runtime-project WATCH +1: Microsoft Physical AI Toolchain inference offload.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 407 exact-window; cs.DC 11 / cs.AR 4 / cs.PF 2 / cs.RO 44 / cs.LG 111. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,436 exact-window; cs.DC 133 / cs.AR 66 / cs.PF 33 / cs.RO 718 / cs.LG 1,397.
+- **SYS-first:** Microsoft Research's 2026-09-23 release adds declarative inference containerization/offload, Kubernetes robot/edge/cloud placement and LeRobot/ROS2 integration; tracked as Route 4/2/3 runtime-project evidence pending technical-report/paper canonicalization. Robion recall seed re-hit; KerColle remains pending CORE_SYS +1.
+- **Coverage boundary:** exact direct-census portions COVERED for these windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. KerColle remains outside canonical pending PDF + atomic checkpoint.
+- **Next:** Microsoft Physical AI Toolchain technical report/repo lineage -> KerColle PDF + atomic promotion -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 comparison -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 19:00 CST
+
+- **Promotion state:** no newly finalized promotion; KerColle (arXiv:2609.22335, PACT 2026) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 463 exact-window; cs.DC 14 / cs.AR 4 / cs.PF 3 / cs.RO 52 / cs.LG 127. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,478 exact-window; cs.DC 135 / cs.AR 67 / cs.PF 33 / cs.RO 723 / cs.LG 1,406.
+- **SYS-first:** Robion recall seed re-hit; KerColle plus VLA/Physical-AI serving, multimodal serving and world-model runtime/streaming adjacency rechecked; no additional reusable serving substrate crossed promotion.
+- **Coverage boundary:** exact direct-census portions COVERED for these windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. KerColle PDF retry was blocked before network execution.
+- **Next:** KerColle PDF + atomic manifest/public promotion -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 comparison -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 17:00 CST
+
+- **Promotion state:** no newly finalized promotion; KerColle (arXiv:2609.22335, PACT 2026) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 556 exact-window; cs.DC 15 / cs.AR 5 / cs.PF 3 / cs.RO 60 / cs.LG 146. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,561 exact-window; cs.DC 139 / cs.AR 67 / cs.PF 33 / cs.RO 732 / cs.LG 1,423.
+- **SYS-first:** Robion recall seed re-hit; KerColle reverified; vLLM-Omni world-model roadmap #7074 checked. No additional reusable serving substrate crossed promotion.
+- **Coverage boundary:** exact direct-census portions COVERED for these windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. KerColle PDF retry was blocked before network execution.
+- **Next:** KerColle PDF + atomic manifest/public promotion -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 comparison -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 15:00 CST
+
+- **Promotion state:** no newly finalized promotion; KerColle (arXiv:2609.22335, PACT 2026) remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 668 exact-window; cs.DC 18 / cs.AR 6 / cs.PF 3 / cs.RO 73 / cs.LG 164. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,651 exact-window; cs.DC 140 / cs.AR 67 / cs.PF 33 / cs.RO 755 / cs.LG 1,437.
+- **SYS-first:** Robion recall seed checked; Physical-AI/VLA serving/runtime/scheduler, multimodal serving, world-model runtime and Embodied.cpp/PhyAI adjacency rechecked; no additional reusable serving substrate crossed promotion.
+- **Coverage boundary:** exact direct-census portions COVERED for the new windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. KerColle PDF remains pending.
+- **Next:** KerColle PDF + atomic manifest/public promotion -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 comparison -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 14:00 CST
+
+- **Promotion state:** no newly finalized promotion; KerColle (arXiv:2609.22335, PACT 2026) remains pending CORE_SYS +1 because its official PDF checkpoint is still blocked before download.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 711 exact-window; cs.DC 18 / cs.AR 6 / cs.PF 4 / cs.RO 80 / cs.LG 177. exact-168h OAI PASS: 7 pages / 8,246 CS / 5,693 exact-window; cs.DC 141 / cs.AR 68 / cs.PF 33 / cs.RO 762 / cs.LG 1,444. Robion recall seed re-hit.
+- **SYS-first:** Physical-AI/VLA serving/runtime/scheduler, multimodal serving, world-model streaming/runtime and Robion/Kairos/PhyAI/ReWorld adjacency rechecked; no additional reusable serving substrate crossed promotion.
+- **Coverage boundary:** exact direct-census portions COVERED for the new windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. KerColle PDF success is not claimed.
+- **Next:** KerColle PDF + atomic manifest/public promotion -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 comparison -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 12:00 CST
+
+- **Promotion state:** no newly finalized promotion this hour; KerColle (arXiv:2609.22335, PACT 2026) remains pending CORE_SYS +1 until its PDF+manifest checkpoint.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 778 exact-window; cs.DC 19 / cs.AR 6 / cs.PF 6 / cs.RO 87 / cs.LG 196. Refreshed exact-168h OAI PASS: 7 pages / 8,246 CS / 5,749 exact-window; cs.DC 143 / cs.AR 69 / cs.PF 33 / cs.RO 773 / cs.LG 1,457. Robion recall seed re-hit.
+- **Coverage boundary:** exact direct-census portions COVERED for the new windows; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical/PDF:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending. KerColle PDF retry was blocked before download, so no success is claimed.
+- **Next:** KerColle PDF + atomic manifest/public promotion -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 comparison -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 11:00 CST
+
+- **Promotion candidate:** CORE_SYS +1 pending — KerColle (arXiv:2609.22335, PACT 2026), VLA-specific fine-grained GPU kernel co-scheduling; online SM utilization + kernel-resource pairing mitigates CTA-dispatcher HOL blocking, up to 28% simulated throughput gain across 2 GPU architectures / 4 VLAs. Canonical mutation waits for PDF checkpoint.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,502 CS / 805 exact-window; cs.DC 19 / cs.AR 6 / cs.PF 6 / cs.RO 95 / cs.LG 199. Refreshed exact-168h OAI PASS: 7 pages / 8,246 CS / 5,784 exact-window; cs.DC 144 / cs.AR 70 / cs.PF 34 / cs.RO 780 / cs.LG 1,467. Robion recall seed re-hit.
+- **Coverage boundary:** these exact 24h/168h direct-census windows are COVERED; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** still **176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH**; **169 valid PDFs / 0 invalid / 4 pending**. KerColle PDF download remains blocked by execution safety gate, so no false success is claimed.
+- **Next:** KerColle PDF + atomic manifest/public promotion -> finish 7d sibling/trunk reverse/project checks -> MVP artifact/lineage -> LiMA/InternW0 async-state comparison -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 08:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **SYS-first:** fresh Physical-AI/VLA serving/runtime/scheduler, multimodal serving and world-model runtime adjacency checked; Robion 2609.12075 recall seed re-hit; no new reusable serving substrate crossed promotion.
+- **Coverage boundary:** fresh 08:00 official OAI exact-24h execution was attempted but blocked before census execution, so no new 08:00 window is marked COVERED. Latest verified exact-24h evidence remains 07:00; 7d sibling/reverse-neighborhood + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** **176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH**; **169 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** retry exact-24h OAI + GitHub sync -> MVP artifact/lineage -> LiMA/InternW0 async-state comparison -> finish 7d sibling + trunk reverse/project checks -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+# Hourly radar — 2026-09-25 00:00 CST
+
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
+- **Direct census:** exact-24h OAI PASS: 2 pages / 2,583 CS / 99 exact-window; cs.DC 2 / cs.AR 1 / cs.PF 0 / cs.RO 15 / cs.LG 27. Robion recall seed re-hit.
+- **SYS-first:** fresh Physical-AI/VLA serving/runtime plus vla.cpp, Embodied.cpp, FluxVLA and composite-serving adjacency checked. Embodied.cpp September support expansion is runtime/adoption evidence; no new serving-system promotion.
+- **Coverage boundary:** this exact 24h direct-category census is COVERED; 7d sibling/reverse-neighborhood systems triage + project/venue checks and 30d replay remain OPEN. SEARCHED != COVERED.
+- **Canonical state:** **176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH**; **169 valid PDFs / 0 invalid / 4 pending**.
+- **Next:** MVP artifact/lineage -> LiMA/InternW0 async-state comparison -> finish 7d sibling + trunk reverse/project checks -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
 # Hourly radar — 2026-09-24 22:00 CST
 
 - **Promotions:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0.
@@ -3282,8 +3516,20 @@ Fresh VLA-serving/robot multi-GPU, Physical-AI runtime, and multimodal-serving s
 - **Canonical:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH. PDFs remain private.
 - **Next:** MemBodied repo/runtime-cost audit -> MVP artifact/lineage -> LiMA/InternW0 comparison -> finish 7d sibling/trunk reverse/project checks -> MOSS-VL scheduler delta -> exact 30d replay.
 
+## Hourly scan — 2026-09-25 18:00 CST
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / paper WATCH +0 / runtime-project WATCH +0. KerColle (2609.22335, PACT 2026) remains pending CORE_SYS candidate until PDF + atomic canonical checkpoint.
+- **Coverage:** official arXiv OAI exact-24h PASS: 2 pages / 2,502 CS / 509 exact-window; cs.DC 14 / cs.AR 4 / cs.PF 3 / cs.RO 57 / cs.LG 136. Exact-168h PASS: 7 pages / 8,246 CS / 5,517 exact-window; cs.DC 138 / cs.AR 67 / cs.PF 33 / cs.RO 728 / cs.LG 1,412. Robion recall seed re-hit. Direct-census portions covered; sibling/reverse/project checks and 30d replay remain open.
+- **Canonical:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH. KerColle PDF retry blocked before network execution; no fabricated success.
+- **Next:** KerColle PDF + atomic promotion + GitHub sync -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 comparison -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
 ## Hourly scan — 2026-09-24 21:00 CST
 - **Promotions:** CORE_SYS +0; SYS_ALG +1: MemBodied (2609.28256); paper/runtime-project WATCH +0.
 - **Coverage:** official arXiv OAI exact-24h census PASS: 2 pages / 2,583 CS / 256 exact-window; cs.DC 4 / cs.AR 1 / cs.PF 1 / cs.RO 35 / cs.LG 69. Robion recall seed re-hit. PointCast and refreshed multi-robot PAC work also screened without serving-system promotion.
 - **Canonical:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH. PDFs remain private.
 - **Next:** MemBodied repo/runtime-cost audit -> MVP artifact/lineage -> LiMA/InternW0 comparison -> finish 7d sibling/trunk reverse/project checks -> MOSS-VL scheduler delta -> exact 30d replay.
+
+## Hourly scan — 2026-09-25 18:00 CST
+- **Promotions:** CORE_SYS +0 / SYS_ALG +0 / paper WATCH +0 / runtime-project WATCH +0. KerColle (2609.22335, PACT 2026) remains pending CORE_SYS candidate until PDF + atomic canonical checkpoint.
+- **Coverage:** official arXiv OAI exact-24h PASS: 2 pages / 2,502 CS / 509 exact-window; cs.DC 14 / cs.AR 4 / cs.PF 3 / cs.RO 57 / cs.LG 136. Exact-168h PASS: 7 pages / 8,246 CS / 5,517 exact-window; cs.DC 138 / cs.AR 67 / cs.PF 33 / cs.RO 728 / cs.LG 1,412. Robion recall seed re-hit. Direct-census portions covered; sibling/reverse/project checks and 30d replay remain open.
+- **Canonical:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH. KerColle PDF retry blocked before network execution; no fabricated success.
+- **Next:** KerColle PDF + atomic promotion + GitHub sync -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 comparison -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
