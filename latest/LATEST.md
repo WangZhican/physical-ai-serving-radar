@@ -1,3 +1,127 @@
+# Hourly radar — 2026-10-04 06:00 CST
+
+## 2026-10-04 06:00 CST — hourly coverage heartbeat
+
+- Fresh official arXiv OAI-PMH: rolling 24h transport PASS but 0 exact-window records (2 pages / 1,836 CS; mandatory categories all zero), so 24h remains NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY.
+- Rolling 168h direct census PASS: 9 pages / 10,902 CS / 7,945 exact-window; cs.DC 176 / cs.AR 57 / cs.PF 34 / cs.RO 762 / cs.LG 2,771. Sibling/reverse-neighborhood, project/venue checks and exact-30d replay remain open.
+- Fresh SYS-first screening checked Physical-AI/VLA serving and world-model/runtime neighborhood; Robion arXiv:2609.12075 was re-hit. No new paper crossed promotion.
+- Public synchronization remains pending: working-tree heartbeat advanced, but remote master is independently verified at c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217; scoped staging is blocked by the execution safety gate, so no push is claimed.
+
+# Hourly radar — 2026-10-04 03:00 CST
+
+## 2026-10-04 03:00 CST — hourly coverage heartbeat
+
+- Fresh official arXiv OAI-PMH: rolling 24h transport PASS but 0 exact-window records (2 pages / 1,833 CS; mandatory categories all zero), so 24h remains NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY.
+- Rolling 168h direct census PASS: 9 pages / 10,902 CS / 8,045 exact-window; cs.DC 177 / cs.AR 57 / cs.PF 34 / cs.RO 772 / cs.LG 2,816. Sibling/reverse-neighborhood, project/venue checks and exact-30d replay remain open.
+- SYS-first screening checked Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and Robion/Kairos/PhyAI neighborhood; no new paper crossed promotion.
+- Public synchronization is pending: remote master is still independently verified at c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217; no push is claimed.
+
+# Hourly radar — 2026-10-04 00:00 CST
+
+## 2026-10-04 00:00 CST — hourly coverage heartbeat
+
+- Fresh official arXiv OAI-PMH: rolling 24h transport PASS but 0 exact-window records (2 pages / 1,833 CS; mandatory categories all zero), so 24h remains NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY.
+- Rolling 168h direct census PASS: 9 pages / 10,902 CS / 8,155 exact-window; cs.DC 181 / cs.AR 57 / cs.PF 36 / cs.RO 779 / cs.LG 2,860. Sibling/reverse-neighborhood, project/venue checks and exact-30d replay remain open.
+- SYS-first screening checked Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and cache/quant/disaggregation; no new Physical-AI core paper crossed promotion. Robion 2609.12075 remains the recall regression seed.
+- Public synchronization is pending: this heartbeat is present in the working tree, but remote master is still independently verified at c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217; no push is claimed.
+
+# Hourly radar — 2026-10-03 23:00 CST
+
+## 2026-10-03 23:00 CST — hourly coverage heartbeat
+
+- Fresh official arXiv OAI-PMH: rolling 24h transport PASS but 0 exact-window records (2 pages / 1,833 CS; mandatory categories all zero), so 24h remains NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY rather than falsely COVERED.
+- Rolling 168h direct census PASS: 9 pages / 10,902 CS / 8,235 exact-window; cs.DC 183 / cs.AR 57 / cs.PF 36 / cs.RO 784 / cs.LG 2,898. Sibling/reverse-neighborhood, project/venue checks and exact-30d replay remain open.
+- SYS-first screening checked Physical-AI/VLA serving, multimodal/omni serving and world-model runtime/streaming; Robion 2609.12075 recall seed was re-hit. No new paper crossed promotion.
+- Public synchronization is pending: this heartbeat is present in the working tree, but remote master is still independently verified at c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217; no push is claimed.
+
+## 2026-10-03 21:00 CST — hourly coverage heartbeat
+
+- Fresh official rolling-24h OAI: 2 pages / 1,833 CS / 0 exact-window; mandatory categories all zero; NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY.
+- Fresh official rolling-168h OAI: 9 pages / 10,902 CS / 8,349 exact-window; DC185 / AR57 / PF36 / RO790 / LG2,939. Direct-category portion covered for this exact window only.
+- SYS-first discovery and Robion regression inspection completed; CORE_SYS +0 / SYS_ALG +0 / WATCH +0. Sibling/reverse/project/venue and exact-30d remain open.
+- PUBLIC_SYNC_PENDING: independent remote master remains c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217; no local change is counted as remote sync.
+
+# Hourly radar — 2026-10-03 08:00 CST
+
+## 2026-10-03 19:00 CST — hourly coverage heartbeat
+
+- Fresh official rolling-24h OAI: 2 pages / 1,833 CS / 0 exact-window for 2026-10-02T11:00:40Z..2026-10-03T11:00:40Z; cs.DC/cs.AR/cs.PF/cs.RO/cs.LG all 0; errors=[]. This remains NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY.
+- Fresh official rolling-168h OAI: 9 pages / 10,902 CS / 8,471 exact-window for 2026-09-26T11:01:58Z..2026-10-03T11:01:58Z; cs.DC 187 / cs.AR 58 / cs.PF 37 / cs.RO 795 / cs.LG 2,992; errors=[]. Direct-category portion COVERED for this exact window only.
+- Fresh SYS-first search checked Physical-AI/VLA serving/runtime, multimodal/omni serving, world-model streaming/runtime, and Robion/Kairos/PhyAI/vla.cpp neighborhood. No new reusable serving substrate crossed promotion gates; 0 promotion.
+- PUBLIC_SYNC_PENDING persists: public repo git write path is still blocked by execution safety checks; no local change is counted as remote sync.
+
+
+- **08:00 heartbeat:** official rolling-24h OAI transport completed but returned 0 exact-window from 3,721 CS records, so 24h remains NOT_COVERED under the timestamp/source anomaly guard. Fresh rolling-168h direct census PASSed with 8,867 exact-window records (DC 202 / AR 59 / PF 41 / RO 821 / LG 3,146). SYS-first search checked Physical-AI/VLA serving/runtime, multimodal serving/scheduling, world-model streaming/runtime and Robion/vla.cpp/PhyAI/Kairos neighborhoods; CORE_SYS +0 / SYS_ALG +0 / WATCH +0. Sibling/reverse/project/venue and exact-30d remain open.
+
+# Hourly radar — 2026-10-01 18:00 CST
+
+- **18:00 recovery heartbeat:** fresh official rolling-24h OAI PASS: 4 pages / 4,042 CS / 719 exact-window (DC 18 / AR 3 / PF 3 / RO 74 / LG 255). rolling-168h PASS: 9 pages / 11,535 CS / 9,140 exact-window (DC 222 / AR 55 / PF 50 / RO 880 / LG 3,146). This repairs the stale canonical checkpoint and confirms the earlier 24h zero-exact anomaly is recovered for this exact window. CORE_SYS +0 / SYS_ALG +0 / WATCH +0; sibling/reverse/project/venue and exact-30d replay remain open. Robion 2609.12075 remains the permanent recall regression seed.
+
+# Hourly radar — 2026-09-30 08:02 CST
+
+- **08:02 heartbeat:** official rolling-24h OAI again returned 0 exact-window from 5,399 CS records, so it remains NOT_COVERED under the timestamp/source anomaly guard. Exact-168h direct census PASSed with 6,878 exact-window records (DC 178 / AR 44 / PF 41 / RO 686 / LG 2,256). EAServe remains pending atomic promotion; sibling/reverse/project/venue closure and exact-30d replay remain open. PUBLIC_SYNC_PENDING until commit/push and independent remote-SHA verification succeeds.
+
+# Hourly radar — 2026-09-30 00:57 CST
+
+- **00:57 heartbeat:** repaired a stale canonical checkpoint to the already-generated fresh official OAI census: 24h PASS 5 pages / 5,399 CS / 225 exact-window; 168h PASS 9 pages / 11,293 CS / 7,184 exact-window (DC 188 / AR 49 / PF 42 / RO 723 / LG 2,333). EAServe (2609.31551) is first-party verified as a high-value CORE_SYS candidate but remains pending atomic PDF/manifest/classification closure. Sibling/reverse/project/venue and 30d replay remain open. PUBLIC_SYNC_PENDING until commit/push and independent remote-SHA verification succeed.
+
+# Hourly radar — 2026-09-29 16:00 CST
+
+- **16:00 heartbeat:** fresh official direct census recovered the prior rolling-24h zero-exact anomaly: 1,128 exact-window records (DC 24 / AR 9 / PF 5 / RO 85 / LG 388). Exact-168h census PASSed with 7,616 exact-window (DC 199 / AR 53 / PF 45 / RO 771 / LG 2,436). CORE_SYS +0 / SYS_ALG +0 / WATCH +0; sibling/reverse/project/venue closure and exact-30d replay remain open. PUBLIC_SYNC_PENDING until this heartbeat is committed/pushed and remote master independently verified.
+
+# Hourly radar — 2026-09-27 12:00 CST
+
+- **12:00 heartbeat:** catch-up advanced the durable checkpoint. CORE_SYS +0 / SYS_ALG +0 finalized / WATCH +0 after fresh first-party SYS-first inspection of Robion, KerColle, HarnessPAI, Streaming-WAM and DeltaWAM. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,420 exact-window (DC 105 / AR 54 / PF 23 / RO 563 / LG 1,130). Candidate PDF downloads and git staging were blocked by the execution safety gate; PUBLIC_SYNC_PENDING persists and remote master remains c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217.
+
+# Hourly radar — 2026-09-27 07:00 CST
+
+- **07:00 heartbeat:** catch-up repaired stale canonical checkpoint. CORE_SYS +0 / SYS_ALG +0 finalized / WATCH +0 after fresh SYS-first Physical-AI/VLA, multimodal/omni and world-model runtime checks plus the Robion regression query. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,494 exact-window (DC 110 / AR 54 / PF 23 / RO 576 / LG 1,150). Sibling/reverse/project checks remain OPEN. PUBLIC_SYNC_PENDING persists because git staging was blocked before execution; no remote-sync claim is made.
+
+# Hourly radar — 2026-09-27 04:00 CST
+
+- **04:00 heartbeat:** CORE_SYS +0 / SYS_ALG +0 finalized / WATCH +0; Robion recall seed re-hit and DeltaWAM remains a high-value SYS_ALG candidate. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,526 exact-window (DC 110 / AR 54 / PF 23 / RO 578 / LG 1,168). Sibling/reverse/project checks remain OPEN. PUBLIC_SYNC_PENDING remains: commit/push were blocked before execution; independent remote master remains c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217.
+
+# Hourly radar — 2026-09-27 02:00 CST
+
+- **02:00 heartbeat:** CORE_SYS +0 / SYS_ALG +0 / WATCH +0; Robion recall seed re-hit. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,562 exact-window (DC 111 / AR 54 / PF 23 / RO 579 / LG 1,179). Sibling/reverse/project checks remain OPEN. Public synchronization remains pending because git staging was blocked before execution; no remote-sync claim is made.
+
+# Hourly radar — 2026-09-27 00:00 CST
+
+- **00:00 heartbeat:** CORE_SYS +0 / SYS_ALG +0 / WATCH +0; Robion recall seed re-hit. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,617 exact-window (DC 113 / AR 56 / PF 25 / RO 592 / LG 1,193). KerColle first-party PACT/system evidence was re-verified but atomic PDF/manifest promotion remains pending. Sibling/reverse/project checks remain OPEN. Public synchronization is pending until commit/push and independent remote-SHA verification succeed.
+
+# Hourly radar — 2026-09-26 22:00 CST
+
+- **22:00 heartbeat:** CORE_SYS +0 / SYS_ALG +0 / WATCH +0; Robion recall seed re-hit. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,670 exact-window (DC 117 / AR 56 / PF 26 / RO 598 / LG 1,208). Sibling/reverse/project checks remain OPEN. Public synchronization is pending until commit/push and independent remote-SHA verification succeed.
+
+# Hourly radar — 2026-09-26 20:00 CST
+
+- **20:00 heartbeat:** CORE_SYS +0 / SYS_ALG +0 / WATCH +0; Robion recall seed re-hit. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,709 exact-window (DC 118 / AR 56 / PF 26 / RO 600 / LG 1,217). Sibling/reverse/project checks remain OPEN. Public synchronization is pending until commit/push and independent remote-SHA verification succeed.
+
+# Hourly radar — 2026-09-26 19:00 CST
+
+- **19:00 heartbeat:** CORE_SYS +0 / SYS_ALG +0 / WATCH +0; Robion recall seed re-hit. Official exact-24h OAI returned 0 exact-window again, so 24h remains NOT COVERED. Public synchronization remains pending until the local change is published and the remote branch is independently verified.
+
+# Hourly radar — 2026-09-26 18:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. HarnessPAI and Streaming-WAM remain SYS_ALG candidates; KerColle remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS 2 pages / 1,324 CS / 0 exact-window => NOT COVERED by zero-result guard. Exact-168h PASS 6 pages / 7,083 CS / 4,748 exact-window; cs.DC 118 / cs.AR 56 / cs.PF 26 / cs.RO 606 / cs.LG 1,225.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming, cache/quant/runtime adjacency and KerColle/Streaming-WAM/HarnessPAI neighborhoods checked; no new formal promotion.
+- **Coverage boundary:** 168h direct-category portion COVERED; 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **PDF:** no new PDF success claimed; KerColle/Streaming-WAM/HarnessPAI remain pending evidence/download work.
+- **Canonical/PDF:** unchanged at 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending.
+- **Sync note:** this heartbeat is pending remote synchronization until commit/push and independent remote-SHA verification succeed.
+- **Next:** recover public sync -> retry nonzero exact-24h first-party fallback -> HarnessPAI PDF/repo -> Streaming-WAM -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> exact 30d replay.
+
+# Hourly radar — 2026-09-26 17:00 CST
+
+- **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. HarnessPAI and Streaming-WAM remain SYS_ALG candidates; KerColle remains pending CORE_SYS +1.
+- **Direct census:** exact-24h OAI PASS 2 pages / 1,324 CS / 0 exact-window => NOT COVERED by zero-result guard. Exact-168h PASS 6 pages / 7,083 CS / 4,776 exact-window; cs.DC 120 / cs.AR 56 / cs.PF 26 / cs.RO 609 / cs.LG 1,232.
+- **SYS-first:** Robion recall seed re-hit; Physical-AI/VLA serving, multimodal/omni serving, world-model runtime/streaming and KerColle/Streaming-WAM/HarnessPAI/PhyAI adjacency checked; no new formal promotion.
+- **Coverage boundary:** 168h direct-category portion COVERED; 7d sibling/reverse-neighborhood + project/venue checks and exact 30d replay remain OPEN. SEARCHED != COVERED.
+- **PDF:** no new PDF success claimed; KerColle/Streaming-WAM/HarnessPAI remain pending inspection/download work.
+- **Canonical/PDF:** unchanged at 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH; 169 valid PDFs / 0 invalid / 4 pending.
+- **Next:** retry nonzero exact-24h -> HarnessPAI PDF/repo -> Streaming-WAM -> KerColle PDF + atomic promotion -> Microsoft offload lineage -> finish 7d sibling/trunk reverse/project checks -> exact 30d replay.
+
 # Hourly radar — 2026-09-26 16:00 CST
 
 - **Promotion state:** CORE_SYS +0 / SYS_ALG +0 / ALG +0 / paper WATCH +0 / runtime-project WATCH +0. KerColle remains pending CORE_SYS +1.
