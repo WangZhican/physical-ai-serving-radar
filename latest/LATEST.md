@@ -1,3 +1,12 @@
+# Hourly radar — 2026-10-04 21:58 CST
+
+## 2026-10-04 21:58 CST — hourly coverage heartbeat
+
+- Public-sync recovery was independently verified at remote master `d0c14e4e4b62fcc10452e098491934e169b0d2ea` before this heartbeat.
+- Fresh official arXiv OAI-PMH rolling 24h transport PASS but 0 exact-window records (1 page / 3 CS; mandatory categories all zero), so 24h remains NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY.
+- Rolling 168h direct census PASS: 9 pages / 10,902 CS / 7,290 exact-window; cs.DC 160 / cs.AR 55 / cs.PF 32 / cs.RO 694 / cs.LG 2,523. Sibling/reverse-neighborhood, project/venue checks and exact-30d replay remain open.
+- Fresh SYS-first screening checked Physical-AI/VLA serving, multimodal/Omni serving, world-model runtime/streaming and Robion/Kairos/PhyAI/M* adjacency; Robion arXiv:2609.12075 was re-hit. No new paper crossed promotion.
+
 # Hourly radar — 2026-10-04 06:00 CST
 
 ## 2026-10-04 06:00 CST — hourly coverage heartbeat
