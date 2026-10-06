@@ -1,3 +1,27 @@
+# Hourly radar — 2026-10-06 11:56 CST
+
+## 2026-10-06 11:56 CST — 24h source anomaly recovery heartbeat
+
+- Official arXiv OAI-PMH rolling 24h recovered to 4 pages / 4,321 CS / 962 exact-window; cs.DC 18 / cs.AR 4 / cs.PF 5 / cs.RO 86 / cs.LG 334, errors=[]. The prior repeated zero-exact-window timestamp anomaly is resolved at this checkpoint.
+- Rolling 168h direct census PASS: 11 pages / 13,770 CS / 8,539 exact-window; cs.DC 196 / cs.AR 69 / cs.PF 46 / cs.RO 829 / cs.LG 2,876. Sibling/reverse-neighborhood, project/venue checks and exact-30d replay remain open.
+- Fresh SYS-first triage surfaced RealtimeWAM (arXiv:2610.06617) and Rolling-WAM v2 (2609.30247) for first-party evidence inspection; no paper promotion is claimed yet. Robion arXiv:2609.12075 remains the permanent recall seed.
+
+# Hourly radar — 2026-10-06 07:59 CST
+
+## 2026-10-06 07:59 CST — hourly coverage heartbeat
+
+- Fresh official arXiv OAI-PMH rolling 24h transport PASS but 0 exact-window records (2 pages / 1,378 CS; mandatory categories all zero), so 24h remains NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY.
+- Rolling 168h direct census PASS: 10 pages / 12,149 CS / 6,129 exact-window; cs.DC 135 / cs.AR 51 / cs.PF 28 / cs.RO 617 / cs.LG 2,080. Sibling/reverse-neighborhood, project/venue checks and exact-30d replay remain open.
+- Robion arXiv:2609.12075 remains the permanent recall seed. No new paper crossed promotion.
+
+# Hourly radar — 2026-10-06 06:56 CST
+
+## 2026-10-06 06:56 CST — hourly coverage heartbeat
+
+- Fresh official arXiv OAI-PMH rolling 24h transport PASS but 0 exact-window records (2 pages / 1,378 CS; mandatory categories all zero), so 24h remains NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY.
+- Rolling 168h direct census PASS: 10 pages / 12,149 CS / 6,163 exact-window; cs.DC 135 / cs.AR 51 / cs.PF 28 / cs.RO 618 / cs.LG 2,088. Sibling/reverse-neighborhood, project/venue checks and exact-30d replay remain open.
+- Fresh SYS-first screening checked Physical-AI/VLA serving/runtime, multimodal/Omni serving, world-model runtime/streaming and Robion/Kairos/PhyAI adjacency; Robion arXiv:2609.12075 remains the permanent recall seed. No new paper crossed promotion.
+
 # Hourly radar — 2026-10-04 21:58 CST
 
 ## 2026-10-04 21:58 CST — hourly coverage heartbeat
