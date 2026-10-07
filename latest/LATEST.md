@@ -1,3 +1,12 @@
+# Hourly radar — 2026-10-06 18:04 CST
+
+## 2026-10-06 18:04 CST — RealtimeWAM promotion + fresh coverage heartbeat
+
+- RealtimeWAM (arXiv:2610.06617) is now classified SYS_ALG_BOUNDARY after first-party evidence inspection: TACD plus CEWP block-wise video-KV wavefront overlap; official arXiv PDF validated. Primary novelty remains WAM-specific acceleration rather than a reusable serving substrate.
+- Fresh official arXiv OAI-PMH rolling 24h PASS: 4 pages / 4,321 CS / 633 exact-window; cs.DC 18 / cs.AR 4 / cs.PF 3 / cs.RO 50 / cs.LG 215, errors=[].
+- Rolling 168h direct census PASS: 11 pages / 13,770 CS / 7,984 exact-window; cs.DC 182 / cs.AR 62 / cs.PF 44 / cs.RO 770 / cs.LG 2,707, errors=[]. Sibling/reverse-neighborhood, project/venue checks and exact-30d replay remain open.
+- Robion arXiv:2609.12075 remains the permanent recall seed. Rolling-WAM 2609.30247 remains pending deeper classification.
+
 # Hourly radar — 2026-10-06 11:56 CST
 
 ## 2026-10-06 11:56 CST — 24h source anomaly recovery heartbeat
