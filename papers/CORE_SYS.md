@@ -1,4 +1,5 @@
 # CORE_SYS
+- [EAServe](https://arxiv.org/abs/2609.31551) — encode-aware disaggregated multimodal serving: load-adaptive micro-batching, partial local-prefill offload, dynamic SM partitioning, and joint resource/configuration search; up to 4.3x vs Dynamo and 1.7x vs vLLM SLO-goodput.
 
 Primary contribution must be runtime, serving, resource management, scheduling, deployment, cache/state infrastructure, heterogeneous execution, profiling, or evaluation infrastructure.
 

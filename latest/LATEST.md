@@ -1,5 +1,11 @@
 # Hourly radar — 2026-10-06 18:04 CST
 
+## 2026-10-07 09:59 CST — EAServe + Rolling-WAM classification checkpoint
+
+- **EAServe** (arXiv:2609.31551) promoted `CORE_SYS`: encode-aware EPD serving with adaptive micro-batching, controlled local-prefill offload, dynamic SM partitioning and joint resource/configuration search; authors report up to 4.3x vs Dynamo and 1.7x vs vLLM SLO-goodput.
+- **Rolling-WAM** (arXiv:2609.30247) classified `SYS_ALG_BOUNDARY`: rolling/staggered denoising yields 4.5x steady-state replanning speedup, but primary novelty remains WAM formulation. RealtimeWAM public classification is also reconciled here.
+- Fresh official arXiv direct census: 24h 4,568 CS / 1,008 exact-window; 168h 11,382 CS / 8,306 exact-window. Direct-category portion only; sibling/reverse/project/venue and exact-30d remain open.
+
 ## 2026-10-06 18:04 CST — RealtimeWAM promotion + fresh coverage heartbeat
 
 - RealtimeWAM (arXiv:2610.06617) is now classified SYS_ALG_BOUNDARY after first-party evidence inspection: TACD plus CEWP block-wise video-KV wavefront overlap; official arXiv PDF validated. Primary novelty remains WAM-specific acceleration rather than a reusable serving substrate.

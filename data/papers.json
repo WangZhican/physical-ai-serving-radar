@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-24T13:00:00+08:00",
-  "count": 172,
+  "updated": "2026-10-07 09:59 CST",
+  "count": 179,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3106,6 +3106,55 @@
       "official_pdf": "https://arxiv.org/pdf/2609.28256",
       "repo": "https://github.com/declare-lab/MemBodied",
       "system_note": "Fixed-size associative episodic state across VLA policy calls plus episode anchor; episode-length-independent memory/access cost and 91.9% lower inference latency than NativeMEM. Strong temporal-state/cache inspiration, but model architecture rather than reusable serving substrate."
+    },
+    {
+      "id": "arxiv:2609.30247",
+      "title": "Rolling-WAM: World Action Models with Rolling Imagination",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.30247",
+      "official_pdf": "https://arxiv.org/pdf/2609.30247",
+      "repo": ""
+    },
+    {
+      "id": "arxiv:2609.31551",
+      "title": "EAServe: Encode-Aware Disaggregated Serving for Multimodal Large Language Models",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        6,
+        9
+      ],
+      "year": 2026,
+      "venue": "PACT 2026 / arXiv",
+      "priority": "S",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.31551",
+      "official_pdf": "https://arxiv.org/pdf/2609.31551",
+      "repo": ""
+    },
+    {
+      "id": "arxiv:2610.06617",
+      "title": "RealtimeWAM: One-Step Asynchronous World Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2610.06617",
+      "official_pdf": "https://arxiv.org/pdf/2610.06617",
+      "repo": ""
     }
   ]
 }
