@@ -25,6 +25,7 @@ This list is ordered by **systems value**, not by citation count.
 | A+ | RLinf-VLA / RLinf | distributed embodied/VLA RL runtime and resource allocation | https://arxiv.org/abs/2510.06710 |
 | A+ | TypeGo | embodied-agent OS runtime: process/PCB lifecycle, physical-resource arbitration, preemption and async multi-timescale planning | https://arxiv.org/abs/2607.05482 |
 | A+ | TimelyLLM | time-sensitive multi-robot LLM serving with segmented generation and timing-aware scheduling around physical-I/O execution | https://arxiv.org/abs/2412.18695 |
+| A- | RETNAS | certified mixed hard/soft-deadline DNN scheduling over heterogeneous accelerators; standalone simulator, not deployed VLA serving | https://arxiv.org/abs/2610.29503 · https://github.com/BlancoFrancescoGiulio/retnas |
 
 ## Important SYS–ALG boundary line
 

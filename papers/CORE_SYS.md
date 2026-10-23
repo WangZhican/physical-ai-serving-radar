@@ -36,6 +36,7 @@ Primary contribution must be runtime, serving, resource management, scheduling, 
 - [FogROS2-PLR](https://arxiv.org/abs/2410.05562) — probabilistic latency/reliability management — **A+**
 
 ## Real-time runtime / resource management
+- [RETNAS / HRT+SRT Scheduling](https://arxiv.org/abs/2610.29503) — policy-agnostic certified mixed-deadline DNN DAG scheduling and heterogeneous accelerator placement with deterministic HRT fallback; 81.41% **simulated** SRT deadline hit rate at high load. **A-** · P3/P6/P9; [official simulator](https://github.com/BlancoFrancescoGiulio/retnas), no real-robot/hardware SLO.
 - [PAAM](https://arxiv.org/abs/2404.06452) — shared accelerator server and priority arbitration — **A+** · [repo](https://github.com/rtenlab/reference-system-paam)
 - **CROS-RT** — cross-layer ROS2 priority propagation — **A+**
 - **ROSGM** — pluggable real-time GPU management for ROS2 — **A**

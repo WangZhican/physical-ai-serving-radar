@@ -1,3 +1,7 @@
+## 2026-10-24 04:02 CST — RETNAS CORE_SYS / A-; 7d source census recovered
+- [RETNAS](https://arxiv.org/abs/2610.29503): verified first-party 28-page PDF and [official MIT simulator](https://github.com/BlancoFrancescoGiulio/retnas); runtime HRT certificate and SRT scheduling, simulation-only (81.41% high-pressure SRT hit), no real robot/p99.
+- arXiv 7d official Atom cs.DC/AR/PF/RO/LG **PASS** (2417 unique; SOURCE_ONLY); 24h zero exact records NOT_COVERED; complete semantic/reverse/venue/project IN_PROGRESS. SYS-first 131 title leads (43 direct physical signals); first-party 18/18, runtime 9/9. 185 papers, 265 preexisting PDFs.
+
 ## 2026-10-24 03:05 CST — OrbitWeaver CORE_SYS / A multimodal edge-runtime promotion
 - [OrbitWeaver](https://arxiv.org/abs/2610.29183): first-party 17-page PDF and SHA-256 verified; 72h in-orbit two-satellite case study; phase-aware VLM checkpoint/recovery, up to 4.07x speedup / 3.56x SSD-write reduction (paper-reported). No verified dedicated code or robot serving SLO.
 - Official 24h Atom zero exact (NOT_COVERED); current 7d cs.LG HTTP429 incomplete (NOT_COVERED); preserve last-good 02:05 7d 2449 source-only. All 113 last-good SYS-first titles have now been checked by official abstracts (58 newly). First-party 18/18; runtime 9/9. 184 formal papers, 265 existing PDFs.

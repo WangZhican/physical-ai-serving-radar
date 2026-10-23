@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24 03:05 CST",
-  "count": 184,
+  "updated": "2026-10-24 04:02 CST",
+  "count": 185,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3250,6 +3250,25 @@
       "code_status": "Dedicated public implementation not independently verified",
       "notes": "Multimodal edge VLM phase-aware checkpoint/recovery under power/thermal interruptions; Jetson Orin; 72h on two real satellites. Paper reports up to 4.07x end-to-end and 3.56x lower SSD writes. Not a robot-serving or multi-tenant SLO benchmark.",
       "evidence": "daily/2026-10-24/ORBITWEAVER_CLASSIFICATION_0305.md"
+    },
+    {
+      "id": "arxiv:2610.29503",
+      "title": "Hard and Soft Real-Time DNN Inference Scheduling on Heterogeneous Multi-Accelerator Systems via Reinforcement Learning (RETNAS)",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6,
+        9
+      ],
+      "year": 2026,
+      "venue": "RTNS 2026 (accepted)",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.29503",
+      "repo_url": "https://github.com/BlancoFrancescoGiulio/retnas",
+      "code_status": "Official MIT simulator with code, profiles and tests verified; tests not executed",
+      "notes": "Policy-agnostic runtime certification/fallback for mixed HRT/SRT DAG DNN inference on heterogeneous accelerators; 81.41% simulated SRT deadline hit rate at 10ms workload; HRT deadlines certified under modeled WCET assumptions. Simulator only; no physical robot/VLA hardware evaluation or measured p99.",
+      "evidence": "daily/2026-10-24/RETNAS_CLASSIFICATION_0402.md"
     }
   ]
 }
