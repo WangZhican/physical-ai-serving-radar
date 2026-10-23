@@ -1,3 +1,8 @@
+## 2026-10-24 05:04 CST — source scan and systems-candidate fulltext review
+- arXiv official Atom 7d five-category direct PASS 2403 unique SOURCE_ONLY; rolling 24h zero exact NOT_COVERED.
+- Revalidated 4 existing official PDFs: CARE, GGRAPH, Progress Probes, FastHarness; all still evidence-gated and unpromoted.
+- 130 unclassified title leads (43 physical), first-party 18/18, runtime API 9/9; 185 papers and 265 valid private PDFs. Full semantic/reverse/venue/project IN_PROGRESS.
+
 ## 2026-10-24 04:02 CST — RETNAS CORE_SYS / A-; 7d source census recovered
 - [RETNAS](https://arxiv.org/abs/2610.29503): verified first-party 28-page PDF and [official MIT simulator](https://github.com/BlancoFrancescoGiulio/retnas); runtime HRT certificate and SRT scheduling, simulation-only (81.41% high-pressure SRT hit), no real robot/p99.
 - arXiv 7d official Atom cs.DC/AR/PF/RO/LG **PASS** (2417 unique; SOURCE_ONLY); 24h zero exact records NOT_COVERED; complete semantic/reverse/venue/project IN_PROGRESS. SYS-first 131 title leads (43 direct physical signals); first-party 18/18, runtime 9/9. 185 papers, 265 preexisting PDFs.
