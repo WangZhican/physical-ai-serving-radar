@@ -62,6 +62,7 @@ This page is intentionally selective; machine-readable coverage lives in [`data/
 - **FogROS2-LS** — ICRA 2024 — Routes 3/4 — location-independent latency-sensitive cloud/fog service selection for ROS 2; [paper](https://doi.org/10.1109/ICRA57147.2024.10610759). Priority: A+.
 
 ## Industrial multimodal infrastructure
+- [OrbitWeaver](https://arxiv.org/abs/2610.29183) — phase-aware checkpointing and dependency-aware VLM recovery under edge-device shutdowns; 72h on two satellites, up to 4.07x end-to-end / 3.56x fewer SSD writes **(paper reported)**. **A** · multimodal M4/M6, transferable P5/P6/P9; dedicated code and serving p99 unverified.
 - [HeyGen HELIOS](https://www.heygen.com/research/avatar-v-infrastructure) — 5,000+ GPU multi-cloud unified control plane, two-stage QoS-aware scheduling, resource governance, observability and declarative heterogeneous video-pipeline engine — **A+**. Transferable serving/infra anchor; not Physical-AI-specific.
 
 - **HydraInfer** (2025, arXiv:2505.12658) — Route 6/11; hybrid EPD-disaggregated MLLM serving with heterogeneous stage placement and stage-level batching. [Paper](https://arxiv.org/abs/2505.12658) — Priority A.

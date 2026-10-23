@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23 23:10 CST",
-  "count": 183,
+  "updated": "2026-10-24 03:05 CST",
+  "count": 184,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3232,6 +3232,24 @@
       "code_status": "Dedicated public implementation not independently verified",
       "notes": "Two-stage reusable cross-execution VLA inference cache (Context/Action); real RTX4090/Jetson Thor 1.20-1.42x end-to-end vs FlashRT across 92 tasks including two real robot tasks. Not fleet serving; no demonstrated p99 SLO; code unverified.",
       "evidence": "daily/2026-10-23/RMUSCLE_CLASSIFICATION_2310.md"
+    },
+    {
+      "id": "arxiv:2610.29183",
+      "title": "OrbitWeaver: Resuming Vision-Language Inference across Onboard Interruptions",
+      "class": "CORE_SYS",
+      "route": [
+        5,
+        6,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.29183",
+      "code_status": "Dedicated public implementation not independently verified",
+      "notes": "Multimodal edge VLM phase-aware checkpoint/recovery under power/thermal interruptions; Jetson Orin; 72h on two real satellites. Paper reports up to 4.07x end-to-end and 3.56x lower SSD writes. Not a robot-serving or multi-tenant SLO benchmark.",
+      "evidence": "daily/2026-10-24/ORBITWEAVER_CLASSIFICATION_0305.md"
     }
   ]
 }

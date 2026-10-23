@@ -1,3 +1,7 @@
+## 2026-10-24 03:05 CST — OrbitWeaver CORE_SYS / A multimodal edge-runtime promotion
+- [OrbitWeaver](https://arxiv.org/abs/2610.29183): first-party 17-page PDF and SHA-256 verified; 72h in-orbit two-satellite case study; phase-aware VLM checkpoint/recovery, up to 4.07x speedup / 3.56x SSD-write reduction (paper-reported). No verified dedicated code or robot serving SLO.
+- Official 24h Atom zero exact (NOT_COVERED); current 7d cs.LG HTTP429 incomplete (NOT_COVERED); preserve last-good 02:05 7d 2449 source-only. All 113 last-good SYS-first titles have now been checked by official abstracts (58 newly). First-party 18/18; runtime 9/9. 184 formal papers, 265 existing PDFs.
+
 ## 2026-10-23 23:10 CST — rMuscle CORE_SYS promotion; direct category scan PASS
 - [rMuscle](https://arxiv.org/abs/2609.19104) promoted CORE_SYS/A P3/5/6/8 after official 276k-char HTML and SHA-256 verified preexisting PDF; dual-phase Context/Action cache, RTX 4090 + Jetson Thor, 92 tasks including physical robots. Code and p99 SLO unverified.
 - 24h Atom direct PASS 85; 7d direct PASS 2537; source-only, semantic/reverse/venue coverage remains IN_PROGRESS. 183 papers, 265 valid PDFs (0 new), 4 historical pending.
