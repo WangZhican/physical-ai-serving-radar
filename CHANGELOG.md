@@ -1,3 +1,8 @@
+## 2026-10-24 07:07 CST — Source-only scan and PAL PDF evidence
+- Official Atom 7d five-category direct PASS 2365, 24h zero exact NOT_COVERED; 18/18 first-party, 9/9 runtime, 10 official abstracts.
+- PAL official 21-page PDF newly downloaded and SHA256 validated, SYS_ALG_BOUNDARY candidate (not formal promotion); task-success claims are not serving SLO.
+- 186 formal papers, 266 valid private PDFs; full semantic/reverse/venue/project IN_PROGRESS.
+
 ## 2026-10-24 06:06 CST — CORE_SYS HarnessPAI and source scan
 - Promoted HarnessPAI (arXiv:2609.29166), A/P2,P3,P7,P9 after verified 45-page official PDF + MIT CLI/package/source evidence; not a multi-tenant serving SLO claim.
 - Official Atom five-category 7d 2381 direct PASS SOURCE_ONLY; 24h zero exact NOT_COVERED. First-party 18/18, runtime 9/9, seven candidate abstracts and four fulltext revalidations.
