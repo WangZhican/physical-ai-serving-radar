@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23 19:09 CST",
-  "count": 181,
+  "updated": "2026-10-23 22:12 CST",
+  "count": 182,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3194,6 +3194,25 @@
       "code_status": "Industrial extension code not independently verified; original ReMEmbR upstream repo exists",
       "notes": "Fleet-shared persistent vision-token memory, edge/on-prem disaggregation and on-demand decoding; 100-robot GPU cost is modeled (36.25 to 1.04 equiv at 10% describe), NOT real fleet SLO; Jetson Xavier Cosmos-Embed1 mean 11.76s per clip. Simulated 914-frame traffic map; 450 cached-token parity tests.",
       "evidence": "daily/2026-10-23/INDUSTRIAL_REMEMBR_FULLTEXT_1900.md"
+    },
+    {
+      "id": "arxiv:2610.25736",
+      "title": "Learning from Fleet Experience: Collective Experience Learning Across 96 Robots",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        2,
+        4,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.25736",
+      "code_status": "Dedicated FATS/SwarmLink/HotSwarm public code release not independently verified",
+      "notes": "Real 96-robot fleet learning-serving infrastructure: SwarmLink shared inference/trajectory data plane and HotSwarm fault-tolerant worker control; 9834 episodes, 660 robot-hours, 30 incidents, 1.3% fleet robot-time downtime. Not a serving tail-latency benchmark; learning method FERT distinct.",
+      "evidence": "daily/2026-10-23/FATS_CLASSIFICATION_2212.md"
     }
   ]
 }

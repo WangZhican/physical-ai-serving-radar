@@ -1,3 +1,7 @@
+## 2026-10-23 22:12 CST — FATS CORE_SYS promotion; direct-category coverage recovered
+- Promoted [FATS / Learning from Fleet Experience](https://arxiv.org/abs/2610.25736) to CORE_SYS/A (Routes 1/2/4/9), with first-party fulltext and SHA-256 verified preexisting PDF. 96 real robots; 9,834 episodes, 1.3% fleet-time fault downtime. This is a learning–serving co-system, not proof of serving tail latency; dedicated code unverified.
+- 24h Atom direct PASS 117; 7d Atom direct PASS 2563 after fixed-window cs.LG page continuation. Both SOURCE_ONLY; full semantic/reverse/venue coverage IN_PROGRESS. Formal papers 182; valid PDFs 265.
+
 ## 2026-10-23 19:09 CST — Industrial ReMEmbR CORE_SYS promotion
 - Promoted [Industrial ReMEmbR](https://arxiv.org/abs/2610.28624) to CORE_SYS/A+ (Routes 1/4/5/9) after official full-text and existing PDF SHA-256 verification. Edge/on-prem disaggregated fleet memory; 100-robot GPU reduction is a modeled estimate, not measured production SLO. Dedicated code unverified.
 - Formal inventory 181 (127 CORE_SYS / 44 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 6 WATCH_ONLY), valid private PDFs 265, 4 historical PDF blockers.

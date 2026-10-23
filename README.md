@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-10-23 19:09 CST**
+**Last updated: 2026-10-23 22:12 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -26,6 +26,7 @@ The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni
 | ROSA | 2026 / arXiv | P1, P7 | Shared-GPU robotics foundation-model serving for robot factories | — | [paper](https://arxiv.org/abs/2607.01088) | S+ |
 | Robion | 2026 / arXiv | P1, P2, P3, P4, P6, P8 | SLO-aware multi-robot/multi-model VLA serving; intra-GPU VLM/ADiT overlap, dynamic SM partitioning, co-location, placement and traffic assignment | — | [paper](https://arxiv.org/abs/2609.12075) | S+ |
 | Industrial ReMEmbR | 2026 / arXiv | P1, P4, P5, P9 | Fleet-shared edge/on-prem vision-token memory and on-demand decoder; 100-robot GPU saving is modeled | Industrial extension repo not verified; [upstream ReMEmbR](https://github.com/NVIDIA-AI-IOT/remembr) | [paper](https://arxiv.org/abs/2610.28624) | A+ |
+| FATS / Fleet Experience | 2026 / arXiv | P1, P2, P4, P9 | Real 96-robot fault-tolerant fleet execution, shared cloud inference and streaming experience; not a serving SLO study | Dedicated release not verified | [paper](https://arxiv.org/abs/2610.25736) | A |
 | PhyAI | 2026 / arXiv | P2, P6, P7, P8, P10 | Unified VLA/WAM runtime across onboard, edge and cloud rollout paths | — | [paper](https://arxiv.org/abs/2608.03682) | S+ |
 | M* | 2026 / arXiv | P7, P10, M3 | Modular component-graph serving for multimodal/composite models | — | [paper](https://arxiv.org/abs/2606.12688) | S+ |
 | vLLM-Omni | 2026 / arXiv | P2, P7, M1, M3 | Fully disaggregated any-to-any multimodal serving runtime | [repo](https://github.com/vllm-project/vllm-omni) | [paper](https://arxiv.org/abs/2602.02204) | S |

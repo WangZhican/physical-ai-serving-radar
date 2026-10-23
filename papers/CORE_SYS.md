@@ -5,6 +5,7 @@
 Primary contribution must be runtime, serving, resource management, scheduling, deployment, cache/state infrastructure, heterogeneous execution, profiling, or evaluation infrastructure.
 
 ## Physical-AI serving trunk
+- [FATS / Learning from Fleet Experience](https://arxiv.org/abs/2610.25736) — **96 real robots**, SwarmLink shared cloud-inference/trajectory data plane and HotSwarm fault-tolerant control plane; 9,834 episodes, 1.3% fleet-time incident downtime. **A** · fleet learning–serving co-system; no verified dedicated code or serving tail-latency SLO.
 - [Industrial ReMEmbR](https://arxiv.org/abs/2610.28624) — fleet-shared spatiotemporal memory; Jetson edge vision encoding + cached vision-token reuse + on-prem on-demand decoder and GPU-indexed retrieval; 100-robot savings are **modeled**, not deployment measured — **A+** · industrial extension code unverified
 - [Kairos](https://arxiv.org/abs/2605.11381) — multi-robot generate–execute-aware serving — **S+**
 - [ROSA](https://arxiv.org/abs/2607.01088) — robot-factory shared GPU serving — **S+**
