@@ -43,6 +43,7 @@ Primary contribution must be runtime, serving, resource management, scheduling, 
 - **LaME** — adaptive latency/resource management executor — **A+**
 
 ## State / cache / world sessions
+- [rMuscle](https://arxiv.org/abs/2609.19104) — dual-stage cross-execution VLA inference cache (Context/Action), RTX 4090 + Jetson Thor end-to-end 1.20–1.42x over FlashRT; 92 tasks incl. two real-robot tasks. **A** · Routes 3/5/6/8; dedicated code and serving p99 SLO unverified.
 - [AgenticCache](https://arxiv.org/abs/2604.24039) — planner-transition runtime cache — **A+**
 - [Persistent Computational State](https://arxiv.org/abs/2607.21686) — world-session checkpoint/restore — **A**
 - [WorldMove](https://arxiv.org/abs/2607.10389) — exact-state migration and admission control — **A**

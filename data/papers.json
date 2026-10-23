@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23 22:12 CST",
-  "count": 182,
+  "updated": "2026-10-23 23:10 CST",
+  "count": 183,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3213,6 +3213,25 @@
       "code_status": "Dedicated FATS/SwarmLink/HotSwarm public code release not independently verified",
       "notes": "Real 96-robot fleet learning-serving infrastructure: SwarmLink shared inference/trajectory data plane and HotSwarm fault-tolerant worker control; 9834 episodes, 660 robot-hours, 30 incidents, 1.3% fleet robot-time downtime. Not a serving tail-latency benchmark; learning method FERT distinct.",
       "evidence": "daily/2026-10-23/FATS_CLASSIFICATION_2212.md"
+    },
+    {
+      "id": "arxiv:2609.19104",
+      "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.19104",
+      "code_status": "Dedicated public implementation not independently verified",
+      "notes": "Two-stage reusable cross-execution VLA inference cache (Context/Action); real RTX4090/Jetson Thor 1.20-1.42x end-to-end vs FlashRT across 92 tasks including two real robot tasks. Not fleet serving; no demonstrated p99 SLO; code unverified.",
+      "evidence": "daily/2026-10-23/RMUSCLE_CLASSIFICATION_2310.md"
     }
   ]
 }

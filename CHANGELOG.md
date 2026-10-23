@@ -1,3 +1,7 @@
+## 2026-10-23 23:10 CST — rMuscle CORE_SYS promotion; direct category scan PASS
+- [rMuscle](https://arxiv.org/abs/2609.19104) promoted CORE_SYS/A P3/5/6/8 after official 276k-char HTML and SHA-256 verified preexisting PDF; dual-phase Context/Action cache, RTX 4090 + Jetson Thor, 92 tasks including physical robots. Code and p99 SLO unverified.
+- 24h Atom direct PASS 85; 7d direct PASS 2537; source-only, semantic/reverse/venue coverage remains IN_PROGRESS. 183 papers, 265 valid PDFs (0 new), 4 historical pending.
+
 ## 2026-10-23 22:12 CST — FATS CORE_SYS promotion; direct-category coverage recovered
 - Promoted [FATS / Learning from Fleet Experience](https://arxiv.org/abs/2610.25736) to CORE_SYS/A (Routes 1/2/4/9), with first-party fulltext and SHA-256 verified preexisting PDF. 96 real robots; 9,834 episodes, 1.3% fleet-time fault downtime. This is a learning–serving co-system, not proof of serving tail latency; dedicated code unverified.
 - 24h Atom direct PASS 117; 7d Atom direct PASS 2563 after fixed-window cs.LG page continuation. Both SOURCE_ONLY; full semantic/reverse/venue coverage IN_PROGRESS. Formal papers 182; valid PDFs 265.
