@@ -1,3 +1,8 @@
+## 2026-10-24 06:06 CST — CORE_SYS HarnessPAI and source scan
+- Promoted HarnessPAI (arXiv:2609.29166), A/P2,P3,P7,P9 after verified 45-page official PDF + MIT CLI/package/source evidence; not a multi-tenant serving SLO claim.
+- Official Atom five-category 7d 2381 direct PASS SOURCE_ONLY; 24h zero exact NOT_COVERED. First-party 18/18, runtime 9/9, seven candidate abstracts and four fulltext revalidations.
+- 186 formal papers (132 CORE_SYS), 265 valid private PDFs; full semantic/reverse/venue/project IN_PROGRESS.
+
 ## 2026-10-24 05:04 CST — source scan and systems-candidate fulltext review
 - arXiv official Atom 7d five-category direct PASS 2403 unique SOURCE_ONLY; rolling 24h zero exact NOT_COVERED.
 - Revalidated 4 existing official PDFs: CARE, GGRAPH, Progress Probes, FastHarness; all still evidence-gated and unpromoted.

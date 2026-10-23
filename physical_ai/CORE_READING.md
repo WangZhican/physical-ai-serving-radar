@@ -48,3 +48,6 @@ Online real-robot evaluation-as-a-service with a 10-machine heterogeneous fleet,
 Open robot coding-agent evaluation substrate with interactive environments, parallel workers, perception serving/GPU allocation, regression tests and real-robot bringup. [Paper](https://arxiv.org/abs/2603.22435) · [Repo](https://github.com/capgym/cap-x)
 
 - [rMuscle](https://arxiv.org/abs/2609.19104) — **A / P3,P5,P6,P8**. Real-device VLA dual-phase cache across repeated executions; 1.20–1.42x measured end-to-end speedup over FlashRT, code/SLO pending.
+
+### HarnessPAI — A / P2,P3,P7,P9
+Model-agnostic executable Physical-AI task runtime with across-rollout program evolution and reusable skills; no multi-tenant serving or p99 SLO verified. [Paper](https://arxiv.org/abs/2609.29166) · [MIT code](https://github.com/Darwin-Agent/HarnessPAI)

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24 04:02 CST",
-  "count": 185,
+  "updated": "2026-10-24 06:06 CST",
+  "count": 186,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3269,6 +3269,26 @@
       "code_status": "Official MIT simulator with code, profiles and tests verified; tests not executed",
       "notes": "Policy-agnostic runtime certification/fallback for mixed HRT/SRT DAG DNN inference on heterogeneous accelerators; 81.41% simulated SRT deadline hit rate at 10ms workload; HRT deadlines certified under modeled WCET assumptions. Simulator only; no physical robot/VLA hardware evaluation or measured p99.",
       "evidence": "daily/2026-10-24/RETNAS_CLASSIFICATION_0402.md"
+    },
+    {
+      "id": "arxiv:2609.29166",
+      "title": "HarnessPAI: An Evolving Harness for Physical AI",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.29166",
+      "repo_url": "https://github.com/Darwin-Agent/HarnessPAI",
+      "code_status": "Official MIT Python CLI/package and execution/evolution/feedback/infra/memory/primitives modules verified via GitHub API; not locally executed",
+      "notes": "Model/embodiment-agnostic executable task harness: no online high-level LLM deliberation during rollout, across-rollout code evolution and persistent skill repair. Seven settings/four embodiment groups; README reports +61.6pp LIBERO-PRO and +27.2pp RoboCasa Atomic-Seen success vs respective baselines. No verified multi-tenant GPU serving, p99 control SLO, or fleet deployment.",
+      "evidence": "daily/2026-10-24/HARNESSPAI_CLASSIFICATION_0600.md"
     }
   ]
 }
