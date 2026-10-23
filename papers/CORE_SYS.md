@@ -1,9 +1,11 @@
 # CORE_SYS
+- [Beyond LLM Serving](https://arxiv.org/abs/2610.05062) — ASPLOS 2027 system-level VLA workload characterization across four VLA families and RTX 4090 / Jetson Thor / Jetson AGX Orin; stage/roofline/DVFS profiling plus 43,200 closed-loop episodes expose batch-1 control-deadline and SLO-aware accuracy-speed-energy tradeoffs.
 - [EAServe](https://arxiv.org/abs/2609.31551) — encode-aware disaggregated multimodal serving: load-adaptive micro-batching, partial local-prefill offload, dynamic SM partitioning, and joint resource/configuration search; up to 4.3x vs Dynamo and 1.7x vs vLLM SLO-goodput.
 
 Primary contribution must be runtime, serving, resource management, scheduling, deployment, cache/state infrastructure, heterogeneous execution, profiling, or evaluation infrastructure.
 
 ## Physical-AI serving trunk
+- [Industrial ReMEmbR](https://arxiv.org/abs/2610.28624) — fleet-shared spatiotemporal memory; Jetson edge vision encoding + cached vision-token reuse + on-prem on-demand decoder and GPU-indexed retrieval; 100-robot savings are **modeled**, not deployment measured — **A+** · industrial extension code unverified
 - [Kairos](https://arxiv.org/abs/2605.11381) — multi-robot generate–execute-aware serving — **S+**
 - [ROSA](https://arxiv.org/abs/2607.01088) — robot-factory shared GPU serving — **S+**
 - [Robion](https://arxiv.org/abs/2609.12075) — SLO-aware multi-robot/multi-model VLA serving on multi-GPU edge servers; intra-GPU VLM/ADiT overlap, SM partitioning, co-location, placement and traffic assignment — **S+**

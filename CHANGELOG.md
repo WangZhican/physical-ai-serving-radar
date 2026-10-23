@@ -1,3 +1,7 @@
+## 2026-10-23 19:09 CST — Industrial ReMEmbR CORE_SYS promotion
+- Promoted [Industrial ReMEmbR](https://arxiv.org/abs/2610.28624) to CORE_SYS/A+ (Routes 1/4/5/9) after official full-text and existing PDF SHA-256 verification. Edge/on-prem disaggregated fleet memory; 100-robot GPU reduction is a modeled estimate, not measured production SLO. Dedicated code unverified.
+- Formal inventory 181 (127 CORE_SYS / 44 SYS_ALG_BOUNDARY / 4 ALG_INSPIRATION / 6 WATCH_ONLY), valid private PDFs 265, 4 historical PDF blockers.
+
 ## 2026-09-24 12:00 CST — GLASS + runtime-adaptive streaming promotions
 
 - 2026-09-24 13:00 CST — promoted Offload or Overload (2603.18284) to CORE_SYS after Microsoft GPU-offload reverse-neighborhood recovery; added Microsoft Physical AI Toolchain as runtime-project WATCH; exact-24h OAI PASS.
@@ -708,3 +712,5 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - **2026-09-24 21:00 CST** — Added MemBodied (2609.28256) as SYS_ALG_BOUNDARY/A after PDF verification; exact-24h OAI census PASS and Robion recall gate re-hit.
 
 - **2026-09-24 21:00 CST** — Added MemBodied (2609.28256) as SYS_ALG_BOUNDARY/A after PDF verification; exact-24h OAI census PASS and Robion recall gate re-hit.
+
+- 2026-10-18 22:00 CST — Official 7d arXiv census 5,711 exact/7 pages; 24h weekend zero NOT_COVERED; remote KV tier and FastVLA first-party evidence; FastVLA naming collision resolved, no formal promotions.

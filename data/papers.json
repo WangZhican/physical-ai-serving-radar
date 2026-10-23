@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07 09:59 CST",
-  "count": 179,
+  "updated": "2026-10-23 19:09 CST",
+  "count": 181,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -545,7 +545,7 @@
     },
     {
       "id": "arxiv:2607.12659",
-      "title": "Jetson-PI: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference",
+      "title": "EagleVLA: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference",
       "class": "SYS_ALG_BOUNDARY",
       "route": [
         2,
@@ -553,10 +553,11 @@
         6
       ],
       "year": 2026,
-      "venue": "arXiv",
+      "venue": "CoRL 2026 Spotlight",
       "priority": "A+",
       "status": "VERIFIED",
-      "open_source": "github:PKU-SEC-Lab/Jetson-PI; github:PKU-SEC-Lab/Jetson-PI-Edge",
+      "open_source": "github:PKU-SEC-Lab/EagleVLA; github:PKU-SEC-Lab/EagleVLA-Edge",
+      "former_title": "Jetson-PI (renamed EagleVLA in arXiv v6, 2026-10-08)",
       "system_note": "onboard async VLA plus confidence scheduling, CUDA graph reuse, GPU-resident buffers, flow unrolling and an efficient llama.cpp-based inference engine"
     },
     {
@@ -3141,6 +3142,25 @@
       "repo": ""
     },
     {
+      "id": "arxiv:2610.05062",
+      "title": "Beyond LLM Serving: Characterizing Vision-Language-Action Workloads for Embodied AI System Design",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "year": 2027,
+      "venue": "ASPLOS 2027 / arXiv",
+      "priority": "S+",
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2610.05062",
+      "official_pdf": "https://arxiv.org/pdf/2610.05062",
+      "repo": ""
+    },
+    {
       "id": "arxiv:2610.06617",
       "title": "RealtimeWAM: One-Step Asynchronous World Action Models",
       "class": "SYS_ALG_BOUNDARY",
@@ -3155,6 +3175,25 @@
       "official_page": "https://arxiv.org/abs/2610.06617",
       "official_pdf": "https://arxiv.org/pdf/2610.06617",
       "repo": ""
+    },
+    {
+      "id": "arxiv:2610.28624",
+      "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        4,
+        5,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv / Idealworks-NVIDIA whitepaper",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.28624",
+      "code_status": "Industrial extension code not independently verified; original ReMEmbR upstream repo exists",
+      "notes": "Fleet-shared persistent vision-token memory, edge/on-prem disaggregation and on-demand decoding; 100-robot GPU cost is modeled (36.25 to 1.04 equiv at 10% describe), NOT real fleet SLO; Jetson Xavier Cosmos-Embed1 mean 11.76s per clip. Simulated 914-frame traffic map; 450 cached-token parity tests.",
+      "evidence": "daily/2026-10-23/INDUSTRIAL_REMEMBR_FULLTEXT_1900.md"
     }
   ]
 }
