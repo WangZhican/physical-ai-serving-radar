@@ -1,3 +1,7 @@
+## 2026-10-24 10:04 CST — first-party recovery and partial 7d census
+- arXiv 7d cs.LG page 10 HTTP429 after same-window retry; NOT_COVERED, retain 09h last-good source-only PASS. 24h zero exact NOT_COVERED.
+- First-party 18/18 recovered; runtime 9/9; six archived official PDFs SHA-256 revalidated. 0 promotions; 186 papers, 266 private PDFs.
+
 ## 2026-10-24 09:09 CST — 7d direct source recovery and 30 first-party abstracts
 - Fixed-window arXiv Atom 7d five-category source-only PASS, 2340 unique; 24h zero exact remains NOT_COVERED.
 - 22/28 top-ranked plus 8/8 new physical-system abstracts; 15/18 first-party and 9/9 runtime checks. No promotions, 186 papers and 266 private PDFs.
