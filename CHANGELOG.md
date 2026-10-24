@@ -1,3 +1,7 @@
+## 2026-10-24 09:09 CST — 7d direct source recovery and 30 first-party abstracts
+- Fixed-window arXiv Atom 7d five-category source-only PASS, 2340 unique; 24h zero exact remains NOT_COVERED.
+- 22/28 top-ranked plus 8/8 new physical-system abstracts; 15/18 first-party and 9/9 runtime checks. No promotions, 186 papers and 266 private PDFs.
+
 ## 2026-10-24 08:30 CST — Recovered fixed-window 7d cs.LG source census
 - Resumed official Atom cs.LG at page 15; three pages recovered, five mandatory categories PASS, 2352 deduplicated exact-window records (SOURCE_ONLY).
 - 24h zero exact remains NOT_COVERED; 129 unclassified SYS-first title leads (42 physical), no promotion/PDF changes.
