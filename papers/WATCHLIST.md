@@ -1,4 +1,5 @@
 # WATCHLIST
+- [GENSERVE](https://arxiv.org/abs/2604.04335) — reverse-neighborhood multimodal diffusion co-serving candidate; official abstract supports step-level preemption/elastic SP and up to 44% SLO attainment improvement; full PDF/repro and classification pending.
 
 Promising concepts or ecosystem artifacts that are relevant to Physical-AI serving but do not yet meet the `CORE_SYS` evidence bar.
 
@@ -8,6 +9,17 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **IoRT ROS 2 Applications: Evaluating Zenoh and VPN for Robotic Networking in the Edge-Cloud Continuum** — IEEE ISCC / DistInSys 2025 Best Paper; useful real-world edge-cloud latency/throughput/fault-tolerance evidence for Zenoh, but primarily evaluates existing middleware rather than introducing a new runtime mechanism.
 
 ## Active follow-ups
+
+### RoboBugBench — ROS 2 behavioral repair-oracle benchmark (2026-10-18)
+- [Official arXiv:2610.16369](https://arxiv.org/abs/2610.16369): 33 execution-validated ROS 2 navigation defects with a physics-simulation behavioral oracle and adversarial audit. Adjacent **Route 9 evaluation infrastructure**, not VLA/WAM serving or a formally classified CORE_SYS paper.
+- Track code/corpus availability, reproducible ROS 2 harness and oracle correctness. Official PDF retained privately on the research server.
+
+### Wave Forcing / WaveRT — first-party streaming video runtime (2026-10-18, PROJECT WATCH)
+- [Project](https://sjtu-deng-lab.github.io/WaveForcing/) · [Official source](https://github.com/SJTU-DENG-Lab/WaveForcing). No public arXiv/paper as of this checkpoint; this is **not** a formal paper promotion.
+- Wave Parallelism converts the mixed-noise diffusion dependency graph into a block-causal DAG, enabling asynchronous GPU-stage wavefront execution, one-way layer-wise KV publication, copy-engine remote writes, paged KV and a measured-time streaming VAE pipeline. Built on SGLang Diffusion backend.
+- First-party 8×H200 study reports 117.7 end-to-end FPS on 1.3B / 1596 output frames (7.9× matched single-GPU). 125.7 FPS is *steady p50*, not E2E. Public 5-step preview gives 84.2 E2E FPS with a different 5+2 topology; 14B result uses random weights and is not generation-quality evidence.
+- **Route 3/5/6/10; HIGH priority** as adjacent multimodal/world-model runtime. Track paper/checkpoint release, multi-request SLO, independently reproduced quality/latency, and VLA/WAM applicability.
+
 - **Microsoft Physical AI Toolchain GPU offload** — [official repo](https://github.com/microsoft/physical-ai-toolchain) / [Microsoft Research announcement](https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/). As of 2026-09-23 it ships remote-GPU inference containerization/deployment, RPC and Kubernetes-based orchestration across robot/edge/cloud. High-value runtime-project WATCH; next gate is scheduler/admission/failure semantics and controlled multi-robot goodput/SLO evidence.
 - FogROS2-SGC / FogROS2-LS: determine whether they contribute durable cloud-connectivity/placement abstractions beyond the existing FogROS lineage.
 - NVIDIA `ros2_benchmark`: classify as a mature infrastructure artifact and determine whether a canonical paper record should be created.

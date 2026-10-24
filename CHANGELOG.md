@@ -1,3 +1,7 @@
+## 2026-10-24 11:11 CST — CORE_SYS +2 KerColle/GGraph; Atom 429 fallback incomplete
+- KerColle GPU VLA co-scheduling (28% **simulated**, no physical GPU implementation); GGraph GPU/ROS2 robot graph infrastructure (real robot, author code repo unresolved). Official PDFs verified; 188 papers / 134 CORE_SYS, 266 private PDFs.
+- 11h Atom 24h/7d five-category page0 429/timeout NOT_COVERED, OAI Identify works but ListIdentifiers timeout; 09h 2340 source-only PASS retained as last-good. First-party 15/18, runtime 9/9; 8 official abstracts and reference-neighborhood inspection.
+
 ## 2026-10-24 10:04 CST — first-party recovery and partial 7d census
 - arXiv 7d cs.LG page 10 HTTP429 after same-window retry; NOT_COVERED, retain 09h last-good source-only PASS. 24h zero exact NOT_COVERED.
 - First-party 18/18 recovered; runtime 9/9; six archived official PDFs SHA-256 revalidated. 0 promotions; 186 papers, 266 private PDFs.

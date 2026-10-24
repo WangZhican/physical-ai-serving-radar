@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24 06:06 CST",
-  "count": 186,
+  "updated": "2026-10-24 11:11 CST",
+  "count": 188,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3289,6 +3289,43 @@
       "code_status": "Official MIT Python CLI/package and execution/evolution/feedback/infra/memory/primitives modules verified via GitHub API; not locally executed",
       "notes": "Model/embodiment-agnostic executable task harness: no online high-level LLM deliberation during rollout, across-rollout code evolution and persistent skill repair. Seven settings/four embodiment groups; README reports +61.6pp LIBERO-PRO and +27.2pp RoboCasa Atomic-Seen success vs respective baselines. No verified multi-tenant GPU serving, p99 control SLO, or fleet deployment.",
       "evidence": "daily/2026-10-24/HARNESSPAI_CLASSIFICATION_0600.md"
+    },
+    {
+      "id": "arxiv:2609.22335",
+      "title": "KerColle: Unlocking Fine-Grained GPU Concurrency in Vision-Language-Action Models",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        3,
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.22335",
+      "code_status": "Dedicated author implementation not independently verified; GitHub exact-topic search returned no matching repository",
+      "notes": "Hardware CTA head-of-line blocking characterization and online SM-utilization/resource-aware kernel co-scheduling across independent VLM/action-head requests. Four VLAs (CogACT, pi0.5, Octo, GraspVLA), RTX4090/5090 configured Accel-Sim, up to 28% reported throughput gain. SIMULATION ONLY using NVBit traces, not physical GPU scheduler implementation, measured real-robot p99, or fleet SLO validation.",
+      "evidence": "daily/2026-10-24/KERCOLLE_CLASSIFICATION_1100.md"
+    },
+    {
+      "id": "arxiv:2610.28953",
+      "title": "GGraph: A GPU-Accelerated Library for Graph-Based Robot Deployment and Learning",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        6,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.28953",
+      "code_status": "Paper describes open-source library but an author-linked GGraph repository was NOT independently resolved; do not claim a verified code release",
+      "notes": "Reusable GPU-resident dynamic graph/ROS2 robot deployment and vectorized multi-robot training infrastructure. Official paper reports millisecond-scale single-robot graph updates and roughly order-of-magnitude lower policy-training wall time over CPU graph baselines, with simulation and real-robot evidence. Not a VLA inference server, multi-tenant serving scheduler, or p99 control-SLO benchmark.",
+      "evidence": "daily/2026-10-24/GGRAPH_CLASSIFICATION_1100.md"
     }
   ]
 }
