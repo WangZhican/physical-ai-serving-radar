@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24 20:08 CST",
-  "count": 197,
+  "updated": "2026-10-24 22:03 CST",
+  "count": 199,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -2980,7 +2980,9 @@
       "priority": "A",
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2609.16244",
-      "system_note": "Latency-first diffusion/world-model accelerator; hardware-aware WAM inference evidence rather than serving/runtime resource management."
+      "official_pdf": "https://arxiv.org/pdf/2609.16244",
+      "open_source": "Paper reports synthesizable SystemVerilog and a frozen micro-architecture; official repository/adoption still requires first-party verification.",
+      "system_note": "Latency-first diffusion-transformer/world-model accelerator using a VLIW sequencer, a 16x16 FP8/BF16 weight-stationary array, online-softmax attention and compile-time software pipelining over static denoising shapes. It is directly relevant to hardware-aware WAM/world-model inference but is not a serving/runtime/resource-management system, so it remains SYS_ALG_BOUNDARY rather than CORE_SYS."
     },
     {
       "id": "arxiv:2609.28179",
@@ -3054,7 +3056,7 @@
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2609.27706",
       "official_pdf": "https://arxiv.org/pdf/2609.27706",
-      "system_note": "Motion-domain speculative continuous-vision pipeline with lightweight ISP support and non-blocking periodic drift correction; up to 66.8% tail-latency reduction and 46% energy savings."
+      "system_note": "Continuous-vision pipeline system: motion-domain speculative perception plus non-blocking periodic drift correction, with a lightweight ISP extension and scheduling model. Reports up to 66.8% tail-latency reduction and 46% energy savings for object detection."
     },
     {
       "id": "arxiv:2609.28431",
@@ -3071,7 +3073,7 @@
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2609.28431",
       "official_pdf": "https://arxiv.org/pdf/2609.28431",
-      "system_note": "Asynchronous slow intent / fast motion-refinement architecture; 45.8% lower inference latency vs Cosmos-Policy; model/control coupling rather than reusable serving substrate."
+      "system_note": "Asynchronous slow long-horizon intent / fast high-frequency motion-refinement architecture; reports 45.8% inference-latency reduction vs Cosmos-Policy. Kept boundary because primary novelty is generative control/model coupling rather than reusable serving substrate."
     },
     {
       "id": "arxiv:2609.27656",
@@ -3089,7 +3091,7 @@
       "status": "VERIFIED",
       "official_page": "https://arxiv.org/abs/2609.27656",
       "official_pdf": "https://arxiv.org/pdf/2609.27656",
-      "system_note": "Asynchronous multi-frequency video/action architecture with observation-conditioned layerwise KV context reuse; strong state-reuse/control-loop evidence, but primarily a world model."
+      "system_note": "Asymmetric multi-frequency video/action architecture with observation-conditioned layerwise KV context reuse; strong state-reuse/control-loop evidence, but primarily a physical world model rather than a serving/runtime system."
     },
     {
       "id": "arxiv:2609.28256",
@@ -3102,11 +3104,22 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2610.06617",
+      "title": "RealtimeWAM: One-Step Asynchronous World Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2609.28256",
-      "official_pdf": "https://arxiv.org/pdf/2609.28256",
-      "repo": "https://github.com/declare-lab/MemBodied",
-      "system_note": "Fixed-size associative episodic state across VLA policy calls plus episode anchor; episode-length-independent memory/access cost and 91.9% lower inference latency than NativeMEM. Strong temporal-state/cache inspiration, but model architecture rather than reusable serving substrate."
+      "notes": "TACD one-step action generation plus CEWP block-wise video-KV wavefront pipelining; reusable execution overlap is systems-relevant, but primary novelty remains model-specific WAM acceleration."
     },
     {
       "id": "arxiv:2609.30247",
@@ -3119,10 +3132,7 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2609.30247",
-      "official_pdf": "https://arxiv.org/pdf/2609.30247",
-      "repo": ""
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2609.31551",
@@ -3136,10 +3146,7 @@
       "year": 2026,
       "venue": "PACT 2026 / arXiv",
       "priority": "S",
-      "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2609.31551",
-      "official_pdf": "https://arxiv.org/pdf/2609.31551",
-      "repo": ""
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2610.05062",
@@ -3156,25 +3163,8 @@
       "venue": "ASPLOS 2027 / arXiv",
       "priority": "S+",
       "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2610.05062",
-      "official_pdf": "https://arxiv.org/pdf/2610.05062",
-      "repo": ""
-    },
-    {
-      "id": "arxiv:2610.06617",
-      "title": "RealtimeWAM: One-Step Asynchronous World Action Models",
-      "class": "SYS_ALG_BOUNDARY",
-      "route": [
-        3,
-        10
-      ],
-      "year": 2026,
-      "venue": "arXiv",
-      "priority": "A",
-      "status": "VERIFIED",
-      "official_page": "https://arxiv.org/abs/2610.06617",
-      "official_pdf": "https://arxiv.org/pdf/2610.06617",
-      "repo": ""
+      "doi": "10.1145/3845814.3850089",
+      "notes": "System-level VLA workload characterization across GR00T N1.6, pi0.5, OpenVLA-OFT and Cosmos-Policy on RTX 4090, Jetson Thor and Jetson AGX Orin; stage/roofline/DVFS analysis plus 43,200 closed-loop LIBERO episodes. Shows batch-1 deadline-driven serving differs materially from LLM serving and motivates SLO-aware runtime operating-point selection."
     },
     {
       "id": "arxiv:2610.28624",
@@ -3496,6 +3486,44 @@
       "code_status": "No dedicated author code repository independently verified",
       "notes": "Edge robot dual-stream architecture decouples perception at 10Hz from control at 50Hz, tested on physical 6-DoF industrial pose-rectification manipulator; Jetson Orin Nano edge target. Task-specific geometric affordance/action primitive algorithm, not general VLA GPU serving, multi-tenant scheduler or p99 proof.",
       "evidence": "daily/2026-10-24/ROBION_SYSTEM_CLASSIFICATION_2000.md"
+    },
+    {
+      "id": "arxiv:2610.19656",
+      "title": "PICES: Accelerating VLA Inference with Perturbation Informed Execution",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.19656",
+      "repo_url": "https://github.com/JHLee2314/PICES_VLA",
+      "code_status": "Official Apache-2.0 pi05/GR00T model adapter source verified; README explicitly excludes model servers, RPC clients, full evaluator, weights, evaluation records; no full rerun after cleanup",
+      "notes": "Training-free batched candidate chunk/execution-horizon selection reduces cumulative VLA policy calls; paper reports up to 2.3x wall-clock policy inference time on Jetson Orin/Thor, not per-kernel speedup or multi-tenant serving/p99. Real robot and simulation evidence; primarily algorithmic.",
+      "evidence": "daily/2026-10-24/PHYSICAL_CLASSIFICATION_2200.md"
+    },
+    {
+      "id": "arxiv:2610.29264",
+      "title": "Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation (TIDE)",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        2,
+        3,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.29264",
+      "code_status": "Project page noted in original PDF; independently runnable server code not verified",
+      "notes": "Real-robot client + centralized GPU inference/recording server + asynchronous online learner and checkpoint handoff; four real bimanual tasks, sessions under 1h. 3B WAM online training on eight H100 (~0.4s/optimizer step, not serving latency). Main novelty provenance-conditioned training, no fleet/p99 study.",
+      "evidence": "daily/2026-10-24/PHYSICAL_CLASSIFICATION_2200.md"
     }
   ]
 }

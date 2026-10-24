@@ -2,6 +2,9 @@
 
 Works whose algorithmic novelty remains central, but which expose substantial runtime/deployment primitives.
 
+- [PICES](https://arxiv.org/abs/2610.19656) — **A-**, adaptive VLA action-chunk/horizon selection; up to 2.3x cumulative policy inference time on Jetson Orin/Thor (paper-reported), real-robot evaluation. [Official Apache-2.0 adapters](https://github.com/JHLee2314/PICES_VLA), not a standalone server/evaluator; no p99.
+- [TIDE](https://arxiv.org/abs/2610.29264) — **A-**, real-robot asynchronous inference/recording server + online learner + checkpoint handoff; 8x H100 training (0.4s/optimizer step is not inference latency). Provenance-conditioned adaptation rather than multi-tenant serving/p99.
+
 - [Xiaomi-Robotics-0](https://arxiv.org/abs/2602.12684) — **A-**, RTX 4090 80ms VLA inference, 30Hz aligned input timeline and asynchronous action-chunk execution on real bimanual robots; model/deployment boundary, not reusable multi-tenant serving or p99. Dedicated author code not independently verified.
 - [Agile-VLA](https://arxiv.org/abs/2603.22899) — **B+**, edge robot asynchronous perception 10Hz / control 50Hz, physical 6-DoF industrial manipulation; task-specific action primitives, not generic GPU VLA serving/p99. Code unconfirmed.
 
