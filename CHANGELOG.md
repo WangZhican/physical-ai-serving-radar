@@ -1,3 +1,6 @@
+## 2026-10-24 15:02 CST — 7d five-category OAI+Atom direct census, 18 new first-party abstracts; no formal promotions
+- 2277 7d unique SOURCE_ONLY; 24h zero exact NOT_COVERED; first-party 18/18, runtime 9/9; 192 papers / 138 CORE_SYS / 270 private PDFs. Full semantic/reverse/venue checks remain IN_PROGRESS.
+
 ## 2026-10-24 14:08 CST — 7d Atom cs.LG recovered, first-party 18/18; 0 formal promotions
 - 7d official OAI 2290 unique and fixed-window Atom 2300 unique direct SOURCE_ONLY; 24h zero exact NOT_COVERED. Seven official abstracts, four archived PDFs SHA-256 revalidated; 192 papers / 138 CORE_SYS / 270 private PDFs. Full semantic/reverse/venue checks IN_PROGRESS.
 
