@@ -1,3 +1,6 @@
+## 2026-10-24 14:08 CST — 7d Atom cs.LG recovered, first-party 18/18; 0 formal promotions
+- 7d official OAI 2290 unique and fixed-window Atom 2300 unique direct SOURCE_ONLY; 24h zero exact NOT_COVERED. Seven official abstracts, four archived PDFs SHA-256 revalidated; 192 papers / 138 CORE_SYS / 270 private PDFs. Full semantic/reverse/venue checks IN_PROGRESS.
+
 ## 2026-10-24 13:10 CST — CORE_SYS +3 (CusADi2, xDiT, DDiT), PDF +2
 - Official first-party PDF/repo inspection and citation-neighborhood recovery; 7d OAI five-category direct source-only PASS 2301; 24h exact zero NOT_COVERED; Atom 7d cs.LG page6 HTTP429. 192 formal papers / 138 CORE_SYS / 270 private PDFs.
 
