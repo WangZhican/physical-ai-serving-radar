@@ -1,3 +1,7 @@
+## 2026-10-24 17:13 CST — FrameBlend boundary +1; two official PDFs, OAI 7d direct PASS
+- FrameBlend 15p PDF/first-party evidence, SYS_ALG_BOUNDARY (not multi-tenant serving); CALM 25p PDF retained as watch with negative physical-memory/latency caveat.
+- 195 formal papers (140 CORE_SYS/45 SYS_ALG_BOUNDARY/4 ALG_INSPIRATION/6 WATCH_ONLY); 272 private PDFs; 24h zero exact NOT_COVERED, 7d Atom cs.LG 429; full semantic/reverse/venue IN_PROGRESS.
+
 ## 2026-10-24 16:10 CST — CORE_SYS +2 CARE/FastHarness; arXiv 7d OAI direct PASS, Atom cs.LG retry 429
 - 194 formal works / 140 CORE_SYS; 270 private PDFs, 2 pre-existing PDFs revalidated for promotions; 7 official abstracts and 4 archived PDFs inspected. 24h zero exact NOT_COVERED; full semantic/reverse/venue IN_PROGRESS.
 

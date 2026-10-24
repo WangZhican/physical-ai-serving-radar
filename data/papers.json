@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24 16:10 CST",
-  "count": 194,
+  "updated": "2026-10-24 17:13 CST",
+  "count": 195,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3442,6 +3442,24 @@
       "code_status": "First-party GitHub API verified MIT repository, Python package, docs and tests; 2 stars at 16h",
       "notes": "Reusable robot execution harness dynamically schedules high-level reviewer calls over pi0.5 action chunks using stage memory, success/error history and recovery gating. Four simulated manipulation tasks: reviewer tokens decrease 57.2% on average, mean episode time 85.5 to 52.0 min, reported success 97.19% vs 80% baseline. Simulation only; no real robot, fleet throughput or p99 SLO proof.",
       "evidence": "daily/2026-10-24/CARE_FASTHARNESS_CLASSIFICATION_1600.md"
+    },
+    {
+      "id": "arxiv:2610.29229",
+      "title": "Cache Locally, Recompute Selectively for Streaming Video Understanding (FrameBlend)",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.29229",
+      "code_status": "Dedicated author implementation not independently verified",
+      "notes": "Training-free query-aware selective KV recomputation across idle-time frame prefill and query-time context. Three streaming-video-understanding frameworks and five benchmarks; paper reports up to 3.9 percentage-point accuracy gain and 14.1-58.7% lower total latency on RVS-Ego for ReKV/LiveVLM. Algorithmic per-model cache optimization, not a reusable multi-tenant serving scheduler; no p99/fleet evidence.",
+      "evidence": "daily/2026-10-24/FRAMEBLEND_CALM_CLASSIFICATION_1700.md"
     }
   ]
 }

@@ -2,6 +2,8 @@
 
 Works whose algorithmic novelty remains central, but which expose substantial runtime/deployment primitives.
 
+- [FrameBlend](https://arxiv.org/abs/2610.29229) — **A-**, query-aware selective video KV recomputation across idle prefill and query-time processing; 14.1–58.7% total latency reduction on RVS-Ego for ReKV/LiveVLM (paper-reported). Algorithmic cache boundary, not multi-tenant GPU serving/p99; 15-page official PDF verified, code unconfirmed.
+
 - [Rolling-WAM](https://arxiv.org/abs/2609.30247) — rolling/staggered WAM denoising across replanning cycles; 4.5x steady-state replanning speedup. Strong real-time control/runtime boundary evidence, but primary novelty remains model formulation rather than reusable serving substrate.
 - [RealtimeWAM](https://arxiv.org/abs/2610.06617) — TACD + CEWP block-wise video-KV wavefront overlap for asynchronous one-step WAM inference; WAM-specific acceleration rather than reusable serving substrate.
 - [SlackDrive](https://arxiv.org/abs/2609.28064) — pre-inference compute allocator that turns completed-forward latency into online compute-state/slack and chooses the highest-utility budget predicted to meet the next control-step latency envelope; +21.7% latency-constrained EPDMS on NAVSIM v2. Runtime-adaptive inference, not multi-tenant serving.
