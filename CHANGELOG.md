@@ -1,3 +1,7 @@
+## 2026-10-24 18:04 CST — OAI_7D_PASS_2229_SOURCE_ONLY; ATOM_CS_LG_RECOVERED_2240; 24H_ZERO_EXACT; PROMOTION_0; FIRST_PARTY_18/18; RUNTIME_9/9
+- Recovered 17h fixed-window Atom cs.LG page11 by six pages, independently confirmed fresh 7d OAI five-category direct census; no paper or PDF promotion.
+- 24h exact-zero NOT_COVERED; SYS-first evidence review of Progress Probes, HAWK, FrameBlend; full reverse/venue/semantic still IN_PROGRESS.
+
 ## 2026-10-24 17:13 CST — FrameBlend boundary +1; two official PDFs, OAI 7d direct PASS
 - FrameBlend 15p PDF/first-party evidence, SYS_ALG_BOUNDARY (not multi-tenant serving); CALM 25p PDF retained as watch with negative physical-memory/latency caveat.
 - 195 formal papers (140 CORE_SYS/45 SYS_ALG_BOUNDARY/4 ALG_INSPIRATION/6 WATCH_ONLY); 272 private PDFs; 24h zero exact NOT_COVERED, 7d Atom cs.LG 429; full semantic/reverse/venue IN_PROGRESS.
