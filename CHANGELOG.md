@@ -1,3 +1,8 @@
+## 2026-10-25 07:10 CST — OAI_7D_2115_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE_SYS+0; BOUNDARY+2; PDF+1; FIRST_PARTY_18/18; RUNTIME_9/9
+- SYS_ALG_BOUNDARY +2: VoI slow-module scheduling and LidarVerse rolling KV/spatial cache; CORE_SYS +0; official PDF +1 (grid-vs-node evidence-only; two existing PDFs reverified).
+- Official 7d five-category direct census 2115 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.
+- 20/20 official historical abstracts, 3 PDF fulltexts, 18/18 first-party, 9/9 runtime; reverse/venue/project IN_PROGRESS.
+
 ## 2026-10-25 06:06 CST — OAI_7D_2123_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE_SYS+1; BOUNDARY+1; PDF+0; FIRST_PARTY_18/18; RUNTIME_9/9
 - CORE_SYS +1 vLLM-Omni Technical Report, SYS_ALG_BOUNDARY +1 ActTune; 2 existing official PDFs SHA-256 sealed, zero new unique PDFs.
 - 7d official five-category direct census 2123 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero exact NOT_COVERED.

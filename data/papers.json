@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 06:06 CST",
-  "count": 206,
+  "updated": "2026-10-25 07:10 CST",
+  "count": 208,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3632,6 +3632,40 @@
       "paper_url": "https://arxiv.org/abs/2610.08444",
       "code_status": "Dedicated implementation/reproducible GPU frequency-power controller not independently verified",
       "notes": "22p official full text: per-action quantization, resident weight bank, asynchronous GPU frequency/power-cap selection under <=10% latency-increase budget; up to 2.02x faster inference and 76.8% less GPU energy per successful LIBERO task vs BF16 (author claims). Primarily policy precision/DVFS co-optimization, not generic fleet-serving or p99 scheduler."
+    },
+    {
+      "id": "arxiv:2610.21160",
+      "title": "When to Ask for Help: A Decision-Theoretic Account and Measurement Standard for Slow-Module Scheduling in Dual-System Vision-Language-Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.21160",
+      "code_status": "No dedicated first-party implementation repository verified",
+      "notes": "41-page official PDF: Value-of-Intervention (VoI) cost-aware invocation framework, hardware latency on RTX4090 (52ms slow/55ms fast FiS-VLA), 14 matched closed-loop experimental arms; important negative result: correctly allocated slow calls did not guarantee task success. No reusable production scheduler, multi-tenant p99 or robot fleet proof. Systems boundary, not CORE_SYS."
+    },
+    {
+      "id": "arxiv:2610.19201",
+      "title": "Into the LidarVerse: A Real-Time Unified LiDAR World Model Across Tasks and Sensors",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.19201",
+      "code_status": "Dedicated first-party code release not independently verified",
+      "notes": "31-page official PDF: four-step causal LiDAR world model with rolling temporal KV cache and world-aligned persistent spatial cache; author reports 11 FPS on one H100. Model/algorithm and state reuse rather than reusable serving scheduler; no multi-session p99/robot fleet demonstration."
     }
   ]
 }
