@@ -1,3 +1,8 @@
+## 2026-10-24 21:02 CST — adjacent GPU/LLM memory candidates (NOT formal Physical-AI promotions)
+- [UlaCache](https://arxiv.org/abs/2610.29820): GPU/CPU unified sparse-KV logical addressing, H200/B300 LLM throughput evidence; multimodal/VLA integration unverified.
+- [Gandalf](https://arxiv.org/abs/2610.30791): SSD lifetime-aware LLM KV offload, trace-based lifetime gain; no robot/multimodal workload.
+- [SnakeCharmer](https://arxiv.org/abs/2610.30990): generic GPU hardware prefetch control, A100 GPU-model evaluation, not a real VLA serving system.
+
 # WATCHLIST
 
 Promising concepts or ecosystem artifacts that are relevant to Physical-AI serving but do not yet meet the `CORE_SYS` evidence bar.
