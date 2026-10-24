@@ -4,6 +4,9 @@
 
 Primary contribution must be runtime, serving, resource management, scheduling, deployment, cache/state infrastructure, heterogeneous execution, profiling, or evaluation infrastructure.
 
+## Multimodal / diffusion co-serving
+- [GENSERVE](https://arxiv.org/abs/2604.04335) — **A+**; real 8×RTX PRO 6000 Blackwell T2I/T2V shared-GPU serving with diffusion-step video preemption, elastic sequence parallelism, dynamic batching and SLO-aware scheduling. Up to **44% relative** SLO-attainment improvement reported. Synthetic arrivals using real prompts; dedicated code unverified; not robot-control p99.
+
 ## Physical-AI serving trunk
 - [KerColle](https://arxiv.org/abs/2609.22335) — online GPU CTA/SM-resource-aware VLM/action-head kernel co-scheduling across VLA requests; up to **28% simulated** throughput gain on RTX 4090/5090-configured Accel-Sim; **A-**, no verified physical GPU implementation or code.
 - [GGraph](https://arxiv.org/abs/2610.28953) — reusable GPU-resident graph/ROS2 robot runtime for real deployment and batched multi-robot learning; ms graph updates, ~10x training wall-time benefit reported; **A-**, dedicated author repo not independently resolved; not VLA serving p99.

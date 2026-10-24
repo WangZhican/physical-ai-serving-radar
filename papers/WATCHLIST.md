@@ -1,5 +1,4 @@
 # WATCHLIST
-- [GENSERVE](https://arxiv.org/abs/2604.04335) — reverse-neighborhood multimodal diffusion co-serving candidate; official abstract supports step-level preemption/elastic SP and up to 44% SLO attainment improvement; full PDF/repro and classification pending.
 
 Promising concepts or ecosystem artifacts that are relevant to Physical-AI serving but do not yet meet the `CORE_SYS` evidence bar.
 

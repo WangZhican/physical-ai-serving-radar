@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24 11:11 CST",
-  "count": 188,
+  "updated": "2026-10-24 12:10 CST",
+  "count": 189,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3326,6 +3326,26 @@
       "code_status": "Paper describes open-source library but an author-linked GGraph repository was NOT independently resolved; do not claim a verified code release",
       "notes": "Reusable GPU-resident dynamic graph/ROS2 robot deployment and vectorized multi-robot training infrastructure. Official paper reports millisecond-scale single-robot graph updates and roughly order-of-magnitude lower policy-training wall time over CPU graph baselines, with simulation and real-robot evidence. Not a VLA inference server, multi-tenant serving scheduler, or p99 control-SLO benchmark.",
       "evidence": "daily/2026-10-24/GGRAPH_CLASSIFICATION_1100.md"
+    },
+    {
+      "id": "arxiv:2604.04335",
+      "title": "GENSERVE: Efficient Co-Serving of Heterogeneous Diffusion Model Workloads",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6,
+        7,
+        8,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2604.04335",
+      "code_status": "Dedicated official implementation not independently verified; PDF only links Hugging Face diffusers dependency",
+      "notes": "Real 8x RTX PRO 6000 Blackwell (96GB) shared-GPU T2I/T2V co-serving; step-level video preemption, elastic sequence parallelism with dynamic batching, SLO-aware resource scheduling. Paper reports up to 44% SLO-attainment improvement vs strongest baseline, and at sigma=1.0 78% vs SRTF 71% and FCFS 59%. Arrival traces are synthetic Poisson/bursty using real image/video prompts, not observed production fleet traces. Not a robot/VLA serving or real control-loop p99 benchmark.",
+      "evidence": "daily/2026-10-24/GENSERVE_CLASSIFICATION_1200.md"
     }
   ]
 }

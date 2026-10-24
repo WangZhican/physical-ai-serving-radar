@@ -1,3 +1,7 @@
+## 2026-10-24 12:10 CST — GENSERVE CORE_SYS +1, arXiv OAI direct 7d recovered, PDF +2
+- [GENSERVE](https://arxiv.org/abs/2604.04335): 8×RTX PRO 6000 Blackwell T2I/T2V co-serving, step-level preemption and elastic SP; up to 44% relative SLO-attainment improvement; code unverified. FIT-MAC 27-page PDF archived as boundary candidate.
+- OAI-PMH 7d direct five-category PASS 2310 unique source-only; 24h zero exact NOT_COVERED; Atom still 429/timeouts. Full semantic/reverse/venue coverage IN_PROGRESS. Formal 189 / CORE_SYS 135 / PDFs 268.
+
 ## 2026-10-24 11:11 CST — CORE_SYS +2 KerColle/GGraph; Atom 429 fallback incomplete
 - KerColle GPU VLA co-scheduling (28% **simulated**, no physical GPU implementation); GGraph GPU/ROS2 robot graph infrastructure (real robot, author code repo unresolved). Official PDFs verified; 188 papers / 134 CORE_SYS, 266 private PDFs.
 - 11h Atom 24h/7d five-category page0 429/timeout NOT_COVERED, OAI Identify works but ListIdentifiers timeout; 09h 2340 source-only PASS retained as last-good. First-party 15/18, runtime 9/9; 8 official abstracts and reference-neighborhood inspection.
