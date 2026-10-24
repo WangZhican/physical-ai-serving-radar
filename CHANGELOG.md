@@ -1,3 +1,7 @@
+## 2026-10-24 08:30 CST — Recovered fixed-window 7d cs.LG source census
+- Resumed official Atom cs.LG at page 15; three pages recovered, five mandatory categories PASS, 2352 deduplicated exact-window records (SOURCE_ONLY).
+- 24h zero exact remains NOT_COVERED; 129 unclassified SYS-first title leads (42 physical), no promotion/PDF changes.
+
 ## 2026-10-24 08:25 CST — Partial 7d source incident; seven official abstracts
 - 7d Atom cs.DC/cs.AR/cs.PF/cs.RO PASS; cs.LG page-15 HTTP 429 and same-window retry failed; NOT_COVERED_PARTIAL. Last-good 07:07 source-only PASS 2365 retained.
 - 24h zero exact NOT_COVERED; first-party 18/18, runtime 9/9, seven official abstracts. No promotions; 186 papers and 266 valid private PDFs.
