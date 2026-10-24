@@ -2,6 +2,9 @@
 
 Works whose algorithmic novelty remains central, but which expose substantial runtime/deployment primitives.
 
+- [LateMatch](https://arxiv.org/abs/2610.25358) — **A-**, CoRL 2026 cacheable late-interaction visual localization; paper-reported 2.2x desktop-GPU full-pipeline speedup (Aachen K=50). [Official MIT repository](https://github.com/UTAustin-SwarmLab/LateMatch) currently contains only LICENSE/.gitignore, no implementation; no real edge-device p99.
+- [UniW(A)M](https://arxiv.org/abs/2610.18697) — **B+**, unified WM/WAM MoE and per-action-chunk PAIR interface selection with cache rebuild on switches; real-robot experiments. ~63ms router-only timing excludes full-loop components, no multi-tenant serving or p99, author code unconfirmed.
+
 - [PICES](https://arxiv.org/abs/2610.19656) — **A-**, adaptive VLA action-chunk/horizon selection; up to 2.3x cumulative policy inference time on Jetson Orin/Thor (paper-reported), real-robot evaluation. [Official Apache-2.0 adapters](https://github.com/JHLee2314/PICES_VLA), not a standalone server/evaluator; no p99.
 - [TIDE](https://arxiv.org/abs/2610.29264) — **A-**, real-robot asynchronous inference/recording server + online learner + checkpoint handoff; 8x H100 training (0.4s/optimizer step is not inference latency). Provenance-conditioned adaptation rather than multi-tenant serving/p99.
 

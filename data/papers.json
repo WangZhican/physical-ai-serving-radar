@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24 22:03 CST",
-  "count": 199,
+  "updated": "2026-10-25 03:09 CST",
+  "count": 201,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3524,6 +3524,45 @@
       "code_status": "Project page noted in original PDF; independently runnable server code not verified",
       "notes": "Real-robot client + centralized GPU inference/recording server + asynchronous online learner and checkpoint handoff; four real bimanual tasks, sessions under 1h. 3B WAM online training on eight H100 (~0.4s/optimizer step, not serving latency). Main novelty provenance-conditioned training, no fleet/p99 study.",
       "evidence": "daily/2026-10-24/PHYSICAL_CLASSIFICATION_2200.md"
+    },
+    {
+      "id": "arxiv:2610.25358",
+      "title": "LateMatch: Breaking the Interaction Bottleneck via Cacheable Matching for Efficient Visual Localization",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        6,
+        9
+      ],
+      "year": 2026,
+      "venue": "CoRL 2026 / arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.25358",
+      "repo_url": "https://github.com/UTAustin-SwarmLab/LateMatch",
+      "code_status": "Official MIT GitHub repository verified by API, but root contains only LICENSE/.gitignore; implementation not publicly available in checked tree",
+      "notes": "Late interaction separates reusable offline image-context cache from online K-way matching; paper reports 2.2x wall-clock full-pipeline localization speedup on desktop GPU (Aachen K=50) with comparable accuracy and unchanged peak memory. CoRL 2026; physical/edge localization workload, but model architecture rather than general GPU multi-tenant VLA serving; no edge hardware or p99 SLO validation.",
+      "evidence": "daily/2026-10-25/NEW_PDF_FULLTEXT_0300.json"
+    },
+    {
+      "id": "arxiv:2610.18697",
+      "title": "UniW(A)M: A Unified Mixture-of-Experts Framework for World and World-Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        7,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.18697",
+      "code_status": "No official implementation repository linked on arXiv abstract; independently runnable serving stack not verified",
+      "notes": "Model-centric shared-expert DiT unifies WM/WAM interfaces; plug-in PAIR selects interface per action chunk and clears/rebuilds runtime caches on switches. Paper reports 88.3% real-world task success versus 76.7% baseline; ~63ms router timing excludes observation/language encoding, action generation, cache reconstruction and multi-GPU control communication. No reusable multi-tenant scheduler or full-loop p99 evidence.",
+      "evidence": "daily/2026-10-25/NEW_PDF_FULLTEXT_0300.json"
     }
   ]
 }
