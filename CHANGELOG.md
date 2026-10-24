@@ -1,3 +1,7 @@
+## 2026-10-24 08:25 CST — Partial 7d source incident; seven official abstracts
+- 7d Atom cs.DC/cs.AR/cs.PF/cs.RO PASS; cs.LG page-15 HTTP 429 and same-window retry failed; NOT_COVERED_PARTIAL. Last-good 07:07 source-only PASS 2365 retained.
+- 24h zero exact NOT_COVERED; first-party 18/18, runtime 9/9, seven official abstracts. No promotions; 186 papers and 266 valid private PDFs.
+
 ## 2026-10-24 07:07 CST — Source-only scan and PAL PDF evidence
 - Official Atom 7d five-category direct PASS 2365, 24h zero exact NOT_COVERED; 18/18 first-party, 9/9 runtime, 10 official abstracts.
 - PAL official 21-page PDF newly downloaded and SHA256 validated, SYS_ALG_BOUNDARY candidate (not formal promotion); task-success claims are not serving SLO.
