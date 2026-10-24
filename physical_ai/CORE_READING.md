@@ -14,6 +14,8 @@ This list is ordered by **systems value**, not by citation count.
 | S | vla.cpp | portable C++ VLA runtime | https://arxiv.org/abs/2606.08094 |
 | S | Characterizing VLA Models across XPUs | heterogeneous on-robot performance characterization | https://arxiv.org/abs/2604.24447 |
 | S | vLLM-Omni | general multimodal serving infrastructure extending into robot/action serving | https://arxiv.org/abs/2602.02204 |
+| A- | CARE | critic-guided cloud/local robot executor handoff with shared state; decision-layer latency, no real control p99 | https://arxiv.org/abs/2610.30587 |
+| A- | FastHarness | experience-guided VLA reviewer scheduling; 57.2% token reduction in simulation, [MIT code](https://github.com/FastHarness/fast-harness) | https://arxiv.org/abs/2610.31427 |
 | A- | CusADi2 | RTX 4080 robot kinematics/Jacobians/Hessians GPU runtime; 67 robot models, 50Hz planner, [MIT code](https://github.com/johnviljoen/cusadi2) | https://arxiv.org/abs/2610.25476 |
 | A+ | Armory | control-aware batched robot-policy serving | https://arxiv.org/abs/2608.00337 |
 | A+ | SOP | fleet/cloud actor-learner infrastructure and async policy synchronization | https://arxiv.org/abs/2601.03044 |

@@ -1,4 +1,6 @@
 # CORE_SYS
+- [CARE](https://arxiv.org/abs/2610.30587) — **A-**, critic-guided cloud/local embodied execution authority transfer with shared handoff memory; median time-between-action −28.8–82.6% paper-reported; decision-layer only, no network/control p99 or verified code.
+- [FastHarness](https://arxiv.org/abs/2610.31427) — **A-**, reusable memory-guided VLA reviewer scheduler and recovery harness; 57.2% fewer reviewer tokens, episode time 85.5→52.0 min on **four simulated tasks**; [MIT code](https://github.com/FastHarness/fast-harness), no real robot/p99 SLO.
 - [Beyond LLM Serving](https://arxiv.org/abs/2610.05062) — ASPLOS 2027 system-level VLA workload characterization across four VLA families and RTX 4090 / Jetson Thor / Jetson AGX Orin; stage/roofline/DVFS profiling plus 43,200 closed-loop episodes expose batch-1 control-deadline and SLO-aware accuracy-speed-energy tradeoffs.
 - [EAServe](https://arxiv.org/abs/2609.31551) — encode-aware disaggregated multimodal serving: load-adaptive micro-batching, partial local-prefill offload, dynamic SM partitioning, and joint resource/configuration search; up to 4.3x vs Dynamo and 1.7x vs vLLM SLO-goodput.
 

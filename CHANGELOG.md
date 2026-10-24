@@ -1,3 +1,6 @@
+## 2026-10-24 16:10 CST — CORE_SYS +2 CARE/FastHarness; arXiv 7d OAI direct PASS, Atom cs.LG retry 429
+- 194 formal works / 140 CORE_SYS; 270 private PDFs, 2 pre-existing PDFs revalidated for promotions; 7 official abstracts and 4 archived PDFs inspected. 24h zero exact NOT_COVERED; full semantic/reverse/venue IN_PROGRESS.
+
 ## 2026-10-24 15:02 CST — 7d five-category OAI+Atom direct census, 18 new first-party abstracts; no formal promotions
 - 2277 7d unique SOURCE_ONLY; 24h zero exact NOT_COVERED; first-party 18/18, runtime 9/9; 192 papers / 138 CORE_SYS / 270 private PDFs. Full semantic/reverse/venue checks remain IN_PROGRESS.
 

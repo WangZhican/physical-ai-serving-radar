@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24 13:10 CST",
-  "count": 192,
+  "updated": "2026-10-24 16:10 CST",
+  "count": 194,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3405,6 +3405,43 @@
       "code_status": "Official author-linked Apache-2.0 implementation, docs/tests/benchmarks, 2743 GitHub stars at 2026-10-24 13h check",
       "notes": "Reusable DiT distributed inference engine combining sequence parallelism, PipeFusion patch pipeline, CFG parallelism, and hybrid topologies; evaluated on two 8xL40 PCIe/Ethernet nodes and one 8xA100 NVLink node. Multimodal diffusion inference infrastructure, not direct VLA serving or robot p99.",
       "evidence": "daily/2026-10-24/REVERSE_DIT_CLASSIFICATION_1300.md"
+    },
+    {
+      "id": "arxiv:2610.30587",
+      "title": "Know When to Escalate: Critic-Guided Adaptive Execution for Cloud-Local Embodied Agents",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        4,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.30587",
+      "code_status": "No author-linked dedicated public code independently confirmed",
+      "notes": "CARE dynamically transfers execution authority between low-latency local executor and stronger cloud model using reliability critic, persistent escalation and shared handoff memory. Paper reports 6.3-18.3 percentage-point success gain vs strongest collaboration baseline and 28.8-82.6% lower median time-between-action latency. Critical caveat: measured decision-layer responsiveness; hardware control, sensing noise, network variability, fleet multiplexing and p99 are not validated.",
+      "evidence": "daily/2026-10-24/CARE_FASTHARNESS_CLASSIFICATION_1600.md"
+    },
+    {
+      "id": "arxiv:2610.31427",
+      "title": "FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.31427",
+      "repo_url": "https://github.com/FastHarness/fast-harness",
+      "code_status": "First-party GitHub API verified MIT repository, Python package, docs and tests; 2 stars at 16h",
+      "notes": "Reusable robot execution harness dynamically schedules high-level reviewer calls over pi0.5 action chunks using stage memory, success/error history and recovery gating. Four simulated manipulation tasks: reviewer tokens decrease 57.2% on average, mean episode time 85.5 to 52.0 min, reported success 97.19% vs 80% baseline. Simulation only; no real robot, fleet throughput or p99 SLO proof.",
+      "evidence": "daily/2026-10-24/CARE_FASTHARNESS_CLASSIFICATION_1600.md"
     }
   ]
 }
