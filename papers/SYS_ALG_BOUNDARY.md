@@ -2,6 +2,9 @@
 
 Works whose algorithmic novelty remains central, but which expose substantial runtime/deployment primitives.
 
+- [Xiaomi-Robotics-0](https://arxiv.org/abs/2602.12684) — **A-**, RTX 4090 80ms VLA inference, 30Hz aligned input timeline and asynchronous action-chunk execution on real bimanual robots; model/deployment boundary, not reusable multi-tenant serving or p99. Dedicated author code not independently verified.
+- [Agile-VLA](https://arxiv.org/abs/2603.22899) — **B+**, edge robot asynchronous perception 10Hz / control 50Hz, physical 6-DoF industrial manipulation; task-specific action primitives, not generic GPU VLA serving/p99. Code unconfirmed.
+
 - [FrameBlend](https://arxiv.org/abs/2610.29229) — **A-**, query-aware selective video KV recomputation across idle prefill and query-time processing; 14.1–58.7% total latency reduction on RVS-Ego for ReKV/LiveVLM (paper-reported). Algorithmic cache boundary, not multi-tenant GPU serving/p99; 15-page official PDF verified, code unconfirmed.
 
 - [Rolling-WAM](https://arxiv.org/abs/2609.30247) — rolling/staggered WAM denoising across replanning cycles; 4.5x steady-state replanning speedup. Strong real-time control/runtime boundary evidence, but primary novelty remains model formulation rather than reusable serving substrate.

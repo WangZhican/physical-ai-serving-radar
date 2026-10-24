@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24 17:13 CST",
-  "count": 195,
+  "updated": "2026-10-24 20:08 CST",
+  "count": 197,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3460,6 +3460,42 @@
       "code_status": "Dedicated author implementation not independently verified",
       "notes": "Training-free query-aware selective KV recomputation across idle-time frame prefill and query-time context. Three streaming-video-understanding frameworks and five benchmarks; paper reports up to 3.9 percentage-point accuracy gain and 14.1-58.7% lower total latency on RVS-Ego for ReKV/LiveVLM. Algorithmic per-model cache optimization, not a reusable multi-tenant serving scheduler; no p99/fleet evidence.",
       "evidence": "daily/2026-10-24/FRAMEBLEND_CALM_CLASSIFICATION_1700.md"
+    },
+    {
+      "id": "arxiv:2602.12684",
+      "title": "Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        6,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2602.12684",
+      "code_status": "Authors state code/checkpoints open; dedicated Xiaomi author repository not independently confirmed (linked openpi is a cited baseline)",
+      "notes": "Model-and-deployment co-design: asynchronous action chunk execution with timestep alignment; RTX 4090 measured 80ms inference and 30Hz multimodal timeline; real bimanual robot tasks. Important real-hardware VLA serving boundary but primarily model/training/control pipeline, not reusable multi-tenant GPU scheduling or p99 SLO.",
+      "evidence": "daily/2026-10-24/ROBION_SYSTEM_CLASSIFICATION_2000.md"
+    },
+    {
+      "id": "arxiv:2603.22899",
+      "title": "Agile-VLA: Few-Shot Industrial Pose Rectification via Implicit Affordance Anchoring",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        4,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.22899",
+      "code_status": "No dedicated author code repository independently verified",
+      "notes": "Edge robot dual-stream architecture decouples perception at 10Hz from control at 50Hz, tested on physical 6-DoF industrial pose-rectification manipulator; Jetson Orin Nano edge target. Task-specific geometric affordance/action primitive algorithm, not general VLA GPU serving, multi-tenant scheduler or p99 proof.",
+      "evidence": "daily/2026-10-24/ROBION_SYSTEM_CLASSIFICATION_2000.md"
     }
   ]
 }
