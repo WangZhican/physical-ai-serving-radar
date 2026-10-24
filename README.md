@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-10-24 12:10 CST**
+**Last updated: 2026-10-24 13:10 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -30,6 +30,9 @@ The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni
 | rMuscle | 2026 / arXiv | P3, P5, P6, P8 | Two-stage cross-execution VLA inference cache; 1.20–1.42x end-to-end vs FlashRT on RTX 4090/Jetson Thor | Dedicated code unverified | [paper](https://arxiv.org/abs/2609.19104) | A |
 | OrbitWeaver | 2026 / arXiv | M4, M6; P5, P6, P9 transfer | Phase-aware VLM checkpoint/recovery on edge hardware; 72h two-satellite deployment, up to 4.07x paper-reported speedup | Dedicated code unverified | [paper](https://arxiv.org/abs/2610.29183) | A |
 | HarnessPAI | 2026 / arXiv | P2, P3, P7, P9 | Executable Physical-AI harness with offline code evolution and reusable skills; no online high-level LLM per rollout; not a multi-tenant serving/SLO result | [MIT repo](https://github.com/Darwin-Agent/HarnessPAI) | [paper](https://arxiv.org/abs/2609.29166) | A |
+| CusADi2 | 2026 / arXiv | P3, P6, P9 | GPU robot kinematics/Jacobians/Hessians DAG scheduling on RTX 4080; 67 robots, <40us common-platform evaluation, 50Hz Franka planner; not VLA serving | [MIT repo](https://github.com/johnviljoen/cusadi2) | [paper](https://arxiv.org/abs/2610.25476) | A- |
+| xDiT | 2024 / arXiv | M/DiT P6/P7/P10 transfer | Hybrid SP/PipeFusion/CFG distributed DiT inference, real L40 Ethernet and A100 NVLink GPU clusters | [Apache-2.0 repo](https://github.com/xdit-project/xDiT) | [paper](https://arxiv.org/abs/2411.01738) | A+ |
+| DDiT | 2025 / arXiv | M/DiT P3/P6/P7/P8 transfer | T2V T5/DiT/VAE stage-aware GPU resource allocation and step scheduling; up to 1.44x p99 latency; 8-server emulated scaling | Code unverified | [paper](https://arxiv.org/abs/2506.13497) | A |
 | RETNAS | 2026 / RTNS | P3, P6, P9 (transfer) | HRT-certified mixed-deadline DAG DNN inference scheduling on heterogeneous accelerators; simulated, no robot deployment | [simulator](https://github.com/BlancoFrancescoGiulio/retnas) | [paper](https://arxiv.org/abs/2610.29503) | A- |
 | PhyAI | 2026 / arXiv | P2, P6, P7, P8, P10 | Unified VLA/WAM runtime across onboard, edge and cloud rollout paths | — | [paper](https://arxiv.org/abs/2608.03682) | S+ |
 | M* | 2026 / arXiv | P7, P10, M3 | Modular component-graph serving for multimodal/composite models | — | [paper](https://arxiv.org/abs/2606.12688) | S+ |

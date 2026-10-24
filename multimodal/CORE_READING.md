@@ -11,6 +11,8 @@ This list is ordered by **systems importance and route coverage**.
 | S | Cornserve | distributed any-to-any multimodal serving | https://arxiv.org/abs/2603.12118 |
 | S | Omni-Flow | workflow orchestration + distributed KV/state sharing | https://arxiv.org/abs/2606.31093 |
 | A+ | GENSERVE | heterogeneous T2I/T2V diffusion co-serving on 8×RTX PRO 6000 Blackwell; step preemption + elastic SP + SLO scheduler; up to 44% relative SLO attainment gain, code unverified | https://arxiv.org/abs/2604.04335 |
+| A+ | xDiT | hybrid SP/PipeFusion/CFG DiT inference across real multi-node GPUs; [Apache-2.0 code](https://github.com/xdit-project/xDiT) | https://arxiv.org/abs/2411.01738 |
+| A | DDiT | T2V multi-stage DiT/VAE resource allocation and step scheduling; up to 1.44x p99 latency, simulated multi-server scaling | https://arxiv.org/abs/2506.13497 |
 | A+ | LiveServe | interaction-aware real-time omni serving | https://arxiv.org/abs/2606.22983 |
 | A+ | HeteroServe | cross-tier heterogeneous GPU serving | https://arxiv.org/abs/2603.12707 |
 | A+ | SpaceServe | spatial multiplexing of complementary encoder/decoder phases | NeurIPS 2025 |

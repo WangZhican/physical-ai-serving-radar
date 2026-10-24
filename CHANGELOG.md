@@ -1,3 +1,6 @@
+## 2026-10-24 13:10 CST — CORE_SYS +3 (CusADi2, xDiT, DDiT), PDF +2
+- Official first-party PDF/repo inspection and citation-neighborhood recovery; 7d OAI five-category direct source-only PASS 2301; 24h exact zero NOT_COVERED; Atom 7d cs.LG page6 HTTP429. 192 formal papers / 138 CORE_SYS / 270 private PDFs.
+
 ## 2026-10-24 12:10 CST — GENSERVE CORE_SYS +1, arXiv OAI direct 7d recovered, PDF +2
 - [GENSERVE](https://arxiv.org/abs/2604.04335): 8×RTX PRO 6000 Blackwell T2I/T2V co-serving, step-level preemption and elastic SP; up to 44% relative SLO-attainment improvement; code unverified. FIT-MAC 27-page PDF archived as boundary candidate.
 - OAI-PMH 7d direct five-category PASS 2310 unique source-only; 24h zero exact NOT_COVERED; Atom still 429/timeouts. Full semantic/reverse/venue coverage IN_PROGRESS. Formal 189 / CORE_SYS 135 / PDFs 268.

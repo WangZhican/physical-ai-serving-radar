@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24 12:10 CST",
-  "count": 189,
+  "updated": "2026-10-24 13:10 CST",
+  "count": 192,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3346,6 +3346,65 @@
       "code_status": "Dedicated official implementation not independently verified; PDF only links Hugging Face diffusers dependency",
       "notes": "Real 8x RTX PRO 6000 Blackwell (96GB) shared-GPU T2I/T2V co-serving; step-level video preemption, elastic sequence parallelism with dynamic batching, SLO-aware resource scheduling. Paper reports up to 44% SLO-attainment improvement vs strongest baseline, and at sigma=1.0 78% vs SRTF 71% and FCFS 59%. Arrival traces are synthetic Poisson/bursty using real image/video prompts, not observed production fleet traces. Not a robot/VLA serving or real control-loop p99 benchmark.",
       "evidence": "daily/2026-10-24/GENSERVE_CLASSIFICATION_1200.md"
+    },
+    {
+      "id": "arxiv:2610.25476",
+      "title": "CusADi2: Latency-Optimized Batch Computation of Robot Kinematics, Jacobians, and Hessians on the GPU",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.25476",
+      "repo_url": "https://github.com/johnviljoen/cusadi2",
+      "code_status": "Author-linked MIT Python/GPU library, tests/profiling/examples independently verified by official GitHub API",
+      "notes": "Reusable GPU batched robot kinematics/Jacobians/Hessians library with within-instance DAG/warp scheduling. RTX 4080 16GB measured; paper reports <40us for common robot platforms at 256 evaluations vs >=100us in compared GPU frameworks, 67 MuJoCo Menagerie robots and a 50Hz Franka sampling-based control demo. Not VLA inference serving, multi-tenant SLO, or p99 control-loop proof.",
+      "evidence": "daily/2026-10-24/CUSADI2_CLASSIFICATION_1300.md"
+    },
+    {
+      "id": "arxiv:2506.13497",
+      "title": "DDiT: Dynamic Resource Allocation for Diffusion Transformer Model Serving",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6,
+        7,
+        8,
+        11
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2506.13497",
+      "code_status": "Dedicated author code repository not independently verified",
+      "notes": "T2V multi-stage T5/DiT/VAE serving with adaptive parallelism, stage-aware resource allocation, single-step scheduling and starvation-aware control. Reports up to 1.44x p99 and 1.43x average latency vs baselines; evaluation includes GPU-server experiments and emulated 8-server GPU cluster. Not a robot/VLA control-loop result.",
+      "evidence": "daily/2026-10-24/REVERSE_DIT_CLASSIFICATION_1300.md"
+    },
+    {
+      "id": "arxiv:2411.01738",
+      "title": "xDiT: an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2411.01738",
+      "repo_url": "https://github.com/xdit-project/xDiT",
+      "code_status": "Official author-linked Apache-2.0 implementation, docs/tests/benchmarks, 2743 GitHub stars at 2026-10-24 13h check",
+      "notes": "Reusable DiT distributed inference engine combining sequence parallelism, PipeFusion patch pipeline, CFG parallelism, and hybrid topologies; evaluated on two 8xL40 PCIe/Ethernet nodes and one 8xA100 NVLink node. Multimodal diffusion inference infrastructure, not direct VLA serving or robot p99.",
+      "evidence": "daily/2026-10-24/REVERSE_DIT_CLASSIFICATION_1300.md"
     }
   ]
 }

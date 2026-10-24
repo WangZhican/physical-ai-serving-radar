@@ -7,6 +7,9 @@ Primary contribution must be runtime, serving, resource management, scheduling, 
 ## Multimodal / diffusion co-serving
 - [GENSERVE](https://arxiv.org/abs/2604.04335) — **A+**; real 8×RTX PRO 6000 Blackwell T2I/T2V shared-GPU serving with diffusion-step video preemption, elastic sequence parallelism, dynamic batching and SLO-aware scheduling. Up to **44% relative** SLO-attainment improvement reported. Synthetic arrivals using real prompts; dedicated code unverified; not robot-control p99.
 
+- [CusADi2](https://arxiv.org/abs/2610.25476) — **A-**, reusable DAG/warp-scheduled GPU robot kinematics/Jacobians/Hessians library; RTX 4080, 67 robots, <40us common platforms at B=256, 50Hz Franka planner demo; [MIT code](https://github.com/johnviljoen/cusadi2). Not VLA model serving or p99 fleet SLO.
+- [DDiT](https://arxiv.org/abs/2506.13497) — **A**, T2V T5/DiT/VAE stage-aware GPU resource allocation, adaptive parallelism and step-granular scheduling; up to 1.44x p99 / 1.43x mean latency paper-reported; includes emulated 8-server scaling, author code unverified.
+- [xDiT](https://arxiv.org/abs/2411.01738) — **A+**, reusable hybrid SP/PipeFusion/CFG parallel DiT inference across real L40 Ethernet and A100 NVLink GPU clusters; [Apache-2.0 code](https://github.com/xdit-project/xDiT) (2743 stars at 13h). Not VLA serving.
 ## Physical-AI serving trunk
 - [KerColle](https://arxiv.org/abs/2609.22335) — online GPU CTA/SM-resource-aware VLM/action-head kernel co-scheduling across VLA requests; up to **28% simulated** throughput gain on RTX 4090/5090-configured Accel-Sim; **A-**, no verified physical GPU implementation or code.
 - [GGraph](https://arxiv.org/abs/2610.28953) — reusable GPU-resident graph/ROS2 robot runtime for real deployment and batched multi-robot learning; ms graph updates, ~10x training wall-time benefit reported; **A-**, dedicated author repo not independently resolved; not VLA serving p99.
