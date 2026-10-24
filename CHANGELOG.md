@@ -1,3 +1,8 @@
+## 2026-10-25 06:06 CST — OAI_7D_2123_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE_SYS+1; BOUNDARY+1; PDF+0; FIRST_PARTY_18/18; RUNTIME_9/9
+- CORE_SYS +1 vLLM-Omni Technical Report, SYS_ALG_BOUNDARY +1 ActTune; 2 existing official PDFs SHA-256 sealed, zero new unique PDFs.
+- 7d official five-category direct census 2123 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero exact NOT_COVERED.
+- 20/20 previously unreviewed official 30d abstracts verified, 18/18 first-party, 9/9 runtime; reverse/venue/project IN_PROGRESS.
+
 ## 2026-10-25 05:10 CST — 30D_OAI_PASS_14112_SOURCE_ONLY; 7D_2128; 24H_NOT_COVERED; CORE_SYS+3; PDF+0; FIRST_PARTY_18/18; RUNTIME_9/9
 - 30d official five-category OAI census PASS SOURCE_ONLY: 14112 unique, 264 older-than-7d SYS+Physical title leads, 12 official abstracts attempted (9 successful).
 - CORE_SYS +3: GPU-resident Execution, HeteroVDiff, Isaac-Net; three previously archived official PDFs, zero new unique PDFs; exact system scope limits retained.

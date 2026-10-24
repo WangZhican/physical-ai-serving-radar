@@ -1,4 +1,5 @@
 # SYS_ALG_BOUNDARY
+- [ActTune](https://arxiv.org/abs/2610.08444) — **A-**, VLA per-action precision plus asynchronous GPU frequency/power-cap adaptation, resident quantized weight bank; author reports up to 2.02× inference speedup and 76.8% less GPU energy per successful LIBERO task (BF16 baseline), latency-increase budget <=10%; dedicated controller code and fleet p99 unverified.
 
 Works whose algorithmic novelty remains central, but which expose substantial runtime/deployment primitives.
 

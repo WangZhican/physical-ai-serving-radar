@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-10-25 05:10 CST**
+**Last updated: 2026-10-25 06:06 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -22,6 +22,7 @@ The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni
 
 | Title | Year / Venue | Route | System Contribution | Open Source / Repo | Paper | Priority |
 |---|---|---|---|---|---|---|
+| vLLM-Omni Technical Report | 2026 / arXiv | P2, P3, P5, P6, P7, P10 | Multi-stage omni orchestration, specialized replica pools and streaming/session control; distinct report from 2602.02204 | [open-source](https://github.com/vllm-project/vllm-omni) | [paper](https://arxiv.org/abs/2610.09307) | S |
 | GPU-resident Execution | 2026 / arXiv | P2, P3, P6, P9 | Host-free GPU sensor I/O + persistent CUDA Graph execution; 1080p camera jitter 4.83→0.66ms, not VLA serving | Holoscan SDK exists; dedicated implementation unverified | [paper](https://arxiv.org/abs/2610.13809) | A |
 | HeteroVDiff | 2026 / arXiv | P6, P8 (multimodal) | Galaxy S25 NPU/GPU video diffusion shared-weight pipeline; 1.35× stream throughput, SLO-qualified | Dedicated code unverified | [paper](https://arxiv.org/abs/2610.16244) | A |
 | Isaac-Net | 2026 / arXiv | P1, P9 | GPU 5G network-in-loop robot fleet simulation; 1,048,576 robots, training/evaluation only | [BSD-3 code](https://github.com/ZzZTripleZzZ/isaac-net) | [paper](https://arxiv.org/abs/2610.02370) | A- |

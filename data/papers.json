@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 05:10 CST",
-  "count": 204,
+  "updated": "2026-10-25 06:06 CST",
+  "count": 206,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3593,6 +3593,45 @@
       "repo_url": "https://github.com/ZzZTripleZzZ/isaac-net",
       "code_status": "Official BSD-3-Clause GitHub repo with isaac_net, benchmarks, tests, docs verified by API",
       "notes": "Isaac-Net GPU-batched 5G NR network-in-the-loop evaluation infrastructure for multi-robot fleets. Isaac Lab 1,048,576 robots on one GPU at 1.24 control steps/s vs 1.50 without network (random policy). Simulates network AoI/delay and load, not a production serving scheduler or measured fleet p99."
+    },
+    {
+      "id": "arxiv:2610.09307",
+      "title": "vLLM-Omni Technical Report: A Unified Serving Runtime for Omni-Modality Generation",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        10,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.09307",
+      "repo_url": "https://github.com/vllm-project/vllm-omni",
+      "code_status": "Official open-source vLLM-Omni runtime; latest stable GitHub API v0.30.0, v0.32.0rc1 separately tracked as prerelease",
+      "notes": "34p official full text: unified multi-stage orchestration, stage-specific engines/replica pools, connector data plane, session-aware streaming/duplex/world-model/robot workloads, multi-hardware support; report's H100/H200 multimodal CI is not proof of robot-fleet p99. Distinct 2026 technical report from arxiv:2602.02204; do not merge identifiers."
+    },
+    {
+      "id": "arxiv:2610.08444",
+      "title": "ActTune: Action-Aware Precision and GPU Operating-Point Adaptation for Energy-Efficient Vision-Language-Action Inference",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "ICLR 2027 under review / arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.08444",
+      "code_status": "Dedicated implementation/reproducible GPU frequency-power controller not independently verified",
+      "notes": "22p official full text: per-action quantization, resident weight bank, asynchronous GPU frequency/power-cap selection under <=10% latency-increase budget; up to 2.02x faster inference and 76.8% less GPU energy per successful LIBERO task vs BF16 (author claims). Primarily policy precision/DVFS co-optimization, not generic fleet-serving or p99 scheduler."
     }
   ]
 }
