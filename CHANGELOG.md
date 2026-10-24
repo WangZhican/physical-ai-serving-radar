@@ -1,3 +1,8 @@
+## 2026-10-25 05:10 CST — 30D_OAI_PASS_14112_SOURCE_ONLY; 7D_2128; 24H_NOT_COVERED; CORE_SYS+3; PDF+0; FIRST_PARTY_18/18; RUNTIME_9/9
+- 30d official five-category OAI census PASS SOURCE_ONLY: 14112 unique, 264 older-than-7d SYS+Physical title leads, 12 official abstracts attempted (9 successful).
+- CORE_SYS +3: GPU-resident Execution, HeteroVDiff, Isaac-Net; three previously archived official PDFs, zero new unique PDFs; exact system scope limits retained.
+- 24h zero exact NOT_COVERED, 7d direct 2128 SOURCE_ONLY; first-party 18/18 and runtime 9/9, Streaming-WAM PR4 OPEN.
+
 ## 2026-10-25 04:02 CST — OAI_7D_PASS_2133_SOURCE_ONLY; 24H_ZERO_EXACT_NOT_COVERED; ABSTRACTS_4; PROMOTION_0; PDF_0; FIRST_PARTY_16/18; RUNTIME_6/9
 - Five-category 7d official OAI census PASS SOURCE_ONLY; 24h OAI+Atom zero-exact NOT_COVERED. Four new official abstracts and Robion/Beyond recall inspected; no new paper promotion.
 - First-party 16/18 and runtime 6/9; exact source timeouts retained. LateMatch code still not published; Streaming-WAM PR4 OPEN.

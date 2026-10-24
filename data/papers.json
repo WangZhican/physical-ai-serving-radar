@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 03:09 CST",
-  "count": 201,
+  "updated": "2026-10-25 05:10 CST",
+  "count": 204,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3182,8 +3182,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.28624",
       "code_status": "Industrial extension code not independently verified; original ReMEmbR upstream repo exists",
-      "notes": "Fleet-shared persistent vision-token memory, edge/on-prem disaggregation and on-demand decoding; 100-robot GPU cost is modeled (36.25 to 1.04 equiv at 10% describe), NOT real fleet SLO; Jetson Xavier Cosmos-Embed1 mean 11.76s per clip. Simulated 914-frame traffic map; 450 cached-token parity tests.",
-      "evidence": "daily/2026-10-23/INDUSTRIAL_REMEMBR_FULLTEXT_1900.md"
+      "notes": "Fleet-shared persistent vision-token memory, edge/on-prem disaggregation and on-demand decoding; 100-robot GPU cost is modeled (36.25 to 1.04 equiv at 10% describe), NOT real fleet SLO; Jetson Xavier Cosmos-Embed1 mean 11.76s per clip. Simulated 914-frame traffic map; 450 cached-token parity tests."
     },
     {
       "id": "arxiv:2610.25736",
@@ -3201,8 +3200,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.25736",
       "code_status": "Dedicated FATS/SwarmLink/HotSwarm public code release not independently verified",
-      "notes": "Real 96-robot fleet learning-serving infrastructure: SwarmLink shared inference/trajectory data plane and HotSwarm fault-tolerant worker control; 9834 episodes, 660 robot-hours, 30 incidents, 1.3% fleet robot-time downtime. Not a serving tail-latency benchmark; learning method FERT distinct.",
-      "evidence": "daily/2026-10-23/FATS_CLASSIFICATION_2212.md"
+      "notes": "Real 96-robot fleet learning-serving infrastructure: SwarmLink shared inference/trajectory data plane and HotSwarm fault-tolerant worker control; 9834 episodes, 660 robot-hours, 30 incidents, 1.3% fleet robot-time downtime. Not a serving tail-latency benchmark; learning method FERT distinct."
     },
     {
       "id": "arxiv:2609.19104",
@@ -3220,8 +3218,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.19104",
       "code_status": "Dedicated public implementation not independently verified",
-      "notes": "Two-stage reusable cross-execution VLA inference cache (Context/Action); real RTX4090/Jetson Thor 1.20-1.42x end-to-end vs FlashRT across 92 tasks including two real robot tasks. Not fleet serving; no demonstrated p99 SLO; code unverified.",
-      "evidence": "daily/2026-10-23/RMUSCLE_CLASSIFICATION_2310.md"
+      "notes": "Two-stage reusable cross-execution VLA inference cache (Context/Action); real RTX4090/Jetson Thor 1.20-1.42x end-to-end vs FlashRT across 92 tasks including two real robot tasks. Not fleet serving; no demonstrated p99 SLO; code unverified."
     },
     {
       "id": "arxiv:2610.29183",
@@ -3238,8 +3235,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.29183",
       "code_status": "Dedicated public implementation not independently verified",
-      "notes": "Multimodal edge VLM phase-aware checkpoint/recovery under power/thermal interruptions; Jetson Orin; 72h on two real satellites. Paper reports up to 4.07x end-to-end and 3.56x lower SSD writes. Not a robot-serving or multi-tenant SLO benchmark.",
-      "evidence": "daily/2026-10-24/ORBITWEAVER_CLASSIFICATION_0305.md"
+      "notes": "Multimodal edge VLM phase-aware checkpoint/recovery under power/thermal interruptions; Jetson Orin; 72h on two real satellites. Paper reports up to 4.07x end-to-end and 3.56x lower SSD writes. Not a robot-serving or multi-tenant SLO benchmark."
     },
     {
       "id": "arxiv:2610.29503",
@@ -3257,8 +3253,7 @@
       "paper_url": "https://arxiv.org/abs/2610.29503",
       "repo_url": "https://github.com/BlancoFrancescoGiulio/retnas",
       "code_status": "Official MIT simulator with code, profiles and tests verified; tests not executed",
-      "notes": "Policy-agnostic runtime certification/fallback for mixed HRT/SRT DAG DNN inference on heterogeneous accelerators; 81.41% simulated SRT deadline hit rate at 10ms workload; HRT deadlines certified under modeled WCET assumptions. Simulator only; no physical robot/VLA hardware evaluation or measured p99.",
-      "evidence": "daily/2026-10-24/RETNAS_CLASSIFICATION_0402.md"
+      "notes": "Policy-agnostic runtime certification/fallback for mixed HRT/SRT DAG DNN inference on heterogeneous accelerators; 81.41% simulated SRT deadline hit rate at 10ms workload; HRT deadlines certified under modeled WCET assumptions. Simulator only; no physical robot/VLA hardware evaluation or measured p99."
     },
     {
       "id": "arxiv:2609.29166",
@@ -3277,8 +3272,7 @@
       "paper_url": "https://arxiv.org/abs/2609.29166",
       "repo_url": "https://github.com/Darwin-Agent/HarnessPAI",
       "code_status": "Official MIT Python CLI/package and execution/evolution/feedback/infra/memory/primitives modules verified via GitHub API; not locally executed",
-      "notes": "Model/embodiment-agnostic executable task harness: no online high-level LLM deliberation during rollout, across-rollout code evolution and persistent skill repair. Seven settings/four embodiment groups; README reports +61.6pp LIBERO-PRO and +27.2pp RoboCasa Atomic-Seen success vs respective baselines. No verified multi-tenant GPU serving, p99 control SLO, or fleet deployment.",
-      "evidence": "daily/2026-10-24/HARNESSPAI_CLASSIFICATION_0600.md"
+      "notes": "Model/embodiment-agnostic executable task harness: no online high-level LLM deliberation during rollout, across-rollout code evolution and persistent skill repair. Seven settings/four embodiment groups; README reports +61.6pp LIBERO-PRO and +27.2pp RoboCasa Atomic-Seen success vs respective baselines. No verified multi-tenant GPU serving, p99 control SLO, or fleet deployment."
     },
     {
       "id": "arxiv:2609.22335",
@@ -3296,8 +3290,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.22335",
       "code_status": "Dedicated author implementation not independently verified; GitHub exact-topic search returned no matching repository",
-      "notes": "Hardware CTA head-of-line blocking characterization and online SM-utilization/resource-aware kernel co-scheduling across independent VLM/action-head requests. Four VLAs (CogACT, pi0.5, Octo, GraspVLA), RTX4090/5090 configured Accel-Sim, up to 28% reported throughput gain. SIMULATION ONLY using NVBit traces, not physical GPU scheduler implementation, measured real-robot p99, or fleet SLO validation.",
-      "evidence": "daily/2026-10-24/KERCOLLE_CLASSIFICATION_1100.md"
+      "notes": "Hardware CTA head-of-line blocking characterization and online SM-utilization/resource-aware kernel co-scheduling across independent VLM/action-head requests. Four VLAs (CogACT, pi0.5, Octo, GraspVLA), RTX4090/5090 configured Accel-Sim, up to 28% reported throughput gain. SIMULATION ONLY using NVBit traces, not physical GPU scheduler implementation, measured real-robot p99, or fleet SLO validation."
     },
     {
       "id": "arxiv:2610.28953",
@@ -3314,8 +3307,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.28953",
       "code_status": "Paper describes open-source library but an author-linked GGraph repository was NOT independently resolved; do not claim a verified code release",
-      "notes": "Reusable GPU-resident dynamic graph/ROS2 robot deployment and vectorized multi-robot training infrastructure. Official paper reports millisecond-scale single-robot graph updates and roughly order-of-magnitude lower policy-training wall time over CPU graph baselines, with simulation and real-robot evidence. Not a VLA inference server, multi-tenant serving scheduler, or p99 control-SLO benchmark.",
-      "evidence": "daily/2026-10-24/GGRAPH_CLASSIFICATION_1100.md"
+      "notes": "Reusable GPU-resident dynamic graph/ROS2 robot deployment and vectorized multi-robot training infrastructure. Official paper reports millisecond-scale single-robot graph updates and roughly order-of-magnitude lower policy-training wall time over CPU graph baselines, with simulation and real-robot evidence. Not a VLA inference server, multi-tenant serving scheduler, or p99 control-SLO benchmark."
     },
     {
       "id": "arxiv:2604.04335",
@@ -3334,8 +3326,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2604.04335",
       "code_status": "Dedicated official implementation not independently verified; PDF only links Hugging Face diffusers dependency",
-      "notes": "Real 8x RTX PRO 6000 Blackwell (96GB) shared-GPU T2I/T2V co-serving; step-level video preemption, elastic sequence parallelism with dynamic batching, SLO-aware resource scheduling. Paper reports up to 44% SLO-attainment improvement vs strongest baseline, and at sigma=1.0 78% vs SRTF 71% and FCFS 59%. Arrival traces are synthetic Poisson/bursty using real image/video prompts, not observed production fleet traces. Not a robot/VLA serving or real control-loop p99 benchmark.",
-      "evidence": "daily/2026-10-24/GENSERVE_CLASSIFICATION_1200.md"
+      "notes": "Real 8x RTX PRO 6000 Blackwell (96GB) shared-GPU T2I/T2V co-serving; step-level video preemption, elastic sequence parallelism with dynamic batching, SLO-aware resource scheduling. Paper reports up to 44% SLO-attainment improvement vs strongest baseline, and at sigma=1.0 78% vs SRTF 71% and FCFS 59%. Arrival traces are synthetic Poisson/bursty using real image/video prompts, not observed production fleet traces. Not a robot/VLA serving or real control-loop p99 benchmark."
     },
     {
       "id": "arxiv:2610.25476",
@@ -3353,8 +3344,7 @@
       "paper_url": "https://arxiv.org/abs/2610.25476",
       "repo_url": "https://github.com/johnviljoen/cusadi2",
       "code_status": "Author-linked MIT Python/GPU library, tests/profiling/examples independently verified by official GitHub API",
-      "notes": "Reusable GPU batched robot kinematics/Jacobians/Hessians library with within-instance DAG/warp scheduling. RTX 4080 16GB measured; paper reports <40us for common robot platforms at 256 evaluations vs >=100us in compared GPU frameworks, 67 MuJoCo Menagerie robots and a 50Hz Franka sampling-based control demo. Not VLA inference serving, multi-tenant SLO, or p99 control-loop proof.",
-      "evidence": "daily/2026-10-24/CUSADI2_CLASSIFICATION_1300.md"
+      "notes": "Reusable GPU batched robot kinematics/Jacobians/Hessians library with within-instance DAG/warp scheduling. RTX 4080 16GB measured; paper reports <40us for common robot platforms at 256 evaluations vs >=100us in compared GPU frameworks, 67 MuJoCo Menagerie robots and a 50Hz Franka sampling-based control demo. Not VLA inference serving, multi-tenant SLO, or p99 control-loop proof."
     },
     {
       "id": "arxiv:2506.13497",
@@ -3373,8 +3363,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2506.13497",
       "code_status": "Dedicated author code repository not independently verified",
-      "notes": "T2V multi-stage T5/DiT/VAE serving with adaptive parallelism, stage-aware resource allocation, single-step scheduling and starvation-aware control. Reports up to 1.44x p99 and 1.43x average latency vs baselines; evaluation includes GPU-server experiments and emulated 8-server GPU cluster. Not a robot/VLA control-loop result.",
-      "evidence": "daily/2026-10-24/REVERSE_DIT_CLASSIFICATION_1300.md"
+      "notes": "T2V multi-stage T5/DiT/VAE serving with adaptive parallelism, stage-aware resource allocation, single-step scheduling and starvation-aware control. Reports up to 1.44x p99 and 1.43x average latency vs baselines; evaluation includes GPU-server experiments and emulated 8-server GPU cluster. Not a robot/VLA control-loop result."
     },
     {
       "id": "arxiv:2411.01738",
@@ -3393,8 +3382,7 @@
       "paper_url": "https://arxiv.org/abs/2411.01738",
       "repo_url": "https://github.com/xdit-project/xDiT",
       "code_status": "Official author-linked Apache-2.0 implementation, docs/tests/benchmarks, 2743 GitHub stars at 2026-10-24 13h check",
-      "notes": "Reusable DiT distributed inference engine combining sequence parallelism, PipeFusion patch pipeline, CFG parallelism, and hybrid topologies; evaluated on two 8xL40 PCIe/Ethernet nodes and one 8xA100 NVLink node. Multimodal diffusion inference infrastructure, not direct VLA serving or robot p99.",
-      "evidence": "daily/2026-10-24/REVERSE_DIT_CLASSIFICATION_1300.md"
+      "notes": "Reusable DiT distributed inference engine combining sequence parallelism, PipeFusion patch pipeline, CFG parallelism, and hybrid topologies; evaluated on two 8xL40 PCIe/Ethernet nodes and one 8xA100 NVLink node. Multimodal diffusion inference infrastructure, not direct VLA serving or robot p99."
     },
     {
       "id": "arxiv:2610.30587",
@@ -3411,8 +3399,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.30587",
       "code_status": "No author-linked dedicated public code independently confirmed",
-      "notes": "CARE dynamically transfers execution authority between low-latency local executor and stronger cloud model using reliability critic, persistent escalation and shared handoff memory. Paper reports 6.3-18.3 percentage-point success gain vs strongest collaboration baseline and 28.8-82.6% lower median time-between-action latency. Critical caveat: measured decision-layer responsiveness; hardware control, sensing noise, network variability, fleet multiplexing and p99 are not validated.",
-      "evidence": "daily/2026-10-24/CARE_FASTHARNESS_CLASSIFICATION_1600.md"
+      "notes": "CARE dynamically transfers execution authority between low-latency local executor and stronger cloud model using reliability critic, persistent escalation and shared handoff memory. Paper reports 6.3-18.3 percentage-point success gain vs strongest collaboration baseline and 28.8-82.6% lower median time-between-action latency. Critical caveat: measured decision-layer responsiveness; hardware control, sensing noise, network variability, fleet multiplexing and p99 are not validated."
     },
     {
       "id": "arxiv:2610.31427",
@@ -3430,8 +3417,7 @@
       "paper_url": "https://arxiv.org/abs/2610.31427",
       "repo_url": "https://github.com/FastHarness/fast-harness",
       "code_status": "First-party GitHub API verified MIT repository, Python package, docs and tests; 2 stars at 16h",
-      "notes": "Reusable robot execution harness dynamically schedules high-level reviewer calls over pi0.5 action chunks using stage memory, success/error history and recovery gating. Four simulated manipulation tasks: reviewer tokens decrease 57.2% on average, mean episode time 85.5 to 52.0 min, reported success 97.19% vs 80% baseline. Simulation only; no real robot, fleet throughput or p99 SLO proof.",
-      "evidence": "daily/2026-10-24/CARE_FASTHARNESS_CLASSIFICATION_1600.md"
+      "notes": "Reusable robot execution harness dynamically schedules high-level reviewer calls over pi0.5 action chunks using stage memory, success/error history and recovery gating. Four simulated manipulation tasks: reviewer tokens decrease 57.2% on average, mean episode time 85.5 to 52.0 min, reported success 97.19% vs 80% baseline. Simulation only; no real robot, fleet throughput or p99 SLO proof."
     },
     {
       "id": "arxiv:2610.29229",
@@ -3448,8 +3434,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.29229",
       "code_status": "Dedicated author implementation not independently verified",
-      "notes": "Training-free query-aware selective KV recomputation across idle-time frame prefill and query-time context. Three streaming-video-understanding frameworks and five benchmarks; paper reports up to 3.9 percentage-point accuracy gain and 14.1-58.7% lower total latency on RVS-Ego for ReKV/LiveVLM. Algorithmic per-model cache optimization, not a reusable multi-tenant serving scheduler; no p99/fleet evidence.",
-      "evidence": "daily/2026-10-24/FRAMEBLEND_CALM_CLASSIFICATION_1700.md"
+      "notes": "Training-free query-aware selective KV recomputation across idle-time frame prefill and query-time context. Three streaming-video-understanding frameworks and five benchmarks; paper reports up to 3.9 percentage-point accuracy gain and 14.1-58.7% lower total latency on RVS-Ego for ReKV/LiveVLM. Algorithmic per-model cache optimization, not a reusable multi-tenant serving scheduler; no p99/fleet evidence."
     },
     {
       "id": "arxiv:2602.12684",
@@ -3466,8 +3451,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2602.12684",
       "code_status": "Authors state code/checkpoints open; dedicated Xiaomi author repository not independently confirmed (linked openpi is a cited baseline)",
-      "notes": "Model-and-deployment co-design: asynchronous action chunk execution with timestep alignment; RTX 4090 measured 80ms inference and 30Hz multimodal timeline; real bimanual robot tasks. Important real-hardware VLA serving boundary but primarily model/training/control pipeline, not reusable multi-tenant GPU scheduling or p99 SLO.",
-      "evidence": "daily/2026-10-24/ROBION_SYSTEM_CLASSIFICATION_2000.md"
+      "notes": "Model-and-deployment co-design: asynchronous action chunk execution with timestep alignment; RTX 4090 measured 80ms inference and 30Hz multimodal timeline; real bimanual robot tasks. Important real-hardware VLA serving boundary but primarily model/training/control pipeline, not reusable multi-tenant GPU scheduling or p99 SLO."
     },
     {
       "id": "arxiv:2603.22899",
@@ -3484,8 +3468,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2603.22899",
       "code_status": "No dedicated author code repository independently verified",
-      "notes": "Edge robot dual-stream architecture decouples perception at 10Hz from control at 50Hz, tested on physical 6-DoF industrial pose-rectification manipulator; Jetson Orin Nano edge target. Task-specific geometric affordance/action primitive algorithm, not general VLA GPU serving, multi-tenant scheduler or p99 proof.",
-      "evidence": "daily/2026-10-24/ROBION_SYSTEM_CLASSIFICATION_2000.md"
+      "notes": "Edge robot dual-stream architecture decouples perception at 10Hz from control at 50Hz, tested on physical 6-DoF industrial pose-rectification manipulator; Jetson Orin Nano edge target. Task-specific geometric affordance/action primitive algorithm, not general VLA GPU serving, multi-tenant scheduler or p99 proof."
     },
     {
       "id": "arxiv:2610.19656",
@@ -3503,8 +3486,7 @@
       "paper_url": "https://arxiv.org/abs/2610.19656",
       "repo_url": "https://github.com/JHLee2314/PICES_VLA",
       "code_status": "Official Apache-2.0 pi05/GR00T model adapter source verified; README explicitly excludes model servers, RPC clients, full evaluator, weights, evaluation records; no full rerun after cleanup",
-      "notes": "Training-free batched candidate chunk/execution-horizon selection reduces cumulative VLA policy calls; paper reports up to 2.3x wall-clock policy inference time on Jetson Orin/Thor, not per-kernel speedup or multi-tenant serving/p99. Real robot and simulation evidence; primarily algorithmic.",
-      "evidence": "daily/2026-10-24/PHYSICAL_CLASSIFICATION_2200.md"
+      "notes": "Training-free batched candidate chunk/execution-horizon selection reduces cumulative VLA policy calls; paper reports up to 2.3x wall-clock policy inference time on Jetson Orin/Thor, not per-kernel speedup or multi-tenant serving/p99. Real robot and simulation evidence; primarily algorithmic."
     },
     {
       "id": "arxiv:2610.29264",
@@ -3522,8 +3504,7 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.29264",
       "code_status": "Project page noted in original PDF; independently runnable server code not verified",
-      "notes": "Real-robot client + centralized GPU inference/recording server + asynchronous online learner and checkpoint handoff; four real bimanual tasks, sessions under 1h. 3B WAM online training on eight H100 (~0.4s/optimizer step, not serving latency). Main novelty provenance-conditioned training, no fleet/p99 study.",
-      "evidence": "daily/2026-10-24/PHYSICAL_CLASSIFICATION_2200.md"
+      "notes": "Real-robot client + centralized GPU inference/recording server + asynchronous online learner and checkpoint handoff; four real bimanual tasks, sessions under 1h. 3B WAM online training on eight H100 (~0.4s/optimizer step, not serving latency). Main novelty provenance-conditioned training, no fleet/p99 study."
     },
     {
       "id": "arxiv:2610.25358",
@@ -3542,8 +3523,7 @@
       "paper_url": "https://arxiv.org/abs/2610.25358",
       "repo_url": "https://github.com/UTAustin-SwarmLab/LateMatch",
       "code_status": "Official MIT GitHub repository verified by API, but root contains only LICENSE/.gitignore; implementation not publicly available in checked tree",
-      "notes": "Late interaction separates reusable offline image-context cache from online K-way matching; paper reports 2.2x wall-clock full-pipeline localization speedup on desktop GPU (Aachen K=50) with comparable accuracy and unchanged peak memory. CoRL 2026; physical/edge localization workload, but model architecture rather than general GPU multi-tenant VLA serving; no edge hardware or p99 SLO validation.",
-      "evidence": "daily/2026-10-25/NEW_PDF_FULLTEXT_0300.json"
+      "notes": "Late interaction separates reusable offline image-context cache from online K-way matching; paper reports 2.2x wall-clock full-pipeline localization speedup on desktop GPU (Aachen K=50) with comparable accuracy and unchanged peak memory. CoRL 2026; physical/edge localization workload, but model architecture rather than general GPU multi-tenant VLA serving; no edge hardware or p99 SLO validation."
     },
     {
       "id": "arxiv:2610.18697",
@@ -3561,8 +3541,58 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.18697",
       "code_status": "No official implementation repository linked on arXiv abstract; independently runnable serving stack not verified",
-      "notes": "Model-centric shared-expert DiT unifies WM/WAM interfaces; plug-in PAIR selects interface per action chunk and clears/rebuilds runtime caches on switches. Paper reports 88.3% real-world task success versus 76.7% baseline; ~63ms router timing excludes observation/language encoding, action generation, cache reconstruction and multi-GPU control communication. No reusable multi-tenant scheduler or full-loop p99 evidence.",
-      "evidence": "daily/2026-10-25/NEW_PDF_FULLTEXT_0300.json"
+      "notes": "Model-centric shared-expert DiT unifies WM/WAM interfaces; plug-in PAIR selects interface per action chunk and clears/rebuilds runtime caches on switches. Paper reports 88.3% real-world task success versus 76.7% baseline; ~63ms router timing excludes observation/language encoding, action generation, cache reconstruction and multi-GPU control communication. No reusable multi-tenant scheduler or full-loop p99 evidence."
+    },
+    {
+      "id": "arxiv:2610.13809",
+      "title": "GPU-resident Execution for Timing-predictable Sensor Processing Systems",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        6,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.13809",
+      "code_status": "Paper describes Holoscan reference C++ components; public Holoscan SDK exists, but dedicated GPU-resident implementation not independently located",
+      "notes": "NVIDIA GPU-resident CUDA Graph + GPU-driven I/O / GPU-memory RDMA sensor-to-output loop avoids host wakeups. Real 1080p 60Hz camera-to-display: photon-to-display jitter 4.83->0.66ms (7.3x), software jitter 1.70->0.01ms (170x), plus p99.9 microbench evidence. Reusable real-time GPU sensor runtime, not VLA multi-tenant SLO."
+    },
+    {
+      "id": "arxiv:2610.16244",
+      "title": "HeteroVDiff: Pipelining Video Diffusion across Mobile NPU and GPU with Shared Weights",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.16244",
+      "code_status": "No dedicated official implementation repository independently verified",
+      "notes": "Mobile heterogeneous video-diffusion runtime: shared INT8 weights and stage pipeline across NPU/GPU on Galaxy S25 running DCM-Wan2.1. 49-frame 1.35x throughput vs NPU-only (677 vs 917s/clip), 17-frame 1.50x; 5.3 vs 3.9 videos/hour meeting per-clip deadline, weights 1.47 vs 2.83GiB. Multimodal edge generation, not VLA control-loop serving."
+    },
+    {
+      "id": "arxiv:2610.02370",
+      "title": "Network-in-the-Loop at Scale: GPU-Batched 5G Simulation for Massively Parallel Robot Learning",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.02370",
+      "repo_url": "https://github.com/ZzZTripleZzZ/isaac-net",
+      "code_status": "Official BSD-3-Clause GitHub repo with isaac_net, benchmarks, tests, docs verified by API",
+      "notes": "Isaac-Net GPU-batched 5G NR network-in-the-loop evaluation infrastructure for multi-robot fleets. Isaac Lab 1,048,576 robots on one GPU at 1.24 control steps/s vs 1.50 without network (random policy). Simulates network AoI/delay and load, not a production serving scheduler or measured fleet p99."
     }
   ]
 }

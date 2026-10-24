@@ -4,6 +4,7 @@ This list is ordered by **systems importance and route coverage**.
 
 | Priority | Work | Main systems role | Paper / project |
 |---|---|---|---|
+| A | HeteroVDiff | Galaxy S25 NPU/GPU shared-weight video diffusion pipeline, 1.35× stream throughput, SLO-qualified 5.3 vs 3.9 clips/h | https://arxiv.org/abs/2610.16244 |
 | S+ | M*: A Modular, Extensible, Serving System for Multimodal Models | composite model graph / walk abstraction | https://arxiv.org/abs/2606.12688 |
 | S | vLLM-Omni | fully disaggregated any-to-any multimodal serving | https://arxiv.org/abs/2602.02204 |
 | S | Eevee | module multiplexing for multimodal serving | https://doi.org/10.1145/3767295.3769389 |

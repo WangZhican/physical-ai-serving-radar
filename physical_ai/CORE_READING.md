@@ -4,6 +4,8 @@ This list is ordered by **systems value**, not by citation count.
 
 | Priority | Work | Main systems role | Paper / project |
 |---|---|---|---|
+| A | GPU-resident Execution | Persistent GPU-driven I/O / CUDA Graph sensor runtime; 7.3× less 60Hz camera-to-display jitter, not VLA fleet serving | https://arxiv.org/abs/2610.13809 |
+| A- | Isaac-Net | GPU 5G network-in-loop simulation for robot fleets; [BSD-3 code](https://github.com/ZzZTripleZzZ/isaac-net); training/evaluation only | https://arxiv.org/abs/2610.02370 |
 | S+ | Kairos: A Scalable Serving System for Physical AI | generate–execute-aware multi-robot serving | https://arxiv.org/abs/2605.11381 |
 | S+ | ROSA: A Robotics Foundation Model Serving System for Robot Factories | fleet GPU pooling, multi-model robot SLOs | https://arxiv.org/abs/2607.01088 |
 | S+ | Robion: Efficient Vision-Language-Action Management and Serving for Robot Factories | SLO-aware multi-robot/multi-model VLA serving; intra-GPU VLM/ADiT overlap, SM partitioning, co-location and traffic assignment | https://arxiv.org/abs/2609.12075 |
