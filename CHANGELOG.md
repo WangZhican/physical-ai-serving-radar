@@ -1,3 +1,8 @@
+## 2026-10-25 15:01 CST — OAI_7D_2048_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE+1; BOUNDARY+3; PDF+5; FIRST_PARTY_HTML_18/18
+- CORE_SYS +1: RT-SAFE; SYS_ALG_BOUNDARY +3: SemARC, Frequency-Step Cache, EmbodiTTA; MHR-Router evidence-only.
+- 7d OAI 2048 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.
+- 24 official abstracts, 5 official PDFs newly archived; first-party HTML 18/18; runtime/API 9/9; reverse/venue IN_PROGRESS.
+
 ## 2026-10-25 14:08 CST — OAI_7D_2054_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE+1; BOUNDARY+3; PDF+4; FIRST_PARTY_HTML_15/18
 - CORE_SYS +1: Multimodal Remote Inference; SYS_ALG_BOUNDARY +3: Fast Plans, SimpleMemVLA, TurboVLA; PACE evidence-only.
 - 7d OAI 2054 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.

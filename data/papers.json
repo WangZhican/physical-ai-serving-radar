@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 14:08 CST",
-  "count": 230,
+  "updated": "2026-10-25 15:01 CST",
+  "count": 234,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4046,6 +4046,73 @@
       "paper_url": "https://arxiv.org/abs/2607.27205",
       "code_status": "Official H-EmbodVis/TurboVLA repository verified with actual turbovla source, scripts, experiments; GitHub API 706 stars at checkpoint",
       "notes": "20-page official PDF; 0.2B direct V+L-to-action model, RTX4090 31.2ms inference/0.9GiB VRAM, optimized CUDA Graph 7.42ms inference setting; author-reported model-level GPU latency, not end-to-end multi-robot serving or p99."
+    },
+    {
+      "id": "arxiv:2610.09294",
+      "title": "RT-SAFE: Benchmarking Agent Safety in Real-Time Embodied Environment",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.09294",
+      "repo_url": "https://github.com/XTRose29/RT-SAFE",
+      "code_status": "Official first-author GitHub RT-SAFE code and benchmark/evaluation/tests/simulation directories verified via API; not locally executed",
+      "notes": "31-page official PDF; simulated real-time urban embodied-agent benchmark where the world advances during VLM inference and action. Matched static vs real-time task completion 91.3% vs 94.1% but collision count 12.3x higher; hardest setting 0.7% episodes safely completed. Reusable time-sensitive evaluation infrastructure, not a serving scheduler or measured GPU p99."
+    },
+    {
+      "id": "arxiv:2610.07466",
+      "title": "Efficient Multimodal Inference through Adaptive Acquisition and Sequential Fusion (SemARC)",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        2,
+        4,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.07466",
+      "code_status": "No official implementation independently verified",
+      "notes": "40-page official PDF; Sequential Modality Aggregator and Adaptive Runtime Controller choose modality encoder execution and early stopping without recomputing prior branches. Six multimodal classification datasets, 61.4% lower GFLOPs vs most accurate baseline, mean end-to-end latency 44.0% lower across GPU/CPU and 47.2% lower on Android INT8 vs fastest measured baseline. Learned modality acquisition policy, no batching/multi-session serving or robotics closed loop."
+    },
+    {
+      "id": "arxiv:2610.15922",
+      "title": "Frequency-Step Cache: Separating Synchronization and Repair for Efficient Autoregressive Video Diffusion",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        5,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.15922",
+      "code_status": "No official implementation independently verified",
+      "notes": "30-page official PDF; decouples fixed exact-computation anchors from drift/age-controlled repair in AR video DiT caching. SkyReels-V2 FSC-Speed 2.36x speedup vs full inference; comparisons to MotionCache speed and quality are separate settings. No multi-tenant world-model serving, cache isolation or p99 evaluation."
+    },
+    {
+      "id": "arxiv:2505.00986",
+      "title": "EmbodiTTA: Resource-Efficient Test-Time Adaptation for Embodied Visual Systems",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        6
+      ],
+      "year": 2025,
+      "venue": "IEEE Internet of Things Journal / arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2505.00986",
+      "repo_url": "https://github.com/TheMaXiao/EmbodiTTA",
+      "code_status": "First-author repository with embodied TTA Python module, tests, ImageNet-C/CIFAR-10-C scripts verified via GitHub API; not locally executed",
+      "notes": "11-page official PDF; event-triggered domain-shift detection and on-demand adaptation with memory-efficient BN updates on Jetson Orin Nano. 10k samples in 239s, 6.7x faster than MECTA latency baseline; 47.2% energy saved vs EATA-C at 10k frames. Streaming embodied perception adaptation rather than online VLA serving scheduler."
     }
   ]
 }

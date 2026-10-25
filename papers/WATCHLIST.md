@@ -1,3 +1,5 @@
+**2026-10-25 15:01 CST — Evidence-only, NOT formally promoted:** [MHR-Router](https://arxiv.org/abs/2610.13278), retrieval-enhanced multimodal expert routing; five-page official PDF verified, but no measured serving latency, resource cost, throughput or p99.
+
 **2026-10-25 14:08 CST — Evidence-only, NOT formally promoted:** [PACE](https://arxiv.org/abs/2606.00537), phase-aware action-chunk execution horizon; 50 RoboTwin2.0 tasks average success 57.8→64.2%, real-robot evaluation. No serving resource/SLO/p99 benchmark.
 
 **2026-10-25 13:02 CST — Evidence-only, NOT formally promoted:** [RoboChrono](https://arxiv.org/abs/2609.36605), streaming robot task-understanding benchmark with 39 scenarios/34,713 instances; [official Apache-2.0 repo](https://github.com/mfan-res/ROBOCHRONO). No serving-runtime performance benchmark or p99 evidence.
