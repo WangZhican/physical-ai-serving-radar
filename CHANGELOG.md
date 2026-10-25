@@ -1,3 +1,7 @@
+## 2026-10-26 07:09 CST — OAI_ATOM_7D_1853_PASS_SOURCE_ONLY; 24H_NOT_COVERED; FIRST_PARTY_18/18; ABSTRACTS_1/1; PROMOTION_0
+- 7d official OAI and Atom recovered to matching complete source-only census; 24h zero-exact NOT_COVERED.
+- First-party 18/18, one new official abstract TRACT; zero promotions, reverse/venue/project pending.
+
 ## 2026-10-26 06:09 CST — OAI_7D_1857_PASS_SOURCE_ONLY; ATOM_7D_429_PARTIAL; 24H_NOT_COVERED; FIRST_PARTY_18/18; ABSTRACTS_12/12; PROMOTION_0
 - 7d OAI complete source-only 1857; Atom cs.LG HTTP429 partial, last-good Atom PASS 1872 retained; 24h zero-exact NOT_COVERED.
 - First-party 18/18, 12 new official abstracts; no promotions or new PDFs, reverse/venue/project still pending.
