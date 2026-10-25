@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 07:10 CST",
-  "count": 208,
+  "updated": "2026-10-25 08:02 CST",
+  "count": 212,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3666,6 +3666,76 @@
       "paper_url": "https://arxiv.org/abs/2610.19201",
       "code_status": "Dedicated first-party code release not independently verified",
       "notes": "31-page official PDF: four-step causal LiDAR world model with rolling temporal KV cache and world-aligned persistent spatial cache; author reports 11 FPS on one H100. Model/algorithm and state reuse rather than reusable serving scheduler; no multi-session p99/robot fleet demonstration."
+    },
+    {
+      "id": "arxiv:2610.13862",
+      "title": "BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        6,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.13862",
+      "code_status": "Dedicated first-party code release not independently verified",
+      "notes": "9-page official PDF: on-board Jetson Thor + 9B LLM on Spot, behavior-tree skill supervisor with local safety guards, asynchronous high-level decisions, real-robot interruption and 161-task multi-fidelity benchmark (text evaluation 10.9x throughput vs simulator). Local stop-command median 19ms is not VLA inference latency; no multi-tenant p99/serving proof. Reusable onboard runtime and evaluation infrastructure."
+    },
+    {
+      "id": "arxiv:2610.16238",
+      "title": "Embodied Skill Bench: Benchmarking How Well Agents with Embodied Skills Perform on Physical Tasks",
+      "class": "CORE_SYS",
+      "route": [
+        7,
+        8,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.16238",
+      "repo_url": "https://github.com/HanZhi306/EmbodiedSkill-Bench",
+      "code_status": "First-party public repo verified with src/tests/evaluation, license not declared in API metadata",
+      "notes": "24-page official PDF: reusable 250-skill closed-loop robot-agent evaluation substrate with task success/actions/tokens/wall-clock time; 100 LIBERO-Pro tasks, native vs skill-only vs agent-directed reuse. Agent-directed reuse reports 14.1% fewer tokens and 11.9% less wall-clock time for a tested agent, not GPU serving throughput; no fleet/p99 claim. Evaluation infrastructure rather than online serving scheduler."
+    },
+    {
+      "id": "arxiv:2610.15585",
+      "title": "StreamingWAM: Streaming World Action Modeling via Chunk-Wise Staircase Flow Matching",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.15585",
+      "code_status": "Project page exists; dedicated public implementation repository not verified",
+      "notes": "20-page official PDF: staircase flow matching, noise ladder, prefix rollout and dense video-history memory. Real Franka robot at 15Hz on RTX5090, steady-state replan 57.3ms (1 denoise step) vs pi0.5 61.5ms (10 steps), both under 66.7ms budget. Model-level streaming method, not multi-tenant runtime or p99 serving."
+    },
+    {
+      "id": "arxiv:2610.17540",
+      "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.17540",
+      "code_status": "Dedicated first-party code release not verified",
+      "notes": "26-page official PDF: mask action-expert attention to generated reasoning and optionally generate episodic-memory reasoning during action execution. Up to 3.4x lower model-level inference latency vs explicit-reasoning baseline, one-H100 evaluation; no additional scheduler/multi-tenant or tail-latency proof."
     }
   ]
 }
