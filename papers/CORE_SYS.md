@@ -1,4 +1,6 @@
 # CORE_SYS
+- [WorldOracle](https://arxiv.org/abs/2610.18826) — **A-**, paired real-robot action-execution benchmark for action-conditioned world models, reproducible evaluation harness; [official code/tests](https://github.com/WorldOracle-benchmark/WorldOracle) verified; no serving p99.
+- [AstroBench](https://arxiv.org/abs/2610.31064) — **B+**, Isaac Sim free-floating robotic manipulation benchmark with 9 tasks/29 task-target combinations; [official code/tests](https://github.com/AstroUpLab/AstroBench) verified; not a serving benchmark.
 - [TARSphere](https://arxiv.org/abs/2610.30043) — **A-**, 360-episode robot-oriented simulation/runtime and evaluation harness; [official code](https://github.com/xuyicheng-zju/TARSphere) verified; no serving p99.
 - [Physical AI for Intralogistics](https://arxiv.org/abs/2610.28432) — **A-**, industrial digital-twin/real-robot benchmark with Jetson Xavier 54ms/5-8Hz, 0.892GB and 38.6% GPU; benchmark release unverified, no multi-tenant serving p99.
 - [StreamAhead](https://arxiv.org/abs/2610.25551) — **A+**, adaptive streaming video L1/L2/L3 representation scheduling, shared segment state, CPU-GPU pipeline and query-priority/recovery; 30FPS P95 TTFT<0.5s and 57FPS P95 TTFT<2s on single RTX 6000 Ada; code unverified, not robot-fleet p99.

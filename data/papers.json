@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26 02:08 CST",
-  "count": 251,
+  "updated": "2026-10-26 04:06 CST",
+  "count": 253,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4468,6 +4468,39 @@
       "code_status": "Official repository and executable source tree verified: https://github.com/Tariolle/dash-vmc",
       "notes": "10-page first-party PDF. Decoder-free live capture-to-action loop on RTX2060 at 60Hz; 5000-frame measurements mean 12.018ms, p95 14.068ms, p99 14.91ms vs 16.67ms deadline. Official MIT repository contains deepdash/, scripts/, tests/. Single-game deployment/benchmark and model-controller optimization, not general Physical-AI multi-tenant serving.",
       "evidence": "daily/2026-10-26/FULLTEXT_TRIAGE_0200.json; REPO_EVIDENCE_0200.json; REPO_CODE_0200.json"
+    },
+    {
+      "id": "arxiv:2610.18826",
+      "title": "WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions",
+      "class": "CORE_SYS",
+      "route": [
+        9,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.18826",
+      "code_status": "Official executable evaluation repository and tests verified: https://github.com/WorldOracle-benchmark/WorldOracle",
+      "notes": "42-page first-party fulltext; paired real-robot action execution vs world-model rollouts, reproducible evaluation harness and multi-model tests. Official repository verified with evaluate.py, acwmbench/, configs/, scripts/, tests/; measures physical fidelity rather than serving latency, throughput or p99.",
+      "evidence": "daily/2026-10-26/PDF_EVIDENCE_0400.json; DEEP_FIRST_PARTY_0400.json; REPO_TREE_0400.json"
+    },
+    {
+      "id": "arxiv:2610.31064",
+      "title": "AstroBench: Benchmarking Free-Floating Capture and Space Robotic Manipulation",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.31064",
+      "code_status": "Official executable evaluation repository and tests verified: https://github.com/AstroUpLab/AstroBench",
+      "notes": "12-page first-party fulltext; reusable Isaac Sim/Isaac Lab free-floating robotic manipulation workcells and task assets, 9 tasks/29 task-target combinations. Official repository verified with astrobench/, examples/, scripts/, tests/; no online serving or GPU p99 evidence.",
+      "evidence": "daily/2026-10-26/PDF_EVIDENCE_0400.json; DEEP_FIRST_PARTY_0400.json; REPO_TREE_0400.json"
     }
   ]
 }
