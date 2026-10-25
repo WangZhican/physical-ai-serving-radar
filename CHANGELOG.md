@@ -1,3 +1,8 @@
+## 2026-10-26 03:05 CST — OAI_ATOM_7D_1890_SOURCE_ONLY_PASS; 24H_NOT_COVERED; FIRST_PARTY_15/18; SEMANTIC_18/22; PROMOTION_0
+- Five-category 7d OAI/Atom direct census PASS (source-only), 24h zero exact NOT_COVERED.
+- 22 first-party abstracts attempted (18 succeeded), 18 official routes attempted (15 succeeded); no formal promotions/PDF additions; unresolved routes preserved.
+- Semantic/reverse/venue/project IN_PROGRESS.
+
 ## 2026-10-26 02:08 CST — ATOM_7D_1902_PASS; OAI_7D_1902_PASS; 24H_NOT_COVERED; FIRST_PARTY_18/18; SEMANTIC_10/10; BOUNDARY+2; PDF+2
 - Official 7d five-category OAI+Atom source-only PASS; 24h zero exact NOT_COVERED.
 - 10 first-party abstracts, 18/18 official checks, 3 fulltext PDFs, 2 unique new private PDFs; SYS_ALG_BOUNDARY +2 ReactiveBFM and DashVMC; official executable repositories verified.
