@@ -1,4 +1,7 @@
 # SYS_ALG_BOUNDARY
+- [Fast Plans, Faithful Actions](https://arxiv.org/abs/2609.30833) — **A**, block-AR waypoint planning 57→8 VLM passes, 8.7× lower real-robot planning latency, not end-to-end serving.
+- [SimpleMemVLA](https://arxiv.org/abs/2609.05533) — **A**, video-history shared-prefix prefill during robot action execution, 1.02→0.68s decision latency, not multi-session cache isolation.
+- [TurboVLA](https://arxiv.org/abs/2607.27205) — **A**, 0.2B/0.9GiB/31.2ms RTX4090, optimized CUDA Graph 7.42ms model inference; [official code](https://github.com/H-EmbodVis/TurboVLA) verified, not serving p99.
 - [Staircase Policy: Streaming Inference for World-Action Models with Large Action Chunks](https://arxiv.org/abs/2609.36471) — **A**, staggered subchunk inference; 292.7 executed actions/s, first action 123.6→73.3ms; no verified code, not serving p99.
 - [RAVEL: Asynchronous Rolling Inference for Flow-Based VLA Models](https://arxiv.org/abs/2609.34170) — **A**, async VLM and rolling action denoising; 178.52→92.97ms example response latency; no verified code.
 - [WAMachine: Efficient World Action Model Inference with Adaptive Intermediate States](https://arxiv.org/abs/2609.34608) — **A**, replan/denoise/layer state adaptation; 1.47–3.05× observation-to-action latency improvement; linked GitHub repo currently HTTP404.

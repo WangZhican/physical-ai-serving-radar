@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 13:02 CST",
-  "count": 226,
+  "updated": "2026-10-25 14:08 CST",
+  "count": 230,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3981,6 +3981,71 @@
       "paper_url": "https://arxiv.org/abs/2609.34608",
       "code_status": "Paper cites RSIScience/WAMachine, but official GitHub API returned HTTP404 at checkpoint; do not claim released code",
       "notes": "17-page official PDF; trajectory remapping across replans, observation rebinding during execution and selective layer residual reuse. Author reports 1.47–3.05x observation-to-action latency and 2.23–3.27x GPU inference per replan speedups, preserving 96.69–99.54% baseline task success; not multi-session serving."
+    },
+    {
+      "id": "arxiv:2508.07555",
+      "title": "Multimodal Remote Inference",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        8
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2508.07555",
+      "code_status": "No first-party implementation verified; mathematical scheduling algorithms and numerical evaluation",
+      "notes": "21-page official PDF; remote multi-sensor feature freshness scheduling via Age-of-Information vector, SMDP reduction, optimal switching/index policies and low-complexity alternatives. Robot-state/hand-pose/VAR numerical and trace-based evaluation, not deployed VLA runtime or p99. CORE_SYS is for reusable scheduling/resource-allocation abstraction, not a production serving system."
+    },
+    {
+      "id": "arxiv:2609.30833",
+      "title": "Fast Plans, Faithful Actions: Closing the Planning-Execution Gap in Hierarchical Vision-Language-Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.30833",
+      "code_status": "No first-party implementation verified",
+      "notes": "13-page official PDF; waypoint-aligned block autoregressive planning reduces VLM forward passes 57 to 8 including prefill and author-reported real-robot planning latency 8.7x lower; NGM ensures waypoint-conditioned actions. Planner component latency, not whole serving pipeline/p99."
+    },
+    {
+      "id": "arxiv:2609.05533",
+      "title": "SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.05533",
+      "code_status": "No first-party implementation verified",
+      "notes": "30-page official PDF; native-video history shared-prefix prefill during robot action execution and KV reuse at next decision, 1.02s to 0.68s decision latency with identical outputs to recomputation. Single-policy control-loop cache overlap, no multi-session memory isolation or p99."
+    },
+    {
+      "id": "arxiv:2607.27205",
+      "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.27205",
+      "code_status": "Official H-EmbodVis/TurboVLA repository verified with actual turbovla source, scripts, experiments; GitHub API 706 stars at checkpoint",
+      "notes": "20-page official PDF; 0.2B direct V+L-to-action model, RTX4090 31.2ms inference/0.9GiB VRAM, optimized CUDA Graph 7.42ms inference setting; author-reported model-level GPU latency, not end-to-end multi-robot serving or p99."
     }
   ]
 }
