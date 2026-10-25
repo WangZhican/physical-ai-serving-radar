@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 08:02 CST",
-  "count": 212,
+  "updated": "2026-10-25 09:08 CST",
+  "count": 216,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3736,6 +3736,79 @@
       "paper_url": "https://arxiv.org/abs/2610.17540",
       "code_status": "Dedicated first-party code release not verified",
       "notes": "26-page official PDF: mask action-expert attention to generated reasoning and optionally generate episodic-memory reasoning during action execution. Up to 3.4x lower model-level inference latency vs explicit-reasoning baseline, one-H100 evaluation; no additional scheduler/multi-tenant or tail-latency proof."
+    },
+    {
+      "id": "arxiv:2610.03797",
+      "title": "WAMJET: A Harness for World Action Model Acceleration",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.03797",
+      "repo_url": "https://github.com/liulixinkerry/WAMJET",
+      "code_status": "BSD-3-Clause first-party code verified: wamjet/skills/scripts/examples/EVAL.md",
+      "notes": "8-page official PDF, reusable profiling/optimization/validation agent harness across six WAMs, three coding agents and two GPU architectures; up to 9.95x author-reported lossless speedup vs upstream implementation. Offline WAM optimization infrastructure, not online multi-tenant serving or tail-latency guarantee."
+    },
+    {
+      "id": "arxiv:2610.13534",
+      "title": "MAGMA-Bench: Evaluating Long-Horizon Embodied Agents under Dynamic Tasks and Execution Failures",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        8,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.13534",
+      "repo_url": "https://github.com/MAGMA-rob/magma-bench",
+      "code_status": "BSD-2-Clause first-party repo with src/tests/pyproject verified",
+      "notes": "10-page official PDF: architecture-agnostic multi-robot long-horizon task/evaluation infrastructure, controlled online failures, interruptions and mission updates; structured skill interface and 261646 task-level training examples. Benchmark rather than online model-serving scheduler; no inference p99 claim."
+    },
+    {
+      "id": "arxiv:2610.11401",
+      "title": "WAM-Cache: Staleness-Bounded KV Reuse for Efficient World Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.11401",
+      "project_url": "https://dingkai0302.github.io/wam-cache/",
+      "code_status": "Official project verified; dedicated public code not verified",
+      "notes": "19-page official PDF: action-attention and latent-surprise selective KV refresh with age bound across WAM chunks; 32-42% video-DiT prefill FLOP reduction, 1.23x CUDA prefill speedup at native tokens and 1.67x at 9x visual context; no multi-session cache ownership or serving p99. Accuracy/compute tradeoff and model-level cache, not generic serving infrastructure."
+    },
+    {
+      "id": "arxiv:2610.12710",
+      "title": "REMM: Revisable Embodied Memory for Manipulation",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.12710",
+      "project_url": "https://revanthsenthil.github.io/remm/",
+      "code_status": "Official project verified; dedicated public implementation not verified",
+      "notes": "12-page official PDF: external evidence-linked task memory with dependency invalidation and bounded recovery scheduling around frozen G0.5 policy. 51 physical trials including operator-assisted runs; mean recorded task progress 57%->91% intervention recovery and 43%->70% sequence recall. Not unassisted success rate or generic multi-tenant serving/p99."
     }
   ]
 }
