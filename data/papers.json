@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 19:05 CST",
-  "count": 242,
+  "updated": "2026-10-25 20:11 CST",
+  "count": 243,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4311,6 +4311,24 @@
       "code_status": "No official code independently verified; PDF exposes no GitHub repository",
       "notes": "16-page official PDF; pre-commit observation re-scoring of speculative asynchronous VLA action chunks, overlapped pipeline and batched frozen-policy scoring. Authors report no additional control-step delay on evaluated hardware and success improvements +15.0pp Kinetix / +5.2pp LIBERO at four-step delay; 60% to 82% in three real-robot tasks. Not multi-tenant scheduling, p99 or GPU throughput.",
       "evidence": "daily/2026-10-25/SEMANTIC_FALSE_NEGATIVE_1900.json; daily/2026-10-25/FULLTEXT_RECHECK_1900.json"
+    },
+    {
+      "id": "arxiv:2610.27677",
+      "title": "CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        4,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.27677",
+      "code_status": "No official executable code independently verified",
+      "notes": "13-page official PDF; uncertainty-gated local Qwen3-8B fast/slow inference for embodied ObjectNav, with on-device TurtleBot 4 + RTX3080 experiments. Table II reports adaptive 0.72s average query inference vs 3.40s slow-only and 0.63s fast-only, with 12.4% slow activation on Gibson/HM3D settings; RTX4090D simulator, 22.6GB reported total memory. The prose also reports 0.68s/2.40s under a different timing description: avoid conflating. No multi-tenant admission, GPU scheduling, p99, or general-purpose serving abstraction.",
+      "evidence": "daily/2026-10-25/SEMANTIC_FALSE_NEGATIVE_2000.json; daily/2026-10-25/COVNAV_FULLTEXT_2000.json"
     }
   ]
 }

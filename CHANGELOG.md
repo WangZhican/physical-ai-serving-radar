@@ -1,3 +1,8 @@
+## 2026-10-25 20:11 CST — OAI_7D_1988_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE+0; BOUNDARY+1; PDF+1; FIRST_PARTY_HTML_15/18_API_FALLBACK_3/3
+- Official five-category 7d OAI and 24h OAI/Atom checks; 24 first-party abstracts, 1 verified private PDF.
+- SYS_ALG_BOUNDARY +1 CovNav; other sampled algorithm/benchmark work not promoted.
+- 24h zero-exact NOT_COVERED; 7d source-only, reverse/venue/project IN_PROGRESS.
+
 ## 2026-10-25 19:05 CST — OAI_7D_2003_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE+1; BOUNDARY+1; PDF+3; FIRST_PARTY_18/18
 - Direct five-category 7d OAI census and 24h OAI/Atom, 24 new official abstracts, 3 verified private PDFs.
 - CORE_SYS +1 LocoManiLab; SYS_ALG_BOUNDARY +1 PACT-VLA. Alpha evidence only.
