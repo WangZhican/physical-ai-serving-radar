@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 23:12 CST",
-  "count": 249,
+  "updated": "2026-10-26 02:08 CST",
+  "count": 251,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4433,6 +4433,41 @@
       "code_status": "No independently verified official implementation",
       "notes": "9-page official PDF. Asynchronous SP-VLA action-chunk inference overlapped with execution, SP-MGM motion generation and whole-body control. TensorRT SP-VLA 25 Hz and SP-MGM 10 Hz; SP-MGM 7.813 Hz standard versus 11.494 Hz text-free TensorRT accelerated in reported table. Primarily algorithmic control/model integration; no reusable multi-tenant serving scheduler or p99.",
       "evidence": "daily/2026-10-25/SEMANTIC_FALSE_NEGATIVE_2300.json; official arXiv 9-page PDF"
+    },
+    {
+      "id": "arxiv:2606.30362",
+      "title": "ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.30362",
+      "code_status": "Official repository and executable source tree verified: https://github.com/zjwzcx/ReactiveBFM",
+      "notes": "17-page first-party PDF. Event-driven asynchronous replanning separates autoregressive motion planning (19.34ms author figure) from 50Hz high-priority humanoid tracking, with 10-frame buffer margin and trajectory chunking. Unitree G1 deployment, success 93.1% in severe perturbation sim-to-sim test. Official repository contains deploy/, reactivebfm/, scripts/; no cross-robot serving scheduler, shared GPU multiplexing or p99. Classified SYS_ALG_BOUNDARY rather than CORE_SYS.",
+      "evidence": "daily/2026-10-26/FULLTEXT_TRIAGE_0200.json; REPO_EVIDENCE_0200.json; REPO_CODE_0200.json"
+    },
+    {
+      "id": "arxiv:2609.40003",
+      "title": "DashVMC: Real-Time Discrete World Model Control in Geometry Dash",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        8,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.40003",
+      "code_status": "Official repository and executable source tree verified: https://github.com/Tariolle/dash-vmc",
+      "notes": "10-page first-party PDF. Decoder-free live capture-to-action loop on RTX2060 at 60Hz; 5000-frame measurements mean 12.018ms, p95 14.068ms, p99 14.91ms vs 16.67ms deadline. Official MIT repository contains deepdash/, scripts/, tests/. Single-game deployment/benchmark and model-controller optimization, not general Physical-AI multi-tenant serving.",
+      "evidence": "daily/2026-10-26/FULLTEXT_TRIAGE_0200.json; REPO_EVIDENCE_0200.json; REPO_CODE_0200.json"
     }
   ]
 }

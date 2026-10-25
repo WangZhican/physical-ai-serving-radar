@@ -1,4 +1,6 @@
 # SYS_ALG_BOUNDARY
+- [ReactiveBFM](https://arxiv.org/abs/2606.30362) — **A**, 50Hz humanoid controller with event-driven asynchronous planner (~19.34ms), 10-frame buffer and trajectory chunks; [official executable code](https://github.com/zjwzcx/ReactiveBFM) verified; no shared serving/p99.
+- [DashVMC](https://arxiv.org/abs/2609.40003) — **A-**, 60Hz live world-model capture-action on RTX2060 (mean 12.018ms, p95 14.068ms, p99 14.91ms, 5000 frames); [official MIT code](https://github.com/Tariolle/dash-vmc) verified; game-specific, not multi-tenant serving.
 - [SP-HLM](https://arxiv.org/abs/2610.30044) — **A-**, asynchronous humanoid action-chunk inference and TensorRT motion generation; no multi-tenant serving scheduler or p99.
 - [TEAR](https://arxiv.org/abs/2610.30819) — **A-**, robot-side 30Hz network/task-evidence authority routing between teleoperation and local VLA, 90% success but slower completion; no GPU serving p99.
 - [Progress Probes P2](https://arxiv.org/abs/2610.31613) — **A-**, lightweight pi0.5 activation-linear runtime failure monitor, 0.026ms on RTX A6000; not a shared GPU serving scheduler, code unverified.
