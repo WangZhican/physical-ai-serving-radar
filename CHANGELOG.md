@@ -1,3 +1,7 @@
+## 2026-10-26 05:04 CST — OAI_ATOM_7D_1872_PASS_SOURCE_ONLY; ATOM_429_RECOVERED; 24H_NOT_COVERED; FIRST_PARTY_18/18; ABSTRACTS_30/30; PROMOTION_0
+- 7d official Atom HTTP429 recovery; OAI/Atom both complete source-only 1872, 24h zero-exact NOT_COVERED.
+- First-party 18/18, 30 official abstracts; no promotions or new PDFs, reverse/venue/project still pending.
+
 ## 2026-10-26 04:06 CST — OAI_7D_1880_PASS_SOURCE_ONLY; ATOM_7D_429_PARTIAL; 24H_NOT_COVERED; CORE+2; PDF_UNIQUE+1; FIRST_PARTY_15/18
 - Official 7d OAI five-category direct census PASS; Atom 7d HTTP429 partial, last-good retained; 24h zero-exact NOT_COVERED.
 - CORE_SYS +2 WorldOracle and AstroBench with first-party PDF/repository/tests; PDF +1 unique, WorldOracle updated version reconciled, FIT-MAC duplicate not counted.
