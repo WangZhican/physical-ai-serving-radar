@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-10-25 16:03 CST**
+**Last updated: 2026-10-25 17:00 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -26,6 +26,8 @@ The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni
 | RT-SAFE | 2026 / arXiv | P3, P9 | Time-advancing real-time embodied safety benchmark, 12.3× more collisions vs static evaluation; simulation, not serving p99 | [official code](https://github.com/XTRose29/RT-SAFE) | [paper](https://arxiv.org/abs/2610.09294) | A |
 | OmniTide | 2026 / arXiv | P3, P5, P6 | On-device omni streaming KV logical retention + physical compaction, up to 2.40× lower stream-loop latency; not multi-tenant p99 | Code unverified | [paper](https://arxiv.org/abs/2609.34653) | S |
 | LENS (FPGA Scene Memory) | 2026 / arXiv | P5, P6 | FPGA/ARM robot localization + neural rendering, 25.42ms localization and 1.9–5.7× perf/W vs Jetson Orin NX | Code unverified | [paper](https://arxiv.org/abs/2610.25068) | A |
+| UniCache | 2026 / arXiv | P3, P5, P7 | Unified multimodal task/type-aware KV cache compression and shared-budget scheduling, up to 1.78× throughput | [Apache-2.0 code](https://github.com/Superone77/UniCache) | [paper](https://arxiv.org/abs/2609.32831) | A |
+| Cache-Aware Conv3D Lowering | 2026 / arXiv | P5, P6, P10 | Jetson world-model video VAE cache-preserving Conv3D lowering, >2× full-generation acceleration | Code unverified | [paper](https://arxiv.org/abs/2609.31938) | A |
 | vLLM-Omni Technical Report | 2026 / arXiv | P2, P3, P5, P6, P7, P10 | Multi-stage omni orchestration, specialized replica pools and streaming/session control; distinct report from 2602.02204 | [open-source](https://github.com/vllm-project/vllm-omni) | [paper](https://arxiv.org/abs/2610.09307) | S |
 | GPU-resident Execution | 2026 / arXiv | P2, P3, P6, P9 | Host-free GPU sensor I/O + persistent CUDA Graph execution; 1080p camera jitter 4.83→0.66ms, not VLA serving | Holoscan SDK exists; dedicated implementation unverified | [paper](https://arxiv.org/abs/2610.13809) | A |
 | HeteroVDiff | 2026 / arXiv | P6, P8 (multimodal) | Galaxy S25 NPU/GPU video diffusion shared-weight pipeline; 1.35× stream throughput, SLO-qualified | Dedicated code unverified | [paper](https://arxiv.org/abs/2610.16244) | A |

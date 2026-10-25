@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 16:03 CST",
-  "count": 237,
+  "updated": "2026-10-25 17:00 CST",
+  "count": 240,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4164,6 +4164,58 @@
       "project_url": "https://yikai-wang.github.io/FlashForward",
       "code_status": "First-author project page HTTP200; no official source code independently verified",
       "notes": "24-page official PDF; stage-matched in-flight KV cache reuse and sparse clean-anchor KV, GPU-per-denoising-stage wavefront for streaming video diffusion. Up to four GPUs, 1.16–1.69x faster than HiAR and 1.42–2.92x than Self-Forcing on 16FPS >=20s video across 1.3B/14B models. Algorithm/pipeline boundary, not multi-tenant world-model serving p99."
+    },
+    {
+      "id": "arxiv:2609.32831",
+      "title": "UniCache: Task- and Type-Aware KV Cache Compression for Unified Multimodal Models",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.32831",
+      "repo_url": "https://github.com/Superone77/UniCache",
+      "project_url": "https://superone77.github.io/UniCache/",
+      "code_status": "Official Apache-2.0 implementation verified via GitHub API, including unicache/ modeling/ scripts/ tests/ and inference entrypoints; not independently benchmarked",
+      "notes": "15-page official PDF; task/type-specific unified multimodal KV allocation, calibration, compression, attention-guided shared-budget coordination and temporal scheduling. Reports 5x KV compression for understanding/editing, 2.5x for generation, up to 1.78x long-context throughput; no verified multi-tenant p99 or VLA robot deployment."
+    },
+    {
+      "id": "arxiv:2609.31938",
+      "title": "Cache-Aware Conv3D Lowering Across Embedded World-Model Decoders",
+      "class": "CORE_SYS",
+      "route": [
+        5,
+        6,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.31938",
+      "code_status": "No official implementation independently verified",
+      "notes": "16-page official PDF; preserves causal temporal cache semantics while lowering Conv3D to batched spatial Conv2D for edge world-model video decoders. Jetson AGX Orin 64GB: about 7x VAE decode acceleration and >2x full Cosmos3-Edge generation acceleration; TensorRT 1.36x further steady-state improvement with more specialization. No multi-session p99."
+    },
+    {
+      "id": "arxiv:2609.33256",
+      "title": "ActionGround: Training-Free Runtime Refinement of Frozen VLA Policies",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.33256",
+      "code_status": "No official implementation independently verified",
+      "notes": "9-page official PDF; phase-aware symbolic action correction and dynamics residual logging wrapping frozen VLA with author-reported <1ms/control-step overhead, 4 VLA backbones on LIBERO; improves task success/stability but no GPU serving, multi-tenant scheduling or p99. Real robot demo qualitative, not quantified success."
     }
   ]
 }

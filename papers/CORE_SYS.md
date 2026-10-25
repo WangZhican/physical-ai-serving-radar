@@ -1,4 +1,6 @@
 # CORE_SYS
+- [UniCache](https://arxiv.org/abs/2609.32831) — **A**, unified multimodal task/type-aware KV cache compression and shared-budget scheduling; up to 1.78× throughput and 5× KV compression for understanding/editing; [Apache-2.0 code](https://github.com/Superone77/UniCache) verified, no multi-tenant p99.
+- [Cache-Aware Conv3D Lowering](https://arxiv.org/abs/2609.31938) — **A**, cache-preserving Conv3D-to-Conv2D runtime lowering on Jetson AGX Orin world-model decoder, ~7× VAE decode and >2× full-generation acceleration; no verified code or p99.
 - [OmniTide](https://arxiv.org/abs/2609.34653) — **S**, OmniPick/OmniPage logical retention + physical KV compaction for on-device omni streaming; up to 2.40× lower loop latency and 26.7% less physical KV span; no verified official code, not multi-tenant p99.
 - [LENS: FPGA Scene Memory for Robots](https://arxiv.org/abs/2610.25068) — **A**, AMD KR260 INT16 localization and 3DGS scene-memory rendering, board-measured 25.42ms localization and 1.9–5.7× perf/W vs Jetson Orin NX; no verified code or VLA serving p99.
 - [RT-SAFE](https://arxiv.org/abs/2610.09294) — **A**, time-advancing urban embodied-agent safety benchmark; 12.3× more collisions in real-time than static evaluation despite comparable task success; [official code](https://github.com/XTRose29/RT-SAFE) verified, simulation not serving p99.

@@ -1,3 +1,8 @@
+## 2026-10-25 17:00 CST — OAI_7D_2029_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE+2; BOUNDARY+1; PDF+3; FIRST_PARTY_HTML_18/18
+- CORE_SYS +2: UniCache, Cache-Aware Conv3D Lowering; SYS_ALG_BOUNDARY +1: ActionGround.
+- 7d OAI 2029 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.
+- 19 official abstracts, 3 official PDFs archived; first-party HTML 18/18, targeted 7/7; reverse/venue IN_PROGRESS.
+
 ## 2026-10-25 16:03 CST — OAI_7D_2038_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE+2; BOUNDARY+1; PDF+4; FIRST_PARTY_HTML_18/18
 - CORE_SYS +2: OmniTide, LENS; SYS_ALG_BOUNDARY +1: FlashForward; Denoising Surface/MaskAhead evidence-only.
 - 7d OAI 2038 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.
