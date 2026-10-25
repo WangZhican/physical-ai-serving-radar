@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-10-25 22:12 CST**
+**Last updated: 2026-10-25 23:12 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -22,6 +22,7 @@ The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni
 
 | Title | Year / Venue | Route | System Contribution | Open Source / Repo | Paper | Priority |
 |---|---|---|---|---|---|---|
+| TARSphere | 2026 / arXiv | P7, P9; embodied evaluation | 360 episodes, 30 scenes, robot runtime and executable harness; no serving p99 | [Official code](https://github.com/xuyicheng-zju/TARSphere) | [paper](https://arxiv.org/abs/2610.30043) | A- |
 | Physical AI for Intralogistics | 2026 / arXiv | P6, P9; industrial embodied evaluation | Real robot/digital twin, Jetson Xavier 54ms/5-8Hz, 0.892GB; no serving p99 | Benchmark-specific code unverified | [paper](https://arxiv.org/abs/2610.28432) | A- |
 | StreamAhead | 2026 / arXiv | P3, P5, P6; multimodal streaming | L1/L2/L3 adaptive precomputation, shared segment state, CPU-GPU scheduling; 30FPS P95 TTFT<0.5s on single GPU | Code unverified | [paper](https://arxiv.org/abs/2610.25551) | A+ |
 | Multimodal Remote Inference | 2025 / arXiv | P4, P8 | AoI-aware multi-sensor remote inference scheduling, SMDP and switching policies; numerical/trace-based, not deployed VLA serving | Implementation unverified | [paper](https://arxiv.org/abs/2508.07555) | A- |

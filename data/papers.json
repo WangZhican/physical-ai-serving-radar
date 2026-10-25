@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 22:12 CST",
-  "count": 247,
+  "updated": "2026-10-25 23:12 CST",
+  "count": 249,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4399,6 +4399,40 @@
       "code_status": "No paper-specific executable code independently verified",
       "notes": "9-page official PDF. Robot-side temporal authority routing between remote teleoperation and local VLA based on network latency/jitter/loss and visual task evidence; router 30Hz on physical robot, CLIP evidence 1.5Hz, remote command stale at 500ms. Real trials: 90% success, teleoperation only 27.4% control steps vs 50% local VLA baseline; successful completion time 63.7s vs 28.3s always teleop and 59.5s always VLA. No inference serving p99, GPU multiplexing or resource scheduling; classification limited to SYS_ALG_BOUNDARY.",
       "evidence": "daily/2026-10-25/FULLTEXT_RECHECK_2200.json; official arXiv PDF sections IV-V"
+    },
+    {
+      "id": "arxiv:2610.30043",
+      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+      "class": "CORE_SYS",
+      "route": [
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.30043",
+      "code_status": "Official implementation verified: https://github.com/xuyicheng-zju/TARSphere (tarsphere/, episodes/, tests/, scripts/)",
+      "notes": "13-page first-party PDF. Reusable TARSphere-Infra physics/NPC/event-driven FSM runtime, TARSphere-Harness with frozen MLLM and executable skills, and 360-episode benchmark across 30 indoor scenes and paired perturbation conditions. 96.7% usable episode curation vs 45.0% without multi-agent review. CORE_SYS as evaluation/execution infrastructure, NOT evidence of optimized GPU serving, p95/p99 or multi-tenant scheduling.",
+      "evidence": "daily/2026-10-25/REPO_EVIDENCE_2300.json; official arXiv 13-page PDF"
+    },
+    {
+      "id": "arxiv:2610.30044",
+      "title": "SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.30044",
+      "code_status": "No independently verified official implementation",
+      "notes": "9-page official PDF. Asynchronous SP-VLA action-chunk inference overlapped with execution, SP-MGM motion generation and whole-body control. TensorRT SP-VLA 25 Hz and SP-MGM 10 Hz; SP-MGM 7.813 Hz standard versus 11.494 Hz text-free TensorRT accelerated in reported table. Primarily algorithmic control/model integration; no reusable multi-tenant serving scheduler or p99.",
+      "evidence": "daily/2026-10-25/SEMANTIC_FALSE_NEGATIVE_2300.json; official arXiv 9-page PDF"
     }
   ]
 }

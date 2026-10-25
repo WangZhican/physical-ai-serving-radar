@@ -1,4 +1,5 @@
 # CORE_SYS
+- [TARSphere](https://arxiv.org/abs/2610.30043) — **A-**, 360-episode robot-oriented simulation/runtime and evaluation harness; [official code](https://github.com/xuyicheng-zju/TARSphere) verified; no serving p99.
 - [Physical AI for Intralogistics](https://arxiv.org/abs/2610.28432) — **A-**, industrial digital-twin/real-robot benchmark with Jetson Xavier 54ms/5-8Hz, 0.892GB and 38.6% GPU; benchmark release unverified, no multi-tenant serving p99.
 - [StreamAhead](https://arxiv.org/abs/2610.25551) — **A+**, adaptive streaming video L1/L2/L3 representation scheduling, shared segment state, CPU-GPU pipeline and query-priority/recovery; 30FPS P95 TTFT<0.5s and 57FPS P95 TTFT<2s on single RTX 6000 Ada; code unverified, not robot-fleet p99.
 - [LocoManiLab](https://arxiv.org/abs/2610.30876) — **A-**, 234 humanoid tasks, 12 policies, cross-controller and sim-to-real evaluation testbed; [official project](https://locomanilab.github.io/), no verified executable source or GPU serving p99.
