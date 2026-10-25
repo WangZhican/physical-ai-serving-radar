@@ -1,3 +1,5 @@
+**2026-10-25 10:59 CST — Evidence-only, NOT formally promoted:** [FlashNav](https://arxiv.org/abs/2606.15846) GPU simulation/training infrastructure (9-page official PDF checked), not online Physical AI serving.
+
 ## 2026-10-24 21:02 CST — adjacent GPU/LLM memory candidates (NOT formal Physical-AI promotions)
 - [UlaCache](https://arxiv.org/abs/2610.29820): GPU/CPU unified sparse-KV logical addressing, H200/B300 LLM throughput evidence; multimodal/VLA integration unverified.
 - [Gandalf](https://arxiv.org/abs/2610.30791): SSD lifetime-aware LLM KV offload, trace-based lifetime gain; no robot/multimodal workload.

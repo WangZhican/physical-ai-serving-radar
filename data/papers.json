@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 10:03 CST",
-  "count": 219,
+  "updated": "2026-10-25 10:59 CST",
+  "count": 221,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3864,6 +3864,39 @@
       "repo_url": "https://github.com/NamelessCrew/FreeBar",
       "code_status": "Apache-2.0 official implementation verified: Isaac-GR00T, kinetix, robocasa",
       "notes": "19-page official PDF; training-free closed-form barrier-guided alignment of successive async VLA action chunks. Author-reported average success-rate improvement of 10%-15% versus naive asynchronous execution; the paper's percentage notation is retained without inferring percentage-point gains. Real-robot experiments and official implementation; no general-purpose scheduler, cross-request batching, or serving p99."
+    },
+    {
+      "id": "arxiv:2606.31497",
+      "title": "Communication-Aware Robot Execution for Cloud Inference under Spatially Heterogeneous Connectivity",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        4,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2606.31497",
+      "code_status": "No official public implementation verified",
+      "notes": "15-page official PDF. Request-response window models uplink, cloud inference, downlink and uncertainty; selects robot request submission location during active primitive execution using measured communication map and local motion planner. Simulated indoor wireless scenario with emulated cloud inference; author reports best task success and request failure among tested baselines. Cross-layer robot/cloud request timing mechanism, but no production multi-tenant serving stack, cloud GPU scheduling, or p99 measurements; boundary not CORE_SYS."
+    },
+    {
+      "id": "arxiv:2610.02660",
+      "title": "SpectralCache: Accelerating Diffusion-Based World Models via Spectral Feature Caching",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        5,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.02660",
+      "code_status": "No official public implementation verified",
+      "notes": "17-page official PDF; training-free denoising-step spectral subspace caching and singular-value extrapolation for diffusion world models. HunyuanWorld-Voyager-13B 1054s vanilla vs 202s SpectralCache (~5.22x) and static-scene WorldScore 65.90, experiments on two NVIDIA Pro 6000 96GB GPUs. Model-level cache acceleration, not cross-session serving, live control-loop latency, or production p99."
     }
   ]
 }

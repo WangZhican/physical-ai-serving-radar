@@ -1,3 +1,8 @@
+## 2026-10-25 10:59 CST — OAI_7D_2094_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; BOUNDARY+2; PDF+3; FIRST_PARTY_HTML_15/18_API_12/12
+- SYS_ALG_BOUNDARY +2: Communication-Aware Robot Execution, SpectralCache; FlashNav evidence-only not promoted.
+- 7d OAI 2094 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.
+- 24 first-party abstracts, 3 new official PDFs; HTML 15/18, targeted first-party API/project 12/12, reverse/venue IN_PROGRESS.
+
 ## 2026-10-25 10:03 CST — OAI_7D_2101_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE_SYS+1; BOUNDARY+2; PDF+2; FIRST_PARTY_HTML_15/18_API_FALLBACK_3/3
 - CORE_SYS +1: OxyGen; SYS_ALG_BOUNDARY +2: RESCUE, FreeBar.
 - 7d OAI 2101 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.
