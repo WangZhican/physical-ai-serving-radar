@@ -1,4 +1,5 @@
 # SYS_ALG_BOUNDARY
+- [TEAR](https://arxiv.org/abs/2610.30819) — **A-**, robot-side 30Hz network/task-evidence authority routing between teleoperation and local VLA, 90% success but slower completion; no GPU serving p99.
 - [Progress Probes P2](https://arxiv.org/abs/2610.31613) — **A-**, lightweight pi0.5 activation-linear runtime failure monitor, 0.026ms on RTX A6000; not a shared GPU serving scheduler, code unverified.
 - [CovNav](https://arxiv.org/abs/2610.27677) — **A-**, calibrated fast/slow on-device navigation reasoning; Table II adaptive 0.72s vs slow-only 3.40s, slow activation 12.4%, RTX4090D and TurtleBot4/RTX3080 evaluation; no multi-tenant GPU-serving/p99 evidence, official code unverified.
 - [PACT-VLA](https://arxiv.org/abs/2610.28019) — **A-**, pre-commit observation verification for speculative asynchronous action chunks; batched frozen-policy scoring overlapped with inference, no added control-step delay reported on evaluated hardware; success +15.0pp Kinetix/+5.2pp LIBERO, not multi-tenant serving p99; code unverified.

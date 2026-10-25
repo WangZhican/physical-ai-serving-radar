@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 21:18 CST",
-  "count": 245,
+  "updated": "2026-10-25 22:12 CST",
+  "count": 247,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4364,6 +4364,41 @@
       "code_status": "No official executable code independently verified",
       "notes": "8-page official PDF; low-overhead linear progress monitor using pi0.5 internal activations for failure detection. RTX A6000 table reports 2.6e-2 ms monitor inference. Monitors execution but does not implement general serving resource management, shared GPU scheduling, or p99.",
       "evidence": "daily/2026-10-25/FULLTEXT_RECHECK_2100.json; official arXiv /abs and /html inspected"
+    },
+    {
+      "id": "arxiv:2610.28432",
+      "title": "Physical AI for Intralogistics: Benchmarking the NVIDIA Sim-to-Real Ecosystem for Cosmos-Enhanced COMPASS Navigation on Industrial Mobile Robots",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.28432",
+      "code_status": "Upstream NVlabs/COMPASS exists; paper-specific real-world benchmark release not independently verified",
+      "notes": "39-page first-party PDF. Industrial real/digital-twin cross-embodiment evaluation with onboard compute, task/safety/smoothness metrics. Jetson AGX Xavier IW.CE-COMPASS latency 54ms, command rate 5-8Hz, GPU utilization 38.6%, peak memory 0.892GB; production navigation reference 50ms, 15-20Hz, 1.158GB. Real task success 91.7% vs 65.3% without Cosmos augmentation; no multi-tenant serving p99. CORE_SYS only for reusable embodied evaluation and deployment characterization, not for a novel GPU scheduler.",
+      "evidence": "daily/2026-10-25/FULLTEXT_RECHECK_2200.json; official arXiv PDF Table 5"
+    },
+    {
+      "id": "arxiv:2610.30819",
+      "title": "TEAR: Task-Evidence Authority Routing for Robotic Manipulation",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        4,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.30819",
+      "code_status": "No paper-specific executable code independently verified",
+      "notes": "9-page official PDF. Robot-side temporal authority routing between remote teleoperation and local VLA based on network latency/jitter/loss and visual task evidence; router 30Hz on physical robot, CLIP evidence 1.5Hz, remote command stale at 500ms. Real trials: 90% success, teleoperation only 27.4% control steps vs 50% local VLA baseline; successful completion time 63.7s vs 28.3s always teleop and 59.5s always VLA. No inference serving p99, GPU multiplexing or resource scheduling; classification limited to SYS_ALG_BOUNDARY.",
+      "evidence": "daily/2026-10-25/FULLTEXT_RECHECK_2200.json; official arXiv PDF sections IV-V"
     }
   ]
 }
