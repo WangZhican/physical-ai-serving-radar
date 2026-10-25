@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 20:11 CST",
-  "count": 243,
+  "updated": "2026-10-25 21:18 CST",
+  "count": 245,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4329,6 +4329,41 @@
       "code_status": "No official executable code independently verified",
       "notes": "13-page official PDF; uncertainty-gated local Qwen3-8B fast/slow inference for embodied ObjectNav, with on-device TurtleBot 4 + RTX3080 experiments. Table II reports adaptive 0.72s average query inference vs 3.40s slow-only and 0.63s fast-only, with 12.4% slow activation on Gibson/HM3D settings; RTX4090D simulator, 22.6GB reported total memory. The prose also reports 0.68s/2.40s under a different timing description: avoid conflating. No multi-tenant admission, GPU scheduling, p99, or general-purpose serving abstraction.",
       "evidence": "daily/2026-10-25/SEMANTIC_FALSE_NEGATIVE_2000.json; daily/2026-10-25/COVNAV_FULLTEXT_2000.json"
+    },
+    {
+      "id": "arxiv:2610.25551",
+      "title": "StreamAhead: Real-Time Streaming Video Question Answering via Adaptive Precomputation",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        5,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.25551",
+      "code_status": "No official executable code independently verified",
+      "notes": "12-page official PDF, Qwen3-VL-8B on single RTX 6000 Ada GPU. Independent video segments at L1 raw/L2 visual/L3 KV states; profile-guided Normal/Query-Priority/Recovery scheduling, CPU-GPU pipeline and representation memory placement. P95 TTFT under 0.5s at 30FPS and under 2s at 57FPS; up to 10.4x TTFT vs compared methods and 5.9x vs streaming systems. Transferable to streaming embodied perception, but no robot-control SLO, multi-tenant GPU p99, or verified code.",
+      "evidence": "daily/2026-10-25/FULLTEXT_RECHECK_2100.json; official arXiv /abs and /html inspected"
+    },
+    {
+      "id": "arxiv:2610.31613",
+      "title": "Progress Probes P2: Lightweight Runtime Monitoring for Vision-Language-Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.31613",
+      "code_status": "No official executable code independently verified",
+      "notes": "8-page official PDF; low-overhead linear progress monitor using pi0.5 internal activations for failure detection. RTX A6000 table reports 2.6e-2 ms monitor inference. Monitors execution but does not implement general serving resource management, shared GPU scheduling, or p99.",
+      "evidence": "daily/2026-10-25/FULLTEXT_RECHECK_2100.json; official arXiv /abs and /html inspected"
     }
   ]
 }

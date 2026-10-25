@@ -1,3 +1,8 @@
+## 2026-10-25 21:18 CST — OAI_7D_1970_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE+1; BOUNDARY+1; PDF_UNIQUE+0; FIRST_PARTY_18/18; DNS_RECOVERED
+- First-party 7d five-category OAI recovered after DNS transient; 24h remains zero-exact NOT_COVERED.
+- 24 official abstracts, 18 official source checks; CORE_SYS +1 StreamAhead, SYS_ALG_BOUNDARY +1 Progress Probes P2; 3 existing PDFs reverified, 0 unique additions.
+- Semantic/reverse/venue/project IN_PROGRESS.
+
 ## 2026-10-25 20:11 CST — OAI_7D_1988_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE+0; BOUNDARY+1; PDF+1; FIRST_PARTY_HTML_15/18_API_FALLBACK_3/3
 - Official five-category 7d OAI and 24h OAI/Atom checks; 24 first-party abstracts, 1 verified private PDF.
 - SYS_ALG_BOUNDARY +1 CovNav; other sampled algorithm/benchmark work not promoted.
