@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 15:01 CST",
-  "count": 234,
+  "updated": "2026-10-25 16:03 CST",
+  "count": 237,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4113,6 +4113,57 @@
       "repo_url": "https://github.com/TheMaXiao/EmbodiTTA",
       "code_status": "First-author repository with embodied TTA Python module, tests, ImageNet-C/CIFAR-10-C scripts verified via GitHub API; not locally executed",
       "notes": "11-page official PDF; event-triggered domain-shift detection and on-demand adaptation with memory-efficient BN updates on Jetson Orin Nano. 10k samples in 239s, 6.7x faster than MECTA latency baseline; 47.2% energy saved vs EATA-C at 10k frames. Streaming embodied perception adaptation rather than online VLA serving scheduler."
+    },
+    {
+      "id": "arxiv:2609.34653",
+      "title": "OmniTide: Co-Designing Algorithms and Systems for Efficient On-Device Omni-LLM Streaming",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        5,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.34653",
+      "code_status": "No author implementation independently verified; GitHub repository search HTTP403 rate limit, retry required",
+      "notes": "16-page official PDF; OmniPick modality-aware logical KV retention + OmniPage physical compaction and fragmentation reduction, 9.6K lines of claimed implementation. Three streaming benchmarks/three omni models, RTX4090 and Apple M2 Pro; up to 12.72x kernel speedup, 2.40x lower streaming-loop latency, up to 26.7% less physical KV span. Single-device streaming, not multi-tenant p99."
+    },
+    {
+      "id": "arxiv:2610.25068",
+      "title": "Localization and Neural Splatting on the Edge: An FPGA Scene Memory for Robots (LENS)",
+      "class": "CORE_SYS",
+      "route": [
+        5,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.25068",
+      "code_status": "No official source independently verified; GitHub repository search HTTP403 rate limit, retry required",
+      "notes": "8-page official PDF; robot scene-memory edge acceleration on AMD KR260 FPGA/ARM, INT16 scene-coordinate regression and bit-exact ordered 3DGS renderer. Board-measured 25.42ms localization, 1.9–5.7x performance/W vs Jetson Orin NX at approximately quarter power; not general VLA serving or multi-session runtime."
+    },
+    {
+      "id": "arxiv:2609.32540",
+      "title": "FlashForward: In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.32540",
+      "project_url": "https://yikai-wang.github.io/FlashForward",
+      "code_status": "First-author project page HTTP200; no official source code independently verified",
+      "notes": "24-page official PDF; stage-matched in-flight KV cache reuse and sparse clean-anchor KV, GPU-per-denoising-stage wavefront for streaming video diffusion. Up to four GPUs, 1.16–1.69x faster than HiAR and 1.42–2.92x than Self-Forcing on 16FPS >=20s video across 1.3B/14B models. Algorithm/pipeline boundary, not multi-tenant world-model serving p99."
     }
   ]
 }

@@ -1,4 +1,5 @@
 # SYS_ALG_BOUNDARY
+- [FlashForward](https://arxiv.org/abs/2609.32540) — **A**, stage-matched in-flight KV and sparse clean anchors for autoregressive video diffusion; up to 4 GPUs, 1.16–1.69× vs HiAR, 1.42–2.92× vs Self-Forcing; [author project](https://yikai-wang.github.io/FlashForward) verified, code unverified; not multi-session p99.
 - [SemARC: Efficient Multimodal Inference through Adaptive Acquisition and Sequential Fusion](https://arxiv.org/abs/2610.07466) — **A**, modality-selective runtime controller, 61.4% lower GFLOPs, 44.0% GPU/CPU and 47.2% Android INT8 mean latency reduction; no multi-tenant scheduling.
 - [Frequency-Step Cache](https://arxiv.org/abs/2610.15922) — **A**, exact-anchor vs drift-controlled repair separation for AR video diffusion; 2.36× SkyReels-V2 speedup, not WAM serving p99.
 - [EmbodiTTA](https://arxiv.org/abs/2505.00986) — **A-**, on-demand edge adaptation on Jetson Orin Nano, 6.7× faster for 10k frames vs MECTA, 47.2% energy reduction vs EATA-C; [official code](https://github.com/TheMaXiao/EmbodiTTA) verified, not VLA multi-tenant serving.

@@ -1,3 +1,5 @@
+**2026-10-25 16:03 CST — Evidence-only, NOT formally promoted:** [Denoising Surface](https://arxiv.org/abs/2610.00499) (dLLM serving cost predictor and SJF scheduling, up to 1.92× lower chatbot latency); [MaskAhead](https://arxiv.org/abs/2610.06996) (dLLM mask-guided KV eviction, 9.5× cache reduction, batch-32 1.23× E2E; [Apache-2.0 code](https://github.com/brain-lab-research/MaskAhead) verified). Neither demonstrates direct multimodal/robotics serving.
+
 **2026-10-25 15:01 CST — Evidence-only, NOT formally promoted:** [MHR-Router](https://arxiv.org/abs/2610.13278), retrieval-enhanced multimodal expert routing; five-page official PDF verified, but no measured serving latency, resource cost, throughput or p99.
 
 **2026-10-25 14:08 CST — Evidence-only, NOT formally promoted:** [PACE](https://arxiv.org/abs/2606.00537), phase-aware action-chunk execution horizon; 50 RoboTwin2.0 tasks average success 57.8→64.2%, real-robot evaluation. No serving resource/SLO/p99 benchmark.
