@@ -1,4 +1,5 @@
 # CORE_SYS
+- [LocoManiLab](https://arxiv.org/abs/2610.30876) — **A-**, 234 humanoid tasks, 12 policies, cross-controller and sim-to-real evaluation testbed; [official project](https://locomanilab.github.io/), no verified executable source or GPU serving p99.
 - [UniCache](https://arxiv.org/abs/2609.32831) — **A**, unified multimodal task/type-aware KV cache compression and shared-budget scheduling; up to 1.78× throughput and 5× KV compression for understanding/editing; [Apache-2.0 code](https://github.com/Superone77/UniCache) verified, no multi-tenant p99.
 - [Cache-Aware Conv3D Lowering](https://arxiv.org/abs/2609.31938) — **A**, cache-preserving Conv3D-to-Conv2D runtime lowering on Jetson AGX Orin world-model decoder, ~7× VAE decode and >2× full-generation acceleration; no verified code or p99.
 - [OmniTide](https://arxiv.org/abs/2609.34653) — **S**, OmniPick/OmniPage logical retention + physical KV compaction for on-device omni streaming; up to 2.40× lower loop latency and 26.7% less physical KV span; no verified official code, not multi-tenant p99.

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 17:00 CST",
-  "count": 240,
+  "updated": "2026-10-25 19:05 CST",
+  "count": 242,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3182,7 +3182,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.28624",
       "code_status": "Industrial extension code not independently verified; original ReMEmbR upstream repo exists",
-      "notes": "Fleet-shared persistent vision-token memory, edge/on-prem disaggregation and on-demand decoding; 100-robot GPU cost is modeled (36.25 to 1.04 equiv at 10% describe), NOT real fleet SLO; Jetson Xavier Cosmos-Embed1 mean 11.76s per clip. Simulated 914-frame traffic map; 450 cached-token parity tests."
+      "notes": "Fleet-shared persistent vision-token memory, edge/on-prem disaggregation and on-demand decoding; 100-robot GPU cost is modeled (36.25 to 1.04 equiv at 10% describe), NOT real fleet SLO; Jetson Xavier Cosmos-Embed1 mean 11.76s per clip. Simulated 914-frame traffic map; 450 cached-token parity tests.",
+      "evidence": "daily/2026-10-23/INDUSTRIAL_REMEMBR_FULLTEXT_1900.md"
     },
     {
       "id": "arxiv:2610.25736",
@@ -3200,7 +3201,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.25736",
       "code_status": "Dedicated FATS/SwarmLink/HotSwarm public code release not independently verified",
-      "notes": "Real 96-robot fleet learning-serving infrastructure: SwarmLink shared inference/trajectory data plane and HotSwarm fault-tolerant worker control; 9834 episodes, 660 robot-hours, 30 incidents, 1.3% fleet robot-time downtime. Not a serving tail-latency benchmark; learning method FERT distinct."
+      "notes": "Real 96-robot fleet learning-serving infrastructure: SwarmLink shared inference/trajectory data plane and HotSwarm fault-tolerant worker control; 9834 episodes, 660 robot-hours, 30 incidents, 1.3% fleet robot-time downtime. Not a serving tail-latency benchmark; learning method FERT distinct.",
+      "evidence": "daily/2026-10-23/FATS_CLASSIFICATION_2212.md"
     },
     {
       "id": "arxiv:2609.19104",
@@ -3218,7 +3220,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.19104",
       "code_status": "Dedicated public implementation not independently verified",
-      "notes": "Two-stage reusable cross-execution VLA inference cache (Context/Action); real RTX4090/Jetson Thor 1.20-1.42x end-to-end vs FlashRT across 92 tasks including two real robot tasks. Not fleet serving; no demonstrated p99 SLO; code unverified."
+      "notes": "Two-stage reusable cross-execution VLA inference cache (Context/Action); real RTX4090/Jetson Thor 1.20-1.42x end-to-end vs FlashRT across 92 tasks including two real robot tasks. Not fleet serving; no demonstrated p99 SLO; code unverified.",
+      "evidence": "daily/2026-10-23/RMUSCLE_CLASSIFICATION_2310.md"
     },
     {
       "id": "arxiv:2610.29183",
@@ -3235,7 +3238,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.29183",
       "code_status": "Dedicated public implementation not independently verified",
-      "notes": "Multimodal edge VLM phase-aware checkpoint/recovery under power/thermal interruptions; Jetson Orin; 72h on two real satellites. Paper reports up to 4.07x end-to-end and 3.56x lower SSD writes. Not a robot-serving or multi-tenant SLO benchmark."
+      "notes": "Multimodal edge VLM phase-aware checkpoint/recovery under power/thermal interruptions; Jetson Orin; 72h on two real satellites. Paper reports up to 4.07x end-to-end and 3.56x lower SSD writes. Not a robot-serving or multi-tenant SLO benchmark.",
+      "evidence": "daily/2026-10-24/ORBITWEAVER_CLASSIFICATION_0305.md"
     },
     {
       "id": "arxiv:2610.29503",
@@ -3253,7 +3257,8 @@
       "paper_url": "https://arxiv.org/abs/2610.29503",
       "repo_url": "https://github.com/BlancoFrancescoGiulio/retnas",
       "code_status": "Official MIT simulator with code, profiles and tests verified; tests not executed",
-      "notes": "Policy-agnostic runtime certification/fallback for mixed HRT/SRT DAG DNN inference on heterogeneous accelerators; 81.41% simulated SRT deadline hit rate at 10ms workload; HRT deadlines certified under modeled WCET assumptions. Simulator only; no physical robot/VLA hardware evaluation or measured p99."
+      "notes": "Policy-agnostic runtime certification/fallback for mixed HRT/SRT DAG DNN inference on heterogeneous accelerators; 81.41% simulated SRT deadline hit rate at 10ms workload; HRT deadlines certified under modeled WCET assumptions. Simulator only; no physical robot/VLA hardware evaluation or measured p99.",
+      "evidence": "daily/2026-10-24/RETNAS_CLASSIFICATION_0402.md"
     },
     {
       "id": "arxiv:2609.29166",
@@ -3272,7 +3277,8 @@
       "paper_url": "https://arxiv.org/abs/2609.29166",
       "repo_url": "https://github.com/Darwin-Agent/HarnessPAI",
       "code_status": "Official MIT Python CLI/package and execution/evolution/feedback/infra/memory/primitives modules verified via GitHub API; not locally executed",
-      "notes": "Model/embodiment-agnostic executable task harness: no online high-level LLM deliberation during rollout, across-rollout code evolution and persistent skill repair. Seven settings/four embodiment groups; README reports +61.6pp LIBERO-PRO and +27.2pp RoboCasa Atomic-Seen success vs respective baselines. No verified multi-tenant GPU serving, p99 control SLO, or fleet deployment."
+      "notes": "Model/embodiment-agnostic executable task harness: no online high-level LLM deliberation during rollout, across-rollout code evolution and persistent skill repair. Seven settings/four embodiment groups; README reports +61.6pp LIBERO-PRO and +27.2pp RoboCasa Atomic-Seen success vs respective baselines. No verified multi-tenant GPU serving, p99 control SLO, or fleet deployment.",
+      "evidence": "daily/2026-10-24/HARNESSPAI_CLASSIFICATION_0600.md"
     },
     {
       "id": "arxiv:2609.22335",
@@ -3290,7 +3296,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.22335",
       "code_status": "Dedicated author implementation not independently verified; GitHub exact-topic search returned no matching repository",
-      "notes": "Hardware CTA head-of-line blocking characterization and online SM-utilization/resource-aware kernel co-scheduling across independent VLM/action-head requests. Four VLAs (CogACT, pi0.5, Octo, GraspVLA), RTX4090/5090 configured Accel-Sim, up to 28% reported throughput gain. SIMULATION ONLY using NVBit traces, not physical GPU scheduler implementation, measured real-robot p99, or fleet SLO validation."
+      "notes": "Hardware CTA head-of-line blocking characterization and online SM-utilization/resource-aware kernel co-scheduling across independent VLM/action-head requests. Four VLAs (CogACT, pi0.5, Octo, GraspVLA), RTX4090/5090 configured Accel-Sim, up to 28% reported throughput gain. SIMULATION ONLY using NVBit traces, not physical GPU scheduler implementation, measured real-robot p99, or fleet SLO validation.",
+      "evidence": "daily/2026-10-24/KERCOLLE_CLASSIFICATION_1100.md"
     },
     {
       "id": "arxiv:2610.28953",
@@ -3307,7 +3314,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.28953",
       "code_status": "Paper describes open-source library but an author-linked GGraph repository was NOT independently resolved; do not claim a verified code release",
-      "notes": "Reusable GPU-resident dynamic graph/ROS2 robot deployment and vectorized multi-robot training infrastructure. Official paper reports millisecond-scale single-robot graph updates and roughly order-of-magnitude lower policy-training wall time over CPU graph baselines, with simulation and real-robot evidence. Not a VLA inference server, multi-tenant serving scheduler, or p99 control-SLO benchmark."
+      "notes": "Reusable GPU-resident dynamic graph/ROS2 robot deployment and vectorized multi-robot training infrastructure. Official paper reports millisecond-scale single-robot graph updates and roughly order-of-magnitude lower policy-training wall time over CPU graph baselines, with simulation and real-robot evidence. Not a VLA inference server, multi-tenant serving scheduler, or p99 control-SLO benchmark.",
+      "evidence": "daily/2026-10-24/GGRAPH_CLASSIFICATION_1100.md"
     },
     {
       "id": "arxiv:2604.04335",
@@ -3326,7 +3334,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2604.04335",
       "code_status": "Dedicated official implementation not independently verified; PDF only links Hugging Face diffusers dependency",
-      "notes": "Real 8x RTX PRO 6000 Blackwell (96GB) shared-GPU T2I/T2V co-serving; step-level video preemption, elastic sequence parallelism with dynamic batching, SLO-aware resource scheduling. Paper reports up to 44% SLO-attainment improvement vs strongest baseline, and at sigma=1.0 78% vs SRTF 71% and FCFS 59%. Arrival traces are synthetic Poisson/bursty using real image/video prompts, not observed production fleet traces. Not a robot/VLA serving or real control-loop p99 benchmark."
+      "notes": "Real 8x RTX PRO 6000 Blackwell (96GB) shared-GPU T2I/T2V co-serving; step-level video preemption, elastic sequence parallelism with dynamic batching, SLO-aware resource scheduling. Paper reports up to 44% SLO-attainment improvement vs strongest baseline, and at sigma=1.0 78% vs SRTF 71% and FCFS 59%. Arrival traces are synthetic Poisson/bursty using real image/video prompts, not observed production fleet traces. Not a robot/VLA serving or real control-loop p99 benchmark.",
+      "evidence": "daily/2026-10-24/GENSERVE_CLASSIFICATION_1200.md"
     },
     {
       "id": "arxiv:2610.25476",
@@ -3344,7 +3353,8 @@
       "paper_url": "https://arxiv.org/abs/2610.25476",
       "repo_url": "https://github.com/johnviljoen/cusadi2",
       "code_status": "Author-linked MIT Python/GPU library, tests/profiling/examples independently verified by official GitHub API",
-      "notes": "Reusable GPU batched robot kinematics/Jacobians/Hessians library with within-instance DAG/warp scheduling. RTX 4080 16GB measured; paper reports <40us for common robot platforms at 256 evaluations vs >=100us in compared GPU frameworks, 67 MuJoCo Menagerie robots and a 50Hz Franka sampling-based control demo. Not VLA inference serving, multi-tenant SLO, or p99 control-loop proof."
+      "notes": "Reusable GPU batched robot kinematics/Jacobians/Hessians library with within-instance DAG/warp scheduling. RTX 4080 16GB measured; paper reports <40us for common robot platforms at 256 evaluations vs >=100us in compared GPU frameworks, 67 MuJoCo Menagerie robots and a 50Hz Franka sampling-based control demo. Not VLA inference serving, multi-tenant SLO, or p99 control-loop proof.",
+      "evidence": "daily/2026-10-24/CUSADI2_CLASSIFICATION_1300.md"
     },
     {
       "id": "arxiv:2506.13497",
@@ -3363,7 +3373,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2506.13497",
       "code_status": "Dedicated author code repository not independently verified",
-      "notes": "T2V multi-stage T5/DiT/VAE serving with adaptive parallelism, stage-aware resource allocation, single-step scheduling and starvation-aware control. Reports up to 1.44x p99 and 1.43x average latency vs baselines; evaluation includes GPU-server experiments and emulated 8-server GPU cluster. Not a robot/VLA control-loop result."
+      "notes": "T2V multi-stage T5/DiT/VAE serving with adaptive parallelism, stage-aware resource allocation, single-step scheduling and starvation-aware control. Reports up to 1.44x p99 and 1.43x average latency vs baselines; evaluation includes GPU-server experiments and emulated 8-server GPU cluster. Not a robot/VLA control-loop result.",
+      "evidence": "daily/2026-10-24/REVERSE_DIT_CLASSIFICATION_1300.md"
     },
     {
       "id": "arxiv:2411.01738",
@@ -3382,7 +3393,8 @@
       "paper_url": "https://arxiv.org/abs/2411.01738",
       "repo_url": "https://github.com/xdit-project/xDiT",
       "code_status": "Official author-linked Apache-2.0 implementation, docs/tests/benchmarks, 2743 GitHub stars at 2026-10-24 13h check",
-      "notes": "Reusable DiT distributed inference engine combining sequence parallelism, PipeFusion patch pipeline, CFG parallelism, and hybrid topologies; evaluated on two 8xL40 PCIe/Ethernet nodes and one 8xA100 NVLink node. Multimodal diffusion inference infrastructure, not direct VLA serving or robot p99."
+      "notes": "Reusable DiT distributed inference engine combining sequence parallelism, PipeFusion patch pipeline, CFG parallelism, and hybrid topologies; evaluated on two 8xL40 PCIe/Ethernet nodes and one 8xA100 NVLink node. Multimodal diffusion inference infrastructure, not direct VLA serving or robot p99.",
+      "evidence": "daily/2026-10-24/REVERSE_DIT_CLASSIFICATION_1300.md"
     },
     {
       "id": "arxiv:2610.30587",
@@ -3399,7 +3411,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.30587",
       "code_status": "No author-linked dedicated public code independently confirmed",
-      "notes": "CARE dynamically transfers execution authority between low-latency local executor and stronger cloud model using reliability critic, persistent escalation and shared handoff memory. Paper reports 6.3-18.3 percentage-point success gain vs strongest collaboration baseline and 28.8-82.6% lower median time-between-action latency. Critical caveat: measured decision-layer responsiveness; hardware control, sensing noise, network variability, fleet multiplexing and p99 are not validated."
+      "notes": "CARE dynamically transfers execution authority between low-latency local executor and stronger cloud model using reliability critic, persistent escalation and shared handoff memory. Paper reports 6.3-18.3 percentage-point success gain vs strongest collaboration baseline and 28.8-82.6% lower median time-between-action latency. Critical caveat: measured decision-layer responsiveness; hardware control, sensing noise, network variability, fleet multiplexing and p99 are not validated.",
+      "evidence": "daily/2026-10-24/CARE_FASTHARNESS_CLASSIFICATION_1600.md"
     },
     {
       "id": "arxiv:2610.31427",
@@ -3417,7 +3430,8 @@
       "paper_url": "https://arxiv.org/abs/2610.31427",
       "repo_url": "https://github.com/FastHarness/fast-harness",
       "code_status": "First-party GitHub API verified MIT repository, Python package, docs and tests; 2 stars at 16h",
-      "notes": "Reusable robot execution harness dynamically schedules high-level reviewer calls over pi0.5 action chunks using stage memory, success/error history and recovery gating. Four simulated manipulation tasks: reviewer tokens decrease 57.2% on average, mean episode time 85.5 to 52.0 min, reported success 97.19% vs 80% baseline. Simulation only; no real robot, fleet throughput or p99 SLO proof."
+      "notes": "Reusable robot execution harness dynamically schedules high-level reviewer calls over pi0.5 action chunks using stage memory, success/error history and recovery gating. Four simulated manipulation tasks: reviewer tokens decrease 57.2% on average, mean episode time 85.5 to 52.0 min, reported success 97.19% vs 80% baseline. Simulation only; no real robot, fleet throughput or p99 SLO proof.",
+      "evidence": "daily/2026-10-24/CARE_FASTHARNESS_CLASSIFICATION_1600.md"
     },
     {
       "id": "arxiv:2610.29229",
@@ -3434,7 +3448,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.29229",
       "code_status": "Dedicated author implementation not independently verified",
-      "notes": "Training-free query-aware selective KV recomputation across idle-time frame prefill and query-time context. Three streaming-video-understanding frameworks and five benchmarks; paper reports up to 3.9 percentage-point accuracy gain and 14.1-58.7% lower total latency on RVS-Ego for ReKV/LiveVLM. Algorithmic per-model cache optimization, not a reusable multi-tenant serving scheduler; no p99/fleet evidence."
+      "notes": "Training-free query-aware selective KV recomputation across idle-time frame prefill and query-time context. Three streaming-video-understanding frameworks and five benchmarks; paper reports up to 3.9 percentage-point accuracy gain and 14.1-58.7% lower total latency on RVS-Ego for ReKV/LiveVLM. Algorithmic per-model cache optimization, not a reusable multi-tenant serving scheduler; no p99/fleet evidence.",
+      "evidence": "daily/2026-10-24/FRAMEBLEND_CALM_CLASSIFICATION_1700.md"
     },
     {
       "id": "arxiv:2602.12684",
@@ -3451,7 +3466,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2602.12684",
       "code_status": "Authors state code/checkpoints open; dedicated Xiaomi author repository not independently confirmed (linked openpi is a cited baseline)",
-      "notes": "Model-and-deployment co-design: asynchronous action chunk execution with timestep alignment; RTX 4090 measured 80ms inference and 30Hz multimodal timeline; real bimanual robot tasks. Important real-hardware VLA serving boundary but primarily model/training/control pipeline, not reusable multi-tenant GPU scheduling or p99 SLO."
+      "notes": "Model-and-deployment co-design: asynchronous action chunk execution with timestep alignment; RTX 4090 measured 80ms inference and 30Hz multimodal timeline; real bimanual robot tasks. Important real-hardware VLA serving boundary but primarily model/training/control pipeline, not reusable multi-tenant GPU scheduling or p99 SLO.",
+      "evidence": "daily/2026-10-24/ROBION_SYSTEM_CLASSIFICATION_2000.md"
     },
     {
       "id": "arxiv:2603.22899",
@@ -3468,7 +3484,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2603.22899",
       "code_status": "No dedicated author code repository independently verified",
-      "notes": "Edge robot dual-stream architecture decouples perception at 10Hz from control at 50Hz, tested on physical 6-DoF industrial pose-rectification manipulator; Jetson Orin Nano edge target. Task-specific geometric affordance/action primitive algorithm, not general VLA GPU serving, multi-tenant scheduler or p99 proof."
+      "notes": "Edge robot dual-stream architecture decouples perception at 10Hz from control at 50Hz, tested on physical 6-DoF industrial pose-rectification manipulator; Jetson Orin Nano edge target. Task-specific geometric affordance/action primitive algorithm, not general VLA GPU serving, multi-tenant scheduler or p99 proof.",
+      "evidence": "daily/2026-10-24/ROBION_SYSTEM_CLASSIFICATION_2000.md"
     },
     {
       "id": "arxiv:2610.19656",
@@ -3486,7 +3503,8 @@
       "paper_url": "https://arxiv.org/abs/2610.19656",
       "repo_url": "https://github.com/JHLee2314/PICES_VLA",
       "code_status": "Official Apache-2.0 pi05/GR00T model adapter source verified; README explicitly excludes model servers, RPC clients, full evaluator, weights, evaluation records; no full rerun after cleanup",
-      "notes": "Training-free batched candidate chunk/execution-horizon selection reduces cumulative VLA policy calls; paper reports up to 2.3x wall-clock policy inference time on Jetson Orin/Thor, not per-kernel speedup or multi-tenant serving/p99. Real robot and simulation evidence; primarily algorithmic."
+      "notes": "Training-free batched candidate chunk/execution-horizon selection reduces cumulative VLA policy calls; paper reports up to 2.3x wall-clock policy inference time on Jetson Orin/Thor, not per-kernel speedup or multi-tenant serving/p99. Real robot and simulation evidence; primarily algorithmic.",
+      "evidence": "daily/2026-10-24/PHYSICAL_CLASSIFICATION_2200.md"
     },
     {
       "id": "arxiv:2610.29264",
@@ -3504,7 +3522,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.29264",
       "code_status": "Project page noted in original PDF; independently runnable server code not verified",
-      "notes": "Real-robot client + centralized GPU inference/recording server + asynchronous online learner and checkpoint handoff; four real bimanual tasks, sessions under 1h. 3B WAM online training on eight H100 (~0.4s/optimizer step, not serving latency). Main novelty provenance-conditioned training, no fleet/p99 study."
+      "notes": "Real-robot client + centralized GPU inference/recording server + asynchronous online learner and checkpoint handoff; four real bimanual tasks, sessions under 1h. 3B WAM online training on eight H100 (~0.4s/optimizer step, not serving latency). Main novelty provenance-conditioned training, no fleet/p99 study.",
+      "evidence": "daily/2026-10-24/PHYSICAL_CLASSIFICATION_2200.md"
     },
     {
       "id": "arxiv:2610.25358",
@@ -3523,7 +3542,8 @@
       "paper_url": "https://arxiv.org/abs/2610.25358",
       "repo_url": "https://github.com/UTAustin-SwarmLab/LateMatch",
       "code_status": "Official MIT GitHub repository verified by API, but root contains only LICENSE/.gitignore; implementation not publicly available in checked tree",
-      "notes": "Late interaction separates reusable offline image-context cache from online K-way matching; paper reports 2.2x wall-clock full-pipeline localization speedup on desktop GPU (Aachen K=50) with comparable accuracy and unchanged peak memory. CoRL 2026; physical/edge localization workload, but model architecture rather than general GPU multi-tenant VLA serving; no edge hardware or p99 SLO validation."
+      "notes": "Late interaction separates reusable offline image-context cache from online K-way matching; paper reports 2.2x wall-clock full-pipeline localization speedup on desktop GPU (Aachen K=50) with comparable accuracy and unchanged peak memory. CoRL 2026; physical/edge localization workload, but model architecture rather than general GPU multi-tenant VLA serving; no edge hardware or p99 SLO validation.",
+      "evidence": "daily/2026-10-25/NEW_PDF_FULLTEXT_0300.json"
     },
     {
       "id": "arxiv:2610.18697",
@@ -3541,7 +3561,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.18697",
       "code_status": "No official implementation repository linked on arXiv abstract; independently runnable serving stack not verified",
-      "notes": "Model-centric shared-expert DiT unifies WM/WAM interfaces; plug-in PAIR selects interface per action chunk and clears/rebuilds runtime caches on switches. Paper reports 88.3% real-world task success versus 76.7% baseline; ~63ms router timing excludes observation/language encoding, action generation, cache reconstruction and multi-GPU control communication. No reusable multi-tenant scheduler or full-loop p99 evidence."
+      "notes": "Model-centric shared-expert DiT unifies WM/WAM interfaces; plug-in PAIR selects interface per action chunk and clears/rebuilds runtime caches on switches. Paper reports 88.3% real-world task success versus 76.7% baseline; ~63ms router timing excludes observation/language encoding, action generation, cache reconstruction and multi-GPU control communication. No reusable multi-tenant scheduler or full-loop p99 evidence.",
+      "evidence": "daily/2026-10-25/NEW_PDF_FULLTEXT_0300.json"
     },
     {
       "id": "arxiv:2610.13809",
@@ -3559,7 +3580,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.13809",
       "code_status": "Paper describes Holoscan reference C++ components; public Holoscan SDK exists, but dedicated GPU-resident implementation not independently located",
-      "notes": "NVIDIA GPU-resident CUDA Graph + GPU-driven I/O / GPU-memory RDMA sensor-to-output loop avoids host wakeups. Real 1080p 60Hz camera-to-display: photon-to-display jitter 4.83->0.66ms (7.3x), software jitter 1.70->0.01ms (170x), plus p99.9 microbench evidence. Reusable real-time GPU sensor runtime, not VLA multi-tenant SLO."
+      "notes": "NVIDIA GPU-resident CUDA Graph + GPU-driven I/O / GPU-memory RDMA sensor-to-output loop avoids host wakeups. Real 1080p 60Hz camera-to-display: photon-to-display jitter 4.83->0.66ms (7.3x), software jitter 1.70->0.01ms (170x), plus p99.9 microbench evidence. Reusable real-time GPU sensor runtime, not VLA multi-tenant SLO.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_FULLTEXT_0500.json"
     },
     {
       "id": "arxiv:2610.16244",
@@ -3575,7 +3597,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.16244",
       "code_status": "No dedicated official implementation repository independently verified",
-      "notes": "Mobile heterogeneous video-diffusion runtime: shared INT8 weights and stage pipeline across NPU/GPU on Galaxy S25 running DCM-Wan2.1. 49-frame 1.35x throughput vs NPU-only (677 vs 917s/clip), 17-frame 1.50x; 5.3 vs 3.9 videos/hour meeting per-clip deadline, weights 1.47 vs 2.83GiB. Multimodal edge generation, not VLA control-loop serving."
+      "notes": "Mobile heterogeneous video-diffusion runtime: shared INT8 weights and stage pipeline across NPU/GPU on Galaxy S25 running DCM-Wan2.1. 49-frame 1.35x throughput vs NPU-only (677 vs 917s/clip), 17-frame 1.50x; 5.3 vs 3.9 videos/hour meeting per-clip deadline, weights 1.47 vs 2.83GiB. Multimodal edge generation, not VLA control-loop serving.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_FULLTEXT_0500.json"
     },
     {
       "id": "arxiv:2610.02370",
@@ -3592,7 +3615,8 @@
       "paper_url": "https://arxiv.org/abs/2610.02370",
       "repo_url": "https://github.com/ZzZTripleZzZ/isaac-net",
       "code_status": "Official BSD-3-Clause GitHub repo with isaac_net, benchmarks, tests, docs verified by API",
-      "notes": "Isaac-Net GPU-batched 5G NR network-in-the-loop evaluation infrastructure for multi-robot fleets. Isaac Lab 1,048,576 robots on one GPU at 1.24 control steps/s vs 1.50 without network (random policy). Simulates network AoI/delay and load, not a production serving scheduler or measured fleet p99."
+      "notes": "Isaac-Net GPU-batched 5G NR network-in-the-loop evaluation infrastructure for multi-robot fleets. Isaac Lab 1,048,576 robots on one GPU at 1.24 control steps/s vs 1.50 without network (random policy). Simulates network AoI/delay and load, not a production serving scheduler or measured fleet p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_FULLTEXT_0500.json"
     },
     {
       "id": "arxiv:2610.09307",
@@ -3614,7 +3638,8 @@
       "paper_url": "https://arxiv.org/abs/2610.09307",
       "repo_url": "https://github.com/vllm-project/vllm-omni",
       "code_status": "Official open-source vLLM-Omni runtime; latest stable GitHub API v0.30.0, v0.32.0rc1 separately tracked as prerelease",
-      "notes": "34p official full text: unified multi-stage orchestration, stage-specific engines/replica pools, connector data plane, session-aware streaming/duplex/world-model/robot workloads, multi-hardware support; report's H100/H200 multimodal CI is not proof of robot-fleet p99. Distinct 2026 technical report from arxiv:2602.02204; do not merge identifiers."
+      "notes": "34p official full text: unified multi-stage orchestration, stage-specific engines/replica pools, connector data plane, session-aware streaming/duplex/world-model/robot workloads, multi-hardware support; report's H100/H200 multimodal CI is not proof of robot-fleet p99. Distinct 2026 technical report from arxiv:2602.02204; do not merge identifiers.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0600.json; daily/2026-10-25/FULLTEXT_RECHECK_0600.json"
     },
     {
       "id": "arxiv:2610.08444",
@@ -3631,7 +3656,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.08444",
       "code_status": "Dedicated implementation/reproducible GPU frequency-power controller not independently verified",
-      "notes": "22p official full text: per-action quantization, resident weight bank, asynchronous GPU frequency/power-cap selection under <=10% latency-increase budget; up to 2.02x faster inference and 76.8% less GPU energy per successful LIBERO task vs BF16 (author claims). Primarily policy precision/DVFS co-optimization, not generic fleet-serving or p99 scheduler."
+      "notes": "22p official full text: per-action quantization, resident weight bank, asynchronous GPU frequency/power-cap selection under <=10% latency-increase budget; up to 2.02x faster inference and 76.8% less GPU energy per successful LIBERO task vs BF16 (author claims). Primarily policy precision/DVFS co-optimization, not generic fleet-serving or p99 scheduler.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_SIBLING_REPLAY_0500.json; daily/2026-10-25/FULLTEXT_RECHECK_0600.json"
     },
     {
       "id": "arxiv:2610.21160",
@@ -3648,7 +3674,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.21160",
       "code_status": "No dedicated first-party implementation repository verified",
-      "notes": "41-page official PDF: Value-of-Intervention (VoI) cost-aware invocation framework, hardware latency on RTX4090 (52ms slow/55ms fast FiS-VLA), 14 matched closed-loop experimental arms; important negative result: correctly allocated slow calls did not guarantee task success. No reusable production scheduler, multi-tenant p99 or robot fleet proof. Systems boundary, not CORE_SYS."
+      "notes": "41-page official PDF: Value-of-Intervention (VoI) cost-aware invocation framework, hardware latency on RTX4090 (52ms slow/55ms fast FiS-VLA), 14 matched closed-loop experimental arms; important negative result: correctly allocated slow calls did not guarantee task success. No reusable production scheduler, multi-tenant p99 or robot fleet proof. Systems boundary, not CORE_SYS.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0700.json; daily/2026-10-25/FULLTEXT_RECHECK_0700.json"
     },
     {
       "id": "arxiv:2610.19201",
@@ -3665,7 +3692,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.19201",
       "code_status": "Dedicated first-party code release not independently verified",
-      "notes": "31-page official PDF: four-step causal LiDAR world model with rolling temporal KV cache and world-aligned persistent spatial cache; author reports 11 FPS on one H100. Model/algorithm and state reuse rather than reusable serving scheduler; no multi-session p99/robot fleet demonstration."
+      "notes": "31-page official PDF: four-step causal LiDAR world model with rolling temporal KV cache and world-aligned persistent spatial cache; author reports 11 FPS on one H100. Model/algorithm and state reuse rather than reusable serving scheduler; no multi-session p99/robot fleet demonstration.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0700.json; daily/2026-10-25/FULLTEXT_RECHECK_0700.json"
     },
     {
       "id": "arxiv:2610.13862",
@@ -3683,7 +3711,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.13862",
       "code_status": "Dedicated first-party code release not independently verified",
-      "notes": "9-page official PDF: on-board Jetson Thor + 9B LLM on Spot, behavior-tree skill supervisor with local safety guards, asynchronous high-level decisions, real-robot interruption and 161-task multi-fidelity benchmark (text evaluation 10.9x throughput vs simulator). Local stop-command median 19ms is not VLA inference latency; no multi-tenant p99/serving proof. Reusable onboard runtime and evaluation infrastructure."
+      "notes": "9-page official PDF: on-board Jetson Thor + 9B LLM on Spot, behavior-tree skill supervisor with local safety guards, asynchronous high-level decisions, real-robot interruption and 161-task multi-fidelity benchmark (text evaluation 10.9x throughput vs simulator). Local stop-command median 19ms is not VLA inference latency; no multi-tenant p99/serving proof. Reusable onboard runtime and evaluation infrastructure.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0800.json; daily/2026-10-25/FULLTEXT_RECHECK_0800.json"
     },
     {
       "id": "arxiv:2610.16238",
@@ -3701,7 +3730,8 @@
       "paper_url": "https://arxiv.org/abs/2610.16238",
       "repo_url": "https://github.com/HanZhi306/EmbodiedSkill-Bench",
       "code_status": "First-party public repo verified with src/tests/evaluation, license not declared in API metadata",
-      "notes": "24-page official PDF: reusable 250-skill closed-loop robot-agent evaluation substrate with task success/actions/tokens/wall-clock time; 100 LIBERO-Pro tasks, native vs skill-only vs agent-directed reuse. Agent-directed reuse reports 14.1% fewer tokens and 11.9% less wall-clock time for a tested agent, not GPU serving throughput; no fleet/p99 claim. Evaluation infrastructure rather than online serving scheduler."
+      "notes": "24-page official PDF: reusable 250-skill closed-loop robot-agent evaluation substrate with task success/actions/tokens/wall-clock time; 100 LIBERO-Pro tasks, native vs skill-only vs agent-directed reuse. Agent-directed reuse reports 14.1% fewer tokens and 11.9% less wall-clock time for a tested agent, not GPU serving throughput; no fleet/p99 claim. Evaluation infrastructure rather than online serving scheduler.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0800.json; daily/2026-10-25/FULLTEXT_RECHECK_0800.json; daily/2026-10-25/REPO_EVIDENCE_0800.json"
     },
     {
       "id": "arxiv:2610.15585",
@@ -3718,7 +3748,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.15585",
       "code_status": "Project page exists; dedicated public implementation repository not verified",
-      "notes": "20-page official PDF: staircase flow matching, noise ladder, prefix rollout and dense video-history memory. Real Franka robot at 15Hz on RTX5090, steady-state replan 57.3ms (1 denoise step) vs pi0.5 61.5ms (10 steps), both under 66.7ms budget. Model-level streaming method, not multi-tenant runtime or p99 serving."
+      "notes": "20-page official PDF: staircase flow matching, noise ladder, prefix rollout and dense video-history memory. Real Franka robot at 15Hz on RTX5090, steady-state replan 57.3ms (1 denoise step) vs pi0.5 61.5ms (10 steps), both under 66.7ms budget. Model-level streaming method, not multi-tenant runtime or p99 serving.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0800.json; daily/2026-10-25/FULLTEXT_RECHECK_0800.json"
     },
     {
       "id": "arxiv:2610.17540",
@@ -3735,7 +3766,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.17540",
       "code_status": "Dedicated first-party code release not verified",
-      "notes": "26-page official PDF: mask action-expert attention to generated reasoning and optionally generate episodic-memory reasoning during action execution. Up to 3.4x lower model-level inference latency vs explicit-reasoning baseline, one-H100 evaluation; no additional scheduler/multi-tenant or tail-latency proof."
+      "notes": "26-page official PDF: mask action-expert attention to generated reasoning and optionally generate episodic-memory reasoning during action execution. Up to 3.4x lower model-level inference latency vs explicit-reasoning baseline, one-H100 evaluation; no additional scheduler/multi-tenant or tail-latency proof.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0800.json; daily/2026-10-25/FULLTEXT_RECHECK_0800.json"
     },
     {
       "id": "arxiv:2610.03797",
@@ -3754,7 +3786,8 @@
       "paper_url": "https://arxiv.org/abs/2610.03797",
       "repo_url": "https://github.com/liulixinkerry/WAMJET",
       "code_status": "BSD-3-Clause first-party code verified: wamjet/skills/scripts/examples/EVAL.md",
-      "notes": "8-page official PDF, reusable profiling/optimization/validation agent harness across six WAMs, three coding agents and two GPU architectures; up to 9.95x author-reported lossless speedup vs upstream implementation. Offline WAM optimization infrastructure, not online multi-tenant serving or tail-latency guarantee."
+      "notes": "8-page official PDF, reusable profiling/optimization/validation agent harness across six WAMs, three coding agents and two GPU architectures; up to 9.95x author-reported lossless speedup vs upstream implementation. Offline WAM optimization infrastructure, not online multi-tenant serving or tail-latency guarantee.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0900.json; daily/2026-10-25/FULLTEXT_RECHECK_0900.json; daily/2026-10-25/REPO_EVIDENCE_0900.json"
     },
     {
       "id": "arxiv:2610.13534",
@@ -3772,7 +3805,8 @@
       "paper_url": "https://arxiv.org/abs/2610.13534",
       "repo_url": "https://github.com/MAGMA-rob/magma-bench",
       "code_status": "BSD-2-Clause first-party repo with src/tests/pyproject verified",
-      "notes": "10-page official PDF: architecture-agnostic multi-robot long-horizon task/evaluation infrastructure, controlled online failures, interruptions and mission updates; structured skill interface and 261646 task-level training examples. Benchmark rather than online model-serving scheduler; no inference p99 claim."
+      "notes": "10-page official PDF: architecture-agnostic multi-robot long-horizon task/evaluation infrastructure, controlled online failures, interruptions and mission updates; structured skill interface and 261646 task-level training examples. Benchmark rather than online model-serving scheduler; no inference p99 claim.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0900.json; daily/2026-10-25/FULLTEXT_RECHECK_0900.json; daily/2026-10-25/REPO_EVIDENCE_0900.json"
     },
     {
       "id": "arxiv:2610.11401",
@@ -3790,7 +3824,8 @@
       "paper_url": "https://arxiv.org/abs/2610.11401",
       "project_url": "https://dingkai0302.github.io/wam-cache/",
       "code_status": "Official project verified; dedicated public code not verified",
-      "notes": "19-page official PDF: action-attention and latent-surprise selective KV refresh with age bound across WAM chunks; 32-42% video-DiT prefill FLOP reduction, 1.23x CUDA prefill speedup at native tokens and 1.67x at 9x visual context; no multi-session cache ownership or serving p99. Accuracy/compute tradeoff and model-level cache, not generic serving infrastructure."
+      "notes": "19-page official PDF: action-attention and latent-surprise selective KV refresh with age bound across WAM chunks; 32-42% video-DiT prefill FLOP reduction, 1.23x CUDA prefill speedup at native tokens and 1.67x at 9x visual context; no multi-session cache ownership or serving p99. Accuracy/compute tradeoff and model-level cache, not generic serving infrastructure.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0900.json; daily/2026-10-25/FULLTEXT_RECHECK_0900.json"
     },
     {
       "id": "arxiv:2610.12710",
@@ -3808,7 +3843,8 @@
       "paper_url": "https://arxiv.org/abs/2610.12710",
       "project_url": "https://revanthsenthil.github.io/remm/",
       "code_status": "Official project verified; dedicated public implementation not verified",
-      "notes": "12-page official PDF: external evidence-linked task memory with dependency invalidation and bounded recovery scheduling around frozen G0.5 policy. 51 physical trials including operator-assisted runs; mean recorded task progress 57%->91% intervention recovery and 43%->70% sequence recall. Not unassisted success rate or generic multi-tenant serving/p99."
+      "notes": "12-page official PDF: external evidence-linked task memory with dependency invalidation and bounded recovery scheduling around frozen G0.5 policy. 51 physical trials including operator-assisted runs; mean recorded task progress 57%->91% intervention recovery and 43%->70% sequence recall. Not unassisted success rate or generic multi-tenant serving/p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_0900.json; daily/2026-10-25/FULLTEXT_RECHECK_0900.json; daily/2026-10-25/REPO_EVIDENCE_0900.json"
     },
     {
       "id": "arxiv:2603.14371",
@@ -3829,7 +3865,8 @@
       "repo_url": "https://github.com/air-embodied-brain/OxyGen",
       "project_url": "https://air-embodied-brain.github.io/OxyGen/",
       "code_status": "Apache-2.0 official source verified: src, scripts, experiments, packages, pyproject.toml",
-      "notes": "24-page first-party PDF; shared KV cache across VLA task types and control frames, cross-task KV sharing plus frame-budgeted continuous batching. Author-reported up to 3.7x vs isolated execution and simultaneous >200 tokens/s language plus 70 Hz action frequency on RTX4090; evaluated pi0.5/StarVLA/Xiaomi-Robotics-0, Jetson AGX Thor and on-board humanoid. No multi-tenant cloud p99 proof. Previously archived official PDF reused, not double-counted."
+      "notes": "24-page first-party PDF; shared KV cache across VLA task types and control frames, cross-task KV sharing plus frame-budgeted continuous batching. Author-reported up to 3.7x vs isolated execution and simultaneous >200 tokens/s language plus 70 Hz action frequency on RTX4090; evaluated pi0.5/StarVLA/Xiaomi-Robotics-0, Jetson AGX Thor and on-board humanoid. No multi-tenant cloud p99 proof. Previously archived official PDF reused, not double-counted.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1000.json; daily/2026-10-25/FULLTEXT_RECHECK_1000.json; daily/2026-10-25/REPO_EVIDENCE_1000.json"
     },
     {
       "id": "arxiv:2610.13516",
@@ -3846,7 +3883,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.13516",
       "code_status": "Official PDF verified; public reusable implementation not verified",
-      "notes": "8-page first-party PDF; evaluates monitor intervention value using 128340 counterfactual policy/simulator branches, alarm timing, recovery and false-alarm costs. On selected stop/reset conditions, idealized monitor tolerates only 2.0-3.3% false-alarm rates; evaluation framework, not online serving scheduler or production p99, public reusable harness unverified."
+      "notes": "8-page first-party PDF; evaluates monitor intervention value using 128340 counterfactual policy/simulator branches, alarm timing, recovery and false-alarm costs. On selected stop/reset conditions, idealized monitor tolerates only 2.0-3.3% false-alarm rates; evaluation framework, not online serving scheduler or production p99, public reusable harness unverified.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1000.json; daily/2026-10-25/FULLTEXT_RECHECK_1000.json"
     },
     {
       "id": "arxiv:2610.14997",
@@ -3863,7 +3901,8 @@
       "paper_url": "https://arxiv.org/abs/2610.14997",
       "repo_url": "https://github.com/NamelessCrew/FreeBar",
       "code_status": "Apache-2.0 official implementation verified: Isaac-GR00T, kinetix, robocasa",
-      "notes": "19-page official PDF; training-free closed-form barrier-guided alignment of successive async VLA action chunks. Author-reported average success-rate improvement of 10%-15% versus naive asynchronous execution; the paper's percentage notation is retained without inferring percentage-point gains. Real-robot experiments and official implementation; no general-purpose scheduler, cross-request batching, or serving p99."
+      "notes": "19-page official PDF; training-free closed-form barrier-guided alignment of successive async VLA action chunks. Author-reported average success-rate improvement of 10%-15% versus naive asynchronous execution; the paper's percentage notation is retained without inferring percentage-point gains. Real-robot experiments and official implementation; no general-purpose scheduler, cross-request batching, or serving p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1000.json; daily/2026-10-25/FULLTEXT_RECHECK_1000.json; daily/2026-10-25/REPO_EVIDENCE_1000.json"
     },
     {
       "id": "arxiv:2606.31497",
@@ -3880,7 +3919,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2606.31497",
       "code_status": "No official public implementation verified",
-      "notes": "15-page official PDF. Request-response window models uplink, cloud inference, downlink and uncertainty; selects robot request submission location during active primitive execution using measured communication map and local motion planner. Simulated indoor wireless scenario with emulated cloud inference; author reports best task success and request failure among tested baselines. Cross-layer robot/cloud request timing mechanism, but no production multi-tenant serving stack, cloud GPU scheduling, or p99 measurements; boundary not CORE_SYS."
+      "notes": "15-page official PDF. Request-response window models uplink, cloud inference, downlink and uncertainty; selects robot request submission location during active primitive execution using measured communication map and local motion planner. Simulated indoor wireless scenario with emulated cloud inference; author reports best task success and request failure among tested baselines. Cross-layer robot/cloud request timing mechanism, but no production multi-tenant serving stack, cloud GPU scheduling, or p99 measurements; boundary not CORE_SYS.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1100.json; daily/2026-10-25/FULLTEXT_RECHECK_1100.json"
     },
     {
       "id": "arxiv:2610.02660",
@@ -3896,7 +3936,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.02660",
       "code_status": "No official public implementation verified",
-      "notes": "17-page official PDF; training-free denoising-step spectral subspace caching and singular-value extrapolation for diffusion world models. HunyuanWorld-Voyager-13B 1054s vanilla vs 202s SpectralCache (~5.22x) and static-scene WorldScore 65.90, experiments on two NVIDIA Pro 6000 96GB GPUs. Model-level cache acceleration, not cross-session serving, live control-loop latency, or production p99."
+      "notes": "17-page official PDF; training-free denoising-step spectral subspace caching and singular-value extrapolation for diffusion world models. HunyuanWorld-Voyager-13B 1054s vanilla vs 202s SpectralCache (~5.22x) and static-scene WorldScore 65.90, experiments on two NVIDIA Pro 6000 96GB GPUs. Model-level cache acceleration, not cross-session serving, live control-loop latency, or production p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1100.json; daily/2026-10-25/FULLTEXT_RECHECK_1100.json"
     },
     {
       "id": "arxiv:2607.18060",
@@ -3913,7 +3954,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2607.18060",
       "code_status": "No RoboHarness-specific public implementation verified; Physical-Intelligence/openpi is cited baseline, not this work's repository",
-      "notes": "24-page official PDF. Agentic heterogeneous VLA/WAM/RL/TAMP policy orchestration, capability-aware routing, Memory Bridge for cross-policy handoff; five benchmarks, 500 custom tasks, 135 real-robot trials. Paper reports average reasoning/planning API latency 4.6 seconds per call and cumulative additional 67.4 seconds per trial, not real-time serving or p99. Algorithmic orchestration boundary, not a multi-tenant serving stack."
+      "notes": "24-page official PDF. Agentic heterogeneous VLA/WAM/RL/TAMP policy orchestration, capability-aware routing, Memory Bridge for cross-policy handoff; five benchmarks, 500 custom tasks, 135 real-robot trials. Paper reports average reasoning/planning API latency 4.6 seconds per call and cumulative additional 67.4 seconds per trial, not real-time serving or p99. Algorithmic orchestration boundary, not a multi-tenant serving stack.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1200.json; daily/2026-10-25/FULLTEXT_RECHECK_1200.json"
     },
     {
       "id": "arxiv:2609.37772",
@@ -3930,7 +3972,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.37772",
       "code_status": "No official UAD implementation verified; ky-ji/BAC referenced in PDF is an external baseline",
-      "notes": "19-page official PDF. Urgency-aware early release of near-term action steps, continued background tail-action denoising, trajectory reconciliation and ghost-action correction. Author reports up to 1.89x improvement in average action-availability latency with comparable task success across simulation/real robot. This is not a claim of 1.89x full inference throughput or serving p99; no multi-tenant runtime."
+      "notes": "19-page official PDF. Urgency-aware early release of near-term action steps, continued background tail-action denoising, trajectory reconciliation and ghost-action correction. Author reports up to 1.89x improvement in average action-availability latency with comparable task success across simulation/real robot. This is not a claim of 1.89x full inference throughput or serving p99; no multi-tenant runtime.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1200.json; daily/2026-10-25/FULLTEXT_RECHECK_1200.json"
     },
     {
       "id": "arxiv:2609.36471",
@@ -3947,7 +3990,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.36471",
       "code_status": "Official project page HTTP200, but no independently verified implementation repository",
-      "notes": "24-page official PDF; staggered subchunk denoising and future-latent updates during execution. Author reports 292.7 executed actions/s (3.62x vs conventional execution at comparable accuracy), time-to-first-action 123.6 to 73.3ms; optimized 642.9 actions/s is a separate setting. Not multi-tenant serving throughput or p99."
+      "notes": "24-page official PDF; staggered subchunk denoising and future-latent updates during execution. Author reports 292.7 executed actions/s (3.62x vs conventional execution at comparable accuracy), time-to-first-action 123.6 to 73.3ms; optimized 642.9 actions/s is a separate setting. Not multi-tenant serving throughput or p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1300.json; daily/2026-10-25/FULLTEXT_RECHECK_1300.json; daily/2026-10-25/REPO_EVIDENCE_1300.json"
     },
     {
       "id": "arxiv:2609.34170",
@@ -3963,7 +4007,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.34170",
       "code_status": "No official implementation independently verified",
-      "notes": "18-page official PDF; rolling partially denoised action buffer, asynchronous VLM encoding and Fast Observation Pathway. Author reports example response latency 178.52 to 92.97ms (1.92x), with 30Hz control setting; no serving p99/multi-session benchmark."
+      "notes": "18-page official PDF; rolling partially denoised action buffer, asynchronous VLM encoding and Fast Observation Pathway. Author reports example response latency 178.52 to 92.97ms (1.92x), with 30Hz control setting; no serving p99/multi-session benchmark.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1300.json; daily/2026-10-25/FULLTEXT_RECHECK_1300.json"
     },
     {
       "id": "arxiv:2609.34608",
@@ -3980,7 +4025,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.34608",
       "code_status": "Paper cites RSIScience/WAMachine, but official GitHub API returned HTTP404 at checkpoint; do not claim released code",
-      "notes": "17-page official PDF; trajectory remapping across replans, observation rebinding during execution and selective layer residual reuse. Author reports 1.47–3.05x observation-to-action latency and 2.23–3.27x GPU inference per replan speedups, preserving 96.69–99.54% baseline task success; not multi-session serving."
+      "notes": "17-page official PDF; trajectory remapping across replans, observation rebinding during execution and selective layer residual reuse. Author reports 1.47–3.05x observation-to-action latency and 2.23–3.27x GPU inference per replan speedups, preserving 96.69–99.54% baseline task success; not multi-session serving.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1300.json; daily/2026-10-25/FULLTEXT_RECHECK_1300.json; daily/2026-10-25/REPO_EVIDENCE_1300.json"
     },
     {
       "id": "arxiv:2508.07555",
@@ -3996,7 +4042,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2508.07555",
       "code_status": "No first-party implementation verified; mathematical scheduling algorithms and numerical evaluation",
-      "notes": "21-page official PDF; remote multi-sensor feature freshness scheduling via Age-of-Information vector, SMDP reduction, optimal switching/index policies and low-complexity alternatives. Robot-state/hand-pose/VAR numerical and trace-based evaluation, not deployed VLA runtime or p99. CORE_SYS is for reusable scheduling/resource-allocation abstraction, not a production serving system."
+      "notes": "21-page official PDF; remote multi-sensor feature freshness scheduling via Age-of-Information vector, SMDP reduction, optimal switching/index policies and low-complexity alternatives. Robot-state/hand-pose/VAR numerical and trace-based evaluation, not deployed VLA runtime or p99. CORE_SYS is for reusable scheduling/resource-allocation abstraction, not a production serving system.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1400.json; daily/2026-10-25/FULLTEXT_RECHECK_1400.json"
     },
     {
       "id": "arxiv:2609.30833",
@@ -4012,7 +4059,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.30833",
       "code_status": "No first-party implementation verified",
-      "notes": "13-page official PDF; waypoint-aligned block autoregressive planning reduces VLM forward passes 57 to 8 including prefill and author-reported real-robot planning latency 8.7x lower; NGM ensures waypoint-conditioned actions. Planner component latency, not whole serving pipeline/p99."
+      "notes": "13-page official PDF; waypoint-aligned block autoregressive planning reduces VLM forward passes 57 to 8 including prefill and author-reported real-robot planning latency 8.7x lower; NGM ensures waypoint-conditioned actions. Planner component latency, not whole serving pipeline/p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1400.json; daily/2026-10-25/FULLTEXT_RECHECK_1400.json"
     },
     {
       "id": "arxiv:2609.05533",
@@ -4029,7 +4077,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.05533",
       "code_status": "No first-party implementation verified",
-      "notes": "30-page official PDF; native-video history shared-prefix prefill during robot action execution and KV reuse at next decision, 1.02s to 0.68s decision latency with identical outputs to recomputation. Single-policy control-loop cache overlap, no multi-session memory isolation or p99."
+      "notes": "30-page official PDF; native-video history shared-prefix prefill during robot action execution and KV reuse at next decision, 1.02s to 0.68s decision latency with identical outputs to recomputation. Single-policy control-loop cache overlap, no multi-session memory isolation or p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1400.json; daily/2026-10-25/FULLTEXT_RECHECK_1400.json"
     },
     {
       "id": "arxiv:2607.27205",
@@ -4045,7 +4094,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2607.27205",
       "code_status": "Official H-EmbodVis/TurboVLA repository verified with actual turbovla source, scripts, experiments; GitHub API 706 stars at checkpoint",
-      "notes": "20-page official PDF; 0.2B direct V+L-to-action model, RTX4090 31.2ms inference/0.9GiB VRAM, optimized CUDA Graph 7.42ms inference setting; author-reported model-level GPU latency, not end-to-end multi-robot serving or p99."
+      "notes": "20-page official PDF; 0.2B direct V+L-to-action model, RTX4090 31.2ms inference/0.9GiB VRAM, optimized CUDA Graph 7.42ms inference setting; author-reported model-level GPU latency, not end-to-end multi-robot serving or p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1400.json; daily/2026-10-25/FULLTEXT_RECHECK_1400.json; daily/2026-10-25/REPO_EVIDENCE_1400.json"
     },
     {
       "id": "arxiv:2610.09294",
@@ -4062,7 +4112,8 @@
       "paper_url": "https://arxiv.org/abs/2610.09294",
       "repo_url": "https://github.com/XTRose29/RT-SAFE",
       "code_status": "Official first-author GitHub RT-SAFE code and benchmark/evaluation/tests/simulation directories verified via API; not locally executed",
-      "notes": "31-page official PDF; simulated real-time urban embodied-agent benchmark where the world advances during VLM inference and action. Matched static vs real-time task completion 91.3% vs 94.1% but collision count 12.3x higher; hardest setting 0.7% episodes safely completed. Reusable time-sensitive evaluation infrastructure, not a serving scheduler or measured GPU p99."
+      "notes": "31-page official PDF; simulated real-time urban embodied-agent benchmark where the world advances during VLM inference and action. Matched static vs real-time task completion 91.3% vs 94.1% but collision count 12.3x higher; hardest setting 0.7% episodes safely completed. Reusable time-sensitive evaluation infrastructure, not a serving scheduler or measured GPU p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1500.json; daily/2026-10-25/FULLTEXT_RECHECK_1500.json; daily/2026-10-25/REPO_EVIDENCE_1500.json"
     },
     {
       "id": "arxiv:2610.07466",
@@ -4079,7 +4130,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.07466",
       "code_status": "No official implementation independently verified",
-      "notes": "40-page official PDF; Sequential Modality Aggregator and Adaptive Runtime Controller choose modality encoder execution and early stopping without recomputing prior branches. Six multimodal classification datasets, 61.4% lower GFLOPs vs most accurate baseline, mean end-to-end latency 44.0% lower across GPU/CPU and 47.2% lower on Android INT8 vs fastest measured baseline. Learned modality acquisition policy, no batching/multi-session serving or robotics closed loop."
+      "notes": "40-page official PDF; Sequential Modality Aggregator and Adaptive Runtime Controller choose modality encoder execution and early stopping without recomputing prior branches. Six multimodal classification datasets, 61.4% lower GFLOPs vs most accurate baseline, mean end-to-end latency 44.0% lower across GPU/CPU and 47.2% lower on Android INT8 vs fastest measured baseline. Learned modality acquisition policy, no batching/multi-session serving or robotics closed loop.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1500.json; daily/2026-10-25/FULLTEXT_RECHECK_1500.json"
     },
     {
       "id": "arxiv:2610.15922",
@@ -4095,7 +4147,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.15922",
       "code_status": "No official implementation independently verified",
-      "notes": "30-page official PDF; decouples fixed exact-computation anchors from drift/age-controlled repair in AR video DiT caching. SkyReels-V2 FSC-Speed 2.36x speedup vs full inference; comparisons to MotionCache speed and quality are separate settings. No multi-tenant world-model serving, cache isolation or p99 evaluation."
+      "notes": "30-page official PDF; decouples fixed exact-computation anchors from drift/age-controlled repair in AR video DiT caching. SkyReels-V2 FSC-Speed 2.36x speedup vs full inference; comparisons to MotionCache speed and quality are separate settings. No multi-tenant world-model serving, cache isolation or p99 evaluation.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1500.json; daily/2026-10-25/FULLTEXT_RECHECK_1500.json"
     },
     {
       "id": "arxiv:2505.00986",
@@ -4112,7 +4165,8 @@
       "paper_url": "https://arxiv.org/abs/2505.00986",
       "repo_url": "https://github.com/TheMaXiao/EmbodiTTA",
       "code_status": "First-author repository with embodied TTA Python module, tests, ImageNet-C/CIFAR-10-C scripts verified via GitHub API; not locally executed",
-      "notes": "11-page official PDF; event-triggered domain-shift detection and on-demand adaptation with memory-efficient BN updates on Jetson Orin Nano. 10k samples in 239s, 6.7x faster than MECTA latency baseline; 47.2% energy saved vs EATA-C at 10k frames. Streaming embodied perception adaptation rather than online VLA serving scheduler."
+      "notes": "11-page official PDF; event-triggered domain-shift detection and on-demand adaptation with memory-efficient BN updates on Jetson Orin Nano. 10k samples in 239s, 6.7x faster than MECTA latency baseline; 47.2% energy saved vs EATA-C at 10k frames. Streaming embodied perception adaptation rather than online VLA serving scheduler.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1500.json; daily/2026-10-25/FULLTEXT_RECHECK_1500.json; daily/2026-10-25/REPO_EVIDENCE_1500.json"
     },
     {
       "id": "arxiv:2609.34653",
@@ -4129,7 +4183,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.34653",
       "code_status": "No author implementation independently verified; GitHub repository search HTTP403 rate limit, retry required",
-      "notes": "16-page official PDF; OmniPick modality-aware logical KV retention + OmniPage physical compaction and fragmentation reduction, 9.6K lines of claimed implementation. Three streaming benchmarks/three omni models, RTX4090 and Apple M2 Pro; up to 12.72x kernel speedup, 2.40x lower streaming-loop latency, up to 26.7% less physical KV span. Single-device streaming, not multi-tenant p99."
+      "notes": "16-page official PDF; OmniPick modality-aware logical KV retention + OmniPage physical compaction and fragmentation reduction, 9.6K lines of claimed implementation. Three streaming benchmarks/three omni models, RTX4090 and Apple M2 Pro; up to 12.72x kernel speedup, 2.40x lower streaming-loop latency, up to 26.7% less physical KV span. Single-device streaming, not multi-tenant p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1600.json; daily/2026-10-25/FULLTEXT_RECHECK_1600.json; daily/2026-10-25/REPO_EVIDENCE_1600.json"
     },
     {
       "id": "arxiv:2610.25068",
@@ -4145,7 +4200,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.25068",
       "code_status": "No official source independently verified; GitHub repository search HTTP403 rate limit, retry required",
-      "notes": "8-page official PDF; robot scene-memory edge acceleration on AMD KR260 FPGA/ARM, INT16 scene-coordinate regression and bit-exact ordered 3DGS renderer. Board-measured 25.42ms localization, 1.9–5.7x performance/W vs Jetson Orin NX at approximately quarter power; not general VLA serving or multi-session runtime."
+      "notes": "8-page official PDF; robot scene-memory edge acceleration on AMD KR260 FPGA/ARM, INT16 scene-coordinate regression and bit-exact ordered 3DGS renderer. Board-measured 25.42ms localization, 1.9–5.7x performance/W vs Jetson Orin NX at approximately quarter power; not general VLA serving or multi-session runtime.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1600.json; daily/2026-10-25/FULLTEXT_RECHECK_1600.json"
     },
     {
       "id": "arxiv:2609.32540",
@@ -4163,7 +4219,8 @@
       "paper_url": "https://arxiv.org/abs/2609.32540",
       "project_url": "https://yikai-wang.github.io/FlashForward",
       "code_status": "First-author project page HTTP200; no official source code independently verified",
-      "notes": "24-page official PDF; stage-matched in-flight KV cache reuse and sparse clean-anchor KV, GPU-per-denoising-stage wavefront for streaming video diffusion. Up to four GPUs, 1.16–1.69x faster than HiAR and 1.42–2.92x than Self-Forcing on 16FPS >=20s video across 1.3B/14B models. Algorithm/pipeline boundary, not multi-tenant world-model serving p99."
+      "notes": "24-page official PDF; stage-matched in-flight KV cache reuse and sparse clean-anchor KV, GPU-per-denoising-stage wavefront for streaming video diffusion. Up to four GPUs, 1.16–1.69x faster than HiAR and 1.42–2.92x than Self-Forcing on 16FPS >=20s video across 1.3B/14B models. Algorithm/pipeline boundary, not multi-tenant world-model serving p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1600.json; daily/2026-10-25/FULLTEXT_RECHECK_1600.json; daily/2026-10-25/REPO_EVIDENCE_1600.json"
     },
     {
       "id": "arxiv:2609.32831",
@@ -4182,7 +4239,8 @@
       "repo_url": "https://github.com/Superone77/UniCache",
       "project_url": "https://superone77.github.io/UniCache/",
       "code_status": "Official Apache-2.0 implementation verified via GitHub API, including unicache/ modeling/ scripts/ tests/ and inference entrypoints; not independently benchmarked",
-      "notes": "15-page official PDF; task/type-specific unified multimodal KV allocation, calibration, compression, attention-guided shared-budget coordination and temporal scheduling. Reports 5x KV compression for understanding/editing, 2.5x for generation, up to 1.78x long-context throughput; no verified multi-tenant p99 or VLA robot deployment."
+      "notes": "15-page official PDF; task/type-specific unified multimodal KV allocation, calibration, compression, attention-guided shared-budget coordination and temporal scheduling. Reports 5x KV compression for understanding/editing, 2.5x for generation, up to 1.78x long-context throughput; no verified multi-tenant p99 or VLA robot deployment.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1700.json; daily/2026-10-25/FULLTEXT_RECHECK_1700.json; daily/2026-10-25/REPO_EVIDENCE_1700.json"
     },
     {
       "id": "arxiv:2609.31938",
@@ -4199,7 +4257,8 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.31938",
       "code_status": "No official implementation independently verified",
-      "notes": "16-page official PDF; preserves causal temporal cache semantics while lowering Conv3D to batched spatial Conv2D for edge world-model video decoders. Jetson AGX Orin 64GB: about 7x VAE decode acceleration and >2x full Cosmos3-Edge generation acceleration; TensorRT 1.36x further steady-state improvement with more specialization. No multi-session p99."
+      "notes": "16-page official PDF; preserves causal temporal cache semantics while lowering Conv3D to batched spatial Conv2D for edge world-model video decoders. Jetson AGX Orin 64GB: about 7x VAE decode acceleration and >2x full Cosmos3-Edge generation acceleration; TensorRT 1.36x further steady-state improvement with more specialization. No multi-session p99.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1700.json; daily/2026-10-25/FULLTEXT_RECHECK_1700.json"
     },
     {
       "id": "arxiv:2609.33256",
@@ -4215,7 +4274,43 @@
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.33256",
       "code_status": "No official implementation independently verified",
-      "notes": "9-page official PDF; phase-aware symbolic action correction and dynamics residual logging wrapping frozen VLA with author-reported <1ms/control-step overhead, 4 VLA backbones on LIBERO; improves task success/stability but no GPU serving, multi-tenant scheduling or p99. Real robot demo qualitative, not quantified success."
+      "notes": "9-page official PDF; phase-aware symbolic action correction and dynamics residual logging wrapping frozen VLA with author-reported <1ms/control-step overhead, 4 VLA backbones on LIBERO; improves task success/stability but no GPU serving, multi-tenant scheduling or p99. Real robot demo qualitative, not quantified success.",
+      "evidence": "daily/2026-10-25/THIRTY_DAY_ABSTRACTS_1700.json; daily/2026-10-25/FULLTEXT_RECHECK_1700.json"
+    },
+    {
+      "id": "arxiv:2610.30876",
+      "title": "LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation",
+      "class": "CORE_SYS",
+      "route": [
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.30876",
+      "project_url": "https://locomanilab.github.io/",
+      "code_status": "No official executable implementation independently verified; project URL is printed in official PDF",
+      "notes": "27-page official PDF; 234 atomic/compositional humanoid tasks, 12 policies, shared-controller and cross-controller evaluations, 51.5h simulated demonstrations, three sim-to-real task alignments. Reusable benchmarking/evaluation infrastructure, not measured GPU-serving throughput or p99.",
+      "evidence": "daily/2026-10-25/SEMANTIC_FALSE_NEGATIVE_1900.json; daily/2026-10-25/FULLTEXT_RECHECK_1900.json"
+    },
+    {
+      "id": "arxiv:2610.28019",
+      "title": "PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.28019",
+      "code_status": "No official code independently verified; PDF exposes no GitHub repository",
+      "notes": "16-page official PDF; pre-commit observation re-scoring of speculative asynchronous VLA action chunks, overlapped pipeline and batched frozen-policy scoring. Authors report no additional control-step delay on evaluated hardware and success improvements +15.0pp Kinetix / +5.2pp LIBERO at four-step delay; 60% to 82% in three real-robot tasks. Not multi-tenant scheduling, p99 or GPU throughput.",
+      "evidence": "daily/2026-10-25/SEMANTIC_FALSE_NEGATIVE_1900.json; daily/2026-10-25/FULLTEXT_RECHECK_1900.json"
     }
   ]
 }

@@ -1,3 +1,8 @@
+## 2026-10-25 19:05 CST — OAI_7D_2003_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; CORE+1; BOUNDARY+1; PDF+3; FIRST_PARTY_18/18
+- Direct five-category 7d OAI census and 24h OAI/Atom, 24 new official abstracts, 3 verified private PDFs.
+- CORE_SYS +1 LocoManiLab; SYS_ALG_BOUNDARY +1 PACT-VLA. Alpha evidence only.
+- 24h zero-exact NOT_COVERED; full reverse/venue/project coverage IN_PROGRESS.
+
 ## 2026-10-25 18:04 CST — OAI_7D_2018_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; PROMOTION+0; PDF+0; FIRST_PARTY_HTML_15/18_API_FALLBACK_3/3
 - Zero promotion after 11 new official 7d abstracts; 30d title-filter backlog cleared (semantic/venue open).
 - 7d OAI 2018 SOURCE_ONLY, 30d last-good 14112 SOURCE_ONLY, 24h OAI/Atom zero-exact NOT_COVERED.
