@@ -1,3 +1,8 @@
+## 2026-10-25 12:06 CST — OAI_7D_2083_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; BOUNDARY+2; PDF+4; FIRST_PARTY_HTML_15/18
+- SYS_ALG_BOUNDARY +2: RoboHarness, Urgency-Aware Denoising; VLA Benchmark Bugs and Colosseum V2 evidence-only.
+- 7d OAI 2083 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.
+- 24 official abstracts, 4 new official PDFs; first-party HTML 15/18; full reverse/venue IN_PROGRESS.
+
 ## 2026-10-25 10:59 CST — OAI_7D_2094_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; BOUNDARY+2; PDF+3; FIRST_PARTY_HTML_15/18_API_12/12
 - SYS_ALG_BOUNDARY +2: Communication-Aware Robot Execution, SpectralCache; FlashNav evidence-only not promoted.
 - 7d OAI 2094 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.

@@ -1,3 +1,5 @@
+**2026-10-25 12:06 CST — Evidence-only, NOT formally promoted:** [VLA Benchmark Bugs](https://arxiv.org/abs/2609.37771) audits 22 benchmark bugs and 4 design limitations; [Colosseum V2](https://arxiv.org/abs/2605.27759) GPU-parallel robot generalization evaluation. Official PDFs checked, no serving-specific system or independent author-code gate closed.
+
 **2026-10-25 10:59 CST — Evidence-only, NOT formally promoted:** [FlashNav](https://arxiv.org/abs/2606.15846) GPU simulation/training infrastructure (9-page official PDF checked), not online Physical AI serving.
 
 ## 2026-10-24 21:02 CST — adjacent GPU/LLM memory candidates (NOT formal Physical-AI promotions)

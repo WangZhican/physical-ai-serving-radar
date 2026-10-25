@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 10:59 CST",
-  "count": 221,
+  "updated": "2026-10-25 12:06 CST",
+  "count": 223,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3897,6 +3897,40 @@
       "paper_url": "https://arxiv.org/abs/2610.02660",
       "code_status": "No official public implementation verified",
       "notes": "17-page official PDF; training-free denoising-step spectral subspace caching and singular-value extrapolation for diffusion world models. HunyuanWorld-Voyager-13B 1054s vanilla vs 202s SpectralCache (~5.22x) and static-scene WorldScore 65.90, experiments on two NVIDIA Pro 6000 96GB GPUs. Model-level cache acceleration, not cross-session serving, live control-loop latency, or production p99."
+    },
+    {
+      "id": "arxiv:2607.18060",
+      "title": "RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        2,
+        7,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2607.18060",
+      "code_status": "No RoboHarness-specific public implementation verified; Physical-Intelligence/openpi is cited baseline, not this work's repository",
+      "notes": "24-page official PDF. Agentic heterogeneous VLA/WAM/RL/TAMP policy orchestration, capability-aware routing, Memory Bridge for cross-policy handoff; five benchmarks, 500 custom tasks, 135 real-robot trials. Paper reports average reasoning/planning API latency 4.6 seconds per call and cumulative additional 67.4 seconds per trial, not real-time serving or p99. Algorithmic orchestration boundary, not a multi-tenant serving stack."
+    },
+    {
+      "id": "arxiv:2609.37772",
+      "title": "Urgent Actions Go First: Urgency-Aware Denoising for Real-Time VLA Control",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.37772",
+      "code_status": "No official UAD implementation verified; ky-ji/BAC referenced in PDF is an external baseline",
+      "notes": "19-page official PDF. Urgency-aware early release of near-term action steps, continued background tail-action denoising, trajectory reconciliation and ghost-action correction. Author reports up to 1.89x improvement in average action-availability latency with comparable task success across simulation/real robot. This is not a claim of 1.89x full inference throughput or serving p99; no multi-tenant runtime."
     }
   ]
 }
