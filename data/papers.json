@@ -3863,7 +3863,7 @@
       "paper_url": "https://arxiv.org/abs/2610.14997",
       "repo_url": "https://github.com/NamelessCrew/FreeBar",
       "code_status": "Apache-2.0 official implementation verified: Isaac-GR00T, kinetix, robocasa",
-      "notes": "19-page official PDF; training-free closed-form barrier-guided alignment of successive async VLA action chunks. Author-reported 10-15 percentage-point? Paper abstract states 10%-15% average success-rate improvement; retain source's percentage notation, not an absolute point claim. Real-robot experiments and official implementation; no general-purpose scheduler, cross-request batching, or serving p99."
+      "notes": "19-page official PDF; training-free closed-form barrier-guided alignment of successive async VLA action chunks. Author-reported average success-rate improvement of 10%-15% versus naive asynchronous execution; the paper's percentage notation is retained without inferring percentage-point gains. Real-robot experiments and official implementation; no general-purpose scheduler, cross-request batching, or serving p99."
     }
   ]
 }
