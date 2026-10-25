@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 12:06 CST",
-  "count": 223,
+  "updated": "2026-10-25 13:02 CST",
+  "count": 226,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3931,6 +3931,56 @@
       "paper_url": "https://arxiv.org/abs/2609.37772",
       "code_status": "No official UAD implementation verified; ky-ji/BAC referenced in PDF is an external baseline",
       "notes": "19-page official PDF. Urgency-aware early release of near-term action steps, continued background tail-action denoising, trajectory reconciliation and ghost-action correction. Author reports up to 1.89x improvement in average action-availability latency with comparable task success across simulation/real robot. This is not a claim of 1.89x full inference throughput or serving p99; no multi-tenant runtime."
+    },
+    {
+      "id": "arxiv:2609.36471",
+      "title": "Staircase Policy: Streaming Inference for World-Action Models with Large Action Chunks",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.36471",
+      "code_status": "Official project page HTTP200, but no independently verified implementation repository",
+      "notes": "24-page official PDF; staggered subchunk denoising and future-latent updates during execution. Author reports 292.7 executed actions/s (3.62x vs conventional execution at comparable accuracy), time-to-first-action 123.6 to 73.3ms; optimized 642.9 actions/s is a separate setting. Not multi-tenant serving throughput or p99."
+    },
+    {
+      "id": "arxiv:2609.34170",
+      "title": "RAVEL: Asynchronous Rolling Inference for Flow-Based Vision-Language-Action Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.34170",
+      "code_status": "No official implementation independently verified",
+      "notes": "18-page official PDF; rolling partially denoised action buffer, asynchronous VLM encoding and Fast Observation Pathway. Author reports example response latency 178.52 to 92.97ms (1.92x), with 30Hz control setting; no serving p99/multi-session benchmark."
+    },
+    {
+      "id": "arxiv:2609.34608",
+      "title": "Efficient World Action Model Inference with Adaptive Intermediate States (WAMachine)",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        5,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2609.34608",
+      "code_status": "Paper cites RSIScience/WAMachine, but official GitHub API returned HTTP404 at checkpoint; do not claim released code",
+      "notes": "17-page official PDF; trajectory remapping across replans, observation rebinding during execution and selective layer residual reuse. Author reports 1.47–3.05x observation-to-action latency and 2.23–3.27x GPU inference per replan speedups, preserving 96.69–99.54% baseline task success; not multi-session serving."
     }
   ]
 }

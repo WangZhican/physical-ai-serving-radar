@@ -1,3 +1,8 @@
+## 2026-10-25 13:02 CST — OAI_7D_2070_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; BOUNDARY+3; PDF+4; FIRST_PARTY_HTML_15/18
+- SYS_ALG_BOUNDARY +3: Staircase Policy, RAVEL, WAMachine; RoboChrono evidence-only.
+- 7d OAI 2070 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.
+- 24 official abstracts, 4 new official PDFs; first-party HTML 15/18; reverse/venue IN_PROGRESS.
+
 ## 2026-10-25 12:06 CST — OAI_7D_2083_SOURCE_ONLY; 30D_LAST_GOOD_14112; 24H_NOT_COVERED; BOUNDARY+2; PDF+4; FIRST_PARTY_HTML_15/18
 - SYS_ALG_BOUNDARY +2: RoboHarness, Urgency-Aware Denoising; VLA Benchmark Bugs and Colosseum V2 evidence-only.
 - 7d OAI 2083 SOURCE_ONLY; 30d last-good 14112 SOURCE_ONLY; 24h zero-exact NOT_COVERED.
