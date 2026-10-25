@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25 09:08 CST",
-  "count": 216,
+  "updated": "2026-10-25 10:03 CST",
+  "count": 219,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3809,6 +3809,61 @@
       "project_url": "https://revanthsenthil.github.io/remm/",
       "code_status": "Official project verified; dedicated public implementation not verified",
       "notes": "12-page official PDF: external evidence-linked task memory with dependency invalidation and bounded recovery scheduling around frozen G0.5 policy. 51 physical trials including operator-assisted runs; mean recorded task progress 57%->91% intervention recovery and 43%->70% sequence recall. Not unassisted success rate or generic multi-tenant serving/p99."
+    },
+    {
+      "id": "arxiv:2603.14371",
+      "title": "OxyGen: Unified KV Cache Management for VLA Inference under Multi-Task Parallelism",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv; NeurIPS 2026 per official code repository",
+      "priority": "S",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2603.14371",
+      "repo_url": "https://github.com/air-embodied-brain/OxyGen",
+      "project_url": "https://air-embodied-brain.github.io/OxyGen/",
+      "code_status": "Apache-2.0 official source verified: src, scripts, experiments, packages, pyproject.toml",
+      "notes": "24-page first-party PDF; shared KV cache across VLA task types and control frames, cross-task KV sharing plus frame-budgeted continuous batching. Author-reported up to 3.7x vs isolated execution and simultaneous >200 tokens/s language plus 70 Hz action frequency on RTX4090; evaluated pi0.5/StarVLA/Xiaomi-Robotics-0, Jetson AGX Thor and on-board humanoid. No multi-tenant cloud p99 proof. Previously archived official PDF reused, not double-counted."
+    },
+    {
+      "id": "arxiv:2610.13516",
+      "title": "RESCUE: Is This Alarm Worth Acting On? Counterfactual Evaluation of VLA Runtime Monitors",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        8,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.13516",
+      "code_status": "Official PDF verified; public reusable implementation not verified",
+      "notes": "8-page first-party PDF; evaluates monitor intervention value using 128340 counterfactual policy/simulator branches, alarm timing, recovery and false-alarm costs. On selected stop/reset conditions, idealized monitor tolerates only 2.0-3.3% false-alarm rates; evaluation framework, not online serving scheduler or production p99, public reusable harness unverified."
+    },
+    {
+      "id": "arxiv:2610.14997",
+      "title": "FreeBar: Barrier-Constrained Guidance For Real-time Asynchronous VLA Execution",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "CoRL 2026 per official repository",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.14997",
+      "repo_url": "https://github.com/NamelessCrew/FreeBar",
+      "code_status": "Apache-2.0 official implementation verified: Isaac-GR00T, kinetix, robocasa",
+      "notes": "19-page official PDF; training-free closed-form barrier-guided alignment of successive async VLA action chunks. Author-reported 10-15 percentage-point? Paper abstract states 10%-15% average success-rate improvement; retain source's percentage notation, not an absolute point claim. Real-robot experiments and official implementation; no general-purpose scheduler, cross-request batching, or serving p99."
     }
   ]
 }
