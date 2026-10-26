@@ -1,3 +1,7 @@
+## 2026-10-26 09:11 CST — OAI_7D_1900_PASS_SOURCE_ONLY; ATOM_7D_PARTIAL_TIMEOUT; 24H_NOT_COVERED; FIRST_PARTY_15/18; ABSTRACTS_20/20; PDF+3; PROMOTION_0
+- Official 7d OAI direct census PASS; Atom 7d partial timeout and 24h cs.AR 429; 24h NOT_COVERED.
+- 20 official abstracts inspected; 3 first-party PDFs verified as evidence-only, no paper promotion; reverse/venue/project pending.
+
 ## 2026-10-26 08:03 CST — OAI_7D_1844_PASS_SOURCE_ONLY; ATOM_7D_PARTIAL_TIMEOUT; 24H_NOT_COVERED; FIRST_PARTY_15/18; ABSTRACTS_14/14; PROMOTION_0
 - Official 7d OAI direct census PASS, Atom cs.LG timeout PARTIAL; 24h zero exact NOT_COVERED.
 - First-party 15/18, 14 new official WAM/VLA abstracts checked; zero promotions; reverse/venue/project pending.
