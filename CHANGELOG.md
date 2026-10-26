@@ -1,3 +1,7 @@
+## 2026-10-26 10:05 CST — OAI_7D_2213_PASS_SOURCE_ONLY; ATOM_7D_PARTIAL_DNS; 24H_NOT_COVERED; FIRST_PARTY_13/18; ABSTRACTS_14/18; SYS_ALG+1; PDF+1
+- Promoted RAPAC-DP (SYS_ALG_BOUNDARY/A-) after first-party 9-page PDF; 1 new official PDF.
+- OAI 7d source-only PASS; Atom partial DNS; 24h zero exact NOT_COVERED; 14/18 abstracts and 13/18 official checks.
+
 ## 2026-10-26 09:11 CST — OAI_7D_1900_PASS_SOURCE_ONLY; ATOM_7D_PARTIAL_TIMEOUT; 24H_NOT_COVERED; FIRST_PARTY_15/18; ABSTRACTS_20/20; PDF+3; PROMOTION_0
 - Official 7d OAI direct census PASS; Atom 7d partial timeout and 24h cs.AR 429; 24h NOT_COVERED.
 - 20 official abstracts inspected; 3 first-party PDFs verified as evidence-only, no paper promotion; reverse/venue/project pending.

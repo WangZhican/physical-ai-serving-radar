@@ -1,4 +1,5 @@
 # SYS_ALG_BOUNDARY
+- [RAPAC-DP](https://arxiv.org/abs/2608.15924) — **A-**, cloud-side diffusion/flow-policy action-chunk handover with pending-action conditioning; RTX 5090 remote robot at 15Hz, 200/450ms injected delay, 450 physical trials, high-delay success 60.0% vs RTC 28.9%; no multi-tenant GPU serving/p99, code unverified.
 - [ReactiveBFM](https://arxiv.org/abs/2606.30362) — **A**, 50Hz humanoid controller with event-driven asynchronous planner (~19.34ms), 10-frame buffer and trajectory chunks; [official executable code](https://github.com/zjwzcx/ReactiveBFM) verified; no shared serving/p99.
 - [DashVMC](https://arxiv.org/abs/2609.40003) — **A-**, 60Hz live world-model capture-action on RTX2060 (mean 12.018ms, p95 14.068ms, p99 14.91ms, 5000 frames); [official MIT code](https://github.com/Tariolle/dash-vmc) verified; game-specific, not multi-tenant serving.
 - [SP-HLM](https://arxiv.org/abs/2610.30044) — **A-**, asynchronous humanoid action-chunk inference and TensorRT motion generation; no multi-tenant serving scheduler or p99.

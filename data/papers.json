@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26 04:06 CST",
-  "count": 253,
+  "updated": "2026-10-26 10:05 CST",
+  "count": 254,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4501,6 +4501,23 @@
       "code_status": "Official executable evaluation repository and tests verified: https://github.com/AstroUpLab/AstroBench",
       "notes": "12-page first-party fulltext; reusable Isaac Sim/Isaac Lab free-floating robotic manipulation workcells and task assets, 9 tasks/29 task-target combinations. Official repository verified with astrobench/, examples/, scripts/, tests/; no online serving or GPU p99 evidence.",
       "evidence": "daily/2026-10-26/PDF_EVIDENCE_0400.json; DEEP_FIRST_PARTY_0400.json; REPO_TREE_0400.json"
+    },
+    {
+      "id": "arxiv:2608.15924",
+      "title": "RAPAC-DP: Response-Aligned Pending-Action Compensation for Diffusion Policies under Delayed Execution",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        4
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2608.15924",
+      "code_status": "Official source code not verified; do not imply public implementation",
+      "notes": "9-page first-party PDF. Cloud-side diffusion/flow-policy inference with pending-action conditioning and response-aligned handover; real robot remote RTX 5090 at 15 Hz, injected 200/450 ms delays, 450 physical trials. At high delay, mean success 60.0% vs RTC 28.9% (paper-reported). Learned encoder/LoRA policy adaptation, not reusable GPU scheduler or multi-tenant p99.",
+      "evidence": "daily/2026-10-26/DEEP_EVIDENCE_1000.json; RAPAC_PDF_METRICS_1000.json; CANDIDATE_ABSTRACTS_1000.json"
     }
   ]
 }
