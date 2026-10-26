@@ -1,3 +1,6 @@
+## 2026-10-27 04:13 CST — OAI_7D_1812_PASS; ATOM_7D_1812_PASS; 24H_NOT_COVERED; FIRST_PARTY_18/18_RECOVERED; SEMANTIC_21/21; PROMOTIONS_0; PDF+0
+- OAI/Atom 7d PASS, 24h zero-exact NOT_COVERED; first-party 18/18 recovered; 21/21 new official abstract subset including Robion; no formal promotion or PDF.
+
 ## 2026-10-27 03:05 CST — OAI_7D_1827_PASS; ATOM_7D_1827_PASS; 24H_NOT_COVERED; FIRST_PARTY_15/18_PARTIAL; GITHUB_API_3/3; SEMANTIC_26/26; PAL_FULLTEXT_21P; PROMOTIONS_0; PDF+0
 - OAI/Atom 7d PASS, 24h zero-exact NOT_COVERED; HTML 15/18, GitHub REST 3/3; official abstracts 26/26; PAL fulltext re-reviewed and duplicate PDF removed; no formal promotion or new valid PDF.
 
