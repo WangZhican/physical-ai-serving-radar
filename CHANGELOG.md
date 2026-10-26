@@ -1,3 +1,6 @@
+## 2026-10-26 17:24 CST — OAI_7D_2089_PASS; ATOM_7D_2089_PASS; 24H_NOT_COVERED; FIRST_PARTY_15/18_PARTIAL; ABSTRACTS_10/10; PROMOTIONS_0; PDF_0
+- Both 7d arXiv direct sources PASS; 10 official abstracts and targeted first-party frontier checked; 24h NOT_COVERED; first-party 15/18 partial; no promotions.
+
 ## 2026-10-26 16:28 CST — OAI_7D_2111_PASS; ATOM_7D_2108_RECOVERED; 24H_NOT_COVERED; FIRST_PARTY_18/18; PDF+5; PROMOTIONS_0
 - Official OAI/Atom 7d dual-source census recovered; five candidate PDFs validated; 24h remains NOT_COVERED; zero formal promotions.
 
