@@ -1,3 +1,6 @@
+## 2026-10-27 06:10 CST — OAI_7D_1780_PASS; ATOM_7D_INCOMPLETE_429; 24H_NOT_COVERED; FIRST_PARTY_15/18_API_3/3; PROMOTIONS_0; PDF+0
+- OAI direct census PASS; Atom cs.LG HTTP429 and retry blocked, retain last-good; 24h zero-exact NOT_COVERED; first-party HTML 15/18 with API 3/3; zero promotions/PDFs.
+
 ## 2026-10-27 05:04 CST — OAI_7D_1799_PASS; ATOM_7D_1799_PASS; 24H_NOT_COVERED; FIRST_PARTY_18/18; SEMANTIC_21/21; PROMOTIONS_0; PDF+1
 - OAI/Atom 7d PASS source-only, 24h zero-exact NOT_COVERED; 18/18 first-party; 21/21 novel abstracts; RISK-KV PDF locally verified, not promoted.
 
