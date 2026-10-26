@@ -1,3 +1,6 @@
+## 2026-10-26 20:16 CST — OAI_7D_2037_PASS; ATOM_7D_INCOMPLETE; 24H_NOT_COVERED; FIRST_PARTY_9/18_PARTIAL; TARGETED_12/12; PROMOTIONS_0; PDF+0
+- OAI five-category 7d PASS; Atom 7d/24h partial HTTP429/timeout; 24h zero exact NOT_COVERED; official 9/18, targeted 12/12; 0 promotions/PDFs.
+
 ## 2026-10-26 19:06 CST — OAI_7D_2057_PASS; ATOM_7D_2057_PASS; 24H_NOT_COVERED; FIRST_PARTY_15/18_PARTIAL; TARGETED_10/10; PROMOTIONS_0; PDF+0
 - Five-category OAI/Atom 7d PASS source-only, 24h zero-exact NOT_COVERED, official 15/18 (three HTML timeouts), ten abstracts, no promotions or PDFs.
 
