@@ -1,3 +1,6 @@
+## 2026-10-26 16:28 CST — OAI_7D_2111_PASS; ATOM_7D_2108_RECOVERED; 24H_NOT_COVERED; FIRST_PARTY_18/18; PDF+5; PROMOTIONS_0
+- Official OAI/Atom 7d dual-source census recovered; five candidate PDFs validated; 24h remains NOT_COVERED; zero formal promotions.
+
 ## 2026-10-26 15:18 CST — OAI_7D_RECOVERED_2136_SOURCE_ONLY; ATOM_24H_INCOMPLETE; 24H_NOT_COVERED; FIRST_PARTY_14/18_PARTIAL; ABSTRACTS_19/19; PROMOTIONS_0; PDF_0
 - Official OAI 7d census recovered, 19 official abstracts checked, no formal promotion; 24h remains NOT_COVERED.
 
