@@ -1,3 +1,6 @@
+## 2026-10-27 03:05 CST — OAI_7D_1827_PASS; ATOM_7D_1827_PASS; 24H_NOT_COVERED; FIRST_PARTY_15/18_PARTIAL; GITHUB_API_3/3; SEMANTIC_26/26; PAL_FULLTEXT_21P; PROMOTIONS_0; PDF+0
+- OAI/Atom 7d PASS, 24h zero-exact NOT_COVERED; HTML 15/18, GitHub REST 3/3; official abstracts 26/26; PAL fulltext re-reviewed and duplicate PDF removed; no formal promotion or new valid PDF.
+
 ## 2026-10-27 02:04 CST — OAI_7D_1862_PASS; ATOM_7D_1861_PASS; 24H_NOT_COVERED; FIRST_PARTY_15/18_PARTIAL; GITHUB_API_3/3; SEMANTIC_26/26; PROMOTIONS_0; PDF+0
 - OAI/Atom direct 7d PASS, 24h exact zero NOT_COVERED; official HTML 15/18, first-party GitHub API fallback 3/3; official abstracts 26/26; no promotion/PDF.
 
