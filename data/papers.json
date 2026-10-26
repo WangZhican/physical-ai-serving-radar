@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26 10:05 CST",
-  "count": 254,
+  "updated": "2026-10-26 11:09 CST",
+  "count": 256,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4518,6 +4518,40 @@
       "code_status": "Official source code not verified; do not imply public implementation",
       "notes": "9-page first-party PDF. Cloud-side diffusion/flow-policy inference with pending-action conditioning and response-aligned handover; real robot remote RTX 5090 at 15 Hz, injected 200/450 ms delays, 450 physical trials. At high delay, mean success 60.0% vs RTC 28.9% (paper-reported). Learned encoder/LoRA policy adaptation, not reusable GPU scheduler or multi-tenant p99.",
       "evidence": "daily/2026-10-26/DEEP_EVIDENCE_1000.json; RAPAC_PDF_METRICS_1000.json; CANDIDATE_ABSTRACTS_1000.json"
+    },
+    {
+      "id": "arxiv:2610.32348",
+      "title": "LogLook: Execution-Grounded Memory for Frontier-Model Robot Planners",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.32348",
+      "code_status": "Official public code not verified",
+      "notes": "Robot planner execution-grounded log and model-selective visual retrieval; official 19-page PDF reports 43% fewer tokens and less than half the images at similar task success with motion-planner benchmark, 93.5% RoboMME test success with direct control. Planner-context algorithm with execution-log abstraction, NOT a general GPU-serving scheduler; no serving p99 or public code verified.",
+      "evidence": "daily/2026-10-26/DEEP_EVIDENCE_1100.json; CANDIDATE_ABSTRACTS_1100.json"
+    },
+    {
+      "id": "arxiv:2610.29733",
+      "title": "SAKURA: Serving Attention Key-Value State Under Rate Adaptation for Private Image Editing on Phones",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        5
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.29733",
+      "code_status": "Official public code not verified",
+      "notes": "Cloud-edge reusable DiT attention/KV state serving with token-importance compression, bandwidth-aware per-shard cache representation selection and pipelined transfer/reconstruction/on-device execution. Official 15-page PDF: Snapdragon 8 Elite Gen 5, 3 editing tasks, 2 diffusion models; paper-reported latency 1.82x lower vs adapted CacheGen and 3.27x lower vs local generation, 3.06x lower storage vs full cache. Multimodal edge-serving adjacency, NOT a robot/VLA evaluation; no p99 multi-robot evidence. Public code not verified.",
+      "evidence": "daily/2026-10-26/DEEP_EVIDENCE_1100.json; CANDIDATE_ABSTRACTS_1100.json"
     }
   ]
 }

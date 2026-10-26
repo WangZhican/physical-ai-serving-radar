@@ -1,4 +1,5 @@
 # CORE_SYS
+- [SAKURA](https://arxiv.org/abs/2610.29733) — **A-**, cloud-edge DiT reusable attention-state transfer, bandwidth-adaptive cache-shard compression and pipelined on-device execution; paper-reported 1.82× vs CacheGen and 3.27× vs local, 3.06× storage reduction; adjacent multimodal serving, not a Physical-AI deployment; code unverified.
 - [WorldOracle](https://arxiv.org/abs/2610.18826) — **A-**, paired real-robot action-execution benchmark for action-conditioned world models, reproducible evaluation harness; [official code/tests](https://github.com/WorldOracle-benchmark/WorldOracle) verified; no serving p99.
 - [AstroBench](https://arxiv.org/abs/2610.31064) — **B+**, Isaac Sim free-floating robotic manipulation benchmark with 9 tasks/29 task-target combinations; [official code/tests](https://github.com/AstroUpLab/AstroBench) verified; not a serving benchmark.
 - [TARSphere](https://arxiv.org/abs/2610.30043) — **A-**, 360-episode robot-oriented simulation/runtime and evaluation harness; [official code](https://github.com/xuyicheng-zju/TARSphere) verified; no serving p99.
