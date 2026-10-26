@@ -1,3 +1,6 @@
+## 2026-10-26 15:18 CST — OAI_7D_RECOVERED_2136_SOURCE_ONLY; ATOM_24H_INCOMPLETE; 24H_NOT_COVERED; FIRST_PARTY_14/18_PARTIAL; ABSTRACTS_19/19; PROMOTIONS_0; PDF_0
+- Official OAI 7d census recovered, 19 official abstracts checked, no formal promotion; 24h remains NOT_COVERED.
+
 ## 2026-10-26 14:14 CST — SOURCE_INCIDENT_7D_OAI_PARTIAL_ATOM_TIMEOUT_429; 24H_NOT_COVERED; FIRST_PARTY_18/18; ABSTRACT_RETRY_12/15; PROMOTIONS_0; PDF_0
 - Official 7d source incident (OAI partial; Atom timeout/429); last-good evidence retained.
 - First-party 18/18, retried 15 abstracts with 12 recovered; 0 promotions and 0 PDFs.
