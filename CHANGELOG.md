@@ -1,3 +1,6 @@
+## 2026-10-27 07:09 CST — OAI_7D_1763_PASS; ATOM_7D_1762_RECOVERED; 24H_NOT_COVERED; FIRST_PARTY_15/18_API_3/3; 30D_ABSTRACTS_12/12; PROMOTIONS_0; PDF+1
+- Atom 7d recovered, 30d official abstract replay 12/12, FRESHLATENT PDF locally validated; 24h NOT_COVERED, 3 HTML source timeouts with API fallback, zero promotions.
+
 ## 2026-10-27 06:10 CST — OAI_7D_1780_PASS; ATOM_7D_INCOMPLETE_429; 24H_NOT_COVERED; FIRST_PARTY_15/18_API_3/3; PROMOTIONS_0; PDF+0
 - OAI direct census PASS; Atom cs.LG HTTP429 and retry blocked, retain last-good; 24h zero-exact NOT_COVERED; first-party HTML 15/18 with API 3/3; zero promotions/PDFs.
 
