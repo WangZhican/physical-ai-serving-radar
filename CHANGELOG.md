@@ -1,3 +1,7 @@
+## 2026-10-26 14:14 CST — SOURCE_INCIDENT_7D_OAI_PARTIAL_ATOM_TIMEOUT_429; 24H_NOT_COVERED; FIRST_PARTY_18/18; ABSTRACT_RETRY_12/15; PROMOTIONS_0; PDF_0
+- Official 7d source incident (OAI partial; Atom timeout/429); last-good evidence retained.
+- First-party 18/18, retried 15 abstracts with 12 recovered; 0 promotions and 0 PDFs.
+
 ## 2026-10-26 13:06 CST — OAI_7D_2173_PASS_SOURCE_ONLY; ATOM_7D_DNS_PARTIAL; 24H_NOT_COVERED; FIRST_PARTY_18/18_RECOVERED; ABSTRACTS_14/29; PROMOTIONS_0; PDF_0
 - Official 7d OAI direct census PASS SOURCE_ONLY; Atom 7d DNS partial, 24h zero exact NOT_COVERED.
 - First-party routes recovered 18/18; inspected 14/29 official abstracts, 15 DNS failures; 0 promotions and 0 new PDFs.
