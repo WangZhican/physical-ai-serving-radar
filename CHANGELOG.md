@@ -1,3 +1,6 @@
+## 2026-10-27 11:08 CST — OAI_7D_2620_PASS; OAI_24H_345_PASS; ATOM_429_TIMEOUT; FIRST_PARTY_18/18_RECOVERED; ABSTRACTS_14/14; SOURCE_DELTA_330_OPEN; PROMOTIONS_0; PDF+0
+- 24h/7d OAI direct PASS; Atom rate-limited, 18/18 first-party source recovery, 14 official abstracts; zero promotions and zero PDFs.
+
 ## 2026-10-27 10:10 CST — OAI_24H_RECOVERED_162; OAI_7D_2438_PASS; ATOM_PARTIAL_429; SOURCE_DELTA_330_OPEN; FIRST_PARTY_15/18_API_3/3; ABSTRACTS_15/15; PROMOTIONS_0; PDF+3
 - OAI 24h source-only direct census recovered; Atom 429 partial and 330-ID source delta remain open. 15 first-party abstracts, 3 validated local PDFs, zero promotions.
 
