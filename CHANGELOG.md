@@ -1,3 +1,6 @@
+## 2026-10-27 20:13 CST — OAI_24H_7D_PASS_ATOM_BOTH_PARTIAL; FIRST_PARTY_18/18; ABSTRACTS_24/24; PROMOTIONS_0; PDF+0
+- OAI 24h/7d PASS; Atom 24h/7d incomplete, NOT_COVERED; 24 official abstracts, 6 author-code discovery probes, 18/18 first-party pages, no promotions or new PDFs.
+
 ## 2026-10-27 19:09 CST — OAI_7D_PASS_ATOM_7D_429; 24H_PASS_MATCH_193; FIRST_PARTY_18/18; ABSTRACTS_22/22; PROMOTIONS_0; PDF+1
 - 7d OAI PASS, 7d Atom HTTP429 NOT_COVERED; 24h direct source comparison recorded; 22 official abstracts; 18/18 first-party sources; Patchwork official PDF validated (+1); no formal promotions.
 
