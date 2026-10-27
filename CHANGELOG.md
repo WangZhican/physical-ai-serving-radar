@@ -1,3 +1,6 @@
+## 2026-10-28 02:11 CST — OAI_ATOM_7D_2266_MATCH_24H_ZERO_NOT_COVERED; FIRST_PARTY_18/18_API_9/9; ABSTRACTS_35/35; PROMOTIONS_0; PDF+1
+- 7d OAI/Atom exact-window 2266/2266; 24h OAI/Atom zero exact-window NOT_COVERED, official HTML fallback checked; 35 abstracts, 8 provenance probes, uGDS official 16-page PDF and author-linked repository verified; no promotions.
+
 ## 2026-10-28 01:02 CST — OAI_ATOM_7D_2318_24H_31_MATCH; FIRST_PARTY_18/18_API_9/9; ABSTRACTS_35/35; PROMOTIONS_0; PDF+0
 - Recovered 7d Atom cs.LG complete pagination; 7d and 24h OAI/Atom exact-window match, 35 fresh official abstracts, eight provenance probes; no promotions.
 
