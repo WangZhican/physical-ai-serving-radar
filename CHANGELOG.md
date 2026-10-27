@@ -1,3 +1,6 @@
+## 2026-10-27 09:03 CST — OAI_7D_2070_PASS; ATOM_7D_1740_PASS; OAI_ONLY_330_SOURCE_DIVERGENCE; 24H_NOT_COVERED; FIRST_PARTY_18/18; ABSTRACTS_39/39; PROMOTIONS_0; PDF+0
+- OAI and Atom direct 7d PASS but 330 OAI-only source-set divergence; 24h zero exact NOT_COVERED; 39 first-party abstracts, 18/18 source heartbeat, no promotions/PDF.
+
 ## 2026-10-27 08:10 CST — OAI_7D_1751_PASS; ATOM_7D_PARTIAL_LAST_GOOD_1762; 24H_NOT_COVERED; FIRST_PARTY_18/18_RECOVERED; ABSTRACTS_16/16; PROMOTIONS_0; PDF+3
 - Official source heartbeat 18/18 recovered; OAI 7d PASS, Atom partial; post-08 24h zero exact NOT_COVERED; 16 first-party abstracts, three local-only PDFs, zero promotions.
 
