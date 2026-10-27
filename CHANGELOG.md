@@ -1,3 +1,6 @@
+## 2026-10-28 04:06 CST — OAI_ATOM_7D_2222_MATCH_24H_ZERO_NOT_COVERED; FIRST_PARTY_15/18_API_9/9; ABSTRACTS_24/24; PROMOTIONS_0; PDF+0
+- 7d OAI/Atom 2222/2222 common-window match; 24h zero NOT_COVERED; 24 fresh abstracts, 8 official candidate pages and 5/8 GitHub searches (3 HTTP403), 15/18 official first-party, 9/9 API, no promotions/PDF additions.
+
 ## 2026-10-28 03:07 CST — OAI_7D_2240_PASS_ATOM_7D_429_NOT_COVERED_24H_ZERO_NOT_COVERED; FIRST_PARTY_18/18_API_9/9; ABSTRACTS_35/35; PROMOTIONS_0; PDF+0
 - 7d OAI 2240 PASS; Atom cs.LG page 3 HTTP429 NOT_COVERED; 24h OAI/Atom zero exact-window NOT_COVERED; 35 official abstracts, 8 candidate provenance checks, no promotions/PDF additions.
 
