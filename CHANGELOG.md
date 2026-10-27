@@ -1,3 +1,6 @@
+## 2026-10-27 23:09 CST — OAI_7D_PASS_ATOM_7D_NOT_COVERED_24H_MATCH_90; FIRST_PARTY_17/18_API_3/3; ABSTRACTS_30/30; PROMOTIONS_0; PDF+2
+- OAI 7d PASS, Atom 7d cs.LG HTTP429/NOT_COVERED; 24h dual-source exact match; 30 new official abstracts, 2 validated official PDFs, no formal promotions.
+
 ## 2026-10-27 22:05 CST — OAI_ATOM_7D_2399_24H_125_MATCH; FIRST_PARTY_15/18_API_3/3; ABSTRACTS_30+22/30+22; PROMOTIONS_0; PDF+0
 - Official 24h/7d OAI+Atom direct-census recovery with exact common-window matching; 30 broad and 22 SYS-first official abstracts; 15/18 first-party HTML, API fallback 3/3; no promotions/PDF additions.
 
