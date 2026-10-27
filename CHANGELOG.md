@@ -1,3 +1,6 @@
+## 2026-10-27 21:06 CST — OAI_ATOM_7D_2419_24H_153_MATCH; FIRST_PARTY_15/18_API_3/3; ABSTRACTS_28/28; PROMOTIONS_0; PDF+0
+- Official 24h/7d OAI+Atom direct-census recovery with exact common-window matching; 28 new official abstracts; 15/18 first-party HTML, API fallback 3/3; no promotions/PDF additions.
+
 ## 2026-10-27 20:13 CST — OAI_24H_7D_PASS_ATOM_BOTH_PARTIAL; FIRST_PARTY_18/18; ABSTRACTS_24/24; PROMOTIONS_0; PDF+0
 - OAI 24h/7d PASS; Atom 24h/7d incomplete, NOT_COVERED; 24 official abstracts, 6 author-code discovery probes, 18/18 first-party pages, no promotions or new PDFs.
 
