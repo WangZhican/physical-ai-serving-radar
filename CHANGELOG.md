@@ -1,3 +1,6 @@
+## 2026-10-28 01:02 CST — OAI_ATOM_7D_2318_24H_31_MATCH; FIRST_PARTY_18/18_API_9/9; ABSTRACTS_35/35; PROMOTIONS_0; PDF+0
+- Recovered 7d Atom cs.LG complete pagination; 7d and 24h OAI/Atom exact-window match, 35 fresh official abstracts, eight provenance probes; no promotions.
+
 ## 2026-10-28 00:08 CST — OAI_7D_PASS_ATOM_7D_NOT_COVERED_24H_MATCH_56; FIRST_PARTY_15/18_API_9/9; ABSTRACTS_30/30; PROMOTIONS_0; PDF+0
 - 7d OAI PASS, 7d Atom cs.LG HTTP429/NOT_COVERED, 24h dual-source match; 30 official abstracts, 8 targeted code searches, zero formal promotions.
 
