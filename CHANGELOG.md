@@ -1,3 +1,6 @@
+## 2026-10-28 03:07 CST — OAI_7D_2240_PASS_ATOM_7D_429_NOT_COVERED_24H_ZERO_NOT_COVERED; FIRST_PARTY_18/18_API_9/9; ABSTRACTS_35/35; PROMOTIONS_0; PDF+0
+- 7d OAI 2240 PASS; Atom cs.LG page 3 HTTP429 NOT_COVERED; 24h OAI/Atom zero exact-window NOT_COVERED; 35 official abstracts, 8 candidate provenance checks, no promotions/PDF additions.
+
 ## 2026-10-28 02:11 CST — OAI_ATOM_7D_2266_MATCH_24H_ZERO_NOT_COVERED; FIRST_PARTY_18/18_API_9/9; ABSTRACTS_35/35; PROMOTIONS_0; PDF+1
 - 7d OAI/Atom exact-window 2266/2266; 24h OAI/Atom zero exact-window NOT_COVERED, official HTML fallback checked; 35 abstracts, 8 provenance probes, uGDS official 16-page PDF and author-linked repository verified; no promotions.
 
