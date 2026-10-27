@@ -1,3 +1,6 @@
+## 2026-10-28 07:11 CST — OAI_ATOM_7D_2165_MATCH_24H_ZERO_NOT_COVERED; FIRST_PARTY_14/18_API_6/9; ABSTRACTS_25/25; PROMOTIONS_0; PDF+0
+- 7d OAI/Atom 2165/2165 source match; 24h zero NOT_COVERED; broad and SYS-first official abstracts 25/55; candidate pages 10/10, GitHub search 8/10; no promotions/PDFs.
+
 ## 2026-10-28 06:09 CST — OAI_ATOM_7D_2187_MATCH_24H_ZERO_NOT_COVERED; FIRST_PARTY_15/18_API_9/9; ABSTRACTS_48/55; PROMOTIONS_0; PDF+0
 - 7d OAI/Atom 2187/2187 source match; 24h zero NOT_COVERED; broad and SYS-first official abstracts 48/55; candidate pages 10/10, GitHub search 0/10; no promotions/PDFs.
 
