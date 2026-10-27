@@ -1,3 +1,6 @@
+## 2026-10-27 10:10 CST — OAI_24H_RECOVERED_162; OAI_7D_2438_PASS; ATOM_PARTIAL_429; SOURCE_DELTA_330_OPEN; FIRST_PARTY_15/18_API_3/3; ABSTRACTS_15/15; PROMOTIONS_0; PDF+3
+- OAI 24h source-only direct census recovered; Atom 429 partial and 330-ID source delta remain open. 15 first-party abstracts, 3 validated local PDFs, zero promotions.
+
 ## 2026-10-27 09:03 CST — OAI_7D_2070_PASS; ATOM_7D_1740_PASS; OAI_ONLY_330_SOURCE_DIVERGENCE; 24H_NOT_COVERED; FIRST_PARTY_18/18; ABSTRACTS_39/39; PROMOTIONS_0; PDF+0
 - OAI and Atom direct 7d PASS but 330 OAI-only source-set divergence; 24h zero exact NOT_COVERED; 39 first-party abstracts, 18/18 source heartbeat, no promotions/PDF.
 
