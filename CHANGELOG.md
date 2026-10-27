@@ -1,3 +1,6 @@
+## 2026-10-27 08:10 CST — OAI_7D_1751_PASS; ATOM_7D_PARTIAL_LAST_GOOD_1762; 24H_NOT_COVERED; FIRST_PARTY_18/18_RECOVERED; ABSTRACTS_16/16; PROMOTIONS_0; PDF+3
+- Official source heartbeat 18/18 recovered; OAI 7d PASS, Atom partial; post-08 24h zero exact NOT_COVERED; 16 first-party abstracts, three local-only PDFs, zero promotions.
+
 ## 2026-10-27 07:09 CST — OAI_7D_1763_PASS; ATOM_7D_1762_RECOVERED; 24H_NOT_COVERED; FIRST_PARTY_15/18_API_3/3; 30D_ABSTRACTS_12/12; PROMOTIONS_0; PDF+1
 - Atom 7d recovered, 30d official abstract replay 12/12, FRESHLATENT PDF locally validated; 24h NOT_COVERED, 3 HTML source timeouts with API fallback, zero promotions.
 
