@@ -1,3 +1,6 @@
+## 2026-10-28 06:09 CST — OAI_ATOM_7D_2187_MATCH_24H_ZERO_NOT_COVERED; FIRST_PARTY_15/18_API_9/9; ABSTRACTS_48/55; PROMOTIONS_0; PDF+0
+- 7d OAI/Atom 2187/2187 source match; 24h zero NOT_COVERED; broad and SYS-first official abstracts 48/55; candidate pages 10/10, GitHub search 0/10; no promotions/PDFs.
+
 ## 2026-10-28 05:16 CST — OAI_7D_2197_PASS_ATOM_LG_429_NOT_COVERED_24H_ZERO_NOT_COVERED; FIRST_PARTY_15/18_API_9/9; ABSTRACTS_30/30; PROMOTIONS_0; PDF+0
 - OAI 7d 2197 PASS, Atom cs.LG 429 NOT_COVERED; 24h zero NOT_COVERED; 30 official abstracts (five recovered retries); 8/8 official code searches, 15/18 first-party, 9/9 runtime/API, zero promotions/PDFs.
 
