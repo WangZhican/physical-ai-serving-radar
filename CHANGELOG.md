@@ -1,3 +1,6 @@
+## 2026-10-27 16:11 CST — OAI_ATOM_24H_264_MATCH_7D_2524_MATCH; FIRST_PARTY_18/18_RECOVERED; ABSTRACTS_37/37; PROMOTIONS_0; PDF+0
+- Official 24h/7d OAI/Atom five-category census PASS and same-window reconciled; first-party HTML 18/18 recovered, 37 official abstracts, Thermal-Headroom Routing author repository confirmed. No formal promotion or PDF addition; semantic/reverse/venue coverage IN_PROGRESS.
+
 ## 2026-10-27 15:14 CST — OAI_ATOM_24H_277_MATCH_7D_2544_MATCH; FIRST_PARTY_15/18_API_3/3; ABSTRACTS_34/34; PROMOTIONS_0; PDF+2
 - Official 24h/7d OAI/Atom five-category census PASS and same-window reconciled; 34 new official abstracts and two validated PDFs (Thermal-Headroom Routing, EBench harness). No formal promotion. Full semantic/reverse/venue coverage remains IN_PROGRESS.
 
