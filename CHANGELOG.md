@@ -1,3 +1,6 @@
+## 2026-10-27 14:06 CST — OAI_ATOM_24H_298_MATCH_7D_2563_MATCH; SOURCE_DELTA_330_RECOVERED; FIRST_PARTY_15/18_API_3/3; ABSTRACTS_20/20; PROMOTIONS_0; PDF+0
+- 24h and 7d official OAI/Atom five-category direct censuses PASS and reconcile on shared timestamps; historical 330 OAI-only IDs now all present in Atom. First-party HTML 15/18, official REST fallback 3/3, 20 new abstracts; no formal promotion or PDF addition. Full semantic/reverse/venue coverage remains in progress.
+
 ## 2026-10-27 13:05 CST — OAI_7D_2579_PASS; OAI_24H_310_PASS; ATOM_429_TIMEOUT; FIRST_PARTY_18/18; ABSTRACTS_16/16; SOURCE_DELTA_330_OPEN; PROMOTIONS_0; PDF+1
 - Official 24h/7d OAI PASS; Atom HTTP429/timeouts; 18/18 first-party sources, 16 new abstracts, verified Coloc official PDF (local only), no formal promotion; 330-source discrepancy remains open.
 
