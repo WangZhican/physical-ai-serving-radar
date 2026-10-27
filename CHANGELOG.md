@@ -1,3 +1,6 @@
+## 2026-10-27 19:09 CST — OAI_7D_PASS_ATOM_7D_429; 24H_PASS_MATCH_193; FIRST_PARTY_18/18; ABSTRACTS_22/22; PROMOTIONS_0; PDF+1
+- 7d OAI PASS, 7d Atom HTTP429 NOT_COVERED; 24h direct source comparison recorded; 22 official abstracts; 18/18 first-party sources; Patchwork official PDF validated (+1); no formal promotions.
+
 ## 2026-10-27 18:04 CST — OAI_ATOM_24H_217_MATCH_7D_2483_MATCH; FIRST_PARTY_15/18_API_3/3; ABSTRACTS_24/24; PROMOTIONS_0; PDF+0
 - 24h/7d official OAI/Atom five-category source-only census PASS; 24 official abstracts, 3 HTML timeouts with API fallback; no formal promotion or PDF addition. Full semantic/reverse/venue coverage IN_PROGRESS.
 
