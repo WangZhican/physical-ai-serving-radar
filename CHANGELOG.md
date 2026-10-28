@@ -1,3 +1,6 @@
+## 2026-10-28 10:10 CST — OAI_7D_PER_DAY_REPLAY_2646_RECOVERED_140_STILL_MISSING9_NOT_COVERED; ATOM_INCOMPLETE; EDGEPACE_CORE_SYS+1_PDF+3
+- Official OAI per-day replay recovered 140 missing monolithic records; 9 still missing relative to 24h, so 7d remains NOT_COVERED. Atom still rate-limited.
+
 ## 2026-10-28 10:07 CST — SOURCE_COVERAGE_INCIDENT_OAI_7D_SUBSET_VIOLATION_149; ATOM_INCOMPLETE; 24H_OAI_391; EDGEPACE_CORE_SYS+1_PDF+3
 - Corrected 7d OAI transport PASS to NOT_COVERED after detecting 149-ID cross-window subset violation; 24h OAI source recovered but Atom limited. EdgePace and 3 validated PDFs retained from 10:05.
 
