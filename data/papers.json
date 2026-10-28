@@ -3291,13 +3291,13 @@
         8
       ],
       "year": 2026,
-      "venue": "arXiv",
+      "venue": "PACT '26",
       "priority": "A-",
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2609.22335",
-      "code_status": "Dedicated author implementation not independently verified; GitHub exact-topic search returned no matching repository",
-      "notes": "Hardware CTA head-of-line blocking characterization and online SM-utilization/resource-aware kernel co-scheduling across independent VLM/action-head requests. Four VLAs (CogACT, pi0.5, Octo, GraspVLA), RTX4090/5090 configured Accel-Sim, up to 28% reported throughput gain. SIMULATION ONLY using NVBit traces, not physical GPU scheduler implementation, measured real-robot p99, or fleet SLO validation.",
-      "evidence": "daily/2026-10-24/KERCOLLE_CLASSIFICATION_1100.md"
+      "code_status": "No author-linked repository found in official arXiv /abs metadata; exact GitHub repository search query 'KerColle' returned 0 results (HTTP200). No implementation/reproduction verified.",
+      "notes": "Hardware CTA head-of-line blocking characterization and online SM-utilization/resource-aware kernel co-scheduling across independent VLM/action-head requests. Four VLAs (CogACT, pi0.5, Octo, GraspVLA), RTX4090/5090-configured Accel-Sim, up to 28% simulated throughput gain (20.5% average). PACT '26, DOI 10.1145/3838684.3846872. SIMULATION ONLY using NVBit traces; no physical GPU scheduler implementation, real-robot p99, or fleet SLO validation.",
+      "evidence": "daily/2026-10-24/KERCOLLE_CLASSIFICATION_1100.md; daily/2026-10-29/KERCOLLE_FULLTEXT_RECHECK_0655.json"
     },
     {
       "id": "arxiv:2610.28953",

@@ -1,3 +1,10 @@
+## 2026-10-29 07:41 CST
+
+- 2236 unique papers in 7d OAI/Atom shared-window match; 24h exact zero remains NOT_COVERED; 30d Atom partial HTTP429.
+- 21 official abstracts inspected; GitHub repo search API 12/12 HTTP403 rate-limited; no formal promotion.
+- KORA official 16-page PDF added; no classification promotion.
+- Formal promotions 0; PDF additions 1; public sync pending.
+
 ## 2026-10-29 06:46 CST
 
 24h OAI/Atom exact 0/0; NOT_COVERED. Latest official arXiv version 2610.37668 at 2026-10-27T17:59:59Z; OAI/Atom 7d 5,639/2,244 unique-window results, 2,382 shared ID/category pairs, diff0, OAI24h subset7d missing0. 30d OAI 32,158 exact/13,617 unique PASS; Atom 30d timed out with no artifact. SYS_ALG_BOUNDARY +1: Sub-Millisecond Reflexes (2610.21913), B+, real-time ROS2 control/reflex runtime, official 8p PDF and Apache-2.0 author repo verified; no VLA serving or multi-tenant p99. Official abstracts 17/17; first-party checks 12/12; 7d title signals 72/60 unclassified; 30d 461/418 unclassified. Formal promotions1 boundary; PDF new0/revalidated1; cumulative 260 papers (CORE_SYS 165, SYS_ALG_BOUNDARY 85), 366 valid PDFs, 4 pending.
