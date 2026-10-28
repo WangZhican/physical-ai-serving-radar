@@ -1,3 +1,8 @@
+## 2026-10-29 06:27 CST
+
+24h OAI/Atom exact records: 0/0; NOT_COVERED. Latest official arXiv updated version 2026-10-27T17:59:59+00:00 (age 28.22h); official new-category pages 5/5 and Atom recency 5/5 HTTP200, no newer version in the exact window. 7d OAI 5647 exact records/2247 unique mandatory-category IDs; Atom 2247 unique; shared UTC 2385 ID/category pairs, differences 0. 30d current refresh incomplete: OAI 720h tool failed internally twice; Atom cs.LG page5 HTTP500 (10000 partial records); retain last-good OAI 0457 32217 exact/13650 unique IDs from 04:59:49 CST. First-party checks 12/12, Atom recency 5/5, abstracts 17/17. Candidates: VLA-HWBench (route8) and WorldPager (route5/10), both unpromoted. Formal promotions 0; PDFs revalidated 2, new registrations 0; cumulative 259 classified/165 CORE_SYS, 366 valid PDFs, 4 pending.
+
+Public sync pending independent verification.
 ## 2026-10-29 05:22 CST — CORE_SYS+1_XAIR; 24H_ZERO_NOT_COVERED; 7D_OAI5682_ATOM2264_MATCH_DIFF0; ABSTRACTS175/175; PDF_CHECKED3_NEW1
 - Promoted XAIR/AIS (2610.27971) as CORE_SYS/B+ lower-layer execution/control-loop runtime (P2/P3/P9): official 46p PDF and author-linked Apache-2.0 artifact/CI verified; independent reproduction not run, no wired PLC I/O or VLA serving p99. Coloc PDF revalidated and Sluice PDF newly registered; both unpromoted. OAI/Atom 7d shared-window match diff0; 24h exact zero remains NOT_COVERED.
 

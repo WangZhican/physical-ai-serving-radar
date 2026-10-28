@@ -1,3 +1,10 @@
+## 2026-10-29 06:27 CST — PUBLIC_SYNC_PENDING
+
+24h OAI/Atom exact records: 0/0; NOT_COVERED. Latest official arXiv updated version 2026-10-27T17:59:59+00:00 (age 28.22h); official new-category pages 5/5 and Atom recency 5/5 HTTP200, no newer version in the exact window. 7d OAI 5647 exact records/2247 unique mandatory-category IDs; Atom 2247 unique; shared UTC 2385 ID/category pairs, differences 0. 30d current refresh incomplete: OAI 720h tool failed internally twice; Atom cs.LG page5 HTTP500 (10000 partial records); retain last-good OAI 0457 32217 exact/13650 unique IDs from 04:59:49 CST. First-party checks 12/12, Atom recency 5/5, abstracts 17/17. Candidates: VLA-HWBench (route8) and WorldPager (route5/10), both unpromoted. Formal promotions 0; PDFs revalidated 2, new registrations 0; cumulative 259 classified/165 CORE_SYS, 366 valid PDFs, 4 pending.
+
+- Official sources: arXiv OAI + Atom direct 24h/7d census; cs.DC/cs.AR/cs.PF/cs.RO + cs.LG; five new-category pages and five Atom recency probes.
+- Scope: source census only; semantic/reverse/venue/project/reproducibility coverage remains IN_PROGRESS.
+- Public sync pending independent verification.
 ## 2026-10-29 05:22 CST — CORE_SYS+1_XAIR; 24H_ZERO_NOT_COVERED; 7D_OAI5682_ATOM2264_MATCH_DIFF0; 30D_OAI32217; ABSTRACTS175/175; PDF_CHECKED3_NEW1
 - Source: 24h OAI/Atom exact zero, NOT_COVERED; 7d OAI/Atom shared-window match 0 diff; 30d OAI direct pass, semantic/reverse/venue/project coverage IN_PROGRESS.
 - CORE_SYS +1: [XAIR](https://arxiv.org/abs/2610.27971), B+, execution-time action-intent validation runtime (P2/P3/P9); [Apache-2.0 author artifact/CI](https://github.com/ProSoDiAC/LD1-execution-gap-xair) verified. Paper reports 0 stale effects/1,100 and 0/180 OpenPLC; independent reproduction not run, no wired PLC I/O or VLA serving p99.
