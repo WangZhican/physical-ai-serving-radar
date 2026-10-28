@@ -2,7 +2,7 @@
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
-**Last updated: 2026-10-26 04:06 CST**
+**Last updated: 2026-10-28 10:05 CST**
 
 This repository intentionally keeps the two research areas **in one place but written separately**. They share a single verified paper dataset, while each track has its own taxonomy, core reading list, and research narrative.
 
@@ -22,6 +22,7 @@ The overlap is deliberate, not a classification bug. Systems such as **vLLM-Omni
 
 | Title | Year / Venue | Route | System Contribution | Open Source / Repo | Paper | Priority |
 |---|---|---|---|---|---|---|
+| EdgePace | 2026 / arXiv | P3, P6, P8, P9 | Bandwidth-aware edge inference scheduler protects camera/robot tracking deadlines and LLM freshness; no VLA fleet p99 | Dedicated code unverified | [paper](https://arxiv.org/abs/2610.37307) | A |
 | WorldOracle | 2026 / arXiv | P9, P10; world-model evaluation | Paired real-robot executions vs world-model rollout fidelity; reusable benchmark harness, no serving p99 | [Official code/tests](https://github.com/WorldOracle-benchmark/WorldOracle) | [paper](https://arxiv.org/abs/2610.18826) | A- |
 | AstroBench | 2026 / arXiv | P9; embodied evaluation | Isaac Sim free-floating capture benchmark, 9 tasks/29 task-target combinations; no serving p99 | [Official code/tests](https://github.com/AstroUpLab/AstroBench) | [paper](https://arxiv.org/abs/2610.31064) | B+ |
 | TARSphere | 2026 / arXiv | P7, P9; embodied evaluation | 360 episodes, 30 scenes, robot runtime and executable harness; no serving p99 | [Official code](https://github.com/xuyicheng-zju/TARSphere) | [paper](https://arxiv.org/abs/2610.30043) | A- |

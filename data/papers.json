@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26 11:09 CST",
-  "count": 256,
+  "updated": "2026-10-28 10:05 CST",
+  "count": 257,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4552,6 +4552,23 @@
       "code_status": "Official public code not verified",
       "notes": "Cloud-edge reusable DiT attention/KV state serving with token-importance compression, bandwidth-aware per-shard cache representation selection and pipelined transfer/reconstruction/on-device execution. Official 15-page PDF: Snapdragon 8 Elite Gen 5, 3 editing tasks, 2 diffusion models; paper-reported latency 1.82x lower vs adapted CacheGen and 3.27x lower vs local generation, 3.06x lower storage vs full cache. Multimodal edge-serving adjacency, NOT a robot/VLA evaluation; no p99 multi-robot evidence. Public code not verified.",
       "evidence": "daily/2026-10-26/DEEP_EVIDENCE_1100.json; CANDIDATE_ABSTRACTS_1100.json"
+    },
+    {
+      "id": "arxiv:2610.37307",
+      "title": "EdgePace: Deadline- and Freshness-Aware LLM Scheduling on Unified-Memory Platforms",
+      "class": "CORE_SYS",
+      "route": [
+        3,
+        6,
+        8,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "VERIFIED",
+      "code_status": "DEDICATED_SOURCE_UNVERIFIED",
+      "evidence": "Official 19-page PDF; OnePlus 13 and 3 Jetson platforms; multi-camera and robotic target tracking; deadline misses reduced 24.1%-96.1% vs unmanaged inference; throughput retained 64.9%-98.5%; not multi-tenant VLA serving p99."
     }
   ]
 }

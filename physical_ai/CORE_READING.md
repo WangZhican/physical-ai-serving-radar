@@ -4,6 +4,7 @@ This list is ordered by **systems value**, not by citation count.
 
 | Priority | Work | Main systems role | Paper / project |
 |---|---|---|---|
+| A | EdgePace | Unified-memory bandwidth-aware inference suspension/scheduling protecting multi-camera/robot-tracking deadlines and LLM freshness; dedicated code unverified | https://arxiv.org/abs/2610.37307 |
 | A | GPU-resident Execution | Persistent GPU-driven I/O / CUDA Graph sensor runtime; 7.3× less 60Hz camera-to-display jitter, not VLA fleet serving | https://arxiv.org/abs/2610.13809 |
 | A- | Isaac-Net | GPU 5G network-in-loop simulation for robot fleets; [BSD-3 code](https://github.com/ZzZTripleZzZ/isaac-net); training/evaluation only | https://arxiv.org/abs/2610.02370 |
 | S+ | Kairos: A Scalable Serving System for Physical AI | generate–execute-aware multi-robot serving | https://arxiv.org/abs/2605.11381 |
