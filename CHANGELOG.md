@@ -1,3 +1,6 @@
+## 2026-10-28 13:04 CST — DUAL_SOURCE_24H324_324_7D2615_2615_DIFF0_SUBSET0; FIRST_PARTY12/12; PROMOTION0_PDF0
+- OAI/Atom dual-source 24h and 7d direct-category census recovered and reconciled, no new formal paper promotion.
+
 ## 2026-10-28 12:06 CST — OAI_24H344_7D2624_SUBSET0_ATOM_ZERO_PARTIAL_NOT_COVERED; ABSTRACT26/26_API3/3; PROMOTION0_PDF0
 - Five-category OAI 24h/7d subset regression PASS; Atom page-zero rate-limit/timeout remains unresolved; 26 official abstracts checked, no formal promotion.
 
