@@ -1,5 +1,5 @@
-## 2026-10-29 05:22 CST — CORE_SYS+1_XAIR; 24H_ZERO_NOT_COVERED; 7D_OAI5682_ATOM2264_MATCH_DIFF0; ABSTRACTS175/175; PDF+3
-- Promoted XAIR/AIS (2610.27971) as CORE_SYS/B+ lower-layer execution/control-loop runtime (P2/P3/P9): official 46p PDF and author-linked Apache-2.0 artifact/CI verified; independent reproduction not run, no wired PLC I/O or VLA serving p99. Coloc/Sluice PDFs archived but unpromoted. OAI/Atom 7d shared-window match diff0; 24h exact zero remains NOT_COVERED.
+## 2026-10-29 05:22 CST — CORE_SYS+1_XAIR; 24H_ZERO_NOT_COVERED; 7D_OAI5682_ATOM2264_MATCH_DIFF0; ABSTRACTS175/175; PDF_CHECKED3_NEW1
+- Promoted XAIR/AIS (2610.27971) as CORE_SYS/B+ lower-layer execution/control-loop runtime (P2/P3/P9): official 46p PDF and author-linked Apache-2.0 artifact/CI verified; independent reproduction not run, no wired PLC I/O or VLA serving p99. Coloc PDF revalidated and Sluice PDF newly registered; both unpromoted. OAI/Atom 7d shared-window match diff0; 24h exact zero remains NOT_COVERED.
 
 ## 2026-10-29 03:10 CST — 24H_ZERO_NOT_COVERED; 7D_OAI2304_ATOM1014_PARTIAL429; FIRST_PARTY18/18_ABSTRACT41/41_PDF3/3; PROMOTION0_PDF0
 - OAI 24h zero-exact timestamp anomaly and Atom 7d cs.LG HTTP429; 41 official abstracts, 3 archived PDFs and 5 code searches reviewed; no formal promotion.
