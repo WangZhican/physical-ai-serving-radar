@@ -3,7 +3,7 @@
 - 2236 unique papers in 7d OAI/Atom shared-window match; 24h exact zero remains NOT_COVERED; 30d Atom partial HTTP429.
 - 21 official abstracts inspected; GitHub repo search API 12/12 HTTP403 rate-limited; no formal promotion.
 - KORA official 16-page PDF added; no classification promotion.
-- Formal promotions 0; PDF additions 1; public sync pending.
+- Formal promotions 0; PDF additions 1; public sync verified; remote master SHA is recorded in canonical state.
 
 ## 2026-10-29 06:46 CST
 
