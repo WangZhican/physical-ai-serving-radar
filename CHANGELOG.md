@@ -1,3 +1,6 @@
+## 2026-10-28 15:10 CST — DUAL_SOURCE_24H283_283_7D2587_2587_DIFF0_SUBSET0; ABSTRACT47/47; FIRST_PARTY18/18; PROMOTION0_PDF1
+- Official OAI/Atom cross-source 24h/7d match, 47 abstracts, 18 first-party routes; MATE-BT PDF validated as unpromoted candidate.
+
 ## 2026-10-28 14:14 CST — DUAL_SOURCE_24H301_301_7D2601_2601_DIFF0_SUBSET0; ABSTRACT25/25; FIRST_PARTY14/14_API3/3; PROMOTION0_PDF0
 - OAI/Atom direct-source 24h and 7d cross-window ID/category reconciliation, 25 official abstracts and 17 first-party HTML/API checks; no formal promotion.
 
