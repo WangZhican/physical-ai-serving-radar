@@ -1,3 +1,6 @@
+## 2026-10-28 18:10 CST — DUAL_SOURCE_24H222_222_7D2506_2506_DIFF0; OAI_SUBSET0; FIRST_PARTY12/12; PROMOTION0_PDF0
+- Official OAI/Atom five-category 24h/7d dual-source recovery and zero-diff reconciliation; 10 abstracts checked; no promotions or PDFs.
+
 ## 2026-10-28 17:13 CST — OAI_24H237_7D2540_SUBSET0; ATOM_PARTIAL_176_368_NOT_COVERED; ABSTRACT2/2; FIRST_PARTY18/18; PROMOTION0_PDF0
 - OAI five-category direct PASS with nested-window integrity; Atom partial source remains NOT_COVERED. Two newly inspected out-of-scope abstracts; no promotions or PDFs.
 
