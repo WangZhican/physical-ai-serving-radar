@@ -1,3 +1,6 @@
+## 2026-10-28 11:08 CST — OAI_CROSS_WINDOW_9_OF_9_RECOVERED_SUBSET_0; ATOM_PARTIAL_NOT_COVERED; PROMOTION0_PDF0
+- Official OAI cross-window incident recovered: final nine missing records restored by UTC-day replay, current 24h subset 7d holds; Atom still incomplete; zero promotions/PDFs.
+
 ## 2026-10-28 10:10 CST — OAI_7D_PER_DAY_REPLAY_2646_RECOVERED_140_STILL_MISSING9_NOT_COVERED; ATOM_INCOMPLETE; EDGEPACE_CORE_SYS+1_PDF+3
 - Official OAI per-day replay recovered 140 missing monolithic records; 9 still missing relative to 24h, so 7d remains NOT_COVERED. Atom still rate-limited.
 
