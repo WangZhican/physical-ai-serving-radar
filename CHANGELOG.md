@@ -1,3 +1,6 @@
+## 2026-10-28 20:05 CST — DUAL_SOURCE_24H179_179_7D2463_2463_DIFF0; OAI_SUBSET0; FIRST_PARTY18/18_ABSTRACT5/5; PROMOTION0_PDF0
+- OAI/Atom five-category 24h/7d full source recovery, exact-window zero-diff, 18 official route checks and five abstracts; no formal paper/PDF additions.
+
 ## 2026-10-28 19:06 CST — OAI_24H196_7D2485_SUBSET0; ATOM_24H195_PASS_7D2280_PARTIAL_HTTP429_NOT_COVERED; ABSTRACT10/10; PROMOTION0_PDF0
 - OAI nested 24h/7d PASS and 24h OAI/Atom zero-diff; 7d Atom cs.LG HTTP429 remains NOT_COVERED. Ten official abstracts triaged; no formal promotion/PDF.
 
