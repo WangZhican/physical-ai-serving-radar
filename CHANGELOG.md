@@ -1,3 +1,6 @@
+## 2026-10-29 00:07 CST — DUAL_SOURCE_24H60_7D2385_DIFF0; OAI_SUBSET0; FIRST_PARTY18/18_ABSTRACT10/10; PROMOTION0_PDF0
+- 24h/7d OAI+Atom source-only dual-source verified; 10 official abstracts, 18 first-party URLs; no formal promotions.
+
 ## 2026-10-28 23:07 CST — OAI_24H94_7D2403_SUBSET_MISSING0; ATOM_24H94_PASS_7D_NOT_COVERED; FIRST_PARTY15/18_30D_ABSTRACT24/24; PROMOTION0_PDF0
 - OAI 24h/7d five-category direct census, Atom 24h full census, 7d Atom execution blocked, 24 older 30d first-party abstracts inspected; zero formal additions.
 
