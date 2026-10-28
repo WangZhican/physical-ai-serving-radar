@@ -1,3 +1,6 @@
+## 2026-10-29 01:08 CST — DUAL_SOURCE_24H30_7D2358_DIFF0; OAI_SUBSET0; FIRST_PARTY15/18_ABSTRACT12/12_PDF_RECHECK6/6; PROMOTION0_PDF0
+- Dual-source official 24h/7d census, 12 official abstracts, 6 existing PDF code-evidence checks; 3 first-party timeouts and GitHub search rate limits recorded; no formal promotions.
+
 ## 2026-10-29 00:07 CST — DUAL_SOURCE_24H60_7D2385_DIFF0; OAI_SUBSET0; FIRST_PARTY18/18_ABSTRACT10/10; PROMOTION0_PDF0
 - 24h/7d OAI+Atom source-only dual-source verified; 10 official abstracts, 18 first-party URLs; no formal promotions.
 
