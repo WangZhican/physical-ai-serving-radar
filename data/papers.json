@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-29 05:22 CST",
-  "count": 259,
+  "updated": "2026-10-29 06:46 CST",
+  "count": 260,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4614,6 +4614,18 @@
       "code_status": "AUTHOR_LINKED_APACHE_2.0_ARTIFACT_AND_CI_VERIFIED_REPRODUCTION_NOT_RUN",
       "notes": "XAIR/AIS is a reusable execution-time action-intent runtime: an intent carries predicates/read-set, freshness/deadline and version context; a controller-side validator checks context drift and supports version-conditional commands before actuation. The paper reports 0 stale effects in 1,100 trials, 0/180 OpenPLC cases, 148-168 intents/s on embedded boards, 909-956 intents/s on server, and <100MB RSS. Limitations: OpenPLC is software-in-the-loop; no physical PLC wired I/O was evaluated; this is not a VLA model-serving scheduler or multi-tenant serving-p99 result; independent reproduction was not run in this cycle.",
       "evidence": "daily/2026-10-29/TARGETED_FIRST_PARTY_0457.json; REPO_INSPECTION_0457.json; REPO_FOLLOWUP_0457.json; Xair_author_verify_0514.json; PDF_INSPECTION_0457.json; PDF_DOWNLOAD_MANIFEST.json"
+    },
+    {
+      "id": "arxiv:2610.21913",
+      "title": "Sub-Millisecond Reflexes for Continuous Physical Human-Robot Interaction",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B+",
+      "status": "VERIFIED"
     }
   ]
 }

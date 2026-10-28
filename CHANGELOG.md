@@ -1,3 +1,9 @@
+## 2026-10-29 06:46 CST
+
+24h OAI/Atom exact 0/0; NOT_COVERED. Latest official arXiv version 2610.37668 at 2026-10-27T17:59:59Z; OAI/Atom 7d 5,639/2,244 unique-window results, 2,382 shared ID/category pairs, diff0, OAI24h subset7d missing0. 30d OAI 32,158 exact/13,617 unique PASS; Atom 30d timed out with no artifact. SYS_ALG_BOUNDARY +1: Sub-Millisecond Reflexes (2610.21913), B+, real-time ROS2 control/reflex runtime, official 8p PDF and Apache-2.0 author repo verified; no VLA serving or multi-tenant p99. Official abstracts 17/17; first-party checks 12/12; 7d title signals 72/60 unclassified; 30d 461/418 unclassified. Formal promotions1 boundary; PDF new0/revalidated1; cumulative 260 papers (CORE_SYS 165, SYS_ALG_BOUNDARY 85), 366 valid PDFs, 4 pending.
+
+Public sync: PUBLIC_SYNC_PENDING; independent remote master SHA verification follows.
+
 ## 2026-10-29 06:27 CST
 
 24h OAI/Atom exact records: 0/0; NOT_COVERED. Latest official arXiv updated version 2026-10-27T17:59:59+00:00 (age 28.22h); official new-category pages 5/5 and Atom recency 5/5 HTTP200, no newer version in the exact window. 7d OAI 5647 exact records/2247 unique mandatory-category IDs; Atom 2247 unique; shared UTC 2385 ID/category pairs, differences 0. 30d current refresh incomplete: OAI 720h tool failed internally twice; Atom cs.LG page5 HTTP500 (10000 partial records); retain last-good OAI 0457 32217 exact/13650 unique IDs from 04:59:49 CST. First-party checks 12/12, Atom recency 5/5, abstracts 17/17. Candidates: VLA-HWBench (route8) and WorldPager (route5/10), both unpromoted. Formal promotions 0; PDFs revalidated 2, new registrations 0; cumulative 259 classified/165 CORE_SYS, 366 valid PDFs, 4 pending.
