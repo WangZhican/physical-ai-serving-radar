@@ -1,3 +1,6 @@
+## 2026-10-28 10:07 CST — SOURCE_COVERAGE_INCIDENT_OAI_7D_SUBSET_VIOLATION_149; ATOM_INCOMPLETE; 24H_OAI_391; EDGEPACE_CORE_SYS+1_PDF+3
+- Corrected 7d OAI transport PASS to NOT_COVERED after detecting 149-ID cross-window subset violation; 24h OAI source recovered but Atom limited. EdgePace and 3 validated PDFs retained from 10:05.
+
 ## 2026-10-28 10:05 CST — OAI_24H_391_RECOVERED_ATOM_INCOMPLETE; OAI_7D_2506_ATOM_PARTIAL_NOT_COVERED; CORE_SYS+1_EDGEPACE; PDF+3
 - CORE_SYS +1 EdgePace; official PDF +3 (not published). 24h OAI recovered, Atom rate-limited, 7d Atom incomplete; full coverage remains IN_PROGRESS.
 
