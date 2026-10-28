@@ -1,3 +1,6 @@
+## 2026-10-28 12:06 CST — OAI_24H344_7D2624_SUBSET0_ATOM_ZERO_PARTIAL_NOT_COVERED; ABSTRACT26/26_API3/3; PROMOTION0_PDF0
+- Five-category OAI 24h/7d subset regression PASS; Atom page-zero rate-limit/timeout remains unresolved; 26 official abstracts checked, no formal promotion.
+
 ## 2026-10-28 11:08 CST — OAI_CROSS_WINDOW_9_OF_9_RECOVERED_SUBSET_0; ATOM_PARTIAL_NOT_COVERED; PROMOTION0_PDF0
 - Official OAI cross-window incident recovered: final nine missing records restored by UTC-day replay, current 24h subset 7d holds; Atom still incomplete; zero promotions/PDFs.
 
