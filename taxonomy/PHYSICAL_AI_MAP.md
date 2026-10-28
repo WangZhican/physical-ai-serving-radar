@@ -6,10 +6,10 @@ A paper may appear in multiple routes when it plays a distinct technical role in
 Multi-tenant robot-policy serving, shared GPU pools, action-aware batching, admission/fairness and execution-aware scheduling, plus fleet-to-cloud actor/learner loops that continuously turn deployment experience into shared policy updates. **Anchors:** Kairos, ROSA, Armory, SOP. LWD is tracked as an algorithm-system follow-on because its main novelty is offline-to-online RL rather than serving/resource scheduling.
 
 ## P2. Unified Physical-AI Runtime
-Common runtime contracts for VLA/WAM/policy execution, portable kernels, memory management, action-head plugins and robot-facing protocols. **Anchors:** PhyAI, Embodied.cpp, vla.cpp, LeRobot.
+Common runtime contracts for VLA/WAM/policy execution, portable kernels, memory management, action-head plugins and robot-facing protocols. **Anchors:** PhyAI, Embodied.cpp, vla.cpp, LeRobot, XAIR.
 
 ## P3. Real-Time / Streaming / Control-loop Serving
-Reaction latency, deadlines, async perception/inference/execution, executor scheduling, accelerator arbitration and physical-state-aware timing. **Anchors:** LeRobot async inference, CROS-RT, PAAM, ROSGM, LaME, VLASH, FASTER, Reflex.
+Reaction latency, deadlines, async perception/inference/execution, executor scheduling, accelerator arbitration and physical-state-aware timing. **Anchors:** LeRobot async inference, CROS-RT, PAAM, ROSGM, LaME, VLASH, FASTER, Reflex, XAIR.
 
 ## P4. Edge-Cloud / Disaggregated Physical AI
 Device/edge/cloud partitioning, fog/cloud provisioning, server selection, network adaptation and tail-latency reliability. The recovered systems lineage is **FogROS 2 → FogROS2-Config → FogROS2-PLR**, complementing modern VLA-specific RoboECC, RAPID and device-edge EcoVLA.
@@ -27,7 +27,7 @@ Graph/walk abstractions for perception → reasoner → planner → policy → W
 Model/hardware/network landscapes, control-time rooflines, wireless discovery/transport behavior and deployment cost-energy-time modeling. **Anchors:** VLA-Perf, PhyAI, Discovery Storm.
 
 ## P9. Evaluation / Serving Infrastructure
-Model-server/benchmark decoupling, real-robot evaluation-as-a-service, distributed evaluation, traces, observability, distributional real-hardware metrics and deadline/latency instrumentation. **Anchors:** DeepInsight, RoboArena, AutoEval, RoboDojo, vla-eval, ros2probe, CARET, TILDE, PhAIL. **Boundary:** dWorldEval adds scalable world-model proxy evaluation with automatic progress scoring, but remains method-first rather than a serving/resource system.
+Model-server/benchmark decoupling, real-robot evaluation-as-a-service, distributed evaluation, traces, observability, distributional real-hardware metrics and deadline/latency instrumentation. **Anchors:** DeepInsight, RoboArena, AutoEval, RoboDojo, vla-eval, ros2probe, CARET, TILDE, PhAIL, XAIR. **Boundary:** dWorldEval adds scalable world-model proxy evaluation with automatic progress scoring, but remains method-first rather than a serving/resource system.
 
 ## P10. World-Model / WAM Rollout Serving
 Branching/iterative rollouts, persistent sessions, checkpoint/restore, exact-state migration, rollout-state reuse, evaluation proxies and reusable rollback/branching substrates. **Anchors:** Persistent Computational State, WorldMove, PhyAI. **Boundary signals:** dWorldEval and Hi-WM.
@@ -61,3 +61,7 @@ A new P4/P5/P8 boundary subline tracks whether remotely maintained semantic/late
 
 ### OS-style embodied task/process runtime
 P2/P3/P7 include runtimes that treat concurrent physical tasks as schedulable processes and robot subsystems as kernel-managed resources. **TypeGo** is the anchor: process control blocks, Skill Kernel arbitration, preemption/source-aware resumption, and asynchronous S0–S3 loops make task lifecycle and physical-resource exclusivity first-class runtime semantics.
+
+
+### 2026-10-29 05:22 CST — Execution-time action-intent validation
+P2/P3/P9 include **XAIR/AIS (2610.27971)** as a lower-layer execution runtime: context-carrying action intents encode predicates/read-set, freshness/deadline and version scope; a runtime validates context drift before actuation. CORE_SYS reflects the reusable runtime/contract and evaluation artifact, not model-serving throughput. OpenPLC is software-in-the-loop; no wired PLC I/O or multi-tenant VLA serving p99; independent reproduction remains pending.

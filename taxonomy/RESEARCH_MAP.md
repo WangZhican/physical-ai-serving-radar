@@ -80,3 +80,7 @@ Routes P2/P3/P7 now explicitly include embodied-agent OS runtimes. **TypeGo** is
 
 ### 2026-08-29 refinement: Physical-I/O-aware segmented serving lineage
 Routes P1/P3/P8 now explicitly connect fleet serving to the timing slack created by physical execution. **TimelyLLM** is the serving/scheduling anchor: generation is segmented around robot execution and scheduled by segment timing needs rather than ordinary FCFS. **TypeFly** is the boundary predecessor showing stream-interpreted control programs can begin execution before full plan generation. Together with TypeGo, this forms a lineage from token/stream-aware robot runtime → Physical-I/O-aware multi-agent serving → OS-style embodied process/resource management.
+
+
+### 2026-10-29 05:22 CST — Physical-AI execution runtime refinement
+P2/P3/P9 now include execution-time validation of context-carrying learned-policy action intents when a reusable runtime checks freshness/read-set/predicate/version context before physical dispatch. XAIR/AIS (2610.27971) is the anchor. Keep this distinct from VLA inference serving: its reported evaluation uses software-in-the-loop OpenPLC, not wired PLC I/O, and does not establish multi-tenant model-serving p99.

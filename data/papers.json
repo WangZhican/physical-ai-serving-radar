@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-28 22:11 CST",
-  "count": 258,
+  "updated": "2026-10-29 05:22 CST",
+  "count": 259,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4588,6 +4588,32 @@
       "code_status": "PUBLIC_MIT_ARTIFACT_RELEASED_NOT_LOCALLY_REPRODUCED",
       "notes": "Text-to-image diffusion query-aware hybrid cascade serving; pre-generation router + post-generation discriminator, runtime MILP jointly selects model pair, thresholds, GPU placement/batching. Paper reports 16-GPU trace evaluation, up to 35% better response quality and 2.7–45x fewer SLO violations vs selected baselines. Author artifact MIT, v0.3.0-ae; not independently executed. Multimodal/diffusion serving, NOT Physical-AI/VLA robot-fleet p99.",
       "evidence": "daily/2026-10-28/HADIS_EVIDENCE_2200.json; HADIS_REPO_2200.json; PDF_EVIDENCE_2200.json; THIRTY_DAY_ABSTRACTS_2200.json"
+    },
+    {
+      "id": "arxiv:2610.27971",
+      "title": "Execution-Time Validation of Context-Carrying Action Intents in Industrial Cyber-Physical Systems",
+      "authors": [
+        "Luca D'Agati",
+        "Giuseppe Tricomi",
+        "Fabio Orazio Mirto",
+        "Giovanni Merlino"
+      ],
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        3,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "priority": "B+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2610.27971",
+      "official_pdf": "https://arxiv.org/pdf/2610.27971",
+      "code_url": "https://github.com/ProSoDiAC/LD1-execution-gap-xair",
+      "code_status": "AUTHOR_LINKED_APACHE_2.0_ARTIFACT_AND_CI_VERIFIED_REPRODUCTION_NOT_RUN",
+      "notes": "XAIR/AIS is a reusable execution-time action-intent runtime: an intent carries predicates/read-set, freshness/deadline and version context; a controller-side validator checks context drift and supports version-conditional commands before actuation. The paper reports 0 stale effects in 1,100 trials, 0/180 OpenPLC cases, 148-168 intents/s on embedded boards, 909-956 intents/s on server, and <100MB RSS. Limitations: OpenPLC is software-in-the-loop; no physical PLC wired I/O was evaluated; this is not a VLA model-serving scheduler or multi-tenant serving-p99 result; independent reproduction was not run in this cycle.",
+      "evidence": "daily/2026-10-29/TARGETED_FIRST_PARTY_0457.json; REPO_INSPECTION_0457.json; REPO_FOLLOWUP_0457.json; Xair_author_verify_0514.json; PDF_INSPECTION_0457.json; PDF_DOWNLOAD_MANIFEST.json"
     }
   ]
 }
