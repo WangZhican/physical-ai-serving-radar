@@ -1,3 +1,6 @@
+## 2026-10-29 02:09 CST — 24H_ZERO_NOT_COVERED; 7D_OAI2321_ATOM1386_PARTIAL_429; FIRST_PARTY18/18_ABSTRACT10/10_PDF3/3; PROMOTION0_PDF0
+- Source anomaly: 24h exact zero despite successful OAI transport; 7d Atom cs.LG 429; official first-party 18/18, 10 abstracts, 3 PDFs; no promotions.
+
 ## 2026-10-29 01:08 CST — DUAL_SOURCE_24H30_7D2358_DIFF0; OAI_SUBSET0; FIRST_PARTY15/18_ABSTRACT12/12_PDF_RECHECK6/6; PROMOTION0_PDF0
 - Dual-source official 24h/7d census, 12 official abstracts, 6 existing PDF code-evidence checks; 3 first-party timeouts and GitHub search rate limits recorded; no formal promotions.
 
