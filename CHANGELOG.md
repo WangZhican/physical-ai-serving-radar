@@ -1,3 +1,6 @@
+## 2026-10-28 17:13 CST — OAI_24H237_7D2540_SUBSET0; ATOM_PARTIAL_176_368_NOT_COVERED; ABSTRACT2/2; FIRST_PARTY18/18; PROMOTION0_PDF0
+- OAI five-category direct PASS with nested-window integrity; Atom partial source remains NOT_COVERED. Two newly inspected out-of-scope abstracts; no promotions or PDFs.
+
 ## 2026-10-28 16:16 CST — OAI_24H264_7D2562_OVERLAP264_SUBSET0; ATOM_429_TIMEOUT_NOT_COVERED; ABSTRACT11/11; FIRST_PARTY18/18; PROMOTION0_PDF1
 - OAI 24h/7d direct PASS and overlap check; Atom 429/timeout partial source, not covered; 11 official abstracts, 18 first-party routes; candidate PDF validated, no promotion.
 
