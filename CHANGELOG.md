@@ -1,3 +1,6 @@
+## 2026-10-28 22:11 CST — DUAL_SOURCE_24H125_125_7D2419_2419_DIFF0; OAI_SUBSET0; FIRST_PARTY18/18_ABSTRACT26/26; PROMOTION1_PDF0
+- Added HADIS (EuroSys 2027 conditional author artifact), CORE_SYS multimodal/diffusion serving, pre-existing 15p PDF revalidated and MIT artifact verified; 24h/7d OAI+Atom source-only zero-diff and 26 official abstract inspections. No independent GPU reproduction or robot p99.
+
 ## 2026-10-28 21:01 CST — DUAL_SOURCE_24H156_156_7D2445_2445_DIFF0; OAI_SUBSET0; FIRST_PARTY18/18_ABSTRACT0/0; PROMOTION0_PDF0
 - OAI/Atom five-category 24h/7d full source recovery, exact-window zero-diff, 18 official route checks and no unreviewed top-75 abstracts; no formal paper/PDF additions.
 

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-28 10:05 CST",
-  "count": 257,
+  "updated": "2026-10-28 22:11 CST",
+  "count": 258,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4569,6 +4569,25 @@
       "status": "VERIFIED",
       "code_status": "DEDICATED_SOURCE_UNVERIFIED",
       "evidence": "Official 19-page PDF; OnePlus 13 and 3 Jetson platforms; multi-camera and robotic target tracking; deadline misses reduced 24.1%-96.1% vs unmanaged inference; throughput retained 64.9%-98.5%; not multi-tenant VLA serving p99."
+    },
+    {
+      "id": "arxiv:2509.00642",
+      "title": "HADIS: A Hybrid Architecture for Query-Aware Diffusion Model Serving",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        11
+      ],
+      "year": 2027,
+      "venue": "EuroSys 2027 (conditionally accepted per author artifact)",
+      "priority": "A",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2509.00642",
+      "doi": "10.1145/3842654.3848573",
+      "code_url": "https://github.com/qizhengyang98/HADIS",
+      "code_status": "PUBLIC_MIT_ARTIFACT_RELEASED_NOT_LOCALLY_REPRODUCED",
+      "notes": "Text-to-image diffusion query-aware hybrid cascade serving; pre-generation router + post-generation discriminator, runtime MILP jointly selects model pair, thresholds, GPU placement/batching. Paper reports 16-GPU trace evaluation, up to 35% better response quality and 2.7–45x fewer SLO violations vs selected baselines. Author artifact MIT, v0.3.0-ae; not independently executed. Multimodal/diffusion serving, NOT Physical-AI/VLA robot-fleet p99.",
+      "evidence": "daily/2026-10-28/HADIS_EVIDENCE_2200.json; HADIS_REPO_2200.json; PDF_EVIDENCE_2200.json; THIRTY_DAY_ABSTRACTS_2200.json"
     }
   ]
 }

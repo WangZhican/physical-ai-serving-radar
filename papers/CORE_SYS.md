@@ -30,6 +30,7 @@
 Primary contribution must be runtime, serving, resource management, scheduling, deployment, cache/state infrastructure, heterogeneous execution, profiling, or evaluation infrastructure.
 
 ## Multimodal / diffusion co-serving
+- [HADIS](https://arxiv.org/abs/2509.00642) — **A**, EuroSys 2027 *conditionally accepted* (author artifact): text-to-image diffusion hybrid router/discriminator cascade, online MILP joint model-pair/threshold/GPU allocation; paper-reported 16-GPU traces, up to 35% quality improvement and 2.7–45× fewer SLO violations; [MIT code artifact v0.3.0-ae](https://github.com/qizhengyang98/HADIS) public, not independently reproduced; no robot/VLA control-loop p99.
 - [GENSERVE](https://arxiv.org/abs/2604.04335) — **A+**; real 8×RTX PRO 6000 Blackwell T2I/T2V shared-GPU serving with diffusion-step video preemption, elastic sequence parallelism, dynamic batching and SLO-aware scheduling. Up to **44% relative** SLO-attainment improvement reported. Synthetic arrivals using real prompts; dedicated code unverified; not robot-control p99.
 
 - [CusADi2](https://arxiv.org/abs/2610.25476) — **A-**, reusable DAG/warp-scheduled GPU robot kinematics/Jacobians/Hessians library; RTX 4080, 67 robots, <40us common platforms at B=256, 50Hz Franka planner demo; [MIT code](https://github.com/johnviljoen/cusadi2). Not VLA model serving or p99 fleet SLO.
