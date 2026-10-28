@@ -1,3 +1,6 @@
+## 2026-10-28 14:14 CST — DUAL_SOURCE_24H301_301_7D2601_2601_DIFF0_SUBSET0; ABSTRACT25/25; FIRST_PARTY14/14_API3/3; PROMOTION0_PDF0
+- OAI/Atom direct-source 24h and 7d cross-window ID/category reconciliation, 25 official abstracts and 17 first-party HTML/API checks; no formal promotion.
+
 ## 2026-10-28 13:04 CST — DUAL_SOURCE_24H324_324_7D2615_2615_DIFF0_SUBSET0; FIRST_PARTY12/12; PROMOTION0_PDF0
 - OAI/Atom dual-source 24h and 7d direct-category census recovered and reconciled, no new formal paper promotion.
 
