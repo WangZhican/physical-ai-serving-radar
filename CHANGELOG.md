@@ -1,3 +1,6 @@
+## 2026-10-28 16:16 CST — OAI_24H264_7D2562_OVERLAP264_SUBSET0; ATOM_429_TIMEOUT_NOT_COVERED; ABSTRACT11/11; FIRST_PARTY18/18; PROMOTION0_PDF1
+- OAI 24h/7d direct PASS and overlap check; Atom 429/timeout partial source, not covered; 11 official abstracts, 18 first-party routes; candidate PDF validated, no promotion.
+
 ## 2026-10-28 15:10 CST — DUAL_SOURCE_24H283_283_7D2587_2587_DIFF0_SUBSET0; ABSTRACT47/47; FIRST_PARTY18/18; PROMOTION0_PDF1
 - Official OAI/Atom cross-source 24h/7d match, 47 abstracts, 18 first-party routes; MATE-BT PDF validated as unpromoted candidate.
 
