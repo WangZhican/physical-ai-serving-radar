@@ -1,3 +1,6 @@
+## 2026-10-29 03:10 CST — 24H_ZERO_NOT_COVERED; 7D_OAI2304_ATOM1014_PARTIAL429; FIRST_PARTY18/18_ABSTRACT41/41_PDF3/3; PROMOTION0_PDF0
+- OAI 24h zero-exact timestamp anomaly and Atom 7d cs.LG HTTP429; 41 official abstracts, 3 archived PDFs and 5 code searches reviewed; no formal promotion.
+
 ## 2026-10-29 02:09 CST — 24H_ZERO_NOT_COVERED; 7D_OAI2321_ATOM1386_PARTIAL_429; FIRST_PARTY18/18_ABSTRACT10/10_PDF3/3; PROMOTION0_PDF0
 - Source anomaly: 24h exact zero despite successful OAI transport; 7d Atom cs.LG 429; official first-party 18/18, 10 abstracts, 3 PDFs; no promotions.
 
