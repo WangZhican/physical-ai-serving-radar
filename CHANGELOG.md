@@ -1,4 +1,4 @@
-## 2026-10-30 00:55 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_OAI_4806_1941_ATOM_1941_SHARED_2062_DIFF0_SOURCE_ONLY; 30D_OAI_30843_13028_ATOM_10903_INCOMPLETE; SYS_TRIAGE_83/101_ABSTRACTS28/28_FIRST_PARTY_NEW5/5_HTTP200_ID0_EXPORT_API429_PROMOTIONS0_PDF0_PUBLIC_SYNC_PENDING
+## 2026-10-30 00:55 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_OAI_4806_1941_ATOM_1941_SHARED_2062_DIFF0_SOURCE_ONLY; 30D_OAI_30843_13028_ATOM_10903_INCOMPLETE; SYS_TRIAGE_83/101_ABSTRACTS28/28_FIRST_PARTY_NEW5/5_HTTP200_ID0_EXPORT_API429_PROMOTIONS0_PDF0_PUBLIC_SYNCED_VERIFIED
 
 Watchdog recovered the current official source artifacts after the scheduled Physical AI run failed. This is a **partial source checkpoint**, not a full hourly discovery scan or coverage closure.
 
@@ -23,7 +23,7 @@ P0 recheck rolling 24h official arXiv OAI exact latest-version timestamps and At
 
 ## Sync
 
-Public radar checkpoint is being published. Canonical state must record independently verified remote SHA only after scoped push and independent `git ls-remote` verification.
+Public radar checkpoint commit 3acfe6b81f1abf6aabbea39e4310fe10c071d644 was pushed and independently verified by git ls-remote origin refs/heads/master; remote master SHA: 3acfe6b81f1abf6aabbea39e4310fe10c071d644. Sync-seal commit follows. Canonical state must record independently verified remote SHA only after scoped push and independent `git ls-remote` verification.
 
 - Evidence: SOURCE_RECONCILIATION_0056.json; SYS_TRIAGE_0016.json; SYS_TRIAGE_ATOM_0016.json; CANDIDATE_ABSTRACTS_0016.json; OFFICIAL_FIRST_PARTY_0000.json.
 
