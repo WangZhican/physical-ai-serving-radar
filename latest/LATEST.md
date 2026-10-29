@@ -1,8 +1,8 @@
 # Physical AI Serving Radar — 2026-10-30 03:45 CST
 
-Status: PUBLIC_SYNC_VERIFIED; heartbeat commit 61c07be491e61473d58d74151825b7654fb697a2 independently confirmed by ls-remote at 2026-10-30 03:46 CST; seal push will be independently verified.
+Status: PUBLIC_SYNC_VERIFIED; heartbeat commit 61c07be491e61473d58d74151825b7654fb697a2 and seal commit dd7dbec4008b9730189d49b65f77022dfea8457e independently verified by ls-remote at 2026-10-30 03:50 CST.
 
-Remote verification: independent git ls-remote origin refs/heads/master returned 61c07be491e61473d58d74151825b7654fb697a2 before this seal; verify the seal commit after push.
+Remote verification: independent git ls-remote origin refs/heads/master confirmed heartbeat 61c07be491e61473d58d74151825b7654fb697a2, then seal dd7dbec4008b9730189d49b65f77022dfea8457e, at 2026-10-30 03:50 CST.
 
 ## Source coverage
 - 24h: NOT_COVERED (OAI exact=0; Atom incomplete/0).
