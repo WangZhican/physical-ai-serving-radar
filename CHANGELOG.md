@@ -1,3 +1,18 @@
+## 2026-10-29 19:35 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_OAI_5150_EXACT_ATOM_2070_SHARED_2199_DIFF0_SOURCE_ONLY; 30D_OAI_31284_EXACT_UNIQUE_13231_ATOM_13230_SHARED_14011_DIFF0_SOURCE_ONLY; SEMANTIC_TRIAGE_PENDING
+
+## 2026-10-29 19:35 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED
+
+Official arXiv source-only checkpoint reconciled from the 19:04–19:35 CST OAI/Atom artifacts.
+
+- 24h: OAI exact latest-version records=0; Atom exact=0/INCOMPLETE. **NOT_COVERED**.
+- 7d: OAI 5150 exact / 2070 unique; Atom 2070 unique; shared 2199 ID/category pairs, diff=0. Source-only.
+- 30d: OAI 31284 exact / 13231 unique; Atom 13230 unique; shared 14011 ID/category pairs, diff=0. Source-only.
+- Candidate frontier: 7d 101 unclassified; 30d 472 unclassified (406 older than 7d). No formal promotions or manifest mutation.
+- Robion arXiv:2609.12075 remains the permanent recall regression seed.
+- Overall recall remains **FAIL** until mandatory group/venue/neighborhood and protected debt gates close.
+
+This public radar entry is a partial source checkpoint, not a coverage closure or full hourly discovery run.
+
 ## 2026-10-29 17:22 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_5261_2118_ATOM2116_DIFF0_SOURCE_ONLY; 30D_31461_13307_ATOM13294_DIFF0_SOURCE_ONLY; ABSTRACT_RETRY8/8; PROMOTIONS0; CHECKPOINT_AND_SEAL_VERIFIED
 
 Partial source/semantic checkpoint after the scheduled run failed; this is not a coverage closure.
