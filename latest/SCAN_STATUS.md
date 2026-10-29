@@ -8,7 +8,7 @@ Partial source/semantic checkpoint after the scheduled run failed; this is not a
 - Candidate evidence: 8/8 prior official /abs abstract timeouts recovered; semantic decision counts {'WATCH_ONLY': 33, 'ALG_INSPIRATION': 8, 'SYS_ALG_BOUNDARY': 13, 'CORE_SYS': 6}. Abstract-only decisions: formal promotions 0, no manifest mutation, no PDF registration.
 - Current high-signal frontier: 7d 103 unclassified; 30d 466 unclassified (399 older than 7d). Official first-party checks 15/18; official /new pages 5/5. Robion arXiv:2609.12075 remains the permanent recall seed.
 - Inventory: 260 classified papers; 368 valid PDFs; 4 pending.
-- Public sync: pending independent verification.
+- Public sync: checkpoint commit 34fed190d307e75b13b38b69250ff6a467f68ce1 was pushed and independently verified by git ls-remote; the sync-seal commit is being published.
 
 Frontier: P0 keep rolling 24h NOT_COVERED: OAI exact latest-version records=0 and Atom exact=0; recheck after the next official arXiv announcement and verify /new candidates with first-party /abs version histories. P1 semantically triage the current 7d frontier (103 high-signal unclassified) and 30d frontier (466 high-signal unclassified; 437 older than 7d), with explicit source evidence and no automatic promotion. P1 retry the three official first-party timeouts (HarnessPAI, Streaming-WAM PR4 HTML, vLLM-Omni release); continue reverse-neighborhood, venue/project, code, reproduction, and serving-SLO gates. P2 resolve four historical PDF blockers. Keep overall recall FAIL and automation ACTIVE.
 
