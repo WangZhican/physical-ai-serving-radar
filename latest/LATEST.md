@@ -1,3 +1,17 @@
+## 2026-10-29 17:22 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_5261_2118_ATOM2116_DIFF0_SOURCE_ONLY; 30D_31461_13307_ATOM13294_DIFF0_SOURCE_ONLY; ABSTRACT_RETRY8/8; PROMOTIONS0; PUBLIC_SYNC_PENDING
+
+Partial source/semantic checkpoint after the scheduled run failed; this is not a coverage closure.
+
+- 24h: official OAI exact latest-version records=0; Atom exact=0 with overall status INCOMPLETE. Keep NOT_COVERED. Latest official version arXiv:2610.37668 at 2026-10-27T17:59:59+00:00 (about 39.0 h old at the source snapshot).
+- 7d: OAI 5261 exact / 2118 unique; Atom 2116 unique; shared 2246 ID/category pairs, diff 0. Source-only; semantic/reverse/venue/project/reproduction gates remain IN_PROGRESS.
+- 30d: bounded 31-day OAI slice census PASS, 31461 exact / 13307 unique; Atom 13294 unique; shared 14079 ID/category pairs, diff 0. Source-only, not COVERED.
+- Candidate evidence: 8/8 prior official /abs abstract timeouts recovered; semantic decision counts {'WATCH_ONLY': 33, 'ALG_INSPIRATION': 8, 'SYS_ALG_BOUNDARY': 13, 'CORE_SYS': 6}. Abstract-only decisions: formal promotions 0, no manifest mutation, no PDF registration.
+- Current high-signal frontier: 7d 103 unclassified; 30d 466 unclassified (399 older than 7d). Official first-party checks 15/18; official /new pages 5/5. Robion arXiv:2609.12075 remains the permanent recall seed.
+- Inventory: 260 classified papers; 368 valid PDFs; 4 pending.
+- Public sync: pending independent verification.
+
+Frontier: P0 keep rolling 24h NOT_COVERED: OAI exact latest-version records=0 and Atom exact=0; recheck after the next official arXiv announcement and verify /new candidates with first-party /abs version histories. P1 semantically triage the current 7d frontier (103 high-signal unclassified) and 30d frontier (466 high-signal unclassified; 437 older than 7d), with explicit source evidence and no automatic promotion. P1 retry the three official first-party timeouts (HarnessPAI, Streaming-WAM PR4 HTML, vLLM-Omni release); continue reverse-neighborhood, venue/project, code, reproduction, and serving-SLO gates. P2 resolve four historical PDF blockers. Keep overall recall FAIL and automation ACTIVE.
+
 ## 2026-10-29 14:11 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_DUAL_SOURCE_DIFF0_SOURCE_ONLY; 30D_OAI_RUNNER_TIMEOUT_NOT_COVERED; ABSTRACT_TRIAGE7; FIRST_PARTY18/18; PUBLIC_SYNCED_VERIFIED
 
 Partial catch-up after scheduled-run incident. Official OAI-PMH 24h PASS exact0; official Atom 24h all five category cutoffs crossed but exact0/INCOMPLETE -> NOT_COVERED. Latest official arXiv version 2610.37668 at 2026-10-27T17:59:59+00:00 (age 36.19h). OAI 7d PASS 5411 exact/2170 unique; Atom 7d PASS 2170 unique; shared UTC 2305 ID/category pairs, missing/extra/category diff 0; OAI24 subset7d missing 0. 7d source-only, semantic/reverse/venue/project/reproduction IN_PROGRESS. 30d current OAI 720h retry exceeded Code Mode 300s ceiling and produced no artifact; preserve 12:03 OAI last-good 31857/13472 and 13:35 Atom PASS 13423, shared last-good overlap 14216 pairs diff 0; 30d NOT_COVERED.
