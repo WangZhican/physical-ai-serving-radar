@@ -1,6 +1,8 @@
 # Physical AI Serving Radar — 2026-10-30 03:45 CST
 
-Status: PUBLIC_SYNC_PENDING (local checkpoint prepared; remote master SHA not yet verified)
+Status: PUBLIC_SYNC_VERIFIED; heartbeat commit 61c07be491e61473d58d74151825b7654fb697a2 independently confirmed by ls-remote at 2026-10-30 03:46 CST; seal push will be independently verified.
+
+Remote verification: independent git ls-remote origin refs/heads/master returned 61c07be491e61473d58d74151825b7654fb697a2 before this seal; verify the seal commit after push.
 
 ## Source coverage
 - 24h: NOT_COVERED (OAI exact=0; Atom incomplete/0).
