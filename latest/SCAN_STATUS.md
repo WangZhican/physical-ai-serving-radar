@@ -1,8 +1,6 @@
 # Physical AI Serving Radar — 2026-10-30 07:21 CST
 
-Status: `PARTIAL_SOURCE_REFRESH_NOT_COVERED`; public sync is `PUBLIC_SYNC_PENDING`.
-
-The current local heartbeat and status are ready for a scoped public commit. Remote default-branch SHA last independently verified at 03:51 CST: `d98b74b91e6f3863f4dcae708b3812faba2814ec`. Do not claim the 07:21 checkpoint is public until a new remote SHA is independently verified.
+Status: `PUBLIC_SYNC_VERIFIED`; heartbeat commit `df611eb55051b507439e75af1665a35acd765c25` independently confirmed by `git ls-remote` at 07:22 CST. This status-seal commit will be independently verified after push.
 
 ## Source coverage
 - 24h: **NOT_COVERED** (OAI PASS exact=0; Atom INCOMPLETE exact=0). Latest official arXiv version 2610.37668 is 53.04h old. Official `/new` 5/5 HTTP200 and Atom recency 5/5 HTTP200 are discovery/fallback only.
