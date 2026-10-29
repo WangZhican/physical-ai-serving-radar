@@ -1,3 +1,32 @@
+# Physical AI Serving Radar — 2026-10-30 03:45 CST
+
+Status: PUBLIC_SYNC_PENDING (local checkpoint prepared; remote master SHA not yet verified)
+
+## Source coverage
+- 24h: NOT_COVERED (OAI exact=0; Atom incomplete/0).
+- 7d: direct OAI+Atom census PASS, 1,869 unique records, shared ID/category diff=0; source-only.
+- 30d: direct OAI+Atom census PASS, 12,898 OAI unique / 12,921 Atom unique, shared ID/category diff=0; source-only.
+- Official arXiv /new: 5/5 pages; first-party project/release routes: 15/18 HTTP200. Three exact failures remain open.
+
+## SYS-first scan
+- 75/75 top current 7d candidate abstracts adjudicated; 87 unique abstract decisions; 22 lower-ranked title-only signals remain.
+- Full-text candidates: WorldPager, KerColle, Coloc, TRIAGE, Morph/Flex, TAO, OasisKV, One Megakernel, Sluice, SmolWAM.
+- Formal additions: 0. No paper-manifest or taxonomy change.
+- PDF inventory: 369 valid, 0 invalid, 4 pending. OasisKV registered; KerColle PDF record enriched.
+
+## Exact next frontier
+- Retry official first-party HarnessPAI, Streaming-WAM PR4 and vLLM-Omni routes after cooldown.
+- Complete code/reproduction and deployment-SLO gates for the high-value candidate set; do not promote from abstracts.
+- Review remaining 22 lower-ranked 7d title-only signals; continue sibling/reverse/venue/project coverage.
+- Keep 24h NOT_COVERED until a new official arXiv announcement and exact-window OAI+Atom evidence.
+
+---
+
+## 2026-10-30 03:29 CST — ATOM_PARTIAL_DNS; FIRST_PARTY_15/18; PUBLIC_SYNC_PENDING
+24h current Atom NOT_COVERED: 5/5 categories PASS, 0 partial union; failures=; last-good 0 (NONE) historical source-only. 168h five-category direct Atom source PASS, 1869 unique (full semantic/reverse/venue still IN_PROGRESS). First-party 15/18 HTTP200, Streaming-WAM PR4 open/unmerged. 03:00 official source reconciliation: rolling 24h OAI exact=0 and Atom INCOMPLETE/0 remain NOT_COVERED; latest arXiv version 2610.37668 age 49.14h at source snapshot. 7d OAI 4646 exact/1869 unique and Atom 1869 unique, shared 7d diff=0; source-only. 30d remains NOT_COVERED due incomplete Atom. SYS-first 7d 105 high-signal, 97 unclassified (35 physical/embodied); current abstract batch evidence is not yet adjudicated. Official /new pages HTTP200 but export API HTTP429. No promotions or PDF additions; Robion regression seed preserved. Robion recall seed PASS. 260 formal papers, 368 validated PDFs, 4 pending; 0 promotions, taxonomy unchanged. Full semantic/sibling/reverse/venue/project IN_PROGRESS; PUBLIC_SYNC_PENDING (local heartbeat only).
+Frontier: P0 PUBLIC_SYNC_PENDING: GitHub connector push=false; 97 git ls-remote origin failed DNS EAI_AGAIN, independent GitHub master 754730c516285bf34fdc21ee10d95873569a5c03; retry authorized scoped commit/push and verify remote SHA. P0 retry complete official Atom 24h/7d after DNS recovery/backoff, OAI fallback if usable; retain last-good 0/1869 only as historical source evidence. P1 150 last-good SYS-first leads (52 physical), KerColle Accel-Sim/code and real-hardware gate, HarnessPAI live reproduction, FastHarness live adapter, CARE/FATS/rMuscle, Streaming-WAM PR4, trunk reverse-neighborhood, venue/project/semantic census. P2 four historical PDF blockers.
+Evidence: ARXIV_ATOM_DIRECT_24H_0300.json, ARXIV_ATOM_DIRECT_168H_0300.json, OFFICIAL_FIRST_PARTY_0300.json, SOURCE_RECONCILIATION_0300.json; GitHub fetch_commit(master) SHA 754730c516285bf34fdc21ee10d95873569a5c03.
+
 ## 2026-10-29 17:22 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_5261_2118_ATOM2116_DIFF0_SOURCE_ONLY; 30D_31461_13307_ATOM13294_DIFF0_SOURCE_ONLY; ABSTRACT_RETRY8/8; PROMOTIONS0; CHECKPOINT_AND_SEAL_VERIFIED
 
 Partial source/semantic checkpoint after the scheduled run failed; this is not a coverage closure.
