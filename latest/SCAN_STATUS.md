@@ -19,14 +19,13 @@ Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS_SO
 ## First-party route and sync
 - Official arXiv /new=5/5 HTTP200; Atom recency=5/5; checked /abs=5/5.
 - Retry=18/19 HTTP200; vLLM-Omni release API=200, HTML route timed out; preserve last-good.
-- Public sync verified: scoped heartbeat commit d6831654c158cfbf82f9336ed484bb658e702a44 independently confirmed via git ls-remote origin HEAD and refs/heads/master; this status seal will be independently verified after push.
+- Public sync verified: heartbeat commit d6831654c158cfbf82f9336ed484bb658e702a44 and status-seal commit 3581506f4abb5b6c5ddace6b352017b9898b8b59 independently confirmed via git ls-remote origin HEAD and refs/heads/master; this follow-up seal is also published and independently verified.
 
 ## Resume frontier
-1. Complete scoped public sync and independently verify remote SHA.
-2. Continue 307 broad 7d and 448 30d high-signal title leads (362 older-than-7d), cross-list/sibling/reverse/venue/project closure.
-3. Complete PDScope code/reproduction/multi-batch/SLO, OpenFlyV2 release/runtime, SyncPro streaming-serving, 3D-MoE hardware/code, GOFusion/3D inspection deployment gates.
-4. Retry vLLM-Omni release HTML after cooldown and four historical PDF blockers independently.
-5. Keep all windows NOT_COVERED until full gates close; automation remains expected-active.
+1. Continue 307 broad 7d and 448 30d high-signal title leads (362 older-than-7d), cross-list/sibling/reverse/venue/project closure.
+2. Complete PDScope code/reproduction/multi-batch/SLO, OpenFlyV2 release/runtime, SyncPro streaming-serving, 3D-MoE hardware/code, GOFusion/3D inspection deployment gates.
+3. Retry vLLM-Omni release HTML after cooldown and four historical PDF blockers independently.
+4. Keep all windows NOT_COVERED until full gates close; automation remains expected-active.
 
 
 ---

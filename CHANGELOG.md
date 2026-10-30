@@ -8,7 +8,7 @@ Official OAI-PMH and Atom direct-category census reconciled on exact shared UTC 
 - 42 new abstract-level decisions; 0 formal promotions; paper manifest remains 260.
 - Nine candidate PDFs full-text inspected/reused; six new valid downloads; PDF inventory 400 valid/0 invalid/4 pending. Independent reproduction not run.
 - Robion arXiv:2609.12075 remains the permanent recall regression seed.
-- Public sync pending until commit/push and independent remote SHA verification.
+- Public sync verified: heartbeat commit d6831654c158cfbf82f9336ed484bb658e702a44 and status-seal commit 3581506f4abb5b6c5ddace6b352017b9898b8b59 pushed; remote default-branch SHA independently verified.
 
 ## 2026-10-30 17:14 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; SEMANTIC_NEW12; PDF_VALID394; PUBLIC_SYNC_VERIFIED
 
