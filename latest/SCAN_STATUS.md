@@ -1,3 +1,15 @@
+# Scan Status — 2026-10-30 21:40 CST
+
+Status: PARTIAL_SOURCE_REFRESH_REPAIRED_LOCAL_PUBLIC_SYNC_PENDING; direct OAI/Atom shared-window reconciliation PASS/source-only; full coverage NOT_COVERED.
+
+- 24h: OAI 410 exact/156 unique; Atom 168; shared pairs 169, diff=0.
+- 7d: OAI 6016 exact/2363 unique; Atom 2374; shared pairs 2522, diff=0.
+- 30d: OAI 31398 exact/13096 unique; Atom 13176; shared pairs 13886, diff=0.
+- All cross-window subset gaps=0. Source-only; semantic/reverse/venue/project/code/reproduction/SLO gates remain IN_PROGRESS.
+- Semantic batch: 20 new official abstracts adjudicated (12 current 7d, 8 older 30d); 0 pending, 0 promotions. PAPER_MANIFEST=260; PDF 413 valid/4 pending.
+- Official arXiv /new=5/5 HTTP200; parsed IDs=897; first-party checks=25/25 HTTP200.
+- Robion arXiv:2609.12075 permanent recall seed retained. Public sync pending independent remote SHA verification.
+
 # Scan Status — 2026-10-30 17:47 CST
 
 Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS_SOURCE_ONLY; PUBLIC_SYNC_VERIFIED. The exact shared UTC windows match across official OAI-PMH and Atom; full semantic/evidence coverage is not closed.
