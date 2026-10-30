@@ -1,3 +1,18 @@
+# Physical AI Serving Radar — Latest Checkpoint (2026-10-31 04:21 CST)
+
+Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0421
+
+Status: PUBLIC_SYNC_PENDING — scoped commit/push and independent remote verification pending.
+
+- 24h source coverage: NOT_COVERED (OAI exact 0/API timeout; /new fallback 5/5 HTTP200, 43 leads, 0 exact, 43 outside, 0 unresolved).
+- 7d/30d direct dual-source census: PASS_SOURCE_ONLY; shared-window diffs 0; cross-window subset gaps 0.
+- 148 new unique abstract-level decisions since prior canonical checkpoint; cumulative 612; class counts 0 CORE_SYS / 19 SYS_ALG_BOUNDARY / 69 ALG_INSPIRATION / 60 WATCH_ONLY.
+- 21 official PDF full-text inspections; 19 new validated PDF records; 8 existing records enriched; 432 valid / 0 invalid / 4 pending.
+- 17 SYS_ALG_BOUNDARY full-text reviews; 0 formal promotions; paper manifest 260 unchanged; taxonomy unchanged.
+- Robion arXiv:2609.12075 regression seed PASS.
+- Next: public sync verification, then the next 20 older-than-7d candidates. 120 older-than-7d abstract-level decisions remain.
+- Full coverage remains IN_PROGRESS; no independent reproduction has been run.
+
 # Physical AI Serving Radar — 2026-10-30 21:40 CST
 
 Status: PARTIAL_SOURCE_REFRESH_REPAIRED_LOCAL_PUBLIC_SYNCED_VERIFIED; direct-source reconciliation PASS/source-only; full coverage NOT_COVERED.

@@ -1,3 +1,17 @@
+# Physical AI Serving Radar — Scan Status (2026-10-31 04:21 CST)
+
+Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0421
+
+Status: PUBLIC_SYNC_PENDING — scoped commit/push and independent remote verification pending.
+
+- Source status: PARTIAL_SOURCE_REFRESH_NOT_COVERED.
+- 24h: NOT_COVERED (OAI exact 0/API timeout; official /new HTML fallback 5/5, 43 leads, 0 exact, 43 outside, 0 unresolved).
+- 7d: OAI 5732 exact / 2246 unique; Atom 2221 unique; shared 2372, diff 0; 25 OAI-only outside shared window.
+- 30d: OAI 30947 exact / 12887 unique; Atom 12845 unique; shared 13619, diff 0; 44 OAI-only outside shared window.
+- Semantic: 148 new unique decisions since prior checkpoint; total 612; classes 0/19/69/60; 0 promotions.
+- PDF: 21 full-text inspections; 19 new valid; 8 existing metadata upgrades; 432 valid / 0 invalid / 4 pending.
+- Robion seed PASS. Full coverage IN_PROGRESS.
+
 # Scan Status — 2026-10-30 21:40 CST
 
 Status: PARTIAL_SOURCE_REFRESH_REPAIRED_LOCAL_PUBLIC_SYNCED_VERIFIED; direct OAI/Atom shared-window reconciliation PASS/source-only; full coverage NOT_COVERED.
