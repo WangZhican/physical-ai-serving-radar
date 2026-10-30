@@ -1,6 +1,24 @@
-# Physical AI Serving Radar — 2026-10-30 03:45 CST
+# Physical AI Serving Radar — 2026-10-30 09:00 CST
 
-Status: PUBLIC_SYNC_VERIFIED; heartbeat commit 61c07be491e61473d58d74151825b7654fb697a2 and seal commit dd7dbec4008b9730189d49b65f77022dfea8457e independently verified by ls-remote at 2026-10-30 03:50 CST.
+Status: PUBLIC_SYNC_PENDING; local checkpoint reconciled, public commit/push and independent remote SHA verification pending.
+## Current checkpoint (2026-10-30 09:00 CST)
+
+- 24h: NOT_COVERED (official OAI exact=0; Atom INCOMPLETE/0); latest official arXiv version 2610.37668 at 2026-10-27T17:59:59+00:00. /new and Atom recency routes are discovery-only.
+- 7d: OAI 4504 exact/1809 unique; Atom 1809 unique; shared 1917 ID/category pairs, diff=0; source-only.
+- 30d current refresh failed; last-good dual-source evidence preserved; NOT_COVERED.
+- SYS-first: 13 candidate abstracts adjudicated; 0 promotions; inventory remains 260 classified papers; no taxonomy change.
+- PDFs: 381 valid, 4 pending; one new official Ray Data PDF inspected.
+- Public heartbeat: latest/hourly/2026-10-30-0900.md.
+
+## Current checkpoint (2026-10-30 08:59 CST)
+
+- 24h: NOT_COVERED (official OAI exact=0; Atom INCOMPLETE/0); latest official arXiv version 2610.37668 at 2026-10-27T17:59:59+00:00. /new and Atom recency routes are discovery-only.
+- 7d: OAI 4504 exact/1809 unique; Atom 1809 unique; shared 1917 ID/category pairs, diff=0; source-only.
+- 30d current refresh failed; last-good dual-source evidence preserved; NOT_COVERED.
+- SYS-first: 13 candidate abstracts adjudicated; 0 promotions; inventory remains 260 classified papers; no taxonomy change.
+- PDFs: 381 valid, 4 pending; one new official Ray Data PDF inspected.
+- Public heartbeat: latest/hourly/2026-10-30-0859.md.
+
 
 Remote verification: independent git ls-remote origin refs/heads/master confirmed heartbeat 61c07be491e61473d58d74151825b7654fb697a2, then seal dd7dbec4008b9730189d49b65f77022dfea8457e, at 2026-10-30 03:50 CST.
 

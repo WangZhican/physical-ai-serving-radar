@@ -1,3 +1,27 @@
+# Scan Status — 2026-10-30 09:00 CST
+
+Status: PUBLIC_SYNC_PENDING
+
+- 24h source: NOT_COVERED (OAI exact=0, Atom INCOMPLETE/0).
+- 7d direct census: PASS/source-only, OAI 4504 exact/1809 unique, Atom 1809 unique, shared 1917 ID/category pairs diff=0.
+- 30d current refresh failed; last-good dual-source evidence preserved, no coverage claim.
+- SYS-first semantic batch: 13 adjudicated; 0 formal promotions; 260 classified works unchanged.
+- PDF inventory: 381 valid, 4 pending; one Ray Data PDF added.
+- Public sync pending independent verification; exact remote SHA will be written to canonical state after push and ls-remote.
+- Hourly heartbeat: latest/hourly/2026-10-30-0900.md.
+
+# Scan Status — 2026-10-30 08:59 CST
+
+Status: PUBLIC_SYNC_PENDING
+
+- 24h source: NOT_COVERED (OAI exact=0, Atom INCOMPLETE/0).
+- 7d direct census: PASS/source-only, OAI 4504 exact/1809 unique, Atom 1809 unique, shared 1917 ID/category pairs diff=0.
+- 30d current refresh failed; last-good dual-source evidence preserved, no coverage claim.
+- SYS-first semantic batch: 13 adjudicated; 0 formal promotions; 260 classified works unchanged.
+- PDF inventory: 381 valid, 4 pending; one Ray Data PDF added.
+- Public sync pending independent verification; exact remote SHA will be written to canonical state after push and ls-remote.
+- Hourly heartbeat: latest/hourly/2026-10-30-0859.md.
+
 # Physical AI Serving Radar — 2026-10-30 07:21 CST
 
 Status: `PUBLIC_SYNC_VERIFIED`; heartbeat commit `df611eb55051b507439e75af1665a35acd765c25` independently confirmed by `git ls-remote` at 07:22 CST. This status-seal commit will be independently verified after push.
