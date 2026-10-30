@@ -1,6 +1,6 @@
 # Physical AI Serving Radar — 2026-10-30 09:00 CST
 
-Status: PUBLIC_SYNC_PENDING; local checkpoint reconciled, public commit/push and independent remote SHA verification pending.
+Status: PUBLIC_SYNC_VERIFIED; checkpoint commit 5fdb215926159eef6764925691e0f564b43676e5 independently verified via git ls-remote at 2026-10-30 09:01 CST.
 ## Current checkpoint (2026-10-30 09:00 CST)
 
 - 24h: NOT_COVERED (official OAI exact=0; Atom INCOMPLETE/0); latest official arXiv version 2610.37668 at 2026-10-27T17:59:59+00:00. /new and Atom recency routes are discovery-only.

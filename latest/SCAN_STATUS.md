@@ -1,13 +1,13 @@
 # Scan Status — 2026-10-30 09:00 CST
 
-Status: PUBLIC_SYNC_PENDING
+Status: PUBLIC_SYNC_VERIFIED; checkpoint commit 5fdb215926159eef6764925691e0f564b43676e5 independently verified at 2026-10-30 09:01 CST.
 
 - 24h source: NOT_COVERED (OAI exact=0, Atom INCOMPLETE/0).
 - 7d direct census: PASS/source-only, OAI 4504 exact/1809 unique, Atom 1809 unique, shared 1917 ID/category pairs diff=0.
 - 30d current refresh failed; last-good dual-source evidence preserved, no coverage claim.
 - SYS-first semantic batch: 13 adjudicated; 0 formal promotions; 260 classified works unchanged.
 - PDF inventory: 381 valid, 4 pending; one Ray Data PDF added.
-- Public sync pending independent verification; exact remote SHA will be written to canonical state after push and ls-remote.
+- Public sync verified: refs/heads/master=5fdb215926159eef6764925691e0f564b43676e5; independently checked by git ls-remote at 2026-10-30 09:01 CST.
 - Hourly heartbeat: latest/hourly/2026-10-30-0900.md.
 
 # Scan Status — 2026-10-30 08:59 CST
