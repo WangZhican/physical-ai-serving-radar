@@ -1,12 +1,12 @@
 # Scan Status — 2026-10-30 11:28 CST
 
-Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; local canonical checkpoint repaired; PUBLIC_SYNC_PENDING.
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; local canonical checkpoint repaired; PUBLIC_SYNC_VERIFIED (heartbeat commit db26efe23eaa364fb60291823e2b7baf14b6d411 independently confirmed by git ls-remote at 2026-10-30 11:32 CST).
 
 - 24h OAI direct census PASS (270 exact), Atom unique=54, shared ID/category diff=52; full coverage NOT_COVERED.
 - 7d OAI 5690 exact/2264 unique, Atom 2262 unique, pair diff=2; source-only.
 - 30d OAI 31475 exact/13220 unique, Atom 13072 unique, pair diff=153; source-only.
 - Semantic: 182 unique decisions, 48 new, 0 pending, 0 formal promotions. Manifest remains 260; PDF 388 valid/4 pending.
-- Local heartbeat: latest/hourly/2026-10-30-1128.md; remote master remains pending scoped publication and independent SHA verification.
+- Public heartbeat: latest/hourly/2026-10-30-1128.md; heartbeat commit db26efe23eaa364fb60291823e2b7baf14b6d411 independently verified by git ls-remote at 2026-10-30 11:32 CST.
 
 # Scan Status — 2026-10-30 09:00 CST
 
