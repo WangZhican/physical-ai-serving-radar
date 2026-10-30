@@ -1,6 +1,6 @@
 # Scan Status — 2026-10-30 21:40 CST
 
-Status: PARTIAL_SOURCE_REFRESH_REPAIRED_LOCAL_PUBLIC_SYNC_PENDING; direct OAI/Atom shared-window reconciliation PASS/source-only; full coverage NOT_COVERED.
+Status: PARTIAL_SOURCE_REFRESH_REPAIRED_LOCAL_PUBLIC_SYNCED_VERIFIED; direct OAI/Atom shared-window reconciliation PASS/source-only; full coverage NOT_COVERED.
 
 - 24h: OAI 410 exact/156 unique; Atom 168; shared pairs 169, diff=0.
 - 7d: OAI 6016 exact/2363 unique; Atom 2374; shared pairs 2522, diff=0.
@@ -8,7 +8,7 @@ Status: PARTIAL_SOURCE_REFRESH_REPAIRED_LOCAL_PUBLIC_SYNC_PENDING; direct OAI/At
 - All cross-window subset gaps=0. Source-only; semantic/reverse/venue/project/code/reproduction/SLO gates remain IN_PROGRESS.
 - Semantic batch: 20 new official abstracts adjudicated (12 current 7d, 8 older 30d); 0 pending, 0 promotions. PAPER_MANIFEST=260; PDF 413 valid/4 pending.
 - Official arXiv /new=5/5 HTTP200; parsed IDs=897; first-party checks=25/25 HTTP200.
-- Robion arXiv:2609.12075 permanent recall seed retained. Public sync pending independent remote SHA verification.
+- Robion arXiv:2609.12075 permanent recall seed retained. Public sync independently verified; remote master SHA: 08a76c696e4cd5be566944b8e0ba5941ecbc6233.
 
 # Scan Status — 2026-10-30 17:47 CST
 

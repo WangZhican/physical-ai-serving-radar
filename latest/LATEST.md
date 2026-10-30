@@ -1,6 +1,6 @@
 # Physical AI Serving Radar — 2026-10-30 21:40 CST
 
-Status: PARTIAL_SOURCE_REFRESH_REPAIRED_LOCAL_PUBLIC_SYNC_PENDING; direct-source reconciliation PASS/source-only; full coverage NOT_COVERED.
+Status: PARTIAL_SOURCE_REFRESH_REPAIRED_LOCAL_PUBLIC_SYNCED_VERIFIED; direct-source reconciliation PASS/source-only; full coverage NOT_COVERED.
 
 - 24h: OAI 410 exact/156 unique; Atom 168; shared diff=0.
 - 7d: OAI 6016 exact/2363 unique; Atom 2374; shared diff=0.
@@ -8,7 +8,7 @@ Status: PARTIAL_SOURCE_REFRESH_REPAIRED_LOCAL_PUBLIC_SYNC_PENDING; direct-source
 - All OAI/Atom cross-window subset gaps=0. Full semantic/evidence coverage is not closed.
 - 20 new official abstracts adjudicated (12 current 7d, 8 older 30d); 0 formal promotions; PAPER_MANIFEST=260; PDF 413 valid/4 pending.
 - Robion arXiv:2609.12075 remains the permanent recall regression seed.
-- Public sync pending; local changes are not remote publication.
+- Public sync independently verified; remote master SHA: 08a76c696e4cd5be566944b8e0ba5941ecbc6233.
 
 # Physical AI Serving Radar — 2026-10-30 17:47 CST
 

@@ -2,7 +2,7 @@
 
 - Physical AI Serving watchdog catch-up: direct OAI/Atom 24h/7d/30d shared-window reconciliation PASS/source-only; all cross-window subset gaps=0.
 - 20 new official abstracts adjudicated (12 current 7d, 8 older 30d); 0 promotions; full coverage remains NOT_COVERED.
-- Scoped public sync pending independent remote SHA verification.
+- Scoped public sync independently verified; remote master SHA: 08a76c696e4cd5be566944b8e0ba5941ecbc6233.
 
 ## 2026-10-30 17:47 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; SEMANTIC_NEW42; PDF_VALID400; PUBLIC_SYNC_VERIFIED
 
