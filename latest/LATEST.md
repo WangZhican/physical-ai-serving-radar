@@ -2,7 +2,7 @@
 
 Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0421
 
-Status: PUBLIC_SYNC_VERIFIED — heartbeat commit 9c25aaad909a was pushed and independently verified; publishing the status seal.
+Status: PUBLIC_SYNC_VERIFIED — heartbeat commit 9c25aaad909a and status-seal commit f4547d60f7f1 were pushed and independently verified; the final sync note is included in this commit. The final remote SHA is recorded in canonical state after independent ls-remote.
 
 - 24h source coverage: NOT_COVERED (OAI exact 0/API timeout; /new fallback 5/5 HTTP200, 43 leads, 0 exact, 43 outside, 0 unresolved).
 - 7d/30d direct dual-source census: PASS_SOURCE_ONLY; shared-window diffs 0; cross-window subset gaps 0.
