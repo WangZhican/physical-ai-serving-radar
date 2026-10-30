@@ -1,3 +1,13 @@
+# Scan Status — 2026-10-30 11:28 CST
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; local canonical checkpoint repaired; PUBLIC_SYNC_PENDING.
+
+- 24h OAI direct census PASS (270 exact), Atom unique=54, shared ID/category diff=52; full coverage NOT_COVERED.
+- 7d OAI 5690 exact/2264 unique, Atom 2262 unique, pair diff=2; source-only.
+- 30d OAI 31475 exact/13220 unique, Atom 13072 unique, pair diff=153; source-only.
+- Semantic: 182 unique decisions, 48 new, 0 pending, 0 formal promotions. Manifest remains 260; PDF 388 valid/4 pending.
+- Local heartbeat: latest/hourly/2026-10-30-1128.md; remote master remains pending scoped publication and independent SHA verification.
+
 # Scan Status — 2026-10-30 09:00 CST
 
 Status: PUBLIC_SYNC_VERIFIED; checkpoint commit 5fdb215926159eef6764925691e0f564b43676e5 independently verified at 2026-10-30 09:01 CST.

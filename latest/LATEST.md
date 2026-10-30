@@ -1,3 +1,19 @@
+# Physical AI Serving Radar — 2026-10-30 11:28 CST
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; canonical local checkpoint repaired; PUBLIC_SYNC_PENDING.
+
+- 24h: OAI direct census PASS (270 exact, 104 unique), Atom unique=54, ID/category diff=52; full coverage NOT_COVERED.
+- 7d: OAI 5690 exact/2264 unique; Atom 2262; diff=2; source-only, full closure IN_PROGRESS.
+- 30d: OAI 31475 exact/13220 unique; Atom 13072; diff=153; source-only, full closure IN_PROGRESS.
+- Candidate evidence: 48 abstracts adjudicated; 182 unique decisions; 0 pending; 0 formal promotions. CORE_SYS=12, SYS_ALG_BOUNDARY=10, ALG_INSPIRATION=12, WATCH_ONLY=14.
+- Inventory: PAPER_MANIFEST 260; PDF 388 valid, 4 pending.
+- Remote master SHA: df91d0f3c5cf23c16052bc0cc3f29649a49d785d; local heartbeat latest/hourly/2026-10-30-1128.md; PUBLIC_SYNC_PENDING.
+- Resume: exact source reconciliation, next older-30d abstract batch, full-text/code/SLO gates, 4 historical PDFs.
+
+Latest hourly report: [2026-10-30-1128.md](hourly/2026-10-30-1128.md)
+
+---
+
 # Physical AI Serving Radar — 2026-10-30 09:00 CST
 
 Status: PUBLIC_SYNC_VERIFIED; checkpoint commit 5fdb215926159eef6764925691e0f564b43676e5 independently verified via git ls-remote at 2026-10-30 09:01 CST.
