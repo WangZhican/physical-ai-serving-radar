@@ -1,3 +1,7 @@
+# Physical AI Serving Radar — 2026-10-30 11:51 CST
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; OAI/Atom 24h/7d/30d direct census completed but exact mismatches remain; arXiv:2610.35309 PDF/repository/test inspection completed; no formal promotion. PUBLIC_SYNC_PENDING.
+
 # Physical AI Serving Radar — 2026-10-30 11:28 CST
 
 Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; canonical local checkpoint repaired; PUBLIC_SYNC_VERIFIED (heartbeat commit db26efe23eaa364fb60291823e2b7baf14b6d411 independently confirmed by git ls-remote at 2026-10-30 11:32 CST).

@@ -1,12 +1,13 @@
-# Scan Status — 2026-10-30 11:28 CST
+# Scan Status — 2026-10-30 11:51 CST
 
-Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; local canonical checkpoint repaired; PUBLIC_SYNC_VERIFIED (heartbeat commit db26efe23eaa364fb60291823e2b7baf14b6d411 independently confirmed by git ls-remote at 2026-10-30 11:32 CST).
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; OAI/Atom 24h/7d/30d direct census PASS but exact mismatches remain; rolling windows NOT_COVERED. PUBLIC_SYNC_PENDING.
 
-- 24h OAI direct census PASS (270 exact), Atom unique=54, shared ID/category diff=52; full coverage NOT_COVERED.
-- 7d OAI 5690 exact/2264 unique, Atom 2262 unique, pair diff=2; source-only.
-- 30d OAI 31475 exact/13220 unique, Atom 13072 unique, pair diff=153; source-only.
-- Semantic: 182 unique decisions, 48 new, 0 pending, 0 formal promotions. Manifest remains 260; PDF 388 valid/4 pending.
-- Public heartbeat: latest/hourly/2026-10-30-1128.md; heartbeat commit db26efe23eaa364fb60291823e2b7baf14b6d411 independently verified by git ls-remote at 2026-10-30 11:32 CST.
+- 24h OAI exact=244/92 IDs, Atom unique=59, shared diff=33; OAI 24h→7d gap=25.
+- 7d OAI exact=5677/2259 IDs, Atom unique=2256, shared diff=2; NOT_COVERED.
+- 30d OAI exact=31437/13202 IDs, Atom unique=13163, shared diff=39; NOT_COVERED.
+- CrossInfer arXiv:2610.35309: official PDF/full-text and public repo inspected; focused tests 191 passed/5 skipped; no formal promotion.
+- PAPER_MANIFEST=260; PDF manifest=389 valid/0 invalid/4 pending; one candidate PDF added.
+- Public heartbeat: latest/hourly/2026-10-30-1151.md; PUBLIC_SYNC_PENDING.
 
 # Scan Status — 2026-10-30 09:00 CST
 
