@@ -1,4 +1,4 @@
-## 2026-10-30 17:47 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; SEMANTIC_NEW42; PDF_VALID400; PUBLIC_SYNC_PENDING
+## 2026-10-30 17:47 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; SEMANTIC_NEW42; PDF_VALID400; PUBLIC_SYNC_VERIFIED
 
 Official OAI-PMH and Atom direct-category census reconciled on exact shared UTC windows for 24h/7d/30d. This is a substantive SYS-first checkpoint, not full coverage closure.
 
@@ -10,7 +10,7 @@ Official OAI-PMH and Atom direct-category census reconciled on exact shared UTC 
 - Robion arXiv:2609.12075 remains the permanent recall regression seed.
 - Public sync pending until commit/push and independent remote SHA verification.
 
-## 2026-10-30 17:14 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; SEMANTIC_NEW12; PDF_VALID394; PUBLIC_SYNC_PENDING
+## 2026-10-30 17:14 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; SEMANTIC_NEW12; PDF_VALID394; PUBLIC_SYNC_VERIFIED
 
 Official OAI-PMH and Atom direct-category census reconciled for 24h/7d/30d with zero shared ID/category mismatches and zero cross-window subset gaps. This is a partial source/evidence checkpoint, not full coverage closure.
 

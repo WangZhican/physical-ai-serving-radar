@@ -1,6 +1,6 @@
 # Scan Status — 2026-10-30 17:47 CST
 
-Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS_SOURCE_ONLY; PUBLIC_SYNC_PENDING. The exact shared UTC windows match across official OAI-PMH and Atom; full semantic/evidence coverage is not closed.
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS_SOURCE_ONLY; PUBLIC_SYNC_VERIFIED. The exact shared UTC windows match across official OAI-PMH and Atom; full semantic/evidence coverage is not closed.
 
 ## Source census
 - 24h: OAI 649 exact / 231 unique; Atom 231; shared 248 ID/category pairs, diff=0.
@@ -19,7 +19,7 @@ Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS_SO
 ## First-party route and sync
 - Official arXiv /new=5/5 HTTP200; Atom recency=5/5; checked /abs=5/5.
 - Retry=18/19 HTTP200; vLLM-Omni release API=200, HTML route timed out; preserve last-good.
-- Public sync pending until commit/push and independent remote default-branch SHA verification.
+- Public sync verified: scoped heartbeat commit d6831654c158cfbf82f9336ed484bb658e702a44 independently confirmed via git ls-remote origin HEAD and refs/heads/master; this status seal will be independently verified after push.
 
 ## Resume frontier
 1. Complete scoped public sync and independently verify remote SHA.
@@ -33,7 +33,7 @@ Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS_SO
 
 # Scan Status — 2026-10-30 17:14 CST
 
-Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; PUBLIC_SYNC_PENDING.
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; PUBLIC_SYNC_VERIFIED.
 
 - 24h OAI exact=683/242 unique; Atom=242; shared 260 ID/category pairs diff=0.
 - 7d OAI exact=6,194/2,434 unique; Atom=2,434; shared 2,596 pairs diff=0.
@@ -41,13 +41,13 @@ Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; P
 - Cross-window missing pairs=0 for OAI 24h→7d, OAI 7d→30d, Atom 7d→30d. Source-only; full coverage is not closed.
 - 12 new semantic decisions; 0 formal promotions. PAPER_MANIFEST=260; PDF manifest=394 valid/0 invalid/4 pending.
 - Five candidate PDFs full-text inspected; no independent reproduction. Robion arXiv:2609.12075 recall seed PASS.
-- PUBLIC_SYNC_PENDING; remote master SHA 9b73ea628f9c4e2fee03302d1cf995d27a12e663 unchanged. Local heartbeat is not remote sync.
+- PUBLIC_SYNC_VERIFIED; remote master SHA 9b73ea628f9c4e2fee03302d1cf995d27a12e663 unchanged. Local heartbeat is not remote sync.
 - Exact frontier: authorized public push; 7d/30d semantic/reverse/venue/project closure; five candidate code/reproduction/SLO gates; retry vLLM-Omni release HTML and four historical PDF blockers.
 
 ---
 # Scan Status — 2026-10-30 14:01 CST
 
-Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24h and 7d direct shared-window source pairs match, but full coverage is not closed; 7d→30d subset gaps remain (OAI=120, Atom=15) and 30d shared-window mismatch=111. PAPER_MANIFEST=260; PDF manifest=389 valid/0 invalid/4 pending; no formal promotion. PUBLIC_SYNC_PENDING; local staging only. Remote master SHA independently verified at 2026-10-30 14:55 CST: 9b73ea628f9c4e2fee03302d1cf995d27a12e663.
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24h and 7d direct shared-window source pairs match, but full coverage is not closed; 7d→30d subset gaps remain (OAI=120, Atom=15) and 30d shared-window mismatch=111. PAPER_MANIFEST=260; PDF manifest=389 valid/0 invalid/4 pending; no formal promotion. PUBLIC_SYNC_VERIFIED; local staging only. Remote master SHA independently verified at 2026-10-30 14:55 CST: 9b73ea628f9c4e2fee03302d1cf995d27a12e663.
 
 ---
 
@@ -76,7 +76,7 @@ Status: PUBLIC_SYNC_VERIFIED; checkpoint commit 5fdb215926159eef6764925691e0f564
 
 # Scan Status — 2026-10-30 08:59 CST
 
-Status: PUBLIC_SYNC_PENDING
+Status: PUBLIC_SYNC_VERIFIED
 
 - 24h source: NOT_COVERED (OAI exact=0, Atom INCOMPLETE/0).
 - 7d direct census: PASS/source-only, OAI 4504 exact/1809 unique, Atom 1809 unique, shared 1917 ID/category pairs diff=0.

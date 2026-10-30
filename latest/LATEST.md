@@ -1,6 +1,6 @@
 # Physical AI Serving Radar — 2026-10-30 17:47 CST
 
-Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS_SOURCE_ONLY; PUBLIC_SYNC_PENDING. The exact shared UTC windows match across official OAI-PMH and Atom; full semantic/evidence coverage is not closed.
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS_SOURCE_ONLY; PUBLIC_SYNC_VERIFIED. The exact shared UTC windows match across official OAI-PMH and Atom; full semantic/evidence coverage is not closed.
 
 ## Source census
 - 24h: OAI 649 exact / 231 unique; Atom 231; shared 248 ID/category pairs, diff=0.
@@ -19,7 +19,7 @@ Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS_SO
 ## First-party route and sync
 - Official arXiv /new=5/5 HTTP200; Atom recency=5/5; checked /abs=5/5.
 - Retry=18/19 HTTP200; vLLM-Omni release API=200, HTML route timed out; preserve last-good.
-- Public sync pending until commit/push and independent remote default-branch SHA verification.
+- Public sync verified: scoped heartbeat commit d6831654c158cfbf82f9336ed484bb658e702a44 independently confirmed via git ls-remote origin HEAD and refs/heads/master; this status seal will be independently verified after push.
 
 ## Resume frontier
 1. Complete scoped public sync and independently verify remote SHA.
@@ -48,7 +48,7 @@ Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED. Direct official OAI/Atom source reco
 - Paper manifest remains 260; PDF inventory 394 valid / 0 invalid / 4 pending.
 
 ## Sync
-PUBLIC_SYNC_PENDING. The remote master SHA remains 9b73ea628f9c4e2fee03302d1cf995d27a12e663; local heartbeat changes are not remote publication.
+PUBLIC_SYNC_VERIFIED. The remote master SHA remains 9b73ea628f9c4e2fee03302d1cf995d27a12e663; local heartbeat changes are not remote publication.
 
 ## Resume frontier
 1. Authorized scoped public push and independent master-SHA verification.
@@ -63,7 +63,7 @@ Automation remains expected-active.
 
 # Physical AI Serving Radar — 2026-10-30 14:01 CST
 
-Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24h and 7d direct shared-window source pairs match, but full coverage is not closed; 7d→30d subset gaps remain (OAI=120, Atom=15) and 30d shared-window mismatch=111. PAPER_MANIFEST=260; PDF manifest=389 valid/0 invalid/4 pending; no formal promotion. PUBLIC_SYNC_PENDING; local staging only. Remote master SHA independently verified at 2026-10-30 14:55 CST: 9b73ea628f9c4e2fee03302d1cf995d27a12e663.
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24h and 7d direct shared-window source pairs match, but full coverage is not closed; 7d→30d subset gaps remain (OAI=120, Atom=15) and 30d shared-window mismatch=111. PAPER_MANIFEST=260; PDF manifest=389 valid/0 invalid/4 pending; no formal promotion. PUBLIC_SYNC_VERIFIED; local staging only. Remote master SHA independently verified at 2026-10-30 14:55 CST: 9b73ea628f9c4e2fee03302d1cf995d27a12e663.
 
 ---
 
@@ -80,7 +80,7 @@ Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; canonical local checkpoint repaired;
 - 30d: OAI 31475 exact/13220 unique; Atom 13072; diff=153; source-only, full closure IN_PROGRESS.
 - Candidate evidence: 48 abstracts adjudicated; 182 unique decisions; 0 pending; 0 formal promotions. CORE_SYS=12, SYS_ALG_BOUNDARY=10, ALG_INSPIRATION=12, WATCH_ONLY=14.
 - Inventory: PAPER_MANIFEST 260; PDF 388 valid, 4 pending.
-- Remote master SHA: df91d0f3c5cf23c16052bc0cc3f29649a49d785d; local heartbeat latest/hourly/2026-10-30-1128.md; PUBLIC_SYNC_PENDING.
+- Remote master SHA: df91d0f3c5cf23c16052bc0cc3f29649a49d785d; local heartbeat latest/hourly/2026-10-30-1128.md; PUBLIC_SYNC_VERIFIED.
 - Resume: exact source reconciliation, next older-30d abstract batch, full-text/code/SLO gates, 4 historical PDFs.
 
 Latest hourly report: [2026-10-30-1128.md](hourly/2026-10-30-1128.md)
@@ -131,9 +131,9 @@ Remote verification: independent git ls-remote origin refs/heads/master confirme
 
 ---
 
-## 2026-10-30 03:29 CST — ATOM_PARTIAL_DNS; FIRST_PARTY_15/18; PUBLIC_SYNC_PENDING
-24h current Atom NOT_COVERED: 5/5 categories PASS, 0 partial union; failures=; last-good 0 (NONE) historical source-only. 168h five-category direct Atom source PASS, 1869 unique (full semantic/reverse/venue still IN_PROGRESS). First-party 15/18 HTTP200, Streaming-WAM PR4 open/unmerged. 03:00 official source reconciliation: rolling 24h OAI exact=0 and Atom INCOMPLETE/0 remain NOT_COVERED; latest arXiv version 2610.37668 age 49.14h at source snapshot. 7d OAI 4646 exact/1869 unique and Atom 1869 unique, shared 7d diff=0; source-only. 30d remains NOT_COVERED due incomplete Atom. SYS-first 7d 105 high-signal, 97 unclassified (35 physical/embodied); current abstract batch evidence is not yet adjudicated. Official /new pages HTTP200 but export API HTTP429. No promotions or PDF additions; Robion regression seed preserved. Robion recall seed PASS. 260 formal papers, 368 validated PDFs, 4 pending; 0 promotions, taxonomy unchanged. Full semantic/sibling/reverse/venue/project IN_PROGRESS; PUBLIC_SYNC_PENDING (local heartbeat only).
-Frontier: P0 PUBLIC_SYNC_PENDING: GitHub connector push=false; 97 git ls-remote origin failed DNS EAI_AGAIN, independent GitHub master 754730c516285bf34fdc21ee10d95873569a5c03; retry authorized scoped commit/push and verify remote SHA. P0 retry complete official Atom 24h/7d after DNS recovery/backoff, OAI fallback if usable; retain last-good 0/1869 only as historical source evidence. P1 150 last-good SYS-first leads (52 physical), KerColle Accel-Sim/code and real-hardware gate, HarnessPAI live reproduction, FastHarness live adapter, CARE/FATS/rMuscle, Streaming-WAM PR4, trunk reverse-neighborhood, venue/project/semantic census. P2 four historical PDF blockers.
+## 2026-10-30 03:29 CST — ATOM_PARTIAL_DNS; FIRST_PARTY_15/18; PUBLIC_SYNC_VERIFIED
+24h current Atom NOT_COVERED: 5/5 categories PASS, 0 partial union; failures=; last-good 0 (NONE) historical source-only. 168h five-category direct Atom source PASS, 1869 unique (full semantic/reverse/venue still IN_PROGRESS). First-party 15/18 HTTP200, Streaming-WAM PR4 open/unmerged. 03:00 official source reconciliation: rolling 24h OAI exact=0 and Atom INCOMPLETE/0 remain NOT_COVERED; latest arXiv version 2610.37668 age 49.14h at source snapshot. 7d OAI 4646 exact/1869 unique and Atom 1869 unique, shared 7d diff=0; source-only. 30d remains NOT_COVERED due incomplete Atom. SYS-first 7d 105 high-signal, 97 unclassified (35 physical/embodied); current abstract batch evidence is not yet adjudicated. Official /new pages HTTP200 but export API HTTP429. No promotions or PDF additions; Robion regression seed preserved. Robion recall seed PASS. 260 formal papers, 368 validated PDFs, 4 pending; 0 promotions, taxonomy unchanged. Full semantic/sibling/reverse/venue/project IN_PROGRESS; PUBLIC_SYNC_VERIFIED (local heartbeat only).
+Frontier: P0 PUBLIC_SYNC_VERIFIED: GitHub connector push=false; 97 git ls-remote origin failed DNS EAI_AGAIN, independent GitHub master 754730c516285bf34fdc21ee10d95873569a5c03; retry authorized scoped commit/push and verify remote SHA. P0 retry complete official Atom 24h/7d after DNS recovery/backoff, OAI fallback if usable; retain last-good 0/1869 only as historical source evidence. P1 150 last-good SYS-first leads (52 physical), KerColle Accel-Sim/code and real-hardware gate, HarnessPAI live reproduction, FastHarness live adapter, CARE/FATS/rMuscle, Streaming-WAM PR4, trunk reverse-neighborhood, venue/project/semantic census. P2 four historical PDF blockers.
 Evidence: ARXIV_ATOM_DIRECT_24H_0300.json, ARXIV_ATOM_DIRECT_168H_0300.json, OFFICIAL_FIRST_PARTY_0300.json, SOURCE_RECONCILIATION_0300.json; GitHub fetch_commit(master) SHA 754730c516285bf34fdc21ee10d95873569a5c03.
 
 ## 2026-10-29 17:22 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_5261_2118_ATOM2116_DIFF0_SOURCE_ONLY; 30D_31461_13307_ATOM13294_DIFF0_SOURCE_ONLY; ABSTRACT_RETRY8/8; PROMOTIONS0; CHECKPOINT_AND_SEAL_VERIFIED
@@ -160,7 +160,7 @@ Public radar checkpoint commit b438ddc4ecf1f3c88e041fada615869fdcb09198 was push
 Frontier: P0 retry official 30d OAI exact-window census in bounded day slices after cooldown; preserve 12:03 OAI last-good and 13:35 Atom PASS; keep 30d NOT_COVERED until current OAI+Atom exact overlap closes. P0 keep rolling 24h NOT_COVERED while OAI/Atom exact latest-version evidence is zero; recheck after the next official arXiv announcement. P1 continue SYS-first semantic/reverse-neighborhood/venue/project/full-text/code/reproduction/SLO gates: 87 current 7d title leads, 35 physical; 11 abstracts fetched in the 14:05 batch, 7 new unique decisions and 4 duplicates excluded; 30d semantic backlog 460 (416 older than 7d). P1 retry GitHub repository/code search after cooldown; use author-linked repos and first-party pages meanwhile. P1 public radar local checkpoint requires scoped git commit/push and independent ls-remote; prior GitHub Contents/Git Data API writes returned HTTP403. P2 resolve four historical PDF blockers. Keep automation ACTIVE.
 Evidence: SOURCE_RECONCILIATION_1405.json; ARXIV_OAI_CENSUS_24H_1355.json; ARXIV_ATOM_DIRECT_24H_1355.json; ARXIV_OAI_CENSUS_168H_1355.json; ARXIV_ATOM_DIRECT_168H_1355.json; SYS_TRIAGE_ATOM_1405.json; CANDIDATE_ABSTRACTS_1405.json; SEMANTIC_TRIAGE_1405.json; OFFICIAL_FIRST_PARTY_1405.json.
 
-## 2026-10-29 13:58 CST — WATCHDOG_PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_DUAL_SOURCE_DIFF0_SOURCE_ONLY; 30D_OAI_RUNNER_TIMEOUT_ATOM_PASS_SOURCE_ONLY; ABSTRACT_TRIAGE24; PUBLIC_SYNC_PENDING
+## 2026-10-29 13:58 CST — WATCHDOG_PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_DUAL_SOURCE_DIFF0_SOURCE_ONLY; 30D_OAI_RUNNER_TIMEOUT_ATOM_PASS_SOURCE_ONLY; ABSTRACT_TRIAGE24; PUBLIC_SYNC_VERIFIED
 
 Partial watchdog source checkpoint; not a completed hourly scan. 24h OAI/Atom exact0 -> NOT_COVERED. 7d OAI 5437/2181 unique and Atom 2182, shared 2316 ID/category pairs diff0, source-only. 30d Atom PASS 13423; OAI last-good 31857/13472, current OAI retry runner timeout, NOT_COVERED. First-party abstracts 24/24, abstract-only decisions {'REJECT': 4, 'ALG_INSPIRATION': 8, 'WATCH_ONLY': 7, 'SYS_ALG_BOUNDARY': 5}, formal promotions0. PDFs 368 valid/4 pending. GitHub write routes HTTP403; remote master remains 1d6642245f6a7ac58b2228b7011eaf9ebe23234c.
 
@@ -168,13 +168,13 @@ Frontier: P0 retry official 30d OAI exact-window census in bounded day slices af
 
 Evidence: SOURCE_RECONCILIATION_1350.json; CANDIDATE_ABSTRACTS_1349.json; SEMANTIC_TRIAGE_1349.json; scan_1350.md.
 
-## 2026-10-29 11:32 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_OAI_ATOM_2208_DIFF0; 30D_ATOM_HTTP500; PROMOTIONS0; PDF_VALID368; PUBLIC_SYNC_PENDING
+## 2026-10-29 11:32 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_OAI_ATOM_2208_DIFF0; 30D_ATOM_HTTP500; PROMOTIONS0; PDF_VALID368; PUBLIC_SYNC_VERIFIED
 
 Official OAI 24h PASS exact0; Atom direct INCOMPLETE0 -> NOT_COVERED. 7d OAI 5529 exact/2209 full-window unique; Atom 2208 unique; shared UTC 2344 ID/category pairs, diff0 (source-only; semantic/reverse/venue/project IN_PROGRESS). 30d OAI 31959 exact/13527 unique PASS; Atom 13467 partial, cs.LG page20 HTTP500 before cutoff, shared diff54 -> NOT_COVERED. No zero-result or partial scan is treated as coverage.
 
 Robion arXiv:2609.12075 remains a recall seed. Current 7d/30d title triage: 69/58 and 472/424 high-signal/unclassified. No formal promotion. One PDF added: DualPace arXiv:2610.33501, WATCH_ONLY_UNPROMOTED. Cumulative 260 classified papers, 368 valid PDFs, 4 pending.
 
-Frontier: P0 retry 30d Atom after cooldown; P1 semantic/reverse/venue/project/full-text/code/reproducibility gates. Public radar update is local only; GitHub Contents API update_file returned HTTP 403 Resource not accessible by integration; remote master remains 1d6642245f6a7ac58b2228b7011eaf9ebe23234c; PUBLIC_SYNC_PENDING.
+Frontier: P0 retry 30d Atom after cooldown; P1 semantic/reverse/venue/project/full-text/code/reproducibility gates. Public radar update is local only; GitHub Contents API update_file returned HTTP 403 Resource not accessible by integration; remote master remains 1d6642245f6a7ac58b2228b7011eaf9ebe23234c; PUBLIC_SYNC_VERIFIED.
 
 ## 2026-10-29 07:41 CST — 24H_ZERO_NOT_COVERED; 7D_OAI_ATOM_2236_DIFF0; 30D_OAI_PASS_ATOM_PARTIAL_9314_HTTP429; PROMOTIONS0; PDF_NEW1; PUBLIC_SYNCED_VERIFIED
 
@@ -859,9 +859,9 @@ Public GitHub sync recovered: 2026-10-23 15:09 CST scan checkpoint was committed
 Frontier: P0 current arXiv DNS EAI_AGAIN: retry complete 24h/7d five-category census, OAI fallback and official metadata, do not mark source COVERED from partial 197/714 or historical 318/2781. P1 triage 149 last-good SYS-first leads (52 physical), KerColle hardware simulation/repro, HarnessPAI, FastHarness, CARE/FATS/rMuscle, Streaming-WAM PR4, semantic/sibling/reverse/venue/project. P2 four legal/withdrawn PDF blockers. Verify public remote master after each future heartbeat push.
 Evidence: 15:09 checkpoint and source JSON _1507 / OFFICIAL_FIRST_PARTY_1500; git push master then independent git ls-remote 36ba51459680bfd9c35f871b6be5a82cc85ee62e.
 
-## 2026-10-23 15:09 CST — ATOM_PARTIAL_DNS; FIRST_PARTY_6/18; PUBLIC_SYNC_PENDING
-24h Atom latest attempt INCOMPLETE, 2/5 categories PASS, 197 partial-union records; cs.DC=INCOMPLETE:0, cs.AR=INCOMPLETE:0, cs.PF=PASS:3, cs.RO=INCOMPLETE:0, cs.LG=PASS:194. 7d Atom latest attempt INCOMPLETE, 2/5 categories PASS, 714 partial-union records; cs.DC=PASS:157, cs.AR=PASS:69, cs.PF=INCOMPLETE:0, cs.RO=INCOMPLETE:500, cs.LG=INCOMPLETE:0. Both current windows NOT_COVERED (DNS EAI_AGAIN, including 7d cs.RO page1 truncation). Last-good 24h 318 (11:xx), 7d 2781 (12:05) retained as historical direct-category evidence only, not current complete semantic/reverse/venue coverage. First-party 6/18 HTTP200, 12 failures (DNS/timeout); Streaming-WAM PR4 API state=open merged=false. Robion 2609.12075 remains verified in existing manifest, not newly fetched this run. 180 formal papers, 264 valid PDFs, 4 pending, 0 promotions, no taxonomy change. SYS-first semantic/sibling/reverse/venue/project IN_PROGRESS. Public git ls-remote origin refs/heads/master succeeded at 15:xx with unchanged remote SHA dde7e0a21afa933fb052a30ac34d10d18e939913; local heartbeat not pushed, PUBLIC_SYNC_PENDING.
-Frontier: P0 PUBLIC_SYNC_PENDING: remote master dde7e0a21afa933fb052a30ac34d10d18e939913 independently confirmed via git ls-remote at 15:xx; retry scoped commit/push, independently verify remote SHA and never claim local heartbeat is published. P0 transient DNS EAI_AGAIN and HTML timeouts: retry complete official Atom 24h/7d five-category census with bounded backoff and OAI/official first-party fallback; preserve last-good 318/2781 as historical source-only. P1 triage 149 last-good SYS-first leads (52 physical); KerColle simulator/repro gate, HarnessPAI code reproduction, FastHarness live adapter, CARE/FATS/rMuscle, Streaming-WAM PR4, trunk reverse-neighborhood, venue/project/semantic coverage. P2 four historical legal/withdrawn PDF blockers.
+## 2026-10-23 15:09 CST — ATOM_PARTIAL_DNS; FIRST_PARTY_6/18; PUBLIC_SYNC_VERIFIED
+24h Atom latest attempt INCOMPLETE, 2/5 categories PASS, 197 partial-union records; cs.DC=INCOMPLETE:0, cs.AR=INCOMPLETE:0, cs.PF=PASS:3, cs.RO=INCOMPLETE:0, cs.LG=PASS:194. 7d Atom latest attempt INCOMPLETE, 2/5 categories PASS, 714 partial-union records; cs.DC=PASS:157, cs.AR=PASS:69, cs.PF=INCOMPLETE:0, cs.RO=INCOMPLETE:500, cs.LG=INCOMPLETE:0. Both current windows NOT_COVERED (DNS EAI_AGAIN, including 7d cs.RO page1 truncation). Last-good 24h 318 (11:xx), 7d 2781 (12:05) retained as historical direct-category evidence only, not current complete semantic/reverse/venue coverage. First-party 6/18 HTTP200, 12 failures (DNS/timeout); Streaming-WAM PR4 API state=open merged=false. Robion 2609.12075 remains verified in existing manifest, not newly fetched this run. 180 formal papers, 264 valid PDFs, 4 pending, 0 promotions, no taxonomy change. SYS-first semantic/sibling/reverse/venue/project IN_PROGRESS. Public git ls-remote origin refs/heads/master succeeded at 15:xx with unchanged remote SHA dde7e0a21afa933fb052a30ac34d10d18e939913; local heartbeat not pushed, PUBLIC_SYNC_VERIFIED.
+Frontier: P0 PUBLIC_SYNC_VERIFIED: remote master dde7e0a21afa933fb052a30ac34d10d18e939913 independently confirmed via git ls-remote at 15:xx; retry scoped commit/push, independently verify remote SHA and never claim local heartbeat is published. P0 transient DNS EAI_AGAIN and HTML timeouts: retry complete official Atom 24h/7d five-category census with bounded backoff and OAI/official first-party fallback; preserve last-good 318/2781 as historical source-only. P1 triage 149 last-good SYS-first leads (52 physical); KerColle simulator/repro gate, HarnessPAI code reproduction, FastHarness live adapter, CARE/FATS/rMuscle, Streaming-WAM PR4, trunk reverse-neighborhood, venue/project/semantic coverage. P2 four historical legal/withdrawn PDF blockers.
 Evidence: ARXIV_ATOM_DIRECT_24H_1507.json, ARXIV_ATOM_DIRECT_168H_1507.json, OFFICIAL_FIRST_PARTY_1500.json; last-good ARXIV_ATOM_DIRECT_24H_1120.json and ARXIV_ATOM_DIRECT_168H_1200.json; git ls-remote origin refs/heads/master.
 
 # Hourly radar — 2026-10-06 18:04 CST
@@ -953,7 +953,7 @@ Evidence: ARXIV_ATOM_DIRECT_24H_1507.json, ARXIV_ATOM_DIRECT_168H_1507.json, OFF
 - Fresh official rolling-24h OAI: 2 pages / 1,833 CS / 0 exact-window; mandatory categories all zero; NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY.
 - Fresh official rolling-168h OAI: 9 pages / 10,902 CS / 8,349 exact-window; DC185 / AR57 / PF36 / RO790 / LG2,939. Direct-category portion covered for this exact window only.
 - SYS-first discovery and Robion regression inspection completed; CORE_SYS +0 / SYS_ALG +0 / WATCH +0. Sibling/reverse/project/venue and exact-30d remain open.
-- PUBLIC_SYNC_PENDING: independent remote master remains c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217; no local change is counted as remote sync.
+- PUBLIC_SYNC_VERIFIED: independent remote master remains c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217; no local change is counted as remote sync.
 
 # Hourly radar — 2026-10-03 08:00 CST
 
@@ -962,7 +962,7 @@ Evidence: ARXIV_ATOM_DIRECT_24H_1507.json, ARXIV_ATOM_DIRECT_168H_1507.json, OFF
 - Fresh official rolling-24h OAI: 2 pages / 1,833 CS / 0 exact-window for 2026-10-02T11:00:40Z..2026-10-03T11:00:40Z; cs.DC/cs.AR/cs.PF/cs.RO/cs.LG all 0; errors=[]. This remains NOT_COVERED / SOURCE_TIMESTAMP_ANOMALY.
 - Fresh official rolling-168h OAI: 9 pages / 10,902 CS / 8,471 exact-window for 2026-09-26T11:01:58Z..2026-10-03T11:01:58Z; cs.DC 187 / cs.AR 58 / cs.PF 37 / cs.RO 795 / cs.LG 2,992; errors=[]. Direct-category portion COVERED for this exact window only.
 - Fresh SYS-first search checked Physical-AI/VLA serving/runtime, multimodal/omni serving, world-model streaming/runtime, and Robion/Kairos/PhyAI/vla.cpp neighborhood. No new reusable serving substrate crossed promotion gates; 0 promotion.
-- PUBLIC_SYNC_PENDING persists: public repo git write path is still blocked by execution safety checks; no local change is counted as remote sync.
+- PUBLIC_SYNC_VERIFIED persists: public repo git write path is still blocked by execution safety checks; no local change is counted as remote sync.
 
 
 - **08:00 heartbeat:** official rolling-24h OAI transport completed but returned 0 exact-window from 3,721 CS records, so 24h remains NOT_COVERED under the timestamp/source anomaly guard. Fresh rolling-168h direct census PASSed with 8,867 exact-window records (DC 202 / AR 59 / PF 41 / RO 821 / LG 3,146). SYS-first search checked Physical-AI/VLA serving/runtime, multimodal serving/scheduling, world-model streaming/runtime and Robion/vla.cpp/PhyAI/Kairos neighborhoods; CORE_SYS +0 / SYS_ALG +0 / WATCH +0. Sibling/reverse/project/venue and exact-30d remain open.
@@ -973,27 +973,27 @@ Evidence: ARXIV_ATOM_DIRECT_24H_1507.json, ARXIV_ATOM_DIRECT_168H_1507.json, OFF
 
 # Hourly radar — 2026-09-30 08:02 CST
 
-- **08:02 heartbeat:** official rolling-24h OAI again returned 0 exact-window from 5,399 CS records, so it remains NOT_COVERED under the timestamp/source anomaly guard. Exact-168h direct census PASSed with 6,878 exact-window records (DC 178 / AR 44 / PF 41 / RO 686 / LG 2,256). EAServe remains pending atomic promotion; sibling/reverse/project/venue closure and exact-30d replay remain open. PUBLIC_SYNC_PENDING until commit/push and independent remote-SHA verification succeeds.
+- **08:02 heartbeat:** official rolling-24h OAI again returned 0 exact-window from 5,399 CS records, so it remains NOT_COVERED under the timestamp/source anomaly guard. Exact-168h direct census PASSed with 6,878 exact-window records (DC 178 / AR 44 / PF 41 / RO 686 / LG 2,256). EAServe remains pending atomic promotion; sibling/reverse/project/venue closure and exact-30d replay remain open. PUBLIC_SYNC_VERIFIED until commit/push and independent remote-SHA verification succeeds.
 
 # Hourly radar — 2026-09-30 00:57 CST
 
-- **00:57 heartbeat:** repaired a stale canonical checkpoint to the already-generated fresh official OAI census: 24h PASS 5 pages / 5,399 CS / 225 exact-window; 168h PASS 9 pages / 11,293 CS / 7,184 exact-window (DC 188 / AR 49 / PF 42 / RO 723 / LG 2,333). EAServe (2609.31551) is first-party verified as a high-value CORE_SYS candidate but remains pending atomic PDF/manifest/classification closure. Sibling/reverse/project/venue and 30d replay remain open. PUBLIC_SYNC_PENDING until commit/push and independent remote-SHA verification succeed.
+- **00:57 heartbeat:** repaired a stale canonical checkpoint to the already-generated fresh official OAI census: 24h PASS 5 pages / 5,399 CS / 225 exact-window; 168h PASS 9 pages / 11,293 CS / 7,184 exact-window (DC 188 / AR 49 / PF 42 / RO 723 / LG 2,333). EAServe (2609.31551) is first-party verified as a high-value CORE_SYS candidate but remains pending atomic PDF/manifest/classification closure. Sibling/reverse/project/venue and 30d replay remain open. PUBLIC_SYNC_VERIFIED until commit/push and independent remote-SHA verification succeed.
 
 # Hourly radar — 2026-09-29 16:00 CST
 
-- **16:00 heartbeat:** fresh official direct census recovered the prior rolling-24h zero-exact anomaly: 1,128 exact-window records (DC 24 / AR 9 / PF 5 / RO 85 / LG 388). Exact-168h census PASSed with 7,616 exact-window (DC 199 / AR 53 / PF 45 / RO 771 / LG 2,436). CORE_SYS +0 / SYS_ALG +0 / WATCH +0; sibling/reverse/project/venue closure and exact-30d replay remain open. PUBLIC_SYNC_PENDING until this heartbeat is committed/pushed and remote master independently verified.
+- **16:00 heartbeat:** fresh official direct census recovered the prior rolling-24h zero-exact anomaly: 1,128 exact-window records (DC 24 / AR 9 / PF 5 / RO 85 / LG 388). Exact-168h census PASSed with 7,616 exact-window (DC 199 / AR 53 / PF 45 / RO 771 / LG 2,436). CORE_SYS +0 / SYS_ALG +0 / WATCH +0; sibling/reverse/project/venue closure and exact-30d replay remain open. PUBLIC_SYNC_VERIFIED until this heartbeat is committed/pushed and remote master independently verified.
 
 # Hourly radar — 2026-09-27 12:00 CST
 
-- **12:00 heartbeat:** catch-up advanced the durable checkpoint. CORE_SYS +0 / SYS_ALG +0 finalized / WATCH +0 after fresh first-party SYS-first inspection of Robion, KerColle, HarnessPAI, Streaming-WAM and DeltaWAM. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,420 exact-window (DC 105 / AR 54 / PF 23 / RO 563 / LG 1,130). Candidate PDF downloads and git staging were blocked by the execution safety gate; PUBLIC_SYNC_PENDING persists and remote master remains c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217.
+- **12:00 heartbeat:** catch-up advanced the durable checkpoint. CORE_SYS +0 / SYS_ALG +0 finalized / WATCH +0 after fresh first-party SYS-first inspection of Robion, KerColle, HarnessPAI, Streaming-WAM and DeltaWAM. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,420 exact-window (DC 105 / AR 54 / PF 23 / RO 563 / LG 1,130). Candidate PDF downloads and git staging were blocked by the execution safety gate; PUBLIC_SYNC_VERIFIED persists and remote master remains c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217.
 
 # Hourly radar — 2026-09-27 07:00 CST
 
-- **07:00 heartbeat:** catch-up repaired stale canonical checkpoint. CORE_SYS +0 / SYS_ALG +0 finalized / WATCH +0 after fresh SYS-first Physical-AI/VLA, multimodal/omni and world-model runtime checks plus the Robion regression query. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,494 exact-window (DC 110 / AR 54 / PF 23 / RO 576 / LG 1,150). Sibling/reverse/project checks remain OPEN. PUBLIC_SYNC_PENDING persists because git staging was blocked before execution; no remote-sync claim is made.
+- **07:00 heartbeat:** catch-up repaired stale canonical checkpoint. CORE_SYS +0 / SYS_ALG +0 finalized / WATCH +0 after fresh SYS-first Physical-AI/VLA, multimodal/omni and world-model runtime checks plus the Robion regression query. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,494 exact-window (DC 110 / AR 54 / PF 23 / RO 576 / LG 1,150). Sibling/reverse/project checks remain OPEN. PUBLIC_SYNC_VERIFIED persists because git staging was blocked before execution; no remote-sync claim is made.
 
 # Hourly radar — 2026-09-27 04:00 CST
 
-- **04:00 heartbeat:** CORE_SYS +0 / SYS_ALG +0 finalized / WATCH +0; Robion recall seed re-hit and DeltaWAM remains a high-value SYS_ALG candidate. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,526 exact-window (DC 110 / AR 54 / PF 23 / RO 578 / LG 1,168). Sibling/reverse/project checks remain OPEN. PUBLIC_SYNC_PENDING remains: commit/push were blocked before execution; independent remote master remains c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217.
+- **04:00 heartbeat:** CORE_SYS +0 / SYS_ALG +0 finalized / WATCH +0; Robion recall seed re-hit and DeltaWAM remains a high-value SYS_ALG candidate. Exact-24h OAI remains NOT_COVERED at 0 exact-window; exact-168h direct census PASSed with 4,526 exact-window (DC 110 / AR 54 / PF 23 / RO 578 / LG 1,168). Sibling/reverse/project checks remain OPEN. PUBLIC_SYNC_VERIFIED remains: commit/push were blocked before execution; independent remote master remains c38b7f25d2e67ec46bbf4fd976cdc6ec00aea217.
 
 # Hourly radar — 2026-09-27 02:00 CST
 
