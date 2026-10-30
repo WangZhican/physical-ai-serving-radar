@@ -1,3 +1,72 @@
+# Physical AI Serving Radar — 2026-10-30 17:47 CST
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS_SOURCE_ONLY; PUBLIC_SYNC_PENDING. The exact shared UTC windows match across official OAI-PMH and Atom; full semantic/evidence coverage is not closed.
+
+## Source census
+- 24h: OAI 649 exact / 231 unique; Atom 231; shared 248 ID/category pairs, diff=0.
+- 7d: OAI 6,177 exact / 2,428 unique; Atom 2,427; shared 2,588 pairs, diff=0. One OAI-only pair lies outside the shared UTC overlap.
+- 30d: OAI 31,643 exact / 13,220 unique; Atom 13,216; shared 14,013 pairs, diff=0. Four OAI-only pairs lie outside the shared UTC overlap.
+- OAI and Atom cross-window subset gaps are all 0. Direct census covers cs.DC/cs.AR/cs.PF/cs.RO with cs.LG fallback/cross-list.
+- Latest official version: arXiv:2610.40655 at 2026-10-29T17:59:53Z (age 15.56h). OAI 24h exact is nonzero; no timestamp anomaly in this snapshot.
+- Shared-window source reconciliation passes; all rolling windows remain SOURCE_ONLY/NOT_COVERED pending semantic, reverse-neighborhood, venue, project, code/reproduction and serving-SLO closure.
+
+## Candidate evidence
+- 47 official abstracts returned; 42 new semantic decisions after dedupe (25 current-7d, 17 older-30d). Classes: CORE_SYS=1, SYS_ALG_BOUNDARY=8, ALG_INSPIRATION=20, WATCH_ONLY=13. No formal promotion.
+- Nine candidate PDFs full-text inspected/reused; six new valid downloads; seven author-linked repositories verified. Paper manifest remains 260; PDF inventory 400 valid / 0 invalid / 4 pending.
+- PDScope (arXiv:2610.39216) is the only CORE_SYS candidate; author README exposes predictor and multi-batch reproduction limits. OpenFlyV2 and SyncPro remain system/algorithm boundary candidates. 3D-MoE has hardware simulation claims but no author repo/physical-silicon evidence. No independent reproduction.
+- Robion arXiv:2609.12075 remains the permanent recall regression seed.
+
+## First-party route and sync
+- Official arXiv /new=5/5 HTTP200; Atom recency=5/5; checked /abs=5/5.
+- Retry=18/19 HTTP200; vLLM-Omni release API=200, HTML route timed out; preserve last-good.
+- Public sync pending until commit/push and independent remote default-branch SHA verification.
+
+## Resume frontier
+1. Complete scoped public sync and independently verify remote SHA.
+2. Continue 307 broad 7d and 448 30d high-signal title leads (362 older-than-7d), cross-list/sibling/reverse/venue/project closure.
+3. Complete PDScope code/reproduction/multi-batch/SLO, OpenFlyV2 release/runtime, SyncPro streaming-serving, 3D-MoE hardware/code, GOFusion/3D inspection deployment gates.
+4. Retry vLLM-Omni release HTML after cooldown and four historical PDF blockers independently.
+5. Keep all windows NOT_COVERED until full gates close; automation remains expected-active.
+
+
+---
+
+# Physical AI Serving Radar — 2026-10-30 17:14 CST
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED. Direct official OAI/Atom source reconciliation passes for 24h/7d/30d, but semantic, cross-list, reverse-neighborhood, venue, project, reproduction, and serving-SLO coverage remains open. No formal promotion.
+
+## Source census
+- 24h: OAI 683 exact / 242 unique; Atom 242 unique; shared 260 ID/category pairs, diff=0.
+- 7d: OAI 6,194 exact / 2,434 unique; Atom 2,434; shared 2,596 pairs, diff=0.
+- 30d: OAI 31,688 exact / 13,240 unique; Atom 13,240; shared 14,041 pairs, diff=0.
+- Cross-window missing pairs: OAI 24h→7d=0; OAI 7d→30d=0; Atom 7d→30d=0.
+- Official /new pages 5/5 HTTP200; Atom recency 5/5 HTTP200. Latest version in the source snapshot: arXiv:2610.40655, 2026-10-29T17:59:53Z.
+
+## Candidate evidence
+- 12 new semantic decisions from a bounded official-abstract batch: 4 current-7d, 8 older-30d. New classifications: SYS_ALG_BOUNDARY=2, ALG_INSPIRATION=5, WATCH_ONLY=5. No formal promotions.
+- Five high-value candidate PDFs were validated and full-text inspected: Rimuru (arXiv:2610.40305), DolphinRouting (2610.40292), CacheSolidarity (2603.10726), DuoPD (2610.26131), RoboSeed (2610.40026). Candidate evidence is not promotion; independent reproduction is not run.
+- Paper manifest remains 260; PDF inventory 394 valid / 0 invalid / 4 pending.
+
+## Sync
+PUBLIC_SYNC_PENDING. The remote master SHA remains 9b73ea628f9c4e2fee03302d1cf995d27a12e663; local heartbeat changes are not remote publication.
+
+## Resume frontier
+1. Authorized scoped public push and independent master-SHA verification.
+2. Reconcile broad 7d title leads and older-30d semantic/reverse/venue/project gaps.
+3. Complete repository, reproduction, quality/latency/SLO and Physical-AI transfer gates for the five candidates.
+4. Retry the vLLM-Omni release HTML route and four historical PDF blockers independently.
+5. Preserve Robion arXiv:2609.12075 as the permanent recall regression seed.
+
+Automation remains expected-active.
+
+---
+
+# Physical AI Serving Radar — 2026-10-30 14:01 CST
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24h and 7d direct shared-window source pairs match, but full coverage is not closed; 7d→30d subset gaps remain (OAI=120, Atom=15) and 30d shared-window mismatch=111. PAPER_MANIFEST=260; PDF manifest=389 valid/0 invalid/4 pending; no formal promotion. PUBLIC_SYNC_PENDING; local staging only. Remote master SHA independently verified at 2026-10-30 14:55 CST: 9b73ea628f9c4e2fee03302d1cf995d27a12e663.
+
+---
+
 # Physical AI Serving Radar — 2026-10-30 11:51 CST
 
 Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED; OAI/Atom 24h/7d/30d direct census completed but exact mismatches remain; arXiv:2610.35309 PDF/repository/test inspection completed; no formal promotion. PUBLIC_SYNC_VERIFIED (heartbeat commit 9978ed2cdbaf08136cfd065a020e4ba631aef2a3 independently confirmed by git ls-remote at 2026-10-30 11:53 CST).

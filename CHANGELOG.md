@@ -1,3 +1,27 @@
+## 2026-10-30 17:47 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; SEMANTIC_NEW42; PDF_VALID400; PUBLIC_SYNC_PENDING
+
+Official OAI-PMH and Atom direct-category census reconciled on exact shared UTC windows for 24h/7d/30d. This is a substantive SYS-first checkpoint, not full coverage closure.
+
+- 24h: OAI 649 exact/231 unique; Atom 231; shared 248 pairs diff=0.
+- 7d: OAI 6,177 exact/2,428 unique; Atom 2,427; shared 2,588 pairs diff=0; one OAI boundary-only pair.
+- 30d: OAI 31,643 exact/13,220 unique; Atom 13,216; shared 14,013 pairs diff=0; four OAI boundary-only pairs.
+- 42 new abstract-level decisions; 0 formal promotions; paper manifest remains 260.
+- Nine candidate PDFs full-text inspected/reused; six new valid downloads; PDF inventory 400 valid/0 invalid/4 pending. Independent reproduction not run.
+- Robion arXiv:2609.12075 remains the permanent recall regression seed.
+- Public sync pending until commit/push and independent remote SHA verification.
+
+## 2026-10-30 17:14 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; DIRECT_SOURCE_RECONCILIATION_PASS; SEMANTIC_NEW12; PDF_VALID394; PUBLIC_SYNC_PENDING
+
+Official OAI-PMH and Atom direct-category census reconciled for 24h/7d/30d with zero shared ID/category mismatches and zero cross-window subset gaps. This is a partial source/evidence checkpoint, not full coverage closure.
+
+- 24h: OAI 683 exact/242 unique; Atom 242; shared 260 pairs diff=0.
+- 7d: OAI 6,194/2,434; Atom 2,434; shared 2,596 pairs diff=0.
+- 30d: OAI 31,688/13,240; Atom 13,240; shared 14,041 pairs diff=0.
+- 12 new abstract-level decisions; 0 formal promotions; paper manifest remains 260.
+- Five candidate PDFs validated and full-text inspected; PDF inventory 394 valid/0 invalid/4 pending. Independent reproduction not run.
+- Robion arXiv:2609.12075 remains the permanent recall regression seed.
+- Public sync pending: remote master SHA remains 9b73ea628f9c4e2fee03302d1cf995d27a12e663. Local heartbeat is not remote publication.
+
 ## 2026-10-30 00:55 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; 24H_ZERO_NOT_COVERED; 7D_OAI_4806_1941_ATOM_1941_SHARED_2062_DIFF0_SOURCE_ONLY; 30D_OAI_30843_13028_ATOM_10903_INCOMPLETE; SYS_TRIAGE_83/101_ABSTRACTS28/28_FIRST_PARTY_NEW5/5_HTTP200_ID0_EXPORT_API429_PROMOTIONS0_PDF0_PUBLIC_SYNCED_VERIFIED
 
 Watchdog recovered the current official source artifacts after the scheduled Physical AI run failed. This is a **partial source checkpoint**, not a full hourly discovery scan or coverage closure.
