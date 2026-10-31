@@ -2,7 +2,7 @@
 
 Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0958
 
-Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED
 
 - 24h: NOT_COVERED; OAI page-0 failure; Atom direct exact=0/INCOMPLETE; official first-party /new+/abs fallback 40/40 outside exact, 0 exact, 0 unresolved at 09:50.
 - 7d: Atom direct PASS/source-only, 2,165 unique; current OAI failed; last-good 5,732 exact/2,246 unique retained.
@@ -10,7 +10,7 @@ Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
 - SYS-first: official arXiv Atom API 20/20 abstracts fetched and adjudicated; 20 new unique decisions; classes {"ALG_INSPIRATION": 3, "WATCH_ONLY": 13, "SYS_ALG_BOUNDARY": 4}; next abstract batch=20 from updated 30d frontier.
 - PDF: 455 valid/0 invalid/4 pending; no PDF inspection in this checkpoint. PAPER_MANIFEST=261; formal promotions=0.
 - 11 CORE_SYS candidate PDFs remain full-text-valid from 09:50; author repo/reproduction/deployment-SLO gates remain open where not verified. Robion seed PASS.
-- Public sync PENDING; remote master baseline 99760b816181e73fe0924bdc2d03ed7630cc598e; no remote SHA advancement claimed.
+- Public sync verified: heartbeat commit 24dad34aed79f7b602efd1465495db42f0289481 independently confirmed; this status-seal commit will be independently verified and the final SHA recorded in canonical discovery state.
 - Resume: public sync; next 20 abstracts; repo/reproduction/SLO; OAI after cooldown; four historical PDF blockers; reverse-neighborhood/venue/project closure.
 
 ---

@@ -2,19 +2,19 @@
 
 Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0958
 
-Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED
 
 - Source coverage: 24h NOT_COVERED (OAI page-0 failure; Atom exact=0/INCOMPLETE; official /new+/abs fallback 40/40 outside exact); 7d Atom PASS/source-only 2,165 unique; 30d Atom PASS/source-only 12,741 unique. Current OAI failures retained with last-good evidence.
 - SYS-first: 20 official abstracts fetched and adjudicated; 20 new unique decisions; classes {"ALG_INSPIRATION": 3, "WATCH_ONLY": 13, "SYS_ALG_BOUNDARY": 4}. Cumulative semantic unique decisions=788.
 - PDF inventory: 455 valid / 0 invalid / 4 pending; no PDF inspection this checkpoint. PAPER_MANIFEST=261; formal promotions=0; taxonomy unchanged.
 - Robion 2609.12075 regression seed PASS.
-- Public sync: PENDING; remote master SHA baseline 99760b816181e73fe0924bdc2d03ed7630cc598e; do not treat local files as remote publication.
+- Public sync verified: heartbeat commit 24dad34aed79f7b602efd1465495db42f0289481 was pushed and independently verified. This status-seal commit updates the checkpoint state; its remote SHA will be independently verified and recorded in canonical discovery state.
 
 ## Current heartbeat
 - latest/hourly/2026-10-31-0958.md
 
 ## Resume
-- P0 commit/push verified heartbeat/latest/status files and independently verify remote master SHA.
+- P0 publish the status-seal commit and independently verify the remote master SHA.
 - P1 next 20 abstracts from the updated 30d frontier; P1 11 CORE_SYS repo/reproduction/deployment-SLO gates; P1 OAI after cooldown/new announcement.
 - P2 four historical PDF blockers and venue/project/cross-list/reverse-neighborhood closure.
 
