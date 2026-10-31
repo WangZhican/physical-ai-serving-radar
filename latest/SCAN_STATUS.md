@@ -10,8 +10,8 @@ Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED
 - SYS-first: official arXiv Atom API 20/20 abstracts fetched and adjudicated; 20 new unique decisions; classes {"ALG_INSPIRATION": 3, "WATCH_ONLY": 13, "SYS_ALG_BOUNDARY": 4}; next abstract batch=20 from updated 30d frontier.
 - PDF: 455 valid/0 invalid/4 pending; no PDF inspection in this checkpoint. PAPER_MANIFEST=261; formal promotions=0.
 - 11 CORE_SYS candidate PDFs remain full-text-valid from 09:50; author repo/reproduction/deployment-SLO gates remain open where not verified. Robion seed PASS.
-- Public sync verified: heartbeat commit 24dad34aed79f7b602efd1465495db42f0289481 independently confirmed; this status-seal commit will be independently verified and the final SHA recorded in canonical discovery state.
-- Resume: public sync; next 20 abstracts; repo/reproduction/SLO; OAI after cooldown; four historical PDF blockers; reverse-neighborhood/venue/project closure.
+- Public sync verified: heartbeat commit 24dad34aed79f7b602efd1465495db42f0289481 and status-seal commit 1ee709fb39a01cfd8fd79dd187cedebdb9d47d4d were pushed and independently verified; final remote master SHA is recorded in canonical discovery state.
+- Resume: next 20 abstracts; 11 CORE_SYS repo/reproduction/deployment-SLO gates; OAI after cooldown/new announcement; four historical PDF blockers; reverse-neighborhood/venue/project closure.
 
 ---
 
