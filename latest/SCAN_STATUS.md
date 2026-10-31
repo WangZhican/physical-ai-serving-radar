@@ -1,15 +1,15 @@
 # Physical AI Serving Radar — scan status
 - Latest checkpoint: PHYSICAL_AI_SERVING_20261031_2320 (2026-10-31 23:33 CST)
-- Status: PARTIAL_CHECKPOINT_DIVERGENCE_RECONCILED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_HEARTBEAT_VERIFIED_STATUS_SEAL_PENDING / SCHEDULER_INCIDENT
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_RECONCILED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - Source coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED.
 - Direct census: 7d OAI/Atom exact shared-window match 2,205 pairs / 2,064 unique; 30d match 13,187 pairs / 12,438 unique.
 - First-party fallback: /new 5/5, bounded /abs 60/60, exact 24h=0, all 60 outside; discovery-only.
 - Semantic: 40 new official abstracts adjudicated; cumulative unique IDs 1,433; 0 formal promotions.
 - PDF: 529 valid / 0 invalid / 4 pending; candidate fulltext 51/51 valid; PAPER_MANIFEST=261 unchanged.
-- Public sync: HEARTBEAT_VERIFIED; heartbeat commit 4d35aee pushed and independently verified; status seal pending.
+- Public sync: VERIFIED; heartbeat commit 4d35aee and status-seal commit e3c9fb9 pushed and independently verified; final remote SHA is recorded in canonical state.
 - Scheduler: automation enabled; next_run_time=null; hourly recurrence unsupported by current API; no disable/replacement/duplicate.
 - Next: abstract-ready batch, fetch-ready batch, current-window reverse-neighborhood replay, public/scheduler incident recovery.
-- Updated: 2026-10-31 23:33 CST
+- Updated: 2026-10-31 23:40 CST
 
 ---
 
