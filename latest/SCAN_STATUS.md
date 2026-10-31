@@ -1,3 +1,29 @@
+# Physical AI Serving Radar — Scan Status (2026-10-31 09:00 CST)
+
+Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0900
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+
+- Direct-category Atom census: 24h exact=0 (all five categories passed pagination but no exact-window records); 7d PASS/source-only, 2,166 unique IDs across cs.DC/cs.AR/cs.PF/cs.RO plus cs.LG; 30d incomplete/source-only, 9,341 unique observed before cs.LG page 29 returned HTTP 429.
+- OAI-PMH 24h retry: page 0 timed out after retries; last-good OAI evidence retained. 24h remains NOT_COVERED. Full 7d/30d semantic/reverse/venue/project coverage remains IN_PROGRESS.
+- SYS-first: 123 high-signal title leads, 119 still abstract-level unclassified in the refreshed 7d Atom census; 37 physical-related and 82 adjacent systems leads. Robion 2609.12075 remains a permanent manifest-backed regression seed; outside this rolling window.
+- Candidate evidence: seven CORE_SYS candidates received first-party arXiv /abs and official PDF/full-text inspection; 7/7 PDF headers/SHA-256/full-text extraction valid. PDF inventory 448 valid / 0 invalid / 4 historical pending. PAPER_MANIFEST remains 261; formal promotions 0; taxonomy unchanged.
+- Code/repository, independent reproduction, Physical-AI deployment and serving-SLO gates remain open for these seven candidates. No claims of deployment or reproduction.
+- Public sync: PENDING. Remote master SHA before this update: e232cf9a21c7363160cdd40032d47848173b3c49.
+
+# Physical AI Serving Radar — Scan Status (2026-10-31 08:20 CST)
+
+Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0820
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+
+- Source status: 24h NOT_COVERED; 7d/30d Atom direct PASS_SOURCE_ONLY, OAI current attempts timeout, last-good retained.
+- Semantic: 134 new unique decisions since 04:21; total 746; current 7d and older 30d abstract-level pending=0; evidence closure IN_PROGRESS.
+- Promotion: Mooncake (2407.00079) CORE_SYS/A+, FAST 2025 Best Paper; official PDF/full text + author repo verified; reproduction NOT_RUN; Physical-AI deployment NOT_VERIFIED.
+- PDF: 442 valid/0 invalid/4 pending; 6 new full-text inspections; 4 historical blockers.
+- Robion 2609.12075 regression seed PASS.
+- Public sync PENDING; remote master SHA before local changes e232cf9a21c7363160cdd40032d47848173b3c49; no remote write claimed.
+
 # Physical AI Serving Radar — Scan Status (2026-10-31 04:21 CST)
 
 Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0421
