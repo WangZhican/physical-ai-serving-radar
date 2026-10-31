@@ -10,7 +10,7 @@
 - PDF: 563 valid / 0 invalid / 5 pending; candidate fulltext 77 total / 76 valid / 1 historical failure; CORE_SYS fulltext valid=53; PAPER_MANIFEST=261 unchanged
 - Candidate evidence: NAVIR/GearUp/FlashDiff PDFs valid, no author-linked repos found; ProbeFlow paper-linked repo zfan00666/probeflow verified; no independent reproduction
 - Named frontier: KerColle, Streaming-WAM, HarnessPAI, NavGPT-3, TWS, OxyGen remain evidence-gated; no gate closure claimed this checkpoint
-- Public sync: PENDING until remote default-branch SHA independently advances
+- Public sync: VERIFIED; checkpoint heartbeat/status commit cdaea4c7e2f385860b6c2049224fa99396505175; remote master SHA independently verified
 - Scheduler: enabled/expected-active; next_run_time=null; exposed API lacks hourly recurrence; no pause/disable/replacement/duplicate
 - Resume: source cooldown/next official announcement; retry OAI/Atom 7d/30d census and exact reconciliation; continue only new dependency-ready evidence
 ## Previous checkpoint detail

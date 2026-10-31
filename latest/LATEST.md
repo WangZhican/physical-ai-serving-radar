@@ -11,7 +11,7 @@
 - Candidate evidence: NAVIR/GearUp/FlashDiff PDFs valid, no author-linked repo found; ProbeFlow paper-linked repo verified; no independent reproduction
 - Robion arXiv:2609.12075 permanent recall regression PASS
 - Scheduler: enabled/expected-active; next_run_time=null; hourly recurrence unsupported; incident open
-- Public sync: pending until remote default-branch SHA independently advances
+- Public sync: VERIFIED; checkpoint heartbeat/status commit cdaea4c7e2f385860b6c2049224fa99396505175; remote master SHA independently verified
 ## Previous checkpoint detail
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_0329 (2026-11-01 03:29 CST)
 - Status: PUBLIC_SYNC_VERIFIED — heartbeat commit 7b5d3bc148e011c13c96b8c72e73843e50e79d8b; final status-seal SHA recorded in canonical state
