@@ -1,3 +1,14 @@
+## 2026-10-31 08:20 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; SEMANTIC_NEW134; MOONCAKE_CORE_SYS_PROMOTION; PDF_VALID442; PUBLIC_SYNC_PENDING
+
+Reconciled source/semantic/PDF artifacts newer than the 04:21 canonical checkpoint. Formal promotion: Mooncake (arXiv:2407.00079), CORE_SYS/A+, USENIX FAST 2025 Best Paper, cross-track multimodal/Omni serving baseline. Official PDF/full text and author repo verified; independent reproduction and Physical-AI deployment remain unverified.
+
+- Current 24h OAI attempt timed out; Atom exact-zero incomplete; official /new+/abs fallback 43 leads, 0 exact. NOT_COVERED.
+- 7d/30d Atom direct census PASS_SOURCE_ONLY; current OAI attempts timed out; last-good preserved. Full coverage remains NOT_COVERED/IN_PROGRESS.
+- 134 new unique abstract-level decisions since 04:21; total 746; current 7d and older 30d abstract pending=0; reverse/venue/project/evidence closure remains open.
+- PDF inventory 442 valid/0 invalid/4 pending; 6 new full-text inspections and 4 existing metadata upgrades.
+- Robion arXiv:2609.12075 permanent recall regression seed PASS.
+- Public local mirror updated; remote sync pending because push permission is unavailable. Remote master SHA before local changes: e232cf9a21c7363160cdd40032d47848173b3c49.
+
 ## 2026-10-30 21:40 CST
 
 - Physical AI Serving watchdog catch-up: direct OAI/Atom 24h/7d/30d shared-window reconciliation PASS/source-only; all cross-window subset gaps=0.

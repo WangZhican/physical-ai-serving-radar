@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-29 06:46 CST",
-  "count": 260,
+  "updated": "2026-10-31 08:20 CST",
+  "count": 261,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4626,6 +4626,27 @@
       "venue": "arXiv",
       "priority": "B+",
       "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2407.00079",
+      "title": "Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving",
+      "class": "CORE_SYS",
+      "route": [
+        4,
+        5,
+        6,
+        11
+      ],
+      "year": 2025,
+      "venue": "USENIX FAST 2025 (Best Paper)",
+      "priority": "A+",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2407.00079",
+      "official_pdf": "https://arxiv.org/pdf/2407.00079v5",
+      "code_url": "https://github.com/kvcache-ai/Mooncake",
+      "code_status": "AUTHOR_LINKED_PUBLIC_REPOSITORY_VERIFIED_READ_ONLY",
+      "notes": "KVCache-centric disaggregated prefill/decode serving; shared CPU/DRAM/SSD cache pool, RDMA transfer engine, distributed cache/store and heterogeneous placement. Cross-track multimodal/Omni serving baseline; not a verified Physical-AI robot-fleet deployment. Independent reproduction NOT_RUN.",
+      "evidence": "daily/2026-10-31/PROMOTION_RECORD_0745.json; PDF_CANDIDATE_INSPECTION_0727.json; PDF_DOWNLOAD_MANIFEST.json; official USENIX FAST25; author-linked GitHub README."
     }
   ]
 }

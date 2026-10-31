@@ -45,3 +45,8 @@ This list is ordered by **systems importance and route coverage**.
 `Omni-Flow → LiveServe → StreamWise → FlashCodec + UnifiedServe → HELIOS`
 
 The shared machine-readable inventory remains [`../data/papers.json`](../data/papers.json).
+
+
+## 2026-10-31 — Mooncake (FAST 2025 Best Paper)
+
+- [Mooncake](https://arxiv.org/abs/2407.00079) — **A+**, USENIX FAST 2025 Best Paper; KVCache-centric disaggregated prefill/decode, shared CPU/DRAM/SSD cache pool, RDMA transfer and heterogeneous placement. [Author repo](https://github.com/kvcache-ai/Mooncake) verified; independent reproduction not run; not a verified Physical-AI robot-fleet deployment.

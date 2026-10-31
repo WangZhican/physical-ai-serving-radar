@@ -1,3 +1,34 @@
+# Physical AI Serving Radar — Latest Checkpoint (2026-10-31 09:00 CST)
+
+Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0900
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED
+
+- Source: 24h NOT_COVERED (Atom exact window=0; OAI-PMH page 0 timed out). 7d Atom direct-category census PASS/source-only, 2,166 unique IDs. 30d Atom census incomplete at 9,341 unique observed; cs.LG page 29 returned HTTP 429. Last-good OAI evidence retained.
+- SYS-first: 123 high-signal title leads; 119 remain abstract-level unclassified (37 physical-related, 82 adjacent systems). Full rolling-window coverage remains IN_PROGRESS.
+- Candidate evidence: seven abstract-level CORE_SYS candidates received official arXiv /abs and PDF/full-text inspection; 7/7 PDFs validated and extracted. PDF inventory 448 valid / 0 invalid / 4 historical pending. PAPER_MANIFEST=261; formal promotions=0; taxonomy unchanged.
+- Code/repository, independent reproduction, Physical-AI deployment and serving-SLO gates remain open for these seven candidates. No deployment or reproduction claim.
+- Robion arXiv:2609.12075 remains the permanent manifest-backed recall regression seed; outside the current rolling 7d window.
+- Public sync: heartbeat commit bf8ba8811922d9179da6e536c64409bef97f69dc was independently verified. This status-seal commit contains the validated 08:20 promotion artifacts and this 09:00 checkpoint; its final remote SHA is recorded in canonical discovery state after independent verification.
+- Next: retry source routes after cooldown/new official announcement; continue the 119 abstract-level leads and candidate repo/reproduction/deployment/SLO gates; retry four historical PDF blockers independently. Do not mark 24h/7d/30d COVERED.
+
+---
+
+# Physical AI Serving Radar — Latest Checkpoint (2026-10-31 08:20 CST)
+
+Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0820
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED — PUBLIC_SYNC_PENDING. Local public mirror has a verified promotion and checkpoint; remote master has not advanced.
+
+- 24h: NOT_COVERED (OAI timeout; Atom exact-zero incomplete; official /new+/abs fallback 43 leads, 0 exact, 43 outside).
+- 7d/30d: Atom direct-category census PASS_SOURCE_ONLY; current OAI attempts timeout; last-good OAI retained; no current dual-source reconciliation.
+- 134 new unique abstract-level decisions since 04:21; total 746; current 7d and older 30d abstract-level pending=0; full evidence/reverse/venue/project closure remains IN_PROGRESS.
+- Formal promotion +1: Mooncake (2407.00079), CORE_SYS/A+, USENIX FAST 2025 Best Paper. Official PDF/full text and author repo verified; independent reproduction NOT_RUN; Physical-AI deployment NOT_VERIFIED.
+- PDF manifest: 442 valid/0 invalid/4 pending; +10 validated additions since 04:21.
+- Robion arXiv:2609.12075 permanent recall seed PASS.
+- Public sync PENDING; remote master SHA before local changes: e232cf9a21c7363160cdd40032d47848173b3c49. No push attempted.
+- Next: authorized scoped public sync + independent ls-remote; OAI retries; full-text/code/reproduction/SLO gates for 7 CORE_SYS candidates; 4 historical PDF blockers; reverse-neighborhood/venue/project closure.
+
 # Physical AI Serving Radar — Latest Checkpoint (2026-10-31 04:21 CST)
 
 Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0421

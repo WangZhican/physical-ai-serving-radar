@@ -35,7 +35,9 @@ Key questions:
 - model-fission versus monolithic execution.
 
 ## M4. Distributed State / KV / Workflow
-Treat intermediate tensors, KV, multimodal state, and workflow control as first-class distributed serving objects. **Anchors:** Omni-Flow, Cornserve, OnePiece.
+Treat intermediate tensors, KV, multimodal state, and workflow control as first-class distributed serving objects. **Anchors:** Omni-Flow, Cornserve, OnePiece, Mooncake (arXiv:2407.00079, USENIX FAST 2025 Best Paper).
+
+Mooncake adds a KVCache-centric disaggregated prefill/decode baseline with shared CPU/DRAM/SSD cache state, RDMA transfer and SLO-aware placement. This is multimodal/Omni serving, not a verified Physical-AI deployment.
 
 Key questions:
 - cross-role and cross-stage KV reuse;
