@@ -1,21 +1,21 @@
 # Physical AI Serving Radar — latest
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_0124 (2026-11-01 01:24 CST)
-- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_HEARTBEAT_VERIFIED_STATUS_SEAL_PENDING / SCHEDULER_INCIDENT
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - 24h: NOT_COVERED; OAI PASS exact=0/unique=0; Atom INCOMPLETE=0. Official /new 5/5, 896 entries; Atom id_list 65/65 HTTP 200 exact=0; bounded /abs 55/65 HTTP 200, 10 timeouts; discovery-only.
 - 7d: SOURCE_ONLY_NOT_COVERED; OAI 5,198 exact / 2,034 unique; Atom 2,037 unique; 2,173 shared ID-category pairs / 2,034 IDs match, 0 pair differences; 3 Atom IDs outside OAI shared interval.
 - 30d: SOURCE_ONLY_NOT_COVERED; OAI 29,766 exact / 12,377 unique; Atom 12,356 unique; 13,103 shared ID-category pairs / 12,356 IDs match, 0 pair differences.
 - SYS-first: 12/12 main-trunk queries PASS; 88 unique in-window, 28 outside direct census, no new IDs vs prior replay. Five new semantic decisions; 1,438 cumulative unique; no new CORE_SYS candidate.
 - Candidate evidence: 531 valid / 0 invalid / 4 pending PDFs; 5/5 official fulltext checks PASS, 5 repo routes checked. TurboWAM corrected to SYS_ALG_BOUNDARY; no implementation/reproduction/deployment-SLO gate closed.
 - Inventory: PAPER_MANIFEST=261 unchanged; formal promotions=0; taxonomy unchanged; Robion 2609.12075 recall seed PASS.
-- Heartbeat commit: c96eb0f; pushed and independently verified via git ls-remote; status seal pending.
-- Public sync: HEARTBEAT_VERIFIED; heartbeat commit c96eb0f pushed and independently verified; status seal pending.
+- Public sync: VERIFIED; heartbeat and status seal pushed; final remote SHA recorded in canonical state.
+- Public sync: VERIFIED; heartbeat and status seal pushed; independent git ls-remote confirmed remote master advancement; final SHA recorded in canonical state.
 - Automation: enabled/expected-active; current run in progress; next_run_time=null; exposed API lacks hourly recurrence; scheduler incident.
 - Resume: public sync and scheduler incident; 24h source after next official announcement; 7d/30d reconciliation after cooldown; candidate evidence gates.
 ## Latest checkpoint detail
 - Source reconciliation: 7d 2,173 shared ID-category pairs / 2,034 IDs match; 30d 13,103 pairs / 12,356 IDs match; 0 pair differences; coverage remains source-only.
 - SYS-first frontier: 7d high-signal unclassified=259, abstract-ready=0; 30d high-signal total=464, older-than-7d=386, title leads not in manifest=344, abstract pending=0, fetch-ready=0.
 - PCLA-Bridge author-linked repository verified; no serving SLO or independent reproduction; no promotion.
-- Heartbeat is remote; final status seal and SHA writeback are pending.
+- Public mirror sync is verified; canonical state records the final remote status-seal SHA.
 
 # Physical AI Serving Radar — Hourly checkpoint (2026-10-31 15:35 CST)
 
