@@ -1,4 +1,19 @@
 # Physical AI Serving Radar — scan status
+- Latest checkpoint: PHYSICAL_AI_SERVING_20261101_0651 (2026-11-01 06:51 CST)
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Source coverage: 24h NOT_COVERED; 7d IN_PROGRESS_NOT_COVERED; 30d IN_PROGRESS_NOT_COVERED
+- 24h source: OAI-PMH page 0 timeout; Atom direct five-category exact=0/INCOMPLETE; official /new 5/5 HTTP 200; bounded /abs latest verified version 2026-10-29 17:59:49 UTC, outside exact window; discovery-only
+- 7d source: OAI-PMH page 0 timeout; current Atom direct INCOMPLETE, cs.LG page 12 HTTP 429; last-good Atom 1,960 current-filtered IDs; last-good OAI reconciliation is stale
+- 30d source: OAI-PMH page 0 timeout; last-good Atom 12,172 current-filtered IDs; last-good OAI 12,916 IDs; no current shared-window reconciliation
+- SYS-first: 73 high-signal current 7d + 387 older-than-7d; 0 unclassified; 0 abstract-review/fetch-ready frontier after reconciling all semantic files
+- Semantics: 1,520 unique decisions; one reclassification NAVIR arXiv:2609.24391 from SYS_ALG_BOUNDARY to CORE_SYS candidate; 0 formal promotions
+- PDF: 563 valid / 0 invalid / 5 pending; candidate fulltext 77 total / 76 valid / 1 historical failure; CORE_SYS fulltext valid=53; PAPER_MANIFEST=261 unchanged
+- Candidate evidence: NAVIR/GearUp/FlashDiff PDFs valid, no author-linked repos found; ProbeFlow paper-linked repo zfan00666/probeflow verified; no independent reproduction
+- Named frontier: KerColle, Streaming-WAM, HarnessPAI, NavGPT-3, TWS, OxyGen remain evidence-gated; no gate closure claimed this checkpoint
+- Public sync: PENDING until remote default-branch SHA independently advances
+- Scheduler: enabled/expected-active; next_run_time=null; exposed API lacks hourly recurrence; no pause/disable/replacement/duplicate
+- Resume: source cooldown/next official announcement; retry OAI/Atom 7d/30d census and exact reconciliation; continue only new dependency-ready evidence
+## Previous checkpoint detail
 - Latest checkpoint: PHYSICAL_AI_SERVING_20261101_0329 (2026-11-01 03:29 CST)
 - Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / 7D_COVERED / 24H_NOT_COVERED / 30D_SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - Source coverage: 24h NOT_COVERED; 7d COVERED; 30d SOURCE_ONLY_NOT_COVERED.

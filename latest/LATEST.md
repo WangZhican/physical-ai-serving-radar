@@ -1,4 +1,18 @@
 # Physical AI Serving Radar — latest
+- Checkpoint: PHYSICAL_AI_SERVING_20261101_0651 (2026-11-01 06:51 CST)
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Coverage: 24h NOT_COVERED; 7d IN_PROGRESS_NOT_COVERED; 30d IN_PROGRESS_NOT_COVERED
+- 24h: OAI-PMH page 0 timeout; Atom direct exact=0/INCOMPLETE; official /new 5/5 and bounded /abs version metadata outside the exact window; discovery-only
+- 7d: OAI-PMH page 0 timeout; current Atom direct INCOMPLETE after cs.LG page 12 HTTP 429; last-good Atom 1,960 current-filtered IDs; no current reconciliation
+- 30d: OAI-PMH page 0 timeout; last-good Atom 12,172 current-filtered IDs; last-good OAI 12,916 IDs; no current reconciliation
+- SYS-first: 73 high-signal 7d + 387 older-than-7d; 0 unclassified; no dependency-ready abstract fetch/review batch
+- Semantics: 1,520 unique decisions; NAVIR arXiv:2609.24391 reclassified SYS_ALG_BOUNDARY→CORE_SYS candidate; 0 formal promotions
+- PDF: 563 valid / 0 invalid / 5 pending; candidate fulltext 77/76 valid, 1 historical failure; CORE_SYS fulltext valid=53; PAPER_MANIFEST=261 unchanged
+- Candidate evidence: NAVIR/GearUp/FlashDiff PDFs valid, no author-linked repo found; ProbeFlow paper-linked repo verified; no independent reproduction
+- Robion arXiv:2609.12075 permanent recall regression PASS
+- Scheduler: enabled/expected-active; next_run_time=null; hourly recurrence unsupported; incident open
+- Public sync: pending until remote default-branch SHA independently advances
+## Previous checkpoint detail
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_0329 (2026-11-01 03:29 CST)
 - Status: PUBLIC_SYNC_VERIFIED — heartbeat commit 7b5d3bc148e011c13c96b8c72e73843e50e79d8b; final status-seal SHA recorded in canonical state
 - Coverage: 24h NOT_COVERED; 7d COVERED; 30d SOURCE_ONLY_NOT_COVERED
