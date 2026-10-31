@@ -1,15 +1,15 @@
 # Physical AI Serving Radar — scan status
-- Latest checkpoint: PHYSICAL_AI_SERVING_20261031_2320 (2026-10-31 23:33 CST)
-- Status: PARTIAL_CHECKPOINT_DIVERGENCE_RECONCILED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
+- Latest checkpoint: PHYSICAL_AI_SERVING_20261101_0124 (2026-11-01 01:24 CST)
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
 - Source coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED.
-- Direct census: 7d OAI/Atom exact shared-window match 2,205 pairs / 2,064 unique; 30d match 13,187 pairs / 12,438 unique.
-- First-party fallback: /new 5/5, bounded /abs 60/60, exact 24h=0, all 60 outside; discovery-only.
-- Semantic: 40 new official abstracts adjudicated; cumulative unique IDs 1,433; 0 formal promotions.
-- PDF: 529 valid / 0 invalid / 4 pending; candidate fulltext 51/51 valid; PAPER_MANIFEST=261 unchanged.
-- Public sync: VERIFIED; heartbeat commit 4d35aee and status-seal commit e3c9fb9 pushed and independently verified; final remote SHA is recorded in canonical state.
-- Scheduler: automation enabled; next_run_time=null; hourly recurrence unsupported by current API; no disable/replacement/duplicate.
-- Next: abstract-ready batch, fetch-ready batch, current-window reverse-neighborhood replay, public/scheduler incident recovery.
-- Updated: 2026-10-31 23:40 CST
+- Direct census: 7d OAI 5,198 exact / 2,034 unique, Atom 2,037 unique, 2,173 shared pairs / 2,034 IDs match; 30d OAI 29,766 exact / 12,377 unique, Atom 12,356 unique, 13,103 shared pairs / 12,356 IDs match.
+- First-party fallback: /new 5/5, 896 entries; Atom id_list 65/65 HTTP 200 exact=0; /abs 55/65 HTTP 200, 10 timeouts; discovery-only.
+- Semantic: 5 new reverse-neighborhood decisions; cumulative unique IDs 1,438; 0 formal promotions.
+- PDF: 531 valid / 0 invalid / 4 pending; candidate fulltext 5/5 current checks PASS; PAPER_MANIFEST=261 unchanged.
+- Public sync: PENDING; heartbeat/status prepared locally; remote commit and independent SHA verification required.
+- Scheduler: automation enabled/expected-active; current run in progress; next_run_time=null; hourly recurrence unsupported by exposed API; no disable/replacement/duplicate.
+- Next: public sync and scheduler incident; 24h source after next official announcement; 7d/30d reconciliation after cooldown; candidate evidence gates.
+- Updated: 2026-11-01 01:24 CST
 
 ---
 
