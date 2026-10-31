@@ -1,3 +1,32 @@
+# Physical AI Serving Radar — scan status
+- Latest checkpoint: PHYSICAL_AI_SERVING_20261031_2320 (2026-10-31 23:33 CST)
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_RECONCILED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Source coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED.
+- Direct census: 7d OAI/Atom exact shared-window match 2,205 pairs / 2,064 unique; 30d match 13,187 pairs / 12,438 unique.
+- First-party fallback: /new 5/5, bounded /abs 60/60, exact 24h=0, all 60 outside; discovery-only.
+- Semantic: 40 new official abstracts adjudicated; cumulative unique IDs 1,433; 0 formal promotions.
+- PDF: 529 valid / 0 invalid / 4 pending; candidate fulltext 51/51 valid; PAPER_MANIFEST=261 unchanged.
+- Public sync: PENDING; GitHub connector push=false, local git/SSH remote available; remote SHA baseline 86147cef1bf427f395ef115ee5faff133e5deee8.
+- Scheduler: automation enabled; next_run_time=null; hourly recurrence unsupported by current API; no disable/replacement/duplicate.
+- Next: abstract-ready batch, fetch-ready batch, current-window reverse-neighborhood replay, public/scheduler incident recovery.
+- Updated: 2026-10-31 23:33 CST
+
+---
+
+# Physical AI Serving Radar — Status
+
+- Latest checkpoint: PHYSICAL_AI_SERVING_20261031_1535 (2026-10-31 15:35 CST)
+- Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Exact coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d IN_PROGRESS_NOT_COVERED.
+- SYS-first: 290 abstracts adjudicated; 33 new CORE_SYS candidates unpromoted; next exact abstract batch 20 (37 high-signal IDs remain).
+- Full-text PDF checks: 44 validated; manifest 508 valid / 0 invalid / 4 pending.
+- Reproduction: MAServeBench CPU 243 tests PASS; TableTune CPU 174 tests + committed figures PASS; SimVLA 591 passed/27 skipped plus CPU scene PASS; CureWM 7 engine tests PASS. GPU/NPU/physical-robot performance NOT_RUN.
+- Public sync: PENDING (connector push=false; local mirror has no git metadata). Remote SHA independently verified unchanged: 86147cef1bf427f395ef115ee5faff133e5deee8.
+- Automation: remains enabled; next_run_time null; hourly recurrence unsupported by current Automations API.
+- Durable evidence: canonical checkpoint record.
+
+---
+
 # Physical AI Serving Radar — Scan Status (2026-10-31 09:58 CST)
 
 Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0958

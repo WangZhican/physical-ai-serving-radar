@@ -1,3 +1,54 @@
+# Physical AI Serving Radar — latest
+- Checkpoint: PHYSICAL_AI_SERVING_20261031_2320 (2026-10-31 23:33 CST)
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_RECONCILED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- 24h: NOT_COVERED; OAI exact=0, Atom exact=0/incomplete; official /new 5/5 and bounded /abs 60/60 found 0 exact, all outside the window.
+- 7d: SOURCE_ONLY_NOT_COVERED; OAI 5,275 exact / 2,064 unique; Atom 2,064 unique; 2,205 shared ID-category pairs match.
+- 30d: SOURCE_ONLY_NOT_COVERED; OAI 29,910 exact / 12,438 unique; Atom 12,438 unique; 13,187 shared ID-category pairs match.
+- SYS-first: 40 new official abstracts adjudicated in batches 2304 and 2315; 1,433 unique semantic decisions; no new core candidate.
+- Candidate evidence: 529 valid / 0 invalid / 4 pending PDFs; candidate fulltext 51/51 valid, core candidate fulltext 38/38 valid; PCLA-Bridge reclassified SYS_ALG_BOUNDARY.
+- Inventory: PAPER_MANIFEST=261 unchanged; formal promotions=0; taxonomy unchanged; Robion 2609.12075 recall seed PASS.
+- Remote master SHA baseline: 86147cef1bf427f395ef115ee5faff133e5deee8; local heartbeat is not remote sync.
+- Public sync: PENDING; GitHub connector push=false, local git/SSH remote available; commit/push attempt pending.
+- Automation: enabled/expected-active; next_run_time=null; platform hourly scheduler incident.
+- Resume: next 20 abstract-ready IDs, then next 20 fetch-ready IDs; current-window reverse-neighborhood replay; public sync and scheduler repair.
+## Latest checkpoint detail
+- Source reconciliation: exact shared-window OAI/Atom pair match for 7d and 30d; coverage remains source-only.
+- 30d high-signal frontier: 1,549 total / 1,045 classified / 53 abstract-review pending / 409 fetch-ready / 462 older-than-7d unclassified.
+- PCLA-Bridge author-linked repository verified; no serving SLO or independent reproduction; no promotion.
+- Public mirror update is local only until remote master SHA advances.
+
+# Physical AI Serving Radar — Hourly checkpoint (2026-10-31 15:35 CST)
+
+- Checkpoint: PHYSICAL_AI_SERVING_20261031_1535
+- Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+- Exact rolling 24h: NOT_COVERED (OAI timeout; Atom 0/incomplete; official /new 5/5 and /abs 4/4 are discovery-only).
+- Exact rolling 7d: Atom PASS, 2,125 unique; OAI timeout; source-only, not coverage-closed.
+- Exact rolling 30d: last-good Atom PASS 12,582 unique at 1655; last-good OAI 12,887 at 0159; current retries failed; common overlap 12,582/12,582; not coverage-closed.
+- SYS-first: 290 abstracts adjudicated; 23 reverse-neighborhood papers outside direct census; 33 new CORE_SYS candidates remain unpromoted; 37 older-than-7d high-signal IDs remain.
+- Full-text evidence: 44 candidate PDFs validated. CPU smoke checks: MAServeBench 243 tests; TableTune 174 tests and committed-data figures; SimVLA 591 passed/27 skipped plus CPU scene PASS; CureWM 7 engine tests passed. No GPU/NPU/physical-robot performance reproduction.
+- Named gates: KerColle has no exact repo/real-GPU evidence; Streaming-WAM PR #4 open/unmerged; HarnessPAI code exists but no serving SLO; NavGPT-3/TWS/OxyGen remain open.
+- Formal promotions this checkpoint: 0. Paper manifest/taxonomy unchanged.
+- Public sync: PENDING; remote master SHA remains 86147cef1bf427f395ef115ee5faff133e5deee8. Local heartbeat is not remote sync.
+- Automation: kept enabled; hourly recurrence unsupported by current Automations API and next_run_time null.
+- Durable scan: canonical checkpoint record.
+
+---
+# Physical AI Serving Radar — Hourly checkpoint (2026-10-31 14:20 CST)
+
+- Checkpoint: PHYSICAL_AI_SERVING_20261031_1420
+- Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+- Exact rolling 24h: NOT_COVERED (OAI timeout; Atom 0/incomplete; official /new 5/5 and /abs 4/4 are discovery-only).
+- Exact rolling 7d: Atom PASS, 2,133 unique; OAI timeout; source-only, not coverage-closed.
+- Exact rolling 30d: Atom INCOMPLETE, 2,432 partial unique; last-good OAI 0159 retained, not current coverage.
+- SYS-first: 150 abstracts adjudicated; 23 reverse-neighborhood papers outside direct census; 11 new CORE_SYS candidates remain unpromoted.
+- Full-text evidence: 22 candidate PDFs validated. CPU smoke checks: MAServeBench 243 tests; TableTune 174 tests and committed-data figures; no GPU/NPU performance reproduction.
+- Named gates: KerColle has no exact repo/real-GPU evidence; Streaming-WAM PR #4 open/unmerged; HarnessPAI code exists but no serving SLO; NavGPT-3/TWS/OxyGen remain open.
+- Formal promotions this checkpoint: 0. Paper manifest/taxonomy unchanged.
+- Public sync: PENDING; remote master SHA remains 86147cef1bf427f395ef115ee5faff133e5deee8 until authorized remote commit/ref update is independently verified.
+- Automation: kept enabled; next_run_time null, requiring schedule recovery.
+- Durable scan: canonical scan checkpoint 2026-10-31 14:20 CST (private artifact path omitted).
+
+---
 # Physical AI Serving Radar — Latest checkpoint (2026-10-31 09:58 CST)
 
 Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0958
