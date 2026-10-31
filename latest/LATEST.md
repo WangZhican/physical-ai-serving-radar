@@ -1,6 +1,6 @@
 # Physical AI Serving Radar — latest
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_0329 (2026-11-01 03:29 CST)
-- Status: PUBLIC_SYNC_PENDING — status seal follows independent remote SHA verification
+- Status: PUBLIC_SYNC_VERIFIED — heartbeat commit 7b5d3bc148e011c13c96b8c72e73843e50e79d8b; final status-seal SHA recorded in canonical state
 - Coverage: 24h NOT_COVERED; 7d COVERED; 30d SOURCE_ONLY_NOT_COVERED
 - 7d: OAI 5,149 exact / 2,008 category IDs; Atom 2,007; 2,145 shared category pairs, 0 diff; 12/12 main-trunk queries pass; 0 high-signal unclassified
 - 30d: OAI 29,533 exact / 12,256 category IDs; Atom 12,256; 12,996 shared category pairs, 0 diff; 1,529 high-signal, 1,159 classified, 328 fetch-ready
