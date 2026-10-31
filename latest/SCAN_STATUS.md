@@ -1,3 +1,38 @@
+# Physical AI Serving Radar — Scan Status (2026-10-31 09:58 CST)
+
+Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0958
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+
+- 24h: NOT_COVERED; OAI page-0 failure; Atom direct exact=0/INCOMPLETE; official first-party /new+/abs fallback 40/40 outside exact, 0 exact, 0 unresolved at 09:50.
+- 7d: Atom direct PASS/source-only, 2,165 unique; current OAI failed; last-good 5,732 exact/2,246 unique retained.
+- 30d: Atom direct PASS/source-only, 12,741 unique; current OAI failed; last-good 30,947 exact/12,887 unique retained.
+- SYS-first: official arXiv Atom API 20/20 abstracts fetched and adjudicated; 20 new unique decisions; classes {"ALG_INSPIRATION": 3, "WATCH_ONLY": 13, "SYS_ALG_BOUNDARY": 4}; next abstract batch=20 from updated 30d frontier.
+- PDF: 455 valid/0 invalid/4 pending; no PDF inspection in this checkpoint. PAPER_MANIFEST=261; formal promotions=0.
+- 11 CORE_SYS candidate PDFs remain full-text-valid from 09:50; author repo/reproduction/deployment-SLO gates remain open where not verified. Robion seed PASS.
+- Public sync PENDING; remote master baseline 99760b816181e73fe0924bdc2d03ed7630cc598e; no remote SHA advancement claimed.
+- Resume: public sync; next 20 abstracts; repo/reproduction/SLO; OAI after cooldown; four historical PDF blockers; reverse-neighborhood/venue/project closure.
+
+---
+
+# Physical AI Serving Radar — Scan Status (2026-10-31 09:50 CST)
+
+Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0950
+
+Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+
+- 24h: NOT_COVERED; OAI page-0 failure; Atom direct exact=0/INCOMPLETE; official first-party /new+/abs fallback 40/40 outside exact, 0 exact, 0 unresolved.
+- 7d: Atom direct PASS/source-only, 2,165 unique; current OAI failed; last-good 5,732 exact/2,246 unique retained.
+- 30d: Atom direct PASS/source-only, 12,741 unique; current OAI failed; last-good 30,947 exact/12,887 unique retained.
+- SYS-first: 20 official /abs abstracts adjudicated + six /new HTML leads; 22 new unique decisions, four rechecks. Exact next 30d abstract-fetch frontier=20.
+- PDF: 455 valid/0 invalid/4 pending; 10 full-text inspections, 4 new valid records. PAPER_MANIFEST=261; formal promotions=0.
+- 11 CORE_SYS candidate PDFs are valid; author repos verified for Feather/Koala and previously for PDScope; reproduction/deployment/SLO gates remain open. KerColle/Streaming-WAM/HarnessPAI are already in manifest; no new gate closure.
+- Robion arXiv:2609.12075 permanent recall seed PASS.
+- Public sync PENDING; remote master baseline 99760b816181e73fe0924bdc2d03ed7630cc598e; no remote SHA advancement claimed.
+- Resume: public sync; exact next 20; repo/reproduction/SLO; OAI after cooldown; four historical PDF blockers.
+
+---
+
 # Physical AI Serving Radar — Scan Status (2026-10-31 09:00 CST)
 
 Checkpoint ID: PHYSICAL_AI_SERVING_20261031_0900
