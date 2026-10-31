@@ -1,4 +1,19 @@
 # Physical AI Serving Radar — scan status
+- Latest checkpoint: PHYSICAL_AI_SERVING_20261101_0329 (2026-11-01 03:29 CST)
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / 7D_COVERED / 24H_NOT_COVERED / 30D_SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Source coverage: 24h NOT_COVERED; 7d COVERED; 30d SOURCE_ONLY_NOT_COVERED.
+- Direct census: 7d OAI 5,149 exact / 2,008 category IDs, Atom 2,007; 2,145 shared category pairs, 0 diff; 12/12 main-trunk queries pass. 30d OAI 29,533 exact / 12,256 IDs, Atom 12,256; 12,996 shared category pairs, 0 diff.
+- 24h fallback: OAI exact=0; Atom direct census INCOMPLETE=0; /new 5/5, Atom id_list 65/65, /abs 55/65 HTTP 200, 10 timeouts; discovery-only.
+- Semantic: 82 new decisions; cumulative unique adjudicated IDs 1,520; 12 new CORE_SYS candidates unpromoted; 0 formal promotions.
+- PDF: 544 valid / 0 invalid / 4 pending; 12/12 new CORE_SYS fulltext checks PASS; cumulative candidate fulltext 67/68 valid, 1 historical failure; CORE_SYS fulltext valid=50; PAPER_MANIFEST=261 unchanged.
+- New candidate evidence: TideKV official PDF/fulltext PASS, no author-linked repo verified; TontaubeV1 official PDF/fulltext and public vLLM repo/tests verified, but weights use a custom license and paper-v2/repo-v1.0.0 alignment is unverified; no independent reproduction.
+- Named frontier: Streaming-WAM code/checkpoint available, PR4 open; HarnessPAI code available; NavGPT-3 simulator code available, deployment runtime pending; TWS repo private; OxyGen CORE_SYS/public already closed, independent reproduction pending.
+- Public sync: pending; remote before=b5adfcd48af984156539553878ac122143b315d9; status seal follows independent remote SHA verification.
+- Scheduler: task remains enabled; current run in progress; next-run time not verified; no disable/replacement/duplicate.
+- Next: repair scheduler incident; fetch next 20 IDs from NEXT_FETCH_READY_0329.json; retry 24h after next official announcement; complete 30d reverse/semantic closure; continue independent candidate evidence gates.
+
+## Previous checkpoints
+- Latest checkpoint: PHYSICAL_AI_SERVING_20261101_0315 (2026-11-01 03:15 CST)
 - Latest checkpoint: PHYSICAL_AI_SERVING_20261101_0124 (2026-11-01 01:24 CST)
 - Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - Source coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED.

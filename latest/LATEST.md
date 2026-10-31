@@ -1,4 +1,18 @@
 # Physical AI Serving Radar — latest
+- Checkpoint: PHYSICAL_AI_SERVING_20261101_0329 (2026-11-01 03:29 CST)
+- Status: PUBLIC_SYNC_PENDING — status seal follows independent remote SHA verification
+- Coverage: 24h NOT_COVERED; 7d COVERED; 30d SOURCE_ONLY_NOT_COVERED
+- 7d: OAI 5,149 exact / 2,008 category IDs; Atom 2,007; 2,145 shared category pairs, 0 diff; 12/12 main-trunk queries pass; 0 high-signal unclassified
+- 30d: OAI 29,533 exact / 12,256 category IDs; Atom 12,256; 12,996 shared category pairs, 0 diff; 1,529 high-signal, 1,159 classified, 328 fetch-ready
+- Semantics: 82 new decisions; 12 new CORE_SYS candidates unpromoted; 0 formal promotions
+- Candidate evidence: 12/12 new CORE_SYS fulltext checks valid; 544 PDFs valid, 0 invalid, 4 pending; 261 papers in manifest unchanged
+- New candidates: TideKV and TontaubeV1; Tontaube vLLM streaming repo verified, weights use custom license; no independent reproduction
+- Robion arXiv:2609.12075 recall regression PASS
+- Scheduler: task remains enabled; next trigger not verified
+- Public sync seal: see latest/SCAN_STATUS.md after independent remote SHA verification
+
+## Previous checkpoints
+- Checkpoint: PHYSICAL_AI_SERVING_20261101_0315 (2026-11-01 03:15 CST)
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_0124 (2026-11-01 01:24 CST)
 - Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - 24h: NOT_COVERED; OAI PASS exact=0/unique=0; Atom INCOMPLETE=0. Official /new 5/5, 896 entries; Atom id_list 65/65 HTTP 200 exact=0; bounded /abs 55/65 HTTP 200, 10 timeouts; discovery-only.
