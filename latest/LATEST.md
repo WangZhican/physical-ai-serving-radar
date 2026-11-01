@@ -6,9 +6,11 @@
 - SYS-first: 1,634 artifact-derived semantic IDs; 62 raw decisions and 38 unique-count delta since 1046. High-signal 7d=76 and 30d=496; unclassified=0 after manifest/semantic exclusion. Main-trunk 22/22 PASS, 96 in-window, 33 outside direct census, 0 new IDs vs 1100. 120 class conflicts / 0 classless; canonical class counts remain unreconciled.
 - Candidate/PDF: 22 current PDF/fulltext validations valid; 14 IDs absent from prior inspection artifacts, 8 repeat IDs. Four CORE_SYS candidate labels (2512.15773, 2610.34519, 2610.34717, 2610.35529) remain unpromoted; all four have classification conflicts and PDF rechecks pass, but no new unique candidate PDF ID. Eight repository metadata checks passed; independent reproductions=0; deployment/SLO gates=0. Five candidate PDFs newly registered; PDF manifest 569 valid / 0 invalid / 4 pending. PAPER_MANIFEST=261 unchanged; formal promotions=0.
 - Named frontier: KerColle / Streaming-WAM / HarnessPAI / NavGPT-3 / TWS / OxyGen remain open; PR4 API open/unmerged; no gate closed. Robion arXiv:2609.12075 recall seed PASS, outside rolling 30d.
-- Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 1a5fe186bff1d0985bfe3b29340ed1d846c9743f independently verified; status-seal commit pending independent verification; final remote SHA will be recorded in canonical state.
+- Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 1a5fe186bff1d0985bfe3b29340ed1d846c9743f and status-seal commit 7e69607850e93c642387cd7713a8608fc2dc5698 independently verified; final remote SHA will be recorded in canonical state.
 ## Previous checkpoint detail
 
+
+## Previous checkpoint detail
 
 ## Previous checkpoint detail
 

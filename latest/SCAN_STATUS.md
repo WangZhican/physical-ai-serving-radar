@@ -8,7 +8,7 @@
 - Candidate/PDF: 22 current PDF validations valid; 14 new IDs absent prior inspection artifacts, 8 repeat IDs. Four candidate labels remain unpromoted and conflicted; 8 repo metadata checks pass; no reproduction or deployment/SLO gate. Five new PDFs registered; PDF manifest 569/0/4; PAPER_MANIFEST 261 unchanged; formal promotions=0.
 - Named evidence: KerColle, Streaming-WAM, HarnessPAI, NavGPT-3, TWS, OxyGen remain open; no gate closed. Robion seed PASS, outside current 30d.
 - Integrity: hourly progress, source coverage, discovery state, daily scan and public heartbeat are being reconciled to this checkpoint; no stale 1046 state is treated as healthy.
-- Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 1a5fe186bff1d0985bfe3b29340ed1d846c9743f independently verified; status-seal commit pending independent verification; final remote SHA will be recorded in canonical state.
+- Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 1a5fe186bff1d0985bfe3b29340ed1d846c9743f and status-seal commit 7e69607850e93c642387cd7713a8608fc2dc5698 independently verified; final remote SHA will be recorded in canonical state.
 - Resume frontier: scheduler incident; retry OAI after next official announcement/cooldown; reconcile the 120 classification conflicts; continue named/candidate evidence gates; resolve 4 pending PDF records.
 
 
