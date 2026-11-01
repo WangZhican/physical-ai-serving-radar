@@ -1,15 +1,15 @@
 ## PHYSICAL_AI_SERVING_20261101_1046 — 2026-11-01 10:46 CST
-- Latest checkpoint: PHYSICAL_AI_SERVING_20261101_1046 (2026-11-01 10:46 CST)
-- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
-- Source coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED.
-- Direct census: 7d Atom 1,941 unique; last-good OAI shared overlap 1,941/1,941 IDs and 2,076 pairs, pair diff=0; 30d Atom 12,136 unique; last-good OAI shared overlap 12,136/12,136 IDs and 12,866 pairs, pair diff=0. Current OAI retries failed page 0; edge intervals remain open.
-- 24h first-party: /new 5/5; Atom id_list 65/65 exact=0; /abs 56/65, 9 timeouts; latest verified version outside 24h. Discovery only.
-- SYS-first: 1,596 unique semantic IDs; 0 new this checkpoint; 12-query main-trunk 12/12 PASS, 86 in-window, 27 outside direct, 0 new IDs.
-- Candidate evidence: 77/77 fulltext valid; 3 author-linked repo routes verified; 0 independent reproduction/deployment-SLO gates; 0 promotions.
-- Inventory: PAPER_MANIFEST=261 unchanged; PDF manifest 564 valid / 0 invalid / 4 pending; Robion seed PASS.
-- Public sync: PUBLIC_SYNC_PENDING; remote master baseline 2f013ac69c2668dfbe4d7441a9f67373144cb5fc; local files are not remote sync.
-- Automation: enabled/expected-active; last scheduled run failed; next_run_time=null; hourly recurrence unsupported by exposed API; no disable/duplicate.
-- Resume: public push/remote SHA; scheduler incident; source retry after announcement/cooldown; candidate/named evidence gates.
+- State: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
+- Direct source coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED. Current OAI page-0 retries timed out; Atom 7d/30d source census passed; shared-window last-good pairs match but edge intervals and coverage closure remain open.
+- Live official /new pages: 5/5; current listing Friday 30 Oct; 888 category entries (not deduplicated); latest verified version 2610.40654 at 2026-10-29 17:59:49 UTC, outside 24h. Atom id_list 65/65 exact=0; bounded /abs 56/65 with 9 timeouts.
+- SYS-first: 460 30d high-signal, 387 older-than-7d, 0 unclassified; 34 new semantic IDs since 0329 and 13 new CORE_SYS candidates. 1,596 artifact-derived IDs; 151 class conflicts / 62 classless records keep canonical class-count reconciliation open.
+- Candidate/PDF: 77 unique candidate fulltext checks, 77 valid, 0 failed; CORE_SYS fulltext valid=54. PDF manifest 564/0/4; PAPER_MANIFEST 261 unchanged; formal promotions=0.
+- Named evidence: Streaming-WAM PR4 remains open/unmerged; HarnessPAI, NavGPT-3, TWS, OxyGen and KerColle remain open. No new gate closed.
+- Integrity: latest daily scan, hourly progress, source coverage, discovery state and public heartbeat are aligned to this checkpoint; no stale 0329 state is treated as healthy.
+- Public sync: PUBLIC_SYNC_VERIFIED; heartbeat commit 31563fe6ffc5c53122e4aece607914503ff459e8 independently verified; status-seal commit will be independently verified and final SHA recorded in canonical state.
+- Resume frontier: source retry after cooldown/next official announcement; semantic conflict reconciliation; candidate repo/reproduction/SLO checks; 4 PDF pending records.
+
+
 ## Previous checkpoint detail
 
 ## Previous checkpoint detail
