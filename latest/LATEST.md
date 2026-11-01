@@ -1,4 +1,21 @@
 # Physical AI Serving Radar — latest
+- Checkpoint: PHYSICAL_AI_SERVING_20261101_1046 (2026-11-01 10:46 CST)
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED; coverage_closed=false.
+- Source: 24h OAI page-0 timeout, Atom direct incomplete exact=0; /new 5/5, id_list 65/65 exact=0, /abs 56/65 (9 timeouts). 7d Atom 1,941 unique; last-good OAI shared overlap 1,941/1,941 IDs, 2,076 category pairs match, pair diff=0; 7.344h edge intervals. 30d Atom 12,136 unique; last-good OAI shared overlap 12,136/12,136 IDs, 12,866 pairs match, pair diff=0; 7.341h edge intervals. Current OAI 7d/30d page-0 timeout; source-only, not coverage closure.
+- SYS-first: 1,596 artifact-derived semantic IDs; 34 new since 0329; 0 new this checkpoint; 13 new CORE_SYS candidates remain unpromoted. Main-trunk 12/12 PASS, 86 in-window, 27 outside direct census, 0 new IDs vs 0829. 151 class conflicts / 62 classless remain.
+- Candidate/PDF: 77/77 candidate fulltext valid; CORE_SYS=54; PDF manifest 564 valid / 0 invalid / 4 pending; PAPER_MANIFEST=261 unchanged; formal promotions=0.
+- Named frontier: KerColle / Streaming-WAM / HarnessPAI / NavGPT-3 / TWS / OxyGen open; PR4 API open/unmerged; no gate closed. Robion arXiv:2609.12075 permanent recall seed PASS.
+- Public sync: PUBLIC_SYNC_PENDING; remote master baseline 2f013ac69c2668dfbe4d7441a9f67373144cb5fc; local heartbeat is not remote sync.
+- Automation: enabled/expected-active; last scheduled run failed at 2026-11-01 10:22 CST; next_run_time=null; hourly recurrence unsupported by exposed API; no disable/replacement/duplicate.
+- Resume: scoped public push/independent SHA; scheduler incident; 24h retry after next official announcement; 7d/30d OAI after cooldown; reconcile semantic conflicts; continue candidate/named evidence gates.
+## Previous checkpoint detail
+
+## Previous checkpoint detail
+
+## Previous checkpoint detail
+
+# Physical AI Serving Radar — latest
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_0859 (2026-11-01 08:59 CST)
 - Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - Coverage: 24h NOT_COVERED; 7d IN_PROGRESS_NOT_COVERED; 30d IN_PROGRESS_NOT_COVERED; coverage_closed=false.
@@ -14,8 +31,6 @@
 - Scheduler: task remains enabled/expected-active; next_run_time=null; exposed scheduling API lacks hourly recurrence; incident open. No disable, replacement, or duplicate.
 - Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 9d3c27faaf16067391d58aa56e4afa66910b5e03 independently verified; final status-seal SHA will be recorded in canonical state.
 - Resume: retry 24h exact census after next official announcement (expected 2026-11-02 around 08:00 CST) and OAI 7d/30d after cooldown; reconcile 151 classification conflicts / 62 classless records; continue candidate repo/reproduction/SLO gates; 4 historical PDF blockers remain.
-
-## Previous checkpoint detail
 
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_0651 (2026-11-01 06:51 CST)
 - Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT

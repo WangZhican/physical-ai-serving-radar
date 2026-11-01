@@ -1,3 +1,19 @@
+## PHYSICAL_AI_SERVING_20261101_1046 — 2026-11-01 10:46 CST
+- Latest checkpoint: PHYSICAL_AI_SERVING_20261101_1046 (2026-11-01 10:46 CST)
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Source coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED.
+- Direct census: 7d Atom 1,941 unique; last-good OAI shared overlap 1,941/1,941 IDs and 2,076 pairs, pair diff=0; 30d Atom 12,136 unique; last-good OAI shared overlap 12,136/12,136 IDs and 12,866 pairs, pair diff=0. Current OAI retries failed page 0; edge intervals remain open.
+- 24h first-party: /new 5/5; Atom id_list 65/65 exact=0; /abs 56/65, 9 timeouts; latest verified version outside 24h. Discovery only.
+- SYS-first: 1,596 unique semantic IDs; 0 new this checkpoint; 12-query main-trunk 12/12 PASS, 86 in-window, 27 outside direct, 0 new IDs.
+- Candidate evidence: 77/77 fulltext valid; 3 author-linked repo routes verified; 0 independent reproduction/deployment-SLO gates; 0 promotions.
+- Inventory: PAPER_MANIFEST=261 unchanged; PDF manifest 564 valid / 0 invalid / 4 pending; Robion seed PASS.
+- Public sync: PUBLIC_SYNC_PENDING; remote master baseline 2f013ac69c2668dfbe4d7441a9f67373144cb5fc; local files are not remote sync.
+- Automation: enabled/expected-active; last scheduled run failed; next_run_time=null; hourly recurrence unsupported by exposed API; no disable/duplicate.
+- Resume: public push/remote SHA; scheduler incident; source retry after announcement/cooldown; candidate/named evidence gates.
+## Previous checkpoint detail
+
+## Previous checkpoint detail
+
 ## PHYSICAL_AI_SERVING_20261101_0859 — 2026-11-01 08:59 CST
 - State: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - Direct source coverage: 24h NOT_COVERED; 7d and 30d IN_PROGRESS_NOT_COVERED. OAI current retries timed out; Atom 7d/30d passed source census but exact cross-source reconciliation is not closed.
@@ -8,8 +24,6 @@
 - Integrity: latest daily scan, hourly progress, source coverage, discovery state and public heartbeat are being sealed to this checkpoint; no stale 0329 state is treated as healthy.
 - Public sync: PUBLIC_SYNC_VERIFIED; heartbeat commit 9d3c27faaf16067391d58aa56e4afa66910b5e03 is independently verified..
 - Resume frontier: source retry after cooldown/next official announcement; semantic conflict reconciliation; candidate repo/reproduction/SLO checks; 4 PDF pending records.
-
-## Previous checkpoint detail
 
 - Latest checkpoint: PHYSICAL_AI_SERVING_20261101_0651 (2026-11-01 06:51 CST)
 - Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
