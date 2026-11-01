@@ -1,6 +1,6 @@
 # Physical AI Serving Radar — latest
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_0859 (2026-11-01 08:59 CST)
-- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - Coverage: 24h NOT_COVERED; 7d IN_PROGRESS_NOT_COVERED; 30d IN_PROGRESS_NOT_COVERED; coverage_closed=false.
 - Live official arXiv /new: 5/5 pages; listing Friday 30 Oct 2026; category entries sum to 888 (cs.DC 50, cs.AR 32, cs.PF 9, cs.RO 189, cs.LG 608; not deduplicated). Latest verified version 2610.40654 at 2026-10-29 17:59:49 UTC, outside the rolling 24h.
 - Source: 24h OAI page-0 timeout; Atom direct census INCOMPLETE with exact=0. 7d Atom PASS 1,952 unique; OAI partial 1,300 records/exact=0/page-1 timeout; 1,315 category-membership differences and 5.96h trailing gap. 30d Atom PASS 12,148 unique; OAI page-0 timeout; last-good shared overlap 12,148/12,148 IDs, zero category-pair differences, 6.13h trailing gap. Coverage remains NOT_COVERED/IN_PROGRESS.
@@ -12,7 +12,7 @@
 - Named frontier: KerColle / Streaming-WAM / HarnessPAI / NavGPT-3 / TWS / OxyGen remain open; Streaming-WAM PR4 is open/unmerged; no gate closed.
 - Robion arXiv:2609.12075 permanent recall seed: PASS.
 - Scheduler: task remains enabled/expected-active; next_run_time=null; exposed scheduling API lacks hourly recurrence; incident open. No disable, replacement, or duplicate.
-- Public sync: PUBLIC_SYNC_PENDING. Heartbeat/status commit is pending independent remote-master verification.
+- Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 9d3c27faaf16067391d58aa56e4afa66910b5e03 independently verified; final status-seal SHA will be recorded in canonical state.
 - Resume: retry 24h exact census after next official announcement (expected 2026-11-02 around 08:00 CST) and OAI 7d/30d after cooldown; reconcile 151 classification conflicts / 62 classless records; continue candidate repo/reproduction/SLO gates; 4 historical PDF blockers remain.
 
 ## Previous checkpoint detail

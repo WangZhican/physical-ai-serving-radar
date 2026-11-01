@@ -1,12 +1,12 @@
 ## PHYSICAL_AI_SERVING_20261101_0859 — 2026-11-01 08:59 CST
-- State: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- State: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - Direct source coverage: 24h NOT_COVERED; 7d and 30d IN_PROGRESS_NOT_COVERED. OAI current retries timed out; Atom 7d/30d passed source census but exact cross-source reconciliation is not closed.
 - Live official /new pages: 5/5; Friday 30 Oct listing; 888 category entries (not deduplicated); no exact-window version. Previous parser total 896 differs by 8 entries and remains an audit note.
 - SYS-first: 460 30d high-signal, 387 older-than-7d, 0 unclassified; 34 new unique semantic IDs and 13 new CORE_SYS candidates. 1,596 artifact-derived IDs; 151 class conflicts / 62 classless records keep canonical class-count reconciliation open.
 - Candidate/PDF: 77 unique candidate fulltext checks, 77 valid, 0 failed after resolving 2610.21249; CORE_SYS fulltext valid=54. PDF manifest 564/0/4; PAPER_MANIFEST 261 unchanged; formal promotions=0. FlashDiff v3 validated.
 - Named evidence: Streaming-WAM PR4 remains open/unmerged; HarnessPAI, NavGPT-3, TWS, OxyGen and KerColle remain open. No new gate closed.
 - Integrity: latest daily scan, hourly progress, source coverage, discovery state and public heartbeat are being sealed to this checkpoint; no stale 0329 state is treated as healthy.
-- Public sync: PUBLIC_SYNC_PENDING; remote SHA verification pending.
+- Public sync: PUBLIC_SYNC_VERIFIED; heartbeat commit 9d3c27faaf16067391d58aa56e4afa66910b5e03 is independently verified..
 - Resume frontier: source retry after cooldown/next official announcement; semantic conflict reconciliation; candidate repo/reproduction/SLO checks; 4 PDF pending records.
 
 ## Previous checkpoint detail
