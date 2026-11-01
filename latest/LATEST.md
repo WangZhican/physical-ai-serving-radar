@@ -1,4 +1,22 @@
 # Physical AI Serving Radar — latest
+- Checkpoint: PHYSICAL_AI_SERVING_20261101_0859 (2026-11-01 08:59 CST)
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Coverage: 24h NOT_COVERED; 7d IN_PROGRESS_NOT_COVERED; 30d IN_PROGRESS_NOT_COVERED; coverage_closed=false.
+- Live official arXiv /new: 5/5 pages; listing Friday 30 Oct 2026; category entries sum to 888 (cs.DC 50, cs.AR 32, cs.PF 9, cs.RO 189, cs.LG 608; not deduplicated). Latest verified version 2610.40654 at 2026-10-29 17:59:49 UTC, outside the rolling 24h.
+- Source: 24h OAI page-0 timeout; Atom direct census INCOMPLETE with exact=0. 7d Atom PASS 1,952 unique; OAI partial 1,300 records/exact=0/page-1 timeout; 1,315 category-membership differences and 5.96h trailing gap. 30d Atom PASS 12,148 unique; OAI page-0 timeout; last-good shared overlap 12,148/12,148 IDs, zero category-pair differences, 6.13h trailing gap. Coverage remains NOT_COVERED/IN_PROGRESS.
+- SYS-first: 460 30d high-signal / 387 older-than-7d / 0 unclassified; 34 new semantic IDs since 0329; 13 new CORE_SYS candidates; 1,596 artifact-derived semantic IDs. Class counts remain under reconciliation (151 classification conflicts, 62 classless records).
+- Serving findings: DWISE (dLLM scheduler; paper-reported 5.4× average / 14.9× max latency reduction), Accelerated Dataflow (streaming LLM inference; paper-reported 1.5–2× throughput, up to 75% peak resource savings, 84% lower peak tail latency), ConfluxServe (1.26–1.62× goodput), Shared Context Separate Engines (2.48× serial throughput), FlashDiff v3 (30–97% latency reduction, 1.2–2.2× throughput). These are paper-reported, not independently reproduced.
+- Boundary/watch: on-device VLM NPU measurement, QbD-VLA, VLA-Corrector, GenSight/WorldFlow, and LocoManiLab are characterization/algorithm/testbed signals, not reusable serving-runtime promotions.
+- PDF/evidence: 564 valid / 0 invalid / 4 pending; candidate fulltext 77 unique checks / 77 valid / 0 failed; CORE_SYS fulltext valid=54; PAPER_MANIFEST=261 unchanged; formal promotions=0. FlashDiff latest v3 PDF/fulltext PASS; legacy path/version metadata corrected.
+- Candidate evidence: no author-linked implementation, independent reproduction, or workload-specific deployment SLO verified for DWISE, Accelerated Dataflow, ConfluxServe, or FlashDiff. QbD-VLA has an official code route but is algorithmic, not a serving runtime.
+- Named frontier: KerColle / Streaming-WAM / HarnessPAI / NavGPT-3 / TWS / OxyGen remain open; Streaming-WAM PR4 is open/unmerged; no gate closed.
+- Robion arXiv:2609.12075 permanent recall seed: PASS.
+- Scheduler: task remains enabled/expected-active; next_run_time=null; exposed scheduling API lacks hourly recurrence; incident open. No disable, replacement, or duplicate.
+- Public sync: PUBLIC_SYNC_PENDING. Heartbeat/status commit is pending independent remote-master verification.
+- Resume: retry 24h exact census after next official announcement (expected 2026-11-02 around 08:00 CST) and OAI 7d/30d after cooldown; reconcile 151 classification conflicts / 62 classless records; continue candidate repo/reproduction/SLO gates; 4 historical PDF blockers remain.
+
+## Previous checkpoint detail
+
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_0651 (2026-11-01 06:51 CST)
 - Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
 - Coverage: 24h NOT_COVERED; 7d IN_PROGRESS_NOT_COVERED; 30d IN_PROGRESS_NOT_COVERED
@@ -12,7 +30,7 @@
 - Robion arXiv:2609.12075 permanent recall regression PASS
 - Scheduler: enabled/expected-active; next_run_time=null; hourly recurrence unsupported; incident open
 - Public sync: VERIFIED; checkpoint heartbeat/status commit cdaea4c7e2f385860b6c2049224fa99396505175; remote master SHA independently verified
-## Previous checkpoint detail
+
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_0329 (2026-11-01 03:29 CST)
 - Status: PUBLIC_SYNC_VERIFIED — heartbeat commit 7b5d3bc148e011c13c96b8c72e73843e50e79d8b; final status-seal SHA recorded in canonical state
 - Coverage: 24h NOT_COVERED; 7d COVERED; 30d SOURCE_ONLY_NOT_COVERED
