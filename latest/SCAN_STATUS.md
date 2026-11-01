@@ -1,5 +1,5 @@
 ## PHYSICAL_AI_SERVING_20261101_1143 — 2026-11-01 11:49 CST
-- State: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+- State: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED
 - Direct source coverage: 24h NOT_COVERED (OAI page-0 timeout, Atom exact=0); 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED. OAI last-good shared intervals match the current Atom ID/pair sets, but the trailing Atom edges and sibling/reverse/venue/project closure remain open.
 - Live official /new pages: 5/5; bounded /abs 65/65; Atom id_list 65/65; exact 24h=0. Latest version 2610.40654 at 2026-10-29 17:59:49 UTC, outside the 24h window.
 - 7d: Atom 1,929 unique; last-good OAI shared interval 159.6037h, IDs 1,929/1,929 and category pairs 2,063/2,063; 8.3963h trailing Atom interval remains.
@@ -8,7 +8,7 @@
 - Candidate/PDF: 22 current PDF validations valid; 14 new IDs absent prior inspection artifacts, 8 repeat IDs. Four candidate labels remain unpromoted and conflicted; 8 repo metadata checks pass; no reproduction or deployment/SLO gate. Five new PDFs registered; PDF manifest 569/0/4; PAPER_MANIFEST 261 unchanged; formal promotions=0.
 - Named evidence: KerColle, Streaming-WAM, HarnessPAI, NavGPT-3, TWS, OxyGen remain open; no gate closed. Robion seed PASS, outside current 30d.
 - Integrity: hourly progress, source coverage, discovery state, daily scan and public heartbeat are being reconciled to this checkpoint; no stale 1046 state is treated as healthy.
-- Public sync: PUBLIC_SYNC_PENDING. Heartbeat commit pending independent verification; status-seal commit pending; final remote SHA will be recorded in canonical state.
+- Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 1a5fe186bff1d0985bfe3b29340ed1d846c9743f independently verified; status-seal commit pending independent verification; final remote SHA will be recorded in canonical state.
 - Resume frontier: scheduler incident; retry OAI after next official announcement/cooldown; reconcile the 120 classification conflicts; continue named/candidate evidence gates; resolve 4 pending PDF records.
 
 

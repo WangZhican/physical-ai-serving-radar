@@ -1,14 +1,16 @@
 # Physical AI Serving Radar — latest
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_1143 (2026-11-01 11:49 CST)
-- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED
 - Coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED; coverage_closed=false.
 - Source: OAI-PMH page-0 timed out at 11:37 (24h) and 11:39 (7d/30d); Atom direct 24h all five categories returned 0 exact-window records. Official arXiv /new 5/5, bounded /abs 65/65, Atom id_list 65/65; latest version 2610.40654 at 2026-10-29 17:59:49 UTC, outside 24h. 7d Atom 1,929 unique; last-good OAI shared interval 159.6037h, 1,929/1,929 IDs and 2,063/2,063 category pairs match; 8.3963h Atom trailing interval remains. 30d Atom 12,113 unique; last-good OAI shared interval 711.6166h, 12,113/12,113 IDs and 12,841/12,841 pairs match; 8.3834h Atom trailing interval remains. These are source-only, not coverage closure.
 - SYS-first: 1,634 artifact-derived semantic IDs; 62 raw decisions and 38 unique-count delta since 1046. High-signal 7d=76 and 30d=496; unclassified=0 after manifest/semantic exclusion. Main-trunk 22/22 PASS, 96 in-window, 33 outside direct census, 0 new IDs vs 1100. 120 class conflicts / 0 classless; canonical class counts remain unreconciled.
 - Candidate/PDF: 22 current PDF/fulltext validations valid; 14 IDs absent from prior inspection artifacts, 8 repeat IDs. Four CORE_SYS candidate labels (2512.15773, 2610.34519, 2610.34717, 2610.35529) remain unpromoted; all four have classification conflicts and PDF rechecks pass, but no new unique candidate PDF ID. Eight repository metadata checks passed; independent reproductions=0; deployment/SLO gates=0. Five candidate PDFs newly registered; PDF manifest 569 valid / 0 invalid / 4 pending. PAPER_MANIFEST=261 unchanged; formal promotions=0.
 - Named frontier: KerColle / Streaming-WAM / HarnessPAI / NavGPT-3 / TWS / OxyGen remain open; PR4 API open/unmerged; no gate closed. Robion arXiv:2609.12075 recall seed PASS, outside rolling 30d.
-- Public sync: PUBLIC_SYNC_PENDING. Heartbeat commit pending independent verification; status-seal commit pending; final remote SHA will be recorded in canonical state.
+- Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 1a5fe186bff1d0985bfe3b29340ed1d846c9743f independently verified; status-seal commit pending independent verification; final remote SHA will be recorded in canonical state.
 ## Previous checkpoint detail
 
+
+## Previous checkpoint detail
 
 ## Previous checkpoint detail
 
