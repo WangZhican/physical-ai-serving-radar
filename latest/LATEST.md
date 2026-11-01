@@ -6,7 +6,7 @@
 - SYS-first: 1,596 artifact-derived semantic IDs; 34 new since 0329; 0 new this checkpoint; 13 new CORE_SYS candidates remain unpromoted. Main-trunk 12/12 PASS, 86 in-window, 27 outside direct census, 0 new IDs vs 0829. 151 class conflicts / 62 classless remain.
 - Candidate/PDF: 77/77 candidate fulltext valid; CORE_SYS=54; PDF manifest 564 valid / 0 invalid / 4 pending; PAPER_MANIFEST=261 unchanged; formal promotions=0.
 - Named frontier: KerColle / Streaming-WAM / HarnessPAI / NavGPT-3 / TWS / OxyGen open; PR4 API open/unmerged; no gate closed. Robion arXiv:2609.12075 permanent recall seed PASS.
-- Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 31563fe6ffc5c53122e4aece607914503ff459e8 and status-seal commit 2e0ca8b61f2bfb2d17f0c6cb35a39766b16bb1ba independently ls-remote verified; final status commit is being pushed and its SHA will be recorded in canonical state.
+- Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 31563fe6ffc5c53122e4aece607914503ff459e8, status-seal commit 2e0ca8b61f2bfb2d17f0c6cb35a39766b16bb1ba, and sync-note commit 9a02589793c580a1dcb26c2d281bc4c918941b5f independently ls-remote verified; the checkpoint's current remote master SHA is recorded in canonical state after final independent verification.
 - Automation: enabled/expected-active; last scheduled run failed at 2026-11-01 10:22 CST; next_run_time=null; hourly recurrence unsupported by exposed API; no disable/replacement/duplicate.
 - Resume: scheduler incident; 24h retry after next official announcement; 7d/30d OAI after cooldown; reconcile semantic conflicts; continue candidate/named evidence gates.
 ## Previous checkpoint detail
