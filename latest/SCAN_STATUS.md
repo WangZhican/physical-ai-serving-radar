@@ -1,3 +1,19 @@
+## PHYSICAL_AI_SERVING_20261101_1143 — 2026-11-01 11:49 CST
+- State: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+- Direct source coverage: 24h NOT_COVERED (OAI page-0 timeout, Atom exact=0); 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED. OAI last-good shared intervals match the current Atom ID/pair sets, but the trailing Atom edges and sibling/reverse/venue/project closure remain open.
+- Live official /new pages: 5/5; bounded /abs 65/65; Atom id_list 65/65; exact 24h=0. Latest version 2610.40654 at 2026-10-29 17:59:49 UTC, outside the 24h window.
+- 7d: Atom 1,929 unique; last-good OAI shared interval 159.6037h, IDs 1,929/1,929 and category pairs 2,063/2,063; 8.3963h trailing Atom interval remains.
+- 30d: Atom 12,113 unique; last-good OAI shared interval 711.6166h, IDs 12,113/12,113 and category pairs 12,841/12,841; 8.3834h trailing Atom interval remains.
+- SYS-first: 1,634 artifact-derived semantic IDs; 62 raw decisions, 38 unique-count delta since 1046; 120 class conflicts / 0 classless. High-signal 7d=76, 30d=496, unclassified=0 after manifest-known exclusion. Canonical class-count reconciliation remains open.
+- Candidate/PDF: 22 current PDF validations valid; 14 new IDs absent prior inspection artifacts, 8 repeat IDs. Four candidate labels remain unpromoted and conflicted; 8 repo metadata checks pass; no reproduction or deployment/SLO gate. Five new PDFs registered; PDF manifest 569/0/4; PAPER_MANIFEST 261 unchanged; formal promotions=0.
+- Named evidence: KerColle, Streaming-WAM, HarnessPAI, NavGPT-3, TWS, OxyGen remain open; no gate closed. Robion seed PASS, outside current 30d.
+- Integrity: hourly progress, source coverage, discovery state, daily scan and public heartbeat are being reconciled to this checkpoint; no stale 1046 state is treated as healthy.
+- Public sync: PUBLIC_SYNC_PENDING. Heartbeat commit pending independent verification; status-seal commit pending; final remote SHA will be recorded in canonical state.
+- Resume frontier: scheduler incident; retry OAI after next official announcement/cooldown; reconcile the 120 classification conflicts; continue named/candidate evidence gates; resolve 4 pending PDF records.
+
+
+## Previous checkpoint detail
+
 ## PHYSICAL_AI_SERVING_20261101_1046 — 2026-11-01 10:46 CST
 - State: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - Direct source coverage: 24h NOT_COVERED; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED. Current OAI page-0 retries timed out; Atom 7d/30d source census passed; shared-window last-good pairs match but edge intervals and coverage closure remain open.
@@ -8,9 +24,6 @@
 - Integrity: latest daily scan, hourly progress, source coverage, discovery state and public heartbeat are aligned to this checkpoint; no stale 0329 state is treated as healthy.
 - Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 31563fe6ffc5c53122e4aece607914503ff459e8, status-seal commit 2e0ca8b61f2bfb2d17f0c6cb35a39766b16bb1ba, and sync-note commit 9a02589793c580a1dcb26c2d281bc4c918941b5f independently ls-remote verified; the checkpoint's current remote master SHA is recorded in canonical state after final independent verification.
 - Resume frontier: scheduler incident; source retry after cooldown/next official announcement; semantic conflict reconciliation; candidate repo/reproduction/SLO checks; 4 PDF pending records.
-
-
-## Previous checkpoint detail
 
 ## Previous checkpoint detail
 
