@@ -6,8 +6,8 @@
 - Candidate/PDF: 77 unique candidate fulltext checks, 77 valid, 0 failed; CORE_SYS fulltext valid=54. PDF manifest 564/0/4; PAPER_MANIFEST 261 unchanged; formal promotions=0.
 - Named evidence: Streaming-WAM PR4 remains open/unmerged; HarnessPAI, NavGPT-3, TWS, OxyGen and KerColle remain open. No new gate closed.
 - Integrity: latest daily scan, hourly progress, source coverage, discovery state and public heartbeat are aligned to this checkpoint; no stale 0329 state is treated as healthy.
-- Public sync: PUBLIC_SYNC_VERIFIED; heartbeat commit 31563fe6ffc5c53122e4aece607914503ff459e8 independently verified; status-seal commit will be independently verified and final SHA recorded in canonical state.
-- Resume frontier: source retry after cooldown/next official announcement; semantic conflict reconciliation; candidate repo/reproduction/SLO checks; 4 PDF pending records.
+- Public sync: PUBLIC_SYNC_VERIFIED. Heartbeat commit 31563fe6ffc5c53122e4aece607914503ff459e8 and status-seal commit 2e0ca8b61f2bfb2d17f0c6cb35a39766b16bb1ba independently verified; final status commit is being pushed and its SHA will be recorded in canonical state.
+- Resume frontier: scheduler incident; source retry after cooldown/next official announcement; semantic conflict reconciliation; candidate repo/reproduction/SLO checks; 4 PDF pending records.
 
 
 ## Previous checkpoint detail
