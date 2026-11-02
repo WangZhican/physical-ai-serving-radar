@@ -2,7 +2,7 @@
 
 Latest checkpoint: PHYSICAL_AI_SERVING_20261102_1711
 
-Generated: 2026-11-02T15:16:45+08:00
+Generated: 2026-11-02T17:18:24+08:00
 
 ## Current status
 
@@ -10,14 +10,14 @@ Generated: 2026-11-02T15:16:45+08:00
 - 7d: SOURCE_ONLY_NOT_COVERED
 - 30d: SOURCE_ONLY_NOT_COVERED
 - 90d: BACKUP_ONLY
-- New semantic decisions since canonical 1014: 35 (24 at 1450 + 11 at 1505)
-- New CORE_SYS candidates this checkpoint: 0; 3 candidates from 1450 remain unpromoted
-- Candidate PDFs/fulltext: 3/3 valid; 49 unique candidate full PDFs reviewed
+- SYS-first: 35 cumulative semantic decisions since canonical 1014; 0 new this checkpoint; 0 new CORE_SYS candidates
+- Candidates: AMMA/HiState/REA remain unpromoted; 3/3 candidate PDFs/fulltext valid; 49 unique candidate PDFs reviewed; reproductions=0; deployment-SLO gates=0
+- Runtime: M* peer-loop correctness fix; vLLM-Omni #9712 merged; #9733 graph replay open with +31.4% c1/32 throughput, +5.1% c4/64, +0.9% c32/512; other serving PRs remain open
 - Formal promotions: 0
-- Public sync: PUBLIC_SYNC_VERIFIED (heartbeat commit 1bbd44b878bdf91405d3d5a4bb254389eb8c1a0b and status-seal commit 8a036df67520b6282db4da349403a7b9c16f062a pushed and independently ls-remote verified; final remote SHA recorded in canonical state)
-- Scheduler: original automation enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null.
+- Public sync: heartbeat commit 5d39898cf867e275f0fc85039199441e480d37b2 independently ls-remote verified; status-seal commit is being pushed and will be independently verified
+- Scheduler: original automation enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null
 
-See [latest hourly scan](hourly/2026-11-02-1511.md) and [scan status](SCAN_STATUS.md).
+See [latest hourly scan](hourly/2026-11-02-1711.md) and [scan status](SCAN_STATUS.md).
 
 ---
 
@@ -129,7 +129,7 @@ See [latest hourly scan](hourly/2026-11-02-1511.md) and [scan status](SCAN_STATU
 - Candidate: AMMA/HiState/REA remain unpromoted; REA repo is project page only; reproduction=0; deployment-SLO gates=0; four PDF blockers retained.
 - Runtime: M* correctness fix; vLLM-Omni #9712 merged; #9733 K-step Talker graph replay open with +31.4% c1/32 throughput, +5.1% c4/64, +0.9% c32/512; other serving/diffusion PRs remain open; no paper promotions.
 - Scheduler: original task enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null.
-- Public sync: heartbeat prepared locally; status seal follows push and independent ls-remote.
+- Public sync: heartbeat commit 5d39898cf867e275f0fc85039199441e480d37b2 independently ls-remote verified; status-seal commit is being pushed and will be independently verified.
 
 [Hourly scan](hourly/2026-11-02-1711.md) · [Scan status](SCAN_STATUS.md)
 
