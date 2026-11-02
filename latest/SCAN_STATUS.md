@@ -8,7 +8,7 @@ Generated: 2026-11-02T15:16:45+08:00
 - SYS-first: 35 new semantic decisions since canonical 1014; 11 first-party official-new abstracts reviewed this checkpoint; 0 new CORE_SYS; 0 promotions.
 - Candidate evidence: 3/3 official PDFs/fulltext valid; AMMA repo/license verified but no independent reproduction; HiState repo not found; REA repo website-only; 0 SLO gates closed.
 - Runtime: vLLM-Omni Qwen3-Omni MRv2; vLLM Kimi-K3 MI355X decode/MiMo encoder TP; SGLang PP correctness and decode/runtime deltas.
-- Public sync: PUBLIC_SYNC_VERIFIED; heartbeat commit 1bbd44b878bdf91405d3d5a4bb254389eb8c1a0b pushed and independently verified; status-seal commit is being pushed and independently verified; final remote SHA recorded in canonical state.
+- Public sync: PUBLIC_SYNC_VERIFIED; heartbeat commit 1bbd44b878bdf91405d3d5a4bb254389eb8c1a0b and status-seal commit 8a036df67520b6282db4da349403a7b9c16f062a pushed and independently ls-remote verified; final remote SHA recorded in canonical state.
 - Scheduler: original task enabled/expected-active; current run in_progress (liveness unproven); next_run_time=null; hourly recurrence unsupported by exposed API.
 
 [Latest checkpoint](LATEST.md) · [Hourly scan](hourly/2026-11-02-1511.md)

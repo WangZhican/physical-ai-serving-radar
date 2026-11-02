@@ -14,7 +14,7 @@ Generated: 2026-11-02T15:16:45+08:00
 - New CORE_SYS candidates this checkpoint: 0; 3 candidates from 1450 remain unpromoted
 - Candidate PDFs/fulltext: 3/3 valid; 49 unique candidate full PDFs reviewed
 - Formal promotions: 0
-- Public sync: PUBLIC_SYNC_VERIFIED (heartbeat commit 1bbd44b878bdf91405d3d5a4bb254389eb8c1a0b; final remote SHA recorded in canonical state)
+- Public sync: PUBLIC_SYNC_VERIFIED (heartbeat commit 1bbd44b878bdf91405d3d5a4bb254389eb8c1a0b and status-seal commit 8a036df67520b6282db4da349403a7b9c16f062a pushed and independently ls-remote verified; final remote SHA recorded in canonical state)
 - Scheduler: original automation enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null.
 
 See [latest hourly scan](hourly/2026-11-02-1511.md) and [scan status](SCAN_STATUS.md).
