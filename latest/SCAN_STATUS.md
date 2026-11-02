@@ -1,4 +1,21 @@
-# Scan Status — PHYSICAL_AI_SERVING_20261102_1511
+# Scan Status — PHYSICAL_AI_SERVING_20261102_1711
+
+Generated: 2026-11-02T17:17:36+08:00
+
+- Status: PARTIAL_SOURCE_SCAN_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Coverage: 24h NOT_COVERED_ZERO_EXACT; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED; 90d BACKUP_ONLY.
+- Source census: OAI 24h PASS exact=0; Atom 24h INCOMPLETE exact=0; OAI 168h/720h timeout; Atom 168h PASS 2,032 unique with 462 shared-window pair difference; Atom 720h HTTP429 partial 4,419.
+- SYS-first: official /new 5/5, 465 IDs, 23 title hits, 20 abstracts checked; 23/23 prior decisions; new semantic IDs=0; new CORE_SYS=0; promotions=0.
+- Candidate evidence: AMMA/HiState/REA remain unpromoted; REA repo is project page only; no reproduction/SLO gate; four pending PDFs retained.
+- Runtime: M* correctness fix; vLLM-Omni #9712 merged, #9733 graph replay open with +31.4% c1/32 throughput, +5.1% c4/64, +0.9% c32/512; other runtime PRs open.
+- Public sync: pending commit/push and independent remote SHA verification.
+- Scheduler: original task enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null.
+[Latest checkpoint](LATEST.md) · [Hourly scan](hourly/2026-11-02-1711.md)
+
+---
+
+## Previous status summary — PHYSICAL_AI_SERVING_20261102_1511
+
 
 Generated: 2026-11-02T15:16:45+08:00
 

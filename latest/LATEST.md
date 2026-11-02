@@ -1,6 +1,6 @@
 # Physical AI Serving Radar — Latest
 
-Latest checkpoint: PHYSICAL_AI_SERVING_20261102_1511
+Latest checkpoint: PHYSICAL_AI_SERVING_20261102_1711
 
 Generated: 2026-11-02T15:16:45+08:00
 
@@ -119,6 +119,22 @@ See [latest hourly scan](hourly/2026-11-02-1511.md) and [scan status](SCAN_STATU
 - Automation: enabled/expected-active; current run in progress; next_run_time=null; exposed API lacks hourly recurrence; scheduler incident.
 - Resume: public sync and scheduler incident; 24h source after next official announcement; 7d/30d reconciliation after cooldown; candidate evidence gates.
 ## Latest checkpoint detail
+
+# Physical AI Serving Radar — Latest checkpoint (2026-11-02 17:17 CST)
+
+- Checkpoint: PHYSICAL_AI_SERVING_20261102_1711
+- Coverage: 24h NOT_COVERED_ZERO_EXACT; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED; 90d BACKUP_ONLY.
+- Direct source: OAI 24h exact=0; Atom 24h INCOMPLETE exact=0. OAI 168h/720h timeout; Atom 168h PASS 2,032 unique but shared-window pair diff=462; Atom 720h HTTP429 partial 4,419.
+- First-party: official /new 5/5 pages, 465 IDs, 23 title hits; 20 abstracts checked; 23/23 prior decisions; new semantic IDs=0.
+- Candidate: AMMA/HiState/REA remain unpromoted; REA repo is project page only; reproduction=0; deployment-SLO gates=0; four PDF blockers retained.
+- Runtime: M* correctness fix; vLLM-Omni #9712 merged; #9733 K-step Talker graph replay open with +31.4% c1/32 throughput, +5.1% c4/64, +0.9% c32/512; other serving/diffusion PRs remain open; no paper promotions.
+- Scheduler: original task enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null.
+- Public sync: heartbeat prepared locally; status seal follows push and independent ls-remote.
+
+[Hourly scan](hourly/2026-11-02-1711.md) · [Scan status](SCAN_STATUS.md)
+
+## Previous latest checkpoint detail — PHYSICAL_AI_SERVING_20261102_1511
+
 - Source reconciliation: 7d 2,173 shared ID-category pairs / 2,034 IDs match; 30d 13,103 pairs / 12,356 IDs match; 0 pair differences; coverage remains source-only.
 - SYS-first frontier: 7d high-signal unclassified=259, abstract-ready=0; 30d high-signal total=464, older-than-7d=386, title leads not in manifest=344, abstract pending=0, fetch-ready=0.
 - PCLA-Bridge author-linked repository verified; no serving SLO or independent reproduction; no promotion.
