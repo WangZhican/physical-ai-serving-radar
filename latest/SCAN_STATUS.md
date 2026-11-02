@@ -8,7 +8,7 @@ Generated: 2026-11-02T17:17:36+08:00
 - SYS-first: official /new 5/5, 465 IDs, 23 title hits, 20 abstracts checked; 23/23 prior decisions; new semantic IDs=0; new CORE_SYS=0; promotions=0.
 - Candidate evidence: AMMA/HiState/REA remain unpromoted; REA repo is project page only; no reproduction/SLO gate; four pending PDFs retained.
 - Runtime: M* correctness fix; vLLM-Omni #9712 merged, #9733 graph replay open with +31.4% c1/32 throughput, +5.1% c4/64, +0.9% c32/512; other runtime PRs open.
-- Public sync: heartbeat commit 5d39898cf867e275f0fc85039199441e480d37b2 and status-seal commit 195f5cff7a72ff4123681f73cbae2778fab6df6f pushed and independently ls-remote verified; final remote master SHA is recorded in canonical state..
+- Public sync: heartbeat commit 5d39898cf867e275f0fc85039199441e480d37b2 and status-seal commit 195f5cff7a72ff4123681f73cbae2778fab6df6f pushed and independently ls-remote verified; final remote master SHA is recorded in canonical state.
 - Scheduler: original task enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null.
 [Latest checkpoint](LATEST.md) · [Hourly scan](hourly/2026-11-02-1711.md)
 
