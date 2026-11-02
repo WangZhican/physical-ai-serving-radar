@@ -2,13 +2,13 @@
 
 Generated: 2026-11-02T15:16:45+08:00
 
-- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / SOURCE_SCAN_PARTIAL / NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / SOURCE_SCAN_PARTIAL / NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_INCIDENT
 - Coverage: 24h NOT_COVERED_ZERO_EXACT; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED; 90d BACKUP_ONLY.
 - Source census: OAI 24h PASS exact=0; OAI 168h/720h timeouts; Atom 24h INCOMPLETE exact=0; Atom 168h 1,764 partial (cs.LG page12 HTTP429); Atom 720h 2,358 partial with HTTP429.
 - SYS-first: 35 new semantic decisions since canonical 1014; 11 first-party official-new abstracts reviewed this checkpoint; 0 new CORE_SYS; 0 promotions.
 - Candidate evidence: 3/3 official PDFs/fulltext valid; AMMA repo/license verified but no independent reproduction; HiState repo not found; REA repo website-only; 0 SLO gates closed.
 - Runtime: vLLM-Omni Qwen3-Omni MRv2; vLLM Kimi-K3 MI355X decode/MiMo encoder TP; SGLang PP correctness and decode/runtime deltas.
-- Public sync: pending; pre-push remote master SHA 8da7c9ab96f077f0091c90aba5034b0eb03b649c; local Git origin SSH route configured.
+- Public sync: PUBLIC_SYNC_VERIFIED; heartbeat commit 1bbd44b878bdf91405d3d5a4bb254389eb8c1a0b pushed and independently verified; status-seal commit is being pushed and independently verified; final remote SHA recorded in canonical state.
 - Scheduler: original task enabled/expected-active; current run in_progress (liveness unproven); next_run_time=null; hourly recurrence unsupported by exposed API.
 
 [Latest checkpoint](LATEST.md) · [Hourly scan](hourly/2026-11-02-1511.md)
