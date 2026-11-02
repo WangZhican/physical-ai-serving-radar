@@ -1,3 +1,28 @@
+# Physical AI Serving Radar — Latest
+
+Latest checkpoint: PHYSICAL_AI_SERVING_20261102_1511
+
+Generated: 2026-11-02T15:16:45+08:00
+
+## Current status
+
+- 24h: NOT_COVERED_ZERO_EXACT
+- 7d: SOURCE_ONLY_NOT_COVERED
+- 30d: SOURCE_ONLY_NOT_COVERED
+- 90d: BACKUP_ONLY
+- New semantic decisions since canonical 1014: 35 (24 at 1450 + 11 at 1505)
+- New CORE_SYS candidates this checkpoint: 0; 3 candidates from 1450 remain unpromoted
+- Candidate PDFs/fulltext: 3/3 valid; 49 unique candidate full PDFs reviewed
+- Formal promotions: 0
+- Public sync: PUBLIC_SYNC_PENDING
+- Scheduler: original automation enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null.
+
+See [latest hourly scan](hourly/2026-11-02-1511.md) and [scan status](SCAN_STATUS.md).
+
+---
+
+## Previous checkpoint archive
+
 # Physical AI Serving Radar — latest
 - Checkpoint: PHYSICAL_AI_SERVING_20261101_1143 (2026-11-01 11:49 CST)
 - Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED

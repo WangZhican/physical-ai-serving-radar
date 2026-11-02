@@ -1,3 +1,20 @@
+## 2026-11-02T15:16:45+08:00 — SOURCE_SCAN_PARTIAL_NOT_COVERED; SEMANTIC_NEW35; RUNTIME_DELTAS; PUBLIC_SYNC_PENDING
+
+- Repaired local checkpoint divergence: canonical state/source coverage at 1014, hourly/daily/public at 1450. Reconciled state to 1511; PAPER_MANIFEST and PDF_DOWNLOAD_MANIFEST unchanged.
+- 24h OAI exact=0 and Atom incomplete exact=0; official /new 5/5 pages, 465 unique IDs, 11 first-party abstracts; listing/version dates do not prove exact 24h coverage. 7d OAI timeout/Atom 1,764 partial (cs.LG page12 HTTP429); 30d OAI timeout/Atom 2,358 partial (HTTP429). Preserve last-good; 7d/30d remain source-only, 90d backup-only.
+- 35 semantic decisions since canonical 1014 (24 at 1450 + 11 official-new abstracts); 0 new CORE_SYS this checkpoint, 0 formal promotions. AMMA/HiState/REA remain 3 unpromoted candidates; PDFs 3/3 valid; no independent reproduction or deployment/control-loop SLO.
+- First-party runtime deltas: vLLM-Omni Qwen3-Omni MRv2; vLLM Kimi-K3 MI355X decode/MiMo encoder TP; SGLang PP stream correctness and decode/runtime updates. No independent benchmarks or paper promotion.
+- Public heartbeat prepared; remote master SHA has not yet advanced. PUBLIC_SYNC_PENDING until commit/push and independent verification.
+
+## 2026-11-02 09:12 CST — CENSUS_MISMATCH_NOT_COVERED; WATCH_ONLY_APRIEL_VOICE; VLLM_RUNTIME_DELTA; PUBLIC_SYNC_PENDING
+
+- Official arXiv OAI-PMH all-cs census: rolling 24h exact=0; 168h PASS (1,709 unique / 1,830 category pairs); 720h PASS (11,656 unique / 12,358 category pairs).
+- Atom 24h completed all five mandatory category pages with exact=0; Atom 168h incomplete (cs.PF timeout); Atom 720h PASS (11,636 unique / 12,338 category pairs). Shared-window OAI-only differences: 1 pair at 168h and 20 pairs at 720h; keep 7d/30d SOURCE_ONLY_NOT_COVERED. All 20 720h mismatch IDs were checked via official /abs; one serving-adjacent WATCH candidate identified.
+- Added Apriel Voice 27B Preview (arXiv:2610.40738) as WATCH_ONLY / route 9+11 after official PDF fulltext and model-card inspection. Custom vLLM model-card claim (~2× output-token throughput on 4× H100 80GB) is not independently reproduced; no author-linked serving code verified.
+- Added one valid official PDF to the private download manifest and one WATCH_ONLY paper to the paper manifest. Inventory: 262 papers; 576 valid / 0 invalid / 4 pending PDFs. Formal promotions=0.
+- vLLM main runtime deltas: DSv4.1 HC-expansion copy, NVFP4 batch-invariant kernel selection, KV-offload metadata GC reduction, per-layer KV-cache dtype resolution, and fused MoE padding skip. vLLM-Omni latest commit unchanged.
+- Public local mirror updated. Remote master SHA did not advance; push permission remains unavailable. PUBLIC_SYNC_PENDING.
+
 ## 2026-10-31 08:20 CST — PARTIAL_SOURCE_REFRESH_NOT_COVERED; SEMANTIC_NEW134; MOONCAKE_CORE_SYS_PROMOTION; PDF_VALID442; PUBLIC_SYNC_PENDING
 
 Reconciled source/semantic/PDF artifacts newer than the 04:21 canonical checkpoint. Formal promotion: Mooncake (arXiv:2407.00079), CORE_SYS/A+, USENIX FAST 2025 Best Paper, cross-track multimodal/Omni serving baseline. Official PDF/full text and author repo verified; independent reproduction and Physical-AI deployment remain unverified.

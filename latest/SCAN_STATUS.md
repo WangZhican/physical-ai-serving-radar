@@ -1,3 +1,22 @@
+# Scan Status — PHYSICAL_AI_SERVING_20261102_1511
+
+Generated: 2026-11-02T15:16:45+08:00
+
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / SOURCE_SCAN_PARTIAL / NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Coverage: 24h NOT_COVERED_ZERO_EXACT; 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED; 90d BACKUP_ONLY.
+- Source census: OAI 24h PASS exact=0; OAI 168h/720h timeouts; Atom 24h INCOMPLETE exact=0; Atom 168h 1,764 partial (cs.LG page12 HTTP429); Atom 720h 2,358 partial with HTTP429.
+- SYS-first: 35 new semantic decisions since canonical 1014; 11 first-party official-new abstracts reviewed this checkpoint; 0 new CORE_SYS; 0 promotions.
+- Candidate evidence: 3/3 official PDFs/fulltext valid; AMMA repo/license verified but no independent reproduction; HiState repo not found; REA repo website-only; 0 SLO gates closed.
+- Runtime: vLLM-Omni Qwen3-Omni MRv2; vLLM Kimi-K3 MI355X decode/MiMo encoder TP; SGLang PP correctness and decode/runtime deltas.
+- Public sync: pending; pre-push remote master SHA 8da7c9ab96f077f0091c90aba5034b0eb03b649c; local Git origin SSH route configured.
+- Scheduler: original task enabled/expected-active; current run in_progress (liveness unproven); next_run_time=null; hourly recurrence unsupported by exposed API.
+
+[Latest checkpoint](LATEST.md) · [Hourly scan](hourly/2026-11-02-1511.md)
+
+---
+
+## Previous status archive
+
 ## PHYSICAL_AI_SERVING_20261101_1143 — 2026-11-01 11:49 CST
 - State: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_VERIFIED
 - Direct source coverage: 24h NOT_COVERED (OAI page-0 timeout, Atom exact=0); 7d SOURCE_ONLY_NOT_COVERED; 30d SOURCE_ONLY_NOT_COVERED. OAI last-good shared intervals match the current Atom ID/pair sets, but the trailing Atom edges and sibling/reverse/venue/project closure remain open.
