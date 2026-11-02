@@ -14,7 +14,7 @@ Generated: 2026-11-02T17:18:24+08:00
 - Candidates: AMMA/HiState/REA remain unpromoted; 3/3 candidate PDFs/fulltext valid; 49 unique candidate PDFs reviewed; reproductions=0; deployment-SLO gates=0
 - Runtime: M* peer-loop correctness fix; vLLM-Omni #9712 merged; #9733 graph replay open with +31.4% c1/32 throughput, +5.1% c4/64, +0.9% c32/512; other serving PRs remain open
 - Formal promotions: 0
-- Public sync: heartbeat commit 5d39898cf867e275f0fc85039199441e480d37b2 independently ls-remote verified; status-seal commit is being pushed and will be independently verified
+- Public sync: heartbeat commit 5d39898cf867e275f0fc85039199441e480d37b2 independently ls-remote verified; status-seal commit 195f5cff7a72ff4123681f73cbae2778fab6df6f pushed and independently ls-remote verified; final remote master SHA is recorded in canonical state
 - Scheduler: original automation enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null
 
 See [latest hourly scan](hourly/2026-11-02-1711.md) and [scan status](SCAN_STATUS.md).
@@ -129,7 +129,7 @@ See [latest hourly scan](hourly/2026-11-02-1711.md) and [scan status](SCAN_STATU
 - Candidate: AMMA/HiState/REA remain unpromoted; REA repo is project page only; reproduction=0; deployment-SLO gates=0; four PDF blockers retained.
 - Runtime: M* correctness fix; vLLM-Omni #9712 merged; #9733 K-step Talker graph replay open with +31.4% c1/32 throughput, +5.1% c4/64, +0.9% c32/512; other serving/diffusion PRs remain open; no paper promotions.
 - Scheduler: original task enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null.
-- Public sync: heartbeat commit 5d39898cf867e275f0fc85039199441e480d37b2 independently ls-remote verified; status-seal commit is being pushed and will be independently verified.
+- Public sync: heartbeat commit 5d39898cf867e275f0fc85039199441e480d37b2 and status-seal commit 195f5cff7a72ff4123681f73cbae2778fab6df6f pushed and independently ls-remote verified; final remote master SHA is recorded in canonical state..
 
 [Hourly scan](hourly/2026-11-02-1711.md) · [Scan status](SCAN_STATUS.md)
 
