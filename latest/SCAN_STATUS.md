@@ -1,4 +1,22 @@
-# Scan status — PHYSICAL_AI_SERVING_20261108_1122
+# Scan status — PHYSICAL_AI_SERVING_20261108_1501
+
+Checkpoint: PHYSICAL_AI_SERVING_20261108_1501
+Updated: 2026-11-08 15:01 CST
+Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_LIVENESS_OPEN
+
+- Rolling 24h last-good cutoff 06:01:40Z: official Atom five categories all crossed cutoff but exact=0; both OAI routes failed page 0; /new HTML 5/5 lists Friday 6-November only (552 IDs), discovery/timestamp evidence only. NOT_COVERED.
+- Rolling 168h last-good cutoff 06:01:40Z: official Atom five-category PASS, 2,257 unique IDs / 2,395 category pairs; both OAI routes failed page 0. SOURCE_ONLY_NOT_COVERED. The newer 15:01 Atom attempt is INCOMPLETE and does not replace last-good.
+- Main-trunk reverse-neighborhood: 34 templates returned after 19/19 official fallback queries; no failed queries, 9 possibly capped; discovery-only, coverage_closed=false.
+- SYS-first title triage last refreshed 11:05: 270 high-signal / 249 unclassified; refresh against the 14:01 census remains open.
+- Added FastAFD 2611.07149 as CORE_SYS/WATCH_ONLY (MIT repo, tests/benchmarks; independent reproduction and VLM/Omni transfer pending) and Phantom 2611.06019 as SYS_ALG_BOUNDARY/WATCH_ONLY (temporal-cache diffusion accelerator; no author-linked repo or serving runtime). LoopDuet, SCALE and T3R remain WATCH_ONLY.
+- Paper manifest: 298 records (180 CORE_SYS / 101 SYS_ALG_BOUNDARY / 9 ALG_INSPIRATION / 8 WATCH_ONLY). PDF manifest: 738 valid / 0 invalid / 4 pending. Formal promotions: 0.
+- Robion arXiv:2609.12075 remains the permanent recall-regression seed; PASS and not current-window coverage.
+- Public sync pending: local HEAD and cached origin/master tracking ref both resolve to bd7c240af81cf24ea0264a88b2032893d91b3e7f; last independently verified remote SHA was bd7c240af81cf24ea0264a88b2032893d91b3e7f at 12:13 CST. Current SSH ls-remote failed DNS and HTTPS ls-remote failed TLS; GitHub API separately reports master=bd7c240af81cf24ea0264a88b2032893d91b3e7f. No push was attempted; no remote sync is claimed.
+- Automation remains enabled/expected-active; current run is in_progress; next_run_time is null and next trigger is unverified.
+
+The existing expected-active automation is retained; no duplicate or replacement was created.
+
+---
 
 Checkpoint: PHYSICAL_AI_SERVING_20261108_1122
 Updated: 2026-11-08 11:22 CST

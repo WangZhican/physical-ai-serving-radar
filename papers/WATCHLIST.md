@@ -1,3 +1,9 @@
+**2026-11-08 15:01 CST — first-party PDF/repository review; WATCH_ONLY, NOT formally promoted (PHYSICAL_AI_SERVING_20261108_1501):**
+- [FastAFD](https://arxiv.org/abs/2611.07149) — CORE_SYS candidate for hardware-aware MoE serving/disaggregation. The paper reports up to 1.17× over tuned vLLM wide EP on Qwen3 and 1.16× on Qwen3.5; the author-linked [MIT repository](https://github.com/hao-ai-lab/FastAFD) contains benchmark and correctness scripts plus CPU tests. The README's 1.35–1.45× uses a colocated baseline and is not the same comparison. Independent reproduction and VLM/Omni transfer remain open.
+- [Phantom](https://arxiv.org/abs/2611.06019) — SYS_ALG_BOUNDARY candidate for diffusion temporal reuse and accelerator co-design. The official 13-page PDF reports 4.0× average speedup and 5.5× energy savings while preserving generation quality, with about 22% area overhead. No author-linked repository or online serving runtime was verified.
+
+---
+
 **2026-11-08 11:22 CST — official PDF/full-text review; SYS_ALG_BOUNDARY / WATCH_ONLY, NOT formally promoted (PHYSICAL_AI_SERVING_20261108_1122):**
 - [MCUFlowNet](https://arxiv.org/abs/2611.08147) — PACE-NAS separates peak-SRAM design from latency search for MCU optical flow. The official 5-page PDF reports 18% lower peak SRAM and 93.2 ms versus 164.3 ms for retrained EdgeFlowNet (1.76×), with EPE 6.50 versus 6.40; simulated obstacle-avoidance success is 51.5% versus 41.8% at 2 m/s. The paper-linked [GitLab project](https://gitlab.kuleuven.be/emedia-research-lab/esat-stadius/mcuflownet/mcuflownet) main HEAD is verified, but the web UI was inaccessible and LICENSE/CI/tests/reproduction remain unverified. This is edge model architecture optimization, not a serving runtime or serving-SLO contribution.
 

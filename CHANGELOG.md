@@ -1,5 +1,15 @@
 ## 2026-11-07 17:45 CST — PHYSICAL_AI_SERVING_20261107_1744 (watchdog catch-up)
 
+## 2026-11-08 15:01 CST — checkpoint reconciliation and first-party candidate evidence
+
+- Reconciled source/candidate artifacts generated 13:04–15:08 CST into one local checkpoint. Rolling 24h remains NOT_COVERED (exact-zero, OAI page-0 timeout, /new Friday-only discovery evidence); rolling 168h remains SOURCE_ONLY_NOT_COVERED (Atom 2,257 unique, OAI page-0 timeout).
+- Main-trunk reverse-neighborhood returned 34 templates after 19/19 official fallback queries; 9 results remain possibly capped, so coverage is discovery-only.
+- Added FastAFD 2611.07149 as CORE_SYS/WATCH_ONLY after official PDF and author-linked MIT repo/test/benchmark inspection; added Phantom 2611.06019 as SYS_ALG_BOUNDARY/WATCH_ONLY after official PDF/full-text validation. One new PDF manifest record; no formal promotions.
+- Manifest totals: 298 papers; 738 valid PDFs / 0 invalid / 4 pending. Robion 2609.12075 remains the permanent recall seed.
+- Public sync is pending until scoped SSH push and independent remote master verification.
+
+---
+
 ## 2026-11-08 11:22 CST — SYS-first source refresh and MCUFlowNet evidence
 
 - Official arXiv Atom: rolling 24h exact-zero across five categories; rolling 168h 2,288 unique records / 2,427 category pairs. OAI-PMH page-0 read timeouts keep 24h NOT_COVERED and 168h SOURCE_ONLY_NOT_COVERED.
