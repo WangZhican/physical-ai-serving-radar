@@ -2,7 +2,7 @@
 
 Checkpoint: PHYSICAL_AI_SERVING_20261108_1122
 Updated: 2026-11-08 11:22 CST
-Status: PARTIAL_SOURCE_SCAN_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_LIVENESS_OPEN
+Status: PARTIAL_SOURCE_SCAN_NOT_COVERED / PUBLIC_SYNC_VERIFIED / SCHEDULER_LIVENESS_OPEN
 
 - Rolling 24h: official Atom cs.DC/cs.AR/cs.PF/cs.RO/cs.LG all PASS with exact-window count 0; both OAI routes failed page 0 with read timeout; official /new HTML 5/5 returned 552 Friday 6-November IDs, discovery-only. NOT_COVERED.
 - Rolling 168h: official Atom direct five-category census PASS, 2,288 unique IDs / 2,427 category pairs; both OAI routes failed page 0. SOURCE_ONLY_NOT_COVERED.
@@ -11,11 +11,12 @@ Status: PARTIAL_SOURCE_SCAN_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_LIVENE
 - SYS-first triage: 270 high-signal leads, 249 unclassified; 16 abstracts reviewed. MCUFlowNet (arXiv:2611.08147) is SYS_ALG_BOUNDARY/WATCH_ONLY, not a serving-runtime promotion.
 - Paper manifest: 296 records (179 CORE_SYS / 100 SYS_ALG_BOUNDARY / 9 ALG_INSPIRATION / 8 WATCH_ONLY). PDF manifest: 737 valid / 0 invalid / 4 pending. Formal promotions: 0.
 - Robion arXiv:2609.12075 remains the permanent recall-regression seed.
-- Public sync: local Git metadata and configured origin are present; remote master SHA before push: 2b3e877a4c087c231490fd6b2cb0c6f73f99d277. GitHub connector push permission is false, but a scoped local Git push will be attempted; no sync is claimed until independent ls-remote verification.
+- Public sync verified: heartbeat commit 6785131e3ada0c30412e48254be9cf504712ba60 was independently observed on remote master; the status-seal commit was then pushed and remote master rechecked. Final remote SHA is recorded in the private canonical sync result.
 - Scheduler: existing automation remains enabled/expected-active; current run is in_progress; next_run_time is null and next trigger is unverified.
 
 The existing expected-active automation is retained; no duplicate or replacement was created.
 
+Public heartbeat commit verified: 6785131e3ada0c30412e48254be9cf504712ba60; final remote master SHA is recorded in the canonical sync result.
 ---
 
 Checkpoint: PHYSICAL_AI_SERVING_20261108_0123

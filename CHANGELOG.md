@@ -5,7 +5,7 @@
 - Official arXiv Atom: rolling 24h exact-zero across five categories; rolling 168h 2,288 unique records / 2,427 category pairs. OAI-PMH page-0 read timeouts keep 24h NOT_COVERED and 168h SOURCE_ONLY_NOT_COVERED.
 - Main-trunk reverse-neighborhood: 30/34 templates passed; four source failures remain explicit; 291 unique IDs, 149 category pairs, zero reverse-only pairs.
 - Added MCUFlowNet 2611.08147 as SYS_ALG_BOUNDARY/WATCH_ONLY after official PDF/full-text review; no serving-runtime promotion. Manifest totals: 296 papers and 737 validated PDFs, four historical PDF blockers remain pending.
-- Formal promotions: 0. Public synchronization remains pending until remote master SHA is independently verified.
+- Formal promotions: 0. Public synchronization verified: Public master SHA independently verified: 6785131e3ada0c30412e48254be9cf504712ba60 at 2026-11-08T12:13:24+08:00.
 
 ---
 
