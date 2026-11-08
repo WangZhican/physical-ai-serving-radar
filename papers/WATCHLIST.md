@@ -1,3 +1,34 @@
+**2026-11-08 11:22 CST — official PDF/full-text review; SYS_ALG_BOUNDARY / WATCH_ONLY, NOT formally promoted (PHYSICAL_AI_SERVING_20261108_1122):**
+- [MCUFlowNet](https://arxiv.org/abs/2611.08147) — PACE-NAS separates peak-SRAM design from latency search for MCU optical flow. The official 5-page PDF reports 18% lower peak SRAM and 93.2 ms versus 164.3 ms for retrained EdgeFlowNet (1.76×), with EPE 6.50 versus 6.40; simulated obstacle-avoidance success is 51.5% versus 41.8% at 2 m/s. The paper-linked [GitLab project](https://gitlab.kuleuven.be/emedia-research-lab/esat-stadius/mcuflownet/mcuflownet) main HEAD is verified, but the web UI was inaccessible and LICENSE/CI/tests/reproduction remain unverified. This is edge model architecture optimization, not a serving runtime or serving-SLO contribution.
+
+---
+
+**2026-11-07 17:45 CST — Official PDF/full-text review; ALG_INSPIRATION, WATCH_ONLY, NOT formally promoted (PHYSICAL_AI_SERVING_20261107_1744):**
+- [Spatial-UMI-Dream](https://arxiv.org/abs/2611.07229) — 5B spatial WAM pretrained on 605 hours of RGB-D UMI data; two-stage world-only and joint world-action learning; RoboTwin-UMI 20-task benchmark and six real-world tasks. Policy-success results do not establish serving throughput/latency; no inference-serving runtime, scheduling/cache, p99 or fleet-SLO evidence was verified.
+
+---
+
+**2026-11-07 14:35 CST — Official PDF and implementation evidence; WATCH_ONLY, NOT formally promoted (PHYSICAL_AI_SERVING_20261107_1323):**
+- [VisionSIM](https://arxiv.org/abs/2611.08368) — multi-modal physical-sensor simulator and synchronized indoor dataset (RGB/event/SPAD/iToF/dToF/thermal). All current evaluations are open-loop; closed-loop and eventually real-time simulation are future directions. PDF GitHub URLs are dependencies, not a verified VisionSIM project repository.
+- [H-TRIP](https://arxiv.org/abs/2611.08139) — exact incremental multi-robot distance index; 2.21–8.59× query speedup in 16-robot simulation. [Matching C++20/AVX2 repository](https://github.com/ozaslan/htrip) exists, but root LICENSE is missing and paper-to-repository linkage is not fully verified.
+- [Kinematic Hypothesis Context](https://arxiv.org/abs/2611.07411) — embodiment-conditioned policy-uplink video codec; 23.9% bitrate reduction and 23.2% fewer bits than DCVC-RT. Code is stated to be released upon formal publication; no public implementation or end-to-end serving SLO is currently verified.
+- [Fast and Reliable Open-Vocabulary Object Search](https://arxiv.org/abs/2611.07493) — robot-memory retrieval and visual verification, about 10× fewer detector calls; real robot; live CLIP+SAM3 is about 2 s end-to-end, while optional LLM+SAM3 is about 10 s. No serving p99/code is verified.
+- [Embodied RAG++](https://arxiv.org/abs/2611.07517) — embodied retrieval and per-product-model capability cache; 14–25 s preprocessing and 15–20 s query-plus-generation; 0.90/1.00 pair accuracy on 20 simulated scenes, with physical-robot validation still future work.
+- [Time-Indexed Skill Success Models](https://arxiv.org/abs/2611.07964) — latency-aware skill launch-time planning with a real UR5e delay study; ALG_INSPIRATION only, not a serving runtime.
+- [SCALE](https://arxiv.org/abs/2611.08390) was already registered; its official PDF is now locally validated. It remains a communication scheduler, not model inference serving.
+
+**2026-11-06 02:45 CST — PDF validation update for PHYSICAL_AI_SERVING_20261106_0234:** TokenScale v2 (14 pages), HYPIC v3 (16 pages) and EKKA v1 (16 pages) official PDFs are now locally downloaded and PyMuPDF full-text validated. This closes their PDF evidence gate only; independent artifact reproduction and formal classification/promotion remain open.
+
+**2026-11-06 02:34 CST — Evidence-only, NOT formally promoted (PHYSICAL_AI_SERVING_20261106_0234):**
+- [TokenScale](https://arxiv.org/abs/2512.03416) — SoCC '26 PD-disaggregated autoscaling with token velocity and convertible decoders; 1.3–6.4× performance/cost improvement on production traces. **CORE_SYS candidate**; single-turn only, session affinity/multi-turn left for future work, no public code repo identified.
+- [HYPIC](https://arxiv.org/abs/2607.01299) — ATC 2026 position-independent caching for hybrid attention; 3.25× TTFT reduction and 1.66× QPS at the same 1s SLO. **CORE_SYS candidate**; 14k-line SGLang implementation and Apache-2.0 repo, independent reproduction pending.
+- [EKKA](https://arxiv.org/abs/2606.04594) — ICML 2026 automated diagnosis of silent errors in LLM inference; 80% pass@1, 88% pass@5 and four new bugs confirmed by developers. **CORE_SYS reliability candidate**; public repo exists but license is unresolved and engine forks are older.
+- [SafeStart](https://arxiv.org/abs/2611.06147) — safety-preserving expert reduction for MoE serving; keeps at least 85% of the reported decode speedup while reducing the refusal regression. **SYS_ALG_BOUNDARY candidate**, not a serving control plane.
+- [ServerBench](https://arxiv.org/abs/2611.06841) — open Apache-2.0 benchmark for agent-designed LLM serving systems; 22/33 verified, 13 above the strongest baseline. **CORE_SYS candidate**; independent artifact and production SLO validation remain open.
+- [Ripple](https://arxiv.org/abs/2611.01067) — deadline-aware CPU/GPU sharing for embodied inference; one DGX Spark study meets a 2% CPU deadline-miss target and VLM deadlines. **CORE_SYS candidate**; multi-platform/fleet evidence remains open.
+- [vExpert](https://arxiv.org/abs/2611.06057) — virtualized expert storage for distributed MoE inference; 55% better load balance and 1.2× E2E speedup on an 8-node H100 profile. **CORE_SYS candidate**; DeepSeek V3/R1-specific, independent reproduction pending.
+- [NanoKV](https://arxiv.org/abs/2611.06377) — generation-aware KV compression for autoregressive video; up to 26.09× effective compression and 35.9% lower peak memory. **SYS_ALG_BOUNDARY candidate**; license scope differs across original code and backbone integrations.
+
 **2026-11-02 09:12 CST — Evidence-only, WATCH_ONLY, NOT formally promoted:** [Apriel Voice 27B Preview](https://arxiv.org/abs/2610.40738) ([official model card](https://huggingface.co/ServiceNow-AI/Apriel-Voice-27B-preview)) reports ~2× output-token throughput for a custom optimized vLLM image on 4× H100 80GB. The paper's 1.91s τ-Voice latency is full-stack response latency including synthesis, not model-serving latency. Workload/baseline, author-linked serving code and independent reproduction remain unverified.
 
 **2026-10-25 16:03 CST — Evidence-only, NOT formally promoted:** [Denoising Surface](https://arxiv.org/abs/2610.00499) (dLLM serving cost predictor and SJF scheduling, up to 1.92× lower chatbot latency); [MaskAhead](https://arxiv.org/abs/2610.06996) (dLLM mask-guided KV eviction, 9.5× cache reduction, batch-32 1.23× E2E; [Apache-2.0 code](https://github.com/brain-lab-research/MaskAhead) verified). Neither demonstrates direct multimodal/robotics serving.
@@ -135,4 +166,3 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **Systems scope:** later phases explicitly add duplex evaluation/CI and session SLOs (queue/compute/transfer latency, content latency, inter-Unit gaps, jitter, deadline misses, concurrency and memory), plus session batching, duplex-specific scheduling/stage placement, CPU-overhead reduction and CUDA-graph/kernel optimization.
 - **Why watch:** together with vLLM-Omni #7181, this is strong cross-framework evidence that Omni serving is converging on reusable long-lived session/control-plane abstractions rather than per-model glue. Relevant Routes: 2/3/5/7/8/9/11.
 - **Promotion gate:** merged/released session lifecycle + persistent-KV bridge + realtime API, multi-model integration, state-isolation/cancellation/backpressure correctness, and controlled concurrency/latency/jitter/memory evaluation. Track Phase-1 #2035/#2069/#2070 first.
-

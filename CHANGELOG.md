@@ -1,3 +1,78 @@
+## 2026-11-07 17:45 CST — PHYSICAL_AI_SERVING_20261107_1744 (watchdog catch-up)
+
+## 2026-11-08 11:22 CST — SYS-first source refresh and MCUFlowNet evidence
+
+- Official arXiv Atom: rolling 24h exact-zero across five categories; rolling 168h 2,288 unique records / 2,427 category pairs. OAI-PMH page-0 read timeouts keep 24h NOT_COVERED and 168h SOURCE_ONLY_NOT_COVERED.
+- Main-trunk reverse-neighborhood: 30/34 templates passed; four source failures remain explicit; 291 unique IDs, 149 category pairs, zero reverse-only pairs.
+- Added MCUFlowNet 2611.08147 as SYS_ALG_BOUNDARY/WATCH_ONLY after official PDF/full-text review; no serving-runtime promotion. Manifest totals: 296 papers and 737 validated PDFs, four historical PDF blockers remain pending.
+- Formal promotions: 0. Public synchronization remains pending until remote master SHA is independently verified.
+
+---
+
+- Reconciled the 16:34–16:39 official OAI/Atom source attempts into canonical state. 24h OAI and Atom both returned exact=0 on the same window; latest OAI version age 37.45 h; NOT_COVERED.
+- 168h OAI-PMH passed 7/7 pages with 6,294 exact records, but Atom remained INCOMPLETE (cs.LG 1,000-record cap; lower-rate retry returned HTTP 429 for all five categories). NOT_COVERED.
+- Main-trunk reverse search passed 34/34 templates / 329 IDs and official /new passed 5/5; both are discovery-only.
+- Full-text reviewed arXiv:2611.07229 Spatial-UMI-Dream and added it as ALG_INSPIRATION/WATCH_ONLY. PDF 10 pages / 49,144 chars; no serving-runtime or fleet-SLO evidence; formal promotions=0.
+- PAPER_MANIFEST=290; PDF manifest=732 valid / 0 invalid / 4 pending. Robion arXiv:2609.12075 regression PASS.
+- Remote master SHA independently verified unchanged at 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false and no local .git metadata. PUBLIC_SYNC_PENDING; no commit/push claimed.
+- Existing hourly task remains enabled/expected-active, but latest run failed at 2026-11-07 17:28:51 CST; next trigger remains unverified.
+
+---
+
+## 2026-11-07 14:35 CST — PHYSICAL_AI_SERVING_20261107_1323 (full-text refinement)
+
+- Reconciled a partial checkpoint divergence: later 12:55 source and 12:19 abstract artifacts had not been propagated into the 08:01 hourly/daily, 07:27 source-coverage and 08:06 discovery-state checkpoints. Local canonical artifacts are now aligned.
+- 24h OAI exact=0 with latest version age 33.92 h; Atom direct incomplete. 168h OAI exact=6,382; Atom direct incomplete. Both windows remain NOT_COVERED; /new HTML and main-trunk reverse checks are discovery-only.
+- Adjudicated 18 new abstracts (2 existing records reused); added six WATCH_ONLY manifest records and seven official full-text-validated PDFs. PAPER_MANIFEST=289; PDF manifest=725 valid/0 invalid/4 pending. Formal promotions=0.
+- Rechecked 11 runtime PRs; all remain open/unmerged. KerColle, Streaming-WAM and HarnessPAI remain pending their repository/license/runtime/real-robot/SLO gates.
+- Robion arXiv:2609.12075 recall regression PASS. Local public data index now mirrors all 289 paper records.
+- Full-text interpretation refined: Object Search live CLIP+SAM3 is about 2 s (optional LLM+SAM3 about 10 s); Embodied RAG++ reports 14–25 s preprocessing and 15–20 s query-plus-generation on a 20-scene simulation benchmark. No class/status change or promotion.
+- Public sync remains pending: remote master SHA unchanged at 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false and local mirror has no .git metadata. No commit/push claimed.
+- Existing hourly task remains enabled/expected-active. Attempt 1 failed at 14:17:59 CST; retry attempt 2 started at 14:26:42 CST and is in_progress, but next_run_time is null and liveness remains unproven. No duplicate or disable action.
+
+---
+
+## 2026-11-06 03:05 CST — 168h source-pair recovery
+
+- Official Atom cs.LG pages 12–19 retry recovered 745 exact records; merged 168h Atom now has 2,784 category-ID pairs, exactly matching OAI (zero Atom-only/OAI-only).
+- All five mandatory categories pass; 24h→168h subset checks are zero-missing for both OAI and Atom.
+- Overall coverage remains NOT_COVERED until 135 168h / 4 24h main-trunk gaps and 315 high-signal unclassified records are resolved.
+- No paper promotion; public remote sync remains pending and the previous 02:00 run failed; a new 03:00 scheduled run started at 03:08:07 CST and is recorded in_progress; the original task remains enabled.
+
+## 2026-11-06 02:34 CST — PHYSICAL_AI_SERVING_20261106_0234
+
+- Reconciled 0207 exact-window OAI/Atom source results and 0220 first-party candidate abstracts into the canonical checkpoint.
+- 24h and 168h OAI/Atom source pairs pass on the same windows; cs.LG pages 12–19 recovered 745 exact records, with zero 168h pair diff. Overall coverage remains open on main-trunk and semantic gates.
+- Added evidence-only candidates TokenScale, HYPIC and EKKA; SafeStart remains a safety-aware SYS_ALG_BOUNDARY candidate. No formal promotion.
+- Downloaded and validated official TokenScale/HYPIC/EKKA PDFs; 694 valid local PDFs, 0 invalid, 4 pending.
+- Local heartbeat updated; remote master SHA independently rechecked after the latest 168h source-pair and scheduler-status updates at 2026-11-06 03:15:53 CST and remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false, so sync remains pending.
+- Scheduler recovery in progress: previous run bb38dd28-9cc8-8324-8b6b-c64e0d705b23 failed at 02:29:38 CST; new scheduled run e5b7e9d7-8f98-8326-a583-6e82c46d8e84 for 03:00 CST started at 03:08:07 CST and is recorded in_progress. Task remains enabled/expected-active; next_run_time=null while this run is active, and the next boundary is unverified. The latest_result belongs to an older run; current worker liveness is not independently confirmed. No schedule change or disable was made.
+
+<!-- PHYSICAL_AI_SERVING_20261106_0024 -->
+- 2026-11-06 00:24 CST: local checkpoint PHYSICAL_AI_SERVING_20261106_0024; 24h source pair reconciled; 7d Atom cs.LG rate-limited; main-trunk reverse incomplete; 0 promotions; remote sync pending.
+
+---
+
+## 2026-11-05T23:31:50+08:00 — SOURCE_PAIR_PASS_NOT_COVERED; CHECKPOINT_DIVERGENCE_REPAIRED; PDF_VALID_688; PUBLIC_SYNC_PENDING; SCHEDULER_ACTIVE
+
+- Reconciled 24h and 7d official OAI-PMH/Atom direct censuses: pair diffs 0; 24h 247 exact / 107 pairs, 7d 6,886 exact / 2,915 pairs. Cross-window subset gaps 0; full coverage remains open.
+- Official first-party /new pages 5/5; /abs 30/30 with five exact-window records; cross-list abstracts 10/10 with four exact.
+- Main-trunk reverse search 22/22 queries / 149 IDs; 87 direct-Atom gaps and 343 high-signal unclassified records remain.
+- Five candidate PDFs full-text inspected; two new versioned PDFs registered; PDF inventory 688 valid / 0 invalid / 4 pending; paper manifest 262 unique IDs unchanged.
+- 2611.01404 and 2611.05991 remain unpromoted CORE_SYS candidates; three boundary candidates remain unpromoted; formal promotions=0.
+- Local public heartbeat updated. Remote publication is not claimed because GitHub push permission is unavailable.
+- Original expected-active automation remains enabled; current run is in progress and next trigger is unverified.
+
+---
+
+## 2026-11-03T05:56:24+08:00 — PARTIAL_SOURCE_SCAN_NOT_COVERED; SEMANTIC_NEW23; NEXUS_CORE_SYS_CANDIDATE; PUBLIC_SYNC_PENDING; SCHEDULER_INCIDENT
+
+- Fresh SYS-first OAI/Atom census and first-party fallback; 24h exact=0, source-only windows remain open.
+- 23 new semantic decisions since 0500; Nexus 2610.05709 is an unpromoted CORE_SYS candidate; 0 formal promotions.
+- PDF manifest 586 valid/0 invalid/4 pending; PAPER_MANIFEST=262 unchanged.
+- Canonical local artifacts and public mirror heartbeat aligned to 0526; remote master SHA unchanged, authorized push unavailable.
+- Original expected-active scheduler remains enabled; delayed in-progress run and null next-run time remain an incident.
+
 ## 2026-11-02T15:16:45+08:00 — SOURCE_SCAN_PARTIAL_NOT_COVERED; SEMANTIC_NEW35; RUNTIME_DELTAS; PUBLIC_SYNC_PENDING
 
 - Repaired local checkpoint divergence: canonical state/source coverage at 1014, hourly/daily/public at 1450. Reconciled state to 1511; PAPER_MANIFEST and PDF_DOWNLOAD_MANIFEST unchanged.
@@ -1302,3 +1377,13 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - **2026-09-24 21:00 CST** — Added MemBodied (2609.28256) as SYS_ALG_BOUNDARY/A after PDF verification; exact-24h OAI census PASS and Robion recall gate re-hit.
 
 - 2026-10-18 22:00 CST — Official 7d arXiv census 5,711 exact/7 pages; 24h weekend zero NOT_COVERED; remote KV tier and FastVLA first-party evidence; FastVLA naming collision resolved, no formal promotions.
+
+## 2026-11-06 03:09:32 CST — final sync verification
+
+- Remote master SHA independently rechecked after the 03:00 source-pair update and remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false. Local public heartbeat remains PUBLIC_SYNC_PENDING.
+- Original hourly automation remains enabled/expected-active; latest run failed at 02:29:38 CST and next_run_time is null. No schedule change or disable was made.
+
+## 2026-11-06 03:12:20 CST — final sync verification
+
+- Remote master SHA independently rechecked after the 03:00 source-pair update and remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false. Local public heartbeat remains PUBLIC_SYNC_PENDING.
+- Original hourly automation remains enabled/expected-active; latest run failed at 02:29:38 CST and next_run_time is null. No schedule change or disable was made.

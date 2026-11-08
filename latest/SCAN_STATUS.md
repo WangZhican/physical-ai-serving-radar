@@ -1,3 +1,327 @@
+# Scan status — PHYSICAL_AI_SERVING_20261108_1122
+
+Checkpoint: PHYSICAL_AI_SERVING_20261108_1122
+Updated: 2026-11-08 11:22 CST
+Status: PARTIAL_SOURCE_SCAN_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_LIVENESS_OPEN
+
+- Rolling 24h: official Atom cs.DC/cs.AR/cs.PF/cs.RO/cs.LG all PASS with exact-window count 0; both OAI routes failed page 0 with read timeout; official /new HTML 5/5 returned 552 Friday 6-November IDs, discovery-only. NOT_COVERED.
+- Rolling 168h: official Atom direct five-category census PASS, 2,288 unique IDs / 2,427 category pairs; both OAI routes failed page 0. SOURCE_ONLY_NOT_COVERED.
+- The 24h and 168h Atom windows share the same UTC end and are nested; the 24h set is empty with 0 out-of-window subset IDs. This does not replace the missing OAI source.
+- Main-trunk reverse-neighborhood: 30/34 templates passed, 4 source failures (2 HTTP 429, 2 DNS), 291 IDs, 149 category pairs, 0 reverse-only pairs; discovery-only.
+- SYS-first triage: 270 high-signal leads, 249 unclassified; 16 abstracts reviewed. MCUFlowNet (arXiv:2611.08147) is SYS_ALG_BOUNDARY/WATCH_ONLY, not a serving-runtime promotion.
+- Paper manifest: 296 records (179 CORE_SYS / 100 SYS_ALG_BOUNDARY / 9 ALG_INSPIRATION / 8 WATCH_ONLY). PDF manifest: 737 valid / 0 invalid / 4 pending. Formal promotions: 0.
+- Robion arXiv:2609.12075 remains the permanent recall-regression seed.
+- Public sync: local Git metadata and configured origin are present; remote master SHA before push: 2b3e877a4c087c231490fd6b2cb0c6f73f99d277. GitHub connector push permission is false, but a scoped local Git push will be attempted; no sync is claimed until independent ls-remote verification.
+- Scheduler: existing automation remains enabled/expected-active; current run is in_progress; next_run_time is null and next trigger is unverified.
+
+The existing expected-active automation is retained; no duplicate or replacement was created.
+
+---
+
+Checkpoint: PHYSICAL_AI_SERVING_20261108_0123
+Updated: 2026-11-08 01:23 CST
+Status: PUBLIC_SYNC_PENDING
+
+- 24h arXiv: exact-window zero across five Atom categories; OAI page-0 timeout; weekend announcement gap; NOT_COVERED.
+- 7d arXiv: 2,406-record five-category Atom census; OAI page-0 DNS failure; SOURCE_ONLY_NOT_COVERED.
+- SYS-first reverse search: 15/34 templates passed; 19 remain failed and 3 possibly capped.
+- Five fulltext candidates reviewed. LeanStream (MobiCom 2026, MIT runtime repository) is a strong adjacent edge-runtime CORE_SYS candidate; no formal promotion in this checkpoint.
+- Paper manifest remains 290 records; PDF manifest remains 732 valid / 0 invalid / 4 pending.
+- Public sync pending; remote master SHA remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277. No remote update is claimed.
+
+Automation remains enabled and expected-active; current run is in progress.
+
+---
+
+Generated: 2026-11-07T17:45:00+08:00
+
+- 24h OAI-PMH 2/2 pages, exact=0; Atom direct 5/5 categories, exact=0; latest version age 37.45 h. NOT_COVERED.
+- 7d OAI-PMH 7/7 pages, exact=6,294; Atom direct incomplete (4/5 categories; cs.LG cap), retry all five categories HTTP 429. NOT_COVERED.
+- Official /new HTML 5/5 and main-trunk reverse 34/34 / 329 IDs are discovery-only, not coverage.
+- Spatial-UMI-Dream arXiv:2611.07229 full-text reviewed; ALG_INSPIRATION/WATCH_ONLY, no formal promotion. 2611.06079 download remains DNS-failed.
+- PAPER_MANIFEST 290; PDF manifest 732 valid / 0 invalid / 4 pending. Robion 2609.12075 regression PASS.
+- Remote master SHA remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false, local .git absent, no commit/push claimed. PUBLIC_SYNC_PENDING.
+- Existing hourly task remains enabled/expected-active; latest run failed at 2026-11-07 17:28:51 CST; next trigger unverified.
+
+[Hourly heartbeat](hourly/2026-11-07-1744.md)
+
+---
+
+## [PHYSICAL_AI_SERVING_20261107_1323] LOCAL_CHECKPOINT_ALIGNED / SOURCE_COVERAGE_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_LIVENESS_OPEN
+
+Generated: 2026-11-07T13:23:10+08:00
+Evidence refined: 2026-11-07T14:18:43+08:00
+Checkpoint sealed: 2026-11-07T14:35:11+08:00
+
+- 24h exact OAI-PMH: 0; Atom direct incomplete (cs.DC/cs.AR DNS; cs.PF/cs.RO/cs.LG HTTP 429). NOT_COVERED.
+- 7d exact OAI-PMH: 6,382 records (cs.DC=174, cs.AR=75, cs.PF=42, cs.RO=510, cs.LG=1,902); Atom direct incomplete. NOT_COVERED until paired.
+- Official /new fallback: 5/5 pages at 12:01 and 3/5 at 12:55; discovery-only. Main-trunk reverse: 34/34 templates, 337 IDs, 177 pairs; earlier window, discovery-only.
+- Candidate batch: 18 new abstract decisions, 2 existing records reused; 6 new WATCH_ONLY manifest records and 7 full-text-validated official PDFs; 0 formal promotions.
+- Full-text refinement: Object Search live CLIP+SAM3 ~2 s (optional LLM+SAM3 ~10 s); Embodied RAG++ 14–25 s preprocessing and 15–20 s query/generation on 20 simulated scenes; VisionSIM current evaluations remain open-loop.
+- Manifests: 289 paper records; 725 valid / 0 invalid / 4 pending PDFs. Robion arXiv:2609.12075 regression seed PASS.
+- Runtime: 11 selected PRs, all open/unmerged; six green or mostly-green CI, five failing or unconcluded. KerColle, Streaming-WAM and HarnessPAI remain pending.
+- Scheduler: existing task remains enabled/expected-active; attempt 1 failed at 14:17:59 CST, retry attempt 2 started at 14:26:42 CST and is in_progress; next_run_time=null, liveness unproven.
+- Public sync: local radar updated only; remote master SHA remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277. Push permission=false and no local .git metadata; no commit/push claimed.
+- SEARCHED != COVERED. Exact source-pair coverage remains open.
+
+[Hourly heartbeat](hourly/2026-11-07-1323.md)
+
+---
+## [PHYSICAL_AI_SERVING_20261107_0801] PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING
+
+Generated: 2026-11-07T08:01:52+08:00
+
+- Canonical state, source coverage, hourly progress, daily scan and local public heartbeat are aligned to PHYSICAL_AI_SERVING_20261107_0801; this is a recovery checkpoint, not a new source census.
+- 24h NOT_COVERED: Atom exact=0; OAI page-0 TimeoutError.
+- 7d NOT_COVERED: last-good Atom 2,617; newer partial 1,721 with cs.LG HTTP 429; OAI page-0 TimeoutError.
+- 30d IN_PROGRESS_NOT_COVERED; last-good PHYSICAL_AI_SERVING_20261106_1721 preserved.
+- SYS-first: 20/20 abstracts adjudicated; 301 high-signal leads remain; 0 formal promotions.
+- Manifests: 283 paper rows; 718 valid / 0 invalid / 4 pending PDFs.
+- Runtime PRs: 15 selected open PRs inspected, all open/unmerged; named candidate gates remain pending.
+- Robion arXiv:2609.12075 remains a permanent recall regression seed.
+- Public sync remains pending: remote master baseline 2b3e877a4c087c231490fd6b2cb0c6f73f99d277, push permission=false, no local .git metadata; no commit/push claimed.
+- Scheduler remains enabled/expected-active; current run in_progress and next trigger unverified.
+
+[Hourly heartbeat](hourly/2026-11-07-0801.md)
+
+---
+
+## [PHYSICAL_AI_SERVING_20261107_0244] PARTIAL SOURCE REFRESH / PUBLIC SYNC PENDING
+
+Generated: 2026-11-07T02:44:00+08:00 CST
+
+- Official OAI-PMH + Atom exact-window agreement: 24h 19/19 mandatory category pairs; 168h 2,863/2,863; identical windows; 24h is a verified subset of 168h.
+- Main-trunk reverse discovery: 34/34 templates PASS, zero reverse-only pairs. Discovery-only, not coverage closure.
+- SYS-first title heuristic: 333 high-signal / 324 unclassified; semantic triage remains open.
+- Inventory: 275 paper records; 716 valid PDFs / 0 invalid / 4 pending.
+PAPER_MANIFEST class counts: {'CORE_SYS': 173, 'SYS_ALG_BOUNDARY': 90, 'ALG_INSPIRATION': 4, 'WATCH_ONLY': 8}; status counts: {'VERIFIED': 260, 'WATCH_VERIFIED_METADATA_ONLY': 1, 'WITHDRAWN_WATCH': 1, 'WATCH_ONLY': 13}.
+- Robion arXiv:2609.12075 remains a permanent recall regression seed, VERIFIED with its official PDF.
+- Full coverage remains NOT_COVERED; 720h was not refreshed.
+- Expected-active task remains enabled, but its latest run failed with a generic platform error.
+- Remote master has not advanced for this checkpoint; local files are not remote publication.
+
+---
+
+## [PHYSICAL_AI_SERVING_20261106_1734] LOCAL HEARTBEAT / PUBLIC_SYNC_PENDING
+
+Generated: 2026-11-06T17:34:01+08:00 CST
+
+- Source snapshot 1721 retained; Atom direct 24h/168h/720h PASS, OAI paired coverage NOT_COVERED.
+- Scheduler retry is in_progress after a prior failed attempt; latest_result is stale, next_run_time null, liveness unverified. Automation remains enabled.
+- PAPER_MANIFEST 270 rows; PDF manifest 707 valid / 11 pending; formal promotions 0.
+- Remote master SHA remains unchanged; push unavailable; verify again after this local heartbeat update.
+
+## [PHYSICAL_AI_SERVING_20261106_1721] LOCAL HEARTBEAT / PUBLIC_SYNC_PENDING
+
+Generated: 2026-11-06T17:21:00+08:00 CST
+
+- Atom direct census: 24h/168h/720h all five categories PASS; nested subset audit has zero missing IDs/pairs.
+- OAI-PMH 24h/168h page-0 TimeoutError; paired coverage remains NOT_COVERED.
+- PAPER_MANIFEST 270 rows; 8 WATCH_ONLY additions; formal promotions 0.
+- PDF manifest 707 valid, 0 invalid, 11 pending.
+- Runtime PRs 20 rechecked; #9871 merged with CI coverage tradeoff; 19 remain open/unmerged.
+- Scheduler latest run failed, latest_result is stale from an older run, next trigger unverified; automation remains enabled.
+- Public remote push remains unavailable; verify remote master SHA after this local heartbeat update.
+
+## [PHYSICAL_AI_SERVING_20261106_1412] LOCAL HEARTBEAT / PUBLIC_SYNC_PENDING
+
+Generated: 2026-11-06T14:12:01+08:00 CST
+
+- 24h direct category census: OAI/Atom 393/393 mandatory pairs, 0 pair difference, all five categories PASS; OAI exact all-cs 867.
+- 168h direct category census: OAI/Atom 3,194/3,194 mandatory pairs, 0 pair difference, all five categories PASS; OAI exact all-cs 7,444.
+- Overall 24h/168h coverage remains NOT_COVERED on semantic, current main-trunk, venue/project and recall obligations.
+- 720h: OAI 31,260 exact / 13,490 pairs; Atom partial 1,709; cs.AR/cs.PF/cs.LG page-0 timeouts and cs.RO page-1 HTTP 429. NOT_COVERED.
+- Main-trunk retry: 16/34 pass; 18 failed/capped. Preserve previous 34/34 last-good.
+- SYS-first triage: 3,006 unique; 368 high-signal; 367 unclassified. Candidate reviews: PSI, OopsieRecover, VLA-Tug, Measured Coupling; formal promotions 0.
+- Eight runtime PRs rechecked; all open/unmerged. Manifests: 262 papers unchanged; 707 valid PDFs, 0 invalid, 4 pending.
+- Robion arXiv:2609.12075 remains the permanent recall regression seed.
+- Remote publication remains pending until independent remote SHA verification and an authorized write path; local heartbeat is not remote sync.
+- Scheduler remains enabled; current run started 54m after its scheduled boundary; next trigger unverified.
+
+## [PHYSICAL_AI_SERVING_20261106_1225] LOCAL HEARTBEAT / PUBLIC_SYNC_PENDING
+
+Generated: 2026-11-06T12:35:05+08:00 CST
+
+- 24h direct census: OAI 924 exact latest-version records / 419 mandatory-category pairs; Atom all five direct categories PASS / 334 pairs. Pair difference: 85 OAI-only / 0 Atom-only. Official Atom id_list corroborates 84 unique IDs / 166 pair checks, all matching category and update window; direct-category mismatch remains, so NOT_COVERED.
+- 168h direct census: OAI 7,490 exact records / 3,209 pairs; Atom all five categories PASS / 3,124 pairs. 85 OAI-only / 0 Atom-only; the same 84 IDs / 166 pair checks are id_list-confirmed. OAI and Atom 24h-to-168h subset gaps are both zero. NOT_COVERED.
+- Main-trunk reverse: 34/34 official query templates PASS, 392 unique IDs, 27 24h IDs, 211 mandatory pairs, 0 reverse-only; discovery-only, not coverage closure.
+- SYS-first triage: 3,020 unique mandatory-category records; 369 high-signal, 367 unclassified. Candidate review: 7 official full-text inspections and 6 abstract-only reviews. StrataFlux and RoboARCade are CORE_SYS candidates, both unpromoted; 0 formal promotions.
+- Runtime frontier: six serving/runtime PRs and two adjacent LeRobot PRs rechecked; all remain open/unmerged. Not shipped: LingBot World GPU/NPU CI gates (#9009), Qwen3-TTS incremental streaming (#9799), MOSS-TTS NPU MRV2 profile (#9953), SGLang PP prefill_complete (#45337), elastic-EP scale-down (#33111), Mooncake lost-prefill-worker fast failure (#65575), LeRobot NumPy action handoff (#4820), SO-101 Bench (#5256).
+- Manifests: 262 unique paper records unchanged; 707 valid PDFs / 0 invalid / 4 pending; 701 unique paper IDs / 704 versioned PDFs. PDFs are not published.
+- Robion arXiv:2609.12075 remains a permanent recall regression seed.
+- Public sync: local heartbeat only. Remote master observed at 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; GitHub permission is pull=true/push=false and this mapped tree has no .git metadata. No commit/push attempted; PUBLIC_SYNC_PENDING.
+- Scheduler remains enabled/expected-active; current run 14da3573-1908-8325-895d-e8e6aae2f4a6 is in progress; next trigger is unverified.
+
+## PHYSICAL_AI_SERVING_20261106_1138 — LOCAL HEARTBEAT / PUBLIC_SYNC_PENDING
+
+Generated: 2026-11-06T11:38:56+08:00 CST
+
+- 24h source recency recovered: OAI 586 exact records; OAI/Atom pair diff 8 OAI-only / 0 Atom-only. NOT_COVERED.
+- 168h OAI/Atom pair diff 7 OAI-only / 0 Atom-only; OAI 24h-to-168h subset misses 1 pair. NOT_COVERED.
+- Main-trunk reverse 34/34 queries PASS; 373 unique IDs; discovery-only.
+- Candidate abstracts 20/20 verified; five official PDF/full-text reviews; zero formal promotions.
+- Manifests: 262 unique paper records; 700 valid PDFs / 0 invalid / 4 pending. PDFs are not published.
+- Robion arXiv:2609.12075 remains a permanent recall regression seed.
+- Public sync: local heartbeat only; independent git ls-remote at 2026-11-06T11:44:10+08:00 verified remote master remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false and local Git metadata absent. PUBLIC_SYNC_PENDING.
+- Scheduler remains enabled/expected-active; current run is in progress and next trigger is unverified.
+
+## 2026-11-06 09:58 CST — LOCAL HEARTBEAT ONLY / PUBLIC_SYNC_PENDING
+
+- Checkpoint: PHYSICAL_AI_SERVING_20261106_0958
+- Coverage: 24h NOT_COVERED (OAI and Atom exact-window zero); 168h NOT_COVERED (16 OAI-only pair mismatch); main-trunk reverse 34/34 discovery queries PASS, not coverage closure.
+- Candidate changes: no formal promotions; 5 prior reviews retained; new official arXiv title leads queued for full-text evidence.
+- Manifests: 262 unique paper records; 695 valid PDF entries, 0 invalid, 4 pending; no PDFs are published.
+- Recall: Robion arXiv:2609.12075 remains a permanent regression seed.
+- Public sync: remote master 2b3e877a4c087c231490fd6b2cb0c6f73f99d277 unchanged; connected permission is pull-only. This local heartbeat is not published.
+
+## [PHYSICAL_AI_SERVING_20261106_0751] STATUS — 24H_PARTIAL_NOT_COVERED / 168H_SOURCE_PAIR_PASS_NOT_COVERED / MAIN_TRUNK_PARTIAL / PUBLIC_SYNC_PENDING
+
+Generated: 2026-11-06T07:51:28+08:00 (Asia/Shanghai)
+
+- 24h exact-window remains NOT_COVERED: OAI 3 pages / 3,007 records / 0 exact; Atom cs.PF page 0 DNS failure. Official /new HTML is discovery-only and partial (cs.PF 3, cs.RO 53, cs.LG 110; cs.DC/cs.AR DNS failure).
+- 168h OAI/Atom pair PASS: 2,700 pairs each, 2,540 Atom IDs, zero pair diff; all five categories pass. Overall coverage remains NOT_COVERED on main-trunk and semantic gates.
+- Main-trunk reverse: 34 queries, 22 pass, 12 DNS failures, 3 capped. SYS-first triage: 2,540 unique, 316 high-signal, 314 unclassified.
+- Five candidate evidence reviews completed; formal promotions 0. Paper manifest 262 unique; PDF manifest 694 entries / 0 invalid / 4 pending.
+- Remote master remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; local mirror has no .git and GitHub push permission=false. PUBLIC_SYNC_PENDING; no commit/push attempted.
+- Scheduler remains enabled. Current run 36015667-376c-832c-a9f8-7813d9859fda is in progress after the 07:00 boundary started at 07:29:38 CST; next trigger is not yet verified.
+
+## [PHYSICAL_AI_SERVING_20261106_0234] STATUS — 24H_SOURCE_PAIR_PASS_NOT_COVERED / 168H_SOURCE_PAIR_PASS_NOT_COVERED / PUBLIC_SYNC_PENDING
+
+Generated: 2026-11-06T02:34:01+08:00 (Asia/Shanghai)
+
+- 24h OAI/Atom source pair passes; overall coverage remains open because semantic/main-trunk/venue gates are not closed.
+- 168h OAI/Atom source pair PASS: 2,784 pairs each, zero diff; cs.LG pages 12–19 added 745 exact records. Overall coverage remains open on 135/4 main-trunk gaps and 315 unclassified high-signal records.
+- Post-scan source-pair recovery at 2026-11-06 03:09:32 CST: official Atom cs.LG pages 12–19 added 745 exact records; 168h OAI/Atom pairs are 2,784/2,784 with zero diff, all five categories pass, and both 24h→168h subsets have zero missing. Overall coverage remains NOT_COVERED on main-trunk/semantic gates.
+- Main-trunk reverse: 31/31 queries, 135 direct 168h gaps, 4 direct 24h gaps.
+- Candidate review advanced TokenScale, HYPIC and EKKA; SafeStart remains SYS_ALG_BOUNDARY. Formal promotions = 0.
+- PDF manifest: 694 valid, 0 invalid, 4 pending; TokenScale/HYPIC/EKKA official PDFs pass local header/SHA/PyMuPDF validation.
+- Local public mirror has no Git metadata; GitHub push permission=false. Remote master SHA independently rechecked after the latest 168h source-pair and scheduler-status updates at 2026-11-06 03:15:53 CST and remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false, so PUBLIC_SYNC_PENDING. No push attempted.
+- Scheduler recovery in progress: previous run bb38dd28-9cc8-8324-8b6b-c64e0d705b23 failed at 02:29:38 CST; new scheduled run e5b7e9d7-8f98-8326-a583-6e82c46d8e84 for 03:00 CST started at 03:08:07 CST and is recorded in_progress. Task remains enabled/expected-active; next_run_time=null while this run is active, and the next boundary is unverified. The latest_result belongs to an older run; current worker liveness is not independently confirmed. No schedule change or disable was made.
+
+<!-- PHYSICAL_AI_SERVING_20261106_0024 -->
+# Radar scan status
+
+Latest local checkpoint: PHYSICAL_AI_SERVING_20261106_0024  
+Updated: 2026-11-06 00:24 CST  
+Overall: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / SOURCE_PAIR_PARTIAL_NOT_COVERED / PUBLIC_SYNC_PENDING
+
+- 24h: source-pair PASS, coverage not closed.
+- 7d: OAI census PASS; Atom cs.LG HTTP 429; partial reconciliation, not covered.
+- Main-trunk reverse: 22/31 queries pass; 9 fail; not covered.
+- Official first-party checks: 18/18 HTTP 200.
+- Semantic triage: 329 high-signal; 327 unclassified.
+- Manifest: 262 papers; 688 valid PDFs; 4 pending; 0 promotions.
+- Remote publication: pending; no successful push claimed.
+
+---
+
+# Scan Status — PHYSICAL_AI_SERVING_20261105_2331
+
+Generated: 2026-11-05 23:31 CST
+
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / SOURCE_PAIR_PASS_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_CURRENT_RUN_ACTIVE_NEXT_TRIGGER_UNVERIFIED
+- 24h: OAI 247 exact; Atom 99 IDs; 107/107 mandatory pairs; pair diff=0; official /abs 30/30, exact=5; cross-list 10/10, exact=4. Coverage remains open.
+- 7d: OAI 6,886 exact; Atom 2,739 IDs; 2,915/2,915 mandatory pairs; pair diff=0; cross-window subset gaps=0. Coverage remains open.
+- Main-trunk: 22/22 queries, 149 IDs; 87 direct-Atom gaps; 343 high-signal unclassified and 409 high-signal untracked remain.
+- PDFs: 688 valid / 0 invalid / 4 pending; five candidate PDFs full-text PASS; two new PDF manifest entries; paper manifest 262 unique IDs; zero formal promotions.
+- Public sync: local heartbeat only; push permission=false; no commit/push claimed.
+- Scheduler: original task remains enabled/expected-active; current run in progress; next trigger unverified.
+
+[Hourly checkpoint](hourly/2026-11-05-2331.md)
+
+---
+
+# Scan Status — PHYSICAL_AI_SERVING_20261105_0754
+
+Generated: 2026-11-05 07:54 CST
+
+- Status: PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_RETRY_IN_PROGRESS
+- 24h: NOT_COVERED; OAI 05:55 timeout before page 1; Atom five routes reached cutoff but INCOMPLETE / 0 exact; official /new 5/5 and /abs 65/65 are discovery-only.
+- 168h: SOURCE_ONLY_NOT_COVERED; retain the 03:26 OAI/Atom last-good pair (2,784/2,784 mandatory pairs); 05:35 OAI partial and Atom unreconciled.
+- 720h / 30d: last-good source only; no same-run census. 90d: backup only.
+- Main-trunk: 22/22 queries passed; 51 direct-OAI gaps; 47 official abstract/category checks; 125 high-signal unclassified.
+- PDFs: 671 valid / 0 invalid / 4 pending; paper manifest 262 unique IDs; seven candidate PDFs full-text verified; zero promotions.
+- Runtime: 13 PRs rechecked, all open; five updated since 07:30; four patches inspected. No PR is described as shipped.
+- Public sync: post-update remote master independently verified at 2026-11-05 08:01:28 CST; SHA remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false; no commit/push; sync remains pending.
+- Scheduler: 07:00 run first attempt failed at 07:38:36; same run retry started 07:47:11 and is in progress; next trigger unverified.
+
+[Hourly checkpoint](hourly/2026-11-05-0754.md)
+
+---
+
+# Scan Status — PHYSICAL_AI_SERVING_20261105_0730
+
+Generated: 2026-11-05 07:30 CST
+
+- Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_REFRESH_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_RUN_FAILED
+- 24h: NOT_COVERED; OAI 05:55 failed before page 1; Atom 5/5 routes reached cutoff but aggregate INCOMPLETE / 0 exact. Official /new and /abs are discovery-only.
+- 168h: SOURCE_ONLY_NOT_COVERED; retain the 03:26 OAI/Atom last-good pair (2,784/2,784 mandatory pairs); 05:35 OAI partial and Atom unreconciled.
+- 720h / 30d: last-good source only; no same-run census. 90d: backup only.
+- Main-trunk: 22/22 queries passed; 51 direct-OAI gaps; 47 official abstract/category checks; 125 high-signal unclassified.
+- PDFs: 671 valid / 0 invalid / 4 pending; paper manifest 262 unique IDs; seven candidate PDFs full-text verified; zero promotions.
+- Regression seed: Robion arXiv:2609.12075 remains protected; latest stored official /abs recheck PASS.
+- Public sync: local mirror updated; push permission=false; no commit/push; remote master SHA rechecked after local update at 07:54:15 CST; it remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277, with no remote advancement; push permission=false; no commit/push; sync pending.
+- Scheduler: 07:00 CST run started 13m30s late and failed at 07:38:36 CST; next trigger unverified.
+
+[Hourly checkpoint](hourly/2026-11-05-0730.md)
+---
+
+
+
+# Previous checkpoint archive
+
+# Scan Status — PHYSICAL_AI_SERVING_20261104_0608
+
+Generated: 2026-11-04 06:08 CST
+
+- Status: **PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / PARTIAL_SOURCE_SCAN_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_LATE_START**
+- Coverage: 24h NOT_COVERED_ZERO_EXACT; 168h/720h SOURCE_ONLY_NOT_COVERED; 90d BACKUP_ONLY
+- Semantic: 2,060 cumulative decisions; 3 new decisions; 1 CORE_SYS candidate; 2 boundary candidates; 0 promotions
+- PDFs: 633 valid / 0 invalid / 4 pending; paper manifest 262 rows / 262 unique
+- Runtime: vLLM-Omni, SGLang, Dynamo, and vLLM releases/open PRs inspected; open PRs are not shipped
+- Public sync: **PUBLIC_SYNC_PENDING**; remote master unchanged; push permission=false; no local Git metadata
+- Scheduler: enabled/expected-active; current run active but 53m49s late; next trigger unverified
+- [Latest checkpoint](LATEST.md) · [Hourly report](hourly/2026-11-04-0608.md)
+
+---
+
+## Previous checkpoint — PHYSICAL_AI_SERVING_20261103_1024
+
+Generated: 2026-11-03 10:24 CST
+
+- Status: PARTIAL_CHECKPOINT_RECOVERY / PARTIAL_SOURCE_SCAN_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Coverage: 24h NOT_COVERED_ZERO_EXACT; 168h/720h SOURCE_ONLY_NOT_COVERED; 90d BACKUP_ONLY.
+- Source census: OAI 24h exact=0; 168h 4,304 exact; 720h 28,658 exact. Atom 24h exact=0 (INCOMPLETE); 168h 1,631 unique/1,731 required pairs; 720h 11,767 unique/12,464 required pairs. Shared-window OAI/Atom differences=46/55 OAI-only pairs, all verified by GetRecord; 4 nested OAI pairs verified; direct census completeness remains open.
+- Official first-party fallback: /new 5/5 HTTP 200, 488 entries/467 unique; /abs 16/16, exact=0, latest exact version 2611.00269 at 2026-10-30 18:54:26 UTC (~79h outside).
+- SYS-first: 27 new semantic decisions since 0847; cumulative=2,038; 2 new CORE_SYS candidates MOLT 2610.05748 and CacheTune 2605.24022, both unpromoted; fetch-ready=0; high-signal unclassified=0; 168 class conflicts/0 classless; formal promotions=0.
+- Candidate evidence: 38 abstracts PASS; 10 PDFs/fulltext valid; 3 author-linked repositories verified (REA, AMMA, GPUSparse); no independent reproduction/SLO closed; RPS-Serve and EdgePace remain existing manifest-verified records.
+- PDF: 587 valid / 0 invalid / 4 pending; PAPER_MANIFEST=262 rows / 257 unique IDs, unchanged.
+- Runtime: source scan artifacts 0940/0955; canonical checkpoint 1024. Last-good 24h/168h/720h snapshots preserved.
+- Public sync: PENDING. Remote master SHA unchanged: 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; GitHub push=false; fixed public mirror has no Git metadata.
+- Scheduler: enabled=true; expected_active=true; current run failed at 10:20:51 CST; scheduled 09:00 CST, started 09:55:46 CST (+55m46s), completed 10:20:51 CST (+25m04s); next_run_time=null; next hourly boundary 11:00 CST in 35m09s; hourly recurrence unsupported by update API.
+- [Latest checkpoint](LATEST.md) · [Hourly scan](hourly/2026-11-03-1024.md)
+
+---
+
+## Previous checkpoint summary — PHYSICAL_AI_SERVING_20261103_0420
+
+Generated: 2026-11-03 04:36 CST
+
+- Status: PARTIAL_SOURCE_SCAN_NOT_COVERED / PUBLIC_SYNC_PENDING / SCHEDULER_INCIDENT
+- Coverage: 24h NOT_COVERED_ZERO_EXACT; 7d/30d SOURCE_ONLY_NOT_COVERED; 90d BACKUP_ONLY.
+- Source census: OAI 24h exact=0; 168h exact=4,432; 720h exact=28,614. Atom 168h shared-window pair diff=0; Atom 720h refresh incomplete. Main-trunk 13/22 pass, 9 HTTP 429.
+- SYS-first: 25 abstracts classified (8 SYS boundary / 14 algorithm inspiration / 3 watch-only); semantic union=1,963; class conflicts=168; classless=0; fetch-ready=23.
+- Candidate evidence: Eevee DOI candidate rechecked, PDF pending; Long-WAM/RealtimeWAM/Zepp remain unpromoted; no reproduction/SLO gate closed; new candidates=0; formal promotions=0.
+- Runtime: vLLM-Omni v0.32.0; vLLM KV-offload/FP8 fixes merged; current SGLang/TensorRT-LLM/Dynamo PRs remain open.
+- Public sync: PENDING (GitHub write integration 403; remote master unchanged).
+- Scheduler: task remains enabled/expected-active; current run in_progress; next_run_time=null; hourly cadence unsupported by exposed Automations API.
+
+[Latest checkpoint](LATEST.md) · [Hourly scan](hourly/2026-11-03-0420.md)
+
+---
+
+## Previous checkpoint summary — PHYSICAL_AI_SERVING_20261102_1711
+
 # Scan Status — PHYSICAL_AI_SERVING_20261102_1711
 
 Generated: 2026-11-02T17:17:36+08:00
@@ -11,8 +335,6 @@ Generated: 2026-11-02T17:17:36+08:00
 - Public sync: heartbeat commit 5d39898cf867e275f0fc85039199441e480d37b2 and status-seal commit 195f5cff7a72ff4123681f73cbae2778fab6df6f pushed and independently ls-remote verified; final remote master SHA is recorded in canonical state.
 - Scheduler: original task enabled/expected-active; current run in_progress, liveness unproven; next_run_time=null.
 [Latest checkpoint](LATEST.md) · [Hourly scan](hourly/2026-11-02-1711.md)
-
----
 
 ## Previous status summary — PHYSICAL_AI_SERVING_20261102_1511
 
