@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-08T16:14:59+08:00",
-  "count": 298,
+  "updated": "2026-11-08T20:18:57+08:00",
+  "count": 300,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3586,8 +3586,7 @@
       "year": 2025,
       "venue": "USENIX FAST 2025 (Best Paper)",
       "priority": "A+",
-      "status": "VERIFIED",
-      "formal_promotion": true
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2610.40738",
@@ -3791,8 +3790,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.07996",
@@ -3804,8 +3802,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.08039",
@@ -3819,8 +3816,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.08413",
@@ -3834,8 +3830,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.07663",
@@ -3849,8 +3844,7 @@
       "year": 2026,
       "venue": "ICARCV 2026 (accepted)",
       "priority": "B",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.07651",
@@ -3862,8 +3856,7 @@
       "year": 2026,
       "venue": "ICARCV 2026 (accepted)",
       "priority": "B",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.07593",
@@ -3877,8 +3870,7 @@
       "year": 2026,
       "venue": "NeurIPS 2026 (accepted)",
       "priority": "A",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.07570",
@@ -3891,8 +3883,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.08368",
@@ -3904,8 +3895,7 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "B",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.08139",
@@ -3919,8 +3909,7 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "B",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.07411",
@@ -3933,8 +3922,7 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.07493",
@@ -3948,8 +3936,7 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "B",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.07517",
@@ -3963,8 +3950,7 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "B",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.07964",
@@ -3977,8 +3963,7 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "C",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2611.07229",
@@ -3991,8 +3976,7 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "C",
-      "status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "WATCH_ONLY"
     },
     {
       "id": "arxiv:2608.08600",
@@ -4005,9 +3989,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "VERIFIED",
-      "candidate_status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2601.11063",
@@ -4020,9 +4002,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "C",
-      "status": "VERIFIED",
-      "candidate_status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2605.25820",
@@ -4034,9 +4014,7 @@
       "year": 2026,
       "venue": "NeurIPS 2026 (accepted)",
       "priority": "B",
-      "status": "VERIFIED",
-      "candidate_status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2610.31166",
@@ -4049,9 +4027,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "VERIFIED",
-      "candidate_status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2610.21389",
@@ -4065,9 +4041,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A-",
-      "status": "VERIFIED",
-      "candidate_status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2611.08147",
@@ -4079,9 +4053,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "VERIFIED",
-      "candidate_status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2611.07149",
@@ -4094,9 +4066,7 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A",
-      "status": "VERIFIED",
-      "candidate_status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "VERIFIED"
     },
     {
       "id": "arxiv:2611.06019",
@@ -4110,9 +4080,32 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "VERIFIED",
-      "candidate_status": "WATCH_ONLY",
-      "formal_promotion": false
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2607.03012",
+      "title": "HyperVAttention: Efficient Sparse Attention with Spatio-Temporal Clustering for Video Diffusion",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "priority": "B",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2610.41970",
+      "title": "When Does Test-Time Search Help World Action Models? An Empirical Audit of Candidate Selection and Simulator Integrity",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        9,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "priority": "B",
+      "status": "VERIFIED"
     }
   ]
 }

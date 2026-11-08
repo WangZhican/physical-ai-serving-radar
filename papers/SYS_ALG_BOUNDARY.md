@@ -191,3 +191,13 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 
 ## 2026-09-24 21:00 CST — fixed-state episodic VLA memory
 - [**MemBodied**](https://arxiv.org/abs/2609.28256) — **SYS_ALG_BOUNDARY / A**, Routes 3/5. Fixed-size associative state persists interactions across policy calls while an episode anchor preserves initial-scene context. The paper reports **91.9% lower inference latency than NativeMEM** while keeping memory/access cost independent of episode length. Strong Physical-AI temporal-state/cache inspiration, but the mechanism is a VLA model architecture rather than a reusable serving runtime. [Code](https://github.com/declare-lab/MemBodied).
+
+
+## HyperVAttention: Efficient Sparse Attention with Spatio-Temporal Clustering for Video Diffusion — arXiv:2607.03012 — SYS_ALG_BOUNDARY / WATCH_ONLY
+
+3D local-window clustering, temporal subset updates, hardware-aware CTA merging, and a custom Triton / FlashInfer path for Wan 2.2 / HunyuanVideo. Author-linked repository is public, but no LICENSE file or test suite was verified; README contains a stale arXiv link. No independent reproduction; not a serving scheduler.
+
+
+## When Does Test-Time Search Help World Action Models? — arXiv:2610.41970 — SYS_ALG_BOUNDARY / WATCH_ONLY
+
+WAM candidate-selection and simulator-integrity audit; reports 82% identical candidate outcomes and at most 1.15x deployed end-to-end speedup from token pruning. No author-linked repository or serving runtime was verified.

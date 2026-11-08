@@ -1,6 +1,6 @@
 # Physical AI + Multimodal Serving Radar
 
-Last updated: 2026-11-08 15:01 CST
+Last updated: 2026-11-08 20:18 CST (local mirror; remote sync pending)
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
