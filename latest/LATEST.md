@@ -1,5 +1,5 @@
 
-Post-update sync recheck (2026-11-08T20:23:26+08:00): GitHub REST API confirms master ; SSH ls-remote failed DNS and HTTPS ls-remote failed TLS. Current checkpoint remains SYNCED_VERIFIED; no push attempted.
+Public sync reconciliation (verified 2026-11-08T20:35:30+08:00): checkpoint 2018 is published on master; the successful SSH git ls-remote check matched local HEAD and origin/master. The earlier DNS/TLS failures were transient and are superseded. Coverage remains 24h NOT_COVERED / 168h SOURCE_ONLY_NOT_COVERED; the scheduler's next trigger remains unverified. Exact remote SHA is retained in the canonical sync record.
 ## PHYSICAL_AI_SERVING_20261108_2018 — 2026-11-08 20:18 CST
 
 - 24h: NOT_COVERED (exact=0, paired OAI unavailable).
