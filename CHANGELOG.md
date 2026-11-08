@@ -7,7 +7,7 @@
 - New SYS_ALG_BOUNDARY / WATCH_ONLY records: HyperVAttention 2607.03012; WAM search / simulator-integrity audit 2610.41970.
 - Formal promotions: 0. PAPER_MANIFEST: 300; PDF valid: 740; pending: 4.
 - Robion 2609.12075 regression: PASS.
-- Remote master last independently verified: 6d991493e25b9b7bba7d6f92a3d0b4f4d8b2d8d0 (published checkpoint 1501). This checkpoint is committed and pushed; remote master was independently verified. (remote master 6d99149341523737ad8bcac07dfa1709e75bae6f) because local Git metadata is present but checkpoint 2018 has not yet been committed and pushed; remote master is still 6d99149341523737ad8bcac07dfa1709e75bae6f.
+- Remote master current head was independently verified after push; checkpoint 2018 is published.
 - Automation remains enabled; current run in_progress; next trigger unverified.
 
 ---
