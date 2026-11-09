@@ -1,12 +1,12 @@
-## Public sync verified — 2026-11-09 11:30 CST
+## Public sync verified — 2026-11-09 15:21 CST
 
-The 08:15 public checkpoint was committed and pushed. Independent remote-master verification succeeded. This records publication status only and does not imply additional source coverage.
+Checkpoint PHYSICAL_AI_SERVING_20261109_1516 was committed and pushed. The scan commit 15814ade01fa94428338b03ede2502cd49f10242 was independently confirmed on remote master. A follow-up status-seal commit is now being published; the canonical audit retains the final remote SHA.
 
 ---
 
 ## PHYSICAL_AI_SERVING_20261109_1516 — 2026-11-09 15:16 CST
 
-Status: 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_PENDING
+Status: 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_VERIFIED
 
 - Rolling 24h: official Atom exact=0 across cs.DC/cs.AR/cs.PF/cs.RO/cs.LG; OAI-PMH page 0 failed DNS. Official /new returned 4/5 category pages, 462 unique IDs, 15 SYS-first title hits and 20/20 selected abstract/version-history checks; cs.RO DNS failed. Discovery-only; NOT_COVERED.
 - Rolling 168h: official Atom PASS with 2,463 unique IDs / 2,620 category pairs; OAI-PMH page 0 timed out. SOURCE_ONLY_NOT_COVERED.
@@ -16,7 +16,7 @@ Status: 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_PENDING
 - Public paper index has been rebuilt from the canonical manifest; all 317 records are included. Twelve previously absent public index records were restored.
 - Robion arXiv:2609.12075 permanent recall regression: PASS; no current-window coverage credit. Formal promotions: 0.
 - Scheduler: original expected-active automation remains enabled; current run started on time and is in progress; next trigger is not yet verified.
-- Public sync: pending independent remote-master verification.
+- Public sync: PUBLIC_SYNC_VERIFIED; the scan commit has been independently confirmed on remote master.
 
 ---
 
