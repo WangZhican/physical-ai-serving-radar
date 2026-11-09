@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-08T20:18:57+08:00",
-  "count": 300,
+  "updated": "2026-11-09T06:47:42+08:00",
+  "count": 305,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -4106,6 +4106,64 @@
       "venue": "arXiv preprint",
       "priority": "B",
       "status": "VERIFIED"
+    },
+    {
+      "id": "arxiv:2611.08111",
+      "title": "Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "priority": "B",
+      "status": "WATCH_ONLY"
+    },
+    {
+      "id": "arxiv:2611.07912",
+      "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "priority": "B",
+      "status": "WATCH_ONLY"
+    },
+    {
+      "id": "arxiv:2611.08462",
+      "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+      "class": "ALG_INSPIRATION",
+      "route": [
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "priority": "B",
+      "status": "WATCH_ONLY"
+    },
+    {
+      "id": "arxiv:2611.08308",
+      "title": "RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines",
+      "class": "ALG_INSPIRATION",
+      "route": [
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "priority": "B",
+      "status": "WATCH_ONLY"
+    },
+    {
+      "id": "arxiv:2611.08398",
+      "title": "A Multimodal Haptic Interface for Simultaneous Softness and Thermal Modulation",
+      "class": "WATCH_ONLY",
+      "route": [],
+      "year": 2026,
+      "venue": "EuroHaptics 2026",
+      "priority": "C",
+      "status": "WATCH_ONLY"
     }
   ]
 }

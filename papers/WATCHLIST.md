@@ -1,3 +1,15 @@
+**2026-11-09 06:47 CST — first-party evidence review; WATCH_ONLY, no formal promotions (PHYSICAL_AI_SERVING_20261109_0647):**
+
+- [NegWAM](https://arxiv.org/abs/2611.08111) — official PDF/full text and author-linked repository reviewed. It is a WAM safety post-training method; the auxiliary branch is removed at inference, and no serving scheduler, queueing or concurrency SLO is reported.
+- [GuidedWAM](https://arxiv.org/abs/2611.07912) — official PDF/full text reviewed. Sampling-time energy guidance adds 0.1–1.9 ms to reported 16–48 ms steps, but evidence is open-loop pseudo-simulation without a serving runtime or SLO.
+- [OopsieRecover](https://arxiv.org/abs/2611.08462) — official abstract only; policy-correction method with no serving latency/throughput evidence. Same-name repository is not author-linked and remains unverified.
+- [RM-VLM](https://arxiv.org/abs/2611.08308) — official abstract only; reward-machine/policy-learning contribution, not a serving system. The discovered same-name repository is an unrelated project and was rejected.
+- [A Multimodal Haptic Interface](https://arxiv.org/abs/2611.08398) — adjacent physical-interface hardware; not an AI inference/serving contribution.
+
+Two official PDFs were validated (22 pages total); three records remain abstract-only. All five remain WATCH_ONLY. No formal promotion.
+
+---
+
 **2026-11-08 15:01 CST — first-party PDF/repository review; WATCH_ONLY, NOT formally promoted (PHYSICAL_AI_SERVING_20261108_1501):**
 - [FastAFD](https://arxiv.org/abs/2611.07149) — CORE_SYS candidate for hardware-aware MoE serving/disaggregation. The paper reports up to 1.17× over tuned vLLM wide EP on Qwen3 and 1.16× on Qwen3.5; the author-linked [MIT repository](https://github.com/hao-ai-lab/FastAFD) contains benchmark and correctness scripts plus CPU tests. The README's 1.35–1.45× uses a colocated baseline and is not the same comparison. Independent reproduction and VLM/Omni transfer remain open.
 - [Phantom](https://arxiv.org/abs/2611.06019) — SYS_ALG_BOUNDARY candidate for diffusion temporal reuse and accelerator co-design. The official 13-page PDF reports 4.0× average speedup and 5.5× energy savings while preserving generation quality, with about 22% area overhead. No author-linked repository or online serving runtime was verified.

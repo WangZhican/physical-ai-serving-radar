@@ -1,3 +1,24 @@
+## Public sync correction — 2026-11-09 11:29 CST
+
+The 08:15 audit incorrectly reported that the mapped public worktree had no Git metadata. The earlier check ran Git from the stable parent /home/wangzc rather than from the existing nested repository. The repository at SafeMode/physical-ai-serving-radar/ is valid: git -C ... rev-parse --show-toplevel resolves to that path, branch is master, and local HEAD plus origin/master both equal 0e1fd7730929f7d55980bde5aef7885a749f37fa.
+
+SSH authentication identifies WangZhican; git push --dry-run origin master returned Everything up-to-date because no new commit had yet been created. The connected GitHub API identity is DavidLi1994 with pull=true / push=false; that connector permission is distinct from the SSH identity. No actual push or remote advancement is claimed in this correction. The five validated local changes remain PUBLIC_SYNC_PENDING until a real commit/push and independent SSH ls-remote verification complete.
+
+---
+
+## PHYSICAL_AI_SERVING_20261109_0647 — 2026-11-09 06:47 CST
+
+## PHYSICAL_AI_SERVING_20261109_0815 — 2026-11-09 08:15 CST
+
+- Added a truthful source-coverage heartbeat; no paper or taxonomy changes; 24h NOT_COVERED, 168h SOURCE_ONLY_NOT_COVERED, public sync pending.
+
+- 24h NOT_COVERED (Atom exact=0; OAI page-0 HTTP 429); 168h SOURCE_ONLY_NOT_COVERED (Atom 2,072 unique / 2,203 category pairs; OAI page-0 DNS failure).
+- Main-trunk reverse-neighborhood 34/34 query PASS, but two reverse-only category pairs remain; coverage_closed=false. Official /new 5/5 pages, 552 IDs, 37 SYS-first title hits, 26/30 abstract checks; discovery-only.
+- Added five WATCH_ONLY records; two official PDFs/full texts validated; no formal promotions. Manifest: 307 papers, 747 valid PDFs / 0 invalid / 4 pending.
+- Public local delta is pending publication: push permission=false, no local .git metadata; remote master remains 0e1fd7730929f7d55980bde5aef7885a749f37fa. Automation remains enabled; next trigger unverified.
+
+---
+
 ## PHYSICAL_AI_SERVING_20261108_2018 — 2026-11-08 20:18 CST
 
 - 24h: NOT_COVERED (exact=0, paired OAI unavailable).

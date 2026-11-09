@@ -1,5 +1,40 @@
+## Public sync correction — 2026-11-09 11:29 CST
+
+The 08:15 audit incorrectly reported that the mapped public worktree had no Git metadata. The earlier check ran Git from the stable parent /home/wangzc rather than from the existing nested repository. The repository at SafeMode/physical-ai-serving-radar/ is valid: git -C ... rev-parse --show-toplevel resolves to that path, branch is master, and local HEAD plus origin/master both equal 0e1fd7730929f7d55980bde5aef7885a749f37fa.
+
+SSH authentication identifies WangZhican; git push --dry-run origin master returned Everything up-to-date because no new commit had yet been created. The connected GitHub API identity is DavidLi1994 with pull=true / push=false; that connector permission is distinct from the SSH identity. No actual push or remote advancement is claimed in this correction. The five validated local changes remain PUBLIC_SYNC_PENDING until a real commit/push and independent SSH ls-remote verification complete.
+
+---
+
 
 Public sync reconciliation (verified 2026-11-08T20:35:30+08:00): checkpoint 2018 is published on master; the successful SSH git ls-remote check matched local HEAD and origin/master. The earlier DNS/TLS failures were transient and are superseded. Coverage remains 24h NOT_COVERED / 168h SOURCE_ONLY_NOT_COVERED; the scheduler's next trigger remains unverified. Exact remote SHA is retained in the canonical sync record.
+## PHYSICAL_AI_SERVING_20261109_0815 — 2026-11-09 08:15 CST
+
+Status: 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_PENDING
+
+- Rolling 24h: official Atom five-category census crossed cutoff with exact=0; OAI-PMH page 0 timed out. NOT_COVERED.
+- Rolling 168h: official Atom direct PASS, 2,050 unique / 2180 category pairs; OAI-PMH page 0 timed out. SOURCE_ONLY_NOT_COVERED.
+- Official arXiv /new: 5/5 last-good pages / 552 IDs; cs.AR retry recovered 16 IDs and 16 official abstracts. Discovery-only.
+- Main-trunk replay: 34/34 queries pass on 0702 baseline, 276 IDs / 140 reverse pairs / 0 reverse-only; 2,049 direct-only pairs remain; coverage is not closed.
+- Candidate review: 9 relevant abstracts triaged; no manifest additions or formal promotions.
+- Manifests: 307 papers (180 CORE_SYS / 105 SYS_ALG_BOUNDARY / 13 ALG_INSPIRATION / 9 WATCH_ONLY); 747 valid PDFs / 0 invalid / 4 pending.
+- Formal promotions: 0. Next exact paired census follows the next arXiv announcement boundary; source failures are not coverage.
+- This local heartbeat is not yet published; remote master remains at the previous published checkpoint.
+
+## PHYSICAL_AI_SERVING_20261109_0647 — 2026-11-09 06:47 CST
+
+- Rolling 24h: NOT_COVERED. Official Atom direct cs.DC/cs.AR/cs.PF/cs.RO/cs.LG crossed the exact cutoff with zero records; OAI-PMH page 0 returned HTTP 429. The official /new pages still show Friday, 6 November, before the next announcement boundary.
+- Rolling 168h: SOURCE_ONLY_NOT_COVERED. Official Atom direct census passed with 2,072 unique records / 2,203 category pairs; OAI-PMH page 0 failed DNS. The 24h and 168h Atom cutoffs differ by 8m37s, so nested-window consistency is not claimed.
+- Main-trunk reverse-neighborhood: 34/34 query templates passed; 280 IDs and 143 reverse pairs were observed, but two reverse-only category pairs remain and coverage_closed=false.
+- Official /new fallback: 5/5 pages HTTP 200, 552 unique IDs, 37 SYS-first title hits, 26/30 abstract/version checks. Discovery-only.
+- Added five WATCH_ONLY records to the local radar; two official PDFs/full texts validated, three abstract-only. No formal promotions.
+- Manifest: 307 canonical paper records; 747 valid PDFs, 0 invalid, 4 pending. Robion 2609.12075 remains a permanent recall seed with its last-good official PDF/manifest retained.
+- Runtime/infra PR recheck: 13 first-party PRs remain open/unmerged; AIBrix repository path moved to vllm-project/aibrix.
+- PUBLIC_SYNC_PENDING: local public files are updated, but push permission is false and the mapped worktree has no .git metadata. Remote master SHA: 0e1fd7730929f7d55980bde5aef7885a749f37fa (SSH ls-remote, verified=True). No push attempted.
+- Automation remains enabled and expected-active. Current run is in_progress but started 88m51.8s after its scheduled time; next_run_time is null and the next trigger is unverified.
+
+---
+
 ## PHYSICAL_AI_SERVING_20261108_2018 — 2026-11-08 20:18 CST
 
 - 24h: NOT_COVERED (exact=0, paired OAI unavailable).
