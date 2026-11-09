@@ -1,16 +1,15 @@
-## Public sync verified — 2026-11-09 11:30 CST
+## PHYSICAL_AI_SERVING_20261109_1516 — 2026-11-09 15:16 CST
 
-The pending 08:15 public delta was committed and pushed through the existing nested Git repository using the SSH identity WangZhican. Published commit: cb4e6605a515511ce464200267f2293a827b488a. Independent SSH git ls-remote and GitHub REST GET /git/ref/heads/master both returned the same remote master SHA, cb4e6605a515511ce464200267f2293a827b488a; local HEAD matches. PUBLIC_SYNC_PENDING is cleared for the 08:15 checkpoint. The connected GitHub API identity DavidLi1994 remains pull-only; the successful write route was the separately authenticated SSH identity.
-
-This verifies public publication only. The current 11:29 scan is still in progress, and the next hourly trigger remains unverified.
+- Reconciled the 14:05–14:24 first-party source batch into canonical state before starting another census. Rolling 24h remains NOT_COVERED; 168h remains SOURCE_ONLY_NOT_COVERED.
+- Added ten first-party full-text-reviewed WATCH_ONLY records: four CORE_SYS, five SYS_ALG_BOUNDARY, one ALG_INSPIRATION. No formal promotions.
+- Canonical totals: 317 papers; 757 valid PDFs / 0 invalid / 4 pending. Public data index rebuilt to all 317 records; twelve previously absent records restored.
+- Robion 2609.12075 recall regression PASS. Public sync pending independent verification.
 
 ---
 
-## Public sync correction — 2026-11-09 11:29 CST
+## Public sync verified — 2026-11-09 11:30 CST
 
-The 08:15 audit incorrectly reported that the mapped public worktree had no Git metadata. The earlier check ran Git from the stable parent /home/wangzc rather than from the existing nested repository. The repository at SafeMode/physical-ai-serving-radar/ is valid: git -C ... rev-parse --show-toplevel resolves to that path, branch is master, and local HEAD plus origin/master both equal 0e1fd7730929f7d55980bde5aef7885a749f37fa.
-
-SSH authentication identifies WangZhican; git push --dry-run origin master returned Everything up-to-date because no new commit had yet been created. The connected GitHub API identity is DavidLi1994 with pull=true / push=false; that connector permission is distinct from the SSH identity. No actual push or remote advancement is claimed in this correction. The five validated local changes remain PUBLIC_SYNC_PENDING until a real commit/push and independent SSH ls-remote verification complete.
+The 08:15 public checkpoint was committed and pushed. Independent remote-master verification succeeded. This records publication status only and does not imply additional source coverage.
 
 ---
 

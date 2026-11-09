@@ -1,21 +1,25 @@
 ## Public sync verified — 2026-11-09 11:30 CST
 
-The pending 08:15 public delta was committed and pushed through the existing nested Git repository using the SSH identity WangZhican. Published commit: cb4e6605a515511ce464200267f2293a827b488a. Independent SSH git ls-remote and GitHub REST GET /git/ref/heads/master both returned the same remote master SHA, cb4e6605a515511ce464200267f2293a827b488a; local HEAD matches. PUBLIC_SYNC_PENDING is cleared for the 08:15 checkpoint. The connected GitHub API identity DavidLi1994 remains pull-only; the successful write route was the separately authenticated SSH identity.
-
-This verifies public publication only. The current 11:29 scan is still in progress, and the next hourly trigger remains unverified.
+The 08:15 public checkpoint was committed and pushed. Independent remote-master verification succeeded. This records publication status only and does not imply additional source coverage.
 
 ---
 
-## Public sync correction — 2026-11-09 11:29 CST
+## PHYSICAL_AI_SERVING_20261109_1516 — 2026-11-09 15:16 CST
 
-The 08:15 audit incorrectly reported that the mapped public worktree had no Git metadata. The earlier check ran Git from the stable parent /home/wangzc rather than from the existing nested repository. The repository at SafeMode/physical-ai-serving-radar/ is valid: git -C ... rev-parse --show-toplevel resolves to that path, branch is master, and local HEAD plus origin/master both equal 0e1fd7730929f7d55980bde5aef7885a749f37fa.
+Status: 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_PENDING
 
-SSH authentication identifies WangZhican; git push --dry-run origin master returned Everything up-to-date because no new commit had yet been created. The connected GitHub API identity is DavidLi1994 with pull=true / push=false; that connector permission is distinct from the SSH identity. No actual push or remote advancement is claimed in this correction. The five validated local changes remain PUBLIC_SYNC_PENDING until a real commit/push and independent SSH ls-remote verification complete.
+- Rolling 24h: official Atom exact=0 across cs.DC/cs.AR/cs.PF/cs.RO/cs.LG; OAI-PMH page 0 failed DNS. Official /new returned 4/5 category pages, 462 unique IDs, 15 SYS-first title hits and 20/20 selected abstract/version-history checks; cs.RO DNS failed. Discovery-only; NOT_COVERED.
+- Rolling 168h: official Atom PASS with 2,463 unique IDs / 2,620 category pairs; OAI-PMH page 0 timed out. SOURCE_ONLY_NOT_COVERED.
+- Main-trunk reverse-neighborhood: 32/34 queries passed, 321 unique IDs, 178 reverse pairs, 0 reverse-only, 2442 direct-only; two DNS failures, coverage_closed=false.
+- SYS-first triage: 289 high-signal / 261 unclassified. Ten first-party full-text-reviewed records added as WATCH_ONLY; 4 CORE_SYS, 5 SYS_ALG_BOUNDARY, 1 ALG_INSPIRATION. No formal promotions.
+- Canonical manifest: 317 papers (184 CORE_SYS / 110 SYS_ALG_BOUNDARY / 14 ALG_INSPIRATION / 9 WATCH_ONLY); 757 valid PDFs / 0 invalid / 4 pending.
+- Public paper index has been rebuilt from the canonical manifest; all 317 records are included. Twelve previously absent public index records were restored.
+- Robion arXiv:2609.12075 permanent recall regression: PASS; no current-window coverage credit. Formal promotions: 0.
+- Scheduler: original expected-active automation remains enabled; current run started on time and is in progress; next trigger is not yet verified.
+- Public sync: pending independent remote-master verification.
 
 ---
 
-
-Public sync reconciliation (verified 2026-11-08T20:35:30+08:00): checkpoint 2018 is published on master; the successful SSH git ls-remote check matched local HEAD and origin/master. The earlier DNS/TLS failures were transient and are superseded. Coverage remains 24h NOT_COVERED / 168h SOURCE_ONLY_NOT_COVERED; the scheduler's next trigger remains unverified. Exact remote SHA is retained in the canonical sync record.
 ## PHYSICAL_AI_SERVING_20261109_0815 — 2026-11-09 08:15 CST
 
 Status: 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / PUBLIC_SYNC_PENDING

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-09T06:47:42+08:00",
-  "count": 305,
+  "updated": "2026-11-09T15:21:34+08:00",
+  "count": 317,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -309,7 +309,8 @@
       "year": 2025,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:dexmal/realtime-vla"
     },
     {
       "id": "arxiv:2512.01031",
@@ -322,7 +323,8 @@
       "year": 2025,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:mit-han-lab/vlash"
     },
     {
       "id": "arxiv:2603.19199",
@@ -457,7 +459,8 @@
       "year": 2025,
       "venue": "NeurIPS 2025 Oral",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:hpdps-group/ElasticMM"
     },
     {
       "id": "arxiv:2509.24381",
@@ -539,7 +542,8 @@
       "year": 2026,
       "venue": "CoRL 2026 Spotlight",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:PKU-SEC-Lab/EagleVLA; github:PKU-SEC-Lab/EagleVLA-Edge"
     },
     {
       "id": "arxiv:2608.01880",
@@ -631,7 +635,8 @@
       "year": 2026,
       "venue": "CVPR 2026 Workshop",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:dexmal/realtime-vla-v2"
     },
     {
       "id": "arxiv:2512.24673",
@@ -671,7 +676,8 @@
       "year": 2026,
       "venue": "MLSys 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:hojoonleokim/MLSys26_AgenticCache"
     },
     {
       "id": "arxiv:2607.21686",
@@ -711,7 +717,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:RobotControlStack/vlagents"
     },
     {
       "id": "arxiv:2608.09892",
@@ -724,7 +731,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:XPolicyLab/XPolicyLab"
     },
     {
       "id": "arxiv:2603.07949",
@@ -798,7 +806,8 @@
       "year": 2025,
       "venue": "CoRL 2025",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:zhouzypaul/auto_eval"
     },
     {
       "id": "arxiv:2607.04434",
@@ -823,7 +832,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:SunnyYWD/ActFovea"
     },
     {
       "id": "arxiv:2607.26789",
@@ -864,7 +874,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:edsad122/SV-VLA"
     },
     {
       "id": "arxiv:2606.09416",
@@ -905,7 +916,8 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:csi-dgist/ros2probe"
     },
     {
       "id": "arxiv:2608.02242",
@@ -957,7 +969,8 @@
       "year": 2025,
       "venue": "arXiv / IEEE IoT-J minor revision",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:csi-dgist/qos_guard"
     },
     {
       "id": "arxiv:2607.01304",
@@ -986,7 +999,8 @@
       "year": 2026,
       "venue": "arXiv / submitted to ACM TAAS",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "PyPI:metaros (maintainer Anshul Ranjan; beta)"
     },
     {
       "id": "doi:10.1109/RTAS65571.2025.00029",
@@ -1000,7 +1014,8 @@
       "year": 2025,
       "venue": "RTAS 2025 Outstanding Paper / Best Paper",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:solnyun/CROS-RT"
     },
     {
       "id": "arxiv:2404.06452",
@@ -1014,7 +1029,8 @@
       "year": 2024,
       "venue": "RTAS 2024 Best Paper + Best Student Paper",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:rtenlab/reference-system-paam"
     },
     {
       "id": "doi:10.1109/RTAS65571.2025.00027",
@@ -1056,7 +1072,8 @@
       "year": 2025,
       "venue": "RTNS 2025",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:rtenlab/reference-system-latency-management"
     },
     {
       "id": "doi:10.1109/RTAS61025.2024.00025",
@@ -1147,7 +1164,8 @@
       "year": 2024,
       "venue": "ECRTS 2024",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "repo": "rtenlab/gcaps-super-repo"
     },
     {
       "id": "arxiv:2204.10208",
@@ -1160,7 +1178,8 @@
       "year": 2023,
       "venue": "Robotics and Autonomous Systems 161:104361",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "repo": "christophebedard/ros2-message-flow-analysis"
     },
     {
       "id": "doi:10.1109/EUC57774.2022.00010",
@@ -1173,7 +1192,9 @@
       "year": 2022,
       "venue": "IEEE EUC 2022",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "repo": "tier4/caret",
+      "open_source": "github:tier4/caret"
     },
     {
       "id": "doi:10.1109/RTAS58335.2023.00015",
@@ -1293,7 +1314,8 @@
       "year": 2026,
       "venue": "ICLR 2026 Poster",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:huggingface/lerobot"
     },
     {
       "id": "arxiv:2510.10379",
@@ -1306,7 +1328,8 @@
       "year": 2025,
       "venue": "RSS 2025 Workshop on Scalable and Resilient Multi-Robot Systems",
       "priority": "A-",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:therohangupta/robot-fleet"
     },
     {
       "id": "watch:helios-vla-serving-eurosys27-submission",
@@ -1319,7 +1342,8 @@
       "year": 2027,
       "venue": "EuroSys 2027 (in submission; author/CV disclosure only)",
       "priority": "WATCH-A",
-      "status": "WATCH_VERIFIED_METADATA_ONLY"
+      "status": "WATCH_VERIFIED_METADATA_ONLY",
+      "open_source": ""
     },
     {
       "id": "techreport:heygen-helios-avatarv-2026",
@@ -1333,7 +1357,9 @@
       "year": 2026,
       "venue": "HeyGen Research technical report / Avatar V infrastructure section",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://www.heygen.com/research/avatar-v-infrastructure",
+      "official_pdf": "https://dynamic.heygen.ai/www/Paper%20Links/avatarv_tech_report.pdf"
     },
     {
       "id": "arxiv:2505.12658",
@@ -1346,7 +1372,9 @@
       "year": 2025,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2505.12658",
+      "official_pdf": "https://arxiv.org/pdf/2505.12658"
     },
     {
       "id": "arxiv:2607.16074",
@@ -1360,7 +1388,9 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.16074",
+      "official_pdf": "https://arxiv.org/pdf/2607.16074"
     },
     {
       "id": "arxiv:2512.17574",
@@ -1373,7 +1403,9 @@
       "year": 2025,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2512.17574",
+      "official_pdf": "https://arxiv.org/pdf/2512.17574"
     },
     {
       "id": "arxiv:2606.27962",
@@ -1386,7 +1418,9 @@
       "year": 2026,
       "venue": "arXiv / infrastructure white paper",
       "priority": "A-",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2606.27962",
+      "official_pdf": "https://arxiv.org/pdf/2606.27962"
     },
     {
       "id": "arxiv:2605.13276",
@@ -1401,7 +1435,9 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2605.13276",
+      "official_pdf": "https://arxiv.org/pdf/2605.13276"
     },
     {
       "id": "arxiv:2602.05765",
@@ -1416,7 +1452,9 @@
       "year": 2026,
       "venue": "arXiv v2; earlier version published at ICLR 2026 SPOT Workshop",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2602.05765",
+      "official_pdf": "https://arxiv.org/pdf/2602.05765"
     },
     {
       "id": "arxiv:2607.09776",
@@ -1457,7 +1495,9 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2601.03044",
+      "official_pdf": "https://arxiv.org/pdf/2601.03044"
     },
     {
       "id": "arxiv:2605.00416",
@@ -1471,7 +1511,9 @@
       "year": 2026,
       "venue": "arXiv v2",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2605.00416",
+      "official_pdf": "https://arxiv.org/pdf/2605.00416"
     },
     {
       "id": "arxiv:2510.06710",
@@ -1486,7 +1528,10 @@
       "year": 2026,
       "venue": "RSS 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2510.06710",
+      "official_pdf": "https://arxiv.org/pdf/2510.06710",
+      "repo": "https://github.com/RLinf/RLinf"
     },
     {
       "id": "arxiv:2602.07837",
@@ -1503,7 +1548,10 @@
       "year": 2026,
       "venue": "RSS 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2602.07837",
+      "official_pdf": "https://arxiv.org/pdf/2602.07837",
+      "repo": "https://github.com/RLinf/RLinf"
     },
     {
       "id": "arxiv:2509.15965",
@@ -1532,7 +1580,8 @@
       "year": 2026,
       "venue": "ICRA 2026",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "open_source": "github:tenfoldpaper/multipanda_ros2"
     },
     {
       "id": "arxiv:2606.15255",
@@ -1560,7 +1609,9 @@
       "year": 2024,
       "venue": "CoRL 2024 / PMLR 270",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://proceedings.mlr.press/v270/liu25g.html",
+      "open_source": "github:UT-Austin-RPL/sirius-fleet"
     },
     {
       "id": "arxiv:2405.07515",
@@ -1574,7 +1625,9 @@
       "year": 2024,
       "venue": "ICRA 2024",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2405.07515",
+      "official_pdf": "https://arxiv.org/pdf/2405.07515"
     },
     {
       "id": "arxiv:2606.20537",
@@ -1588,7 +1641,10 @@
       "year": 2026,
       "venue": "arXiv 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2606.20537",
+      "official_pdf": "https://arxiv.org/pdf/2606.20537",
+      "open_source": "github:flashrt-project/FlashRT"
     },
     {
       "id": "arxiv:2605.29710",
@@ -1601,7 +1657,10 @@
       "year": 2026,
       "venue": "arXiv 2026",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2605.29710",
+      "official_pdf": "https://arxiv.org/pdf/2605.29710",
+      "open_source": "official dataset, per-rollout artifacts, analysis pipeline and reference implementation linked by paper/project"
     },
     {
       "id": "arxiv:2604.22152",
@@ -1614,7 +1673,9 @@
       "year": 2026,
       "venue": "ICML 2026 Spotlight",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2604.22152",
+      "official_pdf": "https://arxiv.org/pdf/2604.22152"
     },
     {
       "id": "arxiv:2604.21741",
@@ -1628,7 +1689,9 @@
       "year": 2026,
       "venue": "arXiv 2026",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2604.21741",
+      "official_pdf": "https://arxiv.org/pdf/2604.21741"
     },
     {
       "id": "arxiv:2510.17950",
@@ -1655,7 +1718,10 @@
       "year": 2026,
       "venue": "Technical Report / arXiv 2026",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.11246",
+      "official_pdf": "https://arxiv.org/pdf/2608.11246",
+      "open_source": "github:EIT-HAI/Thea"
     },
     {
       "id": "arxiv:2608.16590",
@@ -1671,7 +1737,10 @@
       "year": 2026,
       "venue": "arXiv 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.16590",
+      "official_pdf": "https://arxiv.org/pdf/2608.16590",
+      "open_source": "github:air-embodied-brain/Zetta-Embodiment (~60 stars at 2026-08-23 crawl)"
     },
     {
       "id": "arxiv:2604.09860",
@@ -1683,7 +1752,10 @@
       "year": 2026,
       "venue": "Robotics: Science and Systems (RSS) 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2604.09860",
+      "official_pdf": "https://arxiv.org/pdf/2604.09860",
+      "open_source": "github:NVlabs/RoboLab (~447 stars / 66 forks in current public crawl)"
     },
     {
       "id": "arxiv:2603.22126",
@@ -1695,7 +1767,10 @@
       "year": 2026,
       "venue": "arXiv 2026 / SSRN under review",
       "priority": "A-",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2603.22126",
+      "official_pdf": "https://arxiv.org/pdf/2603.22126",
+      "open_source": "historical official link github:liveplex-cpu/robogate; current public fetch returned 404, so availability/adoption is not claimed"
     },
     {
       "id": "arxiv:2604.07039",
@@ -1780,7 +1855,10 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A-",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2604.13097",
+      "official_pdf": "https://arxiv.org/pdf/2604.13097",
+      "open_source": "prototype registry/resolver/contract checker described in paper; no official public repository verified in this run"
     },
     {
       "id": "arxiv:2604.11554",
@@ -1807,7 +1885,11 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.08215",
+      "official_pdf": "https://arxiv.org/pdf/2607.08215",
+      "repo": "https://github.com/YuZhengYYDS/ascend-large-model-inference-field-study",
+      "open_source": "Official companion repository verified; low current adoption (~1 GitHub star at crawl time)."
     },
     {
       "id": "arxiv:2607.22999",
@@ -1822,7 +1904,11 @@
       "year": 2026,
       "venue": "RSS 2026 Workshop on Human-centric Mobile Manipulation",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.22999",
+      "official_pdf": "https://arxiv.org/pdf/2607.22999",
+      "repo": "",
+      "open_source": "No official implementation repository verified in this run."
     },
     {
       "id": "arxiv:2608.13474",
@@ -1836,7 +1922,11 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A-",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.13474",
+      "official_pdf": "https://arxiv.org/pdf/2608.13474",
+      "repo": "",
+      "open_source": "No official implementation repository verified in this run."
     },
     {
       "id": "arxiv:2607.16636",
@@ -1852,7 +1942,11 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.16636",
+      "official_pdf": "https://arxiv.org/pdf/2607.16636",
+      "repo": "https://github.com/PhyAgentOS/PhyAgentOS",
+      "open_source": "Official MIT-licensed implementation verified; public crawl shows about 1.3k stars, 87 forks and 258 commits."
     },
     {
       "id": "arxiv:2608.17584",
@@ -1868,7 +1962,11 @@
       "year": 2026,
       "venue": "arXiv (withdrawn pending company internal review)",
       "priority": "A-watch",
-      "status": "WITHDRAWN_WATCH"
+      "status": "WITHDRAWN_WATCH",
+      "official_page": "https://arxiv.org/abs/2608.17584",
+      "official_pdf": "https://arxiv.org/pdf/2608.17584",
+      "repo": "",
+      "open_source": "No official implementation repository verified. Current arXiv PDF endpoint returns 404 after withdrawal."
     },
     {
       "id": "arxiv:2608.17774",
@@ -1882,7 +1980,11 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A-",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.17774",
+      "official_pdf": "https://arxiv.org/pdf/2608.17774",
+      "repo": "",
+      "open_source": "No official implementation repository verified in this run."
     },
     {
       "id": "arxiv:2608.14498",
@@ -1896,7 +1998,11 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.14498",
+      "official_pdf": "https://arxiv.org/pdf/2608.14498",
+      "repo": "https://github.com/alibaba/ROLL",
+      "open_source": "Implemented in the official Alibaba ROLL runtime according to the paper; ROLL is Apache-2.0 and ~3.3k GitHub stars at verification time. A Rollplex-specific release/tag was not independently verified in this run."
     },
     {
       "id": "arxiv:2608.24115",
@@ -1910,7 +2016,11 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.24115",
+      "official_pdf": "https://arxiv.org/pdf/2608.24115",
+      "repo": "https://github.com/worv-ai/PonderPounce",
+      "open_source": "Official WoRV GitHub repository verified; GitHub API reported 0 stars / 0 forks at 2026-08-26 verification time and no repository license metadata."
     },
     {
       "id": "arxiv:2607.17213",
@@ -1926,7 +2036,11 @@
       "year": 2026,
       "venue": "arXiv / in submission",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "repo": "https://github.com/openretriever/retriever",
+      "system_contribution": "Temporal computation-graph programming model + runtime for asynchronous closed-loop robot agents: stateful Flows, explicit Clocks, edge-level Sync policies, multi-backend execution, deterministic replay/debugging, and a real-robot VLM+VLA+belief+monitor+control pipeline.",
+      "key_results": "Retriever-0: 73% task progress / 56s projected time on spice-search and 100% / 36s on bag retrieval; deterministic replay yields identical traces across 100 runs with path-gradient std ~1e-18; Retriever+Dora closely matches native Dora message latency and beats ROS2 process baselines; project demo uses VLA 2Hz and controller 200Hz.",
+      "maturity_note": "Strong open runtime and real-robot evaluation, but paper is currently arXiv/in submission and repo adoption is early."
     },
     {
       "id": "arxiv:2608.22657",
@@ -1940,7 +2054,14 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.22657",
+      "official_pdf": "https://arxiv.org/pdf/2608.22657",
+      "repo": "",
+      "open_source": "No official implementation repository was verified in this run.",
+      "system_contribution": "Physical-agent orchestration architecture that separates a non-actuating LLM Mission Planner from a deterministic Robot Orchestrator with sole execution authority. Robots expose typed skill libraries with parameters, preconditions, costs and synchronization requirements; workflow contracts and runtime state are checked again at dispatch time, including state-bound values that cannot be known at planning time.",
+      "key_results": "Retrieval raises skill grounding from 51% to 96% but informed planners still dispatch 23-29% of faulted steps. Per-dispatch deterministic enforcement reduces false dispatch to 0% with no false blocks; in eight injected live-execution faults, all eight crossed the orchestration boundary without enforcement and six caused robot motion, while all eight were rejected before motion with enforcement. Evaluated on a drone-UGV Gazebo crew plus hardware-equivalent humanoid-quadruped workflows and two physical Unitree G1/Go2 trials.",
+      "maturity_note": "Strong runtime-governance/fleet-orchestration evidence with physical validation, but currently arXiv-only and no official code artifact verified; rated A rather than A+."
     },
     {
       "id": "arxiv:2608.06088",
@@ -1952,7 +2073,14 @@
       "year": 2026,
       "venue": "ASE 2026",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.06088",
+      "official_pdf": "https://arxiv.org/pdf/2608.06088",
+      "repo": "",
+      "open_source": "Official replication package is released via Zenodo (DOI 10.5281/zenodo.19244624); no canonical GitHub implementation repository was verified in this scan.",
+      "system_contribution": "Evaluation/reliability infrastructure for the Isaac Sim stack: semantic-stage-guided generation of valid simulator programs, object/operation/argument-level mutation, coverage/crash feedback, and MAB-based mutation scheduling.",
+      "key_results": "~190%-205% of baseline code coverage; average 3.7 unique crashes over three 12-hour rounds versus zero for baselines; 11 bugs found over ~4 months, 9 confirmed or fixed by developers. Evaluated on Isaac Sim 5.0.0/5.1.0 with 116 official standalone-script seeds spanning 20 packages, 8 functional categories, 9 robot platforms and 6 sensor modalities.",
+      "maturity_note": "ASE 2026 peer-reviewed infrastructure paper with released replication package; rated A rather than A+ because it targets simulator testing/reliability rather than serving/runtime scheduling itself."
     },
     {
       "id": "arxiv:2307.10818",
@@ -1964,7 +2092,14 @@
       "year": 2023,
       "venue": "ASE 2023 Distinguished Paper",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2307.10818",
+      "official_pdf": "https://arxiv.org/pdf/2307.10818",
+      "repo": "https://github.com/PhyFuzz/phyfu",
+      "open_source": "Official PhyFuzz/phyfu repository verified; current public crawl reports 12 stars and 2 forks.",
+      "system_contribution": "Foundational simulator-reliability infrastructure for physics simulation engines used by robotics and learning-based control. PHYFU fuzzes both forward and backward simulation, mutates valid initial states, uses physics-law consistency oracles, and applies feedback-driven test-input scheduling to expose silent logic errors across the simulator software stack.",
+      "key_results": "Evaluated four physics simulation engines spanning industrial and academic stacks and uncovered more than 5,000 error-triggering inputs that produce incorrect forward/backward simulation behavior. The work established the physics-law-oracle and feedback-guided fuzzing lineage that IcFuzz later specializes to NVIDIA Isaac Sim.",
+      "maturity_note": "ASE 2023 peer-reviewed Distinguished Paper with official open-source implementation. Included as a pre-2024 foundational Route-9 reliability-infrastructure anchor because it directly underpins the modern simulator-fuzzing lineage rather than as a generic old paper."
     },
     {
       "id": "doi:10.1145/3540250.3549164",
@@ -1976,7 +2111,14 @@
       "year": 2022,
       "venue": "ESEC/FSE 2022",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://2022.esec-fse.org/details/fse-2022-research-papers/86/RoboFuzz-Fuzzing-Robotic-Systems-over-Robot-Operating-System-ROS-for-Finding-Corre",
+      "official_pdf": "https://seulbae-security.github.io/pubs/robofuzz-fse22.pdf",
+      "repo": "https://github.com/sslab-gatech/robofuzz",
+      "open_source": "Official sslab-gatech/robofuzz repository verified. Current adoption count was not independently confirmed in this run, so no star/fork number is asserted.",
+      "system_contribution": "Foundational ROS2/robot-stack reliability infrastructure: data-type-aware mutation, hybrid real/sim execution, semantic correctness oracles for physical-law/specification/cyber-physical discrepancies, and semantic feedback guidance for distributed data-driven robotic systems.",
+      "key_results": "Evaluated ROSIDL, rclpy/rclcpp, Turtlesim, MoveIt2+PANDA, TurtleBot3 and PX4. Reported 30 previously unknown correctness bugs, 25 acknowledged by developers and 6 fixed.",
+      "maturity_note": "Peer-reviewed ESEC/FSE 2022 research paper with official open-source implementation. Included as a pre-2023 foundational Route-9 robotics-stack reliability anchor recovered from the IcFuzz/PHYFU lineage, not as a generic software-testing paper."
     },
     {
       "id": "arxiv:2608.07555",
@@ -1989,7 +2131,14 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.07555",
+      "official_pdf": "https://arxiv.org/pdf/2608.07555",
+      "repo": "",
+      "open_source": "No official public implementation repository was independently verified in this run; the paper describes reference deterministic utilities and a standardized MCP tool surface.",
+      "system_contribution": "Backend-independent robot-policy improvement control plane built around durable Bind→Analyze→Act→Measure→Score→Commit transactions, commit-keyed crash recovery, append-only evidence, artifact-bound capability quality, recorded tool invocation and fenced controller generations.",
+      "key_results": "Hardened evidence gating reduces false promotion to 0.001/run versus 0.005–0.021 for shipped baselines; kill-injection tests report zero lost or duplicate effects, and a signed verifier detects all six seeded artifact-tampering classes. The paper explicitly states that its measured selector did not beat simply taking the final checkpoint on the audited lineage.",
+      "maturity_note": "Strong experiment-control/evaluation infrastructure ideas, but the reference implementation supplies deterministic control-plane utilities rather than a complete training/robot scheduler. Kept at SYS_ALG_BOUNDARY/A rather than CORE_SYS."
     },
     {
       "id": "arxiv:2608.23863",
@@ -2003,7 +2152,14 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.23863",
+      "official_pdf": "https://arxiv.org/pdf/2608.23863",
+      "repo": "",
+      "open_source": "No official implementation repository was independently verified in this run.",
+      "system_contribution": "Model-agnostic deployment trust/state layer for world-model rollouts: consumed predictions become persistent condition×region×horizon credit records, execution settles claims against arriving reality, dependency tickets and replay logs preserve provenance, and the credit gate decides whether to rely on imagination, shorten horizon or acquire another observation.",
+      "key_results": "Across DreamerV3, TD-MPC2 and V-JEPA 2-AC mounts plus real Franka execution, credit-gated planning reduces burned imagination by 62% (95% CI 43–81%) versus blind consumption. At matched risk targets it reduces verification probes from 1.00 to 0.36 per manipulation episode, and all 1,062 registered physical spends replay from audit logs.",
+      "maturity_note": "High-value persistent state/audit/gating evidence for WAM deployment, but the primary novelty is a trust/calibration layer rather than a general multi-request serving scheduler or resource manager; kept at SYS_ALG_BOUNDARY/A."
     },
     {
       "id": "arxiv:2603.22435",
@@ -2015,7 +2171,14 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2603.22435",
+      "official_pdf": "https://arxiv.org/pdf/2603.22435",
+      "repo": "https://github.com/capgym/cap-x",
+      "open_source": "Official MIT repo verified; 758 stars / 116 forks on 2026-08-27 web crawl.",
+      "system_contribution": "Reusable robot-agent evaluation infrastructure: interactive CaP-Gym environments, CaP-Bench evaluation tiers, parallel evaluation workers, auto-launched perception services with GPU allocation, OpenAI-compatible/vLLM serving integration, regression tests and real-world Franka bringup.",
+      "key_results": "Evaluates 12 frontier models; public artifact exposes 39 core tasks across Robosuite/LIBERO-PRO/BEHAVIOR, 130+ LIBERO tasks, 12-parallel-worker examples and real-robot evaluation/training recipes.",
+      "maturity_note": "CORE_SYS/A only for reusable evaluation/execution substrate; agent-improvement algorithms are not counted as serving contributions."
     },
     {
       "id": "arxiv:2607.00272",
@@ -2029,7 +2192,14 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.00272",
+      "official_pdf": "https://arxiv.org/pdf/2607.00272",
+      "repo": "https://github.com/NVlabs/ASPIRE",
+      "open_source": "Official NVIDIA Apache-2.0 repo verified; 28 stars / 1 fork on 2026-08-27 web crawl.",
+      "system_contribution": "Closed-loop robot execution engine exposing fine-grained multimodal traces for failure diagnosis, repair synthesis and validation, coupled to a persistent skill library and open-ended exploration loop.",
+      "key_results": "Reports gains up to 77% on LIBERO-Pro, 72% on Robosuite and 32% on BEHAVIOR-1K; accumulated skills reach 31% on LIBERO-Pro Long versus 4% prior.",
+      "maturity_note": "Execution/tracing infrastructure is system-relevant, but primary novelty is skill discovery/continual learning; SYS_ALG_BOUNDARY/A."
     },
     {
       "id": "arxiv:2606.16458",
@@ -2042,7 +2212,14 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2606.16458",
+      "official_pdf": "https://arxiv.org/pdf/2606.16458",
+      "repo": "https://github.com/KE7/helix",
+      "open_source": "Official project page links HELIX artifact; no star/fork count asserted this run.",
+      "system_contribution": "Training-time harness optimization searching interpretable multi-file Repositories-as-Policies with tool-enabled coding agents and execution feedback, then freezing the resulting artifact for single-turn deployment.",
+      "key_results": "45.0% on LIBERO-PRO, 70.0% on Robosuite; O3DE success 23.5%→44.3% with 20% less wall-clock and 27% fewer tool calls.",
+      "maturity_note": "Strong harness/control-plane evidence but not a reusable online serving/resource-management runtime; SYS_ALG_BOUNDARY/A."
     },
     {
       "id": "arxiv:2606.19980",
@@ -2056,7 +2233,14 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2606.19980",
+      "official_pdf": "https://arxiv.org/pdf/2606.19980",
+      "repo": "",
+      "open_source": "Official NVIDIA GEAR project page verified; no dedicated official implementation repository independently verified in this run.",
+      "system_contribution": "Physical autoresearch harness/control plane with four modules: Environment for automatic reset/verification/logging, Policy Improvement, Rollout for budgeted single- or multi-robot physical trials, and Evolution for log-driven infrastructure/algorithm revision. The robot-fleet path parallelizes physical rollout and preserves auditable state/action/video/result artifacts.",
+      "key_results": "Official project/arXiv report up to 99% task success under the paper retry protocol; introduces Mean Robot Utilization (MRU) and Mean Token Utilization (MTU) to quantify fleet-scale physical autoresearch efficiency and shows faster improvement with robot-fleet execution.",
+      "maturity_note": "Strong reusable physical experiment/evaluation orchestration and fleet-rollout infrastructure, but the primary objective is autonomous robot-policy self-improvement rather than online inference admission/scheduling/resource management; therefore SYS_ALG_BOUNDARY/A+ rather than CORE_SYS."
     },
     {
       "id": "arxiv:2607.18171",
@@ -2073,7 +2257,14 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.18171",
+      "official_pdf": "https://arxiv.org/pdf/2607.18171",
+      "repo": "https://github.com/Infini-AI-Lab/FlashRT",
+      "open_source": "Official repository verified; public crawl showed 1 star / 0 forks at verification time.",
+      "system_contribution": "Agent-guided deployment/runtime system for real-time multimodal applications. A sequential single-GPU reference backend is converted into an explicit IR; an agent derives and validates optimized streaming, possibly multi-GPU deployments while preserving the frontend/adapter contract. The shared runtime includes explicit graph/state dependencies, shared-memory IPC, distributed process groups, placement/parallelism plans, model runners and memory management, with CUDA and ROCm deployment paths.",
+      "key_results": "Across five multimodal applications on NVIDIA B200 and AMD MI355X, the paper/repository reports up to 70x lower latency and 3.6x higher throughput versus reference implementations; included applications span interactive world/video generation, live avatar speech, Qwen3-Omni text-to-audio and continuously steered video.",
+      "maturity_note": "Direct multimodal serving/deployment infrastructure with released runtime, harness and generated deployments; rated A+ despite early repository adoption because the core contribution is systems/runtime rather than model optimization."
     },
     {
       "id": "arxiv:2608.08045",
@@ -2087,7 +2278,14 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.08045",
+      "official_pdf": "https://arxiv.org/pdf/2608.08045",
+      "repo": "https://github.com/seanlxh/Air-Lingjing",
+      "open_source": "Official Air-Lingjing runtime repository verified; public GitHub page showed 131 stars / 8 forks at verification time. Repository includes FastAPI/LangGraph backend, Gym-style lifecycle, HTTP/WebSocket/UDP engine transport, Unreal Engine 5.5/Cesium plugin, mock engine and runtime tests.",
+      "system_contribution": "City-scale heterogeneous multi-agent simulation/runtime that synchronizes multiple physics engines and exposes shared physical/structured urban state. Provides a Gym-style lifecycle, configurable star/broadcast communication with resource constraints, engine-in-the-loop command routing/adjudication, and attribution-ready per-episode replay linking trajectories, messages, resource use and relation-graph changes to evaluation outcomes.",
+      "key_results": "Evaluates 12 vision-language models on 9 urban tasks under a shared engine-in-the-loop protocol; controlled studies cover coordination, scalability, robustness and failure provenance. The system provides reproducible heterogeneous-agent orchestration across UAVs, vehicles, quadrupeds and vessels.",
+      "maturity_note": "Strong reusable multi-agent digital-twin runtime plus evaluation infrastructure with public runtime artifact; CORE_SYS/A+."
     },
     {
       "id": "arxiv:2608.11063",
@@ -2103,7 +2301,14 @@
       "year": 2026,
       "venue": "arXiv / in submission",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.11063",
+      "official_pdf": "https://arxiv.org/pdf/2608.11063",
+      "repo": "",
+      "open_source": "Author page/project evidence verified; no dedicated official implementation repository was independently verified in this run.",
+      "system_contribution": "Runtime recomposition framework and abstractions for integrating previously unseen modular software, hardware and compute payloads after deployment. Newly attached capabilities become immediately available to the host robot and distributed peers, enabling compute-constrained robots to invoke remote resources and recompose task execution without developer intervention.",
+      "key_results": "Paper reports field reconfiguration in minutes rather than hours of expert integration and demonstrates the framework in disaster-response scenarios including radioactive-source localization at an operational nuclear reactor facility and thermal-guided search in dark, hard-to-reach spaces.",
+      "maturity_note": "Direct Physical-AI runtime/capability-composition and distributed compute-sharing contribution with real field demonstrations, but current evidence is arXiv/in-submission and no dedicated official repo was verified; CORE_SYS/A."
     },
     {
       "id": "arxiv:2608.24040",
@@ -2117,7 +2322,14 @@
       "year": 2026,
       "venue": "KDD 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.24040",
+      "official_pdf": "https://arxiv.org/pdf/2608.24040",
+      "repo": "",
+      "open_source": "No dedicated official implementation repository verified in this run; Pinterest Labs official publication page verifies the paper/venue and production provenance.",
+      "system_contribution": "Production selective-VLM serving control plane for enterprise content-quality triage. Lightweight upstream models handle easy cases while a bounded VLM Serving Agent routes only grey-zone traffic using an online scalar score and controlled human escalation. A governed Feedback Memory records routing traces, observation paths, audit propensities and replay metadata; bounded proposal-verifier refresh, evaluation gates, staged validation and rollback govern model updates under selective feedback.",
+      "key_results": "Production deployment reports 2.05x more non-actionable filtering on the grey-zone slice, review productivity +25.7%, normalized operating cost 1.000→0.838 (-16.2%), and signal delivery next-day→same-day. Six-month governed offline replay reduces average FNR@50% from 17.73% to 13.29%; keep these replay results separate from online production claims.",
+      "maturity_note": "KDD 2026 Pinterest production system with strong deployed serving/control-plane evidence and explicit governance/rollback semantics; CORE_SYS/A+ despite no public implementation repo verified."
     },
     {
       "id": "arxiv:2608.05703",
@@ -2133,7 +2345,14 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.05703",
+      "official_pdf": "https://arxiv.org/pdf/2608.05703",
+      "repo": "https://github.com/JIA-Lab-research/StreamArena",
+      "open_source": "Official StreamArena evaluation toolkit is Apache-2.0; public GitHub page showed 15 stars / 1 fork at verification time. Evaluation drivers are available; the paper StreamMind agent implementation is still marked coming soon, so maturity is below a fully shipped serving runtime.",
+      "system_contribution": "Always-on multimodal streaming system/evaluation substrate. StreamMind separates latency-critical real-time interaction and proactive monitoring into independently scheduled frontend workers while backend workers asynchronously construct persistent multimodal memory, perform historical recall and external search. The design makes persistent state reuse and frontend/backend decoupling first-class runtime mechanisms for hour-scale streaming agents.",
+      "key_results": "StreamArena contains 243 full-length videos averaging 88.8 minutes and 3,646 timestamped open-ended tasks across real-time perception, historical retrospection, tool use and proactive interaction. The official project reports StreamMind weighted query-to-answer latency of 27.5 s versus 81.4 s for the same offline backbone (66.2% reduction), with the system leading evaluated streaming baselines across all four capabilities.",
+      "maturity_note": "Strong streaming-runtime plus evaluation-infrastructure contribution with official code/data, but the full StreamMind agent implementation is not yet released; CORE_SYS/A rather than A+."
     },
     {
       "id": "arxiv:2608.09411",
@@ -2147,7 +2366,14 @@
       "year": 2026,
       "venue": "arXiv / submitted to IEEE",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.09411",
+      "official_pdf": "https://arxiv.org/pdf/2608.09411",
+      "repo": "",
+      "open_source": "No official implementation repository verified in this run.",
+      "system_contribution": "Freshness-aware edge/resource-control formulation for wireless multi-camera Physical-AI perception. Age-of-Latent (AoL) tracks task-relevant latent freshness at the base station; task-level temporal-window selection is jointly coupled with slot-level encoder selection, camera scheduling and NOMA power allocation under prediction-reliability constraints.",
+      "key_results": "On a warehouse multi-camera RF dataset, CoLA reports the best AoL-resource tradeoff among evaluated benchmarks while preserving prediction reliability, with larger gains under prolonged and severe camera outages. The evidence is numerical/simulation-based; no deployed serving/runtime implementation is claimed.",
+      "maturity_note": "System-facing edge/freshness/resource-management work, but the primary contribution is algorithmic optimization and simulation rather than a reusable serving runtime or resource manager; therefore SYS_ALG_BOUNDARY/A, Routes 4/5/8."
     },
     {
       "id": "arxiv:2607.05482",
@@ -2161,7 +2387,9 @@
       "year": 2026,
       "venue": "arXiv / AgenticOS @ SOSP 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.05482",
+      "official_pdf": "https://arxiv.org/pdf/2607.05482"
     },
     {
       "id": "arxiv:2412.18695",
@@ -2175,7 +2403,14 @@
       "year": 2026,
       "venue": "ACM MobiSys 2026 — Best Paper Runner-up / Best Artifact Runner-up",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2412.18695",
+      "official_pdf": "https://arxiv.org/pdf/2412.18695",
+      "repo": "",
+      "open_source": "Award page verifies Best Artifact Runner-up; no canonical public implementation repository was verified in this run.",
+      "system_contribution": "Time-sensitive serving for multiple robotic agents. TimelyLLM segments plan generation around physical-I/O execution opportunities and schedules LLM work according to segment timing needs, explicitly exploiting overlap between robot execution and future-plan generation instead of FCFS batching.",
+      "key_results": "The paper reports up to 1.97x higher time utility and 84% lower overall waiting time across robotic applications. MobiSys 2026 officially lists the work as Best Paper Runner-up and Best Artifact Runner-up.",
+      "maturity_note": "Direct Physical-AI serving/scheduling system with formal MobiSys 2026 recognition; historical omission recovered during TypeGo/TypeFly/TimelyLLM lineage census."
     },
     {
       "id": "arxiv:2312.14950",
@@ -2189,7 +2424,14 @@
       "year": 2025,
       "venue": "IEEE Transactions on Mobile Computing 24(9), 2025",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://typefly.github.io/",
+      "official_pdf": "https://arxiv.org/pdf/2312.14950",
+      "repo": "https://github.com/typefly/TypeFly",
+      "open_source": "Official Apache-2.0 repository verified; public crawl showed 110 stars / 25 forks during this run.",
+      "system_contribution": "Edge/cloud robot-planning runtime built around MiniSpec, a token-efficient control language with stream interpretation so a drone can begin executing before the full LLM plan completes; local vision service and robot skill runtime reduce response latency and keep image processing off the cloud path.",
+      "key_results": "The TMC paper reports substantially lower response time than prior approaches; the arXiv/project description reports up to 62% response-time reduction from MiniSpec plus stream interpretation. Because the primary novelty mixes compact plan representation with runtime execution, it remains SYS_ALG_BOUNDARY rather than CORE_SYS.",
+      "maturity_note": "Published IEEE TMC 2025 with official public repo and project page; important predecessor to TimelyLLM/TypeGo but not primarily a general serving/resource-management substrate."
     },
     {
       "id": "arxiv:2606.14777",
@@ -2204,7 +2446,14 @@
       "year": 2026,
       "venue": "arXiv technical report",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2606.14777",
+      "official_pdf": "https://arxiv.org/pdf/2606.14777",
+      "repo": "https://github.com/jd-opensource/JoyAI-VL-Interaction",
+      "open_source": "Official Apache-2.0 repo verified; public GitHub crawl showed about 1.8k stars / 182 forks on 2026-09-03. Model, data, training recipe, deployable system, vLLM deployment and LiveKit branch are public.",
+      "system_contribution": "Always-on visual interaction stack around an 8B interaction model. The deployable system streams continuous video, keeps long-horizon state, exposes pluggable ASR/TTS/memory/UI, and splits execution into a real-time user loop plus an asynchronous background-model/agent delegation loop; five services run on standard vLLM infrastructure.",
+      "key_results": "The paper reports hours of continuous video with sub-second latency and human preference wins of 77.6% vs Doubao and 87.9% vs Gemini across six live scenarios. These results primarily validate interaction quality/timing rather than serving throughput/resource efficiency.",
+      "maturity_note": "High-value real-time multimodal/Physical-AI boundary system and unusually complete open deployment stack, but the main novelty is the interaction model/training paradigm rather than a new scheduler, resource manager or cache allocator; therefore SYS_ALG_BOUNDARY/A+, Routes 3/5/7/11 rather than CORE_SYS."
     },
     {
       "id": "arxiv:2609.01315",
@@ -2217,7 +2466,14 @@
       "year": 2026,
       "venue": "arXiv technical report",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.01315",
+      "official_pdf": "https://arxiv.org/pdf/2609.01315",
+      "repo": "https://github.com/naver-ai/omni-evaluator",
+      "open_source": "Official Apache-2.0 repository verified; GitHub API reported 16 stars / 2 forks at 2026-09-03 11:00 CST. Public code includes the evaluator, dashboard, demos, tests and server entrypoints.",
+      "system_contribution": "Composable omni-modal evaluation infrastructure. A unified intermediate schema decouples inference engines from evaluation frameworks (N+M adapters instead of N×M pairwise integrations), with HuggingFace/vLLM/SGLang/API backends, multiple evaluator frameworks, provenance-rich run artifacts, a shared dashboard, and federated many-to-many inference-server/evaluation-client execution that pools fragmented GPU capacity and leverages serving-engine continuous batching.",
+      "key_results": "The paper exposes four inference backends, four evaluation frameworks and 1000+ benchmarks in the paper (the current repo advertises 2,820 benchmark tasks). Under the same GPU allocation, federated evaluation reports 1.3×–2.8× wall-time speedup over per-process evaluation. The built-in CPU-capable verifier reduces cross-engine/prompt score variance relative to rule-based scoring. OmniEvaluator was used during HyperCLOVA X 8B Omni development.",
+      "maturity_note": "CORE_SYS/A+ because the main contribution is reusable evaluation/serving infrastructure, not a model algorithm. Route 9 is primary; Route 11 is secondary because it directly composes omni-modal serving backends and shares inference servers. Fresh project with modest adoption so far; upstream evaluator bugs can still propagate and the verifier only judges textual correctness."
     },
     {
       "id": "arxiv:2609.12075",
@@ -2234,7 +2490,14 @@
       "year": 2026,
       "venue": "arXiv technical report",
       "priority": "S+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.12075",
+      "official_pdf": "https://arxiv.org/pdf/2609.12075",
+      "repo": null,
+      "open_source": "No official implementation repository verified as of 2026-09-16; official arXiv paper/PDF verified.",
+      "system_contribution": "Robion is an SLO-aware VLA serving and management system for multi-robot, multi-model requests on multi-GPU edge servers. It uses intra-GPU VLM/ADiT stage disaggregation over two CUDA streams, dynamic SM restriction for VLM so the memory-bound ADiT can overlap, shared streams across co-located models, least-remaining-SLO-time request priority, flexible multi-GPU model placement, and a traffic controller that concentrates per-model batching while bounding GPU load.",
+      "key_results": "Across individual VLA models, the paper reports average robot-load capacity within 98% SLO attainment that is 6.7x higher than vLLM-Omni and 1.5x higher than a monolithic VLM+ADiT pipeline. With multiple co-located models it reports 2.1x lower SLO miss ratio than Monolithic on average, while vLLM-Omni reaches 100% miss ratio in that experiment. The 4-GPU/8-model large-scale experiment serves up to 64 robots within 98% SLO attainment.",
+      "maturity_note": "CORE_SYS/S+ and a direct trunk paper for Routes 1/2/3/4/6/8. Unlike ROSA, which focuses on factory-level shared GPU-pool abstractions and productivity-aware scheduling across robotics foundation-model pipelines, Robion drills into VLA-specific GPU execution/resource sharing: millisecond VLM+ADiT stages, intra-GPU overlap, SM spatial partitioning, multi-model co-location and SLO-aware traffic assignment. Unlike generic multimodal stage-disaggregated systems, it argues that cross-GPU stage disaggregation is a poor fit for low-utilization millisecond VLA stages. Preprint maturity; no official code verified yet."
     },
     {
       "id": "arxiv:2609.17210",
@@ -2290,7 +2553,10 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.16244",
+      "official_pdf": "https://arxiv.org/pdf/2609.16244",
+      "open_source": "Paper reports synthesizable SystemVerilog and a frozen micro-architecture; official repository/adoption still requires first-party verification."
     },
     {
       "id": "arxiv:2609.28179",
@@ -2344,7 +2610,9 @@
       "year": 2026,
       "venue": "arXiv / MSR-TR-2026-14",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2603.18284",
+      "official_pdf": "https://arxiv.org/pdf/2603.18284"
     },
     {
       "id": "arxiv:2609.27706",
@@ -2358,7 +2626,9 @@
       "year": 2026,
       "venue": "MICRO 2026",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.27706",
+      "official_pdf": "https://arxiv.org/pdf/2609.27706"
     },
     {
       "id": "arxiv:2609.28431",
@@ -2372,7 +2642,9 @@
       "year": 2026,
       "venue": "CoRL 2026 / arXiv",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.28431",
+      "official_pdf": "https://arxiv.org/pdf/2609.28431"
     },
     {
       "id": "arxiv:2609.27656",
@@ -2387,7 +2659,9 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2609.27656",
+      "official_pdf": "https://arxiv.org/pdf/2609.27656"
     },
     {
       "id": "arxiv:2609.28256",
@@ -3559,7 +3833,8 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_pdf": "https://arxiv.org/pdf/2610.27971"
     },
     {
       "id": "arxiv:2610.21913",
@@ -3571,7 +3846,8 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_pdf": "https://arxiv.org/pdf/2610.21913"
     },
     {
       "id": "arxiv:2407.00079",
@@ -3586,7 +3862,9 @@
       "year": 2025,
       "venue": "USENIX FAST 2025 (Best Paper)",
       "priority": "A+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_pdf": "https://arxiv.org/pdf/2407.00079v5",
+      "formal_promotion": true
     },
     {
       "id": "arxiv:2610.40738",
@@ -3599,7 +3877,10 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "B+",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2610.40738",
+      "official_pdf": "https://arxiv.org/pdf/2610.40738",
+      "open_source": "No author-linked serving implementation verified; the official model card references a third-party custom vLLM image."
     },
     {
       "id": "arxiv:2611.08390",
@@ -3615,7 +3896,12 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 16,
+      "pdf_bytes": 8787903
     },
     {
       "id": "arxiv:2611.07441",
@@ -3722,7 +4008,16 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A-",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08363",
+      "official_pdf": "https://arxiv.org/pdf/2611.08363",
+      "repo": null,
+      "open_source": "No author-linked implementation repository verified; GitHub search results with the StrataFlux name were unrelated.",
+      "system_contribution": "Memory-hierarchy-native low-bit LLM inference using selective-precision streaming from host RAM/SSD, transfer-volume reduction, transfer/compute overlap and precision reuse across decode steps.",
+      "key_results": "The 34-page PDF reports 2-bit Llama-3.1-8B-Instruct WikiText-2 perplexity 9.46 to 8.40 while retaining 95.4% of the quantized base throughput on RTX 5090; for 2-bit Qwen3-8B weights+KV, AIME accuracy rises from 11.0% to 47.1% at unchanged GPU memory.",
+      "maturity_note": "Strong system-level memory-hierarchy idea, but no author-linked code or reproducibility package was verified. Generic upstream model/tool repositories are not evidence of a StrataFlux implementation. Keep WATCH_ONLY pending end-to-end TTFT/ITL/throughput and concurrent-decoding reproduction.",
+      "pdf_pages": 34,
+      "pdf_bytes": 1147247
     },
     {
       "id": "arxiv:2611.08209",
@@ -3735,7 +4030,16 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A-",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08209",
+      "official_pdf": "https://arxiv.org/pdf/2611.08209",
+      "repo": "https://github.com/Satvik1701/RoboARCade",
+      "open_source": "Repository README fetched; root LICENSE and pyproject.toml both returned HTTP 404. License is unspecified; do not treat the repository as open-source.",
+      "system_contribution": "Reusable evaluation infrastructure for agentic robot control: long-horizon manipulation task packs across three embodiments on MuJoCo, with interchangeable agent interfaces and extensible task/agent boundaries.",
+      "key_results": "The 23-page PDF describes 22 tasks across three embodiments and reports 49.8% versus 43.6% for two leading agents; a richer visual interface adds 1.5–6.8 points at 1.7–2.3x cost. The project site is roboarcade.org. A GitHub repository with matching project title was found, but direct paper-to-repository linkage remains provisional.",
+      "maturity_note": "Potentially useful Route 9 benchmark/evaluation infrastructure, not a serving runtime. The matching GitHub README has a working quickstart but requires Linux x86_64, EGL-capable GPU, simulation dependencies and model-provider credentials. Keep WATCH_ONLY until project-site linkage, license and independent benchmark reproduction are verified.",
+      "pdf_pages": 23,
+      "pdf_bytes": 1868281
     },
     {
       "id": "arxiv:2611.08299",
@@ -3749,7 +4053,16 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A-",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08299",
+      "official_pdf": "https://arxiv.org/pdf/2611.08299",
+      "repo": null,
+      "open_source": "No author-linked SILICONFORGE implementation or calibration artifact verified; generic NVIDIA, MLCommons and FastAFD repositories are not paper-specific code.",
+      "system_contribution": "SILICONFORGE calibrated performance model for choosing P/D versus P/D+AFD serving decompositions and hardware assignments across model and accelerator roadmaps.",
+      "key_results": "The 17-page PDF compares four model directions, four accelerator classes and two fabrics under matched pipeline-overlap rules and power budgets. It finds no robust deployment-level AFD advantage in SLO goodput/kW; most nominal estimates favor P/D. Re-optimizing mappings and pool sizes reduces median normalized goodput loss from 36% to 9%.",
+      "maturity_note": "Relevant Route 8 workload/performance modeling for serving architecture, but it is not a deployed runtime and no author-linked calibration code or traces were verified. Keep WATCH_ONLY pending model release and validation against measured serving systems.",
+      "pdf_pages": 17,
+      "pdf_bytes": 1454072
     },
     {
       "id": "arxiv:2611.08023",
@@ -3763,7 +4076,16 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A-",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08023",
+      "official_pdf": "https://arxiv.org/pdf/2611.08023",
+      "repo": null,
+      "open_source": "No author-linked PSI implementation verified; PDF links point to WeeLLM, LTX-2 and Diffusers upstream projects.",
+      "system_contribution": "Fixed-arena inference runtime for the BF16 LTX-2.5 22B joint audio-video transformer, combining sub-block weight streaming with separately managed intermediate state under a bounded GPU working set.",
+      "key_results": "The 9-page PDF reports, over nine matched full-prompt RTX A6000 cases, sampled transformer-process peak memory falling from 8,578 to 360 MiB, while mean time for eleven transformer invocations rises from 247.11 to 349.00 seconds. A separate DGX Spark service suite reports 100% complete audiovisual decode under a 3 GiB available-memory cap.",
+      "maturity_note": "A concrete multimodal runtime construction, but memory and latency must be evaluated together; process peak is not total device memory. No author-linked code was verified. Keep WATCH_ONLY pending numerical-fidelity, end-to-end latency and concurrent-session reproduction.",
+      "pdf_pages": 9,
+      "pdf_bytes": 434612
     },
     {
       "id": "arxiv:2611.08425",
@@ -3777,7 +4099,16 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A-",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08425",
+      "official_pdf": "https://arxiv.org/pdf/2611.08425",
+      "repo": "https://github.com/mpodolinsky/VLA-Tug",
+      "open_source": "MIT LICENSE fetched successfully. Repository owner handle aligns with first author and README matches the project; repo contains code/evaluation scripts and 3,180 simulated rollouts, but explicitly does not release real-robot data.",
+      "system_contribution": "Calibrated latent-probing runtime monitor for VLA failure prediction/classification, designed to expose early warning before action-chunk execution with bounded false-alarm and missed-detection rates.",
+      "key_results": "The 27-page PDF reports up to 30% earlier failure detection at matched FPR; under unseen-task shift, bounds remain valid in up to 86% of runs versus 21% for the baseline; failure-mode top-3 accuracy improves 44% over a majority baseline. Per-step overhead is 0.12 ms on GPU (0.2% of a 54 ms GR00T call) and 0.9 ms on four CPU threads.",
+      "maturity_note": "Strong runtime-monitoring boundary candidate with a public MIT implementation, but it is a probe algorithm rather than a serving scheduler/runtime. Released data are simulated; real-robot generalization and target-edge overhead remain unverified. Keep WATCH_ONLY.",
+      "pdf_pages": 27,
+      "pdf_bytes": 16141742
     },
     {
       "id": "arxiv:2611.07211",
@@ -3790,7 +4121,17 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.07211",
+      "official_pdf": "https://arxiv.org/pdf/2611.07211",
+      "repo": null,
+      "open_source": "No author-linked repository or LoopDuet-specific upstream vLLM PR/code path verified; paper claims a vLLM implementation but does not provide a verifiable code link.",
+      "system_contribution": "Phase-dependent recurrence-depth serving for looped transformers: jointly select prefill/decode loop budgets, compact the tokens that require further recurrence into a batch after a shared loop boundary, and use a queue-age controller to adapt prefill depth under demand changes.",
+      "key_results": "Full HotpotQA/Huginn on one A100-SXM4-80GB: 19% more throughput than the fastest uniform-depth setting meeting the same accuracy criterion; a higher-throughput point gains 6.04 EM over uniform depth eight at 97% of its throughput. On two OLMo arrival traces, adaptive prefill gains 0.92–1.35 EM at the same 100% attainment of a one-second TTFT target.",
+      "maturity_note": "40-page official PDF and full text inspected. The paper describes a vLLM implementation, but the PDF/abstract expose no author-linked code URL; GitHub repository/PR search and vLLM default-branch code searches found no LoopDuet-specific implementation. No independent reproduction or multi-tenant production SLO evidence. Keep WATCH_ONLY.",
+      "formal_promotion": false,
+      "pdf_pages": 40,
+      "pdf_bytes": 737480
     },
     {
       "id": "arxiv:2611.07996",
@@ -3802,7 +4143,17 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.07996",
+      "official_pdf": "https://arxiv.org/pdf/2611.07996",
+      "repo": null,
+      "open_source": "No author-linked implementation repository verified in the paper, full text, or exact GitHub repository search.",
+      "system_contribution": "Event-driven CPU-side MARL environment runtime with an entity-locality contract, per-entity causal queues, a parallel executive list for ready events, and preflight-guided thread-pool selection (STPA). It targets environment-step execution rather than neural-policy serving.",
+      "key_results": "The 9-page official PDF reports 16.2% lower inference latency on the Aircraft UAV-swarm workload and PCS environment-execution latency reductions of 46.9%, 19.5%, and 64.9% against ROSS-T, NBSE, and ROOT-Sim respectively.",
+      "maturity_note": "Official PDF SHA/header and 9-page full-text extraction PASS. No author-linked GitHub URL in the paper/abstract or exact repository search; no p95/p99/SLO or independent reproduction. Useful Route 9 runtime/evaluation infrastructure, but not a VLA model-serving scheduler. Keep WATCH_ONLY.",
+      "formal_promotion": false,
+      "pdf_pages": 9,
+      "pdf_bytes": 5989412
     },
     {
       "id": "arxiv:2611.08039",
@@ -3816,7 +4167,17 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08039",
+      "official_pdf": "https://arxiv.org/pdf/2611.08039",
+      "repo": null,
+      "open_source": "No author-linked implementation repository verified in the paper, full text, or exact GitHub repository search.",
+      "system_contribution": "Whole-body humanoid command interface connecting VLM-selected 3D scene points and pelvis/torso/hand/walking/gaze commands to a learned motion tracker. This is a robot execution harness, not a multi-model serving runtime.",
+      "key_results": "Official 13-page PDF: 51% SIMPLE and 42.5% HumanoidArena episode success without task-specific trajectories; five trajectories per SIMPLE task raise success to 95%; one real G1 box-carrying demonstration.",
+      "maturity_note": "Official PDF SHA/header and 13-page full-text extraction PASS. No GitHub links in the paper/abstract or exact repository search. No serving throughput, queueing, resource isolation, or SLO evidence. Keep SYS_ALG_BOUNDARY / WATCH_ONLY.",
+      "formal_promotion": false,
+      "pdf_pages": 13,
+      "pdf_bytes": 2686597
     },
     {
       "id": "arxiv:2611.08413",
@@ -3830,7 +4191,17 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08413",
+      "official_pdf": "https://arxiv.org/pdf/2611.08413",
+      "repo": "https://github.com/mohassan-ms/t3r",
+      "open_source": "Potentially author-associated repository mohassan-ms/t3r is empty (GitHub reports size 0; README contents return 404); direct paper-to-repository linkage is not confirmed and no usable code/license was found.",
+      "system_contribution": "Training-free two-stage VLA inference optimization: segmentation-guided removal of spatially irrelevant visual tokens followed by saliency-guided attention biasing over retained action-critical tokens.",
+      "key_results": "Official 8-page PDF reports removal of 85% of scene-camera visual tokens while approximately matching unpruned success; up to +7 percentage points under OOD object-placement perturbations; 7.8 ms pruning/bias application and up to 3.3x LLM-forward speedup at higher resolution across LIBERO, SIMPLER, and RoboTwin.",
+      "maturity_note": "Official PDF downloaded, header/SHA validated and full text extracted. GitHub search surfaced mohassan-ms/t3r (size 0; README/contents return 404) and an unrelated midotronn/t3r. No usable implementation or independent reproduction. Algorithmic token pruning, not a reusable serving scheduler/runtime; keep SYS_ALG_BOUNDARY / WATCH_ONLY.",
+      "formal_promotion": false,
+      "pdf_pages": 8,
+      "pdf_bytes": 1804806
     },
     {
       "id": "arxiv:2611.07663",
@@ -3844,7 +4215,17 @@
       "year": 2026,
       "venue": "ICARCV 2026 (accepted)",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.07663",
+      "official_pdf": "https://arxiv.org/pdf/2611.07663",
+      "repo": null,
+      "open_source": "No author-linked public repository verified in the paper or exact GitHub repository search.",
+      "system_contribution": "Robot-state-aware runtime scheduling for open-vocabulary detection on an embedded mobile robot, switching inference rate and precision using odometry, map change and detector confidence.",
+      "key_results": "40 real LIMO navigation trials; 8/10 mission success versus 7/10 for each fixed-rate baseline; 5.2% lower mean Jetson input power and 34.0% lower OVD call rate than the 8 Hz baseline. A 60 s stationary microbenchmark reports 8.045 W to 7.301 W and 484.7 J to 438.1 J.",
+      "maturity_note": "Full official PDF inspected. Narrow single-robot/single-detector scheduler on Jetson Orin Nano; mission-window input energy is not lower because longer missions can erase instantaneous savings. No author-linked public implementation verified; no multi-model, multi-tenant, p99 or fleet SLO. Keep CORE_SYS / WATCH_ONLY.",
+      "formal_promotion": false,
+      "pdf_pages": 6,
+      "pdf_bytes": 1451273
     },
     {
       "id": "arxiv:2611.07651",
@@ -3856,7 +4237,17 @@
       "year": 2026,
       "venue": "ICARCV 2026 (accepted)",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.07651",
+      "official_pdf": "https://arxiv.org/pdf/2611.07651",
+      "repo": null,
+      "open_source": "No author-linked public repository verified in the paper or exact GitHub repository search.",
+      "system_contribution": "A controlled cross-robot benchmark protocol that evaluates complete grasp-generation pipelines after robot-specific IK filtering, motion planning and fixed approach-close-lift execution.",
+      "key_results": "Six configured pipelines, four robot embodiments, five diagnostic objects, 540 scenarios per method and 3,240 method-scenario evaluations. GraspGen reports 73.1% overall success; EconomicGrasp 63.5%.",
+      "maturity_note": "Full official PDF inspected. Useful evaluation-infrastructure candidate, but the paper evaluates fixed scenarios and configured pipelines rather than stochastic repeatability; one execution per scenario, no stage-level timing/serving SLO, no demonstrated real-robot transfer and no author-linked public repository verified. Keep CORE_SYS / WATCH_ONLY.",
+      "formal_promotion": false,
+      "pdf_pages": 7,
+      "pdf_bytes": 996994
     },
     {
       "id": "arxiv:2611.07593",
@@ -3870,7 +4261,17 @@
       "year": 2026,
       "venue": "NeurIPS 2026 (accepted)",
       "priority": "A",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.07593",
+      "official_pdf": "https://arxiv.org/pdf/2611.07593",
+      "repo": "https://github.com/Chongyu1117/TACT-KV",
+      "open_source": "Paper links this repository, but direct GitHub API returned 404 and exact repository search returned 0 at this checkpoint; no usable public code verified.",
+      "system_contribution": "Calibration-free volumetric visual KV compression using separable 3D DCT, reverse-water-filling bit allocation and a tile-fused inverse-DCT FlashAttention path.",
+      "key_results": "Official full text reports 6.9–7.6x per-request visual KV reduction, 4–8x maximum decode batch, 1.17–2.02x throughput gain and 1.10–1.45x matched-batch latency improvement on one RTX PRO 6000 96GiB setup.",
+      "maturity_note": "Official PDF downloaded and SHA/header/full-text validated (35 pages). Strong multimodal cache/kernel boundary candidate, but evaluated on medical VLM/video tasks, single GPU, visual-only KV; inverse-transform decode adds FLOPs. Paper-linked GitHub repository returned 404 and exact repository search returned 0; no independent reproduction or cross-hardware serving evidence. Keep SYS_ALG_BOUNDARY / WATCH_ONLY.",
+      "formal_promotion": false,
+      "pdf_pages": 35,
+      "pdf_bytes": 5909623
     },
     {
       "id": "arxiv:2611.07570",
@@ -3883,7 +4284,17 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.07570",
+      "official_pdf": "https://arxiv.org/pdf/2611.07570",
+      "repo": null,
+      "open_source": "No author-linked public repository verified in the paper or exact GitHub repository search.",
+      "system_contribution": "SLO-aware edge inference configuration search that jointly selects model size, batch, quantization and mixed-precision recipes, combining a quality surrogate, few-shot latency calibration and structured search across serving backends.",
+      "key_results": "Full text reports 13,618 RTX A6000 and 4,309 Jetson Thor latency measurements; evaluates vLLM, SGLang and TensorRT-LLM configurations under memory and latency constraints.",
+      "maturity_note": "Full official PDF inspected. Strong edge-serving configuration/profiling candidate, but it is an offline search/calibration framework rather than a runtime scheduler or serving abstraction. No author-linked public implementation verified; independent reproduction and deployment/fleet SLO remain open. Keep CORE_SYS / WATCH_ONLY.",
+      "formal_promotion": false,
+      "pdf_pages": 14,
+      "pdf_bytes": 2260740
     },
     {
       "id": "arxiv:2611.08368",
@@ -3895,7 +4306,17 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "repo": null,
+      "repo_status": "NOT_VERIFIED",
+      "open_source": false,
+      "maturity_note": "Evaluation is open-loop sensor replay, not closed-loop perception-control or online serving. Indoor scene coverage and generalization remain limited; no author-linked public repository or license was verified despite a release claim.",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 37,
+      "pdf_bytes": 30730342
     },
     {
       "id": "arxiv:2611.08139",
@@ -3909,7 +4330,17 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "repo": "https://github.com/ozaslan/htrip",
+      "repo_status": "NOT_FOUND_HTTP_404",
+      "open_source": false,
+      "maturity_note": "No real-robot or model-serving evaluation. The matching repository has no root LICENSE, so redistribution/reuse terms are unresolved.",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 8,
+      "pdf_bytes": 1761429
     },
     {
       "id": "arxiv:2611.07411",
@@ -3922,7 +4353,17 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "A",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "repo": null,
+      "repo_status": "NOT_VERIFIED",
+      "open_source": false,
+      "maturity_note": "No author-linked public code or reproducible serving stack. The evidence is codec/uplink quality and policy success, not end-to-end serving p99, scheduler behavior or multi-robot goodput.",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 15,
+      "pdf_bytes": 4211583
     },
     {
       "id": "arxiv:2611.07493",
@@ -3936,7 +4377,17 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "repo": null,
+      "repo_status": "NOT_VERIFIED",
+      "open_source": false,
+      "maturity_note": "The 2 s live result is a single-robot, single-consumer-GPU pipeline, not a multi-tenant serving benchmark. No p99, admission control, fleet goodput, scheduler or public implementation was verified; the optional LLM path is about 10 s.",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 7,
+      "pdf_bytes": 5077213
     },
     {
       "id": "arxiv:2611.07517",
@@ -3950,7 +4401,17 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "repo": null,
+      "repo_status": "NOT_VERIFIED",
+      "open_source": false,
+      "maturity_note": "The benchmark assumes object-to-manual links are known and is simulation-only; physical-robot validation under perception/localization noise is future work. The 15–20 s query-plus-generation path is not a low-latency serving runtime; no public implementation or p99/fleet SLO was verified.",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 8,
+      "pdf_bytes": 2455282
     },
     {
       "id": "arxiv:2611.07964",
@@ -3963,7 +4424,17 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "C",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "repo": null,
+      "repo_status": "NOT_VERIFIED",
+      "open_source": false,
+      "maturity_note": "A planning/competence model, not an inference-serving runtime. The real-robot study is narrow and does not measure multi-tenant serving or fleet SLO.",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 16,
+      "pdf_bytes": 835537
     },
     {
       "id": "arxiv:2611.07229",
@@ -3976,7 +4447,17 @@
       "year": 2026,
       "venue": "arXiv",
       "priority": "C",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "repo": null,
+      "repo_status": "NOT_VERIFIED",
+      "open_source": false,
+      "maturity_note": "Policy success rates (79.10% in-domain, 72.15% under combined embodiment/environment shifts, 85.0% average across six real-world tasks) are task-success metrics, not serving throughput or latency. No inference-serving runtime, scheduling/cache mechanism, p99 or fleet SLO is established.",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 10,
+      "pdf_bytes": 5472743
     },
     {
       "id": "arxiv:2608.08600",
@@ -3989,7 +4470,22 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2608.08600",
+      "official_pdf": "https://arxiv.org/pdf/2608.08600",
+      "repo": null,
+      "repo_status": "NO_AUTHOR_LINKED_REPOSITORY_FOUND_IN_GITHUB_SEARCH",
+      "open_source": false,
+      "system_contribution": "Khora separates a persistent shared world state (STBoard) from per-view diffusion rendering, with action-conditioned entity updates and a population-agnostic rendering interface. It includes an interactive runtime and measured population scaling.",
+      "key_results": "Measured 1–80 agents: compute-only rollout latency 107.16–116.73 ms and per-view FPS 37.33–34.27; end-to-end delivery latency 113.51–205.62 ms and per-view FPS 35.24–19.45; aggregate view throughput 37.3–2741.3 view-FPS. At 80 agents the deadline-fallback worker count reaches 53. Per-GPU VRAM remains nearly flat.",
+      "maturity_note": "One GPU per agent; no multi-tenant GPU sharing, admission control, fleet placement or serving SLO. The 128–1024-agent figures are compute-only projections, not measured end-to-end runs. Network/encoding/client delivery are excluded from those projections. No author-linked code repository found; project page/demo exist.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 42,
+      "pdf_bytes": 33360780
     },
     {
       "id": "arxiv:2601.11063",
@@ -4002,7 +4498,22 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "C",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2601.11063",
+      "official_pdf": "https://arxiv.org/pdf/2601.11063",
+      "repo": null,
+      "repo_status": "NO_AUTHOR_LINKED_REPOSITORY_FOUND_IN_GITHUB_SEARCH",
+      "open_source": false,
+      "system_contribution": "LLM-generated state expectations are verified through PDDL and grounded into a team-level parallel behavior tree. Robot-specific subtrees perform precondition checks, skill execution, effect validation, local replanning and blackboard-based synchronization.",
+      "key_results": "MACE-THOR: 42 heterogeneous multi-robot tasks across 8 indoor layouts. Abstract reports task success 12%→55% and goal-condition recall 32%→75%; fulltext shows task-family variation and a simulator-only evaluation.",
+      "maturity_note": "No real-robot deployment, no inference/serving latency or resource-sharing evaluation, and no author-linked repository found. Useful for planner/execution coordination, not a serving-system promotion.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 13,
+      "pdf_bytes": 1433573
     },
     {
       "id": "arxiv:2605.25820",
@@ -4014,7 +4525,22 @@
       "year": 2026,
       "venue": "NeurIPS 2026 (accepted)",
       "priority": "B",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2605.25820",
+      "official_pdf": "https://arxiv.org/pdf/2605.25820",
+      "repo": "https://github.com/infiniteYuanyl/VRCD",
+      "repo_status": "AUTHOR_LINKED_REPOSITORY_VERIFIED_APACHE_2_0",
+      "open_source": true,
+      "system_contribution": "Training-free inference-time token selection for diffusion MLLMs using a Visual Redundancy Index and token-to-image attention to select visually complementary positions in parallel.",
+      "key_results": "Relative accuracy gains up to 18.8% on M3CoT and 6.9% on MMBench. Fulltext throughput on L40 is 46.264 versus 46.982 tokens/s for the confidence baseline (about 1.5% throughput cost).",
+      "maturity_note": "Algorithmic decoding contribution; does not introduce serving admission/scheduling, model disaggregation or a runtime abstraction. Author-linked Apache-2.0 code and NeurIPS 2026 acceptance verified.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 23,
+      "pdf_bytes": 4456019
     },
     {
       "id": "arxiv:2610.31166",
@@ -4027,7 +4553,22 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2610.31166",
+      "official_pdf": "https://arxiv.org/pdf/2610.31166",
+      "repo": "https://github.com/crystalccy1/MemoryBeforeGoal",
+      "repo_status": "AUTHOR_LINKED_REPOSITORY_VERIFIED_APACHE_2_0",
+      "open_source": true,
+      "system_contribution": "WholeBodyMem uses SAM3-tracked object events to select a small adaptive set of pre-history frames, which the action expert reads with object/time tokens; HuMeGo adds six simulated and six real Unitree G1 tasks.",
+      "key_results": "Real G1: 53/60 successes (88.3%) versus 22/60 (36.7%) for the memoryless baseline; simulation 72.6% versus 29.1%.",
+      "maturity_note": "Memory/selection algorithm rather than serving runtime. No inference latency or online resource profile; SAM3 misses never-detected cues, online tracking adds inference cost, simulator demonstrations are scripted. Author-linked Apache-2.0 code found.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 8,
+      "pdf_bytes": 6025599
     },
     {
       "id": "arxiv:2610.21389",
@@ -4041,7 +4582,22 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A-",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2610.21389",
+      "official_pdf": "https://arxiv.org/pdf/2610.21389",
+      "repo": "https://github.com/Garfield-kh/FastVLA",
+      "repo_status": "AUTHOR_LINKED_REPOSITORY_VERIFIED_APACHE_2_0_POLICY_SERVER_AND_CHECKPOINTS",
+      "open_source": true,
+      "system_contribution": "A frozen 4B VLM is invoked once per episode to build a 34-layer KV task memory; a lightweight online actor retrieves from this fixed memory using live multi-view observations and robot state. The repository includes a policy server, evaluation clients, training code, first-frame cache builder and released checkpoints.",
+      "key_results": "RoboTwin 2.0: 92.46%/92.40% success, 92.43% mean, 1.437 ms amortized per environment step and 1.22 GiB post-prefill online memory; 10.9–17.1× lower inference time than three continually conditioned baselines. LIBERO/LIBERO-Plus: 95.95%/79.11%, 3.975 ms/step. 10,000 RoboTwin rollouts and 10,030 LIBERO-Plus perturbation instances.",
+      "maturity_note": "Peak prefill memory is 12.11 GiB (RoboTwin) and 11.74 GiB (LIBERO), much higher than post-prefill resident memory. Task memory is fixed for the episode; goal/instruction changes during execution are unaddressed. Strong state-reuse/online actor boundary candidate, not a multi-tenant serving system.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 16,
+      "pdf_bytes": 11274156
     },
     {
       "id": "arxiv:2611.08147",
@@ -4053,7 +4609,22 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2611.08147",
+      "official_pdf": "https://arxiv.org/pdf/2611.08147",
+      "repo": "https://gitlab.kuleuven.be/emedia-research-lab/esat-stadius/mcuflownet/mcuflownet",
+      "repo_status": "PAPER_LINKED_GITLAB_MAIN_HEAD_VERIFIED_1281d7a29f79d3af214440f34093c76f8a64d487; LICENSE_CI_TESTS_UNVERIFIED",
+      "open_source": false,
+      "system_contribution": "PACE-NAS separates peak-SRAM design from latency search: platform profiling and backbone restructuring fix the memory peak, then a weight-sharing supernet and evolutionary Pareto search select operators and depths using accuracy and compiler-estimated latency for MCU optical flow.",
+      "key_results": "On Grove Vision AI V2 (Cortex-M55/Ethos-U55, INT8), peak SRAM is reduced by 18%; MCUFlowNet-S runs at 93.2 ms versus 164.3 ms for retrained EdgeFlowNet (1.76x faster), with EPE 6.50 versus 6.40 and simulated obstacle-avoidance success 51.5% versus 41.8% at 2 m/s. A balanced PIDNet-S variant is 1.17x faster at similar mIoU.",
+      "maturity_note": "Hardware-aware edge model optimization rather than a serving runtime. No serving scheduler, admission control, multi-tenant resource manager or serving SLO. The paper-linked GitLab main HEAD is reachable, but the web UI/raw files were inaccessible; license, CI, tests and reproduction scripts remain unverified.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 5,
+      "pdf_bytes": 1088996
     },
     {
       "id": "arxiv:2611.07149",
@@ -4066,7 +4637,22 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "A",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2611.07149",
+      "official_pdf": "https://arxiv.org/pdf/2611.07149",
+      "repo": "https://github.com/hao-ai-lab/FastAFD",
+      "repo_status": "AUTHOR_LINKED_GITHUB_REPO_VERIFIED_MIT_BENCHMARKS_AND_TESTS_PRESENT; MAIN_HEAD_97dafa92af4291cbd87e2e93546cbb8cf96632d9",
+      "open_source": true,
+      "system_contribution": "Open-source attention–FFN disaggregation engine for MoE inference on GB200 NVL72. It overlaps one microbatch's MoE expert computation with the next microbatch's attention and uses an analytical throughput model to decide when AFD beats colocated wide expert parallelism.",
+      "key_results": "The 24-page official PDF reports up to 1.17× throughput over the best tuned vLLM wide-EP setting on Qwen3 and 1.16× on Qwen3.5, matching on MiniMax-M2.5; the analytical model predicts throughput within 3% from colocated vLLM profiles. The repository README separately reports 1.35–1.45× against colocated baselines; these are different baselines and must not be conflated.",
+      "maturity_note": "Author-linked MIT repository includes benchmark scripts, correctness-alignment checks and CPU test coverage. The demonstrated environment is narrow (aarch64/CUDA 13.0 and an 8-GPU GB200 NVL72 cluster); no independent reproduction was run in this workspace and no VLM/Omni or Physical-AI transfer has been demonstrated. Track as a multimodal/omni-adjacent MoE serving CORE_SYS candidate, but keep WATCH_ONLY.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 24,
+      "pdf_bytes": 764413
     },
     {
       "id": "arxiv:2611.06019",
@@ -4080,7 +4666,22 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2611.06019",
+      "official_pdf": "https://arxiv.org/pdf/2611.06019",
+      "repo": null,
+      "repo_status": "NO_AUTHOR_LINKED_REPOSITORY_FOUND_IN_FULLTEXT_OR_GITHUB_REPOSITORY_SEARCH",
+      "open_source": false,
+      "system_contribution": "Algorithm–architecture co-designed diffusion accelerator that treats inter-step similarity as differential sparsity: a temporal cache reuses low-change activations while an outlier path recomputes high-magnitude differences at higher precision, with a streaming cache-update and sparse-computation pipeline.",
+      "key_results": "The 13-page official PDF reports average 4.0× speedup and 5.5× energy savings over GPUs and prior accelerators while preserving generation quality; the paper also reports about 22% area overhead for the proposed design.",
+      "maturity_note": "A hardware/algorithm boundary result for diffusion temporal reuse, not an online serving scheduler or multi-tenant runtime. No author-linked repository, license or independently reproducible artifact was found. Keep SYS_ALG_BOUNDARY/WATCH_ONLY until an executable artifact and end-to-end serving integration are available.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 13,
+      "pdf_bytes": 6292765
     },
     {
       "id": "arxiv:2607.03012",
@@ -4092,7 +4693,22 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2607.03012",
+      "official_pdf": "https://arxiv.org/pdf/2607.03012",
+      "repo": "https://github.com/LeeDongYeun/HyperVAttention",
+      "repo_status": "AUTHOR_LINKED_PUBLIC_REPO_NO_LICENSE_FILE_NO_TESTS_FOUND",
+      "open_source": false,
+      "system_contribution": "3D local-window clustering with custom Triton kernel, anchor-step full clustering plus intermediate subset updates, and hardware-aware CTA cluster merging; author repo provides Wan 2.2 and HunyuanVideo inference scripts with CTA-aware settings.",
+      "key_results": "Official abstract reports up to 2.13x speedup over full attention on HunyuanVideo and 2.23x for HVA-Flash, with higher fidelity than SVG2 at comparable latency.",
+      "maturity_note": "Video-diffusion sparse-attention/kernel optimization rather than a reusable serving runtime. No admission control, multi-tenant scheduler, fleet orchestration, serving SLO, LICENSE file, or test suite was verified. No independent reproduction; keep WATCH_ONLY and outside CORE_SYS.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 23,
+      "pdf_bytes": 4759490
     },
     {
       "id": "arxiv:2610.41970",
@@ -4105,7 +4721,68 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "official_page": "https://arxiv.org/abs/2610.41970",
+      "official_pdf": "https://arxiv.org/pdf/2610.41970",
+      "repo": null,
+      "repo_status": "NO_AUTHOR_LINKED_REPOSITORY_FOUND_IN_GITHUB_SEARCH",
+      "open_source": false,
+      "system_contribution": "Pre-registered audit of test-time candidate-selection signal, realized inference efficiency, and simulator/evaluation integrity for Cosmos Policy and RoboCasa; identifies silent rendering corruption and describes a detector/fix/scripts, but does not provide a serving scheduler or reusable runtime.",
+      "key_results": "Learned value selector is 1.66 percentage points worse than random; hindsight oracle +1.40 pp with episode-level interval spanning zero; 82% of states have identical candidate outcomes; token pruning yields at most 1.15x deployed end-to-end speedup (1.25x decode-excluded); adaptive allocation inconclusive under power gate.",
+      "maturity_note": "Useful Route-9 evaluation-integrity evidence for WAM test-time scaling. Scope is one Cosmos Policy/RoboCasa configuration; no author-linked repository, test suite, serving scheduler, admission control, or multi-tenant SLO was verified. Keep WATCH_ONLY; no independent reproduction.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 13,
+      "pdf_bytes": 2000113
+    },
+    {
+      "id": "arxiv:2611.08307",
+      "title": "Measured Coupling for Parallel Decoding in Diffusion Language Models",
+      "class": "ALG_INSPIRATION",
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08307",
+      "official_pdf": "https://arxiv.org/pdf/2611.08307",
+      "repo": null,
+      "repo_status": "NO_EXACT_GITHUB_REPOSITORY_FOUND",
+      "open_source": false,
+      "system_contribution": "Coupling-aware parallel token-commit selection for diffusion language models. Cheap probes are inserted into the main forward pass; the paper reports fewer decoding steps and higher tokens/s than mean-field decoding on one A100, including a KV-cache setting.",
+      "maturity_note": "Algorithmic decoding contribution, not a serving scheduler/runtime: no admission control, multi-tenant resource management, cache service or serving SLO. Full official PDF reviewed; exact-title GitHub repository search returned no match.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 18,
+      "pdf_bytes": 504838
+    },
+    {
+      "id": "arxiv:2611.08156",
+      "title": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+      "class": "ALG_INSPIRATION",
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08156",
+      "official_pdf": "https://arxiv.org/pdf/2611.08156",
+      "repo": null,
+      "repo_status": "NO_EXACT_GITHUB_REPOSITORY_FOUND",
+      "open_source": false,
+      "system_contribution": "La-JEPA is a compact world-action policy trained in V-JEPA 2.1 feature space and generates actions only at inference. The paper reports lower replan latency and 2–5x faster compiled policy calls than Fast-WAM at comparable/better task performance.",
+      "maturity_note": "Policy/model architecture rather than an inference-serving runtime: no serving scheduler, multi-tenant admission, cache/reuse or fleet SLO. Full official PDF reviewed; exact-title GitHub repository search returned no match.",
+      "candidate_status": "WATCH_ONLY",
+      "formal_promotion": false,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_local_validated": true,
+      "pdf_pages": 30,
+      "pdf_bytes": 1198709
     },
     {
       "id": "arxiv:2611.08111",
@@ -4117,7 +4794,16 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08111",
+      "official_pdf": "https://arxiv.org/pdf/2611.08111v1",
+      "repo": "https://github.com/Zizizi-hao/NegWAM",
+      "open_source": "Author-linked repo verified; inference/evaluation code, data-preparation scripts and checkpoints available; training code and HUGSIM closed-loop evaluation pending.",
+      "system_contribution": "Offline negative-trajectory supervision and scene-conditioned rider tokens for WAM safety post-training; auxiliary rider branch is removed at inference.",
+      "key_results": "40.4 EPDMS on NAVSIM v2 navhard (+4.1% relative to the strongest compared scorer-free WAM baseline), 93.3 EPDMS on navtest; zero-shot HUGSIM cross-benchmark generalization reported.",
+      "maturity_note": "Algorithmic WAM safety post-training rather than a serving system; no additional inference-time module or serving scheduler/queueing/concurrency SLO. Keep WATCH_ONLY pending independent reproduction and runtime/SLO evidence.",
+      "pdf_pages": 14,
+      "pdf_bytes": 9347639
     },
     {
       "id": "arxiv:2611.07912",
@@ -4129,7 +4815,16 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.07912",
+      "official_pdf": "https://arxiv.org/pdf/2611.07912v1",
+      "repo": null,
+      "open_source": "No exact-name author-linked repository verified.",
+      "system_contribution": "Jacobian-free energy guidance on the one-step clean estimate of frozen flow-matching WAMs, with sampling-time scheduling, per-energy normalization and velocity-bounded correction.",
+      "key_results": "Improves three frozen WAMs by 1.8–3.6 EPDMS; guidance adds 1.9 ms to a 36 ms DriveWAM step, 1.4 ms to a 16.3 ms SimWAM step and 0.1 ms to a 48 ms DriveLaW step; under 10% sampling-time overhead.",
+      "maturity_note": "Inference-time algorithmic control channel, but only open-loop pseudo-simulation on one benchmark and no serving infrastructure, scheduler or concurrency SLO. Keep WATCH_ONLY.",
+      "pdf_pages": 8,
+      "pdf_bytes": 1240157
     },
     {
       "id": "arxiv:2611.08462",
@@ -4141,7 +4836,14 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08462",
+      "official_pdf": "https://arxiv.org/pdf/2611.08462v1",
+      "repo": null,
+      "open_source": "No verified author-linked code repository; a same-name UT-Austin-RobIn repository is unverified because it is not linked from the paper page and its README.md lookup returned 404.",
+      "system_contribution": "Semantic-abduction-based VLA failure correction using dense spatial representations and conditional costs inferred from a small number of corrective demonstrations.",
+      "key_results": "Evaluated across six manipulation tasks and object/scene variations; abstract reports transfer from a handful of corrective demonstrations.",
+      "maturity_note": "Policy correction/learning method, not a serving or inference-runtime contribution; no latency or throughput evidence. Keep WATCH_ONLY."
     },
     {
       "id": "arxiv:2611.08308",
@@ -4153,7 +4855,14 @@
       "year": 2026,
       "venue": "arXiv preprint",
       "priority": "B",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08308",
+      "official_pdf": "https://arxiv.org/pdf/2611.08308v1",
+      "repo": null,
+      "open_source": "No verified author-linked repository; AISG-Group/RM-VLM is a same-name collision whose README describes an unrelated power-operation video action-recognition project.",
+      "system_contribution": "LLM-generated reward machines from natural-language tasks, VLM proposition grounding on image observations and a VLM-based value-function estimator for dense rewards.",
+      "key_results": "Evaluated on grid-world navigation, robotic manipulation and 3D object collection; reports higher task success than compared VLM-based reward methods.",
+      "maturity_note": "RL reward representation and policy-learning method; no serving system, runtime throughput or latency evidence. Keep WATCH_ONLY."
     },
     {
       "id": "arxiv:2611.08398",
@@ -4163,7 +4872,220 @@
       "year": 2026,
       "venue": "EuroHaptics 2026",
       "priority": "C",
-      "status": "WATCH_ONLY"
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08398",
+      "official_pdf": "https://arxiv.org/pdf/2611.08398v1",
+      "repo": null,
+      "open_source": "No author-linked code repository identified on the official arXiv page.",
+      "system_contribution": "Tactile display combining particle-jamming stiffness control and heated/cooled-water thermal transfer.",
+      "key_results": "Prototype reports 300% controllable stiffness increase, 10–50 °C surface temperatures and 0.2 °C closed-loop temperature error.",
+      "maturity_note": "Physical haptic-interface hardware rather than an AI inference/serving contribution; retain only as adjacent physical-AI hardware context."
+    },
+    {
+      "id": "arxiv:2611.02975",
+      "title": "Introducing Cluster Efficiency to LLM Serving: Pooling Economical Accelerators over Fast Interconnects",
+      "class": "CORE_SYS",
+      "route": [
+        6,
+        8,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.02975",
+      "official_pdf": "https://arxiv.org/pdf/2611.02975",
+      "repo": null,
+      "open_source": "Paper references the Tenstorrent software stack, but a single paper-linked implementation repository, license, and reproducibility package have not yet been independently verified.",
+      "system_contribution": "A cluster-serving stack pools economical accelerators over fast interconnects using integrated communication engines, pipelined ring transfers, communication-computation overlap, and device-side decode replay.",
+      "key_results": "On Tenstorrent Galaxy, 1.07–2.24× tokens per dollar versus an eight-GPU RTX PRO 6000 Blackwell server under the paper's three-year acquisition-and-electricity model; TCP-class communication emulation reduces throughput by 23.5–67.4%.",
+      "maturity_note": "17-page full text validated. Strong serving/resource-pooling contribution; cross-vendor deployment and independent reproduction remain open."
+    },
+    {
+      "id": "arxiv:2611.09715",
+      "title": "Intent-Aware Caching for Efficient LLM Serving",
+      "class": "CORE_SYS",
+      "route": [
+        5,
+        8,
+        9
+      ],
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "priority": "A",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.09715",
+      "official_pdf": "https://arxiv.org/pdf/2611.09715",
+      "repo": "https://github.com/hasanar1f/intent-aware-caching",
+      "open_source": "Paper links an author repository; repository license, test coverage, benchmark reproduction, and production integration still need independent verification.",
+      "system_contribution": "An online prefix-KV cache eviction policy classifies requests by intent, learns reuse statistics from recent serving logs, and uses predicted continuation probability and inter-turn delay to guide eviction.",
+      "key_results": "34.6% cache hit rate versus 18.8% for the previous learning-based policy and 12.2% for LRU; up to 46.1% lower average serving latency on WildChat and ShareChat workloads.",
+      "maturity_note": "25-page full text validated. Direct serving-cache contribution with paper-linked code; independent reproduction and SLO/multi-tenant evaluation remain open."
+    },
+    {
+      "id": "arxiv:2611.09109",
+      "title": "DARIC: A Position-Independent KV Cache Reuse System with Distribution-Aware Recomputation",
+      "class": "CORE_SYS",
+      "route": [
+        5,
+        8,
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.09109",
+      "official_pdf": "https://arxiv.org/pdf/2611.09109",
+      "repo": "https://github.com/Lenovo-ICI/DARIC",
+      "open_source": "Author-linked Lenovo-ICI repository is present in the paper; license, tests, CI, supported backends, and independent reproduction remain to be checked.",
+      "system_contribution": "A position-independent KV-cache reuse system that selects distribution-aware recomputation to restore cross-chunk interactions while reducing dependence on custom execution flows.",
+      "key_results": "Full-text evidence confirms serving-oriented KV reuse, recomputation, scheduler, and TTFT analysis; quantitative comparisons require a separate reproduction audit before ranking.",
+      "maturity_note": "15-page full text validated. Direct cache/reuse system contribution; backend portability and deployment maturity remain open."
+    },
+    {
+      "id": "arxiv:2611.09159",
+      "title": "UniExit: A Unified Latency-Aware Early-Exit Runtime for Heterogeneous Edge AI",
+      "class": "CORE_SYS",
+      "route": [
+        2,
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.09159",
+      "official_pdf": "https://arxiv.org/pdf/2611.09159",
+      "repo": null,
+      "open_source": "No complete author-linked implementation repository was verified; an extracted GitHub URL was incomplete and is not treated as a valid repo link.",
+      "system_contribution": "A unified runtime models CNN blocks and Transformer layers as ordered stages and makes budget-aware continue-or-exit decisions from runtime state, inference progress, and predicted latency.",
+      "key_results": "Full-text review confirms a latency-aware runtime for heterogeneous edge workloads; quantitative deployment results and baseline comparability remain to be extracted in the next evidence pass.",
+      "maturity_note": "15-page full text validated. Strong edge-runtime candidate; implementation availability, device diversity, and deadline/SLO reproduction remain open."
+    },
+    {
+      "id": "arxiv:2611.09825",
+      "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        5,
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.09825",
+      "official_pdf": "https://arxiv.org/pdf/2611.09825",
+      "repo": "https://github.com/OpenBitSys/BitDecoding-FP4",
+      "open_source": "Paper links an implementation repository; license, CI/tests, supported GPU generations, and independent reproduction remain open.",
+      "system_contribution": "Algorithm-system co-design for native FP4 KV-cache decoding, including dual-residual query quantization, underflow-aware probability scaling, outlier-aware key quantization, transposed softmax, and fused probability quantization on paged KV caches.",
+      "key_results": "On NVIDIA B300 with Qwen3-4B/Qwen3-30B-A3B, 2.4–3.0× peak serving throughput over BF16 KV; accuracy within 0.5 points of BF16 KV with NVFP4 and within 1 point with MXFP4.",
+      "maturity_note": "17-page full text validated. High-value KV/precision co-design, but not a serving scheduler or fleet/runtime abstraction; retain SYS_ALG_BOUNDARY/WATCH_ONLY."
+    },
+    {
+      "id": "arxiv:2611.09424",
+      "title": "MINE: Entropy-coded Memory-efficient Inference for Large Language Models",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.09424",
+      "official_pdf": "https://arxiv.org/pdf/2611.09424",
+      "repo": null,
+      "open_source": "Paper states that MINE is open source, but the extracted full text did not expose a direct author repository URL; repository/license verification remains pending.",
+      "system_contribution": "A GPU entropy-coding inference engine (dtANS-LLM) with per-tensor/per-GPU autotuning, integrated into vLLM as a plugin for memory-bound single-stream decoding.",
+      "key_results": "On Llama 3.1 8B Instruct with a 2.1-bit EntQuant checkpoint, 2.52× and 1.48× speedups over the fastest baseline on RTX 4060 Ti and RTX 5090 at effective bitrates of 2.24 and 3.43 bits/weight.",
+      "maturity_note": "20-page full text validated. Strong memory-efficient inference boundary work; author repository, multi-request behavior, and independent reproduction remain open."
+    },
+    {
+      "id": "arxiv:2611.08770",
+      "title": "ReKV: Overlapping Quantized KV Transfer and Suffix Recomputation",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        4,
+        5,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.08770",
+      "official_pdf": "https://arxiv.org/pdf/2611.08770",
+      "repo": null,
+      "open_source": "No author-linked repository was found in the inspected full text.",
+      "system_contribution": "For prefill–decode disaggregation, transfers a quantized prefix KV cache plus a BF16 boundary state while reconstructing a contiguous suffix on the decode worker, overlapping communication and recomputation.",
+      "key_results": "In a model-shaped synthetic cross-node H100 benchmark, Q8 reduces 8K handoff latency by 2.36×, 2.84×, and 3.65× for Qwen2.5-7B, Qwen2.5-3B, and Qwen3-8B; a separate real-weight BF16 recomputation experiment reduces prefill-to-token-return time by 1.16–1.63×.",
+      "maturity_note": "5-page full text validated. Useful disaggregated-serving mechanism, but synthetic transfer benchmark and limited real-weight evidence keep it at SYS_ALG_BOUNDARY/WATCH_ONLY."
+    },
+    {
+      "id": "arxiv:2611.09502",
+      "title": "TimeOmni-Live: Continuous & Live Time Series Understanding with Long-Term Memory",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        3,
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.09502",
+      "official_pdf": "https://arxiv.org/pdf/2611.09502",
+      "repo": null,
+      "open_source": "No author-linked code repository was identified in the inspected full text.",
+      "system_contribution": "A continuous time-series model with stream-persistent hybrid memory and elastic stream-inference synchronization for open-ended streams and edge deployment.",
+      "key_results": "A 4B-parameter model and LiveTS-Suite covering 5K+ streams / 2.2B timesteps; paper reports 206× lower p95 latency than its backbone and Jetson edge deployment.",
+      "maturity_note": "46-page full text validated. Relevant streaming/edge inference evidence, but no reusable serving scheduler, multi-tenant isolation, or fleet SLO is established."
+    },
+    {
+      "id": "arxiv:2611.09522",
+      "title": "Atik: A Shared-Mesh Transformer Accelerator for RISC-V",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.09522",
+      "official_pdf": "https://arxiv.org/pdf/2611.09522",
+      "repo": null,
+      "open_source": "Paper describes an open-source RoCC accelerator and project website, but a directly verified repository URL and license were not established from the extracted full text.",
+      "system_contribution": "A shared fixed-point MAC mesh for RocketChip that accelerates matrix multiplication and dense attention with a streaming online-softmax schedule and descriptor-based ABI.",
+      "key_results": "137 FireSim test records passed within benchmark tolerance; the 8×8 mesh reports 31.5× peak matmul and 225.8× peak attention speedup versus the scalar Rocket BF16 reference.",
+      "maturity_note": "8-page full text validated. Hardware accelerator rather than a serving runtime; retain as SYS_ALG_BOUNDARY/WATCH_ONLY."
+    },
+    {
+      "id": "arxiv:2611.09625",
+      "title": "Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning",
+      "class": "ALG_INSPIRATION",
+      "route": [
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B",
+      "status": "WATCH_ONLY",
+      "official_page": "https://arxiv.org/abs/2611.09625",
+      "official_pdf": "https://arxiv.org/pdf/2611.09625",
+      "repo": "https://github.com/burchim/TT-MBRL",
+      "open_source": "Paper states that code will be released and links an author repository; repository maturity and license need verification.",
+      "system_contribution": "Test-time gradient updates encode episode-specific memory into world-model parameters, complementing contextual memory for long-horizon planning.",
+      "key_results": "Reports state-of-the-art Memory Maze results and preserves performance on DeepMind Control and Atari 100k; no serving/runtime metrics are established.",
+      "maturity_note": "34-page full text validated. World-model memory inspiration only; no serving/runtime contribution, so it is not CORE_SYS."
     }
   ]
 }
