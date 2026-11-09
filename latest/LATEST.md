@@ -1,3 +1,11 @@
+## Public sync verified — 2026-11-09 11:30 CST
+
+The pending 08:15 public delta was committed and pushed through the existing nested Git repository using the SSH identity WangZhican. Published commit: cb4e6605a515511ce464200267f2293a827b488a. Independent SSH git ls-remote and GitHub REST GET /git/ref/heads/master both returned the same remote master SHA, cb4e6605a515511ce464200267f2293a827b488a; local HEAD matches. PUBLIC_SYNC_PENDING is cleared for the 08:15 checkpoint. The connected GitHub API identity DavidLi1994 remains pull-only; the successful write route was the separately authenticated SSH identity.
+
+This verifies public publication only. The current 11:29 scan is still in progress, and the next hourly trigger remains unverified.
+
+---
+
 ## Public sync correction — 2026-11-09 11:29 CST
 
 The 08:15 audit incorrectly reported that the mapped public worktree had no Git metadata. The earlier check ran Git from the stable parent /home/wangzc rather than from the existing nested repository. The repository at SafeMode/physical-ai-serving-radar/ is valid: git -C ... rev-parse --show-toplevel resolves to that path, branch is master, and local HEAD plus origin/master both equal 0e1fd7730929f7d55980bde5aef7885a749f37fa.
