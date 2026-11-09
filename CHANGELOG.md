@@ -1440,4 +1440,6 @@ The public repository intentionally excludes paper PDFs, private machine paths, 
 - Remote master SHA independently rechecked after the 03:00 source-pair update and remains 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false. Local public heartbeat remains PUBLIC_SYNC_PENDING.
 - Original hourly automation remains enabled/expected-active; latest run failed at 02:29:38 CST and next_run_time is null. No schedule change or disable was made.
 
-Public sync verified for PHYSICAL_AI_SERVING_20261109_1516: scan commit 15814ade01fa94428338b03ede2502cd49f10242 was independently confirmed on remote master; status-seal commit follows.
+Public sync verified for PHYSICAL_AI_SERVING_20261109_1516: scan commit 15814ade01fa94428338b03ede2502cd49f10242 was independently confirmed on remote master; status-seal commit 5cfb39dfe4d5d814278b29bafa2c73ea8f915fd7 was independently verified on remote master.
+
+Public sync read-back verified for PHYSICAL_AI_SERVING_20261109_1516: scan and status-seal commits are on remote master; this audit note is published in a follow-up commit.

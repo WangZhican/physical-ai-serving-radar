@@ -1,6 +1,6 @@
-## Public sync verified — 2026-11-09 15:21 CST
+## Public sync verified — 2026-11-09 15:22 CST
 
-Checkpoint PHYSICAL_AI_SERVING_20261109_1516 was committed and pushed. The scan commit 15814ade01fa94428338b03ede2502cd49f10242 was independently confirmed on remote master. A follow-up status-seal commit is now being published; the canonical audit retains the final remote SHA.
+Checkpoint PHYSICAL_AI_SERVING_20261109_1516 was committed and pushed. Scan commit 15814ade01fa94428338b03ede2502cd49f10242 and status-seal commit 5cfb39dfe4d5d814278b29bafa2c73ea8f915fd7 were independently confirmed on remote master by SSH ls-remote and GitHub API commit search. The public paper index contains all 317 canonical records. This note records the completed read-back and is included in a follow-up audit commit.
 
 ---
 
