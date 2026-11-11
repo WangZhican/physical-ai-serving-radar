@@ -1,3 +1,32 @@
+## Physical AI Serving Radar — 2026-11-12 05:46 CST
+
+Status: **PARTIAL_COVERAGE_NOT_CLOSED**.
+
+- Rolling 24h: official OAI-PMH exact=0; direct Atom is incomplete after a DNS failure. **NOT_COVERED**.
+- Rolling 168h: official OAI-PMH set=cs PASS, 6,292 exact records / 2,953 mandatory category pairs / 2,776 unique IDs; direct Atom is incomplete after DNS. **SOURCE_ONLY_NOT_COVERED**.
+- Main-trunk reverse: 34/34 templates PASS, 209 reverse pairs and 2,744 direct-only pairs. A separate 12-template expansion recovered 8 additional reverse pairs, but 2,736 direct-only pairs remain. **Not coverage closure**.
+- SYS-first: 331 high-signal / 246 unclassified; first-party /abs metadata 8/14, six DNS failures; 0 formal promotions.
+- Inventory: 373 papers, 807 valid PDFs, 0 invalid, 5 pending. Robion arXiv:2609.12075 remains a permanent regression seed, outside the current 168h window.
+- Public heartbeat contains only source/coverage summary; no PDFs or private artifacts.
+
+Next: retry incomplete official source routes; continue semantic triage, 30d/venue/project checks; verify the next hourly trigger.
+
+## Physical AI Serving Radar — 2026-11-12 03:10 CST
+
+Status: **PARTIAL_COVERAGE_NOT_CLOSED / PUBLIC_SYNC_PENDING_PERMISSION_BLOCKED**.
+
+- Official arXiv OAI-PMH and Atom exact-window direct census agree: rolling 24h 5/5 mandatory category pairs (all cs.LG cross-list records); rolling 168h 2,985/2,985 pairs across 2,807 unique IDs. The 24h window is a strict subset of the 168h window.
+- The 24h source window contains no cs.DC/cs.AR/cs.PF/cs.RO records. Direct source census passes, but full recall coverage remains open.
+- The last 34-template main-trunk reverse result uses an older 18:06:57Z cutoff; it is not same-window evidence for the current 18:57:05Z cutoff. Current-window replay is pending.
+- SYS-first triage: 332 high-signal records, 247 unclassified. Robion arXiv:2609.12075 remains a permanent manifest/PDF regression seed, outside the current 168h window.
+- Canonical manifest: 373 papers; PDF inventory: 807 valid, 0 invalid, 5 pending. ForeSight (2611.13762) and four additional full-text reviews remain WATCH_ONLY. New formal promotions: 0.
+- GitHub master remains at `e24a650ed82433660a2ba64d10786784733ee4ee`; linked repository permission is pull-only (push=false). This local heartbeat is not published.
+- The hourly automation remains enabled and expected-active. The current run started about 57 minutes after its scheduled time; the next trigger is unverified.
+
+Next: replay and expand main-trunk reverse queries on the current exact window; adjudicate the 247 unclassified records; retry HEAL's official PDF; continue 30d/venue/project checks; restore GitHub write permission; verify the next hourly trigger.
+
+---
+
 ## Public sync verified — 2026-11-09 15:22 CST
 
 Checkpoint PHYSICAL_AI_SERVING_20261109_1516 was committed and pushed. Scan commit 15814ade01fa94428338b03ede2502cd49f10242 and status-seal commit 5cfb39dfe4d5d814278b29bafa2c73ea8f915fd7 were independently confirmed on remote master by SSH ls-remote and GitHub API commit search. The public paper index contains all 317 canonical records. This note records the completed read-back and is included in a follow-up audit commit.
