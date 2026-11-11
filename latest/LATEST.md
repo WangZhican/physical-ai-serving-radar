@@ -2,7 +2,7 @@
 
 Status: **PARTIAL_COVERAGE_NOT_CLOSED**.
 
-- Rolling 24h: official OAI-PMH exact=0; direct Atom is incomplete after a DNS failure. **NOT_COVERED**.
+- Rolling 24h: official OAI-PMH exact=0; all five direct Atom categories crossed the same cutoff with exact=0, but the top-level Atom artifact remains INCOMPLETE. **NOT_COVERED** (zero-result is not coverage).
 - Rolling 168h: official OAI-PMH set=cs PASS, 6,292 exact records / 2,953 mandatory category pairs / 2,776 unique IDs; direct Atom is incomplete after DNS. **SOURCE_ONLY_NOT_COVERED**.
 - Main-trunk reverse: 34/34 templates PASS, 209 reverse pairs and 2,744 direct-only pairs. A separate 12-template expansion recovered 8 additional reverse pairs, but 2,736 direct-only pairs remain. **Not coverage closure**.
 - SYS-first: 331 high-signal / 246 unclassified; first-party /abs metadata 8/14, six DNS failures; 0 formal promotions.
