@@ -6,7 +6,7 @@ Status: **PARTIAL_COVERAGE_NOT_CLOSED**.
 - Rolling 168h: official OAI-PMH set=cs PASS, 6,292 exact records / 2,953 mandatory category pairs / 2,776 unique IDs; direct Atom is incomplete after DNS. **SOURCE_ONLY_NOT_COVERED**.
 - Main-trunk reverse: 34/34 templates PASS, 209 reverse pairs and 2,744 direct-only pairs. A separate 12-template expansion recovered 8 additional reverse pairs, but 2,736 direct-only pairs remain. **Not coverage closure**.
 - SYS-first: 331 high-signal / 246 unclassified; first-party /abs metadata 8/14, six DNS failures; 0 formal promotions.
-- Inventory: 373 papers, 807 valid PDFs, 0 invalid, 5 pending. Robion arXiv:2609.12075 remains a permanent regression seed, outside the current 168h window.
+- Inventory: 373 papers, 807 valid PDFs, 0 invalid, 7 pending. Robion arXiv:2609.12075 remains a permanent regression seed, outside the current 168h window.
 - Public heartbeat contains only source/coverage summary; no PDFs or private artifacts.
 
 Next: retry incomplete official source routes; continue semantic triage, 30d/venue/project checks; verify the next hourly trigger.
