@@ -1,13 +1,13 @@
 ## Physical AI Serving Radar — 2026-11-12 12:57 CST
 
-Status: PARTIAL_COVERAGE_NOT_CLOSED / PUBLIC_INDEX_SYNC_PENDING / SCHEDULER_LAST_RUN_FAILED.
+Status: PARTIAL_COVERAGE_NOT_CLOSED / PUBLIC_RADAR_SYNCED / SCHEDULER_LAST_RUN_FAILED.
 
 - Rolling 24h: official OAI-PMH transport PASS but exact=0; official first-party /new and 71 /abs checks also found 0 exact-window versions. NOT_COVERED.
 - Rolling 168h: OAI-PMH PASS, 6,014 exact records / 2,822 mandatory category pairs / 2,650 unique IDs. Atom current-window attempt is incomplete after HTTP 429/timeouts; SOURCE_ONLY_NOT_COVERED.
 - Main-trunk reverse: last-good prior cutoff 33/34 templates plus 12/12 expansion; 208 reverse pairs, 2,634 direct-only, 0 reverse-only. Current cutoff replay remains pending.
 - SYS-first: 311 high-signal / 230 unclassified; Robion 2609.12075 remains a permanent recall seed.
 - Inventory: 374 canonical papers; 809 valid PDFs, 0 invalid, 5 pending. HiPFuse title mismatch reconciled and registered as ALG_INSPIRATION/WATCH_ONLY. New formal promotions: 0.
-- Public index file now contains 374/374 records. The 57 new records are WATCH_ONLY and use public-safe metadata; commit/push and remote verification are pending.
+- Public index contains 374/374 canonical records. The 57 new records remain WATCH_ONLY and use public-safe metadata; heartbeat and index were pushed to master and the remote SHA was independently verified.
 - Hourly automation remains enabled and expected-active. The latest run is recorded as failed after about 25 minutes with a generic error; the next trigger is scheduled but not yet executed.
 
 Next: retry Atom direct census after cooldown; replay current-window main-trunk routes; review the 230 unclassified records; refresh 30d/venue/project checks; verify the next scheduled trigger.
