@@ -1,3 +1,18 @@
+## Physical AI Serving Radar — 2026-11-14 06:45 CST — PHYSICAL_AI_SERVING_20261114_0639_WATCHDOG_RECONCILIATION
+
+Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED / 720H_SOURCE_ONLY_NOT_COVERED_ATOM_INCOMPLETE / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_PENDING.
+
+- Rolling 24h: OAI exact=0; the five mandatory Atom subcalls returned zero but aggregate status is incomplete. Official `/new` returned 5/5 HTTP 200 (817 IDs); 41 `/abs` checks had 37 HTTP 200, 0 exact-window versions and 4 timeouts. Keep NOT_COVERED.
+- Rolling 168h: OAI 5,721 exact / 2,460 unique; Atom matched all five mandatory category ID sets exactly. Source-only; broader semantic and neighborhood coverage remains open.
+- Rolling 720h: OAI 29,029 exact / 11,789 unique; Atom `cs.LG` page 15 timed out before cutoff. Keep IN_PROGRESS and preserve last-good.
+- Main-trunk: 34/34 primary after one official-host retry and 12/12 expansion. The scan found 287 unique IDs, including 144 cross-list/reverse-only IDs for semantic review; query completion is not coverage.
+- First-party candidate checks: Reins (2611.16632), agent-workload batching (2611.16661), and RESYNC (2611.16523); all three existing PDFs passed SHA verification. No formal promotion. Zora (2611.11098) was rechecked and is already in the canonical inventory.
+- Permanent Robion recall seed (2609.12075) revalidated PASS today; no out-of-window coverage credit.
+- Inventory unchanged: 374 papers; 836 valid PDFs; 4 pending.
+
+[Hourly heartbeat](hourly/2026-11-14-0639.md)
+
+---
 ## Physical AI Serving Radar — 2026-11-14 03:20 CST — PHYSICAL_AI_SERVING_20261114_0320_CATCHUP_RECONCILIATION
 
 Status: PARTIAL_COVERAGE_NOT_CLOSED / 24H_168H_DIRECT_CENSUS_PAIR_PASS / 720H_ATOM_PARTIAL_HTTP429 / MAIN_TRUNK_34_PLUS_12_PASS_SOURCE_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED.
