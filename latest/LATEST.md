@@ -1,3 +1,19 @@
+## Physical AI Serving Radar — 2026-11-14 06:47 CST — PHYSICAL_AI_SERVING_20261114_0647_SOURCE_PAIR_RETRY
+
+Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED / 720H_PAIRED_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_PENDING.
+
+- Rolling 24h: OAI exact=0; Atom aggregate INCOMPLETE with five completed empty category calls. Official /new 5/5 HTTP 200 / 817 IDs; /abs 37/41 HTTP 200, 0 exact and 4 timeouts; official Atom ID-list 41/41, exact=0. Retain NOT_COVERED during the documented weekend announcement gap.
+- Rolling 168h: OAI/Atom all-five-category pair PASS, 5,721 exact / 2,460 unique / 2,624 category pairs. SOURCE_ONLY_NOT_COVERED.
+- Rolling 720h: OAI/Atom all-five-category pair PASS after the 06:46:21 Atom retry, 29,029 exact / 11,789 unique / 12,527 category pairs; cs.LG paginated 89 pages and crossed cutoff. SOURCE_ONLY_NOT_COVERED.
+- Nested windows: 24h subset of 168h and 168h subset of 720h both PASS with zero missing IDs in OAI and Atom. This closes source pairing, not semantic/overall recall.
+- Main-trunk: 34/34 primary + 12/12 expansion; 287 unique IDs, 144 reverse-only IDs, 27 title-term hits. Zora 2611.11098 recovered by official retry and already in manifest/PDF inventory.
+- SYS-first: 2,460 unique IDs, 307 high-signal, 275 unclassified; all five permanent recall seeds retained. Robion 2609.12075 regression PASS with no current-window credit.
+- Three first-party candidate dossiers (2611.16661, 2611.16632, 2611.16523) have SHA-verified existing PDFs; no manifest content change and zero formal promotions.
+- Inventory: 374 papers; 836 valid PDFs / 0 invalid / 4 pending; one cumulative formal promotion, zero this checkpoint. KerColle, Streaming-WAM and HarnessPAI remain open.
+- Overall recall remains FAIL; coverage_closed=false. Public sync pending independent verification.
+
+---
+
 ## Physical AI Serving Radar — 2026-11-14 06:45 CST — PHYSICAL_AI_SERVING_20261114_0639_WATCHDOG_RECONCILIATION
 
 Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED / 720H_SOURCE_ONLY_NOT_COVERED_ATOM_INCOMPLETE / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED.
