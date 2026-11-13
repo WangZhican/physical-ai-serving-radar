@@ -1,21 +1,21 @@
-## Physical AI Serving Radar — 2026-11-13 18:16 CST — PHYSICAL_AI_SERVING_20261113_1757 (run started 17:57 CST)
+## Physical AI Serving Radar — 2026-11-13 19:35 CST — PHYSICAL_AI_SERVING_20261113_1930
 
-Run started: 2026-11-13T17:57:12+08:00; checkpoint sealed: 2026-11-13T18:16:50+08:00.
+Status: PARTIAL_COVERAGE_NOT_CLOSED / DIRECT_CENSUS_PAIR_PASS_ONLY / MAIN_TRUNK_RETRY_HTTP429 / ZERO_FORMAL_PROMOTIONS / AUTOMATION_ENABLED_EXPECTED_ACTIVE.
 
-Status: PARTIAL_COVERAGE_NOT_CLOSED / DIRECT_CENSUS_PAIR_AND_NESTING_PASS_ONLY / AUTOMATION_ENABLED_EXPECTED_ACTIVE.
+- Rolling 24h: OAI 451 exact records / 159 unique IDs / 174 category pairs; official Atom matches IDs and pairs. cs.DC 11, cs.AR 4, cs.PF 2, cs.RO 31, cs.LG 126 (59 primary + 67 secondary cross-list). SOURCE_ONLY_NOT_COVERED.
+- Rolling 168h: OAI 6,350 exact / 2,724 unique IDs / 2,907 category pairs; Atom matches exactly. cs.DC 164, cs.AR 73, cs.PF 48, cs.RO 525, cs.LG 2,097 (964 primary + 1,133 secondary cross-list). The 24h sets are a verified subset with zero missing IDs. SOURCE_ONLY_NOT_COVERED.
+- Rolling 720h last-good: OAI 29,812 exact / 12,131 unique IDs / 12,883 category pairs; Atom matches with zero ID/pair mismatch. The current 168h cutoff is later than this last-good 720h cutoff, so no current nested 168h-in-720h claim is made. SOURCE_ONLY_NOT_COVERED.
+- Main-trunk current replay: 30/34 primary queries passed; 4 failed. Expansion 0/12 passed. First-party Atom fallback 0/16 passed (HTTP 429). Official arXiv search HTML fallback 8 queries returned HTTP 200 but zero IDs, so it is discovery-only. The prior 17:57 34/34 + 12/12 result remains last-good.
+- SYS-first queue: 324 high-signal leads / 283 unclassified from 2,724 IDs; 75 unclassified leads are queued for semantic review. Title/metadata triage is not coverage closure.
+- Four additional first-party full-text candidates passed validation: XBot-Omni (2611.17160), Unbundling Multimodal Vision Encoding (2611.17334), Metal Sandbox (2611.17294), AstroMemBench (2611.16590). Three new versioned PDFs were added and one reused. All remain unpromoted. Together with the earlier four-paper batch, eight candidates were full-text validated; no promotion this checkpoint.
+- Inventory: 374 paper records; 829 valid PDFs / 0 invalid / 4 pending. One cumulative formal promotion; zero this checkpoint.
+- Named gates remain open: KerColle lacks real-GPU/serving-SLO reproduction; Streaming-WAM PR #4 and LeRobot PR #5151 remain open/unmerged; HarnessPAI lacks independent serving/SLO reproduction and its root LICENSE endpoint returned 404.
+- Robion arXiv:2609.12075 recall regression PASS; it remains a permanent seed outside the current 7d window and receives no current-window credit.
+- Scheduler remains enabled / expected-active. The current run started 87m48s after its scheduled 18:00 CST boundary; the trigger after this run is not yet verified.
+- No paper-index or taxonomy delta; no formal promotion. All rolling windows remain SOURCE_ONLY_NOT_COVERED. SEARCHED != COVERED.
 
-- Rolling 24h: OAI 526 exact / 183 unique / 198 category pairs; Atom 183 / 198; exact pair match. SOURCE_ONLY_NOT_COVERED.
-- Rolling 168h: OAI 6,466 exact / 2,778 unique / 2,964 pairs; Atom matches exactly; 24h is a verified subset. SOURCE_ONLY_NOT_COVERED.
-- Rolling 720h: OAI 29,812 exact / 12,131 unique / 12,883 pairs; Atom matches exactly; 168h is a verified subset. The earlier 129 Atom-only ID / 142-pair mismatch is resolved for this fresh exact window, but the census remains SOURCE_ONLY_NOT_COVERED.
-- Main-trunk reverse: 34/34 primary + 12/12 expansion queries pass; primary 195 reverse pairs vs 2,964 direct pairs (2,769 direct-only); expansion 12 reverse pairs vs 2,964 direct pairs (2,952 direct-only). coverage_closed=false.
-- SYS-first: 327 high-signal title leads / 284 unclassified. Two batches completed 23 official /abs checks; four versioned PDFs passed full-text validation (90 pages total). No formal promotion.
-- Full-text candidates: PACER (2611.17206), Broadcast, Don't Replicate (2611.17097), LLM-agent batch-makespan coordination (2611.16661), and RESYNC (2611.16523); all remain unpromoted.
-- Inventory: 374 canonical papers; 825 valid PDFs / 0 invalid / 4 pending. One cumulative formal promotion; 0 this checkpoint.
-- Named gates: KerColle remains simulation-only without an author-linked repository; Streaming-WAM PR4 and LeRobot PR5151 remain open/unmerged; HarnessPAI has setup/run documentation but no independent local serving reproduction, root LICENSE is absent, and serving SLO is unverified.
-- Robion arXiv:2609.12075 remains the permanent recall-regression seed; it is outside the current 7d window and receives no current-window coverage credit.
-- Scheduler: the original automation remains enabled / expected-active; the current run is in progress and the following trigger is not yet verified.
+Next: refresh 720h at the current 168h cutoff; retry failed main-trunk routes after HTTP 429 cooldown; continue semantic triage and first-party full-text/repository/SLO gates.
 
-Next: complete semantic and cross-list/sibling/reverse-neighborhood/venue/project coverage; classify the remaining 284 high-signal leads; independently reproduce the named systems and verify the next scheduler trigger.
 
 ## Public sync verified — 2026-11-09 15:22 CST
 
