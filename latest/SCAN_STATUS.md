@@ -1,6 +1,6 @@
 ## Physical AI Serving Radar — 2026-11-14 06:47 CST — PHYSICAL_AI_SERVING_20261114_0647_SOURCE_PAIR_RETRY
 
-Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED / 720H_PAIRED_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_PENDING.
+Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED / 720H_PAIRED_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED.
 
 - Rolling 24h: OAI exact=0; Atom aggregate INCOMPLETE with five completed empty category calls. Official /new 5/5 HTTP 200 / 817 IDs; /abs 37/41 HTTP 200, 0 exact and 4 timeouts; official Atom ID-list 41/41, exact=0. Retain NOT_COVERED during the documented weekend announcement gap.
 - Rolling 168h: OAI/Atom all-five-category pair PASS, 5,721 exact / 2,460 unique / 2,624 category pairs. SOURCE_ONLY_NOT_COVERED.
@@ -10,7 +10,7 @@ Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED / 720H_PAIRED_
 - SYS-first: 2,460 unique IDs, 307 high-signal, 275 unclassified; all five permanent recall seeds retained. Robion 2609.12075 regression PASS with no current-window credit.
 - Three first-party candidate dossiers (2611.16661, 2611.16632, 2611.16523) have SHA-verified existing PDFs; no manifest content change and zero formal promotions.
 - Inventory: 374 papers; 836 valid PDFs / 0 invalid / 4 pending; one cumulative formal promotion, zero this checkpoint. KerColle, Streaming-WAM and HarnessPAI remain open.
-- Overall recall remains FAIL; coverage_closed=false. Public sync pending independent verification.
+- Overall recall remains FAIL; coverage_closed=false. Public sync verified: heartbeat commit 3c658a3e4c9c3a4d560978473a88aac89aac8e4d; status-seal commit publishes this verified state; remote master SHA 3c658a3e4c9c3a4d560978473a88aac89aac8e4d independently confirmed by ls-remote at 2026-11-14T06:55:54+08:00.
 
 ---
 
