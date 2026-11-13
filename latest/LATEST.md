@@ -1,20 +1,21 @@
-## Physical AI Serving Radar — 2026-11-13 14:55 CST — PHYSICAL_AI_SERVING_20261113_1455
+## Physical AI Serving Radar — 2026-11-13 18:16 CST — PHYSICAL_AI_SERVING_20261113_1757 (run started 17:57 CST)
 
-Status: PARTIAL_COVERAGE_NOT_CLOSED / PUBLIC_SYNC_PENDING_PERMISSION_BLOCKED / SCHEDULER_LAST_RUN_FAILED_NEXT_TRIGGER_NOT_VERIFIED.
+Run started: 2026-11-13T17:57:12+08:00; checkpoint sealed: 2026-11-13T18:16:50+08:00.
 
-- Rolling 24h: official OAI-PMH and Atom direct five-category census both PASS on the identical UTC window; 222 unique IDs / 240 mandatory category pairs match exactly. This is direct-census PASS only; semantic and main-trunk gates remain open.
-- Rolling 168h: official OAI-PMH and Atom direct census both PASS on the identical UTC window; 2,829 unique IDs / 3,016 mandatory category pairs match exactly; 24h is a verified subset. SOURCE_ONLY_NOT_COVERED.
-- Rolling 720h: OAI-PMH and Atom direct windows match, but OAI is missing 129 Atom IDs / 142 category pairs; SOURCE_PAIR_MISMATCH_NOT_COVERED. Last-good retained.
-- Main-trunk reverse: 34/34 primary queries and 12/12 expansion queries pass; direct-only debt remains 2,816 pairs (primary) / 3,004 (expansion). No coverage closure.
-- SYS-first: 333 high-signal leads / 285 still unclassified. Twelve official /abs checks and four official PDF/full-text checks passed; new candidate evidence remains unpromoted.
-- Inventory: 374 canonical papers; 825 valid PDFs / 0 invalid / 4 pending. Four new full-text-validated candidates are PACER, Broadcast, LLM-agent batch-makespan coordination, and RESYNC. Formal promotions this checkpoint: 0.
-- Robion arXiv:2609.12075 remains the permanent recall-regression seed; outside the current 7d window and receives no current-window coverage credit.
-- Public sync: GitHub Contents API write was rejected with HTTP 403: Resource not accessible by integration; remote master remains cc48406996f240cae4dad3d7c56a974775c7ef7f. This local heartbeat is not published.
-- Scheduler: original hourly automation remains enabled / expected-active; run f3610a8c-218c-832a-88fc-faa07edad078 was scheduled for 14:00 CST, started 14:31:47 CST, and failed 14:56:49 CST with the generic scheduled-task error. Registry next_run_time still reports 14:00 CST (stale/overdue); no subsequent trigger is verified.
+Status: PARTIAL_COVERAGE_NOT_CLOSED / DIRECT_CENSUS_PAIR_AND_NESTING_PASS_ONLY / AUTOMATION_ENABLED_EXPECTED_ACTIVE.
 
-Next: verify public write authorization and remote SHA; reconcile the 720h OAI/Atom 129-ID delta and refresh 30d venue/project coverage; continue the 285 unclassified SYS-first frontier and named candidate evidence gates.
+- Rolling 24h: OAI 526 exact / 183 unique / 198 category pairs; Atom 183 / 198; exact pair match. SOURCE_ONLY_NOT_COVERED.
+- Rolling 168h: OAI 6,466 exact / 2,778 unique / 2,964 pairs; Atom matches exactly; 24h is a verified subset. SOURCE_ONLY_NOT_COVERED.
+- Rolling 720h: OAI 29,812 exact / 12,131 unique / 12,883 pairs; Atom matches exactly; 168h is a verified subset. The earlier 129 Atom-only ID / 142-pair mismatch is resolved for this fresh exact window, but the census remains SOURCE_ONLY_NOT_COVERED.
+- Main-trunk reverse: 34/34 primary + 12/12 expansion queries pass; primary 195 reverse pairs vs 2,964 direct pairs (2,769 direct-only); expansion 12 reverse pairs vs 2,964 direct pairs (2,952 direct-only). coverage_closed=false.
+- SYS-first: 327 high-signal title leads / 284 unclassified. Two batches completed 23 official /abs checks; four versioned PDFs passed full-text validation (90 pages total). No formal promotion.
+- Full-text candidates: PACER (2611.17206), Broadcast, Don't Replicate (2611.17097), LLM-agent batch-makespan coordination (2611.16661), and RESYNC (2611.16523); all remain unpromoted.
+- Inventory: 374 canonical papers; 825 valid PDFs / 0 invalid / 4 pending. One cumulative formal promotion; 0 this checkpoint.
+- Named gates: KerColle remains simulation-only without an author-linked repository; Streaming-WAM PR4 and LeRobot PR5151 remain open/unmerged; HarnessPAI has setup/run documentation but no independent local serving reproduction, root LICENSE is absent, and serving SLO is unverified.
+- Robion arXiv:2609.12075 remains the permanent recall-regression seed; it is outside the current 7d window and receives no current-window coverage credit.
+- Scheduler: the original automation remains enabled / expected-active; the current run is in progress and the following trigger is not yet verified.
 
-[Hourly heartbeat](hourly/2026-11-13-1455.md)
+Next: complete semantic and cross-list/sibling/reverse-neighborhood/venue/project coverage; classify the remaining 284 high-signal leads; independently reproduce the named systems and verify the next scheduler trigger.
 
 ## Physical AI Serving Radar — 2026-11-13 06:04 CST — PHYSICAL_AI_SERVING_20261113_0558
 
