@@ -1,3 +1,21 @@
+## Physical AI Serving Radar — 2026-11-13 14:55 CST — PHYSICAL_AI_SERVING_20261113_1455
+
+Status: PARTIAL_COVERAGE_NOT_CLOSED / PUBLIC_SYNC_PENDING_PERMISSION_BLOCKED / SCHEDULER_LAST_RUN_FAILED_NEXT_TRIGGER_NOT_VERIFIED.
+
+- Rolling 24h: official OAI-PMH and Atom direct five-category census both PASS on the identical UTC window; 222 unique IDs / 240 mandatory category pairs match exactly. This is direct-census PASS only; semantic and main-trunk gates remain open.
+- Rolling 168h: official OAI-PMH and Atom direct census both PASS on the identical UTC window; 2,829 unique IDs / 3,016 mandatory category pairs match exactly; 24h is a verified subset. SOURCE_ONLY_NOT_COVERED.
+- Rolling 720h: OAI-PMH and Atom direct windows match, but OAI is missing 129 Atom IDs / 142 category pairs; SOURCE_PAIR_MISMATCH_NOT_COVERED. Last-good retained.
+- Main-trunk reverse: 34/34 primary queries and 12/12 expansion queries pass; direct-only debt remains 2,816 pairs (primary) / 3,004 (expansion). No coverage closure.
+- SYS-first: 333 high-signal leads / 285 still unclassified. Twelve official /abs checks and four official PDF/full-text checks passed; new candidate evidence remains unpromoted.
+- Inventory: 374 canonical papers; 825 valid PDFs / 0 invalid / 4 pending. Four new full-text-validated candidates are PACER, Broadcast, LLM-agent batch-makespan coordination, and RESYNC. Formal promotions this checkpoint: 0.
+- Robion arXiv:2609.12075 remains the permanent recall-regression seed; outside the current 7d window and receives no current-window coverage credit.
+- Public sync: GitHub Contents API write was rejected with HTTP 403: Resource not accessible by integration; remote master remains cc48406996f240cae4dad3d7c56a974775c7ef7f. This local heartbeat is not published.
+- Scheduler: original hourly automation remains enabled / expected-active; run f3610a8c-218c-832a-88fc-faa07edad078 was scheduled for 14:00 CST, started 14:31:47 CST, and failed 14:56:49 CST with the generic scheduled-task error. Registry next_run_time still reports 14:00 CST (stale/overdue); no subsequent trigger is verified.
+
+Next: verify public write authorization and remote SHA; reconcile the 720h OAI/Atom 129-ID delta and refresh 30d venue/project coverage; continue the 285 unclassified SYS-first frontier and named candidate evidence gates.
+
+[Hourly heartbeat](hourly/2026-11-13-1455.md)
+
 ## Public sync verified — 2026-11-09 15:22 CST
 
 Checkpoint PHYSICAL_AI_SERVING_20261109_1516 was committed and pushed. Scan commit 15814ade01fa94428338b03ede2502cd49f10242 and status-seal commit 5cfb39dfe4d5d814278b29bafa2c73ea8f915fd7 were independently confirmed on remote master by SSH ls-remote and GitHub API commit search. The public paper index contains all 317 canonical records. This note records the completed read-back and is included in a follow-up audit commit.

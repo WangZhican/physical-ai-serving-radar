@@ -1,3 +1,37 @@
+## Physical AI Serving Radar — 2026-11-13 14:55 CST — PHYSICAL_AI_SERVING_20261113_1455
+
+Status: PARTIAL_COVERAGE_NOT_CLOSED / PUBLIC_SYNC_PENDING_PERMISSION_BLOCKED / SCHEDULER_LAST_RUN_FAILED_NEXT_TRIGGER_NOT_VERIFIED.
+
+- Rolling 24h: official OAI-PMH and Atom direct five-category census both PASS on the identical UTC window; 222 unique IDs / 240 mandatory category pairs match exactly. This is direct-census PASS only; semantic and main-trunk gates remain open.
+- Rolling 168h: official OAI-PMH and Atom direct census both PASS on the identical UTC window; 2,829 unique IDs / 3,016 mandatory category pairs match exactly; 24h is a verified subset. SOURCE_ONLY_NOT_COVERED.
+- Rolling 720h: OAI-PMH and Atom direct windows match, but OAI is missing 129 Atom IDs / 142 category pairs; SOURCE_PAIR_MISMATCH_NOT_COVERED. Last-good retained.
+- Main-trunk reverse: 34/34 primary queries and 12/12 expansion queries pass; direct-only debt remains 2,816 pairs (primary) / 3,004 (expansion). No coverage closure.
+- SYS-first: 333 high-signal leads / 285 still unclassified. Twelve official /abs checks and four official PDF/full-text checks passed; new candidate evidence remains unpromoted.
+- Inventory: 374 canonical papers; 825 valid PDFs / 0 invalid / 4 pending. Four new full-text-validated candidates are PACER, Broadcast, LLM-agent batch-makespan coordination, and RESYNC. Formal promotions this checkpoint: 0.
+- Robion arXiv:2609.12075 remains the permanent recall-regression seed; outside the current 7d window and receives no current-window coverage credit.
+- Public sync: GitHub Contents API write was rejected with HTTP 403: Resource not accessible by integration; remote master remains cc48406996f240cae4dad3d7c56a974775c7ef7f. This local heartbeat is not published.
+- Scheduler: original hourly automation remains enabled / expected-active; run f3610a8c-218c-832a-88fc-faa07edad078 was scheduled for 14:00 CST, started 14:31:47 CST, and failed 14:56:49 CST with the generic scheduled-task error. Registry next_run_time still reports 14:00 CST (stale/overdue); no subsequent trigger is verified.
+
+Next: verify public write authorization and remote SHA; reconcile the 720h OAI/Atom 129-ID delta and refresh 30d venue/project coverage; continue the 285 unclassified SYS-first frontier and named candidate evidence gates.
+
+[Hourly heartbeat](hourly/2026-11-13-1455.md)
+
+## Physical AI Serving Radar — 2026-11-13 06:04 CST — PHYSICAL_AI_SERVING_20261113_0558
+
+Status: PARTIAL_COVERAGE_NOT_CLOSED / PUBLIC_SYNC_PENDING_PERMISSION_BLOCKED / SCHEDULER_TRIGGER_UNVERIFIED.
+
+- Rolling 24h: official OAI-PMH PASS, 1,412 retrieved / 0 exact; Atom aggregate INCOMPLETE / 0 exact; official HTML 5/5 pages, 52 abstracts, 0 exact. NOT_COVERED_ZERO_EXACT.
+- Rolling 168h: official OAI-PMH and arxiv.org Atom exact windows match; 2,380 mandatory category pairs agree with zero symmetric difference. SOURCE_ONLY_NOT_COVERED.
+- Rolling 720h: last-good OAI-PMH PASS, 27,355 exact / 44,047 all-cs category pairs; Atom incomplete at cs.LG page 37 / HTTP 429; newest OAI retry failed page 0 / DNS. IN_PROGRESS / PENDING / NOT_COVERED.
+- SYS-first: 264 high-signal candidates; 5 official-abstract scope decisions added; estimated 201 remain unclassified; formal promotions 0.
+- Main-trunk reverse: 34 passed / 1 failed; 2,215 direct-only pairs remain. Expansion 12/12 pass but remains discovery-only.
+- Inventory: 374 canonical papers; 811 valid PDFs / 0 invalid / 4 pending. Remote public heartbeat still reports 374 papers / 809 valid PDFs / 5 pending.
+- Robion arXiv:2609.12075 remains the permanent recall regression seed and its official abstract/PDF remain present.
+- Scheduler: exact-title automation remains enabled; 05:27 CST run failed; 06:00 CST trigger has not appeared in the latest registry read.
+- Remote master SHA independently verified: cc48406996f240cae4dad3d7c56a974775c7ef7f. GitHub push permission is false. This local public mirror is updated, but **not pushed**; no remote sync is claimed.
+
+Next: repair and verify the hourly trigger; retry 720h sources after cooldown; continue the 201 unclassified SYS-first frontier and main-trunk reverse debt; close 30d venue/mandatory-neighborhood debt; retry four PDFs; obtain authorized GitHub push access.
+
 ## Physical AI Serving Radar — 2026-11-12 12:57 CST
 
 Status: PARTIAL_COVERAGE_NOT_CLOSED / PUBLIC_RADAR_SYNCED / SCHEDULER_STATE_ANOMALY.
