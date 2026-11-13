@@ -1,6 +1,6 @@
 ## Physical AI Serving Radar — 2026-11-14 03:20 CST — PHYSICAL_AI_SERVING_20261114_0320_CATCHUP_RECONCILIATION
 
-Status: PARTIAL_COVERAGE_NOT_CLOSED / 24H_168H_DIRECT_CENSUS_PAIR_PASS / 720H_ATOM_PARTIAL_HTTP429 / MAIN_TRUNK_34_PLUS_12_PASS_SOURCE_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_PENDING.
+Status: PARTIAL_COVERAGE_NOT_CLOSED / 24H_168H_DIRECT_CENSUS_PAIR_PASS / 720H_ATOM_PARTIAL_HTTP429 / MAIN_TRUNK_34_PLUS_12_PASS_SOURCE_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED.
 
 - Rolling 24h: OAI-PMH/Atom paired PASS at 2026-11-13T18:03:42Z; 79 exact records, 32 unique IDs, 35 category pairs; all five category sets match.
 - Rolling 168h: OAI-PMH/Atom paired PASS at the same cutoff; 5,916 exact records, 2,547 unique IDs, 2,721 category pairs; 24h subset gaps=0. Both windows remain SOURCE_ONLY_NOT_COVERED pending semantic and evidence closure.
@@ -11,7 +11,7 @@ Status: PARTIAL_COVERAGE_NOT_CLOSED / 24H_168H_DIRECT_CENSUS_PAIR_PASS / 720H_AT
 - Eight existing candidate PDFs were revalidated against the canonical PDF manifest (all SHA/size matches). PACER and Broadcast remain CORE_SYS candidates; XBot-Omni and LazyWeights remain SYS_ALG_BOUNDARY; Unbundling and multi-robot task allocation remain ALG_INSPIRATION; Metal Sandbox remains WATCH_ONLY. Zero promotions.
 - Inventory: 374 paper records; 836 valid PDFs / 0 invalid / 4 pending; one cumulative formal promotion, zero this checkpoint.
 - Named evidence gates remain open: KerColle, Streaming-WAM and HarnessPAI. No independent serving-SLO or physical deployment claim.
-- Public sync pending independent verification.
+- Public sync verified: heartbeat commit f42f1d4cb6448b84850a0daf83a79b8256418941 was independently confirmed on remote master; this status-seal commit records that verified heartbeat.
 
 ---
 
