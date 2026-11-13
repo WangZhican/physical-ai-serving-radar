@@ -1,6 +1,6 @@
 ## Physical AI Serving Radar — 2026-11-13 19:35 CST — PHYSICAL_AI_SERVING_20261113_1930
 
-Status: PARTIAL_COVERAGE_NOT_CLOSED / DIRECT_CENSUS_PAIR_PASS_ONLY / MAIN_TRUNK_RETRY_HTTP429 / ZERO_FORMAL_PROMOTIONS / AUTOMATION_ENABLED_EXPECTED_ACTIVE.
+Status: PARTIAL_COVERAGE_NOT_CLOSED / DIRECT_CENSUS_PAIR_PASS_ONLY / MAIN_TRUNK_RETRY_HTTP429 / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED / AUTOMATION_ENABLED_EXPECTED_ACTIVE.
 
 - Rolling 24h: OAI 451 exact records / 159 unique IDs / 174 category pairs; official Atom matches IDs and pairs. cs.DC 11, cs.AR 4, cs.PF 2, cs.RO 31, cs.LG 126 (59 primary + 67 secondary cross-list). SOURCE_ONLY_NOT_COVERED.
 - Rolling 168h: OAI 6,350 exact / 2,724 unique IDs / 2,907 category pairs; Atom matches exactly. cs.DC 164, cs.AR 73, cs.PF 48, cs.RO 525, cs.LG 2,097 (964 primary + 1,133 secondary cross-list). The 24h sets are a verified subset with zero missing IDs. SOURCE_ONLY_NOT_COVERED.
