@@ -148,7 +148,7 @@ The 08:15 public checkpoint was committed and pushed. Independent remote-master 
 
 ---
 
-## 2026-11-03T05:56:24+08:00 — PARTIAL_SOURCE_SCAN_NOT_COVERED; SEMANTIC_NEW23; NEXUS_CORE_SYS_CANDIDATE; PUBLIC_SYNC_PENDING; SCHEDULER_INCIDENT
+## 2026-11-03T05:56:24+08:00 — PARTIAL_SOURCE_SCAN_NOT_COVERED; SEMANTIC_NEW23; NEXUS_CORE_SYS_CANDIDATE; PUBLIC_SYNC_VERIFIED; SCHEDULER_INCIDENT
 
 - Fresh SYS-first OAI/Atom census and first-party fallback; 24h exact=0, source-only windows remain open.
 - 23 new semantic decisions since 0500; Nexus 2610.05709 is an unpromoted CORE_SYS candidate; 0 formal promotions.
