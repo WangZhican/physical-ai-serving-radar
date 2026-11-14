@@ -1,3 +1,32 @@
+## Latest hourly checkpoint — 2026-11-14 22:35 CST
+
+**PUBLIC_SYNC_PENDING**
+
+- PHYSICAL_AI_SERVING_20261114_2235: 24h remains NOT_COVERED (OAI exact=0; first-party fallback exact=0); 168h OAI/Atom paired census matches at 5,132 exact / 2,170 unique; 720h Atom is incomplete after HTTP 429.
+- Main-trunk replay passed 34/34 + 12/12 queries, but 2,165 / 2,306 direct-only category pairs remain; no coverage closure.
+- SYS-first triage: 274 high-signal / 244 unclassified. Eight unique candidate PDFs SHA-verified; no formal promotion.
+- Inventory: 377 papers; 838 valid PDFs / 0 invalid / 3 pending.
+- KerColle, Streaming-WAM and HarnessPAI remain unpromoted pending reproducible implementation and serving-SLO evidence.
+- [Hourly heartbeat](hourly/2026-11-14-2235.md)
+
+---
+
+## Physical AI Serving Radar — 2026-11-14 17:17 CST — PHYSICAL_AI_SERVING_20261114_1708
+
+Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED_PAIRED / 720H_SOURCE_ONLY_NOT_COVERED_PAIRED / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_PENDING_PERMISSION_BLOCKED.
+
+- 24h: official OAI/Atom exact=0; official /new 5/5 and targeted /abs 13/13 returned HTTP 200 but no exact-window version. Keep NOT_COVERED.
+- 7d: OAI/Atom five-category pair PASS, 5,359 exact / 2,272 unique; cs.LG 380 primary-only + 1,343 cross-listed. Source-only, not coverage closure.
+- 30d: OAI/Atom five-category pair PASS, 28,571 exact / 11,613 unique; 7d-in-30d nested subset PASS with zero missing IDs. Source-only, not coverage closure.
+- Main-trunk: fresh 34/34 primary + 12/12 expansion query replay; 263 + 8 unique IDs, zero reverse-only pairs, but 2,268 primary direct-only category pairs remain. Discovery-only.
+- SYS-first: 2,272 unique / 288 high-signal / 260 unclassified. Seven first-party full-text PDFs SHA-match the inventory; zero formal promotions. Inventory remains 374 papers / 837 valid PDFs / 3 pending.
+- Robion 2609.12075 regression PASS; no current-window credit. Overall recall FAIL; coverage_closed=false.
+- Public sync pending: local mirror is updated, but GitHub push permission is false and the mapped directory lacks Git metadata. Last verified remote master SHA: 4ba869ed063194885f56691b59a79d22dd5d4b06; no new remote commit is claimed.
+
+[Hourly heartbeat](hourly/2026-11-14-1708.md)
+
+---
+
 ## Physical AI Serving Radar — 2026-11-14 15:34 CST — PHYSICAL_AI_SERVING_20261114_1527
 
 Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED / 720H_LAST_GOOD_STALE_NO_NESTED_CLAIM / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED.

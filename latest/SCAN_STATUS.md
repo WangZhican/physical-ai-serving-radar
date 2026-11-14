@@ -1,3 +1,36 @@
+## Physical AI Serving Radar — 2026-11-14 22:35 CST — PHYSICAL_AI_SERVING_20261114_2235
+
+Status: 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / 720H_ATOM_429_INCOMPLETE / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_PENDING.
+
+- Direct census: 24h OAI exact=0; Atom incomplete/0; official /new 5/5 and /abs 41/41 HTTP 200, exact=0. Keep NOT_COVERED.
+- 168h: OAI/Atom 5,132 exact / 2,170 unique, all five category ID sets equal; cs.LG 1,646 (364 primary-only / 1,282 secondary cross-list). Source-only.
+- 720h: OAI 28,366 exact; Atom 1,674 unique; HTTP 429 at cs.RO page 3 and cs.LG page 0. No current nested 168h/720h claim.
+- Main-trunk: 34/34 primary + 12/12 expansion; 2,165 / 2,306 direct-only pairs remain.
+- SYS-first: 274 high-signal / 244 unclassified; eight unique candidate PDFs SHA-verified; no formal promotion. Inventory 377 / 838 valid / 3 pending.
+- Robion 2609.12075 and Route-8 2610.05062 regressions PASS; no current-window credit.
+- Public sync pending; remote master before publish: 4ba869ed063194885f56691b59a79d22dd5d4b06.
+- Overall recall FAIL; coverage_closed=false; SEARCHED != COVERED.
+
+[Hourly heartbeat](hourly/2026-11-14-2235.md)
+
+---
+
+## Physical AI Serving Radar — 2026-11-14 17:17 CST — PHYSICAL_AI_SERVING_20261114_1708
+
+Status: PARTIAL_CHECKPOINT_DIVERGENCE_REPAIRED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / 720H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_PENDING_PERMISSION_BLOCKED.
+
+- Direct census: 24h OAI exact=0 and Atom incomplete/zero exact; official /new 5/5 and targeted /abs 13/13 are discovery/fallback only. 24h remains NOT_COVERED.
+- 7d: OAI/Atom pair PASS, 5,359 exact / 2,272 unique / 2,422 category pairs; cs.LG 1,723 (380 primary-only / 1,343 secondary cross-list).
+- 30d: OAI/Atom pair PASS, 28,571 exact / 11,613 unique / 12,343 category pairs; 7d subset gaps=0 in both sources.
+- Main-trunk: 34/34 primary and 12/12 expansion queries freshly replayed on the current 7d window; 263 primary IDs / 8 expansion IDs, zero reverse-only pairs; 2,268 direct-only primary category pairs remain.
+- SYS-first: 288 high-signal / 260 unclassified; seven candidate full-text PDFs SHA-verified; no formal promotion. Paper/PDF inventory remains 374 / 837 valid / 3 pending.
+- Robion 2609.12075 regression PASS. Overall recall FAIL.
+- Public sync is pending permission/routing repair; remote master SHA remains 4ba869ed063194885f56691b59a79d22dd5d4b06 and has not advanced.
+
+[Hourly heartbeat](hourly/2026-11-14-1708.md)
+
+---
+
 ## Physical AI Serving Radar — 2026-11-14 15:34 CST — PHYSICAL_AI_SERVING_20261114_1527
 
 Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED / 720H_LAST_GOOD_STALE_NO_NESTED_CLAIM / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED.
