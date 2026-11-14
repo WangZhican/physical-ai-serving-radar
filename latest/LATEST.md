@@ -1,6 +1,6 @@
 ## Latest hourly checkpoint — 2026-11-14 22:35 CST
 
-**PUBLIC_SYNC_PENDING**
+**PUBLIC_SYNC_VERIFIED**
 
 - PHYSICAL_AI_SERVING_20261114_2235: 24h remains NOT_COVERED (OAI exact=0; first-party fallback exact=0); 168h OAI/Atom paired census matches at 5,132 exact / 2,170 unique; 720h Atom is incomplete after HTTP 429.
 - Main-trunk replay passed 34/34 + 12/12 queries, but 2,165 / 2,306 direct-only category pairs remain; no coverage closure.
@@ -5362,3 +5362,5 @@ Fresh VLA-serving/robot multi-GPU, Physical-AI runtime, and multimodal-serving s
 - **Coverage:** official arXiv OAI exact-24h PASS: 2 pages / 2,502 CS / 509 exact-window; cs.DC 14 / cs.AR 4 / cs.PF 3 / cs.RO 57 / cs.LG 136. Exact-168h PASS: 7 pages / 8,246 CS / 5,517 exact-window; cs.DC 138 / cs.AR 67 / cs.PF 33 / cs.RO 728 / cs.LG 1,412. Robion recall seed re-hit. Direct-census portions covered; sibling/reverse/project checks and 30d replay remain open.
 - **Canonical:** 176 works = 124 CORE_SYS / 42 SYS_ALG / 4 ALG / 6 WATCH. KerColle PDF retry blocked before network execution; no fabricated success.
 - **Next:** KerColle PDF + atomic promotion + GitHub sync -> finish 7d sibling/trunk reverse/project checks -> MVP lineage -> LiMA/InternW0 comparison -> MOSS-VL/SGLang-Omni scheduler delta -> exact 30d replay.
+
+Heartbeat commit 9c23b595aeff7fe424d9ac6e46fef00c800cdf45 was independently confirmed on refs/heads/master; the status-seal commit is verified immediately after publication.

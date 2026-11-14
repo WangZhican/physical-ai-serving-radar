@@ -1,6 +1,6 @@
 ## Physical AI Serving Radar — 2026-11-14 22:35 CST — PHYSICAL_AI_SERVING_20261114_2235
 
-Status: 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / 720H_ATOM_429_INCOMPLETE / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_PENDING.
+Status: 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / 720H_ATOM_429_INCOMPLETE / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED.
 
 - Direct census: 24h OAI exact=0; Atom incomplete/0; official /new 5/5 and /abs 41/41 HTTP 200, exact=0. Keep NOT_COVERED.
 - 168h: OAI/Atom 5,132 exact / 2,170 unique, all five category ID sets equal; cs.LG 1,646 (364 primary-only / 1,282 secondary cross-list). Source-only.
@@ -8,7 +8,7 @@ Status: 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / 720H_ATOM_429_INCOMPLET
 - Main-trunk: 34/34 primary + 12/12 expansion; 2,165 / 2,306 direct-only pairs remain.
 - SYS-first: 274 high-signal / 244 unclassified; eight unique candidate PDFs SHA-verified; no formal promotion. Inventory 377 / 838 valid / 3 pending.
 - Robion 2609.12075 and Route-8 2610.05062 regressions PASS; no current-window credit.
-- Public sync pending; remote master before publish: 4ba869ed063194885f56691b59a79d22dd5d4b06.
+- Heartbeat commit 9c23b595aeff7fe424d9ac6e46fef00c800cdf45 was independently confirmed; the status-seal commit is verified immediately after publication.
 - Overall recall FAIL; coverage_closed=false; SEARCHED != COVERED.
 
 [Hourly heartbeat](hourly/2026-11-14-2235.md)
