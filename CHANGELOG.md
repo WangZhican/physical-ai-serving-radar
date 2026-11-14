@@ -130,7 +130,7 @@ The 08:15 public checkpoint was committed and pushed. Independent remote-master 
 
 ---
 
-## 2026-11-05T23:31:50+08:00 — SOURCE_PAIR_PASS_NOT_COVERED; CHECKPOINT_DIVERGENCE_REPAIRED; PDF_VALID_688; PUBLIC_SYNC_PENDING; SCHEDULER_ACTIVE
+## 2026-11-05T23:31:50+08:00 — SOURCE_PAIR_PASS_NOT_COVERED; CHECKPOINT_DIVERGENCE_REPAIRED; PDF_VALID_688; PUBLIC_SYNC_VERIFIED; SCHEDULER_ACTIVE
 
 - Reconciled 24h and 7d official OAI-PMH/Atom direct censuses: pair diffs 0; 24h 247 exact / 107 pairs, 7d 6,886 exact / 2,915 pairs. Cross-window subset gaps 0; full coverage remains open.
 - Official first-party /new pages 5/5; /abs 30/30 with five exact-window records; cross-list abstracts 10/10 with four exact.

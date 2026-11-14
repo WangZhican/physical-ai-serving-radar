@@ -1,6 +1,6 @@
 # PHYSICAL_AI_SERVING_20261115_0500 — 2026-11-15 05:00 CST
 
-Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
+Status: PUBLIC_SYNC_VERIFIED / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
 
 - 24h: OAI exact=0; all five Atom categories passed transport with exact=0, aggregate empty-window incomplete. Official /new 5/5, /abs 37/41, Atom id-list 41/41, all exact=0. NOT_COVERED.
 - 168h: OAI/Atom paired 2,068 unique, all five category sets equal; OAI 4,912 exact. SOURCE_ONLY_NOT_COVERED.
