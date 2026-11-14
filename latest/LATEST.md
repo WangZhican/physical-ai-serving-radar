@@ -1,6 +1,8 @@
 ## Latest checkpoint — PHYSICAL_AI_SERVING_20261115_0026 (2026-11-15T00:50:03+08:00)
 
-**Status:** `PUBLIC_SYNC_PENDING` · `COVERAGE_OPEN` · `0 FORMAL PROMOTIONS`
+**Status:** `PUBLIC_SYNC_VERIFIED` · `COVERAGE_OPEN` · `0 FORMAL PROMOTIONS`
+
+- Public sync: Heartbeat commit 15e2752b5173654732eaf1e9fe464e2ca70e8125 was independently confirmed on origin and SSH ls-remote; the status-seal commit is verified immediately after publication.
 
 - 24h exact-window: 0 OAI + 0 Atom; official /new 5/5 and /abs 20/20 fallback confirms NOT_COVERED.
 - 168h paired census: 2,123 unique; all five mandatory category sets match exactly; SOURCE_ONLY_NOT_COVERED.

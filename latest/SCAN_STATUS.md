@@ -6,7 +6,7 @@
 - Paper index: 377 records, no additions.
 - PDF inventory: 838 valid, 3 pending.
 - Main-trunk query execution: 34/34 primary and 12/12 expansion after serial official arxiv.org fallback; discovery debt remains.
-- Public sync: PENDING independent remote verification.
+- Public sync: Heartbeat commit 15e2752b5173654732eaf1e9fe464e2ca70e8125 was independently confirmed on origin and SSH ls-remote; the status-seal commit is verified immediately after publication.
 - Automation: enabled and expected-active; current run observed in progress after a 26m49s late start.
 
 ## Physical AI Serving Radar — 2026-11-14 23:02 CST — PHYSICAL_AI_SERVING_20261114_2302
