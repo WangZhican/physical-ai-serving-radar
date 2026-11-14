@@ -1,6 +1,6 @@
 ## PHYSICAL_AI_SERVING_20261115_0100 — 2026-11-15 01:16 CST
 
-Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / 0 FORMAL PROMOTIONS.
+Status: PUBLIC_SYNC_VERIFIED / COVERAGE_OPEN / 0 FORMAL PROMOTIONS.
 
 - 24h official OAI-PMH: 2,180 retrieved, 0 exact. Direct Atom remains INCOMPLETE (cs.DC timeout; cs.AR/cs.PF/cs.RO/cs.LG exact=0). Official /new 5/5 HTTP 200, 817 IDs; /abs 41/41 HTTP 200, 0 exact. Keep NOT_COVERED.
 - 168h paired OAI-PMH/Atom: 5,023 exact / 2,117 unique; all five category ID sets match: cs.DC 129, cs.AR 61, cs.PF 37, cs.RO 428, cs.LG 1,603. SOURCE_ONLY_NOT_COVERED.
@@ -9,7 +9,7 @@ Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / 0 FORMAL PROMOTIONS.
 - Main-trunk last-good: 34/34 primary + 12/12 expansion; direct-only pair debt 2,115 / 2,255. Coverage remains open.
 - Inventory: 377 papers; 838 valid PDFs / 3 pending. Overall recall FAIL.
 - Robion arXiv:2609.12075 permanent regression seed checked, no current-window credit. KerColle, Streaming-WAM and HarnessPAI remain open evidence gates.
-- Public sync: PENDING independent remote verification.
+- Public sync: VERIFIED by independent origin and SSH ls-remote.
 
 
 ## Latest checkpoint — PHYSICAL_AI_SERVING_20261115_0026 (2026-11-15T00:50:03+08:00)
