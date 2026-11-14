@@ -1,3 +1,7 @@
+## PHYSICAL_AI_SERVING_20261115_0300 — 2026-11-15 03:00 CST
+
+- **CORE_SYS / WATCH_ONLY — [Broadcast, Don’t Replicate: Eliminating Weight HBM in Datacenter LLM Serving](https://arxiv.org/abs/2611.17097)** (arXiv, 2026-11-12; route 6; priority A-). Optical Broadcast Memory proposes hierarchical tap-and-amplify optical-fiber weight broadcast to distributed inference nodes, with KV-aware routing and a split-port MoE layout. The official 13-page PDF is SHA-verified against the local manifest. Paper-reported modeled results at 80,000 H100-class accelerators: 4.00–8.44 PB HBM eliminated (39–82%), 0.96–1.57x decode throughput versus HBM3e, and 10–42% lower energy/token. **Not formally promoted:** model-based, not a measured deployment or hardware prototype; cross-cable skew correction is assumed at no cost, deskew hardware cost is future work, no fault-isolation evaluation or author-linked code repository was found. Keep WATCH_ONLY pending independent reproduction, optical fault/skew validation, and end-to-end serving SLO evidence.
+
 **2026-11-09 15:16 CST — reconciled SYS-first full-text candidates; WATCH_ONLY, no formal promotions (PHYSICAL_AI_SERVING_20261109_1516):**
 
 - [Measured Coupling for Parallel Decoding in Diffusion Language Models](https://arxiv.org/abs/2611.08307) — ALG_INSPIRATION/WATCH_ONLY. Coupling-aware parallel token commits for diffusion LMs; algorithmic decoding evidence, not a serving scheduler/runtime. Full text reviewed; independent reproduction/deployment gates remain open.

@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-14T23:41:21+08:00",
-  "count": 377,
+  "count": 378,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -6208,9 +6208,41 @@
       "pdf_download_status": "DOWNLOADED_VALIDATED",
       "pdf_pages": 20,
       "pdf_bytes": 3816657
+    },
+    {
+      "id": "arxiv:2611.17097",
+      "title": "Broadcast, Don’t Replicate: Eliminating Weight HBM in Datacenter LLM Serving",
+      "class": "CORE_SYS",
+      "route": [
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "WATCH_ONLY",
+      "candidate_status": "UNPROMOTED",
+      "formal_promotion": false,
+      "paper_url": "https://arxiv.org/abs/2611.17097",
+      "arxiv_version": "v1",
+      "arxiv_version_updated_utc": "2026-11-12",
+      "pdf_sha256": "b53184552924ca6f62518a6ac207806d5a961c621bb1d96aa4359cb178aefdae",
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_pages": 13,
+      "pdf_bytes": 452524,
+      "repo_status": "NO_AUTHOR_LINKED_REPOSITORY_FOUND_IN_PDF_OR_OFFICIAL_ABS",
+      "scope_note": "General datacenter LLM-serving infrastructure adjacent to Physical-AI serving; not a Physical-AI/VLA deployment paper.",
+      "technical_contribution": "Open-ended hierarchical tap-and-amplify optical-fiber network broadcasts immutable model weights from a centralized memory server to distributed inference nodes through receive-only co-packaged optics, avoiding per-accelerator weight replication and intermediate weight buffers. Adds KV-aware request routing to control attention slack and a split-port layout for MoE weight streaming.",
+      "paper_reported_results": "Modeled an 80,000-H100-class accelerator cluster: 4.00–8.44 PB HBM eliminated (39–82%); decode throughput 0.96–1.57x HBM3e baseline; energy per token 10–42% lower.",
+      "evaluation_limitations": [
+        "Evaluation is a modeled datacenter cluster, not a measured 80,000-accelerator deployment or hardware prototype.",
+        "Cross-cable skew tracking/correction is assumed at no cost in the main evaluation; deskew hardware cost is left for future work.",
+        "No fault-isolation/reliability/availability evaluation was found in the 13-page PDF.",
+        "No author-linked implementation repository or executable artifact was found in the PDF/official abstract."
+      ]
     }
   ],
-  "checkpoint_id": "PHYSICAL_AI_SERVING_20261115_0026",
-  "updated_beijing": "2026-11-15T00:50:03+08:00",
-  "last_update_beijing": "2026-11-15T00:50:03+08:00"
+  "checkpoint_id": "PHYSICAL_AI_SERVING_20261115_0300",
+  "updated_beijing": "2026-11-15T03:41:39+08:00",
+  "last_update_beijing": "2026-11-15T00:50:03+08:00",
+  "paper_count": 378
 }
