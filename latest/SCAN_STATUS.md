@@ -1,6 +1,6 @@
 # PHYSICAL_AI_SERVING_20261115_0400 — 2026-11-15 04:00 CST
 
-Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
+Status: PUBLIC_SYNC_VERIFIED / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
 
 ## Source coverage
 
@@ -24,7 +24,7 @@ Named frontiers remain open: KerColle simulation-only/no real GPU scheduler; Str
 
 Automation remains enabled and expected-active. The current 04:00 run started 29m51s late; the registry still reports the past 04:00 boundary as next_run_time, so the next future trigger is unverified. The visible scheduled-task failure text belongs to an older run, not this current run.
 
-Public sync is pending until push and independent origin/SSH ls-remote verification. SEARCHED != COVERED; coverage_closed=false; overall recall FAIL.
+Public sync verified: heartbeat commit e863c366807d698f64d17a2c0f8d8383b9aa4ec6; origin and SSH ls-remote matched before the status-seal commit. SEARCHED != COVERED; coverage_closed=false; overall recall FAIL.
 
 ---
 

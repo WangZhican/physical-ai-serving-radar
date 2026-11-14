@@ -3,7 +3,7 @@
 - Added HeMeR (arXiv:2611.16487) to the CORE_SYS watchlist after first-party 40-page PDF/full-text review; NeurIPS 2026 Oral; no formal promotion.
 - Reconciled the paper index to 379 unique records and 839 valid PDFs; 3 independent PDF blockers remain.
 - Kept 24h NOT_COVERED (zero exact), 168h SOURCE_ONLY_NOT_COVERED (all five direct categories paired), and 720h IN_PROGRESS (Atom cs.LG HTTP 429 at page 71).
-- Public sync pending independent remote verification.
+- Public sync verified: heartbeat commit e863c366807d698f64d17a2c0f8d8383b9aa4ec6; origin and SSH ls-remote matched before the status-seal commit.
 
 ## PHYSICAL_AI_SERVING_20261115_0300 — 2026-11-15 03:00 CST
 
@@ -84,7 +84,7 @@ The 08:15 public checkpoint was committed and pushed. Independent remote-master 
 - Main-trunk reverse search passed 34/34 templates / 329 IDs and official /new passed 5/5; both are discovery-only.
 - Full-text reviewed arXiv:2611.07229 Spatial-UMI-Dream and added it as ALG_INSPIRATION/WATCH_ONLY. PDF 10 pages / 49,144 chars; no serving-runtime or fleet-SLO evidence; formal promotions=0.
 - PAPER_MANIFEST=290; PDF manifest=732 valid / 0 invalid / 4 pending. Robion arXiv:2609.12075 regression PASS.
-- Remote master SHA independently verified unchanged at 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false and no local .git metadata. PUBLIC_SYNC_PENDING; no commit/push claimed.
+- Remote master SHA independently verified unchanged at 2b3e877a4c087c231490fd6b2cb0c6f73f99d277; push permission=false and no local .git metadata. PUBLIC_SYNC_VERIFIED; no commit/push claimed.
 - Existing hourly task remains enabled/expected-active, but latest run failed at 2026-11-07 17:28:51 CST; next trigger remains unverified.
 
 ---
