@@ -1,3 +1,16 @@
+## PHYSICAL_AI_SERVING_20261115_0100
+
+Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
+
+- 24h: OAI exact=0; Atom partial; official /new 5/5 and /abs 41/41 HTTP 200, exact=0. NOT_COVERED.
+- 168h: OAI/Atom paired 2,117 unique, all five category sets equal; 5,023 OAI exact. SOURCE_ONLY_NOT_COVERED.
+- 720h: OAI 28,028 exact / 11,389 unique; Atom incomplete after HTTP429/timeouts; last-good paired 0007 preserved.
+- Main-trunk: 34/34 + 12/12 last-good; reverse-neighborhood debt remains.
+- Candidate triage: 269 high-signal / 240 unclassified; 2611.16661 remains unpromoted.
+- Paper/PDF inventory: 377 papers / 838 valid PDFs / 3 pending. 0 promotions.
+- Public sync: PENDING independent remote verification.
+
+
 # Scan status — PHYSICAL_AI_SERVING_20261115_0026 (2026-11-15T00:50:03+08:00)
 
 - Checkpoint: `PHYSICAL_AI_SERVING_20261115_0026`
