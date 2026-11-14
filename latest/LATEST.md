@@ -1,6 +1,6 @@
 ## PHYSICAL_AI_SERVING_20261115_0230 — 2026-11-15 02:30 CST
 
-Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
+Status: PUBLIC_SYNC_VERIFIED / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
 
 - 24h: OAI exact=0; all five Atom category pages crossed the cutoff with exact=0 and no transport errors. Official /new 5/5 and /abs 41/41 returned HTTP 200 with exact=0. Keep NOT_COVERED during the weekend announcement gap.
 - 168h: paired OAI-PMH/Atom 2,100 unique IDs; all five category ID sets match; OAI 4,986 exact. cs.LG primary-only/cross-list split is recorded in the private source audit. SOURCE_ONLY_NOT_COVERED.
@@ -11,7 +11,7 @@ Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_
 - Inventory: 377 papers; 838 valid PDFs / 0 invalid / 3 pending. Eevee ACM 403, ROSGM/TILDE IEEE 502; no new downloads. Zero formal promotions.
 - Robion 2609.12075 permanent recall seed checked at official arXiv /abs; no current-window credit.
 - Automation remains enabled/expected-active; the 02:00 CST run started 30m12s late and the next future trigger is not independently verified.
-- Public sync: PENDING independent remote verification.
+- Public sync: VERIFIED by independent origin and SSH ls-remote.
 
 
 ## PHYSICAL_AI_SERVING_20261115_0100 — 2026-11-15 01:16 CST
