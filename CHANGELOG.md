@@ -1,3 +1,10 @@
+## PHYSICAL_AI_SERVING_20261115_0400 — 2026-11-15 04:00 CST
+
+- Added HeMeR (arXiv:2611.16487) to the CORE_SYS watchlist after first-party 40-page PDF/full-text review; NeurIPS 2026 Oral; no formal promotion.
+- Reconciled the paper index to 379 unique records and 839 valid PDFs; 3 independent PDF blockers remain.
+- Kept 24h NOT_COVERED (zero exact), 168h SOURCE_ONLY_NOT_COVERED (all five direct categories paired), and 720h IN_PROGRESS (Atom cs.LG HTTP 429 at page 71).
+- Public sync pending independent remote verification.
+
 ## PHYSICAL_AI_SERVING_20261115_0300 — 2026-11-15 03:00 CST
 
 # PHYSICAL_AI_SERVING_20261115_0300 — 2026-11-15 03:00 CST

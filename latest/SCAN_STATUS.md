@@ -1,3 +1,33 @@
+# PHYSICAL_AI_SERVING_20261115_0400 — 2026-11-15 04:00 CST
+
+Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
+
+## Source coverage
+
+| Window | First-party result | Coverage decision |
+|---|---|---|
+| 24h | OAI 2 pages / 2,180 retrieved / exact=0; all five Atom categories crossed cutoff with exact=0 and no category transport errors. Official /new 5/5 HTTP 200, /abs 33/41 HTTP 200, Atom id-list 41/41 HTTP 200; exact=0 and latest version age 49.06h. | NOT_COVERED |
+| 168h | OAI 4,936 exact / 7,693 retrieved / 2,081 unique; Atom 2,081 unique; cs.DC 128, cs.AR 58, cs.PF 36, cs.RO 423, cs.LG 1,574; all five category ID sets equal. cs.LG primary-only 1,466 / cross-listed 108. | SOURCE_ONLY_NOT_COVERED |
+| 720h | OAI 27,802 exact / 32,565 retrieved; Atom cs.DC/cs.AR/cs.PF/cs.RO passed, but cs.LG page 71 returned HTTP 429 before cutoff. | IN_PROGRESS; preserve last-good |
+
+Primary main-trunk neighborhood: 34/34 query templates passed after retry; 249 unique IDs, 149 reverse-category pairs, 2,070 direct-only pairs, reverse-only=0. Expansion: 12/12 passed; 6 unique IDs, 9 reverse pairs, 2,210 direct-only pairs, reverse-only=0. Discovery completion is not semantic coverage closure.
+
+SYS-first triage: 2,081 unique / 265 high-signal / 235 unclassified. Robion arXiv:2609.12075 remains a passing recall regression seed and receives no current-window credit.
+
+## Candidate decision
+
+HeMeR arXiv:2611.16487 was registered as CORE_SYS/WATCH_ONLY (routes 5 and 7; NeurIPS 2026 Oral) after first-party official PDF/full-text review. Real UR7e result: 83.20% goal-conditioned success and 1.87 s per step, versus MemRL 64.28% and 2.94 s. The contribution is a per-agent memory-serving/cache-state layer, not a fleet scheduler. No public author-linked repository URL or supplementary package was verified; the paper checklist claims code and reproduction instructions in the supplement. No formal promotion.
+
+Inventory: 379 unique papers; 839 valid PDFs / 0 invalid / 3 pending. Pending PDF blockers: Eevee ACM 403; ROSGM and TILDE IEEE 502. No non-due retry was attempted.
+
+Named frontiers remain open: KerColle simulation-only/no real GPU scheduler; Streaming-WAM PR #4 open/unmerged; HarnessPAI not executed/no fleet-serving SLO.
+
+Automation remains enabled and expected-active. The current 04:00 run started 29m51s late; the registry still reports the past 04:00 boundary as next_run_time, so the next future trigger is unverified. The visible scheduled-task failure text belongs to an older run, not this current run.
+
+Public sync is pending until push and independent origin/SSH ls-remote verification. SEARCHED != COVERED; coverage_closed=false; overall recall FAIL.
+
+---
+
 # PHYSICAL_AI_SERVING_20261115_0300 — 2026-11-15 03:00 CST
 
 Status: PUBLIC_SYNC_VERIFIED / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.

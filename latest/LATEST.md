@@ -1,3 +1,19 @@
+# PHYSICAL_AI_SERVING_20261115_0400 — 2026-11-15 04:00 CST
+
+Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
+
+- Candidate: HeMeR arXiv:2611.16487 — CORE_SYS/WATCH_ONLY, NeurIPS 2026 Oral, routes 5 and 7. Official 40-page PDF/full text validated; real UR7e reports 83.20% goal-conditioned success and 1.87 s per step versus MemRL 64.28% and 2.94 s. It remains unpromoted pending supplementary-code access, independent reproduction, fleet concurrency and p95/p99 SLO evidence.
+- 24h: OAI exact=0; all five Atom categories crossed cutoff with exact=0; official /new 5/5, /abs 33/41, Atom id-list 41/41; NOT_COVERED.
+- 168h: OAI 4,936 exact / 7,693 retrieved / 2,081 unique; Atom 2,081 unique and all five category sets equal; SOURCE_ONLY_NOT_COVERED.
+- 720h: OAI 27,802 exact; Atom cs.LG page 71 HTTP 429 before cutoff; IN_PROGRESS.
+- Main-trunk neighborhood 34/34 plus 12/12; SYS-first 2,081 unique / 265 high-signal / 235 unclassified. Robion arXiv:2609.12075 recall regression PASS.
+- Inventory: 379 papers (208 CORE_SYS / 132 SYS_ALG_BOUNDARY / 27 ALG_INSPIRATION / 12 WATCH_ONLY); 839 valid PDFs / 0 invalid / 3 pending. Formal promotions: 0.
+- Public sync pending until the heartbeat is pushed and origin/SSH ls-remote independently verify the new remote master SHA.
+
+Details: [hourly scan](hourly/2026-11-15-0400.md).
+
+---
+
 # PHYSICAL_AI_SERVING_20261115_0300 — 2026-11-15 03:00 CST
 
 Status: PUBLIC_SYNC_VERIFIED / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.

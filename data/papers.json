@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-14T23:41:21+08:00",
-  "count": 378,
+  "updated": "2026-11-15T04:50:38+08:00",
+  "count": 379,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -6239,10 +6239,45 @@
         "No fault-isolation/reliability/availability evaluation was found in the 13-page PDF.",
         "No author-linked implementation repository or executable artifact was found in the PDF/official abstract."
       ]
+    },
+    {
+      "id": "arxiv:2611.16487",
+      "title": "HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse",
+      "class": "CORE_SYS",
+      "route": [
+        5,
+        7
+      ],
+      "year": 2026,
+      "venue": "NeurIPS 2026 Oral",
+      "priority": "A-",
+      "status": "WATCH_ONLY",
+      "candidate_status": "UNPROMOTED",
+      "formal_promotion": false,
+      "paper_url": "https://arxiv.org/abs/2611.16487",
+      "arxiv_version": "v1",
+      "pdf_sha256": "12a1d5d9251404611c36043a83f8b15ae4b296e51d7ac1f11ab7cfd1c784968f",
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_pages": 40,
+      "pdf_bytes": 12176366,
+      "repo_status": "SUPPLEMENTARY_CODE_CLAIMED_NO_PUBLIC_AUTHOR_LINKED_REPOSITORY_VERIFIED",
+      "scope_note": "Per-agent memory-serving/cache-state runtime for embodied inference; directly relevant to temporal KV/state reuse. It is not a fleet-level or multi-tenant serving scheduler.",
+      "technical_contribution": "Schema-indexed declarative/procedural/working-memory chunks map to KV ranges; chunk-level reconciliation handles insert/evict/reorder/content updates, RoPE key remapping preserves compatible position shifts, and adapter-aware selective recomputation handles LoRA changes.",
+      "paper_reported_results": "ALFWorld: 71.43% success / 0.18 s per step / 75.30% KV reuse; Habitat: 76.27% / 1.82 s / 72.81%; real UR7e: 83.20% goal-conditioned success / 1.87 s per step / 72.18% reuse versus MemRL 64.28% / 2.94 s. Cache-update replay: 25.8 s versus 199.4 s over 6,634 updates.",
+      "evaluation_limitations": [
+        "Single-agent inference only; no fleet-scale, multi-agent, multi-tenant or concurrent-request scheduling/admission evaluation.",
+        "No p95/p99 serving SLO, queueing, interference, isolation or capacity-planning measurements.",
+        "Per-step inference latency is measured after the input is finalized and excludes memory retrieval, prompt construction and environment execution; it is not full control-loop latency.",
+        "The real-world study uses two tabletop tasks with five physical trials per task; this is meaningful validation but a modest sample.",
+        "Experiments use two RTX A6000 GPUs rather than an edge/robot-resident accelerator deployment.",
+        "For multimodal backbones, visual tokens from current observations are encoded normally each step; RoPE remapping applies only to text-side memory chunks.",
+        "CacheBlend, KEEP and LRAgent are adapted to the shared embodied evaluation harness; the authors provide a faithfulness statement, but these are not untouched original serving stacks."
+      ],
+      "arxiv_version_updated_utc": "2026-11-12"
     }
   ],
-  "checkpoint_id": "PHYSICAL_AI_SERVING_20261115_0300",
-  "updated_beijing": "2026-11-15T03:41:39+08:00",
-  "last_update_beijing": "2026-11-15T00:50:03+08:00",
-  "paper_count": 378
+  "checkpoint_id": "PHYSICAL_AI_SERVING_20261115_0400",
+  "updated_beijing": "2026-11-15T04:50:38+08:00",
+  "last_update_beijing": "2026-11-15T04:50:38+08:00",
+  "paper_count": 379
 }
