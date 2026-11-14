@@ -1,3 +1,20 @@
+# PHYSICAL_AI_SERVING_20261115_0500 — 2026-11-15 05:00 CST
+
+Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
+
+- 24h: OAI exact=0; all five Atom categories passed transport with exact=0, aggregate empty-window incomplete. Official /new 5/5, /abs 37/41, Atom id-list 41/41, all exact=0. NOT_COVERED.
+- 168h: OAI/Atom paired 2,068 unique, all five category sets equal; OAI 4,912 exact. SOURCE_ONLY_NOT_COVERED.
+- 720h: preserve last-good; Atom cs.LG HTTP 429 at page 71. IN_PROGRESS; no current-cutoff nested claim.
+- Main-trunk: 34/34 primary + 12/12 expansion; discovery-only, reverse-only=0.
+- Candidate: LazyWeights 2611.17108 registered as SYS_ALG_BOUNDARY/WATCH_ONLY after official PDF/full-text review; projected ASIC point is not fabricated silicon; no author-linked implementation or reusable multi-request serving runtime. No formal promotion.
+- Inventory: 380 papers; 839 valid PDFs / 0 invalid / 3 pending. KerColle, Streaming-WAM and HarnessPAI remain gated.
+- Automation remains enabled/expected-active; current run started 63m55s late; next future trigger unverified.
+- Public sync pending independent origin/SSH ls-remote verification.
+
+SEARCHED != COVERED; coverage_closed=false; overall recall FAIL.
+
+---
+
 # PHYSICAL_AI_SERVING_20261115_0400 — 2026-11-15 04:00 CST
 
 Status: PUBLIC_SYNC_VERIFIED / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.

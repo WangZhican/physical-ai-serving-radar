@@ -1,3 +1,10 @@
+## PHYSICAL_AI_SERVING_20261115_0500 — 2026-11-15 05:00 CST
+
+- **SYS_ALG_BOUNDARY / WATCH_ONLY — [LazyWeights: Decode-on-Demand Edge LLMs](https://arxiv.org/abs/2611.17108)** (arXiv v1, 2026-11-12; routes 4 and 6; priority B+). Entropy-aware GPTQ code assignment plus interleaved Huffman coding and an on-demand decoder between DRAM and L2; the official 7-page PDF/full text is SHA-validated.
+  - Paper-reported edge results: 5.7–31.4% smaller coded models at stated perplexity budgets; up to 36% lower Orin latency and 38% lower energy/token (54%/44% with prompt-lookup speculation); Nano time/energy reductions are against CPU llama.cpp.
+  - **Not formally promoted:** the 0.21 mm² / 1 GHz / 7 nm ASIC point is synthesized/projected, not fabricated silicon; bit-exact FPGA validation is on AMD ZCU102. The only verified repository is the referenced llama.cpp baseline, not an author-linked LazyWeights implementation. No reusable multi-request serving runtime, fleet deployment or p95/p99 serving SLO is established.
+  - Evidence gate: verify demand-driven weight fetch/scheduling and runtime integration, multi-request edge serving/tail latency, and an author-linked implementation with independent reproduction.
+
 ## PHYSICAL_AI_SERVING_20261115_0400 — 2026-11-15 04:00 CST
 
 - **CORE_SYS / WATCH_ONLY — [HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse](https://arxiv.org/abs/2611.16487)** — NeurIPS 2026 Oral ([author lab publication listing](https://csiagentgroup.com/publications/)); routes 5 and 7; priority A-. A schema-indexed memory-serving layer reconciles declarative/procedural/working-memory chunks against KV ranges, using selective recomputation and RoPE key remapping for compatible position shifts. The official 40-page v1 PDF was SHA-validated and reviewed.

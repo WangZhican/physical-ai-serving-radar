@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-15T04:50:38+08:00",
-  "count": 379,
+  "updated": "2026-11-15T05:19:18+08:00",
+  "count": 380,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -6274,10 +6274,55 @@
         "CacheBlend, KEEP and LRAgent are adapted to the shared embodied evaluation harness; the authors provide a faithfulness statement, but these are not untouched original serving stacks."
       ],
       "arxiv_version_updated_utc": "2026-11-12"
+    },
+    {
+      "id": "arxiv:2611.17108",
+      "title": "LazyWeights: Decode-on-Demand Edge LLMs",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        4,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B+",
+      "status": "WATCH_ONLY",
+      "candidate_status": "UNPROMOTED",
+      "formal_promotion": false,
+      "paper_url": "https://arxiv.org/abs/2611.17108",
+      "arxiv_version": "v1",
+      "arxiv_version_updated_utc": "2026-11-12T18:59:54Z",
+      "pdf_local_validated": true,
+      "fulltext_pdf_reviewed": true,
+      "source_window_role": "CURRENT_168H_SYS_FIRST_FULLTEXT_REVIEW",
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_pages": 7,
+      "pdf_bytes": 712355,
+      "pdf_sha256": "32b5db7cb936a563b66bbb0a99b61e441a33319f853f07ea1b5f6c72aa4b99aa",
+      "authors": [
+        "Arnab Sanyal",
+        "Gourav Datta",
+        "Sandeep P. Chinchali"
+      ],
+      "repo_status": "NO_AUTHOR_LINKED_IMPLEMENTATION_VERIFIED; LLAMA_CPP_BASELINE_ONLY",
+      "scope_note": "Edge LLM weight compression and decode hardware; relevant to edge inference and memory movement, but not a reusable Physical-AI serving runtime.",
+      "technical_contribution": "Tunes GPTQ code assignments for entropy reduction, Huffman-codes quantized weights in interleaved lanes, and decodes them on demand between DRAM and L2 while leaving GPU kernels unchanged.",
+      "paper_reported_results": "The paper reports 5.7–31.4% smaller coded models at stated perplexity budgets; up to 36% lower Orin latency and 38% lower energy per token (54%/44% with prompt-lookup speculation); on Nano, 58–64% less time and 53–57% less energy per token than CPU llama.cpp; streamed Mistral-7B is reported 6.6x faster at 3.89 bits/weight.",
+      "evaluation_limitations": [
+        "No author-linked LazyWeights implementation repository or independently executable reproduction was verified; the only verified repository is the referenced llama.cpp baseline.",
+        "The ASIC decoder area/frequency/process point is synthesized/projected, not fabricated silicon; FPGA bit-exact validation is on AMD ZCU102.",
+        "The evaluation is edge-device inference and weight-decoding co-design, not a multi-request or multi-tenant serving scheduler/runtime.",
+        "No fleet-scale Physical-AI/VLA deployment, admission control, queueing, interference or p95/p99 serving SLO was reported."
+      ],
+      "evidence_urls": [
+        "https://arxiv.org/abs/2611.17108",
+        "https://arxiv.org/pdf/2611.17108v1",
+        "https://github.com/ggml-org/llama.cpp"
+      ]
     }
   ],
-  "checkpoint_id": "PHYSICAL_AI_SERVING_20261115_0400",
-  "updated_beijing": "2026-11-15T04:50:38+08:00",
-  "last_update_beijing": "2026-11-15T04:50:38+08:00",
-  "paper_count": 379
+  "checkpoint_id": "PHYSICAL_AI_SERVING_20261115_0500",
+  "updated_beijing": "2026-11-15T05:19:18+08:00",
+  "last_update_beijing": "2026-11-15T05:19:18+08:00",
+  "paper_count": 380
 }

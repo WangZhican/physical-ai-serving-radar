@@ -1,3 +1,10 @@
+## PHYSICAL_AI_SERVING_20261115_0500 — 2026-11-15 05:00 CST
+
+- Added LazyWeights (arXiv:2611.17108) as SYS_ALG_BOUNDARY/WATCH_ONLY after official 7-page PDF/full-text validation; no formal promotion.
+- Reconciled public paper index to 380 unique records; PDF inventory remains 839 valid / 0 invalid / 3 pending.
+- Kept 24h NOT_COVERED (zero exact), 168h SOURCE_ONLY_NOT_COVERED (paired five-category census), and 720h IN_PROGRESS (preserved last-good after Atom cs.LG HTTP 429 at page 71).
+- Public sync pending independent remote verification.
+
 ## PHYSICAL_AI_SERVING_20261115_0400 — 2026-11-15 04:00 CST
 
 - Added HeMeR (arXiv:2611.16487) to the CORE_SYS watchlist after first-party 40-page PDF/full-text review; NeurIPS 2026 Oral; no formal promotion.

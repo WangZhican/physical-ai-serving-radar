@@ -1,3 +1,33 @@
+# PHYSICAL_AI_SERVING_20261115_0500 — 2026-11-15 05:00 CST
+
+Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
+
+## Source coverage
+
+| Window | First-party result | Coverage decision |
+|---|---|---|
+| 24h | OAI 2 pages / 2,180 retrieved / exact=0; Atom all five categories passed transport with exact=0; official /new 5/5, /abs 37/41 (4 timeouts), Atom id-list 41/41; all exact=0. | NOT_COVERED |
+| 168h | OAI 4,912 exact / 7,693 retrieved / 2,068 unique; Atom 2,068 unique; all five category sets equal; cs.LG primary-only 1457 / cross-listed 107. | SOURCE_ONLY_NOT_COVERED |
+| 720h | Preserve 04:00 last-good; Atom cs.LG HTTP 429 at page 71; no 05:00 paired cutoff. | IN_PROGRESS |
+
+Primary main-trunk neighborhood: 34/34 query templates passed; 246 unique IDs, 145 reverse-category pairs, 2,060 direct-only pairs, reverse-only=0. Expansion: 12/12 passed; 6 unique IDs, 9 reverse pairs, 2,196 direct-only pairs, reverse-only=0. Discovery completion is not semantic coverage closure.
+
+SYS-first triage: 2,068 unique / 264 high-signal / 235 unclassified. Robion arXiv:2609.12075 official /abs regression PASS and receives no current-window credit.
+
+## Candidate decision
+
+LazyWeights arXiv:2611.17108 was registered as SYS_ALG_BOUNDARY/WATCH_ONLY after official 7-page v1 PDF/full-text validation. It combines entropy-aware quantization, Huffman coding and an on-demand DRAM-to-L2 decode unit. The paper's 0.21 mm² / 1 GHz / 7 nm ASIC point is synthesized/projected, not fabricated silicon; bit-exact FPGA validation is on AMD ZCU102. The only verified repository is the referenced llama.cpp baseline, not an author-linked implementation. No reusable multi-request serving runtime or p95/p99 SLO is established. No formal promotion.
+
+Inventory: 380 unique papers; 839 valid PDFs / 0 invalid / 3 pending. Pending blockers remain Eevee ACM 403; ROSGM and TILDE IEEE 502. No non-due retry was attempted.
+
+Named frontiers remain open: KerColle simulation-only/no real GPU scheduler; Streaming-WAM PR #4 open/unmerged; HarnessPAI not executed/no fleet-serving SLO.
+
+Automation remains enabled/expected-active. Current 04:00 run started at 05:03:55 CST (63m55s late); registry still reports the past 04:00 boundary as next_run_time, so the next future trigger is unverified. No schedule mutation.
+
+Public sync is pending until heartbeat and status-seal commits are independently verified. SEARCHED != COVERED; coverage_closed=false; overall recall FAIL.
+
+---
+
 # PHYSICAL_AI_SERVING_20261115_0400 — 2026-11-15 04:00 CST
 
 Status: PUBLIC_SYNC_VERIFIED / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
