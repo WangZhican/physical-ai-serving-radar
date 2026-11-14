@@ -1,3 +1,20 @@
+## Physical AI Serving Radar — 2026-11-14 15:34 CST — PHYSICAL_AI_SERVING_20261114_1527
+
+Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED / 720H_LAST_GOOD_STALE_NO_NESTED_CLAIM / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_PENDING.
+
+- Rolling 24h: OAI exact=0; official Atom five-category direct calls all empty and aggregate INCOMPLETE. Official /new 5/5 HTTP 200 / 817 IDs; 41 /abs checks HTTP 200 / exact=0. Retain NOT_COVERED during the documented weekend announcement gap.
+- Rolling 168h: OAI/Atom all-five-category pair PASS, 5,401 exact / 2,297 unique / 2,448 category pairs. cs.DC 142, cs.AR 65, cs.PF 38, cs.RO 458, cs.LG 1,745 (385 primary-only + 1,360 cross-listed). The 24h set is a verified subset with zero missing IDs. SOURCE_ONLY_NOT_COVERED.
+- Rolling 720h: preserve last-good 29,029 exact / 11,789 unique from the prior paired checkpoint. Its cutoff is older than the current 168h cutoff; no current nested 168h-in-720h claim.
+- Main-trunk: the 15:15 current-window replay passed 29/34 primary queries; five failed after HTTP 429, and expansion passed 0/12 after HTTP 429. The prior 09:14 34/34 + 12/12 result remains last-good; current-window neighborhood coverage remains IN_PROGRESS.
+- SYS-first: 2,297 unique IDs, 289 high-signal and 261 unclassified. Seven additional first-party full-text dossiers were checked; all seven PDFs match the manifest; no formal promotion.
+- Inventory: 374 papers; 837 valid PDFs / 0 invalid / 3 pending; one cumulative formal promotion, zero this checkpoint. KerColle, Streaming-WAM and HarnessPAI remain open.
+- Robion arXiv:2609.12075 recall regression PASS; no current-window credit.
+- Overall recall remains FAIL; coverage_closed=false. SEARCHED != COVERED.
+
+Public sync pending independent verification.
+[Hourly heartbeat](hourly/2026-11-14-1527.md)
+
+---
 ## Physical AI Serving Radar — 2026-11-14 06:47 CST — PHYSICAL_AI_SERVING_20261114_0647_SOURCE_PAIR_RETRY
 
 Status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED / 720H_PAIRED_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED.
