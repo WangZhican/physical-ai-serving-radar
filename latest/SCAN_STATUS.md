@@ -1,6 +1,6 @@
 ## Physical AI Serving Radar — 2026-11-14 23:02 CST — PHYSICAL_AI_SERVING_20261114_2302
 
-**PARTIAL_COVERAGE_NOT_CLOSED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / 720H_REFRESH_IN_PROGRESS / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_PENDING**
+**PARTIAL_COVERAGE_NOT_CLOSED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / 720H_REFRESH_IN_PROGRESS / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED**
 
 - Public index reconciliation: private manifest 377 vs prior public index 374; added three previously reviewed WATCH_ONLY/UNPROMOTED records (Elastic-WAM 2611.14257, Risk-Aware Joint Inference 2611.14696, Scaling VLA Serving 2611.14969); public index now 377; zero formal promotions.
 - Rolling 24h: OAI-PMH 2 pages / 2,180 retrieved / exact=0; direct Atom five-category pagination completed with all category requests PASS but exact=0 (aggregate INCOMPLETE). Official /new 5/5 HTTP 200 (817 IDs), /abs 41/41 HTTP 200 and Atom id_list HTTP 200 all confirmed exact=0. Keep NOT_COVERED.
@@ -12,7 +12,7 @@
 - 720h refresh remains IN_PROGRESS: OAI refresh produced no output artifact; Atom refresh was deferred because an active census lock was present. Preserve the 2235 last-good partial 720h result; no 168h-in-720h nesting claim.
 - KerColle remains simulation-only without a real GPU scheduler/deployment and p95/p99 evidence; Streaming-WAM PR #4 remains OPEN/UNMERGED; HarnessPAI remains unexecuted with fleet serving SLO unverified.
 - Automation remains ENABLED / EXPECTED-ACTIVE. The 22:00 CST scheduled run started at 23:02:30.983 CST (62m31s late). Registry next_run_time still reports 22:00 CST at 23:20; next future trigger is unverified. No schedule mutation.
-- Public sync pending independent remote verification.
+- Public sync verified: heartbeat commit 0c4804853337b2fa9d37338d07c2c1402fea4a42 was independently confirmed on remote master; this status-seal commit records that verified heartbeat.
 
 ---
 
