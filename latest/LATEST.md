@@ -1,3 +1,18 @@
+## Latest checkpoint — PHYSICAL_AI_SERVING_20261115_0026 (2026-11-15T00:50:03+08:00)
+
+**Status:** `PUBLIC_SYNC_PENDING` · `COVERAGE_OPEN` · `0 FORMAL PROMOTIONS`
+
+- 24h exact-window: 0 OAI + 0 Atom; official /new 5/5 and /abs 20/20 fallback confirms NOT_COVERED.
+- 168h paired census: 2,123 unique; all five mandatory category sets match exactly; SOURCE_ONLY_NOT_COVERED.
+- 720h: OAI 28,065 exact / 11,405 unique; current Atom INCOMPLETE after HTTP 429; last-good pair preserved.
+- Main-trunk neighborhood: 34/34 + 12/12 via serial official arxiv.org fallback; direct-only debt remains 2,115 / 2,255.
+- Candidate 2611.16661 is fulltext-reviewed and retained as SYS_ALG_BOUNDARY_CANDIDATE_UNPROMOTED; public index remains 377 records.
+- KerColle, Streaming-WAM and HarnessPAI remain open evidence gates.
+- Automation is enabled/expected-active; this run started 26m49s after the scheduled boundary. Next future trigger is not yet verified.
+
+Hourly detail: [2026-11-15-0026](hourly/2026-11-15-0026.md).
+
+Public sync is pending the scoped push and independent origin+SSH `ls-remote` verification.
 ## Latest hourly checkpoint — 2026-11-14 23:02 CST — PHYSICAL_AI_SERVING_20261114_2302
 
 **PARTIAL_COVERAGE_NOT_CLOSED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / 720H_REFRESH_IN_PROGRESS / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED**

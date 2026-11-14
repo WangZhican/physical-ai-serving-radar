@@ -1,3 +1,14 @@
+# Scan status — PHYSICAL_AI_SERVING_20261115_0026 (2026-11-15T00:50:03+08:00)
+
+- Checkpoint: `PHYSICAL_AI_SERVING_20261115_0026`
+- Coverage: 24h NOT_COVERED; 168h SOURCE_ONLY_NOT_COVERED; 720h Atom INCOMPLETE; overall recall FAIL.
+- Candidate promotions: 0.
+- Paper index: 377 records, no additions.
+- PDF inventory: 838 valid, 3 pending.
+- Main-trunk query execution: 34/34 primary and 12/12 expansion after serial official arxiv.org fallback; discovery debt remains.
+- Public sync: PENDING independent remote verification.
+- Automation: enabled and expected-active; current run observed in progress after a 26m49s late start.
+
 ## Physical AI Serving Radar — 2026-11-14 23:02 CST — PHYSICAL_AI_SERVING_20261114_2302
 
 **PARTIAL_COVERAGE_NOT_CLOSED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / 720H_REFRESH_IN_PROGRESS / MAIN_TRUNK_DISCOVERY_ONLY / ZERO_FORMAL_PROMOTIONS / PUBLIC_SYNC_VERIFIED**
