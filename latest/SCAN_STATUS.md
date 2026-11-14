@@ -1,3 +1,16 @@
+## PHYSICAL_AI_SERVING_20261115_0230
+
+Status: PUBLIC_SYNC_PENDING / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
+
+- 24h: OAI/Atom exact=0; official /new 5/5 and /abs 41/41 HTTP 200, exact=0. NOT_COVERED.
+- 168h: paired OAI/Atom 2,100 unique, all five category sets equal; 4,986 OAI exact. SOURCE_ONLY_NOT_COVERED.
+- 720h: Atom 1,660 unique, cs.RO page 6 and cs.LG page 0 HTTP 429; no matching OAI cutoff.
+- Main-trunk: current 21/34 + 0/12 after HTTP 429; preserve last-good 34/34 + 12/12.
+- Candidate: XInfer 2611.14969 full-text reviewed, CORE_SYS / WATCH_ONLY / UNPROMOTED; repository 404. No manifest additions or promotions.
+- Paper/PDF inventory: 377 papers / 838 valid PDFs / 3 pending. Overall recall FAIL.
+- Public sync: PENDING independent remote verification.
+
+
 ## PHYSICAL_AI_SERVING_20261115_0100
 
 Status: PUBLIC_SYNC_VERIFIED / COVERAGE_OPEN / OVERALL_RECALL_FAIL / ZERO_FORMAL_PROMOTIONS.
