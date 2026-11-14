@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T12:57:22+08:00",
-  "count": 374,
+  "updated": "2026-11-14T23:41:21+08:00",
+  "count": 377,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -6136,6 +6136,79 @@
       "open_source": "Author-linked GitHub repository contains a README only (about 1 KB); no LICENSE file was found.",
       "system_contribution": "Real-time edge LiDAR perception; no serving scheduler, multi-tenant runtime or SLO evidence. Keep outside CORE_SYS.",
       "maturity_note": "WATCH_ONLY; next evidence gate: Demonstrate end-to-end multi-sensor or multi-robot serving, resource contention, p95/p99 latency/jitter and a reproducible license before any serving-system promotion."
+    },
+    {
+      "id": "arxiv:2611.14257",
+      "title": "Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        5,
+        7,
+        10
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B+",
+      "status": "WATCH_ONLY",
+      "candidate_status": "UNPROMOTED",
+      "formal_promotion": false,
+      "paper_url": "https://arxiv.org/abs/2611.14257",
+      "arxiv_version": "v1",
+      "arxiv_version_updated_utc": "2026-11-10T16:04:16+00:00",
+      "pdf_local_validated": true,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_pages": 14,
+      "pdf_bytes": 17534145
+    },
+    {
+      "id": "arxiv:2611.14696",
+      "title": "Risk-Aware Joint Inference and Resource Control for Physical AI in 6G Networks",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        4,
+        6
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B",
+      "status": "WATCH_ONLY",
+      "candidate_status": "UNPROMOTED",
+      "formal_promotion": false,
+      "paper_url": "https://arxiv.org/abs/2611.14696",
+      "arxiv_version": "v1",
+      "arxiv_version_updated_utc": "2026-11-10T20:01:15+00:00",
+      "pdf_local_validated": true,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_pages": 6,
+      "pdf_bytes": 412185
+    },
+    {
+      "id": "arxiv:2611.14969",
+      "title": "Scaling VLA Serving Under Robotic Execution Constraints",
+      "class": "CORE_SYS",
+      "route": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "A-",
+      "status": "WATCH_ONLY",
+      "candidate_status": "UNPROMOTED",
+      "formal_promotion": false,
+      "paper_url": "https://arxiv.org/abs/2611.14969",
+      "arxiv_version": "v1",
+      "arxiv_version_updated_utc": "2026-11-11T03:28:58+00:00",
+      "pdf_local_validated": true,
+      "fulltext_pdf_reviewed": true,
+      "pdf_download_status": "DOWNLOADED_VALIDATED",
+      "pdf_pages": 20,
+      "pdf_bytes": 3816657
     }
-  ]
+  ],
+  "checkpoint_id": "PHYSICAL_AI_SERVING_20261114_2302"
 }
