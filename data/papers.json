@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-15T21:35:45+08:00",
-  "count": 391,
+  "updated": "2026-11-16T03:26:04+08:00",
+  "count": 392,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -3556,6 +3556,19 @@
       "priority": "B+",
       "status": "VERIFIED",
       "paper_url": "https://arxiv.org/abs/2610.31064"
+    },
+    {
+      "id": "arxiv:2611.16590",
+      "title": "AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents",
+      "class": "CORE_SYS",
+      "route": [
+        9
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "priority": "B",
+      "status": "VERIFIED",
+      "paper_url": "https://arxiv.org/abs/2611.16590"
     },
     {
       "id": "arxiv:2608.15924",

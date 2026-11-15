@@ -27,7 +27,7 @@ Graph/walk abstractions for perception → reasoner → planner → policy → W
 Model/hardware/network landscapes, control-time rooflines, wireless discovery/transport behavior and deployment cost-energy-time modeling. **Anchors:** VLA-Perf, PhyAI, Discovery Storm.
 
 ## P9. Evaluation / Serving Infrastructure
-Model-server/benchmark decoupling, real-robot evaluation-as-a-service, distributed evaluation, traces, observability, distributional real-hardware metrics and deadline/latency instrumentation. **Anchors:** DeepInsight, RoboArena, AutoEval, RoboDojo, vla-eval, ros2probe, CARET, TILDE, PhAIL, XAIR. **Boundary:** dWorldEval adds scalable world-model proxy evaluation with automatic progress scoring, but remains method-first rather than a serving/resource system.
+Model-server/benchmark decoupling, real-robot evaluation-as-a-service, distributed evaluation, traces, observability, distributional real-hardware metrics and deadline/latency instrumentation. **Anchors:** DeepInsight, RoboArena, AutoEval, RoboDojo, vla-eval, ros2probe, CARET, TILDE, PhAIL, XAIR, AstroMemBench. **Boundary:** dWorldEval adds scalable world-model proxy evaluation with automatic progress scoring, but remains method-first rather than a serving/resource system.
 
 ## P10. World-Model / WAM Rollout Serving
 Branching/iterative rollouts, persistent sessions, checkpoint/restore, exact-state migration, rollout-state reuse, evaluation proxies and reusable rollback/branching substrates. **Anchors:** Persistent Computational State, WorldMove, PhyAI. **Boundary signals:** dWorldEval and Hi-WM.

@@ -1,3 +1,10 @@
+## PHYSICAL_AI_SERVING_20261116_0304 — 2026-11-16 03:26 CST
+
+- Added AstroMemBench (arXiv:2611.16590) to the CORE_SYS Route-9 evaluation-infrastructure candidate set after first-party 31-page PDF and MIT author-repository/workbench inspection.
+- Updated private Paper Manifest and public paper index to 392 records; formal promotion remains pending independent public-master verification.
+- 24h remains NOT_COVERED_ZERO_EXACT; 168h remains SOURCE_ONLY_NOT_COVERED; main-trunk reverse lookup remains partial on HTTP 429; 720h last-good preserved.
+- Public heartbeat/index payload prepared for checkpoint 0304; remote verification is pending.
+
 ## PHYSICAL_AI_SERVING_20261115_2156 — 2026-11-15 22:11 CST
 - Completed paired 24h/168h SYS-first OAI-PMH and direct Atom census; 24h remains NOT_COVERED, 168h remains SOURCE_ONLY_NOT_COVERED.
 - Main-trunk neighborhood remains partial: primary 25/34, expansion 0/12, 21 HTTP 429 failures.
