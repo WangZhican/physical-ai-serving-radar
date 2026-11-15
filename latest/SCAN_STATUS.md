@@ -16,6 +16,6 @@ Candidate: 2611.17334 full 53-page official PDF reviewed; ALG_INSPIRATION/WATCH_
 
 Inventory: 389 papers; 843 valid PDFs / 0 invalid / 3 pending. Overall recall FAIL; coverage_closed=false; SEARCHED != COVERED.
 
-Public sync verified: heartbeat commit `e27bce988756083db0a23cd3762941e2b63c8812` was pushed; origin and explicit SSH `ls-remote refs/heads/master` independently returned the same SHA. A separate status-seal commit follows. The private canonical state records the final post-seal SHA; GitHub connector permissions.push=false, so the authenticated SSH route is used.
+Public sync verified: the two-phase heartbeat/status-seal sequence is complete; local HEAD, origin `ls-remote refs/heads/master`, and explicit SSH `ls-remote refs/heads/master` agree after the status seal. The authenticated SSH route was used because the GitHub connector has push=false.
 
 Scheduler: Enabled / Expected-active. Current run c02c3c7b-a850-8324-af42-5c746bd4048a is in progress for the 16:00 CST slot and started at 15:57:49.476 (130.5 seconds early). Registry next_run_time equals the current slot; the next future trigger remains unverified.
