@@ -1,3 +1,9 @@
+## PHYSICAL_AI_SERVING_20261115_2259 — 2026-11-15 23:13 CST
+
+- **ALG_INSPIRATION / WATCH_ONLY — [Control-Flow Profiling for Workload Representativeness](https://arxiv.org/abs/2611.16889)** (Mahesh Madhav, Ampere Computing; cs.PF/cs.AR; priority B). Official 11-page PDF reviewed. Combines Valgrind/VEX exp-branchprof with BBV phase recurrence and five address-keyed profile families for SPEC CPU workload-proxy representativeness. Potentially useful for validating reduced VLA/Physical-AI benchmark traces, but no robot/VLA workload, GPU/LLM serving, online runtime or scheduler evaluation is presented.
+- **Not formally promoted:** offline single-threaded CPU methodology; reported median slowdown is 45.4–48.5x. The paper lists Zenodo DOI [10.5281/zenodo.24160599](https://doi.org/10.5281/zenodo.24160599), but the official record API could not be fetched due TLS EOF; archive checksums remain unverified.
+- Evidence gate: independently retrieve and validate the Zenodo artifact, then assess transfer to representative Physical-AI/VLA trace proxies.
+
 ## PHYSICAL_AI_SERVING_20261115_2136 — 2026-11-15 21:35 CST
 
 - **ALG_INSPIRATION / UNPROMOTED — [Collaborative Task Allocation for Heterogeneous Multi-Robot Systems Through Iterative Clustering](https://arxiv.org/abs/2611.17213)** (IEEE Robotics and Automation Letters; route 1; priority B). The paper formulates heterogeneous multi-robot task allocation as coalition-structure generation and iteratively clusters robots/tasks before solving each cluster assignment with branch-and-bound. Its author-linked MIT repository contains simulation/algorithm code, not an operational fleet-serving runtime.

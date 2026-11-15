@@ -1,23 +1,25 @@
 # Scan Status
 
-Checkpoint: PHYSICAL_AI_SERVING_20261115_2156
+Checkpoint: PHYSICAL_AI_SERVING_20261115_2259
 
-Status: PUBLIC_SYNC_VERIFIED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_25_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
+Generated: 2026-11-15T23:13:37+08:00
 
-Rolling 24h: OAI 0 retrieved / 0 exact; Atom 0 unique across five mandatory categories. Official /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list HTTP 429. NOT_COVERED_ZERO_EXACT. Sunday pre-announcement gap is plausible; no coverage waiver.
+Status: PUBLIC_SYNC_PENDING / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_22_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
 
-Rolling 168h: OAI 7,693 retrieved / 4,486 exact / 1,851 unique; Atom 1,851 unique; cs.DC 114, cs.AR 53, cs.PF 31, cs.RO 391, cs.LG 1,390; all five category sets match. SOURCE_ONLY_NOT_COVERED.
+Rolling 24h: OAI 0 retrieved / 0 exact; Atom 0 unique across five mandatory categories. Official /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list HTTP 429. NOT_COVERED_ZERO_EXACT.
 
-Rolling 720h: not refreshed; last-good 17:53 census retained at OAI 27,248 exact / Atom 11,082 unique. SOURCE_ONLY_NOT_COVERED.
+Rolling 168h: OAI 7693 retrieved / 4452 exact / 1833 unique; Atom 1833 unique; cs.DC 113, cs.AR 52, cs.PF 31, cs.RO 389, cs.LG 1374; all five category sets match. SOURCE_ONLY_NOT_COVERED.
 
-Main-trunk: primary 25/34; expansion 0/12. 21 HTTP 429 failures; partial discovery only.
+Rolling 720h: not refreshed; last-good 17:53 census retained at OAI 27,248 exact / Atom 11,082 unique.
 
-SYS-first: 1,851 unique / 238 high-signal / 201 unclassified. Robion 2609.12075 and Route-8 2610.05062 regression seeds retained.
+Main-trunk: primary 22/34; expansion 0/12. 24 HTTP 429 failures; partial discovery only; reverse-only pairs 0.
 
-Candidate frontier: 2611.17294, 2611.17206, 2611.16661 and 2611.16523 have prior first-party full-text reviews and are not re-queued. Next unreviewed full-text target: 2611.16889. KerColle, Streaming-WAM and HarnessPAI remain pending.
+SYS-first: 1833 unique / 236 high-signal / 199 unclassified after review. Robion 2609.12075 and Route-8 2610.05062 remain permanent private Manifest regression seeds.
+
+Candidate review: 2611.16889 — ALG_INSPIRATION / WATCH_ONLY, not promoted; next full-text target 2611.16752. KerColle, Streaming-WAM and HarnessPAI remain pending.
 
 Inventory: 391 papers; 843 valid PDFs / 0 invalid / 3 pending. Formal promotions: 0 this checkpoint; cumulative 1. Overall recall FAIL; coverage_closed=false; SEARCHED != COVERED.
 
 Automation: Enabled / Expected-active; current run in progress; future trigger not yet verified until registry rolls forward after completion.
 
-Public sync verified after status-seal push. Heartbeat commit 1e095dc7905dcfeedc86d009e8a8745116387a78 was independently verified through both origin and explicit SSH ls-remote; final status-seal SHA is recorded in private canonical state.
+Public sync: heartbeat/status seal pending SSH push and independent remote SHA verification.
