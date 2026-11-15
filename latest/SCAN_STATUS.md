@@ -2,7 +2,7 @@
 
 Checkpoint: PHYSICAL_AI_SERVING_20261115_2156
 
-Status: PUBLIC_SYNC_PENDING / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_25_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
+Status: PUBLIC_SYNC_VERIFIED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_25_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
 
 Rolling 24h: OAI 0 retrieved / 0 exact; Atom 0 unique across five mandatory categories. Official /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list HTTP 429. NOT_COVERED_ZERO_EXACT. Sunday pre-announcement gap is plausible; no coverage waiver.
 
@@ -20,4 +20,4 @@ Inventory: 391 papers; 843 valid PDFs / 0 invalid / 3 pending. Formal promotions
 
 Automation: Enabled / Expected-active; current run in progress; future trigger not yet verified until registry rolls forward after completion.
 
-Public sync pending independent verification.
+Public sync verified after status-seal push. Heartbeat commit 1e095dc7905dcfeedc86d009e8a8745116387a78 was independently verified through both origin and explicit SSH ls-remote; final status-seal SHA is recorded in private canonical state.
