@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T03:26:04+08:00",
+  "updated": "2026-11-16T03:50:33+08:00",
   "count": 392,
   "papers": [
     {
@@ -5271,7 +5271,9 @@
       "venue": "arXiv",
       "priority": "B+",
       "status": "WATCH_ONLY",
-      "paper_url": "https://arxiv.org/abs/2611.17108"
+      "paper_url": "https://arxiv.org/abs/2611.17108",
+      "code_status": "Author-linked MIT repository verified: https://github.com/arnabsanyal/lazyWeights (release v1.0.1; commit 65c88e18ff8ae1e99b5414c146bce85f510eb0b5). CUDA runtime, Huffman bundle scripts, decoder RTL, ZCU102 FPGA prototype and device logs inspected.",
+      "notes": "SYS_ALG_BOUNDARY / WATCH_ONLY. The measured ZCU102 FPGA decoder reaches 14.3 G weights/s and 0.25-0.26 nJ/weight; 0.21 mm2 / 1 GHz ASIC and Orin decoder latency/energy figures are pre-layout/twin projections. General edge LLM, not Physical-AI/VLA serving; no multi-tenant scheduler or p95/p99/action-loop SLO."
     },
     {
       "id": "arxiv:2611.15126",

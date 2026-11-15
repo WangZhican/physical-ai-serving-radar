@@ -1,3 +1,8 @@
+## PHYSICAL_AI_SERVING_20261116_0304 — 2026-11-16 03:50 CST
+
+- **SYS_ALG_BOUNDARY / WATCH_ONLY — [LazyWeights: Decode-on-Demand Edge LLMs](https://arxiv.org/abs/2611.17108)** (P4/P6; priority B+). The author-linked [MIT repository](https://github.com/arnabsanyal/lazyWeights) is now verified (release v1.0.1; commit 65c88e18ff8ae1e99b5414c146bce85f510eb0b5), including CUDA runtime, Huffman scripts, decoder RTL, ZCU102 FPGA prototype and device logs. The official 7-page PDF was already reviewed. FPGA evidence: 29/29 matrices bit/cycle exact, 14.3 G weights/s, 0.25–0.26 nJ/weight.
+- **Not CORE_SYS:** the 0.21 mm2 / 1 GHz ASIC is pre-layout synthesis; Orin decoder latency/energy gains use a fixed-width twin and synthesized cost, not a fabricated or memory-controller-integrated unit. General edge LLM only; no VLA/robot workload, multi-tenant scheduler, queueing, fleet runtime, p95/p99 or action-loop SLO.
+
 ## PHYSICAL_AI_SERVING_20261115_1905 — 2026-11-15 19:05 CST
 
 - **SYS_ALG_BOUNDARY / WATCH_ONLY — [XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction](https://arxiv.org/abs/2611.17160)** (arXiv v1; routes 2 and 3; priority B+). Thinker–Talker–Actor architecture: the Actor consumes native Talker states during streaming speech generation, with semantic action events and a speech–action aligner; body motion is autoregressive and facial expression uses flow matching. Official 19-page PDF/full text reviewed. Reported median first-motion latency 527 ms, FGD 1.351, semantic quality 1.383/3 and conditional timing 85.19% (46/54 eligible).

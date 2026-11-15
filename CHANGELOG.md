@@ -1,3 +1,9 @@
+## PHYSICAL_AI_SERVING_20261116_0304 — LazyWeights repository evidence recheck — 2026-11-16 03:50 CST
+
+- Corrected the prior no-author-repository finding: author-linked MIT repository arnabsanyal/lazyWeights, release v1.0.1, commit 65c88e18ff8ae1e99b5414c146bce85f510eb0b5, is verified.
+- Updated the existing SYS_ALG_BOUNDARY P4/P6 record; no new Paper/PDF Manifest record and no formal promotion.
+- Paper index remains 392; 845 valid PDFs; 21 full-text-reviewed records; formal promotions remain 1 this checkpoint / 2 cumulative.
+
 ## PUBLIC_SYNC_VERIFIED — PHYSICAL_AI_SERVING_20261116_0304 — 2026-11-16 03:36 CST
 
 - Verified the 0304 heartbeat/index publication at commit 777b4c3c9b40c7f513fbe23c6819f27ffe268b76; local HEAD, origin, explicit SSH and HTTPS ls-remote agree.
