@@ -8,4 +8,4 @@
 - Coverage: 24h NOT_COVERED; 168h SOURCE_ONLY_NOT_COVERED; 720h last-good 17:53 retained; main-trunk primary 22/34 and expansion 0/12.
 - Candidate review: 2611.16889 is ALG_INSPIRATION / WATCH_ONLY after official 11-page PDF review; no promotion. Next full-text review: 2611.16752.
 - Formal promotions: 0 this checkpoint; cumulative 1.
-- Public heartbeat commit c550bb5d7192b8317dfb86407612b6c857b65460 was independently verified with origin and explicit SSH ls-remote; status-seal commit follows.
+- Public sync verified. Heartbeat commit c550bb5d7192b8317dfb86407612b6c857b65460 and status-seal commit e03970c355bd7afaef172600ce006fc50174c633 were independently checked through origin ls-remote, explicit SSH ls-remote and GitHub branch API; final marker commit is current master.
