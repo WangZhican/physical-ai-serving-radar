@@ -1,9 +1,16 @@
+## PUBLIC_SYNC_VERIFIED — PHYSICAL_AI_SERVING_20261116_0304 — 2026-11-16 03:36 CST
+
+- Verified the 0304 heartbeat/index publication at commit 777b4c3c9b40c7f513fbe23c6819f27ffe268b76; local HEAD, origin, explicit SSH and HTTPS ls-remote agree.
+- GitHub commit metadata and the published paper index, CORE_SYS list, hourly heartbeat and status files were fetched; AstroMemBench appears exactly once as CORE_SYS Route 9.
+- AstroMemBench's publication gate is closed; formal promotion count for this checkpoint is 1 (cumulative 2).
+- Source coverage remains open: rolling 24h zero-exact, 168h source-only, main-trunk reverse lookup partial.
+
 ## PHYSICAL_AI_SERVING_20261116_0304 — 2026-11-16 03:26 CST
 
 - Added AstroMemBench (arXiv:2611.16590) to the CORE_SYS Route-9 evaluation-infrastructure candidate set after first-party 31-page PDF and MIT author-repository/workbench inspection.
-- Updated private Paper Manifest and public paper index to 392 records; formal promotion remains pending independent public-master verification.
+- Updated private Paper Manifest and public paper index to 392 records; AstroMemBench is formally promoted as CORE_SYS Route 9 after independent public-master verification.
 - 24h remains NOT_COVERED_ZERO_EXACT; 168h remains SOURCE_ONLY_NOT_COVERED; main-trunk reverse lookup remains partial on HTTP 429; 720h last-good preserved.
-- Public heartbeat/index payload prepared for checkpoint 0304; remote verification is pending.
+- Public heartbeat commit 777b4c3c9b40c7f513fbe23c6819f27ffe268b76 was confirmed on local HEAD, origin, explicit SSH and HTTPS ls-remote; GitHub commit and published index/status files were fetched independently.
 
 ## PHYSICAL_AI_SERVING_20261115_2156 — 2026-11-15 22:11 CST
 - Completed paired 24h/168h SYS-first OAI-PMH and direct Atom census; 24h remains NOT_COVERED, 168h remains SOURCE_ONLY_NOT_COVERED.
