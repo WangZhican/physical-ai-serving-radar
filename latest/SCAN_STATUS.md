@@ -22,4 +22,4 @@ Inventory: 391 papers; 843 valid PDFs / 0 invalid / 3 pending. Formal promotions
 
 Automation: Enabled / Expected-active; current run in progress; future trigger not yet verified until registry rolls forward after completion.
 
-Public sync verified. Heartbeat commit c550bb5d7192b8317dfb86407612b6c857b65460 and status-seal commit e03970c355bd7afaef172600ce006fc50174c633 were independently checked through origin ls-remote, explicit SSH ls-remote and GitHub branch API; final marker commit is current master.
+Public sync verified. Heartbeat commit c550bb5d7192b8317dfb86407612b6c857b65460, status-seal commit e03970c355bd7afaef172600ce006fc50174c633, and final marker commit 009bf9e89e8ea223c8b6dfd7b3a810a51af7cfe2 were independently checked through origin ls-remote, explicit SSH ls-remote and GitHub branch API. This final public status record is the current master revision.
