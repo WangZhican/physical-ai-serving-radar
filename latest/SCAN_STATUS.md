@@ -2,7 +2,7 @@
 
 Checkpoint: PHYSICAL_AI_SERVING_20261115_1549
 
-Status: PUBLIC_SYNC_PENDING_SSH_WRITE_TEST / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_34_OF_34_EXPANSION_7_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
+Status: PUBLIC_SYNC_VERIFIED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_34_OF_34_EXPANSION_7_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
 
 Rolling 24h: OAI 0 retrieved / 0 exact; Atom 0 unique. Official /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list HTTP 200 / 41 returned / 0 exact. Latest checked version 2611.17334 at 2026-11-12T18:59:54+00:00 (59.93h older than window end). NOT_COVERED.
 
@@ -16,6 +16,6 @@ Candidate: 2611.17334 full 53-page official PDF reviewed; ALG_INSPIRATION/WATCH_
 
 Inventory: 389 papers; 843 valid PDFs / 0 invalid / 3 pending. Overall recall FAIL; coverage_closed=false; SEARCHED != COVERED.
 
-Public sync pending: fixed public worktree already has Git metadata; local HEAD and remote master are both a3241b04c9167bf3dee216e5f8b306b34005579c. SSH push dry-run returned `Everything up-to-date`; selective commit/push of the verified 1549 files remains pending. GitHub connector permissions.push=false, so use the authenticated SSH route.
+Public sync verified: heartbeat commit `e27bce988756083db0a23cd3762941e2b63c8812` was pushed; origin and explicit SSH `ls-remote refs/heads/master` independently returned the same SHA. A separate status-seal commit follows. The private canonical state records the final post-seal SHA; GitHub connector permissions.push=false, so the authenticated SSH route is used.
 
 Scheduler: Enabled / Expected-active. Current run c02c3c7b-a850-8324-af42-5c746bd4048a is in progress for the 16:00 CST slot and started at 15:57:49.476 (130.5 seconds early). Registry next_run_time equals the current slot; the next future trigger remains unverified.
