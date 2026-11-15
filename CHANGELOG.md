@@ -1,3 +1,10 @@
+## PHYSICAL_AI_SERVING_20261115_2156 — 2026-11-15 22:11 CST
+- Completed paired 24h/168h SYS-first OAI-PMH and direct Atom census; 24h remains NOT_COVERED, 168h remains SOURCE_ONLY_NOT_COVERED.
+- Main-trunk neighborhood remains partial: primary 25/34, expansion 0/12, 21 HTTP 429 failures.
+- Corrected stale candidate frontier: four candidates already have first-party full-text review artifacts; next unreviewed target is 2611.16889.
+- No paper/index change and no formal promotion; 391 paper records and 843 valid PDFs remain unchanged.
+- Public heartbeat pending independent verification.
+
 ## PHYSICAL_AI_SERVING_20261115_1905 — 2026-11-15 19:05 CST
 - Added XBot-Omni as SYS_ALG_BOUNDARY/WATCH_ONLY with official 19-page PDF/full-text evidence; no formal promotion.
 - Rolling 24h remains NOT_COVERED; 168h paired source-only; main-trunk partial on HTTP 429.
