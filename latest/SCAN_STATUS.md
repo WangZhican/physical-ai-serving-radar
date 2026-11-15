@@ -1,7 +1,7 @@
 # Scan Status
 
 - checkpoint_id: PHYSICAL_AI_SERVING_20261116_0102
-- generated_at_beijing: 2026-11-16T01:18:32+08:00
+- generated_at_beijing: 2026-11-16T01:24:00+08:00
 - status: PARTIAL_COVERAGE
 - overall_recall: FAIL
 - coverage_closed: false
@@ -34,5 +34,7 @@
   - checkpoint: PHYSICAL_AI_SERVING_20261115_1753
   - oai_exact: 27248
   - atom_unique: 11082
-- public_sync_status: PUBLIC_SYNC_PENDING
+- public_sync_status: PUBLIC_SYNC_VERIFIED
+- public_heartbeat_commit: bf781a656f7cc14ae1b704c33e13d807a0e3c83f
+- public_heartbeat_commit_verified: true
 - latest_hourly_scan: hourly/2026-11-16-0102.md

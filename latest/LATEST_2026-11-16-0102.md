@@ -13,4 +13,4 @@ Checkpoint ID: PHYSICAL_AI_SERVING_20261116_0102
 
 See [hourly scan](hourly/2026-11-16-0102.md) for detailed results and [SCAN_STATUS](SCAN_STATUS.md) for machine-readable status.
 
-Public sync status: PUBLIC_SYNC_PENDING.
+Public sync status: PUBLIC_SYNC_VERIFIED. Heartbeat commit bf781a656f7cc14ae1b704c33e13d807a0e3c83f was independently verified on origin and SSH.
