@@ -1,7 +1,7 @@
 # Scan Status
 
-- checkpoint_id: PHYSICAL_AI_SERVING_20261116_0102
-- generated_at_beijing: 2026-11-16T01:21:34+08:00
+- checkpoint_id: PHYSICAL_AI_SERVING_20261116_0157
+- generated_at_beijing: 2026-11-16T02:17:27+08:00
 - status: PARTIAL_COVERAGE
 - overall_recall: FAIL
 - coverage_closed: false
@@ -15,26 +15,31 @@
   - oai_exact: 0
   - atom_unique: 0
   - status: NOT_COVERED_ZERO_EXACT
-  - official_fallback: 5/5 /new HTTP 200; 41/41 /abs HTTP 200; Atom id_list 41 returned; 0 exact
+  - official_fallback: previous 0102 fallback remains last-good; /new 5/5 HTTP 200, /abs 41/41 HTTP 200, Atom id_list HTTP 200, all 0 exact
 - rolling_168h:
   - oai_retrieved: 7693
-  - oai_exact: 4387
-  - oai_unique: 1800
-  - atom_unique: 1800
+  - oai_exact: 4353
+  - oai_unique: 1783
+  - atom_unique: 1783
   - category_sets_equal: 5/5
   - status: SOURCE_ONLY_NOT_COVERED
 - main_trunk:
-  - primary_pass: 30
+  - primary_pass: 32
   - primary_total: 34
   - expansion_pass: 0
   - expansion_total: 12
-  - http_429_failures: 16
+  - http_429_failures: 14
+  - unique_in_window_ids: 212
   - status: PARTIAL_SOURCE_NOT_COVERED
-- rolling_720h_last_good:
-  - checkpoint: PHYSICAL_AI_SERVING_20261115_1753
-  - oai_exact: 27248
-  - atom_unique: 11082
-- public_sync_status: PUBLIC_SYNC_VERIFIED
-- public_heartbeat_commit: bf781a656f7cc14ae1b704c33e13d807a0e3c83f
-- public_heartbeat_commit_verified: true
-- latest_hourly_scan: hourly/2026-11-16-0102.md
+- candidate_review:
+  - arxiv_id: 2611.15491
+  - classification: SYS_ALG_BOUNDARY
+  - routes: 3, 9
+  - candidate_status: HIGH_SIGNAL_WATCHLIST
+  - formal_promotion: false
+- candidate_frontier:
+  - corrected_completed_reviews: 2611.17294, 2611.16889
+  - next_full_text_review: 2611.15569
+- public_sync_status: PUBLIC_SYNC_PENDING
+- previous_verified_remote_master_sha: d6261795e26dcd48dd42c541e85e85102bfbd087
+- latest_hourly_scan: hourly/2026-11-16-0157.md

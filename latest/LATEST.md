@@ -1,16 +1,16 @@
 # Physical AI Serving Radar
 
-Latest checkpoint: **2026-11-16 01:02 CST**
-Checkpoint ID: PHYSICAL_AI_SERVING_20261116_0102
+Latest checkpoint: **2026-11-16 01:57 CST**
+Checkpoint ID: PHYSICAL_AI_SERVING_20261116_0157
 
-- Rolling 24h: NOT_COVERED_ZERO_EXACT (official fallback routes checked; exact-window result remains zero).
-- Rolling 168h: 1,800 unique OAI/Atom-matched IDs; SOURCE_ONLY_NOT_COVERED.
-- Main-trunk reverse lookup: 30/34 primary, 0/12 expansion; 16 HTTP 429 failures; partial.
-- Candidate review: STVLA, Rethinking Actions, and LLM Agent Makespan; no formal promotion.
-- HarnessPAI repository inspection now verifies a per-GPU model-service fleet and 35 concurrent simulator workers, but no live serving SLO.
+- Rolling 24h: NOT_COVERED_ZERO_EXACT (OAI 0 exact; Atom 0 unique; official fallback remains last-good).
+- Rolling 168h: 1,783 unique OAI/Atom-matched IDs; SOURCE_ONLY_NOT_COVERED.
+- Main-trunk reverse lookup: 32/34 primary, 0/12 expansion; 14 HTTP 429 failures; partial.
+- Candidate review: 2611.15491 VLA inference-to-action execution; SYS_ALG_BOUNDARY / HIGH_SIGNAL_WATCHLIST; no promotion.
+- Candidate frontier corrected: 2611.17294 and 2611.16889 already had full-text reviews; next target 2611.15569 TraceKV.
 - Inventory: 391 papers; 845 valid PDFs; 3 pending.
 - Overall recall remains FAIL; coverage is not closed.
 
-See [hourly scan](hourly/2026-11-16-0102.md) for detailed results and [SCAN_STATUS](SCAN_STATUS.md) for machine-readable status.
+See [hourly scan](hourly/2026-11-16-0157.md) for detailed results and [SCAN_STATUS](SCAN_STATUS.md) for machine-readable status.
 
-Public sync status: PUBLIC_SYNC_VERIFIED. Heartbeat commit bf781a656f7cc14ae1b704c33e13d807a0e3c83f was independently verified on origin and SSH.
+Public sync status: PUBLIC_SYNC_PENDING; independent remote verification is pending.
