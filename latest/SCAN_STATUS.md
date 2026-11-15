@@ -1,7 +1,7 @@
 # Scan Status
 
 - checkpoint_id: PHYSICAL_AI_SERVING_20261116_0102
-- generated_at_beijing: 2026-11-16T01:24:00+08:00
+- generated_at_beijing: 2026-11-16T01:21:34+08:00
 - status: PARTIAL_COVERAGE
 - overall_recall: FAIL
 - coverage_closed: false
