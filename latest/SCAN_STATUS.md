@@ -4,7 +4,7 @@ Checkpoint: PHYSICAL_AI_SERVING_20261116_0010
 
 Generated: 2026-11-16T00:13:23+08:00
 
-Status: PUBLIC_SYNC_PENDING / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_18_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
+Status: PUBLIC_SYNC_VERIFIED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_18_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
 
 Rolling 24h: OAI 0 retrieved / 0 exact; Atom 0 unique. Official fallback /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list returned 41 IDs with zero exact. NOT_COVERED_ZERO_EXACT.
 
@@ -22,4 +22,4 @@ Inventory: 391 papers; 843 valid PDFs / 0 invalid / 3 pending. Formal promotions
 
 Automation: Enabled / Expected-active; current Run ID in progress; future trigger not verified.
 
-Public sync: push and independent ls-remote verification pending.
+Public sync verified. Pre-seal commit 25690253813511cfc83d6bdb016e5d249e0a962c was confirmed through origin and explicit SSH ls-remote; this status-seal commit is the final master record.
