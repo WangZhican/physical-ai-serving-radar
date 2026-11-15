@@ -40,6 +40,8 @@
 - candidate_frontier:
   - corrected_completed_reviews: 2611.17294, 2611.16889
   - next_full_text_review: 2611.15569
-- public_sync_status: PUBLIC_SYNC_PENDING
+- public_sync_status: PUBLIC_SYNC_VERIFIED
+- public_heartbeat_commit: a895abf31993df251b203bf2d732fab6242f2597
+- public_heartbeat_commit_verified: true
 - previous_verified_remote_master_sha: d6261795e26dcd48dd42c541e85e85102bfbd087
 - latest_hourly_scan: hourly/2026-11-16-0157.md

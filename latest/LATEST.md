@@ -13,4 +13,4 @@ Checkpoint ID: PHYSICAL_AI_SERVING_20261116_0157
 
 See [hourly scan](hourly/2026-11-16-0157.md) for detailed results and [SCAN_STATUS](SCAN_STATUS.md) for machine-readable status.
 
-Public sync status: PUBLIC_SYNC_PENDING; independent remote verification is pending.
+Public sync status: PUBLIC_SYNC_VERIFIED. Heartbeat commit a895abf31993df251b203bf2d732fab6242f2597 has been independently verified on origin and SSH. The status-seal publication is the current commit; its final SHA is recorded in the private checkpoint after independent verification.
