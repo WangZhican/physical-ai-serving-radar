@@ -1,3 +1,9 @@
+## PHYSICAL_AI_SERVING_20261115_1905 — 2026-11-15 19:05 CST
+
+- **SYS_ALG_BOUNDARY / WATCH_ONLY — [XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction](https://arxiv.org/abs/2611.17160)** (arXiv v1; routes 2 and 3; priority B+). Thinker–Talker–Actor architecture: the Actor consumes native Talker states during streaming speech generation, with semantic action events and a speech–action aligner; body motion is autoregressive and facial expression uses flow matching. Official 19-page PDF/full text reviewed. Reported median first-motion latency 527 ms, FGD 1.351, semantic quality 1.383/3 and conditional timing 85.19% (46/54 eligible).
+- **Not formally promoted:** no multi-request serving scheduler, queueing, throughput or p95/p99 SLO; 527 ms is a median first-motion metric. Pointing uses 100 selected development clips. Official project GitHub repository is empty (size 0; README 404); no model code, weights or reusable serving runtime verified.
+- Evidence gate: author-linked code/weights plus independent concurrent-serving, tail-latency, resource and control-loop SLO evaluation.
+
 # SYS_ALG_BOUNDARY
 - [Sub-Millisecond Reflexes for Continuous Physical Human-Robot Interaction](https://arxiv.org/abs/2610.21913) — **B+**, real-time ROS2 reflex/control runtime, 1kHz hazard monitoring and <0.1ms controller switching; [Apache-2.0 author repo](https://github.com/RoboRef/franka_reflex_engine) verified. SYS_ALG_BOUNDARY only: no VLA serving, GPU scheduler, multi-tenant p99, CI/test suite or independent build.
 - [LogLook](https://arxiv.org/abs/2610.32348) — **A-**, robot planner execution-grounded log and selective visual retrieval; 43% fewer tokens and less than half images at similar benchmark success, 93.5% direct-control RoboMME success; no general GPU serving/p99, code unverified.
