@@ -1,25 +1,38 @@
 # Scan Status
 
-Checkpoint: PHYSICAL_AI_SERVING_20261116_0010
-
-Generated: 2026-11-16T00:13:23+08:00
-
-Status: PUBLIC_SYNC_VERIFIED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_18_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
-
-Rolling 24h: OAI 0 retrieved / 0 exact; Atom 0 unique. Official fallback /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list returned 41 IDs with zero exact. NOT_COVERED_ZERO_EXACT.
-
-Rolling 168h: OAI 7693 retrieved / 4422 exact / 1815 unique; Atom 1815 unique; cs.DC 112, cs.AR 52, cs.PF 31, cs.RO 386, cs.LG 1358; all five category sets match. SOURCE_ONLY_NOT_COVERED.
-
-Rolling 720h: not refreshed; last-good 17:53 retained at OAI 27,248 exact / Atom 11,082 unique.
-
-Main-trunk: primary 18/34; expansion 0/12; 28 HTTP 429 failures; partial discovery only.
-
-SYS-first: 1815 unique / 235 high-signal / 197 unclassified after three full-text reviews. Robion 2609.12075 and Route-8 2610.05062 remain permanent private Manifest regression seeds.
-
-Candidate review: AgriSense 2611.16752 WATCH_ONLY; Reins 2611.16632 and DRAMA 2611.16345 HIGH_SIGNAL_WATCHLIST. STVLA 2611.16589 and Rethinking Actions 2611.16645 abstract-only. Next full-text target 2611.16661.
-
-Inventory: 391 papers; 843 valid PDFs / 0 invalid / 3 pending. Formal promotions: 0 this checkpoint; cumulative 1. Overall recall FAIL; coverage_closed=false; SEARCHED != COVERED.
-
-Automation: Enabled / Expected-active; current Run ID in progress; future trigger not verified.
-
-Public sync verified. Pre-seal commit 25690253813511cfc83d6bdb016e5d249e0a962c was confirmed through origin and explicit SSH ls-remote; this status-seal commit is the final master record.
+- checkpoint_id: PHYSICAL_AI_SERVING_20261116_0102
+- generated_at_beijing: 2026-11-16T01:18:32+08:00
+- status: PARTIAL_COVERAGE
+- overall_recall: FAIL
+- coverage_closed: false
+- formal_promotions_this_checkpoint: 0
+- cumulative_formal_promotions: 1
+- paper_manifest_records: 391
+- pdf_manifest_valid: 845
+- pdf_manifest_invalid: 0
+- pdf_manifest_pending: 3
+- rolling_24h:
+  - oai_exact: 0
+  - atom_unique: 0
+  - status: NOT_COVERED_ZERO_EXACT
+  - official_fallback: 5/5 /new HTTP 200; 41/41 /abs HTTP 200; Atom id_list 41 returned; 0 exact
+- rolling_168h:
+  - oai_retrieved: 7693
+  - oai_exact: 4387
+  - oai_unique: 1800
+  - atom_unique: 1800
+  - category_sets_equal: 5/5
+  - status: SOURCE_ONLY_NOT_COVERED
+- main_trunk:
+  - primary_pass: 30
+  - primary_total: 34
+  - expansion_pass: 0
+  - expansion_total: 12
+  - http_429_failures: 16
+  - status: PARTIAL_SOURCE_NOT_COVERED
+- rolling_720h_last_good:
+  - checkpoint: PHYSICAL_AI_SERVING_20261115_1753
+  - oai_exact: 27248
+  - atom_unique: 11082
+- public_sync_status: PUBLIC_SYNC_PENDING
+- latest_hourly_scan: hourly/2026-11-16-0102.md

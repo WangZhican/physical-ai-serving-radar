@@ -1,11 +1,16 @@
-# Latest Scan
+# Physical AI Serving Radar
 
-- Checkpoint: PHYSICAL_AI_SERVING_20261116_0010
-- Generated: 2026-11-16T00:13:23+08:00
-- Status: PUBLIC_SYNC_VERIFIED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_18_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
-- Detailed scan: [2026-11-16 0010 CST](hourly/2026-11-16-0010.md)
-- Inventory: 391 papers; 843 valid PDF entries; 3 pending.
-- Coverage: 24h NOT_COVERED; 168h SOURCE_ONLY_NOT_COVERED; 720h last-good 17:53 retained; main-trunk primary 18/34 and expansion 0/12.
-- Candidate reviews: AgriSense 2611.16752 WATCH_ONLY; Reins 2611.16632 and DRAMA 2611.16345 HIGH_SIGNAL_WATCHLIST. No formal promotion.
-- Formal promotions: 0 this checkpoint; cumulative 1.
-- Public sync verified after the initial push; this status seal is the final master record. Automation remains Enabled / Expected-active; next future trigger not yet verified.
+Latest checkpoint: **2026-11-16 01:02 CST**
+Checkpoint ID: PHYSICAL_AI_SERVING_20261116_0102
+
+- Rolling 24h: NOT_COVERED_ZERO_EXACT (official fallback routes checked; exact-window result remains zero).
+- Rolling 168h: 1,800 unique OAI/Atom-matched IDs; SOURCE_ONLY_NOT_COVERED.
+- Main-trunk reverse lookup: 30/34 primary, 0/12 expansion; 16 HTTP 429 failures; partial.
+- Candidate review: STVLA, Rethinking Actions, and LLM Agent Makespan; no formal promotion.
+- HarnessPAI repository inspection now verifies a per-GPU model-service fleet and 35 concurrent simulator workers, but no live serving SLO.
+- Inventory: 391 papers; 845 valid PDFs; 3 pending.
+- Overall recall remains FAIL; coverage is not closed.
+
+See [hourly scan](hourly/2026-11-16-0102.md) for detailed results and [SCAN_STATUS](SCAN_STATUS.md) for machine-readable status.
+
+Public sync status: PUBLIC_SYNC_PENDING.
