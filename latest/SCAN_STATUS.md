@@ -2,7 +2,7 @@
 
 Checkpoint: PHYSICAL_AI_SERVING_20261115_1321
 
-Status: PUBLIC_SYNC_PENDING / 24H_NOT_COVERED / 168H_PARTIAL_SOURCE_NOT_COVERED / MAIN_TRUNK_0_OF_34_429_EXPANSION_NOT_RUN / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
+Status: PUBLIC_SYNC_VERIFIED / 24H_NOT_COVERED / 168H_PARTIAL_SOURCE_NOT_COVERED / MAIN_TRUNK_0_OF_34_429_EXPANSION_NOT_RUN / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
 
 Rolling 24h: OAI-PMH 0 retrieved / 0 exact; direct Atom five categories all page 1, 0 exact. Official /new 5/5 HTTP 200 / 817 IDs; /abs 35/41 HTTP 200 / 0 exact; Atom id_list HTTP 429. Latest checked version 2611.17334 is 58.37h older than the 24h window end. NOT_COVERED.
 
@@ -14,4 +14,4 @@ SYS-first: 1,962 unique / 250 high-signal / 214 unclassified. Robion 2609.12075 
 
 Inventory: 387 papers; 842 valid PDFs / 0 invalid / 3 pending. 0 new papers; 0 formal promotions. Overall recall FAIL; coverage_closed=false; SEARCHED != COVERED.
 
-Public sync pending until this heartbeat and status-seal commit are pushed and independently verified.
+Public sync verified: heartbeat commit a3842797755c03d7a83c78acf61fd8c8405c56fb; origin and explicit SSH refs/heads/master independently verified after status seal.
