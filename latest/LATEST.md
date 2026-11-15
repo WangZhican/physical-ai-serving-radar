@@ -1,7 +1,7 @@
 # Physical AI Serving Radar — Latest
 
 Checkpoint: PHYSICAL_AI_SERVING_20261116_0304
-Updated: 2026-11-16T03:50:33+08:00
+Updated: 2026-11-16T03:52:14+08:00
 Overall: RECALL_OPEN / COVERAGE_OPEN
 
 - 24h direct census: OAI 0 exact; Atom 0 unique; NOT_COVERED_ZERO_EXACT.
@@ -12,4 +12,4 @@ Overall: RECALL_OPEN / COVERAGE_OPEN
 - Paper index: 392. PDFs: 845 valid, 3 pending; full-text reviewed: 21. Formal promotions this checkpoint: 1; cumulative: 2.
 - Overall recall remains FAIL; coverage is not closed.
 
-Public sync status: PUBLIC_SYNC_VERIFIED. Heartbeat commit 584f801dacb356b25759791839a67854f18cf61d is independently verified on master; this status-seal commit records that verification.
+Public sync status: PUBLISH_PENDING_REMOTE_VERIFICATION. Publication is pending remote verification.

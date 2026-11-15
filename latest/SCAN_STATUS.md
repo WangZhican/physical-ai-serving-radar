@@ -1,7 +1,7 @@
 # Scan Status
 
 - checkpoint_id: PHYSICAL_AI_SERVING_20261116_0304
-- updated_beijing: 2026-11-16T03:50:33+08:00
+- updated_beijing: 2026-11-16T03:52:14+08:00
 - source_status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED
 - main_trunk_status: PARTIAL_SOURCE_NOT_COVERED (24/34 primary, 0/12 expansion, 22 HTTP 429)
 - candidate_status: LazyWeights SYS_ALG_BOUNDARY P4/P6; author-linked MIT repository verified; remains WATCH_ONLY
@@ -13,6 +13,5 @@
 - cumulative_formal_promotions: 2
 - overall_recall: FAIL
 - coverage_closed: false
-- public_sync_status: PUBLIC_SYNC_VERIFIED
-- public_heartbeat_commit_sha: 584f801dacb356b25759791839a67854f18cf61d
+- public_sync_status: PUBLISH_PENDING_REMOTE_VERIFICATION
 - status_seal_commit: this status-seal commit
