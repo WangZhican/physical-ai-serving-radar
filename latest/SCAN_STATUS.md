@@ -1,25 +1,25 @@
 # Scan Status
 
-Checkpoint: PHYSICAL_AI_SERVING_20261115_2259
+Checkpoint: PHYSICAL_AI_SERVING_20261116_0010
 
-Generated: 2026-11-15T23:13:37+08:00
+Generated: 2026-11-16T00:13:23+08:00
 
-Status: PUBLIC_SYNC_VERIFIED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_22_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
+Status: PUBLIC_SYNC_PENDING / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_18_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
 
-Rolling 24h: OAI 0 retrieved / 0 exact; Atom 0 unique across five mandatory categories. Official /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list HTTP 429. NOT_COVERED_ZERO_EXACT.
+Rolling 24h: OAI 0 retrieved / 0 exact; Atom 0 unique. Official fallback /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list returned 41 IDs with zero exact. NOT_COVERED_ZERO_EXACT.
 
-Rolling 168h: OAI 7693 retrieved / 4452 exact / 1833 unique; Atom 1833 unique; cs.DC 113, cs.AR 52, cs.PF 31, cs.RO 389, cs.LG 1374; all five category sets match. SOURCE_ONLY_NOT_COVERED.
+Rolling 168h: OAI 7693 retrieved / 4422 exact / 1815 unique; Atom 1815 unique; cs.DC 112, cs.AR 52, cs.PF 31, cs.RO 386, cs.LG 1358; all five category sets match. SOURCE_ONLY_NOT_COVERED.
 
-Rolling 720h: not refreshed; last-good 17:53 census retained at OAI 27,248 exact / Atom 11,082 unique.
+Rolling 720h: not refreshed; last-good 17:53 retained at OAI 27,248 exact / Atom 11,082 unique.
 
-Main-trunk: primary 22/34; expansion 0/12. 24 HTTP 429 failures; partial discovery only; reverse-only pairs 0.
+Main-trunk: primary 18/34; expansion 0/12; 28 HTTP 429 failures; partial discovery only.
 
-SYS-first: 1833 unique / 236 high-signal / 199 unclassified after review. Robion 2609.12075 and Route-8 2610.05062 remain permanent private Manifest regression seeds.
+SYS-first: 1815 unique / 235 high-signal / 197 unclassified after three full-text reviews. Robion 2609.12075 and Route-8 2610.05062 remain permanent private Manifest regression seeds.
 
-Candidate review: 2611.16889 — ALG_INSPIRATION / WATCH_ONLY, not promoted; next full-text target 2611.16752. KerColle, Streaming-WAM and HarnessPAI remain pending.
+Candidate review: AgriSense 2611.16752 WATCH_ONLY; Reins 2611.16632 and DRAMA 2611.16345 HIGH_SIGNAL_WATCHLIST. STVLA 2611.16589 and Rethinking Actions 2611.16645 abstract-only. Next full-text target 2611.16661.
 
 Inventory: 391 papers; 843 valid PDFs / 0 invalid / 3 pending. Formal promotions: 0 this checkpoint; cumulative 1. Overall recall FAIL; coverage_closed=false; SEARCHED != COVERED.
 
-Automation: Enabled / Expected-active; current run in progress; future trigger not yet verified until registry rolls forward after completion.
+Automation: Enabled / Expected-active; current Run ID in progress; future trigger not verified.
 
-Public sync verified. Heartbeat commit c550bb5d7192b8317dfb86407612b6c857b65460, status-seal commit e03970c355bd7afaef172600ce006fc50174c633, and final marker commit 009bf9e89e8ea223c8b6dfd7b3a810a51af7cfe2 were independently checked through origin ls-remote, explicit SSH ls-remote and GitHub branch API. This final public status record is the current master revision.
+Public sync: push and independent ls-remote verification pending.

@@ -1,11 +1,11 @@
 # Latest Scan
 
-- Checkpoint: PHYSICAL_AI_SERVING_20261115_2259
-- Generated: 2026-11-15T23:13:37+08:00
-- Status: PUBLIC_SYNC_VERIFIED / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_22_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
-- Detailed scan: [2026-11-15 2259 CST](hourly/2026-11-15-2259.md)
+- Checkpoint: PHYSICAL_AI_SERVING_20261116_0010
+- Generated: 2026-11-16T00:13:23+08:00
+- Status: PUBLIC_SYNC_PENDING / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_18_OF_34_EXPANSION_0_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
+- Detailed scan: [2026-11-16 0010 CST](hourly/2026-11-16-0010.md)
 - Inventory: 391 papers; 843 valid PDF entries; 3 pending.
-- Coverage: 24h NOT_COVERED; 168h SOURCE_ONLY_NOT_COVERED; 720h last-good 17:53 retained; main-trunk primary 22/34 and expansion 0/12.
-- Candidate review: 2611.16889 is ALG_INSPIRATION / WATCH_ONLY after official 11-page PDF review; no promotion. Next full-text review: 2611.16752.
+- Coverage: 24h NOT_COVERED; 168h SOURCE_ONLY_NOT_COVERED; 720h last-good 17:53 retained; main-trunk primary 18/34 and expansion 0/12.
+- Candidate reviews: AgriSense 2611.16752 WATCH_ONLY; Reins 2611.16632 and DRAMA 2611.16345 HIGH_SIGNAL_WATCHLIST. No formal promotion.
 - Formal promotions: 0 this checkpoint; cumulative 1.
-- Public sync verified. Heartbeat commit c550bb5d7192b8317dfb86407612b6c857b65460, status-seal commit e03970c355bd7afaef172600ce006fc50174c633, and final marker commit 009bf9e89e8ea223c8b6dfd7b3a810a51af7cfe2 were independently checked through origin ls-remote, explicit SSH ls-remote and GitHub branch API. This final public status record is the current master revision.
+- Public sync verification will be sealed after push. Automation remains Enabled / Expected-active; next future trigger not yet verified.
