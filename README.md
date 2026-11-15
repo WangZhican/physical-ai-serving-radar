@@ -1,6 +1,6 @@
 # Physical AI + Multimodal Serving Radar
 
-Last updated: 2026-11-16 03:50 CST (checkpoint 0304; LazyWeights repository evidence rechecked)
+Last updated: 2026-11-16 03:50 CST (checkpoint 0304; public sync verified)
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 

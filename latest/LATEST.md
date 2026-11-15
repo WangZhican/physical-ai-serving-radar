@@ -12,4 +12,4 @@ Overall: RECALL_OPEN / COVERAGE_OPEN
 - Paper index: 392. PDFs: 845 valid, 3 pending; full-text reviewed: 21. Formal promotions this checkpoint: 1; cumulative: 2.
 - Overall recall remains FAIL; coverage is not closed.
 
-Public sync status: PUBLISH_PENDING_REMOTE_VERIFICATION. Publication is pending remote verification.
+Public sync status: PUBLIC_SYNC_VERIFIED. Heartbeat commit 584f801dacb356b25759791839a67854f18cf61d is independently verified on master; this status-seal commit records that verification.
