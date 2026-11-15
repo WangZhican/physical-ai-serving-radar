@@ -14,4 +14,6 @@
 - cumulative_formal_promotions: 2
 - overall_recall: FAIL
 - coverage_closed: false
-- public_sync_status: PUBLIC_SYNC_PENDING
+- public_sync_status: PUBLIC_SYNC_VERIFIED
+- public_heartbeat_commit_sha: 9627614c66dbef6ba487de33f3d91a191764cc9d
+- status_seal_commit: this status-seal commit

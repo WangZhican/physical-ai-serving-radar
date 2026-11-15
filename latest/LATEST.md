@@ -12,4 +12,4 @@ Overall: RECALL_OPEN / COVERAGE_OPEN
 - Curated public paper index: 392. Private manifest: 395 (three new unpromoted candidates held out of the public curated index). Private PDF inventory: 846 valid, 3 pending; 24 full-text reviews.
 - Overall recall remains FAIL; coverage is not closed.
 
-Public sync status: PUBLIC_SYNC_PENDING until the current heartbeat and status seal are independently verified on master.
+Public sync status: PUBLIC_SYNC_VERIFIED. Heartbeat commit 9627614c66dbef6ba487de33f3d91a191764cc9d is independently verified on master; this status-seal commit records that verification.
