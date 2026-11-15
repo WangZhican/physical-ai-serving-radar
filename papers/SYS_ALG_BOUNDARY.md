@@ -201,3 +201,8 @@ These are not promoted to `CORE_SYS` merely because they reduce latency: the sys
 ## When Does Test-Time Search Help World Action Models? — arXiv:2610.41970 — SYS_ALG_BOUNDARY / WATCH_ONLY
 
 WAM candidate-selection and simulator-integrity audit; reports 82% identical candidate outcomes and at most 1.15x deployed end-to-end speedup from token pruning. No author-linked repository or serving runtime was verified.
+
+## Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference
+- arXiv: [2611.13644](https://arxiv.org/abs/2611.13644) · ICCAD 2026 · **SYS_ALG_BOUNDARY / WATCH_ONLY / B** · Routes 6/8.
+- Three-die 3D-PIM architecture plus UBAR out-of-order micro-op scheduling for LLM attention decoding. Reported 4.95×/2.57×/1.68× geometric-mean speedups are simulation/model results, not fabricated-silicon measurements.
+- **Why watch only:** no VLA/Physical-AI/Omni workload, no serving runtime, no measured chip and no author-linked implementation verified.

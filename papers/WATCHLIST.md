@@ -1,3 +1,10 @@
+## PHYSICAL_AI_SERVING_20261115_1549 — 2026-11-15 15:49 CST
+
+- **ALG_INSPIRATION / WATCH_ONLY — [Unbundling Multimodal Vision Encoding](https://arxiv.org/abs/2611.17334)** (arXiv v1, 2026-11-12; routes 9 and 11; priority B). In-fusion / FFN-only moves dedicated vision-only capacity into early shared-backbone layers, avoiding a separate serial image-encoder stage.
+  - Serving evidence: one H200, 16 concurrent requests; 448-pixel image + 256 text tokens. With a 1.7B backbone and 401M vision budget, TTFT falls from 210 ms to 171 ms (-18%); with a 4B backbone and 924M vision budget, 464 ms to 392 ms (-16%).
+  - **Not formally promoted:** model-architecture evidence, not a serving runtime; no VLA/WAM/robot/fleet evaluation, multi-tenant SLO or author-linked code repository verified.
+  - Evidence gate: open implementation and mixed multimodal / Physical-AI serving evaluation with throughput, tail latency, energy and SLO evidence.
+
 ## PHYSICAL_AI_SERVING_20261115_0500 — 2026-11-15 05:00 CST
 
 - **SYS_ALG_BOUNDARY / WATCH_ONLY — [LazyWeights: Decode-on-Demand Edge LLMs](https://arxiv.org/abs/2611.17108)** (arXiv v1, 2026-11-12; routes 4 and 6; priority B+). Entropy-aware GPTQ code assignment plus interleaved Huffman coding and an on-demand decoder between DRAM and L2; the official 7-page PDF/full text is SHA-validated.
@@ -219,3 +226,8 @@ Promising concepts or ecosystem artifacts that are relevant to Physical-AI servi
 - **Systems scope:** later phases explicitly add duplex evaluation/CI and session SLOs (queue/compute/transfer latency, content latency, inter-Unit gaps, jitter, deadline misses, concurrency and memory), plus session batching, duplex-specific scheduling/stage placement, CPU-overhead reduction and CUDA-graph/kernel optimization.
 - **Why watch:** together with vLLM-Omni #7181, this is strong cross-framework evidence that Omni serving is converging on reusable long-lived session/control-plane abstractions rather than per-model glue. Relevant Routes: 2/3/5/7/8/9/11.
 - **Promotion gate:** merged/released session lifecycle + persistent-KV bridge + realtime API, multi-model integration, state-isolation/cancellation/backpressure correctness, and controlled concurrency/latency/jitter/memory evaluation. Track Phase-1 #2035/#2069/#2070 first.
+
+## Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference
+- arXiv: [2611.13644](https://arxiv.org/abs/2611.13644) · ICCAD 2026 · **SYS_ALG_BOUNDARY / WATCH_ONLY / B** · Routes 6/8.
+- Three-die 3D-PIM architecture plus UBAR out-of-order micro-op scheduling for LLM attention decoding. Reported 4.95×/2.57×/1.68× geometric-mean speedups are simulation/model results, not fabricated-silicon measurements.
+- **Why watch only:** no VLA/Physical-AI/Omni workload, no serving runtime, no measured chip and no author-linked implementation verified.

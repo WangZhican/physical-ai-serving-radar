@@ -1,17 +1,21 @@
 # Scan Status
 
-Checkpoint: PHYSICAL_AI_SERVING_20261115_1321
+Checkpoint: PHYSICAL_AI_SERVING_20261115_1549
 
-Status: PUBLIC_SYNC_VERIFIED / 24H_NOT_COVERED / 168H_PARTIAL_SOURCE_NOT_COVERED / MAIN_TRUNK_0_OF_34_429_EXPANSION_NOT_RUN / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
+Status: PUBLIC_SYNC_PENDING_SSH_WRITE_TEST / 24H_NOT_COVERED / 168H_SOURCE_ONLY_NOT_COVERED / MAIN_TRUNK_PRIMARY_34_OF_34_EXPANSION_7_OF_12_PARTIAL_429 / ZERO_FORMAL_PROMOTIONS / COVERAGE_OPEN.
 
-Rolling 24h: OAI-PMH 0 retrieved / 0 exact; direct Atom five categories all page 1, 0 exact. Official /new 5/5 HTTP 200 / 817 IDs; /abs 35/41 HTTP 200 / 0 exact; Atom id_list HTTP 429. Latest checked version 2611.17334 is 58.37h older than the 24h window end. NOT_COVERED.
+Rolling 24h: OAI 0 retrieved / 0 exact; Atom 0 unique. Official /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list HTTP 200 / 41 returned / 0 exact. Latest checked version 2611.17334 at 2026-11-12T18:59:54+00:00 (59.93h older than window end). NOT_COVERED.
 
-Rolling 168h: OAI-PMH 7,693 retrieved / 4,715 exact / 1,962 unique. Atom 1,710 unique; cs.DC 123, cs.AR 56, cs.PF 35, cs.RO 405 match; cs.LG page 12 HTTP 429 (1,200 vs 1,478). PARTIAL_SOURCE_NOT_COVERED.
+Rolling 168h: OAI 7,693 retrieved / 4,673 exact / 1,937 unique; Atom 1,937 unique; all five category sets match. cs.DC 123, cs.AR 54, cs.PF 34, cs.RO 402, cs.LG 1,458; cs.LG primary-only 1,354 and cross-listed 104. SOURCE_ONLY_NOT_COVERED.
 
-Main-trunk: 0/34 primary passed; all 34 returned HTTP 429 after three attempts. 12 expansion queries NOT_RUN after the outer 600s tool timeout. Do not treat them as searched or covered.
+Main-trunk: primary 34/34; expansion 7/12; five HTTP 429 after two attempts. Search-query results are discovery-only, not exhaustive coverage.
 
-SYS-first: 1,962 unique / 250 high-signal / 214 unclassified. Robion 2609.12075 and Route-8 2610.05062 remain permanent recall regression seeds, no current-window credit.
+SYS-first: 1,937 unique / 247 high-signal / 211 unclassified. Robion 2609.12075 and Route-8 2610.05062 remain permanent recall regression seeds.
 
-Inventory: 387 papers; 842 valid PDFs / 0 invalid / 3 pending. 0 new papers; 0 formal promotions. Overall recall FAIL; coverage_closed=false; SEARCHED != COVERED.
+Candidate: 2611.17334 full 53-page official PDF reviewed; ALG_INSPIRATION/WATCH_ONLY/B, routes 9 and 11. One paper addition; existing PDF row updated; no duplicate download; no formal promotion.
 
-Public sync verified: heartbeat commit a3842797755c03d7a83c78acf61fd8c8405c56fb; origin and explicit SSH refs/heads/master independently verified after status seal.
+Inventory: 389 papers; 843 valid PDFs / 0 invalid / 3 pending. Overall recall FAIL; coverage_closed=false; SEARCHED != COVERED.
+
+Public sync pending: fixed public worktree already has Git metadata; local HEAD and remote master are both a3241b04c9167bf3dee216e5f8b306b34005579c. SSH push dry-run returned `Everything up-to-date`; selective commit/push of the verified 1549 files remains pending. GitHub connector permissions.push=false, so use the authenticated SSH route.
+
+Scheduler: Enabled / Expected-active. Current run c02c3c7b-a850-8324-af42-5c746bd4048a is in progress for the 16:00 CST slot and started at 15:57:49.476 (130.5 seconds early). Registry next_run_time equals the current slot; the next future trigger remains unverified.

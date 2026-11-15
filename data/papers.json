@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-15T12:48:50+08:00",
-  "count": 387,
+  "updated": "2026-11-15T15:49:54+08:00",
+  "count": 389,
   "papers": [
     {
       "id": "arxiv:2605.11381",
@@ -5236,6 +5236,32 @@
       "year": 2026,
       "venue": "arXiv preprint (cs.DC; cross-listed cs.AI/cs.LG)",
       "priority": "B+",
+      "status": "WATCH_ONLY"
+    },
+    {
+      "id": "arxiv:2611.13644",
+      "title": "Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference",
+      "class": "SYS_ALG_BOUNDARY",
+      "route": [
+        6,
+        8
+      ],
+      "year": 2026,
+      "venue": "ICCAD 2026",
+      "priority": "B",
+      "status": "WATCH_ONLY"
+    },
+    {
+      "id": "arxiv:2611.17334",
+      "title": "Unbundling Multimodal Vision Encoding",
+      "class": "ALG_INSPIRATION",
+      "route": [
+        9,
+        11
+      ],
+      "year": 2026,
+      "venue": "arXiv preprint (cs.CV; cs.LG)",
+      "priority": "B",
       "status": "WATCH_ONLY"
     }
   ]
