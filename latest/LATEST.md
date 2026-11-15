@@ -14,4 +14,4 @@ Overall: RECALL_OPEN / COVERAGE_OPEN
 - Public curated paper index 392; private manifest 397; private PDF inventory 848 valid, 3 pending; 26 full-text reviews.
 - Overall recall remains FAIL; coverage is not closed.
 
-Public sync status: PUBLIC_SYNC_PENDING. GitHub Contents API create_file returned HTTP 403; remote master remains baa60cec783c4f5cbdf482072e6cdd1bb97302e7 at 0400.
+Public sync status: PUBLIC_SYNC_VERIFIED. The 0557 heartbeat and SCAN_STATUS were published via the authenticated SSH Git route. Local HEAD, origin ls-remote, explicit SSH ls-remote, and GitHub branch API agree on 421fb8d226709f64f5a46806230efc1eb817e691; remote latest files were fetched and verified at 2026-11-16T06:59:02+08:00.
