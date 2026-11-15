@@ -14,4 +14,4 @@ Overall: RECALL_OPEN / COVERAGE_OPEN
 - Public curated index 392; private manifest 398; 849 valid PDFs; 3 pending; 27 full-text reviews.
 - Formal promotions this checkpoint 0; cumulative 2. Overall recall remains FAIL; coverage is not closed.
 
-Public sync status: PUBLIC_SYNC_PENDING; this 0700 heartbeat has not yet been independently verified on remote master.
+Public sync status: PUBLIC_SYNC_VERIFIED. 0700 heartbeat published via authenticated SSH Git. Local HEAD, origin ls-remote, explicit SSH ls-remote, and GitHub branch API agree on 464a7ec0d880c02fa8ff8a365f566b457aff0539 at 2026-11-16T07:12:40+08:00.

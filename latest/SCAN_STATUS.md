@@ -16,4 +16,7 @@
 - cumulative_formal_promotions: 2
 - overall_recall: FAIL
 - coverage_closed: false
-- public_sync_status: PUBLIC_SYNC_PENDING
+- public_sync_status: PUBLIC_SYNC_VERIFIED
+- public_heartbeat_commit_sha: 464a7ec0d880c02fa8ff8a365f566b457aff0539
+- public_sync_verified_at_beijing: 2026-11-16T07:12:40+08:00
+- public_sync_verification: local HEAD, origin ls-remote, explicit SSH ls-remote and GitHub branch API agree
