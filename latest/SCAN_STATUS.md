@@ -1,27 +1,28 @@
 # Scan Status
 
-- checkpoint_id: PHYSICAL_AI_SERVING_20261116_0800
-- updated_beijing: 2026-11-16T08:21:10+08:00
-- source_window_end_utc: 2026-11-16T00:02:09Z
+- checkpoint_id: PHYSICAL_AI_SERVING_20261116_0900
+- updated_beijing: 2026-11-16T09:27:31+08:00
+- source_window_end_utc: 2026-11-16T01:02:21Z
 - source_status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED
-- 24h_oai: transport PASS, 0 retrieved / 0 exact
-- 24h_atom: INCOMPLETE; cs.DC/cs.AR/cs.PF/cs.RO HTTP 429; cs.LG one page / 0 exact
+- 24h_oai: transport PASS; 0 exact
+- 24h_atom: INCOMPLETE; cs.AR timeout; cs.DC/cs.PF/cs.RO/cs.LG one page / 0 exact
 - first_party_fallback: /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list HTTP 429
-- 168h_oai: 7,693 retrieved / 4,197 exact / 1,703 unique
-- 168h_atom: INCOMPLETE / 555 unique; cs.RO 364 exact, cs.LG 200 then timeout, cs.DC timeout, cs.AR/cs.PF HTTP 429
-- main_trunk_status: PARTIAL_SOURCE_NOT_COVERED; primary 10/34, expansion 0/12, 36 failed/incomplete queries predominantly HTTP 429
-- candidate_status: 2611.15130 full-text reviewed; SYS_ALG_BOUNDARY / WATCH_ONLY; no formal promotion. Next: 2604.26963 MARS.
+- 168h_oai: 4,181 exact / 1,692 unique
+- 168h_atom: INCOMPLETE / 669 unique; cs.AR and cs.LG timeout; category equality not established
+- main_trunk_status: PARTIAL_SOURCE_NOT_COVERED; primary 21/34; expansion 2/12; 23 failed/incomplete queries
+- recall_seed: Robion arXiv:2609.12075 retained as permanent regression seed
+- candidate_status: MARS arXiv:2604.26963v3 full-text reviewed; CORE_SYS / VERIFIED candidate, not formally promoted
+- next_fulltext_candidate: arXiv:2611.16246
 - open_evidence_gates: KerColle / Streaming-WAM / HarnessPAI
 - public_curated_index_records: 392
-- private_paper_manifest_records: 399
-- valid_pdfs: 850
+- private_paper_manifest_records: 400
+- valid_pdfs: 851
 - pending_pdfs: 3
-- fulltext_reviewed_records: 28
+- fulltext_reviewed_records: 29
 - formal_promotions_this_checkpoint: 0
 - cumulative_formal_promotions: 2
 - overall_recall: FAIL
 - coverage_closed: false
-- public_sync_status: PUBLIC_SYNC_VERIFIED
-- public_heartbeat_commit_sha: 389ac759df06572b4a631126fb60610eef24842f
-- public_sync_verified_at_beijing: 2026-11-16T08:29:12+08:00
-- public_sync_verification: local HEAD, origin ls-remote, and explicit SSH ls-remote agree on heartbeat commit 389ac759df06572b4a631126fb60610eef24842f
+- public_sync_status: PUBLIC_SYNC_PENDING
+- public_remote_baseline_sha: 57bb6e92d79f1e4c2d91df46f93a197e8e310e26
+- public_sync_next_action: publish 0900 heartbeat, then independently verify remote master SHA
