@@ -1,13 +1,13 @@
 # Physical AI Serving Radar — Latest
 
-- Latest checkpoint: `PHYSICAL_AI_SERVING_20261116_2334` (2026-11-16 23:34 CST)
-- Public heartbeat: `latest/hourly/2026-11-16-2334.md`
-- Public sync: PUBLIC_SYNC_VERIFIED; heartbeat commit `c00de6c36f57a12eee521a365440aa464c474f20`.
-- 24h coverage: NOT_COVERED_ZERO_EXACT. 168h paired direct census: 1,693 unique IDs; all five mandatory category sets matched; overall coverage remains open.
-- Main-trunk reverse-neighborhood: 12/34 primary and 0/12 expansion; partial due to HTTP 429.
-- SYS-first triage: 1,693 unique / 218 high-signal / 172 unclassified.
+- Latest checkpoint: `PHYSICAL_AI_SERVING_20261117_0006` (2026-11-17 00:06 CST)
+- Public heartbeat: `latest/hourly/2026-11-17-0006.md`
+- Public sync: PUBLISHING; remote baseline SHA `11534ff7ee6e8f2296c6e9ffe3ff131500c7ff01`.
+- 24h coverage: NOT_COVERED_ZERO_EXACT. 168h paired direct census: 1682 unique IDs; all five mandatory category sets matched; overall coverage remains open.
+- Main-trunk reverse-neighborhood: 23/34 primary and 0/12 expansion; partial due to HTTP 429.
+- SYS-first triage: 1682 unique / 216 high-signal / 170 unclassified.
 - Public curated index: 392 records, unchanged. No formal promotion in this checkpoint; cumulative 2.
 - Private PDF manifest and private full-text inventory are not published.
 - Overall recall remains FAIL; coverage is not closed.
 
-See [the latest hourly scan](hourly/2026-11-16-2334.md) and [scan status](SCAN_STATUS.md).
+See [the latest hourly scan](latest/hourly/2026-11-17-0006.md) and [scan status](SCAN_STATUS.md).
