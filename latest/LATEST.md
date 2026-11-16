@@ -1,7 +1,7 @@
 # Physical AI Serving Radar — Latest
 
 Checkpoint: PHYSICAL_AI_SERVING_20261116_1400
-Updated: 2026-11-16T14:45:35+08:00
+Updated: 2026-11-16T14:47:06+08:00
 Source window end: 2026-11-16T06:03:45Z
 Overall: RECALL_OPEN / COVERAGE_OPEN
 
@@ -15,4 +15,4 @@ Overall: RECALL_OPEN / COVERAGE_OPEN
 - Public curated index: 392 unchanged. Private PDF Manifest is not published.
 - Formal promotions: 0 this checkpoint; cumulative 2. Overall recall remains FAIL; coverage is not closed.
 
-Public sync status: heartbeat and status seal are published and will be independently verified against origin and explicit SSH ls-remote.
+Public sync status: heartbeat and status seal were independently verified against origin and explicit SSH ls-remote; final remote SHA is recorded in the private checkpoint.
