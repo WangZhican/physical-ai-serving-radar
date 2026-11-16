@@ -1,7 +1,7 @@
 # Scan Status
 
 - checkpoint_id: PHYSICAL_AI_SERVING_20261116_1400
-- updated_beijing: 2026-11-16T14:26:45+08:00
+- updated_beijing: 2026-11-16T14:45:41+08:00
 - source_window_end_utc: 2026-11-16T06:03:45Z
 - source_status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED
 - 24h_oai: transport PASS; 0 retrieved / 0 exact
@@ -11,14 +11,16 @@
 - 168h_atom: INCOMPLETE; timeout after 210s
 - main_trunk_status: PARTIAL_SOURCE_NOT_COVERED; primary 14/34; expansion 0/12; 32/46 failed
 - recall_seed: Robion arXiv:2609.12075 retained; latest version outside current 24h; last-good preserved
-- candidate_status: Zero-SM NCCL 2611.18075v1 CORE_SYS candidate / A- / Routes 6,8,9 / not promoted
+- candidate_status_1: Zero-SM NCCL 2611.18075v1 CORE_SYS / A- / not promoted
+- candidate_status_2: ESI 2611.18176v1 SYS_ALG_BOUNDARY / B+ / watch-only; official PDF validated; author-linked repository 404; no serving metrics; not promoted
+- next_fulltext_candidate: 2611.18372 VLA Life-Cycle Survey
 - public_curated_index_records: 392
 - formal_promotions_this_checkpoint: 0
 - cumulative_formal_promotions: 2
 - overall_recall: FAIL
 - coverage_closed: false
 - public_sync_status: PUBLIC_SYNC_VERIFIED
-- public_heartbeat_commit_sha: 6d6ee31ec122b54ef9d62d058eae1cc6a050a5e4
+- public_heartbeat_commit_sha: bf695d4de9e30a1a2e3c8e9f753ee52d3078954d
+- public_status_seal_included_in_this_commit: true
+- public_sync_verification_method: origin ls-remote + explicit SSH ls-remote + GitHub API branch/file verification
 - private_pdf_manifest_published: false
-
-- public_sync_verification_method: origin ls-remote + explicit SSH ls-remote
