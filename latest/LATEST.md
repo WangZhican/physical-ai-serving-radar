@@ -1,18 +1,12 @@
 # Physical AI Serving Radar — Latest
 
-Checkpoint: PHYSICAL_AI_SERVING_20261116_1500
-Updated: 2026-11-16T16:03:44+08:00
-Source window end: 2026-11-16T07:04:04Z
-Overall: RECALL_OPEN / COVERAGE_OPEN
+- Latest checkpoint: `PHYSICAL_AI_SERVING_20261116_1600` (2026-11-16 16:00 CST)
+- Public heartbeat: `latest/hourly/2026-11-16-1600.md`
+- Public sync: PUBLISHING; remote baseline SHA `a1f922efe5ec00016fdf929e66acd50442b4554b`.
+- 24h coverage: NOT_COVERED_ZERO_EXACT. 168h paired direct census: 1,877 unique IDs, all five mandatory category sets matched; overall coverage remains open.
+- Main-trunk reverse-neighborhood: 11/34 primary and 0/12 expansion; partial due to HTTP 429.
+- Public curated index: 392 records, unchanged. No formal promotion in this checkpoint; cumulative 2.
+- Private PDF manifest and private full-text inventory are not published.
+- Overall recall remains FAIL; coverage is not closed.
 
-- 24h: OAI transport PASS / 0 exact; Atom INCOMPLETE / 0 exact; official /new 5/5 HTTP 200 / 373 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list HTTP 429. NOT_COVERED_ZERO_EXACT.
-- 168h: OAI 4,822 exact / 1,923 unique / 7 pages; Atom PASS 1,923 unique; all five category ID sets match exactly. Direct census paired pass; overall coverage open.
-- Main-trunk reverse-neighborhood: 18/46 passed; 28 failed (HTTP 429). SEARCHED != COVERED.
-- SYS-first triage: 1,923 unique, 242 high-signal, 196 unclassified.
-- Robion arXiv:2609.12075 remains the permanent recall-regression seed; last-good evidence preserved.
-- Full-text review: ESI 2611.18176v1, SYS_ALG_BOUNDARY / B+ / not promoted; simulation-only, no serving metrics, author-linked repository 404.
-- Next full-text review: VLA Life-Cycle Survey (2611.18372).
-- Public curated index: 392 unchanged. Private PDF Manifest is not published.
-- Formal promotions: 0 this checkpoint; cumulative 2. Overall recall remains FAIL; coverage is not closed.
-
-Public sync status: PUBLIC_SYNC_VERIFIED; heartbeat commit fad82bee929f883d6eb5439a6d276dca59231898 was independently observed through origin and explicit SSH ls-remote; status seal is included in the current publication.
+See [the latest hourly scan](hourly/2026-11-16-1600.md) and [scan status](SCAN_STATUS.md).
