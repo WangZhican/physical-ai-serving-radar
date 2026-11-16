@@ -1,22 +1,26 @@
 # Scan Status
 
-- checkpoint_id: PHYSICAL_AI_SERVING_20261116_0700
-- updated_beijing: 2026-11-16T07:10:16+08:00
-- source_window_end_utc: 2026-11-15T22:59:38Z
+- checkpoint_id: PHYSICAL_AI_SERVING_20261116_0800
+- updated_beijing: 2026-11-16T08:21:10+08:00
+- source_window_end_utc: 2026-11-16T00:02:09Z
 - source_status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED
-- main_trunk_status: NOT_COVERED_THIS_CHECKPOINT (34+12 not rerun after 0557 HTTP 429 cooldown; 0400 last-good 46/46; 0557 partial 15/34 primary, 0/12 expansion)
-- candidate_status: Snoopie (2611.16330) CORE_SYS candidate unpromoted; ICS '24 (2024) repost; author repo verified. RESYNC (2611.16523) already reviewed and WATCH_ONLY adjudicated. Next full-text: 2611.15130.
+- 24h_oai: transport PASS, 0 retrieved / 0 exact
+- 24h_atom: INCOMPLETE; cs.DC/cs.AR/cs.PF/cs.RO HTTP 429; cs.LG one page / 0 exact
+- first_party_fallback: /new 5/5 HTTP 200 / 817 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list HTTP 429
+- 168h_oai: 7,693 retrieved / 4,197 exact / 1,703 unique
+- 168h_atom: INCOMPLETE / 555 unique; cs.RO 364 exact, cs.LG 200 then timeout, cs.DC timeout, cs.AR/cs.PF HTTP 429
+- main_trunk_status: PARTIAL_SOURCE_NOT_COVERED; primary 10/34, expansion 0/12, 36 failed/incomplete queries predominantly HTTP 429
+- candidate_status: 2611.15130 full-text reviewed; SYS_ALG_BOUNDARY / WATCH_ONLY; no formal promotion. Next: 2604.26963 MARS.
 - open_evidence_gates: KerColle / Streaming-WAM / HarnessPAI
 - public_curated_index_records: 392
-- private_paper_manifest_records: 398
-- valid_pdfs: 849
+- private_paper_manifest_records: 399
+- valid_pdfs: 850
 - pending_pdfs: 3
-- fulltext_reviewed_records: 27
+- fulltext_reviewed_records: 28
 - formal_promotions_this_checkpoint: 0
 - cumulative_formal_promotions: 2
 - overall_recall: FAIL
 - coverage_closed: false
-- public_sync_status: PUBLIC_SYNC_VERIFIED
-- public_heartbeat_commit_sha: 464a7ec0d880c02fa8ff8a365f566b457aff0539
-- public_sync_verified_at_beijing: 2026-11-16T07:12:40+08:00
-- public_sync_verification: local HEAD, origin ls-remote, explicit SSH ls-remote and GitHub branch API agree
+- public_sync_status: PUBLIC_SYNC_PENDING
+- public_remote_baseline_sha: fee42c08d920b9a5ea90f8fdfcdc225d1eae4f01
+- public_sync_next_action: publish 0800 heartbeat, then independently verify remote master SHA
