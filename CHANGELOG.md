@@ -1515,3 +1515,11 @@ Public sync read-back verified for PHYSICAL_AI_SERVING_20261109_1516: scan and s
 
 - 2026-11-15 21:35 CST — hourly Physical AI serving checkpoint: refreshed 24h/168h five-category OAI/Atom census, main-trunk primary 19/34 and expansion 0/12 (27 HTTP 429 failures); added the already-reviewed 2611.17213 ALG_INSPIRATION record to the public index. Zero formal promotions; coverage remains open.
 - Public status seal verified at 2026-11-15T21:39:46+08:00: heartbeat commit c1c7c2612bac503092e35ac9ca0a1e2d68a02dfa; origin and explicit SSH refs/heads/master agree.
+
+## 2026-11-16 10:00 CST — SYS-first hourly checkpoint
+
+- Refreshed paired OAI/Atom direct census for 24h and 168h. The 24h OAI route returned zero exact-window records and Atom was incomplete; official /new and /abs fallbacks were checked but did not recover exact-window records. Keep 24h NOT_COVERED.
+- 168h OAI returned 4,628 exact / 1,866 unique; Atom returned 578 unique with category-set mismatches. Keep SOURCE_ONLY_NOT_COVERED.
+- Main-trunk reverse-neighborhood queries passed 9/34 primary and 0/12 expansion; 37 queries were failed/incomplete, mainly HTTP 429/timeouts.
+- Added public watchlist evidence for Superfluid (arXiv:2611.17753), a CORE_SYS candidate with author-linked Apache-2.0 implementation. It is not formally promoted; documentation/code durability divergence, session-restart validation, p95/p99, Physical-AI workload and independent reproduction remain open.
+- H2E (arXiv:2611.16246) remains ALG_INSPIRATION / WATCH_ONLY. Public curated index remains 392; private manifests and PDFs are not published. Zero formal promotions; coverage remains open.

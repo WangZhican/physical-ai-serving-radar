@@ -1,6 +1,6 @@
 # Physical AI + Multimodal Serving Radar
 
-Last updated: 2026-11-16 03:52 CST (checkpoint 0304; public hourly record synchronized)
+Last updated: 2026-11-16 10:00 CST (checkpoint 1000; hourly record synchronized)
 
 > SYS-first research radar for two closely related but independently organized tracks: **Physical AI Serving** and **Multimodal / Omni Efficient Serving**.
 
