@@ -1,13 +1,15 @@
 # Physical AI Serving Radar — Latest
 
-- Latest checkpoint: `PHYSICAL_AI_SERVING_20261117_0404` (2026-11-17 04:04 CST)
-- Public heartbeat: `latest/hourly/2026-11-17-0404.md`
-- Public sync: PUBLIC_SYNC_VERIFIED; heartbeat commit `5bbc96d773d3ef111f20b9e3dbadb1f2bda3cdb9`.
-- 24h coverage: NOT_COVERED_ZERO_EXACT. 168h paired direct census: 1,576 unique IDs; all five mandatory category sets matched; overall coverage remains open.
-- Main-trunk reverse-neighborhood: 6/34 primary and 0/12 expansion; 40 HTTP 429 failures.
-- SYS-first triage: 1,576 unique / 199 high-signal / 155 unclassified.
-- Public curated index: 392 records, unchanged. No formal promotion in this checkpoint; cumulative 2.
-- Private PDF manifest and private full-text inventory are not published.
-- Overall recall remains FAIL; coverage is not closed.
+- Latest checkpoint: PHYSICAL_AI_SERVING_20261117_0600
+- Generated: 2026-11-17T07:02:46+08:00
+- Public sync: PUBLIC_SYNC_PENDING
+- Heartbeat commit: PENDING
+- Latest hourly scan: [2026-11-17 06:00 CST](hourly/2026-11-17-0600.md)
+- 168h paired SYS-first census: 1,536 OAI unique / 1,536 Atom unique; all five mandatory categories match.
+- 24h exact-window: zero OAI exact; Atom incomplete; pre-announcement window, pending post-announcement recheck.
+- Main-trunk neighborhood: direct 6/46; official API fallback 40/40 query templates / 172 unique IDs; PARTIAL_FALLBACK_ONLY.
+- Candidate frontier: seven full-text checks, four new watch-only reviews, zero formal promotions this checkpoint.
+- Cumulative formal promotions: 2. Public curated index: 392 papers, unchanged.
+- Overall recall: FAIL. Coverage closed: false.
 
-See [the latest hourly scan](latest/hourly/2026-11-17-0404.md) and [scan status](SCAN_STATUS.md).
+Private PDF files, full-text artifacts and manifests are not published in this repository.
