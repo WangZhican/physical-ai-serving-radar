@@ -14,4 +14,4 @@ Overall: RECALL_OPEN / COVERAGE_OPEN
 - Public curated index: 392 unchanged. Private canonical manifest: 402 papers; 853 valid PDFs; 3 pending; 31 full-text reviews. Private PDF Manifest is not published.
 - Formal promotions this checkpoint: 0; cumulative 2. Overall recall remains FAIL; coverage is not closed.
 
-Public sync status at scan time: PUBLIC_SYNC_PENDING. Prior remote master baseline: 934eab7dcb74a4df742c182171ba676456ae68e9.
+Public sync status: PUBLIC_SYNC_VERIFIED. Heartbeat commit d50d3c87dde5e0834675c71bd88ac83165dfdfa7 and final status seal are independently confirmed on remote master at 2026-11-16T11:08:49+08:00.

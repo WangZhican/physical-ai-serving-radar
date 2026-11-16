@@ -21,6 +21,11 @@
 - cumulative_formal_promotions: 2
 - overall_recall: FAIL
 - coverage_closed: false
-- public_sync_status: PUBLIC_SYNC_PENDING
-- public_remote_baseline_sha: 934eab7dcb74a4df742c182171ba676456ae68e9
-- public_sync_next_action: publish 1000 heartbeat and candidate watchlist entry, then independently verify remote master SHA
+- public_sync_status: PUBLIC_SYNC_VERIFIED
+- public_heartbeat_commit_sha: d50d3c87dde5e0834675c71bd88ac83165dfdfa7
+- public_sync_next_action: continue coverage and candidate evidence gates; do not infer formal promotion from public sync alone
+
+- public_sync_verified_at_beijing: 2026-11-16T11:08:16+08:00
+- public_sync_verification: local HEAD, origin ls-remote and explicit SSH ls-remote independently agree on d50d3c87dde5e0834675c71bd88ac83165dfdfa7 before status seal.
+
+- public_sync_status_seal_pending_at_beijing: 2026-11-16T11:08:49+08:00
