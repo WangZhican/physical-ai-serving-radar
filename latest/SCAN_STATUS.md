@@ -1,26 +1,22 @@
 # Scan Status
 
-- checkpoint_id: PHYSICAL_AI_SERVING_20261116_1327
-- updated_beijing: 2026-11-16T14:01:18+08:00
-- source_window_end_utc: 2026-11-16T05:37:36Z
+- checkpoint_id: PHYSICAL_AI_SERVING_20261116_1400
+- updated_beijing: 2026-11-16T14:26:45+08:00
+- source_window_end_utc: 2026-11-16T06:03:45Z
 - source_status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED
 - 24h_oai: transport PASS; 0 retrieved / 0 exact
-- 24h_atom: INCOMPLETE across cs.DC/cs.AR/cs.PF/cs.RO/cs.LG; 0 unique
-- first_party_fallback: /new 5/5 HTTP 200 / 373 IDs; /abs 40/41 HTTP 200 / 0 exact; Atom id_list timed out
-- 168h_oai: 4,878 exact / 1,952 unique
-- 168h_atom: 1,952 unique / PASS; all five mandatory category sets match
-- main_trunk_status: PARTIAL_SOURCE_NOT_COVERED; primary 20/34; expansion 0/12; 26/46 failed with HTTP 429
-- recall_seed: Robion arXiv:2609.12075 retained; official /abs timeout; last-good preserved
-- candidate_status: Mutable Inference 2611.18523v1 CORE_SYS candidate / B+ / Routes 6,9 / not promoted
+- 24h_atom: INCOMPLETE; timeout after 210s, 0 pages
+- first_party_fallback: /new 5/5 HTTP 200 / 373 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list timeout
+- 168h_oai: 4,867 exact / 1,948 unique / 7 pages
+- 168h_atom: INCOMPLETE; timeout after 210s
+- main_trunk_status: PARTIAL_SOURCE_NOT_COVERED; primary 14/34; expansion 0/12; 32/46 failed
+- recall_seed: Robion arXiv:2609.12075 retained; latest version outside current 24h; last-good preserved
+- candidate_status: Zero-SM NCCL 2611.18075v1 CORE_SYS candidate / A- / Routes 6,8,9 / not promoted
 - public_curated_index_records: 392
-- private_paper_manifest_records: 405
-- valid_pdfs: 856
-- pending_pdfs: 3
-- fulltext_reviewed_records: 34
 - formal_promotions_this_checkpoint: 0
 - cumulative_formal_promotions: 2
 - overall_recall: FAIL
 - coverage_closed: false
 - public_sync_status: PUBLIC_SYNC_PENDING_STATUS_SEAL
-- public_heartbeat_commit_sha: 2092b20dbd34ca5dafe9c8cd6268d80feba39f8d
+- public_heartbeat_commit_sha: 6d6ee31ec122b54ef9d62d058eae1cc6a050a5e4
 - private_pdf_manifest_published: false
