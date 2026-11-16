@@ -1,7 +1,7 @@
 # Scan Status
 
 - checkpoint_id: PHYSICAL_AI_SERVING_20261116_1400
-- updated_beijing: 2026-11-16T14:45:41+08:00
+- updated_beijing: 2026-11-16T14:47:11+08:00
 - source_window_end_utc: 2026-11-16T06:03:45Z
 - source_status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED
 - 24h_oai: transport PASS; 0 retrieved / 0 exact
@@ -21,6 +21,7 @@
 - coverage_closed: false
 - public_sync_status: PUBLIC_SYNC_VERIFIED
 - public_heartbeat_commit_sha: bf695d4de9e30a1a2e3c8e9f753ee52d3078954d
+- public_latest_status_correction_commit_sha: 77da8c2e9ca93eec7b8083c1287e3745c0a24d9d
 - public_status_seal_included_in_this_commit: true
 - public_sync_verification_method: origin ls-remote + explicit SSH ls-remote + GitHub API branch/file verification
 - private_pdf_manifest_published: false
