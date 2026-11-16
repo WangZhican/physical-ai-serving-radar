@@ -2,8 +2,8 @@
 
 - Latest checkpoint: PHYSICAL_AI_SERVING_20261117_0600
 - Generated: 2026-11-17T07:02:46+08:00
-- Public sync: PUBLIC_SYNC_PENDING
-- Heartbeat commit: PENDING
+- Public sync: PUBLIC_SYNC_VERIFIED
+- Heartbeat commit: f254fb427f7899839ce76c32cc78d24fcfb752ad
 - Latest hourly scan: [2026-11-17 06:00 CST](hourly/2026-11-17-0600.md)
 - 168h paired SYS-first census: 1,536 OAI unique / 1,536 Atom unique; all five mandatory categories match.
 - 24h exact-window: zero OAI exact; Atom incomplete; pre-announcement window, pending post-announcement recheck.
