@@ -1,18 +1,17 @@
 # Scan Status
 
-- checkpoint_id: PHYSICAL_AI_SERVING_20261116_1400
-- updated_beijing: 2026-11-16T14:47:11+08:00
-- source_window_end_utc: 2026-11-16T06:03:45Z
-- source_status: 24H_NOT_COVERED_ZERO_EXACT / 168H_SOURCE_ONLY_NOT_COVERED
+- checkpoint_id: PHYSICAL_AI_SERVING_20261116_1500
+- updated_beijing: 2026-11-16T16:03:53+08:00
+- source_window_end_utc: 2026-11-16T07:04:04Z
+- source_status: 24H_NOT_COVERED_ZERO_EXACT / 168H_PAIRED_DIRECT_CENSUS_PASS_OVERALL_COVERAGE_OPEN
 - 24h_oai: transport PASS; 0 retrieved / 0 exact
-- 24h_atom: INCOMPLETE; timeout after 210s, 0 pages
-- first_party_fallback: /new 5/5 HTTP 200 / 373 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list timeout
-- 168h_oai: 4,867 exact / 1,948 unique / 7 pages
-- 168h_atom: INCOMPLETE; timeout after 210s
-- main_trunk_status: PARTIAL_SOURCE_NOT_COVERED; primary 14/34; expansion 0/12; 32/46 failed
+- 24h_atom: INCOMPLETE; five category pages, 0 exact
+- first_party_fallback: /new 5/5 HTTP 200 / 373 IDs; /abs 41/41 HTTP 200 / 0 exact; Atom id_list HTTP 429
+- 168h_oai: 4,822 exact / 1,923 unique / 7 pages
+- 168h_atom: PASS; 1,923 unique; all five category ID sets equal
+- main_trunk_status: PARTIAL_SOURCE_NOT_COVERED; primary 18/34; expansion 0/12; total 18/46 passed, 28 failed HTTP 429
 - recall_seed: Robion arXiv:2609.12075 retained; latest version outside current 24h; last-good preserved
-- candidate_status_1: Zero-SM NCCL 2611.18075v1 CORE_SYS / A- / not promoted
-- candidate_status_2: ESI 2611.18176v1 SYS_ALG_BOUNDARY / B+ / watch-only; official PDF validated; author-linked repository 404; no serving metrics; not promoted
+- candidate_status: ESI 2611.18176v1 SYS_ALG_BOUNDARY / B+ / unpromoted; simulation-only; no serving metrics; author-linked repository 404
 - next_fulltext_candidate: 2611.18372 VLA Life-Cycle Survey
 - public_curated_index_records: 392
 - formal_promotions_this_checkpoint: 0
@@ -20,8 +19,7 @@
 - overall_recall: FAIL
 - coverage_closed: false
 - public_sync_status: PUBLIC_SYNC_VERIFIED
-- public_heartbeat_commit_sha: bf695d4de9e30a1a2e3c8e9f753ee52d3078954d
-- public_latest_status_correction_commit_sha: 77da8c2e9ca93eec7b8083c1287e3745c0a24d9d
+- public_heartbeat_commit_sha: fad82bee929f883d6eb5439a6d276dca59231898
 - public_status_seal_included_in_this_commit: true
-- public_sync_verification_method: origin ls-remote + explicit SSH ls-remote + GitHub API branch/file verification
+- public_sync_verification_method: origin ls-remote + explicit SSH ls-remote + GitHub Branch API
 - private_pdf_manifest_published: false

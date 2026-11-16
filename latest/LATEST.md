@@ -15,4 +15,4 @@ Overall: RECALL_OPEN / COVERAGE_OPEN
 - Public curated index: 392 unchanged. Private PDF Manifest is not published.
 - Formal promotions: 0 this checkpoint; cumulative 2. Overall recall remains FAIL; coverage is not closed.
 
-Public sync status: PUBLIC_SYNC_PENDING; heartbeat and status publication await independent verification.
+Public sync status: PUBLIC_SYNC_VERIFIED; heartbeat commit fad82bee929f883d6eb5439a6d276dca59231898 was independently observed through origin, explicit SSH and GitHub Branch API; status seal is included in the current publication.
