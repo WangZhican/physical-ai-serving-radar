@@ -17,6 +17,8 @@
 - cumulative_formal_promotions: 2
 - overall_recall: FAIL
 - coverage_closed: false
-- public_sync_status: PUBLIC_SYNC_PENDING_STATUS_SEAL
+- public_sync_status: PUBLIC_SYNC_VERIFIED
 - public_heartbeat_commit_sha: 6d6ee31ec122b54ef9d62d058eae1cc6a050a5e4
 - private_pdf_manifest_published: false
+
+- public_sync_verification_method: origin ls-remote + explicit SSH ls-remote
