@@ -1,17 +1,16 @@
 # Physical AI Serving Radar — Latest
 
-Checkpoint: PHYSICAL_AI_SERVING_20261116_1200
-Updated: 2026-11-16T12:44:53+08:00
-Source window end: 2026-11-16T04:02:00Z
+Checkpoint: PHYSICAL_AI_SERVING_20261116_1327
+Updated: 2026-11-16T14:01:18+08:00
+Source window end: 2026-11-16T05:37:36Z
 Overall: RECALL_OPEN / COVERAGE_OPEN
 
-- 24h direct census: OAI transport PASS, 0 exact; Atom INCOMPLETE across cs.DC/cs.AR/cs.PF/cs.RO/cs.LG. Official /new 5/5 HTTP 200 / 398 IDs; /abs 39/41 HTTP 200 / 0 exact; Atom id_list HTTP 429. NOT_COVERED_ZERO_EXACT.
-- 168h direct census: OAI 8,604 retrieved / 4,942 exact / 1,984 unique; Atom INCOMPLETE / 0 returned. SOURCE_ONLY_NOT_COVERED.
-- Main-trunk reverse-neighborhood: primary 0/34; expansion 0/12. All 46 failed or incomplete, mostly HTTP 429/timeouts. SEARCHED != COVERED.
-- SYS-first triage: 1,984 unique, 251 high-signal, 208 high-signal unclassified. Robion arXiv:2609.12075 remains the permanent recall-regression seed.
-- Full-text review: ForeSpark (arXiv:2611.13442v2), CORE_SYS candidate / A- / Routes 6/8/9; author-linked repo inspected, predominantly CC-BY-NC-4.0; not promoted.
-- Full-text review: Callo (arXiv:2611.18459v1), CORE_SYS candidate / B+ / Routes 5/9; no author-linked repo found; not promoted.
-- Public curated index: 392 unchanged. Private canonical manifest: 404 papers; 855 valid PDFs; 3 pending; 33 full-text reviews. Private PDF Manifest is not published.
+- 24h direct census: OAI transport PASS / 0 exact; Atom INCOMPLETE / 0 records. Official /new 5/5 HTTP 200 / 373 IDs; /abs 40/41 HTTP 200 / 0 exact; Atom id_list timed out. NOT_COVERED_ZERO_EXACT.
+- 168h direct census: OAI 4,878 exact / 1,952 unique; Atom 1,952 unique / PASS; all five mandatory category sets match. Direct census PASS only; overall systems/source coverage remains IN_PROGRESS.
+- Main-trunk reverse-neighborhood: primary 20/34; expansion 0/12; 26/46 failed with HTTP 429. SEARCHED != COVERED.
+- SYS-first triage: 1,952 unique, 246 high-signal, 201 high-signal unclassified. Robion arXiv:2609.12075 remains the permanent recall-regression seed; official /abs retry timed out and last-good evidence is preserved.
+- Full-text review: Mutable Inference (arXiv:2611.18523v1), CORE_SYS candidate / B+ / Routes 6,9; official 14-page PDF validated. No batched serving, autoregressive decoding, Physical-AI workload, action-loop SLO, author-linked public RTL or physical-silicon evidence; not promoted.
+- Public curated index: 392 unchanged. Private canonical manifest: 405 papers; 856 valid PDFs; 3 pending; 34 full-text reviews. Private PDF Manifest is not published.
 - Formal promotions this checkpoint: 0; cumulative 2. Overall recall remains FAIL; coverage is not closed.
 
-Public sync status: PUBLIC_SYNC_VERIFIED. Heartbeat commit f6c9343397bb87698f4b4bff69bcd2bcadecf5b5 was pushed; final status seal is committed separately and independently verified on remote master.
+Public sync status: heartbeat commit 2092b20dbd34ca5dafe9c8cd6268d80feba39f8d was pushed; final status seal is pending independent remote verification.
