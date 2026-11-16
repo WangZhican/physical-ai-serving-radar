@@ -20,6 +20,8 @@
 - coverage_closed: false
 - public_sync_status: PUBLIC_SYNC_VERIFIED
 - public_heartbeat_commit_sha: fad82bee929f883d6eb5439a6d276dca59231898
-- public_status_seal_included_in_this_commit: true
+- public_status_seal_commit_sha: e3fc349017b5645cca6423da8549ac3341892589
+- public_status_seal_included_in_publication: true
+- public_sync_verification_correction_commit_sha: e218a632b7d8d386fb5e9c74a305eb7943fec5df
 - public_sync_verification_method: origin ls-remote + explicit SSH ls-remote
 - private_pdf_manifest_published: false
