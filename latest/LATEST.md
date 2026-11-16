@@ -2,7 +2,7 @@
 
 - Latest checkpoint: `PHYSICAL_AI_SERVING_20261117_0006` (2026-11-17 00:06 CST)
 - Public heartbeat: `latest/hourly/2026-11-17-0006.md`
-- Public sync: PUBLISHING; remote baseline SHA `11534ff7ee6e8f2296c6e9ffe3ff131500c7ff01`.
+- Public sync: PUBLIC_SYNC_VERIFIED; heartbeat commit `33c5db84cbf1ea09bfc0713a82d0d99a486756b4`.
 - 24h coverage: NOT_COVERED_ZERO_EXACT. 168h paired direct census: 1682 unique IDs; all five mandatory category sets matched; overall coverage remains open.
 - Main-trunk reverse-neighborhood: 23/34 primary and 0/12 expansion; partial due to HTTP 429.
 - SYS-first triage: 1682 unique / 216 high-signal / 170 unclassified.
