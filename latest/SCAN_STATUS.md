@@ -21,6 +21,7 @@
 - cumulative_formal_promotions: 2
 - overall_recall: FAIL
 - coverage_closed: false
-- public_sync_status: PUBLIC_SYNC_PENDING
-- public_remote_baseline_sha: fee42c08d920b9a5ea90f8fdfcdc225d1eae4f01
-- public_sync_next_action: publish 0800 heartbeat, then independently verify remote master SHA
+- public_sync_status: PUBLIC_SYNC_VERIFIED
+- public_heartbeat_commit_sha: 389ac759df06572b4a631126fb60610eef24842f
+- public_sync_verified_at_beijing: 2026-11-16T08:29:12+08:00
+- public_sync_verification: local HEAD, origin ls-remote, and explicit SSH ls-remote agree on heartbeat commit 389ac759df06572b4a631126fb60610eef24842f

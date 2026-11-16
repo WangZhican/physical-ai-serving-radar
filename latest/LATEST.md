@@ -13,4 +13,4 @@ Overall: RECALL_OPEN / COVERAGE_OPEN
 - Public curated index: 392. Private canonical manifest: 399 papers; 850 valid PDFs; 3 pending; 28 full-text reviews. The public index remains a separately curated subset.
 - Formal promotions this checkpoint: 0; cumulative 2. Overall recall remains FAIL; coverage is not closed.
 
-Public sync status at scan time: PUBLIC_SYNC_PENDING. Remote master baseline: fee42c08d920b9a5ea90f8fdfcdc225d1eae4f01. This checkpoint is not yet published.
+Public sync status: PUBLIC_SYNC_VERIFIED. Heartbeat commit 389ac759df06572b4a631126fb60610eef24842f was pushed via the existing authenticated SSH route; independent origin ls-remote and explicit SSH ls-remote agree at 2026-11-16T08:29:12+08:00.
