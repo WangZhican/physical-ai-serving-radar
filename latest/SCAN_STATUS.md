@@ -1,42 +1,42 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261118_0500
-generated_beijing: 2026-11-18T05:20:29+08:00
-local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_0500
-public_sync_status: PUBLIC_SYNC_VERIFIED
+checkpoint_id: PHYSICAL_AI_SERVING_20261118_0600
+generated_beijing: 2026-11-18T06:24:14+08:00
+local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_0600
+public_sync_status: PUBLIC_SYNC_PENDING
 remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_0500
-remote_default_branch_sha_before: 37f4f0dc41a3b782ea8035a533ebab8d04d08b52
-remote_default_branch_sha_after_heartbeat: d779f6d13fbd361a1aac4ed5e34a46d62f4ac7ab
+remote_default_branch_sha_before: b3106288ce8efb8a87bda15698446820403e644a
+remote_default_branch_sha_after: b3106288ce8efb8a87bda15698446820403e644a
 remote_sha_rechecked_before_write: true
-remote_sha_advanced: true
+remote_sha_advanced: false
 local_git_metadata_available: true
 github_push_permission: false
-push_attempted: true
-push_blocker: none; heartbeat push independently verified; status seal is this commit
+push_attempted: false
+push_blocker: scoped SSH heartbeat/status-seal push and independent verification pending
 rolling_24h_status: NOT_COVERED_ZERO_EXACT
 rolling_24h_oai_exact: 0
 rolling_24h_oai_unique: 0
 rolling_24h_atom_unique: 0
 rolling_24h_atom_status: INCOMPLETE_EMPTY_WINDOW
 rolling_168h_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
-rolling_168h_oai_exact: 5221
-rolling_168h_oai_unique: 2070
-rolling_168h_atom_unique: 2070
+rolling_168h_oai_exact: 5181
+rolling_168h_oai_unique: 2051
+rolling_168h_atom_unique: 2051
 five_category_sets_equal_168h: true
 cs_lg_24h_status: NOT_COVERED_SOURCE_INCOMPLETE
 cs_lg_168h_status: PASS_SOURCE_METADATA_ONLY
-cs_lg_168h_crosslisted_unique: 902
-cs_lg_168h_crosslisted_with_dc_ar_pf_ro: 117
+cs_lg_168h_crosslisted_unique: 895
+cs_lg_168h_crosslisted_with_dc_ar_pf_ro: 115
 main_trunk_status: PARTIAL_SOURCE_NOT_COVERED
 main_trunk_query_total: 46
-main_trunk_query_pass: 30
-main_trunk_query_failed: 16
+main_trunk_query_pass: 19
+main_trunk_query_failed: 27
 main_trunk_failure_reason: HTTP 429
-main_trunk_unique_in_window: 96
+main_trunk_unique_in_window: 95
 main_trunk_unique_not_in_direct_census: 27
-sys_triage_unique_ids: 2070
-sys_triage_high_signal: 257
-sys_triage_unclassified: 217
+sys_triage_unique_ids: 2051
+sys_triage_high_signal: 254
+sys_triage_unclassified: 214
 candidate_abs_verified: 8/8
 candidate_fulltext_reviews_this_checkpoint: 0
 formal_promotions_this_checkpoint: 0
@@ -45,7 +45,3 @@ overall_recall: FAIL
 coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
-
-heartbeat_commit_sha: d779f6d13fbd361a1aac4ed5e34a46d62f4ac7ab
-status_seal_commit: included_in_this_commit
-private_canonical_records_final_status_seal_sha: true
