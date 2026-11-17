@@ -1,21 +1,24 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261117_1200
-generated_beijing: 2026-11-17T13:20:49+08:00
-public_sync_status: PUBLISHED
-rolling_24h_status: NOT_COVERED_ZERO_EXACT_POST_ANNOUNCEMENT_SOURCE_ANOMALY
-rolling_168h_status: PAIR_MISMATCH_NOT_COVERED
-rolling_168h_oai_unique: 1992
-rolling_168h_atom_unique: 1935
-rolling_168h_oai_only_category_pairs: 61
-cs_lg_fallback_status: PARTIAL_FIRST_PARTY_NEW_ABS_NOT_COVERED
-cs_lg_crosslist_status: NOT_COVERED_NOT_ATTEMPTED
+checkpoint_id: PHYSICAL_AI_SERVING_20261117_1600
+generated_beijing: 2026-11-17T18:21:32+08:00
+public_sync_status: PUBLIC_SYNC_PENDING_STATUS_SEAL
+rolling_24h_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_OVERALL_OPEN
+rolling_24h_oai_exact: 688
+rolling_24h_oai_unique: 256
+rolling_24h_atom_unique: 256
+rolling_168h_status: SOURCE_ONLY_NOT_COVERED_ATOM_TIMEOUT
+rolling_168h_oai_exact: 5854
+rolling_168h_oai_unique: 2322
+rolling_168h_atom_status: MISSING_TIMEOUT
 main_trunk_status: PARTIAL_SOURCE_NOT_COVERED
-main_trunk_direct_pass: 13
+main_trunk_direct_pass: 22
 main_trunk_direct_total: 46
-main_trunk_http_429: 33
+main_trunk_http_429: 24
+cs_lg_crosslist_status: NOT_COVERED_NOT_ATTEMPTED
 formal_promotions_this_checkpoint: 0
 formal_promotions_cumulative: 2
 public_curated_index_count: 392
 overall_recall: FAIL
 coverage_closed: false
+heartbeat_commit: PENDING
