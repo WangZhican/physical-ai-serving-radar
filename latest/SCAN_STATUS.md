@@ -1,20 +1,21 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261117_1000
-generated_beijing: 2026-11-17T11:01:33+08:00
-public_sync_status: PUBLIC_SYNC_VERIFIED
+checkpoint_id: PHYSICAL_AI_SERVING_20261117_1200
+generated_beijing: 2026-11-17T13:20:49+08:00
+public_sync_status: PUBLIC_SYNC_PENDING
 rolling_24h_status: NOT_COVERED_ZERO_EXACT_POST_ANNOUNCEMENT_SOURCE_ANOMALY
 rolling_168h_status: PAIR_MISMATCH_NOT_COVERED
-rolling_168h_oai_unique: 1664
-rolling_168h_atom_unique: 1613
-rolling_168h_oai_only_category_pairs: 53
+rolling_168h_oai_unique: 1992
+rolling_168h_atom_unique: 1935
+rolling_168h_oai_only_category_pairs: 61
+cs_lg_fallback_status: PARTIAL_FIRST_PARTY_NEW_ABS_NOT_COVERED
+cs_lg_crosslist_status: NOT_COVERED_NOT_ATTEMPTED
 main_trunk_status: PARTIAL_SOURCE_NOT_COVERED
-main_trunk_direct_pass: 16
+main_trunk_direct_pass: 13
 main_trunk_direct_total: 46
-main_trunk_http_429: 30
+main_trunk_http_429: 33
 formal_promotions_this_checkpoint: 0
 formal_promotions_cumulative: 2
 public_curated_index_count: 392
 overall_recall: FAIL
 coverage_closed: false
-heartbeat_commit: bef8c58a6dff0c8921be3b37ab4c1a426fc6d4da
