@@ -1,14 +1,20 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261117_0800
-generated_beijing: 2026-11-17T08:25:06+08:00
-public_sync_status: PUBLIC_SYNC_VERIFIED
-rolling_24h_status: NOT_COVERED_ZERO_EXACT
-rolling_168h_status: PAIRED_DIRECT_CENSUS_PASS
+checkpoint_id: PHYSICAL_AI_SERVING_20261117_1000
+generated_beijing: 2026-11-17T11:01:33+08:00
+public_sync_status: PUBLIC_SYNC_PENDING_STATUS_SEAL
+rolling_24h_status: NOT_COVERED_ZERO_EXACT_POST_ANNOUNCEMENT_SOURCE_ANOMALY
+rolling_168h_status: PAIR_MISMATCH_NOT_COVERED
+rolling_168h_oai_unique: 1664
+rolling_168h_atom_unique: 1613
+rolling_168h_oai_only_category_pairs: 53
 main_trunk_status: PARTIAL_SOURCE_NOT_COVERED
-overall_recall: FAIL
-coverage_closed: false
+main_trunk_direct_pass: 16
+main_trunk_direct_total: 46
+main_trunk_http_429: 30
 formal_promotions_this_checkpoint: 0
 formal_promotions_cumulative: 2
 public_curated_index_count: 392
-heartbeat_commit: ad5d820cb77a600292feff71532f853860532b9f
+overall_recall: FAIL
+coverage_closed: false
+heartbeat_commit: PENDING
