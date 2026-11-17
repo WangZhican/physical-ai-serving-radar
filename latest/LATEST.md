@@ -2,8 +2,9 @@
 
 - Latest checkpoint: PHYSICAL_AI_SERVING_20261117_2100
 - Generated: 2026-11-17T22:43:00+08:00
-- Public sync: PUBLIC_SYNC_PENDING (push and independent remote verification pending)
-- Previous verified remote master: 33f088391ad7fc36a128acf450af5d9722388a99
+- Public sync: PUBLIC_SYNC_VERIFIED
+- Heartbeat commit: 2fdd0ccdb913ab2d220ec70ddce0f78b4ea84036
+- Status seal: this LATEST/SCAN_STATUS update is the public status-seal commit; remote master SHA is independently verified after push.
 - Latest hourly scan: [2026-11-17 21:00 CST](hourly/2026-11-17-2100.md)
 - 24h paired direct census: OAI 171 unique; Atom 171 unique; all five category sets match; OAI exact-window 435; PASS.
 - 168h paired direct census: OAI 2,231 unique; Atom 2,231 unique; all five category sets match; OAI exact-window 5,619; PASS.
