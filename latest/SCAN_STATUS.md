@@ -2,7 +2,9 @@
 
 checkpoint_id: PHYSICAL_AI_SERVING_20261117_2000
 generated_beijing: 2026-11-17T20:36:54+08:00
-public_sync_status: PUBLIC_SYNC_PENDING_FINAL_SEAL
+public_sync_status: PUBLIC_SYNC_VERIFIED
+heartbeat_commit: 62a63a742120cbe5b7b00a48f1f73b6a4f169056
+status_seal: this status update is included in the final public sync seal; verify remote master after push
 rolling_24h_status: OAI_PASS_ATOM_INCOMPLETE_NOT_COVERED
 rolling_24h_oai_pages: 3
 rolling_24h_oai_retrieved: 3741
@@ -41,4 +43,3 @@ formal_promotions_cumulative: 2
 public_curated_index_count: 392
 overall_recall: FAIL
 coverage_closed: false
-heartbeat_commit: pending final status seal

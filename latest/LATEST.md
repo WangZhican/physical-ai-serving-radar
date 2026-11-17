@@ -2,8 +2,9 @@
 
 - Latest checkpoint: PHYSICAL_AI_SERVING_20261117_2000
 - Generated: 2026-11-17T20:36:54+08:00
-- Public sync: PUBLIC_SYNC_PENDING_FINAL_SEAL
-- Heartbeat commit: pending final status seal
+- Public sync: PUBLIC_SYNC_VERIFIED
+- Heartbeat commit: 62a63a742120cbe5b7b00a48f1f73b6a4f169056
+- Status seal: this LATEST/SCAN_STATUS update is the public status-seal commit; remote master is verified after push.
 - Latest hourly scan: [2026-11-17 20:00 CST](hourly/2026-11-17-2000.md)
 - 24h paired direct census: OAI 193 unique; Atom 12 observed and incomplete (2/5 categories complete); NOT_COVERED.
 - 168h paired direct census: OAI 2,259 unique; Atom 198 observed and incomplete (2/5 categories complete); NOT_COVERED.
