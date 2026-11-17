@@ -1,24 +1,44 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261117_1600
-generated_beijing: 2026-11-17T18:21:32+08:00
-public_sync_status: PUBLIC_SYNC_VERIFIED
-rolling_24h_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_OVERALL_OPEN
-rolling_24h_oai_exact: 688
-rolling_24h_oai_unique: 256
-rolling_24h_atom_unique: 256
-rolling_168h_status: SOURCE_ONLY_NOT_COVERED_ATOM_TIMEOUT
-rolling_168h_oai_exact: 5854
-rolling_168h_oai_unique: 2322
-rolling_168h_atom_status: MISSING_TIMEOUT
+checkpoint_id: PHYSICAL_AI_SERVING_20261117_2000
+generated_beijing: 2026-11-17T20:36:54+08:00
+public_sync_status: PUBLIC_SYNC_PENDING_FINAL_SEAL
+rolling_24h_status: OAI_PASS_ATOM_INCOMPLETE_NOT_COVERED
+rolling_24h_oai_pages: 3
+rolling_24h_oai_retrieved: 3741
+rolling_24h_oai_exact: 513
+rolling_24h_oai_unique: 193
+rolling_24h_atom_status: INCOMPLETE
+rolling_24h_atom_observed: 12
+rolling_24h_atom_completed_categories: 2/5
+rolling_24h_atom_errors: cs.PF HTTP 429; cs.RO and cs.LG read timeouts
+rolling_168h_status: OAI_PASS_ATOM_INCOMPLETE_NOT_COVERED
+rolling_168h_oai_pages: 8
+rolling_168h_oai_retrieved: 9966
+rolling_168h_oai_exact: 5688
+rolling_168h_oai_unique: 2259
+rolling_168h_atom_status: INCOMPLETE
+rolling_168h_atom_observed: 198
+rolling_168h_atom_completed_categories: 2/5
+rolling_168h_atom_errors: cs.PF, cs.RO and cs.LG read timeouts
+oai_nested_subset_status: PASS
+oai_nested_subset_missing_pairs: 0
+atom_nested_subset_status: NOT_ASSESSABLE_SOURCE_INCOMPLETE
 main_trunk_status: PARTIAL_SOURCE_NOT_COVERED
-main_trunk_direct_pass: 22
-main_trunk_direct_total: 46
-main_trunk_http_429: 24
+main_trunk_prior_1800_primary_pass: 21
+main_trunk_prior_1800_primary_total: 34
+main_trunk_prior_1800_expansion_pass: 0
+main_trunk_prior_1800_expansion_total: 12
+main_trunk_retry_2000_pass: 13
+main_trunk_retry_2000_total: 25
+main_trunk_retry_2000_failed: 12
+main_trunk_full_46_replay: false
 cs_lg_crosslist_status: NOT_COVERED_NOT_ATTEMPTED
+candidate_abs_verified: 8/8
+candidate_fulltext_reviews_this_checkpoint: 0
 formal_promotions_this_checkpoint: 0
 formal_promotions_cumulative: 2
 public_curated_index_count: 392
 overall_recall: FAIL
 coverage_closed: false
-heartbeat_commit: c324fa3064f05d761ef6963f27b0d4a7b8a488cc
+heartbeat_commit: pending final status seal
