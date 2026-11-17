@@ -2,7 +2,7 @@
 
 checkpoint_id: PHYSICAL_AI_SERVING_20261117_1200
 generated_beijing: 2026-11-17T13:20:49+08:00
-public_sync_status: PUBLIC_SYNC_PENDING
+public_sync_status: PUBLISHED
 rolling_24h_status: NOT_COVERED_ZERO_EXACT_POST_ANNOUNCEMENT_SOURCE_ANOMALY
 rolling_168h_status: PAIR_MISMATCH_NOT_COVERED
 rolling_168h_oai_unique: 1992
