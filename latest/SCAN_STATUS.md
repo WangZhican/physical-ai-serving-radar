@@ -2,8 +2,9 @@
 
 checkpoint_id: PHYSICAL_AI_SERVING_20261117_2300
 generated_beijing: 2026-11-17T23:15:47+08:00
-public_sync_status: PUBLIC_SYNC_PENDING
-previous_verified_remote_master_sha: 1ff5a3033603d24b3bd7e747ef994d3b66ecf936
+public_sync_status: PUBLIC_SYNC_VERIFIED
+heartbeat_commit: 14449e82063c1088c00bea087c6b0100d980a1ab
+status_seal: this update is the status-seal commit; final remote master is independently verified after push
 rolling_24h_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
 rolling_24h_oai_pages: 3
 rolling_24h_oai_retrieved: 3741
