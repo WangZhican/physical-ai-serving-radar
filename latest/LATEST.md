@@ -2,8 +2,8 @@
 
 - Latest checkpoint: PHYSICAL_AI_SERVING_20261117_1600
 - Generated: 2026-11-17T18:21:32+08:00
-- Public sync: PUBLIC_SYNC_PENDING_STATUS_SEAL
-- Heartbeat commit: PENDING
+- Public sync: PUBLIC_SYNC_VERIFIED
+- Heartbeat commit: c324fa3064f05d761ef6963f27b0d4a7b8a488cc
 - Latest hourly scan: [2026-11-17 16:00 CST](hourly/2026-11-17-1600.md)
 - 24h paired direct census: 256 OAI / 256 Atom unique; all five mandatory category sets match.
 - 168h OAI: 2,322 unique; direct Atom timed out twice, so paired coverage remains NOT_COVERED.

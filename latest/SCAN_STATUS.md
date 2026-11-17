@@ -2,7 +2,7 @@
 
 checkpoint_id: PHYSICAL_AI_SERVING_20261117_1600
 generated_beijing: 2026-11-17T18:21:32+08:00
-public_sync_status: PUBLIC_SYNC_PENDING_STATUS_SEAL
+public_sync_status: PUBLIC_SYNC_VERIFIED
 rolling_24h_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_OVERALL_OPEN
 rolling_24h_oai_exact: 688
 rolling_24h_oai_unique: 256
@@ -21,4 +21,4 @@ formal_promotions_cumulative: 2
 public_curated_index_count: 392
 overall_recall: FAIL
 coverage_closed: false
-heartbeat_commit: PENDING
+heartbeat_commit: c324fa3064f05d761ef6963f27b0d4a7b8a488cc
