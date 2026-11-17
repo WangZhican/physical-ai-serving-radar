@@ -1,19 +1,16 @@
 # Physical AI Serving Radar — Latest
 
-- Latest checkpoint: PHYSICAL_AI_SERVING_20261117_2300
-- Generated: 2026-11-17T23:15:47+08:00
-- Public sync: PUBLIC_SYNC_VERIFIED
-- Heartbeat commit: 14449e82063c1088c00bea087c6b0100d980a1ab
-- Status seal: this LATEST/SCAN_STATUS update is the status-seal commit; final remote master is independently verified after push.
-- Latest hourly scan: [2026-11-17 23:00 CST](hourly/2026-11-17-2300.md)
-- Rolling 24h paired direct census: OAI 127 unique; Atom 127 unique; 315 OAI exact; 5/5 category sets match.
-- Rolling 168h paired direct census: OAI 2,193 unique; Atom 2,193 unique; 5,525 OAI exact; 5/5 category sets match.
-- Nested 24h-to-168h subset checks: PASS, 0 missing IDs.
-- Main-trunk neighborhood: 9/46 queries succeeded; 37 HTTP 429 failures; 85 unique in-window IDs, 23 outside direct census. PARTIAL_SOURCE_NOT_COVERED.
-- Dedicated cs.LG cross-list/category-metadata reconciliation: NOT_COVERED_NOT_ATTEMPTED.
-- SYS-first triage: 268 high-signal and 223 unclassified among 2,193 unique IDs.
-- Candidate evidence: 8/8 official /abs metadata checks; no PDF/full-text reviews; 0 formal promotions this checkpoint.
-- Cumulative formal promotions: 2. Public curated index: 392 papers, unchanged.
-- Overall recall: FAIL. Coverage closed: false.
-
-Private PDF files, full-text artifacts and manifests are not published in this repository.
+- Latest local-mirror checkpoint: PHYSICAL_AI_SERVING_20261118_0223
+- Generated: 2026-11-18T02:47:22+08:00
+- Local mirror status: PUBLIC_SYNC_VERIFIED
+- Remote default branch latest checkpoint: PHYSICAL_AI_SERVING_20261118_0223
+- Remote master SHA after heartbeat push: d47e1f247d2d189008d8006e9b0e638705e74405
+- Latest local-mirror hourly scan: [2026-11-18 02:23 CST](hourly/2026-11-18-0223.md)
+- Rolling 24h paired direct census: OAI 18 unique; Atom 18 unique; five category sets match.
+- Rolling 168h paired direct census: OAI 2118 unique; Atom 2118 unique; five category sets match.
+- Main-trunk neighborhood: 33/46 queries passed; 13 HTTP 429 failures. PARTIAL_SOURCE_NOT_COVERED.
+- cs.LG cross-list metadata component: PASS_SOURCE_METADATA_ONLY; semantic/venue/project coverage remains open.
+- SYS-first triage: 265 high-signal and 222 unclassified among 2118 IDs.
+- Candidate metadata: 8/8 official /abs checks; no new full-text reviews; 0 formal promotions this checkpoint.
+- Cumulative formal promotions: 2. Overall recall: FAIL. Coverage closed: false.
+- The 0223 heartbeat is published on remote master and the status seal is independently verified. Private manifests and PDFs remain private.
