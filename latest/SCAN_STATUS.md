@@ -3,21 +3,21 @@
 checkpoint_id: PHYSICAL_AI_SERVING_20261118_0900
 generated_beijing: 2026-11-18T09:23:45+08:00
 local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_0900
-public_sync_status: PUBLIC_SYNC_PENDING
-remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_0800
+public_sync_status: PUBLIC_SYNC_VERIFIED
+remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_0900
 remote_default_branch_sha_before: 213c72afcac0ca6137ea2140abbc55513737ca78
-remote_default_branch_sha_after: 213c72afcac0ca6137ea2140abbc55513737ca78
+remote_default_branch_sha_after_heartbeat: 1a3d2d297f94dbc038882941337604a71c1f1610
 remote_sha_rechecked_before_write: true
-remote_sha_advanced: false
+remote_sha_advanced: true
 local_git_metadata_available: true
 github_push_permission: true
-push_attempted: false
-push_blocker: scoped 0900 heartbeat/status-seal push and independent verification pending
+push_attempted: true
+push_blocker: none; heartbeat push independently verified; status seal is this commit
 rolling_24h_status: NOT_COVERED_ZERO_EXACT
 rolling_24h_oai_exact: 0
 rolling_24h_oai_unique: 0
 rolling_24h_atom_status: INCOMPLETE
-rolling_168h_status: OAI_PASS_ATOM_PASS_PAIR_PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
+rolling_168h_status: OAI_PASS_ATOM_PASS_PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
 rolling_168h_oai_exact: 5098
 rolling_168h_oai_unique: 2022
 rolling_168h_atom_unique: 2020
@@ -36,3 +36,7 @@ overall_recall: FAIL
 coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
+
+heartbeat_commit_sha: 1a3d2d297f94dbc038882941337604a71c1f1610
+status_seal_commit: included_in_this_commit
+private_canonical_records_final_status_seal_sha: true
