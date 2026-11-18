@@ -1,38 +1,34 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261118_2327_CURRENT_RUN12_RECOVERY
-generated_beijing: 2026-11-18T23:48:02+08:00
-local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2327_CURRENT_RUN12_RECOVERY
-public_sync_status: PUBLIC_SYNC_VERIFIED
-remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2300_CURRENT_RUN12
-remote_default_branch_sha_before: c63b7510ceee34117d7712ca0d4aa8b94373eaff
-remote_default_branch_sha_after_heartbeat: 466b88b2cf76730a3025e2d4e96ce186597b1cbf
-remote_sha_advanced: true
-push_attempted: true
-push_blocker: none; heartbeat independently verified; status seal included in this update
-rolling_24h_oai_exact: 218
-rolling_24h_oai_unique: 90
-rolling_24h_atom_unique: 90
-rolling_24h_pair_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
-rolling_168h_oai_exact: 5687
-rolling_168h_oai_unique: 2251
-rolling_168h_atom_unique: 1258
+checkpoint_id: PHYSICAL_AI_SERVING_20261118_2357_CURRENT_RUN12_MUTATION_RECOVERY
+generated_beijing: 2026-11-19T00:18:42+08:00
+local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2357_CURRENT_RUN12_MUTATION_RECOVERY
+public_sync_status: PUBLIC_SYNC_PENDING
+remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2327_CURRENT_RUN12_RECOVERY
+remote_default_branch_sha_before: d208160afb107685dd2560e57c9917cf4e71bbee
+remote_default_branch_sha_after: d208160afb107685dd2560e57c9917cf4e71bbee
+remote_sha_advanced: false
+push_attempted: false
+push_blocker: heartbeat/status seal pending
+rolling_24h_oai_exact: 189
+rolling_24h_oai_unique: 78
+rolling_24h_atom_unique: 24
+rolling_24h_pair_status: PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
+rolling_168h_oai_exact: 5661
+rolling_168h_oai_unique: 2243
+rolling_168h_atom_unique: 345
 rolling_168h_pair_status: PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
 main_trunk_query_total: 46
-main_trunk_query_pass: 40
-main_trunk_query_failed: 6
-main_trunk_unique_in_window: 228
-main_trunk_unique_not_in_direct_census: 143
-sys_triage_unique_ids: 2251
-sys_triage_high_signal: 270
-sys_triage_unclassified: 242
+main_trunk_query_pass: 46
+main_trunk_query_failed: 0
+main_trunk_unique_in_window: 292
+main_trunk_unique_not_in_direct_census: 162
+sys_triage_unique_ids: 2243
+sys_triage_high_signal: 269
+sys_triage_unclassified: 241
 candidate_abs_verified: 8/8
 formal_promotions_this_checkpoint: 0
 overall_recall: FAIL
 coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
-
-heartbeat_commit_sha: 466b88b2cf76730a3025e2d4e96ce186597b1cbf
-status_seal_commit: included_in_this_commit
-private_canonical_records_final_status_seal_sha: true
