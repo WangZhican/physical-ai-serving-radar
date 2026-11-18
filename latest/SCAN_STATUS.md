@@ -3,16 +3,18 @@
 checkpoint_id: PHYSICAL_AI_SERVING_20261118_1200_RECOVERY
 generated_beijing: 2026-11-18T12:56:26+08:00
 local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1200_RECOVERY
-public_sync_status: PUBLIC_SYNC_PENDING
-remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1131_RECOVERY
+public_sync_status: PUBLIC_SYNC_VERIFIED
+remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1200_RECOVERY
 remote_default_branch_sha_before: c2ae58f90f9d0d78a2f52b40a18e9b1aaf91f38f
-remote_default_branch_sha_after: c2ae58f90f9d0d78a2f52b40a18e9b1aaf91f38f
+remote_default_branch_sha_after: 61501ad422d8df2e478ec09bdef3e45b54147c9e
 remote_sha_rechecked_before_write: true
-remote_sha_advanced: false
+remote_sha_advanced: true
 local_git_metadata_available: true
 github_push_permission: true
-push_attempted: false
-push_blocker: scoped 1200_RECOVERY heartbeat/status-seal push and independent verification pending
+push_attempted: true
+push_blocker: null
+heartbeat_commit_sha: 61501ad422d8df2e478ec09bdef3e45b54147c9e
+public_sync_verified_at_beijing: 2026-11-18T13:09:44+08:00
 rolling_24h_status: OAI_PASS_ATOM_PASS_PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
 rolling_24h_oai_exact: 924
 rolling_24h_oai_unique: 334
