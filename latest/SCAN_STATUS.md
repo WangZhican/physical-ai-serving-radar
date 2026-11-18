@@ -3,13 +3,14 @@
 checkpoint_id: PHYSICAL_AI_SERVING_20261118_2122_CURRENT_RUN11
 generated_beijing: 2026-11-18T21:42:49+08:00
 local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2122_CURRENT_RUN11
-public_sync_status: PUBLIC_SYNC_PENDING
-remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2015_CURRENT_RUN11
+public_sync_status: PUBLIC_SYNC_VERIFIED
+remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2122_CURRENT_RUN11
 remote_default_branch_sha_before: 27d1681a96a1e2b7b38e39fc5eef835c6597b5be
-remote_default_branch_sha_after: 27d1681a96a1e2b7b38e39fc5eef835c6597b5be
-remote_sha_advanced: false
-push_attempted: false
-push_blocker: heartbeat/status seal pending
+remote_default_branch_sha_after_heartbeat: 463d93ea0d1656619d95458fe5f0c4c12f227e54
+remote_sha_advanced: true
+push_attempted: true
+heartbeat_commit_sha: 463d93ea0d1656619d95458fe5f0c4c12f227e54
+push_blocker: none
 rolling_24h_oai_exact: 359
 rolling_24h_oai_unique: 140
 rolling_24h_atom_unique: 140
