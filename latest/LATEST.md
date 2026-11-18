@@ -1,15 +1,16 @@
 # Physical AI Serving Radar — Latest
 
-- Latest checkpoint: PHYSICAL_AI_SERVING_20261119_0226_SCHEDULER_SPOOL_REVALIDATION
-- Generated: 2026-11-19T02:44:04+08:00
-- Checkpoint type: watchdog and candidate-evidence revalidation only; no new source census.
-- Latest source census checkpoint: PHYSICAL_AI_SERVING_20261119_0123_CURRENT_RUN57D48384 (carried forward; not a new window).
-- Latest public-safe checkpoint note: [2026-11-19 02:26 CST](hourly/2026-11-19-0226_SCHEDULER_SPOOL_REVALIDATION.md)
-- Rolling 24h: OAI 86 exact / 38 unique; Atom 38 unique; paired source-component PASS only.
-- Rolling 168h: OAI 5575 exact / 2205 unique; Atom 2205 unique; paired source-component PASS only.
-- Main-trunk: 34/46 queries passed; 286 unique in-window; 161 outside direct census; semantic recall remains open.
-- cs.LG cross-list is metadata-only; SYS-first 2205 IDs, 265 high-signal, 237 unclassified.
-- Robion arXiv:2609.12075 recall regression retained.
-- Spool arXiv:2611.23228v1: PDF fingerprint and normalized full-text equivalence revalidated; recommended CORE_SYS routes 3/5; formal promotion deferred pending global manifest reconciliation.
+- Latest local-mirror checkpoint: PHYSICAL_AI_SERVING_20261119_0257_CURRENT_RUNcbeb2801
+- Generated: 2026-11-19T03:12:26+08:00
+- Local mirror status: PUBLIC_SYNC_PENDING
+- Remote default branch baseline: 919ed78d926b45666225f1802e1d11950ecb05ff
+- Latest local-mirror hourly scan: [2026-11-19 01:23 CST](hourly/2026-11-19-0257_CURRENT_RUNcbeb2801.md)
+- Rolling 24h: OAI 0 exact / 0 unique; Atom 0 unique; pair status PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY.
+- Rolling 168h: OAI 5503 exact / 2182 unique; Atom 2182 unique; pair status PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY.
+- Main-trunk: 20/46 queries passed; 104 unique in-window; 30 outside direct census.
+- cs.LG: 24h 0 cross-listed; 168h 1283 cross-listed; metadata-only.
+- SYS-first: 264 high-signal and 236 unclassified among 2182 IDs.
+- Official /new 5/5; /abs 20/20; 0 exact 24h version histories.
+- Spool arXiv:2611.23228v1 previously verified fulltext/PDF evidence carry-forward=PDF_MATCH; NORMALIZED_TEXT_EQUIVALENCE_PASS; MANIFEST_PENDING; CORE_SYS recommendation, routes 3/5; Manifest registration pending, not promoted.
 - Formal promotions this checkpoint: 0. Overall recall: FAIL. Coverage closed: false.
-- Heartbeat ccc9b9c5c7151810ddb265b1e407bd5e3e45b283 pushed; status seal is included in this status-seal commit. Private manifests and PDFs are not published.
+- Public sync: PUBLIC_SYNC_PENDING_CHECKPOINT_0257_CURRENT_RUNcbeb2801. Private manifests and PDFs are not published.
