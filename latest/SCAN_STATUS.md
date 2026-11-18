@@ -3,13 +3,13 @@
 checkpoint_id: PHYSICAL_AI_SERVING_20261118_2225_CURRENT_RUN11
 generated_beijing: 2026-11-18T22:37:07+08:00
 local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2225_CURRENT_RUN11
-public_sync_status: PUBLIC_SYNC_PENDING
-remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2122_CURRENT_RUN11
+public_sync_status: PUBLIC_SYNC_VERIFIED
+remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2225_CURRENT_RUN11
 remote_default_branch_sha_before: c5f2b5cfd30342ff34695847f3f3dace3d8de0e8
-remote_default_branch_sha_after: c5f2b5cfd30342ff34695847f3f3dace3d8de0e8
-remote_sha_advanced: false
-push_attempted: false
-push_blocker: heartbeat/status seal pending
+remote_default_branch_sha_after_heartbeat: de29dfd8b128d1b94e549a52a6336d5cc1c1c44a
+remote_sha_advanced: true
+push_attempted: true
+push_blocker: none; heartbeat independently verified; status seal included in this update
 rolling_24h_oai_exact: 298
 rolling_24h_oai_unique: 119
 rolling_24h_atom_unique: 119
@@ -32,3 +32,7 @@ overall_recall: FAIL
 coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
+
+heartbeat_commit_sha: de29dfd8b128d1b94e549a52a6336d5cc1c1c44a
+status_seal_commit: included_in_this_commit
+private_canonical_records_final_status_seal_sha: true

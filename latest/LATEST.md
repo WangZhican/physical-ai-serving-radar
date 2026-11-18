@@ -2,8 +2,8 @@
 
 - Latest local-mirror checkpoint: PHYSICAL_AI_SERVING_20261118_2225_CURRENT_RUN11
 - Generated: 2026-11-18T22:37:07+08:00
-- Local mirror status: PUBLIC_SYNC_PENDING
-- Remote default branch baseline: c5f2b5cfd30342ff34695847f3f3dace3d8de0e8
+- Local mirror status: PUBLIC_SYNC_VERIFIED
+- Remote master after heartbeat push: de29dfd8b128d1b94e549a52a6336d5cc1c1c44a
 - Latest local-mirror hourly scan: [2026-11-18 22:25 CST](hourly/2026-11-18-2225_CURRENT_RUN11.md)
 - Rolling 24h: OAI 298 exact / 119 unique; Atom 119 unique; pair status PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY.
 - Rolling 168h: OAI 5749 exact / 2278 unique; Atom 2278 unique; pair status PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY.
@@ -12,4 +12,4 @@
 - SYS-first: 272 high-signal and 243 unclassified among 2278 IDs.
 - Official /new 5/5; /abs 20/20; 19 exact 24h version histories.
 - Formal promotions this checkpoint: 0. Overall recall: FAIL. Coverage closed: false.
-- Public sync: PUBLIC_SYNC_PENDING_CHECKPOINT_2122. Private manifests and PDFs are not published.
+- Heartbeat de29dfd8b128d1b94e549a52a6336d5cc1c1c44a pushed and independently verified; status seal is included in this update. Private manifests and PDFs are not published.
