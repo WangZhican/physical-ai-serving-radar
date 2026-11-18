@@ -3,13 +3,16 @@
 checkpoint_id: PHYSICAL_AI_SERVING_20261119_0354_CURRENT_RUNcbeb2801
 generated_beijing: 2026-11-19T04:05:03+08:00
 local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0354_CURRENT_RUNcbeb2801
-public_sync_status: PUBLIC_SYNC_PENDING
-remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0257_CURRENT_RUNcbeb2801
+public_sync_status: PUBLIC_SYNC_VERIFIED
+remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0354_CURRENT_RUNcbeb2801
 remote_default_branch_sha_before: bb701fdb2b1a1a40e78fa5bf40b790bb50722d7b
-remote_default_branch_sha_after: bb701fdb2b1a1a40e78fa5bf40b790bb50722d7b
-remote_sha_advanced: false
-push_attempted: false
-push_blocker: connector push permission=false; SSH push not yet attempted; remote baseline verified by HTTPS and SSH ls-remote
+remote_default_branch_sha_after: 2113d9fc895429956f02af846d44f6d16c231172
+remote_sha_advanced: true
+heartbeat_commit_sha: 2113d9fc895429956f02af846d44f6d16c231172
+remote_default_branch_sha_after_status_seal: included_in_this_commit
+status_seal_commit: included_in_this_commit
+push_attempted: true
+push_blocker: none
 rolling_24h_oai_exact: 0
 rolling_24h_oai_unique: 0
 rolling_24h_atom_unique: 0
