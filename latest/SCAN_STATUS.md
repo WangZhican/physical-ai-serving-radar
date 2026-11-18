@@ -1,34 +1,34 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261118_0800
-generated_beijing: 2026-11-18T08:21:50+08:00
-local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_0800
-public_sync_status: PUBLIC_SYNC_VERIFIED
+checkpoint_id: PHYSICAL_AI_SERVING_20261118_0900
+generated_beijing: 2026-11-18T09:23:45+08:00
+local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_0900
+public_sync_status: PUBLIC_SYNC_PENDING
 remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_0800
-remote_default_branch_sha_before: 73a8f5e44dcd88c74dbef0de259dc500625ff2b6
-remote_default_branch_sha_after_heartbeat: acdfbb37d9ea6d5c846e57d321955a7e9caf76a9
+remote_default_branch_sha_before: 213c72afcac0ca6137ea2140abbc55513737ca78
+remote_default_branch_sha_after: 213c72afcac0ca6137ea2140abbc55513737ca78
 remote_sha_rechecked_before_write: true
-remote_sha_advanced: true
+remote_sha_advanced: false
 local_git_metadata_available: true
 github_push_permission: true
-push_attempted: true
-push_blocker: none; heartbeat push independently verified; status seal is this commit
+push_attempted: false
+push_blocker: scoped 0900 heartbeat/status-seal push and independent verification pending
 rolling_24h_status: NOT_COVERED_ZERO_EXACT
 rolling_24h_oai_exact: 0
 rolling_24h_oai_unique: 0
 rolling_24h_atom_status: INCOMPLETE
-rolling_168h_status: OAI_PASS_ATOM_INCOMPLETE
-rolling_168h_oai_exact: 5121
-rolling_168h_oai_unique: 2025
-rolling_168h_atom_unique: 1956
+rolling_168h_status: OAI_PASS_ATOM_PASS_PAIR_PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
+rolling_168h_oai_exact: 5098
+rolling_168h_oai_unique: 2022
+rolling_168h_atom_unique: 2020
 main_trunk_query_total: 46
 main_trunk_query_pass: 46
 main_trunk_query_failed: 0
-main_trunk_unique_in_window: 257
-main_trunk_unique_not_in_direct_census: 140
-sys_triage_unique_ids: 2025
-sys_triage_high_signal: 247
-sys_triage_unclassified: 209
+main_trunk_unique_in_window: 256
+main_trunk_unique_not_in_direct_census: 139
+sys_triage_unique_ids: 2022
+sys_triage_high_signal: 246
+sys_triage_unclassified: 208
 candidate_abs_verified: 8/8
 formal_promotions_this_checkpoint: 0
 formal_promotions_cumulative: 2
@@ -36,7 +36,3 @@ overall_recall: FAIL
 coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
-
-heartbeat_commit_sha: acdfbb37d9ea6d5c846e57d321955a7e9caf76a9
-status_seal_commit: included_in_this_commit
-private_canonical_records_final_status_seal_sha: true
