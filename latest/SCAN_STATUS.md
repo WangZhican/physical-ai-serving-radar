@@ -1,44 +1,34 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261118_1600_POSTMUTATION_RUN11
-generated_beijing: 2026-11-18T17:16:40+08:00
-local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1600_POSTMUTATION_RUN11
-public_sync_status: PUBLIC_SYNC_VERIFIED
+checkpoint_id: PHYSICAL_AI_SERVING_20261118_1905_CURRENT_RUN11
+generated_beijing: 2026-11-18T19:25:21+08:00
+local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1905_CURRENT_RUN11
+public_sync_status: PUBLIC_SYNC_PENDING
 remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1600_POSTMUTATION_RUN11
-remote_default_branch_sha_before: 8073c794e2d7aabbebbd9d60f8194ff49ed6bb1b
-remote_default_branch_sha_after_heartbeat: 693423884dd7528f5445d75a70d1ba6fa136fc64
-remote_sha_rechecked_before_write: true
-remote_sha_advanced: true
-local_git_metadata_available: true
-github_push_permission: true
-push_attempted: true
-push_blocker: none; heartbeat independently verified; status seal is this commit
-rolling_24h_status: OAI_PASS_ATOM_PASS_PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
-rolling_24h_oai_exact: 718
-rolling_24h_oai_unique: 265
-rolling_24h_atom_status: PASS
-rolling_168h_status: OAI_PASS_ATOM_PASS_PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
-rolling_24h_atom_fallback_status: NOT_ATTEMPTED_PRIMARY_OAI_ATOM_PASS_NONZERO_EXACT_AND_CATEGORY_PARITY_EQUAL
-rolling_168h_atom_fallback_status: NOT_ATTEMPTED_PRIMARY_OAI_ATOM_PASS_NONZERO_EXACT_AND_CATEGORY_PARITY_EQUAL
-rolling_168h_oai_exact: 6042
-rolling_168h_oai_unique: 2385
-rolling_168h_atom_unique: 2385
+remote_default_branch_sha_before: cc6f8be3243220a86c537530813ef7c16fbe8684
+remote_default_branch_sha_after: cc6f8be3243220a86c537530813ef7c16fbe8684
+remote_sha_advanced: false
+push_attempted: false
+push_blocker: heartbeat/status seal pending
+rolling_24h_oai_exact: 516
+rolling_24h_oai_unique: 197
+rolling_24h_atom_unique: 197
+rolling_24h_pair_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
+rolling_168h_oai_exact: 5906
+rolling_168h_oai_unique: 2336
+rolling_168h_atom_unique: 2336
+rolling_168h_pair_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
 main_trunk_query_total: 46
 main_trunk_query_pass: 46
 main_trunk_query_failed: 0
-main_trunk_unique_in_window: 307
-main_trunk_unique_not_in_direct_census: 168
-sys_triage_unique_ids: 2385
-sys_triage_high_signal: 288
-sys_triage_unclassified: 254
+main_trunk_unique_in_window: 301
+main_trunk_unique_not_in_direct_census: 165
+sys_triage_unique_ids: 2336
+sys_triage_high_signal: 279
+sys_triage_unclassified: 248
 candidate_abs_verified: 8/8
 formal_promotions_this_checkpoint: 0
-formal_promotions_cumulative: 2
 overall_recall: FAIL
 coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
-
-heartbeat_commit_sha: 693423884dd7528f5445d75a70d1ba6fa136fc64
-status_seal_commit: included_in_this_commit
-private_canonical_records_final_status_seal_sha: true
