@@ -1,15 +1,17 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261118_1905_CURRENT_RUN11
-generated_beijing: 2026-11-18T19:25:21+08:00
-local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1905_CURRENT_RUN11
-public_sync_status: PUBLIC_SYNC_PENDING
-remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1600_POSTMUTATION_RUN11
+checkpoint_id: PHYSICAL_AI_SERVING_20261118_1935_RUN11_REGISTRY_MUTATION_RECONCILIATION
+source_scan_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1905_CURRENT_RUN11
+generated_beijing: 2026-11-18T19:47:46+08:00
+source_generated_beijing: 2026-11-18T19:18:52+08:00
+source_producer_attribution: UNKNOWN_RUN_ID_REUSE_OR_MUTATION_INCIDENT
+public_sync_status: PUBLIC_SYNC_VERIFIED
+remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1935_RUN11_REGISTRY_MUTATION_RECONCILIATION
 remote_default_branch_sha_before: cc6f8be3243220a86c537530813ef7c16fbe8684
-remote_default_branch_sha_after: cc6f8be3243220a86c537530813ef7c16fbe8684
-remote_sha_advanced: false
-push_attempted: false
-push_blocker: heartbeat/status seal pending
+remote_heartbeat_commit_sha: 89aee04d8ec38d4bb7fe0f1e8284a4dc9819f57f
+remote_status_seal_commit: included_in_this_commit
+remote_sha_verified_after_push: true
+push_attempted: true
 rolling_24h_oai_exact: 516
 rolling_24h_oai_unique: 197
 rolling_24h_atom_unique: 197
@@ -18,14 +20,18 @@ rolling_168h_oai_exact: 5906
 rolling_168h_oai_unique: 2336
 rolling_168h_atom_unique: 2336
 rolling_168h_pair_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
+cs_lg_24h_crosslisted_metadata_only: 103
+cs_lg_168h_crosslisted_metadata_only: 1378
 main_trunk_query_total: 46
 main_trunk_query_pass: 46
-main_trunk_query_failed: 0
 main_trunk_unique_in_window: 301
 main_trunk_unique_not_in_direct_census: 165
 sys_triage_unique_ids: 2336
 sys_triage_high_signal: 279
 sys_triage_unclassified: 248
+official_new_http200: 5
+official_abs_http200: 20
+official_abs_exact_24h: 19
 candidate_abs_verified: 8/8
 formal_promotions_this_checkpoint: 0
 overall_recall: FAIL
