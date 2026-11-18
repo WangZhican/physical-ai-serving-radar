@@ -1,37 +1,43 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261119_0354_CURRENT_RUNcbeb2801
-generated_beijing: 2026-11-19T04:05:03+08:00
-local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0354_CURRENT_RUNcbeb2801
-public_sync_status: PUBLIC_SYNC_VERIFIED
+checkpoint_id: PHYSICAL_AI_SERVING_20261119_0700_CURRENT_RUNc5c19efe_S20261118T225927Z
+generated_beijing: 2026-11-19T07:13:57+08:00
+local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0700_CURRENT_RUNc5c19efe_S20261118T225927Z
+public_sync_status: PUBLIC_SYNC_PENDING
 remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0354_CURRENT_RUNcbeb2801
-remote_default_branch_sha_before: bb701fdb2b1a1a40e78fa5bf40b790bb50722d7b
-remote_default_branch_sha_after: 2113d9fc895429956f02af846d44f6d16c231172
-remote_sha_advanced: true
-heartbeat_commit_sha: 2113d9fc895429956f02af846d44f6d16c231172
-remote_default_branch_sha_after_status_seal: included_in_this_commit
-status_seal_commit: included_in_this_commit
-push_attempted: true
-push_blocker: none
+remote_default_branch_sha_before: 3d0728c6dfe2a078afcce77f06a062057c574109
+remote_default_branch_sha_after: 3d0728c6dfe2a078afcce77f06a062057c574109
+remote_sha_advanced: false
+push_attempted: false
+push_route: SSH
+public_local_git_metadata_present: true
+public_local_branch: master
+public_local_head_before_fast_forward: bb701fdb2b1a1a40e78fa5bf40b790bb50722d7b
+public_local_head_after_fast_forward: 3d0728c6dfe2a078afcce77f06a062057c574109
+public_local_head_matches_origin_master: true
+public_worktree_scope: latest/LATEST.md, latest/SCAN_STATUS.md, latest/hourly/2026-11-19-0700_CURRENT_RUNc5c19efe_S20261118T225927Z.md
+push_blocker: SSH_HEARTBEAT_AND_STATUS_SEAL_PENDING_AFTER_FAST_FORWARD; GitHub Contents API remains read-only (HTTP 403); only verified public-safe files are in scope; private manifests and PDFs are excluded.
 rolling_24h_oai_exact: 0
 rolling_24h_oai_unique: 0
 rolling_24h_atom_unique: 0
-rolling_24h_pair_status: PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
-rolling_168h_oai_exact: 5468
-rolling_168h_oai_unique: 2166
-rolling_168h_atom_unique: 1967
-rolling_168h_pair_status: PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
+rolling_24h_pair_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
+rolling_168h_oai_exact: 5379
+rolling_168h_oai_unique: 2117
+rolling_168h_atom_unique: 2117
+rolling_168h_pair_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
 main_trunk_query_total: 46
-main_trunk_query_pass: 18
-main_trunk_query_failed: 28
-main_trunk_unique_in_window: 4
-main_trunk_unique_not_in_direct_census: 1
-sys_triage_unique_ids: 2166
-sys_triage_high_signal: 263
-sys_triage_unclassified: 235
+main_trunk_query_pass: 37
+main_trunk_query_failed: 9
+main_trunk_unique_in_window: 277
+main_trunk_unique_not_in_direct_census: 155
+sys_triage_unique_ids: 2117
+sys_triage_high_signal: 261
+sys_triage_unclassified: 233
 candidate_abs_verified: 8/8
 formal_promotions_this_checkpoint: 0
 overall_recall: FAIL
 coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
+remote_sha_verified: true
+remote_sha_verification_method: HTTPS and SSH git ls-remote refs/heads/master both matched 3d0728c6dfe2a078afcce77f06a062057c574109
