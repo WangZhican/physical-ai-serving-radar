@@ -21,4 +21,4 @@ Generated: 2026-11-19T00:18:42+08:00
 - Overall recall FAIL; coverage closed false.
 - Private Paper/PDF Manifests and PDFs are not published.
 
-Public sync: PUBLIC_SYNC_PENDING_CHECKPOINT_2357_CURRENT_RUN12_MUTATION_RECOVERY.
+Heartbeat cee64e005562d99a1b278d2862d38da4db8582f9 pushed and independently verified; status seal is included in this update.
