@@ -1,18 +1,17 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261119_0158_SCHEDULER_RECONCILIATION
-generated_beijing: 2026-11-19T02:02:55+08:00
-checkpoint_type: WATCHDOG_RECONCILIATION_ONLY
+checkpoint_id: PHYSICAL_AI_SERVING_20261119_0226_SCHEDULER_SPOOL_REVALIDATION
+generated_beijing: 2026-11-19T02:44:04+08:00
+checkpoint_type: WATCHDOG_AND_CANDIDATE_EVIDENCE_REVALIDATION_ONLY
 source_scan_performed: false
 source_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0123_CURRENT_RUN57D48384
-local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0158_SCHEDULER_RECONCILIATION
-public_sync_status: PUBLIC_SYNC_VERIFIED
-remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0123_CURRENT_RUN57D48384
-remote_default_branch_sha_before: 694140227be77835c8e1c2c6d1a0d094b87fa6cb
-remote_default_branch_sha_after_heartbeat: 4370670de4b6692c772e29d1b8934fe6aff0e1c7
-remote_sha_advanced: true
-push_attempted: true
-push_blocker: none; heartbeat independently verified; status seal included in this commit
+local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0226_SCHEDULER_SPOOL_REVALIDATION
+public_sync_status: PUBLIC_SYNC_PENDING
+remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0158_SCHEDULER_RECONCILIATION
+remote_default_branch_sha_before: 80fd503beef05b8225e18344cb9e87f98b1f59e4
+remote_sha_advanced: false
+push_attempted: false
+push_blocker: heartbeat/status seal pending
 rolling_24h_oai_exact: 86
 rolling_24h_oai_unique: 38
 rolling_24h_atom_unique: 38
@@ -29,11 +28,14 @@ main_trunk_unique_not_in_direct_census: 161
 sys_triage_unique_ids: 2205
 sys_triage_high_signal: 265
 sys_triage_unclassified: 237
+spool_2611_23228_pdf_match: true
+spool_2611_23228_normalized_text_equivalence: true
+spool_2611_23228_recommended_classification: CORE_SYS
+spool_2611_23228_routes: 3,5
+spool_2611_23228_formal_promotion: false
 formal_promotions_this_checkpoint: 0
 overall_recall: FAIL
 coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
 
-heartbeat_commit_sha: 4370670de4b6692c772e29d1b8934fe6aff0e1c7
-status_seal_commit: included_in_this_commit
