@@ -21,8 +21,10 @@ Generated: 2026-11-18T17:16:40+08:00
 - Overall recall FAIL; coverage closed false.
 - Formal promotions this checkpoint: 0; cumulative 2.
 
-Remote master baseline: PHYSICAL_AI_SERVING_20261118_1200_RECOVERY at 8073c794e2d7aabbebbd9d60f8194ff49ed6bb1b; this heartbeat is not yet remotely published.
+Heartbeat commit 693423884dd7528f5445d75a70d1ba6fa136fc64 was pushed and independently verified. Status-seal commit is included in LATEST.md and SCAN_STATUS.md; final master SHA is recorded in the private canonical checkpoint.
 Private manifests and PDFs remain private.
 
 ## Automation
 - Current registry Run ID 3dd3406c-cb14-832d-a575-82b0741017d8 is in_progress with stable started_at; next_run_time remains stale at 17:00 Beijing and 18:00 is not yet verified.
+
+Public sync: PUBLIC_SYNC_VERIFIED; private manifests and PDFs remain private.
