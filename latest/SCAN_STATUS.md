@@ -1,39 +1,34 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261118_2015_CURRENT_RUN11
-generated_beijing: 2026-11-18T20:30:46+08:00
-local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2015_CURRENT_RUN11
-public_sync_status: PUBLIC_SYNC_VERIFIED
-remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1935_RUN11_REGISTRY_MUTATION_RECONCILIATION
-remote_default_branch_sha_before: 697d09583334303c8eacce0bf4df1a4183b518ee
-remote_default_branch_sha_after_heartbeat: 04d80f3ad25f1abdbef95a4d6714c39d742a94f0
-remote_sha_advanced: true
-push_attempted: true
-push_blocker: none; heartbeat independently verified; status seal included in this update
-rolling_24h_oai_exact: 436
-rolling_24h_oai_unique: 169
-rolling_24h_atom_unique: 169
+checkpoint_id: PHYSICAL_AI_SERVING_20261118_2122_CURRENT_RUN11
+generated_beijing: 2026-11-18T21:42:49+08:00
+local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2122_CURRENT_RUN11
+public_sync_status: PUBLIC_SYNC_PENDING
+remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_2015_CURRENT_RUN11
+remote_default_branch_sha_before: 27d1681a96a1e2b7b38e39fc5eef835c6597b5be
+remote_default_branch_sha_after: 27d1681a96a1e2b7b38e39fc5eef835c6597b5be
+remote_sha_advanced: false
+push_attempted: false
+push_blocker: heartbeat/status seal pending
+rolling_24h_oai_exact: 359
+rolling_24h_oai_unique: 140
+rolling_24h_atom_unique: 140
 rolling_24h_pair_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
-rolling_168h_oai_exact: 5856
-rolling_168h_oai_unique: 2314
-rolling_168h_atom_unique: 2314
+rolling_168h_oai_exact: 5802
+rolling_168h_oai_unique: 2301
+rolling_168h_atom_unique: 2301
 rolling_168h_pair_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
 main_trunk_query_total: 46
-main_trunk_query_pass: 46
-main_trunk_query_failed: 0
-main_trunk_unique_in_window: 299
-main_trunk_unique_not_in_direct_census: 165
-sys_triage_unique_ids: 2314
+main_trunk_query_pass: 29
+main_trunk_query_failed: 17
+main_trunk_unique_in_window: 281
+main_trunk_unique_not_in_direct_census: 152
+sys_triage_unique_ids: 2301
 sys_triage_high_signal: 276
 sys_triage_unclassified: 245
 candidate_abs_verified: 8/8
 formal_promotions_this_checkpoint: 0
 overall_recall: FAIL
 coverage_closed: false
-private_manifests_published: false
-private_pdfs_published: false
-
-heartbeat_commit_sha: 04d80f3ad25f1abdbef95a4d6714c39d742a94f0
-status_seal_commit: included_in_this_commit
 private_manifests_published: false
 private_pdfs_published: false
