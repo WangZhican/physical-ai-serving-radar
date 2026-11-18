@@ -1,38 +1,34 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261119_0257_CURRENT_RUNcbeb2801
-generated_beijing: 2026-11-19T03:12:26+08:00
-local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0257_CURRENT_RUNcbeb2801
-public_sync_status: PUBLIC_SYNC_VERIFIED
-remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0226_SCHEDULER_SPOOL_REVALIDATION
-remote_default_branch_sha_before: 919ed78d926b45666225f1802e1d11950ecb05ff
-remote_default_branch_sha_after_heartbeat: 3d9d530295d35d9b1c2b17e1ec811b26882afe84
-remote_sha_advanced: true
-push_attempted: true
-push_blocker: none; heartbeat independently verified; status seal included in this update
+checkpoint_id: PHYSICAL_AI_SERVING_20261119_0354_CURRENT_RUNcbeb2801
+generated_beijing: 2026-11-19T04:05:03+08:00
+local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0354_CURRENT_RUNcbeb2801
+public_sync_status: PUBLIC_SYNC_PENDING
+remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0257_CURRENT_RUNcbeb2801
+remote_default_branch_sha_before: bb701fdb2b1a1a40e78fa5bf40b790bb50722d7b
+remote_default_branch_sha_after: bb701fdb2b1a1a40e78fa5bf40b790bb50722d7b
+remote_sha_advanced: false
+push_attempted: false
+push_blocker: connector push permission=false; SSH push not yet attempted; remote baseline verified by HTTPS and SSH ls-remote
 rolling_24h_oai_exact: 0
 rolling_24h_oai_unique: 0
 rolling_24h_atom_unique: 0
-rolling_24h_pair_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
-rolling_168h_oai_exact: 5503
-rolling_168h_oai_unique: 2182
-rolling_168h_atom_unique: 2182
-rolling_168h_pair_status: PAIRED_DIRECT_CENSUS_PASS_SOURCE_COMPONENT_ONLY
+rolling_24h_pair_status: PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
+rolling_168h_oai_exact: 5468
+rolling_168h_oai_unique: 2166
+rolling_168h_atom_unique: 1967
+rolling_168h_pair_status: PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
 main_trunk_query_total: 46
-main_trunk_query_pass: 20
-main_trunk_query_failed: 26
-main_trunk_unique_in_window: 104
-main_trunk_unique_not_in_direct_census: 30
-sys_triage_unique_ids: 2182
-sys_triage_high_signal: 264
-sys_triage_unclassified: 236
+main_trunk_query_pass: 18
+main_trunk_query_failed: 28
+main_trunk_unique_in_window: 4
+main_trunk_unique_not_in_direct_census: 1
+sys_triage_unique_ids: 2166
+sys_triage_high_signal: 263
+sys_triage_unclassified: 235
 candidate_abs_verified: 8/8
 formal_promotions_this_checkpoint: 0
 overall_recall: FAIL
 coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
-
-heartbeat_commit_sha: 3d9d530295d35d9b1c2b17e1ec811b26882afe84
-status_seal_commit: included_in_this_commit
-private_canonical_records_final_status_seal_sha: true
