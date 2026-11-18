@@ -1,34 +1,36 @@
 # Scan Status
 
-checkpoint_id: PHYSICAL_AI_SERVING_20261118_1131_RECOVERY
-generated_beijing: 2026-11-18T11:52:29+08:00
-local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1131_RECOVERY
-public_sync_status: PUBLIC_SYNC_VERIFIED
+checkpoint_id: PHYSICAL_AI_SERVING_20261118_1200_RECOVERY
+generated_beijing: 2026-11-18T12:56:26+08:00
+local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1200_RECOVERY
+public_sync_status: PUBLIC_SYNC_PENDING
 remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261118_1131_RECOVERY
-remote_default_branch_sha_before: 6e22f2fad865b14c4e4fcd37d77bbfcd496b9d17
-remote_default_branch_sha_after_heartbeat: d9678f809fbc474901f9910152aaa993fc2a5649
+remote_default_branch_sha_before: c2ae58f90f9d0d78a2f52b40a18e9b1aaf91f38f
+remote_default_branch_sha_after: c2ae58f90f9d0d78a2f52b40a18e9b1aaf91f38f
 remote_sha_rechecked_before_write: true
-remote_sha_advanced: true
+remote_sha_advanced: false
 local_git_metadata_available: true
 github_push_permission: true
-push_attempted: true
-push_blocker: none; heartbeat push independently verified; status seal is this commit
+push_attempted: false
+push_blocker: scoped 1200_RECOVERY heartbeat/status-seal push and independent verification pending
 rolling_24h_status: OAI_PASS_ATOM_PASS_PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
-rolling_24h_oai_exact: 841
-rolling_24h_oai_unique: 299
+rolling_24h_oai_exact: 924
+rolling_24h_oai_unique: 334
 rolling_24h_atom_status: PASS
 rolling_168h_status: OAI_PASS_ATOM_PASS_PAIR_MISMATCH_OR_SOURCE_INCOMPLETE
-rolling_168h_oai_exact: 6127
-rolling_168h_oai_unique: 2415
-rolling_168h_atom_unique: 2304
+rolling_24h_atom_fallback_status: RESULT_NOT_VERIFIABLE_OUTPUT_MISSING
+rolling_168h_atom_fallback_status: TIMEOUT_AFTER_240S
+rolling_168h_oai_exact: 6195
+rolling_168h_oai_unique: 2445
+rolling_168h_atom_unique: 2431
 main_trunk_query_total: 46
 main_trunk_query_pass: 46
 main_trunk_query_failed: 0
-main_trunk_unique_in_window: 299
-main_trunk_unique_not_in_direct_census: 167
-sys_triage_unique_ids: 2415
-sys_triage_high_signal: 297
-sys_triage_unclassified: 260
+main_trunk_unique_in_window: 317
+main_trunk_unique_not_in_direct_census: 174
+sys_triage_unique_ids: 2445
+sys_triage_high_signal: 300
+sys_triage_unclassified: 263
 candidate_abs_verified: 8/8
 formal_promotions_this_checkpoint: 0
 formal_promotions_cumulative: 2
@@ -36,7 +38,3 @@ overall_recall: FAIL
 coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
-
-heartbeat_commit_sha: d9678f809fbc474901f9910152aaa993fc2a5649
-status_seal_commit: included_in_this_commit
-private_canonical_records_final_status_seal_sha: true
