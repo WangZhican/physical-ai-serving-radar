@@ -11,4 +11,4 @@
 - cs.LG cross-list is metadata-only; SYS-first 2205 IDs, 265 high-signal, 237 unclassified.
 - Robion arXiv:2609.12075 regression retained.
 - Formal promotions this checkpoint: 0. Overall recall: FAIL. Coverage closed: false.
-- Public sync: verification pending. Private manifests and PDFs are not published.
+- Heartbeat 4370670de4b6692c772e29d1b8934fe6aff0e1c7 pushed; status seal is included in this status-seal commit. Private manifests and PDFs are not published.

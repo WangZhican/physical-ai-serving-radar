@@ -14,4 +14,4 @@ Generated: 2026-11-19T02:02:55+08:00
 - Robion arXiv:2609.12075 recall regression retained.
 - Formal promotions: 0. Overall recall: FAIL. Coverage closed: false.
 
-Public sync: publication verification pending. Private manifests and PDFs are not published.
+Heartbeat 4370670de4b6692c772e29d1b8934fe6aff0e1c7 pushed; status seal is included in this status-seal commit. Private manifests and PDFs are not published.
