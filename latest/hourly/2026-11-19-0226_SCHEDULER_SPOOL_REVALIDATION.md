@@ -20,4 +20,4 @@ Generated: 2026-11-19T02:44:04+08:00
 - Recommended classification: CORE_SYS, routes 3 and 5 (streaming serving; temporal cache/state reuse).
 - Global manifest reconciliation remains open; no formal promotion is claimed.
 
-Public sync: publication verification pending. Private manifests and PDFs are not published.
+Heartbeat ccc9b9c5c7151810ddb265b1e407bd5e3e45b283 pushed; status seal is included in this status-seal commit. Private manifests and PDFs are not published.

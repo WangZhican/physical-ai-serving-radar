@@ -12,4 +12,4 @@
 - Robion arXiv:2609.12075 recall regression retained.
 - Spool arXiv:2611.23228v1: PDF fingerprint and normalized full-text equivalence revalidated; recommended CORE_SYS routes 3/5; formal promotion deferred pending global manifest reconciliation.
 - Formal promotions this checkpoint: 0. Overall recall: FAIL. Coverage closed: false.
-- Public sync: verification pending. Private manifests and PDFs are not published.
+- Heartbeat ccc9b9c5c7151810ddb265b1e407bd5e3e45b283 pushed; status seal is included in this status-seal commit. Private manifests and PDFs are not published.

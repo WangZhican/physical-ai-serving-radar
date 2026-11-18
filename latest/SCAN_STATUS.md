@@ -6,12 +6,13 @@ checkpoint_type: WATCHDOG_AND_CANDIDATE_EVIDENCE_REVALIDATION_ONLY
 source_scan_performed: false
 source_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0123_CURRENT_RUN57D48384
 local_mirror_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0226_SCHEDULER_SPOOL_REVALIDATION
-public_sync_status: PUBLIC_SYNC_PENDING
+public_sync_status: PUBLIC_SYNC_VERIFIED
 remote_latest_checkpoint_id: PHYSICAL_AI_SERVING_20261119_0158_SCHEDULER_RECONCILIATION
 remote_default_branch_sha_before: 80fd503beef05b8225e18344cb9e87f98b1f59e4
-remote_sha_advanced: false
-push_attempted: false
-push_blocker: heartbeat/status seal pending
+remote_default_branch_sha_after_heartbeat: ccc9b9c5c7151810ddb265b1e407bd5e3e45b283
+remote_sha_advanced: true
+push_attempted: true
+push_blocker: none; heartbeat independently verified; status seal included in this commit
 rolling_24h_oai_exact: 86
 rolling_24h_oai_unique: 38
 rolling_24h_atom_unique: 38
@@ -39,3 +40,6 @@ coverage_closed: false
 private_manifests_published: false
 private_pdfs_published: false
 
+
+heartbeat_commit_sha: ccc9b9c5c7151810ddb265b1e407bd5e3e45b283
+status_seal_commit: included_in_this_commit
