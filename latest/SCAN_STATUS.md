@@ -13,4 +13,4 @@
 - Main-trunk reverse neighborhood: 46/46 queries passed
 - Candidate focus: VSpark (P0); Spool/AR-WAM/XM-Sparse (P1); CodeReel/IA-MoE/RWM/WoRD/Gemma4 (P2 watch-only)
 - PDF Manifest: 876 valid / 3 pending / 0 invalid; 524 orphan valid PDFs and 487 trailing-list entries remain
-- Public sync: PENDING until remote master SHA advances and is independently verified
+- Public sync: VERIFIED; heartbeat commit 75dd2a15ec20740e24160682923820a7c4122bdc; status-seal commit is independently verified

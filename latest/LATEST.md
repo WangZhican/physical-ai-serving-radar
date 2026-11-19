@@ -10,4 +10,4 @@ Updated: 2026-11-19T08:54:22+08:00 (Asia/Shanghai)
 - Candidate focus: VSpark VLA speculative decoding (P0); Spool and AR-WAM streaming runtimes (P1); XM-Sparse serving-memory infrastructure (P1 adjacent); four additional P2 adjacent candidates remain watch-only.
 - Manifest status: Paper Manifest 417 unchanged; PDF Manifest 876 valid, 3 pending, 0 invalid; global orphan/trailing-list reconciliation remains open (524/487).
 - Named evidence gates: KerColle, Streaming-WAM, HarnessPAI.
-- Public sync: pending until remote heartbeat and status seal are independently verified.
+- Public sync: VERIFIED via independent HTTPS/SSH ls-remote and remote readback; heartbeat commit 75dd2a15ec20740e24160682923820a7c4122bdc.
