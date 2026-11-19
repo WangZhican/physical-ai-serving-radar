@@ -8,7 +8,7 @@
 - First-party fallback: /new 5/5 HTTP 200; /abs 15/20 HTTP 200 (five failures); last-good /abs 20/20 preserved; Atom id_list HTTP 200 returned 20, exact24h=0.
 - Candidate evidence: Spool and AR-WAM PDF/fulltext SHA evidence carried forward from 0700; manifest/code/license gates pending. 2611.23035 is P2 adjacent serving-memory watch-only. Formal promotions: 0.
 - Overall recall: FAIL; coverage_closed=false.
-- Local mirror status: PUBLIC_SYNC_PENDING.
-- Remote baseline: checkpoint `PHYSICAL_AI_SERVING_20261119_0700_CURRENT_RUNc5c19efe_S20261118T225927Z`, master SHA `596cf2925802f7a4cc6231e8dda41886b81e2e1d` (independently verified via HTTPS and SSH ls-remote).
-- Push route: authenticated SSH Git is available; GitHub Contents API write permission remains HTTP 403. Only public-safe files are in scope; private manifests/PDFs remain excluded.
+- Local mirror status: PUBLIC_SYNC_VERIFIED.
+- Remote baseline: checkpoint `PHYSICAL_AI_SERVING_20261119_0700_CURRENT_RUNc5c19efe_S20261118T225927Z`, master SHA `596cf2925802f7a4cc6231e8dda41886b81e2e1d`; heartbeat commit `9182ba542e64c642b24eeb2f012bf2350d9c1b5c` independently verified via HTTPS and SSH ls-remote.
+- Status seal: included in this commit. The post-seal remote master SHA is independently verified after push and recorded in the private canonical state. GitHub Contents API write permission remains HTTP 403; authenticated SSH Git was used. Private manifests/PDFs remain excluded.
 - Hourly detail: [0726 scan](hourly/2026-11-19-0726_CURRENT_RUNc5c19efe_S20261118T232652Z.md).

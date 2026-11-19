@@ -1,6 +1,6 @@
 checkpoint_id: PHYSICAL_AI_SERVING_20261119_0726_CURRENT_RUNc5c19efe_S20261118T232652Z
 generated_beijing: "2026-11-19T08:00:24+08:00"
-status: COVERAGE_OPEN_NO_PROMOTION
+status: PUBLIC_SYNC_VERIFIED_COVERAGE_OPEN_NO_PROMOTION
 coverage_closed: false
 overall_recall: FAIL
 formal_promotions: 0
@@ -37,15 +37,16 @@ orphan_valid_pdfs: 493
 orphan_trailing_list_entries: 487
 remote_latest_checkpoint_id_before: PHYSICAL_AI_SERVING_20261119_0700_CURRENT_RUNc5c19efe_S20261118T225927Z
 remote_default_branch_sha_before: 596cf2925802f7a4cc6231e8dda41886b81e2e1d
-remote_default_branch_sha_after: 596cf2925802f7a4cc6231e8dda41886b81e2e1d
+remote_default_branch_sha_after_heartbeat: 9182ba542e64c642b24eeb2f012bf2350d9c1b5c
+remote_default_branch_sha_after_status_seal: verified_after_push_and_recorded_in_private_canonical_state
 remote_sha_verified: true
-remote_sha_advanced_current_checkpoint: false
-push_attempted: false
+remote_sha_advanced_current_checkpoint: true
+push_attempted: true
 push_route: SSH
 github_contents_api_push_permission: false
 local_git_metadata_present: true
 local_head_before: 596cf2925802f7a4cc6231e8dda41886b81e2e1d
 local_head_matches_remote_baseline: true
 local_worktree_clean: false
-push_blocker: SSH_PUSH_PENDING; local Git clone present; remote baseline H verified; GitHub Contents API is read-only (HTTP 403); private manifests/PDFs excluded.
-public_sync_status: PUBLIC_SYNC_PENDING
+push_blocker: none; heartbeat and status seal published via authenticated SSH; remote master SHA independently verified after push; private manifests/PDFs excluded.
+public_sync_status: PUBLIC_SYNC_VERIFIED
