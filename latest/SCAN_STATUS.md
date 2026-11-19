@@ -5,4 +5,4 @@ Checkpoint: PHYSICAL_AI_SERVING_20261119_2229
 Main-trunk: 2/46 queries passed; 44 failed; SEARCHED != COVERED.
 Recall: FAIL. Coverage closed: false. Formal promotions: 0.
 Scheduler: same Run ID started_at mutation remains open; completion and next 23:00 trigger unverified.
-Public sync: PENDING until the validated three-file heartbeat is committed remotely and verified.
+Public sync: VERIFIED after status-seal commit; heartbeat commit 1b825b7ae650d8cf6ace86e97a10504688567016; HTTPS/SSH ls-remote, origin/master, local HEAD, and remote file readback are checked independently.
