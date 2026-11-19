@@ -1,5 +1,5 @@
-# Physical AI Serving Radar — 2026-11-20 02:59 CST
-Checkpoint: PHYSICAL_AI_SERVING_20261120_0259
-Generated: 2026-11-20T03:23:05+08:00
-Latest hourly scan: [2026-11-20 02:59 CST](hourly/2026-11-20-0259.md)
-Status: direct-source census is recorded; semantic recall remains open and coverage_closed=false. Run ID e9ea87d4 has a same-ID started_at mutation (18:29:03Z -> 18:59:04Z); current run remains in_progress and registry completion fields are stale.
+# Physical AI Serving Radar — 2026-11-20 05:04 CST
+Checkpoint: PHYSICAL_AI_SERVING_20261120_0504
+Generated: 2026-11-20T05:21:57+08:00
+Latest hourly scan: [2026-11-20 05:04 CST](hourly/2026-11-20-0504.md)
+Status: 24h exact OAI/Atom records=0 and remains NOT_COVERED despite successful /new, /abs and Atom metadata fallbacks; 168h paired direct census is recorded. Semantic recall remains open and coverage_closed=false. Current Run ID 5d6917bc corresponds to the 04:00 slot and has a three-value started_at mutation chain; completion and registry advancement remain pending.
