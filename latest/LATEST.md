@@ -1,30 +1,31 @@
 # Physical AI Serving Radar — latest
 
-**Checkpoint:** PHYSICAL_AI_SERVING_20261119_1000_CURRENT_RUN20ff2969_S20261119T015803Z
-**Updated:** 2026-11-19 10:00 CST (evidence reconciled 10:23 CST)
-**Status:** SYS-first discovery advanced; direct paired coverage and scheduler continuity remain open.
+**Checkpoint:** 2026-11-19 16:55 CST
+**Updated:** 2026-11-19 17:10 CST
+**Status:** Paired direct-source census parity restored; semantic recall and scheduler continuity remain open.
 
 ## Source coverage
 
-- Rolling 24h: NOT_COVERED. OAI returned 141 exact / 57 unique; Atom returned 50 unique. Seven unique OAI-only IDs remain.
-- Rolling 168h: NOT_COVERED. OAI returned 5759 exact / 2270 unique; Atom returned 2263 unique. The same seven OAI-only IDs remain.
-- The 24h OAI ID set is contained in the 168h set. This subset check does not close paired-source parity.
-- Main-trunk reverse-neighborhood: 46/46 queries, 294 unique IDs, including 163 outside the direct census.
-- cs.LG cross-list and first-party /new, /abs, Atom id_list routes were inspected; metadata discovery is not exact-window coverage.
+- Rolling 24h: OAI 671 exact / 269 unique; Atom 269 unique. Exact set equality across cs.DC, cs.AR, cs.PF, cs.RO, and cs.LG.
+- Rolling 168h: OAI 6,322 exact / 2,491 unique; Atom 2,491 unique. Exact set equality across the same categories.
+- Both 24h sets are contained in their 168h sets. This closes paired source-acquisition parity for these windows, not overall semantic recall.
+- cs.LG cross-list: 24h 180 unique / 138 cross-listed / 18 target-category cross-lists; 168h 1,834 / 1,449 / 158.
+- Main-trunk reverse-neighborhood: 46/46 queries, 330 unique IDs, including 176 outside the direct census.
 
 ## Candidate radar
 
-- CommitKV (arXiv:2608.07855) is a high-priority multimodal KV-cache candidate; full-text and serving-path verification remain pending.
-- MoMoVL (arXiv:2611.23695) is an on-device modality-aware MoE compression candidate; full-text review remains pending.
-- Eight new candidate abstracts were checked against official arXiv metadata. No formal promotion was made.
-- Robion arXiv:2609.12075 and Route-8 recall regression checks pass.
+- Eight candidates were checked against official arXiv metadata.
+- FlatCake is a strong cross-domain KV-storage/serving candidate; Cap-and-Track is an adaptive dispatch design with production evidence. Both remain unpromoted pending fit to the Physical-AI serving scope.
+- Z-sight and Phoenix are relevant VLA/world-action-model research, but the inspected evidence does not establish serving/runtime contributions.
+- No formal promotion was made.
 
 ## Research status
 
-- SYS-first: 2270 unique IDs, 281 high-signal, 253 unclassified.
+- SYS-first: 2,491 unique IDs, 325 high-signal, 300 unclassified.
+- Robion arXiv:2609.12075 and Route-8 recall regression checks pass.
 - Formal promotions: 0.
 - Overall recall: FAIL; coverage_closed=false.
 - Paper/PDF reconciliation and named evidence gates remain open.
-- Automation remains expected-active; scheduler Run ID timestamp mutation and the next future trigger remain unresolved.
+- The automation remains expected-active; scheduler continuity is still under investigation.
 
-See [the hourly scan](hourly/2026-11-19-1000_CURRENT_RUN20ff2969_S20261119T015803Z.md) and [scan status](SCAN_STATUS.md).
+See [the hourly scan](hourly/2026-11-19-1655.md) and [scan status](SCAN_STATUS.md).
