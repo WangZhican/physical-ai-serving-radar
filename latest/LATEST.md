@@ -1,7 +1,8 @@
 # Physical AI Serving Radar — latest
 
 **Checkpoint:** 2026-11-19 18:22 CST
-**Updated:** 2026-11-19T18:42:30+08:00
+**Checkpoint ID:** PHYSICAL_AI_SERVING_20261119_1822_CURRENT_RUNd6665b78_S20261119T102224Z
+**Updated:** 2026-11-19T18:46:31+08:00
 **Status:** Paired direct-source census parity holds; semantic recall and scheduler continuity remain open.
 
 ## Source coverage
