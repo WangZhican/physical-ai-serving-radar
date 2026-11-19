@@ -1,16 +1,21 @@
-# Scan Status
+# Physical AI Serving Radar — scan status
 
-- Latest checkpoint: PHYSICAL_AI_SERVING_20261119_0756_CURRENT_RUNc5c19efe_S20261118T235621Z
-- Updated: 2026-11-19T08:54:22+08:00 (Asia/Shanghai)
-- Monitoring: ACTIVE / EXPECTED-ACTIVE
-- Overall recall: FAIL
-- Coverage closed: false
-- Formal promotions this checkpoint: 0
-- OAI 24h: NOT_COVERED (0 exact)
-- Atom 24h: INCOMPLETE (cs.PF HTTP 429)
-- OAI 168h: component pass (5,355 exact / 2,106 unique)
-- Atom 168h: INCOMPLETE (cs.PF timeout; cs.RO/cs.LG HTTP 429)
-- Main-trunk reverse neighborhood: 46/46 queries passed
-- Candidate focus: VSpark (P0); Spool/AR-WAM/XM-Sparse (P1); CodeReel/IA-MoE/RWM/WoRD/Gemma4 (P2 watch-only)
-- PDF Manifest: 876 valid / 3 pending / 0 invalid; 524 orphan valid PDFs and 487 trailing-list entries remain
-- Public sync: VERIFIED; heartbeat commit 75dd2a15ec20740e24160682923820a7c4122bdc; status-seal commit is independently verified
+- Latest checkpoint: `PHYSICAL_AI_SERVING_20261119_0900_CURRENT_RUN7fe271fc_S20261119T010314Z`
+- Updated: 2026-11-19 09:00 CST
+- Overall recall: **FAIL**
+- Coverage closed: **false**
+- Formal promotions: **0**
+
+| Frontier | Status |
+|---|---|
+| 24h direct census | NOT_COVERED; OAI exact=0, Atom incomplete |
+| 168h direct census | INCOMPLETE; 10 OAI-only category mismatches |
+| cs.LG cross-list | Metadata-only; 24h zero, 168h 1,567 unique |
+| Main-trunk reverse-neighborhood | 46/46 queries; 276 unique; 153 outside direct census |
+| First-party fallback | /new 5/5; /abs 18/20; Atom id_list 9/20 |
+| Candidate inspection | 8/8 official /abs metadata verified |
+| Paper/PDF manifests | Paper 417 unchanged; PDF global reconciliation pending |
+| Recall regression | Robion and Route-8 PASS |
+| Scheduler | Distinct 09:00 run observed; completion and 10:00 trigger unverified |
+
+The zero-exact 24h anomaly is retained as NOT_COVERED. Search success, metadata fallback, and source parity are not treated as coverage closure.

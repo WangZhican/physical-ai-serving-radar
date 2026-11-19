@@ -1,13 +1,27 @@
-# Physical AI Serving Radar — Latest
+# Physical AI Serving Radar — latest
 
-Updated: 2026-11-19T08:54:22+08:00 (Asia/Shanghai)
+**Checkpoint:** PHYSICAL_AI_SERVING_20261119_0900_CURRENT_RUN7fe271fc_S20261119T010314Z
+**Updated:** 2026-11-19 09:00 CST
+**Status:** Research discovery advanced; coverage remains open.
 
-- Latest checkpoint: PHYSICAL_AI_SERVING_20261119_0756_CURRENT_RUNc5c19efe_S20261118T235621Z
-- Detailed scan: [2026-11-19 07:56 hourly checkpoint](hourly/2026-11-19-0756_CURRENT_RUNc5c19efe_S20261118T235621Z.md)
-- Status: active monitoring; 0 formal promotions this checkpoint; overall recall FAIL; coverage_closed=false.
-- Direct census: OAI 24h zero exact (NOT_COVERED); Atom 24h incomplete; OAI 168h 5,355 exact/2,106 unique; Atom 168h incomplete.
-- Reverse neighborhood: 46/46 main-trunk queries passed; 278 unique IDs, 155 outside direct census.
-- Candidate focus: VSpark VLA speculative decoding (P0); Spool and AR-WAM streaming runtimes (P1); XM-Sparse serving-memory infrastructure (P1 adjacent); four additional P2 adjacent candidates remain watch-only.
-- Manifest status: Paper Manifest 417 unchanged; PDF Manifest 876 valid, 3 pending, 0 invalid; global orphan/trailing-list reconciliation remains open (524/487).
-- Named evidence gates: KerColle, Streaming-WAM, HarnessPAI.
-- Public sync: VERIFIED via independent HTTPS/SSH ls-remote and remote readback; heartbeat commit 75dd2a15ec20740e24160682923820a7c4122bdc.
+## Source coverage
+
+- Rolling 24h: NOT_COVERED. Official OAI returned zero exact latest-version records; Atom direct was incomplete. First-party version-history checks corroborated the zero-exact anomaly.
+- Rolling 168h: source-component results available, but OAI/Atom category-level mismatch remains; not promoted to coverage.
+- Main-trunk reverse-neighborhood: 46/46 queries completed, 276 unique IDs, including 153 outside the direct census.
+- cs.LG cross-list and first-party /new, /abs, Atom id_list fallbacks were inspected; these are discovery/anomaly routes, not substitutes for exact-window coverage.
+
+## Candidate radar
+
+- Spool (arXiv:2611.23228) remains a high-priority streaming Hybrid-VLM serving candidate; prior PDF/full-text evidence is verified.
+- New abstract-level candidates were checked against official arXiv metadata. No new formal promotion was made.
+- Robion arXiv:2609.12075 and Route-8 recall regression checks pass.
+
+## Research status
+
+- Formal promotions: 0.
+- Overall recall: FAIL; coverage_closed=false.
+- Paper/PDF manifest reconciliation and named evidence gates remain open.
+- Automation remains expected-active; scheduler completion and the next hourly trigger are not yet verified.
+
+See [the hourly scan](hourly/2026-11-19-0900_CURRENT_RUN7fe271fc_S20261119T010314Z.md) and [scan status](SCAN_STATUS.md).
