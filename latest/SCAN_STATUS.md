@@ -1,8 +1,8 @@
-# SCAN_STATUS — 2026-11-19 22:29 CST
-Checkpoint: PHYSICAL_AI_SERVING_20261119_2229
-24h: OAI/Atom direct census PASS_SOURCE_CENSUS_ONLY; exact OAI=307; unique OAI/Atom=116/116.
-168h: OAI/Atom direct census PASS_SOURCE_CENSUS_ONLY; exact OAI=6100; unique OAI/Atom=2419/2419.
-Main-trunk: 2/46 queries passed; 44 failed; SEARCHED != COVERED.
+# SCAN_STATUS — 2026-11-19 22:59 CST
+Checkpoint: PHYSICAL_AI_SERVING_20261119_2300
+24h: OAI/Atom direct census PASS_SOURCE_CENSUS_ONLY; exact OAI=269; unique OAI/Atom=108/108.
+168h: OAI/Atom direct census PASS_SOURCE_CENSUS_ONLY; exact OAI=6069; unique OAI/Atom=2407/2407.
+Main-trunk: 13/46 queries passed; 33 failed; SEARCHED != COVERED.
 Recall: FAIL. Coverage closed: false. Formal promotions: 0.
-Scheduler: same Run ID started_at mutation remains open; completion and next 23:00 trigger unverified.
-Public sync: VERIFIED after status-seal commit; heartbeat commit 1b825b7ae650d8cf6ace86e97a10504688567016; HTTPS/SSH ls-remote, origin/master, local HEAD, and remote file readback are checked independently.
+Scheduler: same Run ID mutation chain 14:01:46Z -> 14:29:39Z -> 14:59:14Z; source scan executed under latest start; completion and 23:00 due slot remain unverified.
+Public sync: this heartbeat is published only after commit/push and independent remote SHA/readback verification; see the canonical verification artifact.
