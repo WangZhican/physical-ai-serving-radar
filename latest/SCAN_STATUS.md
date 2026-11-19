@@ -1,52 +1,16 @@
-checkpoint_id: PHYSICAL_AI_SERVING_20261119_0726_CURRENT_RUNc5c19efe_S20261118T232652Z
-generated_beijing: "2026-11-19T08:00:24+08:00"
-status: PUBLIC_SYNC_VERIFIED_COVERAGE_OPEN_NO_PROMOTION
-coverage_closed: false
-overall_recall: FAIL
-formal_promotions: 0
-cumulative_formal_promotions: 2
-rolling_24h_oai_exact: 0
-rolling_24h_oai_unique: 0
-rolling_24h_atom_unique: 0
-rolling_24h_atom_direct_status: INCOMPLETE
-rolling_24h_coverage_status: NOT_COVERED_ZERO_EXACT
-rolling_168h_oai_exact: 5363
-rolling_168h_oai_unique: 2110
-rolling_168h_atom_unique: 2110
-rolling_168h_status: PASS_SOURCE_COMPONENT_ONLY
-main_trunk_query_pass: 46
-main_trunk_query_total: 46
-main_trunk_unique: 278
-main_trunk_unique_not_in_direct_census: 155
-sys_first_unique: 2110
-sys_first_high_signal: 261
-sys_first_unclassified: 233
-first_party_new_http200: 5
-first_party_new_requested: 5
-first_party_abs_http200: 15
-first_party_abs_requested: 20
-first_party_abs_last_good: 20/20_from_0700_preserved
-atom_id_list_http: 200
-atom_id_list_returned: 20
-atom_id_list_exact_24h: 0
-paper_manifest_records: 417
-pdf_manifest_valid: 867
-pdf_manifest_pending: 3
-pdf_manifest_invalid: 0
-orphan_valid_pdfs: 493
-orphan_trailing_list_entries: 487
-remote_latest_checkpoint_id_before: PHYSICAL_AI_SERVING_20261119_0700_CURRENT_RUNc5c19efe_S20261118T225927Z
-remote_default_branch_sha_before: 596cf2925802f7a4cc6231e8dda41886b81e2e1d
-remote_default_branch_sha_after_heartbeat: 9182ba542e64c642b24eeb2f012bf2350d9c1b5c
-remote_default_branch_sha_after_status_seal: verified_after_push_and_recorded_in_private_canonical_state
-remote_sha_verified: true
-remote_sha_advanced_current_checkpoint: true
-push_attempted: true
-push_route: SSH
-github_contents_api_push_permission: false
-local_git_metadata_present: true
-local_head_before: 596cf2925802f7a4cc6231e8dda41886b81e2e1d
-local_head_matches_remote_baseline: true
-local_worktree_clean: false
-push_blocker: none; heartbeat and status seal published via authenticated SSH; remote master SHA independently verified after push; private manifests/PDFs excluded.
-public_sync_status: PUBLIC_SYNC_VERIFIED
+# Scan Status
+
+- Latest checkpoint: PHYSICAL_AI_SERVING_20261119_0756_CURRENT_RUNc5c19efe_S20261118T235621Z
+- Updated: 2026-11-19T08:54:22+08:00 (Asia/Shanghai)
+- Monitoring: ACTIVE / EXPECTED-ACTIVE
+- Overall recall: FAIL
+- Coverage closed: false
+- Formal promotions this checkpoint: 0
+- OAI 24h: NOT_COVERED (0 exact)
+- Atom 24h: INCOMPLETE (cs.PF HTTP 429)
+- OAI 168h: component pass (5,355 exact / 2,106 unique)
+- Atom 168h: INCOMPLETE (cs.PF timeout; cs.RO/cs.LG HTTP 429)
+- Main-trunk reverse neighborhood: 46/46 queries passed
+- Candidate focus: VSpark (P0); Spool/AR-WAM/XM-Sparse (P1); CodeReel/IA-MoE/RWM/WoRD/Gemma4 (P2 watch-only)
+- PDF Manifest: 876 valid / 3 pending / 0 invalid; 524 orphan valid PDFs and 487 trailing-list entries remain
+- Public sync: PENDING until remote master SHA advances and is independently verified

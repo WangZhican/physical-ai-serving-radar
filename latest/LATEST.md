@@ -1,14 +1,13 @@
 # Physical AI Serving Radar — Latest
 
-- Latest checkpoint: `PHYSICAL_AI_SERVING_20261119_0726_CURRENT_RUNc5c19efe_S20261118T232652Z`
-- Scan time: 2026-11-19 07:26 CST; reconciled 2026-11-19T08:00:24+08:00.
-- Coverage: rolling-24h NOT_COVERED (OAI exact=0; Atom direct category incomplete); rolling-168h source-component parity only; semantic recall remains open.
-- Main-trunk neighborhood: 46/46 queries passed; 278 unique, 155 outside direct census.
-- SYS-first: 2,110 unique; 261 high-signal; 233 unclassified; Robion recall regression PASS.
-- First-party fallback: /new 5/5 HTTP 200; /abs 15/20 HTTP 200 (five failures); last-good /abs 20/20 preserved; Atom id_list HTTP 200 returned 20, exact24h=0.
-- Candidate evidence: Spool and AR-WAM PDF/fulltext SHA evidence carried forward from 0700; manifest/code/license gates pending. 2611.23035 is P2 adjacent serving-memory watch-only. Formal promotions: 0.
-- Overall recall: FAIL; coverage_closed=false.
-- Local mirror status: PUBLIC_SYNC_VERIFIED.
-- Remote baseline: checkpoint `PHYSICAL_AI_SERVING_20261119_0700_CURRENT_RUNc5c19efe_S20261118T225927Z`, master SHA `596cf2925802f7a4cc6231e8dda41886b81e2e1d`; heartbeat commit `9182ba542e64c642b24eeb2f012bf2350d9c1b5c` independently verified via HTTPS and SSH ls-remote.
-- Status seal: included in this commit. The post-seal remote master SHA is independently verified after push and recorded in the private canonical state. GitHub Contents API write permission remains HTTP 403; authenticated SSH Git was used. Private manifests/PDFs remain excluded.
-- Hourly detail: [0726 scan](hourly/2026-11-19-0726_CURRENT_RUNc5c19efe_S20261118T232652Z.md).
+Updated: 2026-11-19T08:54:22+08:00 (Asia/Shanghai)
+
+- Latest checkpoint: PHYSICAL_AI_SERVING_20261119_0756_CURRENT_RUNc5c19efe_S20261118T235621Z
+- Detailed scan: [2026-11-19 07:56 hourly checkpoint](hourly/2026-11-19-0756_CURRENT_RUNc5c19efe_S20261118T235621Z.md)
+- Status: active monitoring; 0 formal promotions this checkpoint; overall recall FAIL; coverage_closed=false.
+- Direct census: OAI 24h zero exact (NOT_COVERED); Atom 24h incomplete; OAI 168h 5,355 exact/2,106 unique; Atom 168h incomplete.
+- Reverse neighborhood: 46/46 main-trunk queries passed; 278 unique IDs, 155 outside direct census.
+- Candidate focus: VSpark VLA speculative decoding (P0); Spool and AR-WAM streaming runtimes (P1); XM-Sparse serving-memory infrastructure (P1 adjacent); four additional P2 adjacent candidates remain watch-only.
+- Manifest status: Paper Manifest 417 unchanged; PDF Manifest 876 valid, 3 pending, 0 invalid; global orphan/trailing-list reconciliation remains open (524/487).
+- Named evidence gates: KerColle, Streaming-WAM, HarnessPAI.
+- Public sync: pending until remote heartbeat and status seal are independently verified.
