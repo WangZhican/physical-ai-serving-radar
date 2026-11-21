@@ -1,10 +1,21 @@
 # Physical AI Serving Radar — Scan Status
-Checkpoint: PHYSICAL_AI_SERVING_20261121_0058
-Generated: 2026-11-21T01:37:58+08:00
-24h OAI exact=147; OAI/Atom unique=74/74; parity=PASS_SOURCE_CENSUS_ONLY; semantic coverage=NOT_COVERED.
-168h OAI exact=6317; OAI/Atom unique=2522/2522; parity=PASS_SOURCE_CENSUS_ONLY; semantic coverage=NOT_COVERED.
-cs.LG 24h=52 unique, 46 cross-listed, 7 target; 168h=1808/1424/157.
-Main-trunk=46/46 pass, 0 fail (0 HTTP 429), 162 outside direct census; discovery only.
-SYS-first=2522 unique, 344 high-signal, 331 unclassified. Robion=PASS; Route-8=PASS.
-Paper Manifest=417; PDF valid=878, pending=3, invalid=0, orphan=525, trailing=487; 720h last-good preserved.
-Promotions=0; semantic recall=FAIL; coverage_closed=false. Scheduler Enabled/Expected-active; current run completed FAILED after source-stage completion; next 02:00 CST trigger is scheduled but not yet verified by a distinct Run ID.
+
+Checkpoint: PHYSICAL_AI_SERVING_20261121_1053
+Generated: 2026-11-21T12:13:55+08:00
+Overall: SOURCE_ONLY_NOT_COVERED / SEMANTIC_RECALL_OPEN
+
+## Rolling windows
+- 24h: NOT_COVERED_ZERO_EXACT_ATOM_INCOMPLETE (OAI exact=0; Atom top-level INCOMPLETE).
+- 168h: SOURCE_ONLY_NOT_COVERED (OAI 5,977 exact / 2,368 unique; Atom 2,368 unique; paired sets equal).
+- 30d/720h: prior last-good preserved; not refreshed in this checkpoint.
+
+## Discovery
+- cs.LG 168h: 1,690 unique / 1,327 cross-listed / 146 target cross-listed.
+- Main-trunk: 46/46 queries passed; 156 unique IDs outside direct census.
+- SYS-first: 2,368 unique / 330 high-signal / 321 unclassified.
+- Robion 2609.12075 and Route-8 regression seeds: PASS.
+- Candidate decisions: HeteroVLM 2611.23878 P1 CORE_SYS candidate; WAMotor 2611.25413 and LoopedWAM 2611.25595 SYS_ALG_BOUNDARY watch; no formal promotion.
+
+## Manifests
+- PAPER_MANIFEST: 417 records; unchanged.
+- PDF_DOWNLOAD_MANIFEST: 868 unique valid / 3 pending / 0 invalid; 10 duplicate IDs / 525 orphan-valid / 487 trailing-list entries. No private PDFs published.
