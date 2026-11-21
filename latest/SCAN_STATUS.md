@@ -1,21 +1,20 @@
 # Physical AI Serving Radar — Scan Status
 
-Checkpoint: PHYSICAL_AI_SERVING_20261121_1053
-Generated: 2026-11-21T12:13:55+08:00
-Overall: SOURCE_ONLY_NOT_COVERED / SEMANTIC_RECALL_OPEN
+Checkpoint: PHYSICAL_AI_SERVING_20261121_1224_CURRENT_RUN1052004c_S20261121T042438Z
+Generated: 2026-11-21T13:17:12+08:00
+Overall: PARTIAL_COVERAGE / SEMANTIC_RECALL_OPEN
 
 ## Rolling windows
-- 24h: NOT_COVERED_ZERO_EXACT_ATOM_INCOMPLETE (OAI exact=0; Atom top-level INCOMPLETE).
-- 168h: SOURCE_ONLY_NOT_COVERED (OAI 5,977 exact / 2,368 unique; Atom 2,368 unique; paired sets equal).
-- 30d/720h: prior last-good preserved; not refreshed in this checkpoint.
+- 24h: NOT_COVERED (OAI exact=0; Atom=INCOMPLETE; official API fallback exact=0; 3 HTTP 429 and 1 timeout).
+- 168h: paired OAI/Atom direct census passed (2353 unique IDs); source census only, semantic coverage remains open.
 
 ## Discovery
-- cs.LG 168h: 1,690 unique / 1,327 cross-listed / 146 target cross-listed.
-- Main-trunk: 46/46 queries passed; 156 unique IDs outside direct census.
-- SYS-first: 2,368 unique / 330 high-signal / 321 unclassified.
+- cs.LG 168h: 1679 unique / 1317 cross-listed / 145 core cross-listed.
+- Main-trunk: 46/46 queries passed; 313 unique IDs; 156 outside direct census.
+- SYS-first: 2353 unique / 327 high-signal / 319 unclassified.
+- First-party metadata: 14 candidate ABS checks verified; no formal promotion.
 - Robion 2609.12075 and Route-8 regression seeds: PASS.
-- Candidate decisions: HeteroVLM 2611.23878 P1 CORE_SYS candidate; WAMotor 2611.25413 and LoopedWAM 2611.25595 SYS_ALG_BOUNDARY watch; no formal promotion.
 
 ## Manifests
-- PAPER_MANIFEST: 417 records; unchanged.
-- PDF_DOWNLOAD_MANIFEST: 868 unique valid / 3 pending / 0 invalid; 10 duplicate IDs / 525 orphan-valid / 487 trailing-list entries. No private PDFs published.
+- PAPER_MANIFEST: 417 records; no new rows or promotions.
+- PDF_DOWNLOAD_MANIFEST: 844 unique valid / 3 pending / 0 invalid. Private PDFs remain unpublished.
