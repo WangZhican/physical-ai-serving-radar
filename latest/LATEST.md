@@ -1,6 +1,6 @@
 # Physical AI Serving Radar
 
-Updated: 2026-11-22T08:57:21+08:00
+Updated: 2026-11-22T08:58:46+08:00
 Latest checkpoint: PHYSICAL_AI_SERVING_20261122_0837_CURRENT_RUN64b395e9_S20261122T003711Z
 Overall status: PARTIAL_COVERAGE / IN_PROGRESS
 Rolling 24h: NOT_COVERED (OAI exact=0; Atom exact=0; official API fallback exact=0)
