@@ -1,13 +1,14 @@
 # Physical AI Serving Radar
 
-Updated: 2026-11-23T19:46:54+08:00
-Latest checkpoint: PHYSICAL_AI_SERVING_20261123_1852_CURRENT_RUNaedd7a75_S20261123T105246Z
+Updated: 2026-11-25T00:52:38+08:00
+Latest checkpoint: PHYSICAL_AI_SERVING_20261125_0027_CURRENT_RUNb1af6eaa_S20261124T162745Z
 Overall status: PARTIAL_COVERAGE / IN_PROGRESS
-Rolling 24h: NOT_COVERED (OAI exact=0; Atom exact=0; official API fallback exact=0)
-Rolling 168h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN (OAI/Atom unique IDs=2150/2150; Atom=PASS; paired sets equal=True; direct Atom cs.LG census included in the passing 168h paired set)
-SYS-first: 2150 unique IDs; 314 high-signal; 309 unclassified
+Rolling 24h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN (OAI/Atom unique=84/84; paired sets equal=True)
+Rolling 168h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN (OAI/Atom unique=2506/2506; paired sets equal=True)
+SYS-first: 2506 unique IDs; 407 high-signal; 401 high-signal unclassified
+Main-trunk: 46/46 queries; 376 unique; 184 outside direct census
 Formal promotions this checkpoint: 0
 
-Latest hourly scan: latest/hourly/2026-11-23-1852.md
+Latest hourly scan: latest/hourly/2026-11-25-0027.md
 
-Rolling 24h remains NOT_COVERED. Rolling 168h paired OAI/Atom direct census passes (2150 unique IDs; paired sets equal=True), but semantic recall remains open; main-trunk replay found 160 IDs outside direct census. SEARCHED is not COVERED.
+Both paired source windows pass only at the direct-census layer. Semantic recall, 184 main-trunk-only IDs, reverse-neighborhood review and candidate evidence gates remain open. SEARCHED != COVERED. Publication status: pending independent remote verification.

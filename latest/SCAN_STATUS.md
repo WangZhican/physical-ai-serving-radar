@@ -1,11 +1,12 @@
 # Scan Status
 
-Checkpoint: PHYSICAL_AI_SERVING_20261123_1852_CURRENT_RUNaedd7a75_S20261123T105246Z
-Generated: 2026-11-23T19:46:54+08:00
+Checkpoint: PHYSICAL_AI_SERVING_20261125_0027_CURRENT_RUNb1af6eaa_S20261124T162745Z
+Generated: 2026-11-25T00:52:38+08:00
 Status: PARTIAL_COVERAGE / IN_PROGRESS
-24h: NOT_COVERED — OAI=0; Atom=0; official date-filter fallback=0; /new metadata IDs=453, exact /abs=0, exact Atom id_list=0.
-168h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN — OAI=2150 unique; Atom=2150 unique (PASS); paired sets equal=True; direct Atom cs.LG census included in the passing 168h paired set; OAI cross-list remains metadata-only.
-cs.LG: 1504 unique; 1181 cross-listed; 118 core cross-listed.
-Main trunk: 46/46 queries; 304 unique; 160 outside direct census.
-Candidate full-text: 3/8 tracked official arXiv HTML entries remain verified; new current-run fetches are separately counted.
-Promotions: 0. Coverage closed: false.
+24h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN — OAI exact/unique=207/84; Atom unique=84; paired sets equal=True.
+168h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN — OAI exact/unique=6407/2506; Atom unique=2506; paired sets equal=True.
+cs.LG: 24h 57 unique / 47 cross-listed / 5 target cross-listed; 168h 1730 / 1361 / 142; metadata only.
+Main trunk: 46/46 queries; 376 unique; 184 outside direct census.
+SYS-first: 2506 unique; 407 high-signal; 401 unclassified.
+Candidate full-text: 27/32 verified; 9 newly reviewed; no promotion.
+Promotions: 0. Coverage closed: false. Overall recall: FAIL.
