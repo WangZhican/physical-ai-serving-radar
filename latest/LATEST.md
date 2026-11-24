@@ -1,14 +1,14 @@
 # Physical AI Serving Radar
 
-Updated: 2026-11-25T01:56:12+08:00
-Latest checkpoint: PHYSICAL_AI_SERVING_20261125_0128_CURRENT_RUN13ff7fd8_S20261124T172838Z
+Updated: 2026-11-25T05:14:40+08:00
+Latest checkpoint: PHYSICAL_AI_SERVING_20261125_0501_CURRENT_RUNaea1ecb9_S20261124T210101Z
 Overall status: PARTIAL_COVERAGE / IN_PROGRESS
-Rolling 24h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN (OAI/Atom unique=47/47; paired sets equal=True)
-Rolling 168h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN (OAI/Atom unique=2482/2482; paired sets equal=True)
-SYS-first: 2482 unique IDs; 406 high-signal; 400 high-signal unclassified
-Main-trunk: 46/46 queries; 376 unique; 184 outside direct census
+Rolling 24h: NOT_COVERED_SOURCE_TIMESTAMP_ANOMALY (OAI/Atom unique=0/0; paired sets equal=False)
+Rolling 168h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN (OAI/Atom unique=2411/2411; paired sets equal=True)
+SYS-first: 2411 unique IDs; 398 high-signal; 392 high-signal unclassified
+Main-trunk: 46/46 queries; 366 unique; 178 outside direct census
 Formal promotions this checkpoint: 0
 
-Latest hourly scan: latest/hourly/2026-11-25-0128.md
+Latest hourly scan: latest/hourly/2026-11-25-0501.md
 
-Both paired source windows pass only at the direct-census layer. Semantic recall, 184 main-trunk-only IDs, reverse-neighborhood review and candidate evidence gates remain open. SEARCHED != COVERED. Publication status: PUBLIC_SYNC_VERIFIED — heartbeat commit a1cf2e6afc2e69e00b1066b970dfac57b08bb031 independently confirmed on refs/heads/master.
+Direct-window statuses are 24h=NOT_COVERED_SOURCE_TIMESTAMP_ANOMALY and 168h=PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN; unresolved windows remain NOT_COVERED. Semantic recall, 178 main-trunk-only IDs, reverse-neighborhood review and candidate evidence gates remain open. SEARCHED != COVERED. Publication status: pending independent remote verification.
