@@ -10,3 +10,4 @@ Main trunk: 46/46 queries; 376 unique; 184 outside direct census.
 SYS-first: 2506 unique; 407 high-signal; 401 unclassified.
 Candidate full-text: 27/32 verified; 9 newly reviewed; no promotion.
 Promotions: 0. Coverage closed: false. Overall recall: FAIL.
+Public sync: PUBLIC_SYNC_VERIFIED — heartbeat commit bcbe22c176c3a3ec4e129e26665880c1de41df77 independently confirmed on refs/heads/master.
