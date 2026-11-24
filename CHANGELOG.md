@@ -1,3 +1,9 @@
+## PUBLIC_SYNC_VERIFIED — PHYSICAL_AI_SERVING_20261125_0600_CURRENT_RUNeed7e018_S20261124T220124Z — 2026-11-25T06:22:30+08:00
+
+- Heartbeat commit c9fd362145f284365fe275c15eaafd73902d3d63 was independently confirmed on remote master before the status-seal commit.
+- Direct OAI/Atom census: 24h NOT_COVERED_SOURCE_TIMESTAMP_ANOMALY; 168h PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN. The 24h window remains NOT_COVERED; semantic recall remains open; 0 formal promotions.
+- Status-seal commit follows the verified heartbeat; private canonical state records the final remote SHA.
+
 ## PUBLIC_SYNC_VERIFIED — PHYSICAL_AI_SERVING_20261125_0501_CURRENT_RUNaea1ecb9_S20261124T210101Z — 2026-11-25T05:14:40+08:00
 
 - Heartbeat commit fac26e21258efcb808db4abf84a63d9a50548025 was independently confirmed on remote master before the status-seal commit.
