@@ -11,4 +11,4 @@ Formal promotions this checkpoint: 0
 
 Latest hourly scan: latest/hourly/2026-11-25-0128.md
 
-Both paired source windows pass only at the direct-census layer. Semantic recall, 184 main-trunk-only IDs, reverse-neighborhood review and candidate evidence gates remain open. SEARCHED != COVERED. Publication status: pending independent remote verification.
+Both paired source windows pass only at the direct-census layer. Semantic recall, 184 main-trunk-only IDs, reverse-neighborhood review and candidate evidence gates remain open. SEARCHED != COVERED. Publication status: PUBLIC_SYNC_VERIFIED — heartbeat commit a1cf2e6afc2e69e00b1066b970dfac57b08bb031 independently confirmed on refs/heads/master.
