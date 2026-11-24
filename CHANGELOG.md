@@ -1,3 +1,9 @@
+## PUBLIC_SYNC_VERIFIED — PHYSICAL_AI_SERVING_20261125_0501_CURRENT_RUNaea1ecb9_S20261124T210101Z — 2026-11-25T05:14:40+08:00
+
+- Heartbeat commit fac26e21258efcb808db4abf84a63d9a50548025 was independently confirmed on remote master before the status-seal commit.
+- Direct OAI/Atom 24h and 168h source-census parity passed; semantic recall remains open; 0 formal promotions.
+- Status-seal commit follows the verified heartbeat; private canonical state records the final remote SHA.
+
 ## PHYSICAL_AI_SERVING_20261116_0304 — public hourly-record reconciliation — 2026-11-16 03:52 CST
 
 - Added the LazyWeights author-repository recheck to the public hourly record. Heartbeat commit db68859862c94f7d24858956bb6ba85734ad23c5 was pushed; status seal follows.

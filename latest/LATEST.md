@@ -11,4 +11,4 @@ Formal promotions this checkpoint: 0
 
 Latest hourly scan: latest/hourly/2026-11-25-0501.md
 
-Direct-window statuses are 24h=NOT_COVERED_SOURCE_TIMESTAMP_ANOMALY and 168h=PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN; unresolved windows remain NOT_COVERED. Semantic recall, 178 main-trunk-only IDs, reverse-neighborhood review and candidate evidence gates remain open. SEARCHED != COVERED. Publication status: pending independent remote verification.
+Direct-window statuses are 24h=NOT_COVERED_SOURCE_TIMESTAMP_ANOMALY and 168h=PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN; unresolved windows remain NOT_COVERED. Semantic recall, 178 main-trunk-only IDs, reverse-neighborhood review and candidate evidence gates remain open. SEARCHED != COVERED. PUBLIC_SYNC_VERIFIED — heartbeat commit fac26e21258efcb808db4abf84a63d9a50548025 was independently confirmed on remote master.
