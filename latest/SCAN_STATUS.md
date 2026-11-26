@@ -1,12 +1,12 @@
 # Scan Status
 
-Checkpoint: PHYSICAL_AI_SERVING_20261126_2230_CURRENT_RUNf988efcd_S20261126T143014Z
-Generated: 2026-11-26T23:22:35+08:00
-Status: PUBLIC_SYNC_VERIFIED / PARTIAL_COVERAGE / IN_PROGRESS
-24h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN — OAI exact/unique=378/173; Atom unique=173; paired sets equal=True.
-168h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN — OAI exact/unique=6823/2682; Atom unique=2682; paired sets equal=True.
-cs.LG: 24h 120 unique / 87 cross-listed / 9 target cross-listed; 168h 1847 / 1457 / 143; metadata only.
-Main trunk: 45/46 queries; 392 unique; 199 outside direct census.
-SYS-first: 2682 unique; 448 high-signal; 443 unclassified.
+Checkpoint: PHYSICAL_AI_SERVING_20261127_0304_CURRENT_RUN767aabc8_S20261126T190425Z
+Generated: 2026-11-27T03:40:33+08:00
+Status: PARTIAL_COVERAGE / IN_PROGRESS
+24h: NOT_COVERED_SOURCE_TIMESTAMP_ANOMALY — OAI exact/unique=0/0; Atom unique=0; paired sets equal=False.
+168h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN — OAI exact/unique=6517/2547; Atom unique=2547; paired sets equal=True.
+cs.LG: 24h 0 unique / 0 cross-listed / 0 target cross-listed; 168h 1751 / 1377 / 134; metadata only.
+Main trunk: 46/46 queries; 371 unique; 189 outside direct census.
+SYS-first: 2547 unique; 426 high-signal; 422 unclassified.
 Candidate full-text: 51/56 verified; 3 newly reviewed; no promotion.
 Promotions: 0. Coverage closed: false. Overall recall: FAIL.
