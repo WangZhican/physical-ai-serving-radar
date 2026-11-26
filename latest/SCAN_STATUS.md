@@ -1,8 +1,8 @@
 # Scan Status
 
 Checkpoint: PHYSICAL_AI_SERVING_20261126_2230_CURRENT_RUNf988efcd_S20261126T143014Z
-Generated: 2026-11-26T23:19:18+08:00
-Status: PUBLIC_SYNC_VERIFIED / PARTIAL_COVERAGE / IN_PROGRESS
+Generated: 2026-11-26T23:21:11+08:00
+Status: PARTIAL_COVERAGE / IN_PROGRESS
 24h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN — OAI exact/unique=378/173; Atom unique=173; paired sets equal=True.
 168h: PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN — OAI exact/unique=6823/2682; Atom unique=2682; paired sets equal=True.
 cs.LG: 24h 120 unique / 87 cross-listed / 9 target cross-listed; 168h 1847 / 1457 / 143; metadata only.
