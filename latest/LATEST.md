@@ -1,6 +1,6 @@
 # Physical AI Serving Radar
 
-Updated: 2026-11-27T22:35:45+08:00
+Updated: 2026-11-27T22:38:02+08:00
 Latest checkpoint: PHYSICAL_AI_SERVING_20261127_2053_CURRENT_RUN87478aae_S20261127T125329Z
 Overall status: PARTIAL_COVERAGE / IN_PROGRESS
 Rolling 24h: NOT_COVERED_SOURCE_TIMESTAMP_ANOMALY (OAI/Atom unique=0/0; paired sets equal=False)
@@ -11,4 +11,4 @@ Formal promotions this checkpoint: 0
 
 Latest hourly scan: latest/hourly/2026-11-27-2053.md
 
-Direct-window statuses are 24h=NOT_COVERED_SOURCE_TIMESTAMP_ANOMALY and 168h=PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN; unresolved windows remain NOT_COVERED. Semantic recall, 169 main-trunk-only IDs, reverse-neighborhood review and candidate evidence gates remain open. SEARCHED != COVERED. PUBLIC_SYNC_VERIFIED — heartbeat commit efa23f186e51527d236ef77ab59ac7dc1d391b71 was independently confirmed on remote master.
+Direct-window statuses are 24h=NOT_COVERED_SOURCE_TIMESTAMP_ANOMALY and 168h=PASS_SOURCE_CENSUS_ONLY_SEMANTIC_RECALL_OPEN; unresolved windows remain NOT_COVERED. Semantic recall, 169 main-trunk-only IDs, reverse-neighborhood review and candidate evidence gates remain open. SEARCHED != COVERED. Publication status: pending independent remote verification.
